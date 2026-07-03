@@ -483,7 +483,7 @@ function runFindSearch(q) {
     const priceILS = d.price ? Math.round(d.price * FRATE) : 0;
     const disc = d.origPrice > d.price * 1.05 ? Math.round((1 - d.price / d.origPrice) * 100) : 0;
     const priceHtml = priceILS ? (`<div class="find-card-price">~₪${priceILS.toLocaleString("he-IL")}${disc > 0 ? ` <span style="font-size:12px;background:#FF3A3A;color:#fff;border-radius:6px;padding:2px 6px">-${disc}%</span>` : ""}</div>`) : "";
-    return `<div class="find-card"><div class="find-card-img"><img src="${d.image}" alt="" loading="lazy" onerror="this.style.display='none'"></div><div class="find-card-body"><div class="find-card-title">${d.title}</div>${priceHtml}<a href="${d.link}" target="_blank" rel="nofollow noopener sponsored" class="find-card-btn">Shop Now ↗</a></div></div>`;
+    return `<div class="find-card"><div class="find-card-img"><img src="${d.image}" alt="" loading="lazy" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect width=%22200%22 height=%22200%22 fill=%22%23f5ebe0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22%3E🛍️%3C/text%3E%3C/svg%3E';this.onerror=null"></div><div class="find-card-body"><div class="find-card-title">${d.title}</div>${priceHtml}<a href="${d.link}" target="_blank" rel="nofollow noopener sponsored" class="find-card-btn">Shop Now ↗</a></div></div>`;
   }).join('');
   waSection.style.display = 'block';
   document.getElementById('find-wa-link').href = FIND_WA + '?text=' + encodeURIComponent('היי! אני מחפש דיל על: ' + q);
