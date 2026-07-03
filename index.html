@@ -488,8 +488,12 @@ function runFindSearch(q) {
   waSection.style.display = 'block';
   document.getElementById('find-wa-link').href = FIND_WA + '?text=' + encodeURIComponent('היי! אני מחפש דיל על: ' + q);
 }
-document.getElementById('find-overlay').addEventListener('click', function(e) {
-  if (e.target === this) closeFindModal();
+// Overlay div is defined after this script — bind on DOM ready (was a TypeError on null)
+document.addEventListener('DOMContentLoaded', function() {
+  var ov = document.getElementById('find-overlay');
+  if (ov) ov.addEventListener('click', function(e) {
+    if (e.target === this) closeFindModal();
+  });
 });
 </script>
 
