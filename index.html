@@ -720,6 +720,10 @@ function render() {
     b.className = 'pill plat-btn' + (active ? ' active-dark' : '');
   });
   document.querySelectorAll('.cat-btn').forEach(b => {
+    const c = b.dataset.cat;
+    // הסתר קטגוריה עם פחות מ-10 דילים — לא להראות קטגוריה "שבורה"
+    const count = c === 'all' ? DEALS.length : DEALS.filter(d => d.cat === c).length;
+    b.style.display = count < 10 ? 'none' : '';
     const active = b.dataset.cat === state.cat;
     const meta = CAT_META[b.dataset.cat] || CAT_META.general;
     if (active) { b.style.background = meta.color; b.style.borderColor = meta.color; b.style.color = '#fff'; b.style.boxShadow = '0 6px 20px '+meta.color+'55'; }
