@@ -1,0 +1,24 @@
+<?php
+/**
+ * .htaccess — URL rewriting for clean API paths
+ */
+header('Content-Type: text/plain');
+?>
+RewriteEngine On
+
+# Serve static files directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# API routing
+RewriteRule ^api/deals/amazon/?$ api/index.php?path=deals/amazon [QSA,L]
+RewriteRule ^api/deals/aliexpress/?$ api/index.php?path=deals/aliexpress [QSA,L]
+RewriteRule ^api/deals/?$ api/index.php?path=deals [QSA,L]
+RewriteRule ^api/health/?$ api/index.php?path=health [QSA,L]
+RewriteRule ^api/search/?$ api/index.php?action=search [QSA,L]
+RewriteRule ^api/latest/?$ api/index.php?action=latest [QSA,L]
+RewriteRule ^api/contact/?$ api/contact.php [QSA,L]
+
+# Everything else → index.html (SPA fallback)
+RewriteRule ^(.*)$ index.html [L]
