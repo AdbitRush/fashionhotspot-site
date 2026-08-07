@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fashionhotspot.site/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://fashionhotspot.site/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://fashionhotspot.site/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://fashionhotspot.site/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://fashionhotspot.site/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://fashionhotspot.site/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/?lang=he"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://fashionhotspot.site/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fashionhotspot.site/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://fashionhotspot.site/?lang=el"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/about.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/about.html?lang=he"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://fashionhotspot.site/about.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/about.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fashionhotspot.site/about.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://fashionhotspot.site/about.html?lang=el"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/contact.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/contact.html?lang=he"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/contact.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://fashionhotspot.site/contact.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/contact.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fashionhotspot.site/contact.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://fashionhotspot.site/contact.html?lang=el"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/privacy.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/privacy.html?lang=he"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/privacy.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://fashionhotspot.site/privacy.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/privacy.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fashionhotspot.site/privacy.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://fashionhotspot.site/privacy.html?lang=el"/>
+  </url>
 </urlset>
