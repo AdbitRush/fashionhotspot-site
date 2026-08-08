@@ -1,0 +1,181 @@
+{
+  "slug": "gaming",
+  "category": "Gaming",
+  "title": "Gaming Upgrades That Change How the Game Feels",
+  "title_he": "שדרוגי גיימינג שמשנים את התחושה של המשחק",
+  "dek": "Ranked by how much difference you will actually notice, which is not the same as how much they cost.",
+  "dek_he": "מדורג לפי כמה תרגישו את ההבדל באמת, וזה לא אותו דבר כמו כמה זה עולה.",
+  "hero_image": "a tidy gaming desk at night with a wide monitor, a mechanical keyboard and a headset lit by warm ambient light",
+  "updated": "2026-08-08",
+  "read_minutes": 9,
+  "intro": [
+    "Gaming hardware is sold on numbers that mostly stop mattering above a certain point. The jump from 60Hz to 144Hz is transformative. The jump from 240Hz to 360Hz is something a handful of people can genuinely perceive, and it is priced as though everyone can.",
+    "So this list is ordered by perceptible difference per shekel. The top few items change how the game feels within minutes of plugging them in. The bottom few are real upgrades with honest diminishing returns, and we say which is which.",
+    "Prices are approximate at the time of writing, and this category discounts heavily around November."
+  ],
+  "intro_he": [
+    "חומרת גיימינג נמכרת לפי מספרים שברובם מפסיקים לשנות מעל נקודה מסוימת. הקפיצה מ-60 ל-144 הרץ היא מהפכה. הקפיצה מ-240 ל-360 הרץ היא משהו שקומץ אנשים באמת יכולים לתפוס, והיא מתומחרת כאילו כולם יכולים.",
+    "לכן הרשימה הזאת מסודרת לפי הבדל מורגש לכל שקל. הפריטים הראשונים משנים את התחושה של המשחק תוך דקות מרגע החיבור. האחרונים הם שדרוגים אמיתיים עם תשואה פוחתת בכנות, ואנחנו אומרים מה זה מה.",
+    "המחירים הם הערכה נכון לזמן הכתיבה, והקטגוריה הזאת יורדת חזק במחיר סביב נובמבר."
+  ],
+  "how_we_pick": "We rank by perceptible difference rather than specification, drawing on published measurement-based reviews, input-latency testing and long-run owner reports. We have not personally tested every item here. Where a spec has stopped mattering for most people, we say so — we would rather talk you out of an upgrade than sell you a number you cannot feel.",
+  "how_we_pick_he": "אנחנו מדרגים לפי הבדל מורגש ולא לפי מפרט, ונשענים על ביקורות שמבוססות על מדידות, על בדיקות השהיית קלט ועל דיווחים של בעלים לאורך זמן. לא בדקנו בעצמנו כל פריט כאן. איפה שמפרט הפסיק לשנות לרוב האנשים, נגיד את זה — אנחנו מעדיפים לשכנע אתכם לוותר על שדרוג מאשר למכור לכם מספר שאתם לא מרגישים.",
+  "products": [
+    {
+      "name": "A 1440p 144Hz monitor",
+      "name_he": "מסך 1440p בקצב 144 הרץ",
+      "tag": "The upgrade you feel immediately",
+      "tag_he": "השדרוג שמרגישים מיד",
+      "price": "$220–400",
+      "search": "27 inch 1440p 144Hz gaming monitor IPS",
+      "image": "a slim-bezel gaming monitor on a dark desk displaying an abstract colourful scene",
+      "body": "If you are still on a 60Hz screen, this is the single biggest perceptual upgrade available in gaming, and it is not close. Everything from mouse movement to camera panning becomes smoother in a way that is obvious in the first thirty seconds and impossible to unsee afterwards. 1440p at 27 inches is the resolution sweet spot: sharper than 1080p without the enormous graphics-card demand of 4K. Make sure adaptive sync is on — it is free, it eliminates tearing, and a startling number of people never enable it. Above 144Hz the returns fall off steeply for anyone not playing competitively.",
+      "body_he": "אם אתם עדיין על מסך 60 הרץ, זה השדרוג התפיסתי הגדול ביותר שקיים בגיימינג, ובפער. הכול, מתנועת עכבר ועד סיבוב מצלמה, נעשה חלק יותר בצורה שברורה בשלושים השניות הראשונות ואי אפשר להתעלם ממנה אחר כך. 1440p ב-27 אינץ' היא נקודת האיזון ברזולוציה: חדה יותר מ-1080p בלי הדרישה העצומה מכרטיס המסך שיש ל-4K. ודאו שסנכרון אדפטיבי מופעל — הוא בחינם, הוא מבטל קריעת תמונה, ומספר מדהים של אנשים אף פעם לא מפעילים אותו. מעל 144 הרץ התשואה צונחת בחדות לכל מי שלא משחק תחרותי.",
+      "pros": ["The most noticeable upgrade in gaming", "1440p is the resolution sweet spot", "Adaptive sync eliminates tearing for free"],
+      "cons": ["Needs a card that can actually push the frames", "Beyond 144Hz returns drop off sharply"]
+    },
+    {
+      "name": "An SSD, if you are still on a hard drive",
+      "name_he": "כונן SSD, אם אתם עדיין על דיסק מכני",
+      "tag": "Biggest quality-of-life fix",
+      "tag_he": "התיקון הגדול ביותר לאיכות החיים",
+      "price": "$60–150",
+      "search": "1TB NVMe SSD gen4",
+      "image": "a small NVMe solid state drive lying on a dark surface beside a screwdriver",
+      "body": "This does not raise your frame rate at all, and it will still be the change you appreciate most day to day. Load screens go from a minute to a few seconds, open-world texture pop-in largely disappears, and the machine stops feeling reluctant. Modern games are also increasingly built assuming fast storage, so some now stream assets in a way that genuinely stutters on a mechanical drive. A 1TB NVMe drive is the practical size — games are enormous now and a 500GB drive fills up faster than you expect.",
+      "body_he": "זה לא מעלה את קצב הפריימים בכלל, וזה עדיין יהיה השינוי שתעריכו הכי הרבה מיום ליום. מסכי טעינה עוברים מדקה לכמה שניות, הופעה מאוחרת של טקסטורות בעולמות פתוחים כמעט נעלמת, והמכונה מפסיקה להרגיש מסויגת. משחקים מודרניים גם נבנים יותר ויותר מתוך הנחה של אחסון מהיר, אז חלקם היום מזרימים נכסים בצורה שממש מקרטעת על דיסק מכני. כונן NVMe של טרה אחד הוא הגודל המעשי — משחקים ענקיים היום וכונן של חצי טרה מתמלא מהר ממה שאתם מצפים.",
+      "pros": ["Load times drop from minutes to seconds", "Removes texture pop-in and stutter", "Cheap for how much it changes"],
+      "cons": ["Does nothing for frame rate", "Check your board supports the drive generation"]
+    },
+    {
+      "name": "A closed-back headset or headphones with a mic",
+      "name_he": "אוזניות סגורות עם מיקרופון",
+      "tag": "Positional audio is a real advantage",
+      "tag_he": "שמע מרחבי הוא יתרון אמיתי",
+      "price": "$70–200",
+      "search": "closed back gaming headset wired",
+      "image": "a dark over-ear gaming headset resting on a desk beside a keyboard",
+      "body": "In competitive games, hearing where a sound came from is genuinely actionable information, and a decent closed-back pair gives you that far better than laptop or monitor speakers. Closed-back matters twice over: it isolates you from the room and stops your speakers leaking into your microphone. Here is the advice that saves money — a pair of good headphones plus a separate clip-on microphone usually beats a same-priced gaming headset, because headset budgets get split between audio and a mic, and the branding tax on gaming-labelled hardware is real. Wired avoids latency and battery entirely.",
+      "body_he": "במשחקים תחרותיים, לשמוע מאיפה הגיע צליל היא אינפורמציה שאפשר לפעול לפיה, וזוג סגור הגון נותן לכם את זה הרבה יותר טוב מרמקולים של מחשב נייד או מסך. סגירות חשובה פעמיים: היא מבודדת אתכם מהחדר ומונעת מהרמקולים לדלוף למיקרופון. הנה העצה שחוסכת כסף — זוג אוזניות טובות עם מיקרופון נתלה נפרד בדרך כלל מנצח אוזניות גיימינג באותו מחיר, כי תקציב של הדסט מתחלק בין שמע למיקרופון, ומס המיתוג על חומרה מתויגת גיימינג הוא אמיתי. חיבור חוטי מסלק השהיה וסוללה לגמרי.",
+      "pros": ["Positional audio is a genuine competitive edge", "Closed-back stops mic bleed", "Headphones plus separate mic beats a same-price headset"],
+      "cons": ["Gaming branding carries a price premium", "Warm ears over long sessions"]
+    },
+    {
+      "name": "A lightweight wired mouse",
+      "name_he": "עכבר חוטי קל משקל",
+      "tag": "Weight matters more than DPI",
+      "tag_he": "המשקל חשוב יותר מ-DPI",
+      "price": "$40–90",
+      "search": "lightweight gaming mouse 60g wired",
+      "image": "a compact matte black gaming mouse on a large cloth desk mat",
+      "body": "Ignore the DPI number entirely — every modern sensor is more accurate than any human hand, and almost everyone plays at a fraction of the maximum anyway. What you actually feel is weight and shape. Dropping from a 110g mouse to a 60g one changes how quickly you can flick and how tired your wrist is after two hours, immediately and obviously. Shape has to match your grip: palm, claw or fingertip are genuinely different requirements, and a mouse that suits one is uncomfortable for another. Wired is cheaper and lighter; good wireless is now genuinely latency-free but costs more.",
+      "body_he": "התעלמו לגמרי ממספר ה-DPI — כל חיישן מודרני מדויק יותר מכל יד אנושית, וכמעט כולם משחקים בשבריר מהמקסימום בכל מקרה. מה שבאמת מרגישים זה משקל וצורה. ירידה מעכבר של 110 גרם לאחד של 60 גרם משנה כמה מהר אתם מסובבים וכמה עייף פרק היד אחרי שעתיים, מיד ובאופן ברור. הצורה חייבת להתאים לאחיזה שלכם: אחיזת כף, ציפורן או אצבעות הן דרישות שונות באמת, ועכבר שמתאים לאחת לא נוח לאחרת. חוטי זול וקל יותר; אלחוטי טוב היום באמת בלי השהיה אבל עולה יותר.",
+      "pros": ["Weight is the spec you actually feel", "Wired is lighter and cheaper", "Modern sensors are all accurate enough"],
+      "cons": ["Shape must match your grip style", "DPI marketing is essentially meaningless"]
+    },
+    {
+      "name": "A large cloth desk mat",
+      "name_he": "משטח בד גדול לשולחן",
+      "tag": "Cheapest real improvement",
+      "tag_he": "השיפור האמיתי הזול ביותר",
+      "price": "$20–40",
+      "search": "large cloth gaming mouse mat desk pad",
+      "image": "a large dark cloth desk mat covering a wooden desk under a keyboard and mouse",
+      "body": "A consistent, low-friction surface makes aim more repeatable, and if you play at a low sensitivity you need far more room than a small pad gives — running out of mat mid-turn is a real and avoidable problem. A large mat also protects the desk and quiets keyboard noise slightly. Cloth over hard plastic for control and comfort, and stitched edges because that is where cheap mats fray first. It is about twenty dollars and it makes more difference to your aim than the last thirty dollars you would spend on a mouse.",
+      "body_he": "משטח אחיד עם חיכוך נמוך הופך את הכיוון לחזרתי יותר, ואם אתם משחקים ברגישות נמוכה אתם צריכים הרבה יותר מקום ממה שפד קטן נותן — לגמור את המשטח באמצע סיבוב זו בעיה אמיתית שאפשר להימנע ממנה. משטח גדול גם מגן על השולחן ומשקיט מעט את רעש המקלדת. בד ולא פלסטיק קשיח בשביל שליטה ונוחות, ושוליים תפורים כי שם משטחים זולים נפרמים ראשון. זה בערך שבעים שקל וזה משנה לכיוון שלכם יותר מהשלושים דולר האחרונים שהייתם מוציאים על עכבר.",
+      "pros": ["More consistent aim than a small hard pad", "Protects the desk and dampens noise", "Very cheap for the difference"],
+      "cons": ["Cloth needs occasional washing", "Unstitched edges fray quickly"]
+    },
+    {
+      "name": "A controller with hall-effect sticks",
+      "name_he": "בקר עם סטיקים מבוססי אפקט הול",
+      "tag": "Solves stick drift properly",
+      "tag_he": "פותר סחיפת סטיק כמו שצריך",
+      "price": "$50–120",
+      "search": "hall effect controller no stick drift",
+      "image": "a modern game controller resting on a soft blanket beside a screen",
+      "body": "Stick drift is the defect that kills most controllers, and it happens because conventional sticks use physical contacts that wear out. Hall-effect sticks read a magnetic field instead, with nothing touching, so they do not develop drift through wear. That single change turns a controller from a consumable you replace every eighteen months into something that lasts. Given that a drifting stick makes a controller genuinely unusable, this is one of the clearest value propositions on the page. Check the model actually says hall effect or TMR, because plenty of controllers at similar prices still use the old design.",
+      "body_he": "סחיפת סטיק היא התקלה שהורגת את רוב הבקרים, והיא קורית כי סטיקים רגילים משתמשים במגעים פיזיים שנשחקים. סטיקים מבוססי אפקט הול קוראים שדה מגנטי במקום, בלי שום דבר שנוגע, ולכן הם לא מפתחים סחיפה משחיקה. השינוי הבודד הזה הופך בקר ממוצר מתכלה שמחליפים כל שנה וחצי למשהו שמחזיק. בהתחשב בכך שסטיק סוחף הופך בקר לבלתי שמיש באמת, זו אחת מהצעות הערך הברורות ביותר בעמוד. בדקו שהדגם באמת מציין אפקט הול או TMR, כי הרבה בקרים במחירים דומים עדיין משתמשים בעיצוב הישן.",
+      "pros": ["Does not develop stick drift through wear", "Turns a consumable into a lasting purchase", "Often includes remappable back buttons"],
+      "cons": ["Must verify the model actually uses hall effect", "Third-party controllers vary in build quality"]
+    },
+    {
+      "name": "Bias lighting behind the screen",
+      "name_he": "תאורת רקע מאחורי המסך",
+      "tag": "Cheap comfort, not performance",
+      "tag_he": "נוחות זולה, לא ביצועים",
+      "price": "$15–40",
+      "search": "USB bias lighting LED strip monitor back",
+      "image": "a soft glow of light behind a monitor illuminating the wall in a dim room",
+      "body": "A bright screen in a dark room forces your eyes to keep adjusting between the two, which is a large part of why long night sessions leave you with a headache. A dim light strip behind the monitor raises the surrounding brightness and removes that contrast, and it also makes the picture look better by giving your eyes a neutral reference for black. Use a warm, low, steady light rather than a colour-cycling one, which defeats the purpose. This changes comfort rather than performance, and it costs about the same as a game.",
+      "body_he": "מסך בהיר בחדר חשוך מכריח את העיניים להתאים את עצמן כל הזמן בין השניים, וזה חלק גדול מהסיבה שערבי משחק ארוכים מסתיימים בכאב ראש. רצועת אור עמומה מאחורי המסך מעלה את בהירות הסביבה ומסלקת את הניגוד הזה, והיא גם גורמת לתמונה להיראות טוב יותר כי היא נותנת לעיניים נקודת ייחוס נייטרלית לשחור. השתמשו באור חם, נמוך ויציב ולא באחד שמחליף צבעים, שמבטל את המטרה. זה משנה נוחות ולא ביצועים, וזה עולה בערך כמו משחק.",
+      "pros": ["Noticeably less eye strain at night", "Improves perceived contrast", "Costs about the same as one game"],
+      "cons": ["No effect on performance", "Colour-cycling modes defeat the purpose"]
+    },
+    {
+      "name": "A wrist rest",
+      "name_he": "תמיכת שורש כף יד",
+      "tag": "Boring, and your wrists will thank you",
+      "tag_he": "משעמם, ופרקי הידיים שלכם יודו לכם",
+      "price": "$15–35",
+      "search": "keyboard wrist rest memory foam",
+      "image": "a padded wrist rest sitting in front of a mechanical keyboard on a desk",
+      "body": "Mechanical keyboards are tall, and a tall keyboard bends your wrists upward for however many hours you play. Over months that extension is a genuine repetitive strain risk, and it is the kind of problem that is much easier to prevent than to fix. A rest that matches your keyboard's height keeps the wrist closer to neutral. Match the height rather than buying the softest one — a rest that is too low or too high just moves the angle rather than removing it. Memory foam is comfortable and compresses over a year or two; firmer materials last longer.",
+      "body_he": "מקלדות מכניות גבוהות, ומקלדת גבוהה מכופפת את פרקי הידיים כלפי מעלה לאורך כל השעות שאתם משחקים. לאורך חודשים היישור הזה הוא סיכון אמיתי לפגיעת מאמץ חוזר, וזה סוג הבעיה שהרבה יותר קל למנוע מאשר לתקן. תמיכה שמתאימה לגובה המקלדת שומרת את פרק היד קרוב יותר לנייטרלי. התאימו את הגובה במקום לקנות את הרכה ביותר — תמיכה נמוכה או גבוהה מדי רק מזיזה את הזווית במקום לסלק אותה. קצף זיכרון נוח ונדחס תוך שנה-שנתיים; חומרים קשיחים יותר מחזיקים יותר.",
+      "pros": ["Reduces a real repetitive strain risk", "Cheap and requires no habit change", "Pairs naturally with a mechanical keyboard"],
+      "cons": ["Wrong height moves the problem rather than fixing it", "Foam compresses over time"]
+    },
+    {
+      "name": "More RAM, to 32GB",
+      "name_he": "הגדלת זיכרון ל-32 ג'יגה",
+      "tag": "Only if you are actually short",
+      "tag_he": "רק אם באמת חסר לכם",
+      "price": "$60–120",
+      "search": "32GB DDR5 desktop RAM kit",
+      "image": "two sticks of desktop memory lying on an anti-static bag on a dark surface",
+      "body": "This is on the list with a condition attached. If you have 16GB and you play while running a browser with thirty tabs, a chat client and a stream, you are probably hitting the limit and the stutter you blame on your graphics card is actually memory pressure. Going to 32GB fixes that completely. If you have 16GB and close things before playing, more RAM will do essentially nothing and the money belongs elsewhere. Check your actual usage while gaming first — the task manager answers this in ten seconds, and it stops you buying a fix for a problem you do not have.",
+      "body_he": "זה ברשימה עם תנאי מצורף. אם יש לכם 16 ג'יגה ואתם משחקים תוך כדי דפדפן עם שלושים לשוניות, תוכנת צ'אט ושידור, אתם כנראה נוגעים בתקרה והקרטוע שאתם מאשימים בו את כרטיס המסך הוא בעצם לחץ זיכרון. מעבר ל-32 ג'יגה פותר את זה לגמרי. אם יש לכם 16 ג'יגה ואתם סוגרים דברים לפני שאתם משחקים, עוד זיכרון לא יעשה כמעט כלום והכסף שייך למקום אחר. בדקו את השימוש בפועל בזמן משחק קודם — מנהל המשימות עונה על זה בעשר שניות, וזה מונע מכם לקנות פתרון לבעיה שאין לכם.",
+      "pros": ["Removes stutter caused by memory pressure", "Cheap relative to a graphics card", "Helps if you stream or multitask while playing"],
+      "cons": ["Does nothing if you are not actually short", "Must match your board's memory type"]
+    },
+    {
+      "name": "A graphics card upgrade",
+      "name_he": "שדרוג כרטיס מסך",
+      "tag": "Last, and only after the rest",
+      "tag_he": "אחרון, ורק אחרי כל השאר",
+      "price": "$300–1200",
+      "search": "graphics card 1440p gaming",
+      "image": "a large modern graphics card with dual fans resting on a dark antistatic mat",
+      "body": "The graphics card is the upgrade everyone reaches for first and it belongs last here, because it is by far the most expensive way to buy a difference and often not the thing holding you back. Before spending, check what is actually limiting you: if your processor is at full load while the card is not, a new card changes nothing. If you play at 1080p on a 60Hz screen, a faster card produces frames your monitor cannot show. Buy the monitor first, confirm the card is the bottleneck, then buy the card — in that order, the money goes much further.",
+      "body_he": "כרטיס המסך הוא השדרוג שכולם רצים אליו ראשון והוא נמצא כאן אחרון, כי הוא בפער הדרך היקרה ביותר לקנות הבדל ולעיתים קרובות הוא לא מה שעוצר אתכם. לפני שמוציאים, בדקו מה באמת מגביל אתכם: אם המעבד שלכם בעומס מלא בזמן שהכרטיס לא, כרטיס חדש לא ישנה כלום. אם אתם משחקים ב-1080p על מסך 60 הרץ, כרטיס מהיר יותר מייצר פריימים שהמסך שלכם לא יכול להציג. קנו קודם את המסך, ודאו שהכרטיס הוא צוואר הבקבוק, ואז קנו את הכרטיס — בסדר הזה, הכסף מגיע הרבה יותר רחוק.",
+      "pros": ["The only route to genuinely higher settings", "Holds resale value reasonably well", "Enables higher resolutions properly"],
+      "cons": ["By far the most expensive difference you can buy", "Pointless if your processor or monitor is the real limit"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a higher refresh rate worth it above 144Hz?",
+      "a": "For most people, no. 60 to 144Hz is transformative; 144 to 240Hz is a modest refinement most players cannot reliably identify in a blind test; beyond that it is for competitive players with the reflexes and the frame rates to use it.",
+      "q_he": "האם קצב רענון מעל 144 הרץ שווה את זה?",
+      "a_he": "לרוב האנשים, לא. מ-60 ל-144 הרץ זו מהפכה; מ-144 ל-240 הרץ זו עידון צנוע שרוב השחקנים לא יזהו באופן אמין בבדיקה עיוורת; ומעבר לזה זה לשחקנים תחרותיים עם הרפלקסים וקצב הפריימים לנצל את זה."
+    },
+    {
+      "q": "Does an expensive gaming mouse make you better?",
+      "a": "Weight and shape genuinely affect comfort and consistency, so a mouse that suits your hand helps. The DPI figure does not — every current sensor exceeds what a human hand can exploit.",
+      "q_he": "האם עכבר גיימינג יקר עושה אתכם טובים יותר?",
+      "a_he": "משקל וצורה באמת משפיעים על נוחות ועקביות, אז עכבר שמתאים ליד שלכם עוזר. מספר ה-DPI לא — כל חיישן עדכני עולה על מה שיד אנושית יכולה לנצל."
+    },
+    {
+      "q": "Wired or wireless for competitive play?",
+      "a": "Good wireless is now effectively latency-free and the difference is no longer a real argument. Wired is still cheaper, lighter and never needs charging, which is why plenty of competitive players stay with it.",
+      "q_he": "חוטי או אלחוטי למשחק תחרותי?",
+      "a_he": "אלחוטי טוב היום למעשה בלי השהיה וההבדל כבר לא טיעון אמיתי. חוטי עדיין זול, קל ולא צריך טעינה לעולם, ובגלל זה הרבה שחקנים תחרותיים נשארים איתו."
+    },
+    {
+      "q": "What should I upgrade first on a tight budget?",
+      "a": "An SSD if you are still on a hard drive, then a 144Hz monitor, then a desk mat. That order buys the most noticeable change per shekel, and none of it requires touching the graphics card.",
+      "q_he": "מה לשדרג ראשון בתקציב מצומצם?",
+      "a_he": "כונן SSD אם אתם עדיין על דיסק מכני, אחר כך מסך 144 הרץ, ואז משטח שולחן. הסדר הזה קונה את השינוי המורגש ביותר לכל שקל, ושום דבר מזה לא דורש לגעת בכרטיס המסך."
+    }
+  ]
+}

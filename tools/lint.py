@@ -48,8 +48,10 @@ BANNED = [
     (re.compile(r"\bwe tried\b", re.I), "claims hands-on testing"),
     (re.compile(r"\bin our tests?\b", re.I), "claims hands-on testing"),
     (re.compile(r"\btested picks\b", re.I), "claims hands-on testing"),
-    (re.compile(r"\bבדקנו בעצמנו\b(?!\s*כל)", 0), "claims hands-on testing (he)"),
-    (re.compile(r"\bניסינו\b", 0), "claims hands-on testing (he)"),
+    # "לא בדקנו בעצמנו" is a denial of testing and is exactly what we want, so
+    # only flag the phrase when it is not negated.
+    (re.compile(r"(?<!לא )בדקנו בעצמנו", 0), "claims hands-on testing (he)"),
+    (re.compile(r"(?<!לא )ניסינו", 0), "claims hands-on testing (he)"),
     # "treat it as a rough band" is not a medical claim, so match a verb with an
     # actual condition after it rather than the bare word.
     (re.compile(r"\bcures?\b|\bclinically proven\b|\bmedical[- ]grade\b|"

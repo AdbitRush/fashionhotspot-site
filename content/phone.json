@@ -1,0 +1,181 @@
+{
+  "slug": "phone",
+  "category": "Phone",
+  "title": "Phone Accessories You Will Still Be Using in a Year",
+  "title_he": "אביזרים לטלפון שעדיין תשתמשו בהם בעוד שנה",
+  "dek": "Ten additions that survive daily use, plus the popular ones we would not buy again.",
+  "dek_he": "עשר תוספות ששורדות שימוש יומיומי, ועוד כמה פופולריות שלא היינו קונים שוב.",
+  "hero_image": "a smartphone on a wooden desk surrounded by a case, a charging cable, earbuds and a small stand in warm daylight",
+  "updated": "2026-08-08",
+  "read_minutes": 9,
+  "intro": [
+    "Phone accessories are an impulse category. They are cheap enough not to think about, which is exactly why most people own a drawer of them and use three.",
+    "The three that survive are almost always the same: something that stops the phone breaking, something that keeps it charged, and something that holds it up. Everything below is judged on whether it still earns pocket or bag space after a year.",
+    "Prices are approximate at the time of writing. This category is flooded with near-identical products under different names, so we describe what to look for rather than insisting on one brand."
+  ],
+  "intro_he": [
+    "אביזרים לטלפון הם קטגוריית קנייה אימפולסיבית. הם זולים מספיק כדי לא לחשוב עליהם, ובדיוק בגלל זה לרוב האנשים יש מגירה מלאה ומשתמשים בשלושה.",
+    "השלושה ששורדים הם כמעט תמיד אותם שלושה: משהו שמונע מהטלפון להישבר, משהו ששומר אותו טעון, ומשהו שמחזיק אותו. כל מה שלמטה נשפט לפי השאלה אם הוא עדיין מצדיק מקום בכיס או בתיק אחרי שנה.",
+    "המחירים הם הערכה נכון לזמן הכתיבה. הקטגוריה הזאת מוצפת במוצרים כמעט זהים תחת שמות שונים, אז אנחנו מתארים מה לחפש במקום להתעקש על מותג אחד."
+  ],
+  "how_we_pick": "We prioritise things that prevent an expensive failure, remove a daily annoyance, or last across more than one phone. We rely on published testing, certification standards and long-run owner reports, and we have not personally used every product here. Where a popular accessory is genuinely not worth buying, we say so instead of quietly leaving it out.",
+  "how_we_pick_he": "אנחנו מעדיפים דברים שמונעים תקלה יקרה, מסלקים מטרד יומיומי, או שורדים יותר מטלפון אחד. אנחנו נשענים על בדיקות שפורסמו, על תקני הסמכה ועל דיווחים של בעלים לאורך זמן, ולא השתמשנו בעצמנו בכל מוצר כאן. איפה שאביזר פופולרי באמת לא שווה קנייה, נגיד את זה במקום להשמיט אותו בשקט.",
+  "products": [
+    {
+      "name": "A case with raised edges and corner protection",
+      "name_he": "כיסוי עם שוליים מוגבהים והגנת פינות",
+      "tag": "The one that saves the money",
+      "tag_he": "זה שחוסך את הכסף",
+      "price": "$20–60",
+      "search": "phone case drop tested raised bezel MagSafe",
+      "image": "a matte dark phone case lying face down on a wooden surface showing raised camera edges",
+      "body": "Phones almost always break in one of two ways: a corner impact that travels through the frame to the screen, or a face-down landing on grit. A case only helps if it addresses both, which means genuine corner reinforcement and a lip that stands proud of the screen and the camera glass. That lip is the single most important feature and the one thin cases sacrifice first. Look for a stated drop rating rather than a marketing phrase, and if your phone supports magnetic attachment, get a case that passes it through — otherwise you lose the feature the moment you protect the phone.",
+      "body_he": "טלפונים כמעט תמיד נשברים באחת משתי דרכים: פגיעת פינה שעוברת דרך המסגרת אל המסך, או נחיתה על הפנים על גבי חצץ. כיסוי עוזר רק אם הוא מטפל בשתיהן, כלומר חיזוק פינות אמיתי ושפה שבולטת מעל המסך ומעל זכוכית המצלמה. השפה הזאת היא הפיצ'ר החשוב ביותר וזה שכיסויים דקים מוותרים עליו ראשון. חפשו דירוג נפילה מוצהר ולא סיסמה שיווקית, ואם הטלפון שלכם תומך בחיבור מגנטי, קחו כיסוי שמעביר אותו — אחרת תאבדו את הפיצ'ר בדיוק כשאתם מגנים על הטלפון.",
+      "pros": ["Prevents the two most common ways phones break", "Raised lip protects screen and camera glass", "Cheap next to a screen repair"],
+      "cons": ["Thin cases skip the lip that matters most", "Adds real bulk to a pocket"]
+    },
+    {
+      "name": "Tempered glass screen protector (two-pack)",
+      "name_he": "מגן מסך זכוכית מחוסמת (זוג)",
+      "tag": "Buy two, you will need two",
+      "tag_he": "קנו שניים, תצטרכו שניים",
+      "price": "$10–25",
+      "search": "tempered glass screen protector installation frame",
+      "image": "a sheet of tempered glass screen protector with an alignment frame on a clean white surface",
+      "body": "A screen protector is a consumable that costs a tenth of a screen repair, and glass is worth the small premium over plastic film because it resists the sand and keys that actually cause scratches. The feature to insist on is an alignment frame in the box — misapplication, not quality, is why most protectors end up with dust bubbles and lifted corners. Buy a two-pack, because your first attempt may go badly and because a cracked protector has done its job and needs replacing. Clean the screen, then clean it again, then use the dust stickers.",
+      "body_he": "מגן מסך הוא מוצר מתכלה שעולה עשירית מתיקון מסך, וזכוכית שווה את התוספת הקטנה על פני יריעת פלסטיק כי היא עמידה בפני החול והמפתחות שבאמת גורמים לשריטות. הפיצ'ר שכדאי לעמוד עליו הוא מסגרת יישור בקופסה — הדבקה לא נכונה, ולא איכות, היא הסיבה שרוב המגנים מסתיימים עם בועות אבק ופינות מורמות. קנו זוג, כי הניסיון הראשון שלכם עלול להיכשל וכי מגן סדוק עשה את עבודתו וצריך החלפה. נקו את המסך, ואז נקו אותו שוב, ואז השתמשו במדבקות האבק.",
+      "pros": ["A tenth of the cost of a screen repair", "Glass resists real-world scratch causes", "Alignment frames make it foolproof"],
+      "cons": ["Cheap ones interfere with in-screen fingerprint readers", "Application is unforgiving without a frame"]
+    },
+    {
+      "name": "A magnetic wireless power bank",
+      "name_he": "סוללת גיבוי אלחוטית מגנטית",
+      "tag": "Most convenient charging",
+      "tag_he": "הטעינה הכי נוחה",
+      "price": "$40–80",
+      "search": "magnetic wireless power bank MagSafe compatible",
+      "image": "a slim magnetic power bank attached to the back of a phone lying on a cafe table",
+      "body": "The reason these get used when a cabled bank does not is that they attach in one motion and let you keep using the phone while it charges, with no cable dangling from the bottom. That convenience is the entire argument, and it is a good one. Be clear-eyed about the trade-off: wireless charging is meaningfully less efficient than a cable, so a 5,000mAh magnetic bank delivers noticeably less than a 5,000mAh wired one, and it gets warm. For a day out it is ideal. For a long flight, bring the cable.",
+      "body_he": "הסיבה שמשתמשים באלה ולא בסוללה עם כבל היא שהן נצמדות בתנועה אחת ומאפשרות להמשיך להשתמש בטלפון תוך כדי טעינה, בלי כבל שמשתלשל מלמטה. הנוחות הזאת היא כל הטיעון, והוא טיעון טוב. תהיו מפוכחים לגבי ההתלבטות: טעינה אלחוטית פחות יעילה מכבל באופן משמעותי, אז סוללה מגנטית של 5,000 מיליאמפר-שעה מספקת ניכר פחות מאחת חוטית באותו גודל, והיא מתחממת. ליום בחוץ היא מושלמת. לטיסה ארוכה, קחו את הכבל.",
+      "pros": ["Attaches in one motion, no dangling cable", "Use the phone normally while charging", "Slim enough to stay attached in a pocket"],
+      "cons": ["Wireless transfer wastes a chunk of the capacity", "Runs warm under load"]
+    },
+    {
+      "name": "A braided USB-C cable, 2m",
+      "name_he": "כבל USB-C קלוע באורך 2 מטר",
+      "tag": "Where cheap costs more",
+      "tag_he": "איפה שזול עולה יותר",
+      "price": "$12–25",
+      "search": "braided USB-C cable 2m 100W fast charge",
+      "image": "a coiled grey braided charging cable on a light wooden surface",
+      "body": "Cables fail at the strain relief where the cord meets the connector, which is why the bundled one frays first. A braided jacket with a proper moulded collar survives years of the same treatment. Length matters more than people admit — two metres is the difference between using your phone in bed or on the sofa and not. If you charge a laptop from the same cable, check the stated wattage, and for fast data transfer check the data speed too, since plenty of cables carry 100W of power and only USB 2.0 data.",
+      "body_he": "כבלים נכשלים בנקודת הריתוך שבה החוט פוגש את המחבר, ובגלל זה הכבל שהגיע בקופסה נשחק ראשון. מעטפת קלועה עם צווארון יצוק כמו שצריך שורדת שנים של אותו יחס בדיוק. האורך חשוב יותר ממה שאנשים מודים — שני מטרים הם ההבדל בין להשתמש בטלפון במיטה או על הספה לבין לא. אם אתם טוענים מחשב נייד מאותו כבל, בדקו את ההספק המוצהר, ולהעברת נתונים מהירה בדקו גם את מהירות הנתונים, כי הרבה כבלים מעבירים 100 ואט חשמל ורק USB 2.0 בנתונים.",
+      "pros": ["Braided jacket survives years of bending", "2m reaches from an awkward socket", "Cheap insurance against a dead cable"],
+      "cons": ["High wattage does not imply fast data", "Braiding adds stiffness in the cold"]
+    },
+    {
+      "name": "A magnetic car mount",
+      "name_he": "מעמד רכב מגנטי",
+      "tag": "Safety, not convenience",
+      "tag_he": "בטיחות, לא נוחות",
+      "price": "$20–45",
+      "search": "magnetic car phone mount vent dashboard",
+      "image": "a small magnetic phone mount clipped to a car air vent holding a phone showing a map",
+      "body": "This belongs on the list as a safety item rather than a gadget. A phone in a cradle at eye line means glances rather than looking down into your lap, and in many places handling a phone while driving is an offence regardless. Magnetic mounts win over clamps because you dock one-handed without adjusting arms. Vent mounts are easiest to fit and can block airflow or sag on soft vanes; suction mounts to the windscreen are more stable but check local rules, since obstructing the windscreen is regulated in some countries.",
+      "body_he": "זה נמצא ברשימה כפריט בטיחות ולא כגאדג'ט. טלפון במעמד בגובה העיניים אומר מבטים חטופים ולא הסתכלות למטה אל החיק, ובהרבה מקומות אחיזה בטלפון בזמן נהיגה היא עבירה בכל מקרה. מעמדים מגנטיים מנצחים מלחציים כי מחברים אליהם ביד אחת בלי לכוון זרועות. מעמדי מפוח הכי קלים להתקנה ועלולים לחסום זרימת אוויר או לצנוח על להבים רכים; מעמדי ואקום לשמשה יציבים יותר, אבל בדקו את הכללים המקומיים, כי חסימת שדה הראייה מוסדרת בחוק בחלק מהמדינות.",
+      "pros": ["Keeps your eyes near the road", "One-handed docking", "Cheap for what it prevents"],
+      "cons": ["Vent mounts sag and block airflow", "Windscreen placement is regulated in some countries"]
+    },
+    {
+      "name": "A 30W+ GaN wall charger",
+      "name_he": "מטען קיר GaN של 30 ואט ומעלה",
+      "tag": "Replaces the one in the box",
+      "tag_he": "מחליף את זה שהגיע בקופסה",
+      "price": "$20–40",
+      "search": "30W GaN USB-C wall charger compact",
+      "image": "a small white wall charger with folding prongs plugged into a socket",
+      "body": "Most phones no longer ship with a charger, and the cheapest replacements on a marketplace are the single worst thing to economise on, because they sit in your wall carrying mains voltage. A branded 30W gallium nitride charger is small, runs cool, and charges a modern phone at full speed. Two-port models mean one plug serves a phone and earbuds. Look for a recognised safety certification mark on the body — its absence on an unbranded unit is a genuine reason not to buy, not a formality.",
+      "body_he": "רוב הטלפונים כבר לא מגיעים עם מטען, והתחליפים הזולים ביותר בזירות מסחר הם הדבר הכי גרוע לחסוך בו, כי הם יושבים בקיר שלכם ונושאים מתח רשת. מטען GaN ממותג של 30 ואט הוא קטן, נשאר קריר, וטוען טלפון מודרני במהירות מלאה. דגמים עם שתי יציאות אומרים שתקע אחד משרת טלפון ואוזניות. חפשו סימן תקן בטיחות מוכר על הגוף — היעדרו ביחידה בלי מותג הוא סיבה אמיתית לא לקנות, לא פורמליות.",
+      "pros": ["Full-speed charging in a tiny body", "Runs cool, folding prongs travel well", "Two ports cover phone and earbuds"],
+      "cons": ["Not the place to buy unbranded", "Very high wattage is wasted on a phone alone"]
+    },
+    {
+      "name": "A phone grip or ring stand",
+      "name_he": "אחיזה או טבעת לטלפון",
+      "tag": "Cheap, and prevents drops",
+      "tag_he": "זול, ומונע נפילות",
+      "price": "$10–25",
+      "search": "phone grip ring stand collapsible magnetic",
+      "image": "a collapsible round phone grip attached to the back of a phone on a table",
+      "body": "Phones have grown past the size a hand can comfortably hold, and most drops happen during a one-handed stretch toward the far corner of the screen. A grip removes that reach entirely, and it doubles as a stand for watching something. Choose a magnetic detachable one over an adhesive one: adhesive versions block wireless charging, cannot be removed cleanly, and eventually peel. Collapsible designs sit flatter in a pocket. It is a small thing, and it is one of the few accessories that measurably reduces how often you drop the phone.",
+      "body_he": "טלפונים גדלו מעבר לגודל שיד מחזיקה בנוחות, ורוב הנפילות קורות בזמן מתיחה ביד אחת לעבר הפינה הרחוקה של המסך. אחיזה מסלקת את המתיחה הזאת לגמרי, והיא גם משמשת כמעמד לצפייה. בחרו כזו מגנטית ומתפרקת ולא דבקה: גרסאות דבק חוסמות טעינה אלחוטית, אי אפשר להסיר אותן נקי, ובסוף הן מתקלפות. עיצובים מתקפלים יושבים שטוח יותר בכיס. זה דבר קטן, וזה אחד האביזרים הבודדים שמפחיתים מדידה את תדירות הנפילות.",
+      "pros": ["Removes the one-handed stretch that causes drops", "Doubles as a viewing stand", "Magnetic versions detach cleanly"],
+      "cons": ["Adhesive types block wireless charging", "Adds a bump in a tight pocket"]
+    },
+    {
+      "name": "A small tripod or gooseneck stand",
+      "name_he": "חצובה קטנה או מעמד גמיש",
+      "tag": "Best for video calls",
+      "tag_he": "הכי טוב לשיחות וידאו",
+      "price": "$15–40",
+      "search": "flexible phone tripod gooseneck stand",
+      "image": "a small flexible tripod holding a phone upright on a wooden desk",
+      "body": "Propping a phone against a mug is how most people take video calls, and it explains a great many unflattering camera angles. A small tripod puts the lens at eye level and holds still, which is the whole job. The flexible-leg type is the more useful format because it wraps around a chair back, a shelf edge or a bike frame as easily as it stands on a table. Check the clamp opens wide enough for your phone with its case on — a surprising number do not, and that is the specification people forget.",
+      "body_he": "להשעין טלפון על ספל זו הדרך שבה רוב האנשים עושים שיחות וידאו, וזה מסביר לא מעט זוויות מצלמה לא מחמיאות. חצובה קטנה מציבה את העדשה בגובה העיניים ומחזיקה יציב, וזו כל העבודה. הסוג עם רגליים גמישות הוא הפורמט השימושי יותר כי הוא נכרך סביב גב כיסא, קצה מדף או שלדת אופניים באותה קלות שהוא עומד על שולחן. בדקו שהמלחציים נפתחים מספיק רחב לטלפון שלכם עם הכיסוי — מספר מפתיע מהם לא, וזה המפרט שאנשים שוכחים.",
+      "pros": ["Puts the camera at eye level", "Flexible legs grip almost anything", "Folds small enough for a bag"],
+      "cons": ["Many clamps do not fit a cased phone", "Cheap ones sag under a heavy handset"]
+    },
+    {
+      "name": "A pop-out card holder or wallet case",
+      "name_he": "מחזיק כרטיסים נשלף או כיסוי ארנק",
+      "tag": "Useful, with one warning",
+      "tag_he": "שימושי, עם אזהרה אחת",
+      "price": "$15–45",
+      "search": "magnetic phone card holder wallet",
+      "image": "a slim leather card holder attached to the back of a phone on a wooden table",
+      "body": "Carrying two cards on the back of the phone genuinely replaces a wallet for most short trips, and the magnetic detachable holders do it without permanently changing the phone. Two practical warnings. Hotel key cards and some older magnetic-stripe cards can be wiped by strong magnets, so keep those separate. And putting your ID and bank card on the object most likely to be lost or stolen concentrates risk in one place — fine for a walk to the shops, less clever for a night out. Contactless cards themselves are generally unaffected.",
+      "body_he": "לשאת שני כרטיסים על גב הטלפון באמת מחליף ארנק לרוב היציאות הקצרות, והמחזיקים המגנטיים הנשלפים עושים את זה בלי לשנות את הטלפון לצמיתות. שתי אזהרות מעשיות. כרטיסי חדר במלון וחלק מהכרטיסים הישנים עם פס מגנטי עלולים להימחק ממגנטים חזקים, אז שמרו אותם בנפרד. ולשים תעודת זהות וכרטיס אשראי על החפץ שהכי סביר שיאבד או ייגנב מרכז את הסיכון במקום אחד — בסדר להליכה לחנות, פחות חכם לערב בחוץ. כרטיסים ללא מגע עצמם בדרך כלל לא מושפעים.",
+      "pros": ["Replaces a wallet for short trips", "Magnetic versions detach when not wanted", "Slim, adds almost no bulk"],
+      "cons": ["Strong magnets can wipe stripe and hotel cards", "Concentrates loss risk in one object"]
+    },
+    {
+      "name": "Wired earbuds with a USB-C plug",
+      "name_he": "אוזניות חוטיות עם תקע USB-C",
+      "tag": "The unfashionable backup",
+      "tag_he": "הגיבוי הלא אופנתי",
+      "price": "$15–40",
+      "search": "USB-C wired earbuds with microphone",
+      "image": "a pair of white wired earbuds with a USB-C connector coiled on a pale surface",
+      "body": "Keeping a cheap wired pair in a bag solves the problems wireless earbuds create: a flat charging case before a long call, a pairing failure in a meeting, or an in-flight entertainment system that wants a physical connection. They never need charging, they have no latency, and they cost less than replacing one lost wireless bud. The microphone on a decent wired pair is also usually better positioned for calls than a laptop's. Not exciting, and the thing you will be glad of on the day something else fails.",
+      "body_he": "להחזיק זוג חוטי זול בתיק פותר את הבעיות שאוזניות אלחוטיות יוצרות: נרתיק טעינה ריק לפני שיחה ארוכה, כשל התאמה בפגישה, או מערכת בידור במטוס שרוצה חיבור פיזי. הן אף פעם לא צריכות טעינה, אין להן השהיה, והן עולות פחות מהחלפת אוזנייה אלחוטית אחת שאבדה. גם המיקרופון בזוג חוטי הגון בדרך כלל ממוקם טוב יותר לשיחות ממיקרופון של מחשב נייד. לא מרגש, וזה הדבר שתשמחו עליו ביום שבו משהו אחר ייכשל.",
+      "pros": ["Never needs charging, zero latency", "Cheap enough to keep a spare pair", "Better call mic position than a laptop"],
+      "cons": ["A cable to untangle", "Occupies the charging port on most phones"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which phone accessory is not worth buying?",
+      "a": "Clip-on phone camera lenses, cheap unbranded chargers, and PopSocket-style adhesive grips that permanently block wireless charging. Sanitising UV boxes are also mostly unnecessary — soap and a microfibre cloth do the job.",
+      "q_he": "איזה אביזר לטלפון לא שווה קנייה?",
+      "a_he": "עדשות נתלות למצלמת הטלפון, מטענים זולים בלי מותג, ואחיזות דבק שחוסמות טעינה אלחוטית לצמיתות. גם קופסאות חיטוי UV ברובן מיותרות — סבון ומטלית מיקרופייבר עושים את העבודה."
+    },
+    {
+      "q": "Does a screen protector affect the fingerprint reader?",
+      "a": "A good one does not. Cheap or overly thick glass can interfere with in-screen readers, so check the product explicitly states compatibility with your phone's sensor before buying.",
+      "q_he": "האם מגן מסך משפיע על חיישן טביעת האצבע?",
+      "a_he": "מגן טוב לא. זכוכית זולה או עבה מדי יכולה להפריע לחיישנים שמתחת למסך, אז בדקו שהמוצר מציין במפורש תאימות לחיישן של הטלפון שלכם לפני הקנייה."
+    },
+    {
+      "q": "Is wireless charging bad for the battery?",
+      "a": "The heat it generates is the relevant factor, and heat is what ages a battery. Occasional wireless charging is fine; charging overnight on a warm pad in a hot room is the case worth avoiding.",
+      "q_he": "האם טעינה אלחוטית מזיקה לסוללה?",
+      "a_he": "החום שהיא מייצרת הוא הגורם הרלוונטי, וחום הוא מה שמזקין סוללה. טעינה אלחוטית מדי פעם בסדר גמור; טעינה כל הלילה על משטח חם בחדר חם היא המקרה שכדאי להימנע ממנו."
+    },
+    {
+      "q": "How much wattage do I actually need for a phone charger?",
+      "a": "Around 30W covers full-speed charging on almost every current phone. Higher figures matter only if the same charger also has to run a laptop or several devices at once.",
+      "q_he": "כמה ואט באמת צריך למטען טלפון?",
+      "a_he": "בערך 30 ואט מכסים טעינה במהירות מלאה כמעט בכל טלפון עדכני. מספרים גבוהים יותר משנים רק אם אותו מטען צריך גם להפעיל מחשב נייד או כמה מכשירים בו זמנית."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Shell scripts run on the Linux host — CRLF line endings break the shebang
+# ("bad interpreter: /usr/bin/env bash^M"), so pin them to LF regardless of the
+# platform they are edited on.
+*.sh   text eol=lf
+*.py   text eol=lf
+
+# Generated HTML and content are text; let git normalise them.
+*.html text
+*.json text
+*.xml  text
+*.css  text
+
+# Binary — never touch these.
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.webp binary
+*.ico  binary

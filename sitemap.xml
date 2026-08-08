@@ -43,6 +43,54 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://fashionhotspot.site/post-tech.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-tech.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-tech.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-tech.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-smart-home.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-smart-home.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-smart-home.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-smart-home.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-smart-home.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-smart-home.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-kitchen.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-kitchen.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-kitchen.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-kitchen.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-kitchen.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-kitchen.html"/>
+  </url>
+  <url>
     <loc>https://fashionhotspot.site/post-coffee.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,5 +105,133 @@
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-coffee.html"/>
     <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-coffee.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-home-office.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-home-office.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-home-office.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-home-office.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-home-office.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-home-office.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-fitness.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-fitness.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-fitness.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-fitness.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-fitness.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-fitness.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-travel.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-travel.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-travel.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-travel.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-travel.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-travel.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-pets.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-pets.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-pets.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-pets.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-pets.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-pets.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-photography.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-photography.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-photography.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-photography.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-photography.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-gaming.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-gaming.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-gaming.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-gaming.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-gaming.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-gaming.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-beauty.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-beauty.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-beauty.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-beauty.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-beauty.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-beauty.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/post-phone.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-phone.html"/>
+  </url>
+  <url>
+    <loc>https://fashionhotspot.site/he/post-phone.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-phone.html"/>
   </url>
 </urlset>

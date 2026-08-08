@@ -1,11 +1,44 @@
-# Disable caching for all files
-<IfModule mod_headers.c>
-    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
-    Header set Pragma "no-cache"
-    Header set Expires "0"
-</IfModule>
+# ---------------------------------------------------------------------------
+# fashionhotspot.site
+# ---------------------------------------------------------------------------
 
-# Enable rewrite engine
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
+    # The buying guides moved from post-<topic>-2026.html to post-<topic>.html
+    # ("2026" dates an evergreen guide badly). Redirect the old URL only when a
+    # replacement actually exists on disk, so the guides that have not been
+    # rewritten yet keep serving normally instead of 404ing.
+    RewriteCond %{DOCUMENT_ROOT}/post-$1.html -f
+    RewriteRule ^post-(.+)-2026\.html$ /post-$1.html [R=301,L]
 </IfModule>
+
+# ---------------------------------------------------------------------------
+# Caching
+#
+# This previously sent no-store for *everything*, which meant every image was
+# re-downloaded on every page view. HTML still goes uncached so deal prices are
+# never stale; static assets get a long TTL.
+# ---------------------------------------------------------------------------
+<IfModule mod_headers.c>
+    <FilesMatch "\.(html|htm|json|xml)$">
+        Header set Cache-Control "max-age=0, no-cache, must-revalidate"
+    </FilesMatch>
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico|woff2?|css|js)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+        application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddType image/webp .webp
+    AddType application/manifest+json .webmanifest
+</IfModule>
+
+ErrorDocument 404 /index.html

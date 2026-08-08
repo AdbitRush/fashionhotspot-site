@@ -26,7 +26,12 @@
 html{-webkit-text-size-adjust:100%}
 body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);
   color:var(--ink);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+/* height:auto is load-bearing. The width/height attributes on every <img> are
+   there to reserve layout space and stop the page jumping as images load, but
+   they map to presentational CSS height — which pins the element at its
+   attribute height and stops aspect-ratio ever being applied. Without this the
+   hero and card images render at 630px tall regardless of column width. */
+img{max-width:100%;display:block;height:auto}
 a{color:var(--accent-ink)}
 
 /* ---------- chrome ---------- */
