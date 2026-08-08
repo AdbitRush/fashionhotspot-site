@@ -31,7 +31,7 @@ fi
 FTP_PATH="${FTP_PATH:-}"
 
 # Never publish these, whatever else changes.
-EXCLUDE_RE='^\./(\.git/|\.github/|tools/|content/|node_modules/|\.env|deploy\.sh|README\.md|.*\.bak$|.*\.py$)'
+EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|deploy\.sh|README\.md|.*\.bak$|.*\.py$)'
 
 mapfile -t FILES < <(
   find . -type f \
