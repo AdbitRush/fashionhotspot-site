@@ -1,21 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Buying guides — fashionhotspot</title>
-<meta name="description" content="In-depth guides to gear worth buying — what we picked, why, and the trade-off you are accepting with each one.">
-<link rel="canonical" href="https://fashionhotspot.site/posts.html">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Buying guides — fashionhotspot">
-<meta property="og:description" content="In-depth guides to gear worth buying — what we picked, why, and the trade-off you are accepting with each one.">
-<meta property="og:url" content="https://fashionhotspot.site/posts.html">
-<meta property="og:site_name" content="fashionhotspot"><meta property="og:image" content="https://fashionhotspot.site/images/hero-coffee.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
+"""Shared look for every generated page.
+
+One stylesheet, inlined into each page. The palette is the site's existing
+warm cream / blush / coral, kept deliberately so the guides feel like part of
+fashionhotspot rather than a bolted-on blog.
+"""
+
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
+         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link href="https://fonts.googleapis.com/css2?'
+         'family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&'
+         'family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">')
+
+CSS = """
 :root{
   --bg:#FFF6EE; --surface:#fff; --ink:#2E1F26; --ink-2:#5A4550; --ink-3:#8C7580;
   --line:#F0DFD2; --line-2:#E6D2C2; --accent:#E14B4B; --accent-ink:#B02F2F;
@@ -161,10 +157,7 @@ footer a:hover{color:var(--accent-ink)}
 [dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{
   font-family:"Heebo","Assistant",Inter,system-ui,sans-serif}
 [dir=rtl] .num{font-family:inherit}
-</style>
-<link rel="alternate" hreflang="en" href="https://fashionhotspot.site/posts.html"><link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/posts.html">
-</head>
-<body>
-<div class="nav"><div class="nav-in"><a class="logo" href="index.html">fashion<span>hotspot</span></a><nav class="nav-links"><a href="index.html">Deals</a><a href="posts.html" aria-current="page">Guides</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></div><div class="wide"><div class="kicker" style="margin-top:34px">Buying guides</div><h1>What is actually worth buying</h1><p class="dek" style="max-width:640px">In-depth guides to gear worth buying — what we picked, why, and the trade-off you are accepting with each one.</p><div class="grid"><a class="gcard" href="post-coffee.html"><img src="images/hero-coffee.jpg" alt="The Home Coffee Setup, From First Upgrade to Last" width="1200" height="630" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Coffee</span><h3>The Home Coffee Setup, From First Upgrade to Last</h3><p class="sum">Ten pieces of gear that actually change what lands in your cup, ordered by how much difference each one makes for the money.</p><div class="meta">8 August 2026 · 10 picks</div></div></a></div><p class="disc" style="max-width:760px">As an Amazon Associate and an AliExpress affiliate we earn from qualifying purchases.</p></div><footer><nav><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="posts.html">Guides</a></nav><p>As an Amazon Associate and an AliExpress affiliate we earn from qualifying purchases. This never costs you more.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="he/posts.html">עברית</a></div></footer>
-</body>
-</html>
+"""
+
+RTL_FONT = ('<link href="https://fonts.googleapis.com/css2?'
+            'family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">')

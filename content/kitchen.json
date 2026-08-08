@@ -1,0 +1,181 @@
+{
+  "slug": "kitchen",
+  "category": "Kitchen",
+  "title": "Kitchen Tools That Survive the Drawer Cull",
+  "title_he": "כלי מטבח ששורדים את הניקיון של המגירה",
+  "dek": "Every kitchen has a drawer of gadgets used twice. These are the ones still in reach after five years.",
+  "dek_he": "לכל מטבח יש מגירה עם גאדג'טים שהשתמשו בהם פעמיים. אלה הכלים שנשארים בהישג יד גם אחרי חמש שנים.",
+  "hero_image": "a warm rustic kitchen counter with a chef knife on a wooden board, a cast iron pan and a mixing bowl in soft daylight",
+  "updated": "2026-08-08",
+  "read_minutes": 9,
+  "intro": [
+    "The single-purpose gadget is the enemy of a good kitchen. The avocado slicer, the herb stripper, the electric egg cooker — each solves a problem that a knife already solved, and each one takes up the drawer space that should belong to something you reach for daily.",
+    "So this list is deliberately weighted toward tools that do many jobs and last decades. Several are things you probably already own in a bad version, and replacing a bad one is a far bigger upgrade than buying a new category of thing.",
+    "Prices are approximate at the time of writing. Good kitchen equipment goes on sale predictably around November, so if nothing here is urgent, waiting is a legitimate strategy."
+  ],
+  "intro_he": [
+    "הגאדג'ט החד-תכליתי הוא האויב של מטבח טוב. פורס האבוקדו, מפריד עלי התבלין, מבשל הביצים החשמלי — כל אחד מהם פותר בעיה שסכין כבר פתרה, וכל אחד מהם תופס את מקום המגירה שאמור להיות שייך למשהו שמושיטים אליו יד כל יום.",
+    "לכן הרשימה הזאת נוטה בכוונה לכלים שעושים הרבה עבודות ומחזיקים עשרות שנים. כמה מהם הם דברים שכנראה כבר יש לכם בגרסה גרועה, והחלפה של גרסה גרועה היא שדרוג הרבה יותר גדול מקניית קטגוריה חדשה.",
+    "המחירים הם הערכה נכון לזמן הכתיבה. ציוד מטבח טוב יורד במחיר באופן צפוי סביב נובמבר, אז אם שום דבר כאן לא דחוף, לחכות זו אסטרטגיה לגיטימית."
+  ],
+  "how_we_pick": "We prioritise tools that do several jobs, survive daily use for years and can be sharpened, reseasoned or repaired rather than replaced. Our reading draws on published equipment testing, professional kitchen practice and long-run owner reports. We have not personally cooked with every item listed. Where the sensible answer is that you already own this and simply need a better one, we say that instead of upselling you.",
+  "how_we_pick_he": "אנחנו מעדיפים כלים שעושים כמה עבודות, שורדים שימוש יומיומי לאורך שנים, ואפשר להשחיז, לחדש או לתקן אותם במקום להחליף. הקריאה שלנו מבוססת על בדיקות ציוד שפורסמו, על נוהג במטבחים מקצועיים ועל דיווחים של בעלים לאורך זמן. לא בישלנו בעצמנו עם כל פריט ברשימה. איפה שהתשובה ההגיונית היא שכבר יש לכם את זה ואתם פשוט צריכים גרסה טובה יותר, נגיד את זה במקום למכור לכם משהו.",
+  "products": [
+    {
+      "name": "Victorinox Fibrox 8-inch chef's knife",
+      "name_he": "סכין שף Victorinox Fibrox 8 אינץ'",
+      "tag": "The one to buy first",
+      "tag_he": "הכלי הראשון שכדאי לקנות",
+      "price": "$40–55",
+      "search": "Victorinox Fibrox Pro 8 inch chef knife",
+      "image": "a simple chef knife with a black textured handle resting on a worn wooden cutting board",
+      "body": "This knife has topped independent equipment tests for two decades, and it costs less than a takeaway for four. It is light, the handle grips even when wet, and the steel is soft enough to sharpen easily and hard enough to hold an edge through normal home use. The expensive Japanese alternatives are genuinely better in skilled hands and genuinely worse in careless ones — harder steel chips if you hit a bone or twist through squash. Buy this, spend the difference on a sharpener, and replace it in ten years without feeling anything.",
+      "body_he": "הסכין הזאת מובילה בבדיקות ציוד עצמאיות כבר שני עשורים, והיא עולה פחות מטייק אווי לארבעה. היא קלה, הידית נאחזת גם כשהיא רטובה, והפלדה רכה מספיק כדי להשחיז בקלות וקשה מספיק כדי להחזיק חוד בשימוש ביתי רגיל. החלופות היפניות היקרות באמת טובות יותר בידיים מיומנות ובאמת גרועות יותר בידיים מרושלות — פלדה קשה נשברת אם פוגעים בעצם או מעקמים דרך דלעת. קנו את זו, תשקיעו את ההפרש במשחיז, ותחליפו אותה בעוד עשר שנים בלי להרגיש כלום.",
+      "pros": ["Beats knives costing five times more in blind tests", "Grippy handle stays safe when wet", "Easy to sharpen at home"],
+      "cons": ["Plain looking — this is a tool, not an heirloom", "Softer steel needs honing more often"]
+    },
+    {
+      "name": "Lodge 10-inch cast iron skillet",
+      "name_he": "מחבת ברזל יצוק Lodge 10 אינץ'",
+      "tag": "Best value in the kitchen",
+      "tag_he": "התמורה הטובה ביותר במטבח",
+      "price": "$25–40",
+      "search": "Lodge 10 inch cast iron skillet pre seasoned",
+      "image": "a black cast iron skillet on a stone worktop with a folded cloth beside the handle",
+      "body": "A cast iron pan costs about the same as a mid-range nonstick and outlives it by roughly forty years. It holds heat well enough to sear properly, goes from hob to oven without a thought, and becomes more nonstick with use rather than less. The maintenance story is overblown: dry it after washing and rub in a little oil occasionally. The real drawbacks are honest ones — it is heavy, it takes longer to preheat than aluminium, and highly acidic sauces will strip the seasoning, so keep a separate pan for tomato work.",
+      "body_he": "מחבת ברזל יצוק עולה בערך כמו מחבת נון-סטיק בינונית ומחזיקה מעמד בערך ארבעים שנה יותר. היא שומרת חום מספיק טוב כדי לצרוב כמו שצריך, עוברת מהכיריים לתנור בלי לחשוב, ונעשית פחות נדבקת עם השימוש ולא יותר. סיפור התחזוקה מוגזם: מייבשים אחרי שטיפה ומורחים קצת שמן מדי פעם. החסרונות האמיתיים כנים — היא כבדה, לוקח לה יותר זמן להתחמם מאלומיניום, ורטבים חומציים מאוד יורידו את שכבת ההגנה, אז שמרו מחבת נפרדת לעבודה עם עגבניות.",
+      "pros": ["Outlasts nonstick by decades", "Sears better than almost anything at this price", "Hob to oven to table"],
+      "cons": ["Heavy — an issue for some wrists", "Acidic sauces strip the seasoning"]
+    },
+    {
+      "name": "Digital kitchen scale (1g resolution)",
+      "name_he": "משקל מטבח דיגיטלי ברזולוציית גרם",
+      "tag": "Cheapest accuracy upgrade",
+      "tag_he": "שדרוג הדיוק הזול ביותר",
+      "price": "$15–30",
+      "search": "digital kitchen scale 1g tare stainless",
+      "image": "a slim stainless steel kitchen scale with a glass bowl of flour on top",
+      "body": "Cup measurements are a bad unit for anything dry. A cup of flour can vary by twenty percent depending on how it was scooped, which is most of the reason home baking is inconsistent. A scale removes that variance entirely, and the tare button means you weigh everything into one bowl and wash one bowl. It is the cheapest item here and one of the two or three that most improves results. Get one that reads in grams and switches off slowly — the ones that cut out after thirty seconds are maddening mid-recipe.",
+      "body_he": "מדידה בכוסות היא יחידה גרועה לכל דבר יבש. כוס קמח יכולה להשתנות בעשרים אחוז תלוי איך אספו אותה, וזה רוב הסיבה שאפייה ביתית לא עקבית. משקל מסלק את השונות הזאת לגמרי, וכפתור האיפוס אומר ששוקלים הכול לתוך קערה אחת ושוטפים קערה אחת. זה הפריט הכי זול כאן ואחד משניים-שלושה שהכי משפרים תוצאות. קנו כזה שמודד בגרמים ונכבה לאט — אלה שנכבים אחרי שלושים שניות מטריפים באמצע מתכון.",
+      "pros": ["Removes the biggest source of baking error", "Tare means fewer bowls to wash", "Costs less than one failed cake"],
+      "cons": ["Needs batteries at the worst moment", "Aggressive auto-off is genuinely annoying"]
+    },
+    {
+      "name": "Instant Pot Duo or similar multicooker",
+      "name_he": "סיר לחץ חשמלי רב-תכליתי מסוג Instant Pot Duo",
+      "tag": "Best for weeknight cooking",
+      "tag_he": "הכי טוב לבישול באמצע השבוע",
+      "price": "$80–130",
+      "search": "Instant Pot Duo 6 quart multicooker",
+      "image": "a stainless steel electric pressure cooker on a kitchen counter with steam escaping the valve",
+      "body": "The genuine case for this is pressure cooking, which turns dried beans, tough cuts and stock from weekend projects into weeknight food. Chickpeas from dry in forty minutes, a stew that would need three hours in one. The other eight functions printed on the box are mostly mediocre versions of things your hob already does, and the yoghurt setting will be used once. Judge it purely as a pressure cooker that also happens to keep rice warm, and it is excellent value. Judge it as the nine appliances it claims to replace and you will be disappointed.",
+      "body_he": "ההצדקה האמיתית לזה היא בישול בלחץ, שהופך קטניות יבשות, נתחים קשים ומרק עצמות מפרויקטים של סוף שבוע לאוכל של אמצע השבוע. חומוס מיובש בארבעים דקות, תבשיל שהיה דורש שלוש שעות בשעה אחת. שמונה הפונקציות האחרות שמודפסות על הקופסה הן ברובן גרסאות בינוניות של דברים שהכיריים שלכם כבר עושות, ובהגדרת היוגורט תשתמשו פעם אחת. תשפטו את זה אך ורק כסיר לחץ שגם שומר על אורז חם, וזו תמורה מצוינת. תשפטו את זה כתשעת המכשירים שהוא טוען שהוא מחליף ותתאכזבו.",
+      "pros": ["Turns long-cook food into weeknight food", "Cheap dried beans and pulses become practical", "Contained, no steam over the whole kitchen"],
+      "cons": ["Most of the advertised functions are mediocre", "Big, and awkward to store"]
+    },
+    {
+      "name": "Microplane fine grater",
+      "name_he": "פומפייה דקה מסוג Microplane",
+      "tag": "Small tool, big effect",
+      "tag_he": "כלי קטן, השפעה גדולה",
+      "price": "$18–30",
+      "search": "Microplane premium fine grater zester",
+      "image": "a long slim handheld grater with citrus zest scattered on a pale surface",
+      "body": "This is the exception to the no-single-purpose-gadget rule, because the single purpose it serves is adding aroma to almost everything. Garlic becomes a paste that melts into a sauce rather than sitting in chunks you bite into later. Parmesan turns into snow that dissolves through pasta instead of clumping. Lemon zest, nutmeg, fresh ginger, hard chocolate, dried chilli — all things a box grater mangles and this handles perfectly, because the etched teeth cut rather than tear. The design came from a woodworking rasp, which is exactly why it works. It is genuinely razor sharp, and that is the point, so watch your knuckles as you reach the end of a block and always wash it facing away from your hand.",
+      "body_he": "זה היוצא מן הכלל לחוק של בלי גאדג'טים חד-תכליתיים, כי המטרה היחידה שהוא משרת היא להוסיף ארומה כמעט לכל דבר. שום הופך לממרח שנמס לתוך רוטב במקום לשבת בגושים. פרמזן הופך לשלג שנמס. גרידת לימון, אגוז מוסקט, ג'ינג'ר, שוקולד קשה — כל אלה דברים שפומפיית קופסה עושה גרוע וזה עושה מושלם. הוא חד כמו סכין גילוח, וזו כל הנקודה, אז שימו לב לפרקי האצבעות בסוף חתיכה ושטפו אותו כשהוא פונה הרחק מהיד.",
+      "pros": ["Transforms garlic, citrus and hard cheese", "Cheap, and lasts years", "Takes almost no drawer space"],
+      "cons": ["Genuinely sharp — a real cut hazard", "Not a replacement for a box grater"]
+    },
+    {
+      "name": "Half-sheet pan and wire rack",
+      "name_he": "תבנית תנור חצי גיליון עם רשת",
+      "tag": "Most used, least glamorous",
+      "tag_he": "הכי בשימוש, הכי פחות זוהר",
+      "price": "$25–40 for two",
+      "search": "half sheet pan with wire rack aluminum",
+      "image": "a flat aluminium baking tray with a wire cooling rack sitting inside it on a kitchen counter",
+      "body": "A heavy aluminium sheet pan is the true workhorse of a home kitchen: roasting vegetables, sheet-pan dinners, baking biscuits, cooling cakes, catching drips under something messy. Thin supermarket trays warp violently the first time they meet a hot oven, and that buckling sends oil running into one corner, so half the tray burns while the other half steams. Heavier gauge aluminium simply does not do this, and it costs very little more. Add the wire rack and the pan becomes a roasting setup: air circulates underneath the food, which is how you get chicken skin crisp on every side instead of soggy where it sat. Buy two — you will use both most weeks.",
+      "body_he": "תבנית אלומיניום כבדה היא סוסת העבודה של מטבח ביתי: צלייה של ירקות, ארוחות מגש, אפייה, קירור, קליטת נזילות. תבניות דקות מהסופר מתעוותות בעוצמה בפעם הראשונה שהן פוגשות תנור חם, מה ששולח את השמן לפינה אחת ושורף חצי מהתבנית. אלומיניום בעובי גדול יותר לא עושה את זה. תוסיפו את הרשת ותוכלו לצלות כך שאוויר יזרום מתחת, וכך מקבלים עור עוף פריך מכל הצדדים במקום מאודה מלמטה.",
+      "pros": ["Used more than any other item here", "Heavy gauge will not warp in a hot oven", "Rack turns it into a roasting setup"],
+      "cons": ["Needs a matching oven size — measure first", "Aluminium discolours; that is cosmetic only"]
+    },
+    {
+      "name": "Instant-read thermometer (Thermapen or similar)",
+      "name_he": "מדחום מיידי מסוג Thermapen או דומה",
+      "tag": "Ends guesswork on meat",
+      "tag_he": "מסיים את הניחושים עם בשר",
+      "price": "$35–110",
+      "search": "instant read digital thermometer thermapen",
+      "image": "a slim folding digital thermometer with its probe extended, on a wooden board beside roasted meat",
+      "body": "Poking a chicken and hoping is how good ingredients get ruined. A fast thermometer removes the single biggest variable in cooking protein, and the difference between a two-second read and a fifteen-second one matters more than it sounds when the oven door is open and the heat is escaping. It is also the only way to be confident poultry is safe without cooking it to the texture of rope. Cheaper models work fine and are simply slower; the premium ones buy speed and accuracy, not a different outcome.",
+      "body_he": "לדקור עוף ולקוות זו הדרך שבה חומרי גלם טובים נהרסים. מדחום מהיר מסלק את המשתנה הגדול ביותר בבישול בשר, וההבדל בין קריאה של שתי שניות לקריאה של חמש-עשרה שניות משנה יותר ממה שזה נשמע כשדלת התנור פתוחה והחום בורח. זו גם הדרך היחידה להיות בטוחים שעוף בטוח לאכילה בלי לבשל אותו למרקם של חבל. דגמים זולים עובדים בסדר גמור והם פשוט איטיים יותר; היקרים קונים מהירות ודיוק, לא תוצאה אחרת.",
+      "pros": ["Removes the main variable in cooking meat", "Food safety without overcooking", "Useful for bread, oil and custards too"],
+      "cons": ["The fast premium models are expensive", "Another battery to remember"]
+    },
+    {
+      "name": "Large end-grain wooden cutting board",
+      "name_he": "קרש חיתוך גדול מעץ בחתך סיבים",
+      "tag": "Kinder to your knives",
+      "tag_he": "עדין יותר לסכינים שלכם",
+      "price": "$50–120",
+      "search": "end grain wood cutting board large",
+      "image": "a thick chunky wooden chopping board with a chequered end grain pattern on a counter",
+      "body": "Glass and hard plastic boards blunt a knife every time it lands. Wood lets the edge sink slightly and close again, so the blade stays sharp far longer, and end-grain construction does this best. Size matters more than people expect: a board too small to hold a chopped onion plus the next ingredient is why kitchens feel chaotic. Wood needs occasional oiling and must not go in a dishwasher. If that sounds like too much, a thick soft-plastic board is a perfectly respectable second choice and goes straight in the machine.",
+      "body_he": "קרשי זכוכית ופלסטיק קשה מקהים סכין בכל פעם שהיא נוחתת. עץ מאפשר לחוד לשקוע מעט ולהיסגר בחזרה, כך שהלהב נשאר חד הרבה יותר זמן, וחתך סיבים עושה את זה הכי טוב. הגודל חשוב יותר ממה שאנשים מצפים: קרש קטן מכדי להכיל בצל קצוץ ואת המרכיב הבא הוא הסיבה שמטבחים מרגישים כאוטיים. עץ דורש שימון מדי פעם ואסור להכניס אותו למדיח. אם זה נשמע לכם יותר מדי, קרש פלסטיק רך ועבה הוא בחירה שנייה מכובדת לגמרי ונכנס ישר למכונה.",
+      "pros": ["Keeps knives sharp much longer", "Large working area reduces chaos", "Repairable — sand and re-oil"],
+      "cons": ["Hand wash only, needs oiling", "Heavy, and expensive at good sizes"]
+    },
+    {
+      "name": "Immersion blender with whisk attachment",
+      "name_he": "בלנדר מוט עם ראש מקצף",
+      "tag": "Better than a blender for most jobs",
+      "tag_he": "עדיף על בלנדר לרוב העבודות",
+      "price": "$45–90",
+      "search": "immersion stick blender whisk attachment",
+      "image": "a stainless steel stick blender resting beside a pot of orange soup on a hob",
+      "body": "For soup, a stick blender is simply better than a jug blender: you blend in the pot, there is nothing to decant, and you avoid the genuine hazard of hot liquid building pressure in a sealed jug. It also makes mayonnaise and aioli more reliably than any other method, in about thirty seconds, in the cup it comes with. It will not crush ice or make a smooth nut butter — that is what the big blender is for. But it handles the jobs that come up weekly rather than yearly, and it washes under a tap in five seconds.",
+      "body_he": "למרק, בלנדר מוט פשוט טוב יותר מבלנדר קנקן: מערבבים בתוך הסיר, אין מה להעביר, ונמנעים מהסכנה האמיתית של נוזל חם שבונה לחץ בקנקן אטום. הוא גם מכין מיונז ואיולי בצורה אמינה יותר מכל שיטה אחרת, בערך בשלושים שניות, בכוס שמגיעה איתו. הוא לא ירסק קרח ולא יכין חמאת אגוזים חלקה — בשביל זה יש את הבלנדר הגדול. אבל הוא מטפל בעבודות שצצות כל שבוע ולא כל שנה, ונשטף מתחת לברז בחמש שניות.",
+      "pros": ["Blend directly in the pot", "Safest way to blend hot liquid", "Washes in seconds"],
+      "cons": ["Cannot crush ice or grind nuts", "Cheap models burn out under heavy use"]
+    },
+    {
+      "name": "Glass storage containers with locking lids",
+      "name_he": "כלי אחסון מזכוכית עם מכסים נעילה",
+      "tag": "Best for actually eating leftovers",
+      "tag_he": "הכי טוב כדי שבאמת תאכלו שאריות",
+      "price": "$40–70 for a set",
+      "search": "glass food storage containers locking lids set",
+      "image": "a stack of clear glass food containers with clipped lids on a bright kitchen shelf",
+      "body": "Leftovers get thrown away because nobody can see what is in the opaque tub at the back of the fridge. Glass fixes that, and it goes from fridge to oven or microwave without decanting, which removes the step where people give up and order food instead. It does not stain from turmeric or tomato and it does not hold onto smells the way plastic does. The trade-offs are real: glass is heavy, it breaks, and it is a poor choice for a lunchbox carried by a child. Keep a few plastic ones for travel.",
+      "body_he": "שאריות נזרקות כי אף אחד לא רואה מה יש בקופסה האטומה בגב המקרר. זכוכית פותרת את זה, והיא עוברת מהמקרר לתנור או למיקרוגל בלי להעביר לכלי אחר, וזה מסלק את השלב שבו אנשים מוותרים ומזמינים אוכל במקום. היא לא נצבעת מכורכום או מעגבנייה והיא לא סופגת ריחות כמו פלסטיק. ההתלבטויות אמיתיות: זכוכית כבדה, היא נשברת, והיא בחירה גרועה לקופסת אוכל שילד נושא. שמרו כמה כלי פלסטיק לנסיעות.",
+      "pros": ["You can see the food, so you eat it", "Fridge to oven with no decanting", "Does not stain or hold smells"],
+      "cons": ["Heavy, and breaks if dropped", "Poor choice for children's lunchboxes"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the single best thing to spend money on?",
+      "a": "A knife you enjoy using and a way to keep it sharp. A sharp mediocre knife outperforms a blunt expensive one, and most kitchen frustration traces back to a dull blade.",
+      "q_he": "על מה הכי כדאי להוציא כסף?",
+      "a_he": "סכין שנעים לכם להשתמש בה ודרך לשמור אותה חדה. סכין בינונית וחדה עדיפה על סכין יקרה וקהה, ורוב התסכול במטבח מתחיל בלהב קהה."
+    },
+    {
+      "q": "Is nonstick worth buying at all?",
+      "a": "One nonstick pan for eggs and delicate fish, yes. Treat it as a consumable that lasts three to five years, keep it under medium heat, and never use metal on it.",
+      "q_he": "האם בכלל שווה לקנות נון-סטיק?",
+      "a_he": "מחבת נון-סטיק אחת לביצים ולדגים עדינים, כן. תתייחסו אליה כמוצר מתכלה שמחזיק שלוש עד חמש שנים, שמרו על חום בינוני, ואל תשתמשו בה בכלי מתכת לעולם."
+    },
+    {
+      "q": "Do I need a stand mixer?",
+      "a": "Only if you bake bread or cakes most weeks. Otherwise it is a very expensive object that occupies prime counter space, and a hand mixer or an immersion blender covers what you actually do.",
+      "q_he": "האם אני צריך מיקסר עמידה?",
+      "a_he": "רק אם אתם אופים לחם או עוגות ברוב השבועות. אחרת זה חפץ יקר מאוד שתופס את השטח הכי טוב על השיש, ומיקסר יד או בלנדר מוט מכסים את מה שאתם באמת עושים."
+    },
+    {
+      "q": "How often should I sharpen my knife?",
+      "a": "Hone with a steel every few uses to straighten the edge, and properly sharpen once or twice a year for home cooking. If a knife will not slice a tomato skin without pressure, it needs sharpening now.",
+      "q_he": "כל כמה זמן צריך להשחיז סכין?",
+      "a_he": "יישרו במשחיז מוט כל כמה שימושים כדי ליישר את החוד, והשחיזו כמו שצריך פעם או פעמיים בשנה בבישול ביתי. אם סכין לא חותכת קליפת עגבנייה בלי ללחוץ, היא צריכה השחזה עכשיו."
+    }
+  ]
+}

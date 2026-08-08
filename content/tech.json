@@ -1,0 +1,181 @@
+{
+  "slug": "tech",
+  "category": "Electronics",
+  "title": "Ten Gadgets That Earn Their Place on Your Desk",
+  "title_he": "עשרה גאדג'טים שמצדיקים את המקום שלהם על השולחן",
+  "dek": "Not the flashiest launches of the year — the ones people are still using six months after the novelty wore off.",
+  "dek_he": "לא ההשקות הכי נוצצות של השנה, אלא אלה שאנשים עדיין משתמשים בהם חצי שנה אחרי שההתרגשות דעכה.",
+  "hero_image": "a tidy modern desk with wireless earbuds, a smartwatch, a power bank and a USB-C hub arranged neatly on a warm wooden surface",
+  "updated": "2026-08-08",
+  "read_minutes": 10,
+  "intro": [
+    "The gadget that gets recommended most is rarely the gadget that gets used most. Reviews are written in the first week, when everything is exciting and nothing has broken yet. What matters is whether the thing is still on your desk in March.",
+    "So the filter for this list was boring on purpose: does it solve a problem you actually have every day, and does it keep working. A few obvious categories are missing because nothing in them currently justifies the money, and we would rather leave a gap than pad the list.",
+    "Prices are approximate at the time of writing and swing hard during sale events. Use them for budgeting, then check the live listing."
+  ],
+  "intro_he": [
+    "הגאדג'ט שהכי ממליצים עליו הוא כמעט אף פעם לא הגאדג'ט שהכי משתמשים בו. ביקורות נכתבות בשבוע הראשון, כשהכול מרגש ועוד כלום לא נשבר. מה שבאמת חשוב זה אם הדבר הזה עדיין על השולחן שלכם במרץ.",
+    "לכן המסננת לרשימה הזאת הייתה משעממת בכוונה: האם זה פותר בעיה שיש לכם באמת כל יום, והאם זה ממשיך לעבוד. כמה קטגוריות מתבקשות חסרות כאן כי כרגע אין בהן משהו שמצדיק את הכסף, ואנחנו מעדיפים להשאיר חור מאשר למלא את הרשימה בסתם.",
+    "המחירים הם הערכה נכון לזמן הכתיבה והם קופצים חזק בימי מכירות. השתמשו בהם לתכנון תקציב, ואז בדקו את המחיר בפועל."
+  ],
+  "how_we_pick": "We weigh published measurement-based reviews, long-term owner reports and warranty and repair track records more heavily than launch-day coverage. We have not personally tested every item. Where one product clearly leads its category we name it; where the honest answer is that it depends on your phone, your ears or your desk, we tell you what the trade-off is instead of inventing a winner.",
+  "how_we_pick_he": "אנחנו נותנים משקל גדול יותר לביקורות שמבוססות על מדידות, לדיווחים של בעלים לאורך זמן ולהיסטוריית אחריות ותיקונים, ופחות לסיקור של יום ההשקה. לא בדקנו בעצמנו כל פריט. איפה שמוצר אחד מוביל בבירור בקטגוריה שלו אנחנו נוקבים בשמו; איפה שהתשובה הכנה היא שזה תלוי בטלפון, באוזניים או בשולחן שלכם, נסביר לכם מה ההתלבטות במקום להמציא מנצח.",
+  "products": [
+    {
+      "name": "Anker 737 Power Bank (24,000mAh, 140W)",
+      "name_he": "סוללת גיבוי Anker 737‏ (24,000mAh, 140W)",
+      "tag": "Most useful thing here",
+      "tag_he": "הפריט הכי שימושי כאן",
+      "price": "$100–140",
+      "search": "Anker 737 power bank 24000mAh 140W",
+      "image": "a chunky matte black power bank with a small digital display, beside a coiled USB-C cable",
+      "body": "Most power banks are sold on capacity, which is the least interesting number. What matters is output: at 140W this one charges a laptop at close to full speed, not the trickle you get from a typical bank, so it genuinely replaces your charger on a trip rather than just delaying a dead battery. The small display showing real wattage and remaining charge sounds like a gimmick and turns out to be the feature you use most. It is heavy and it is not cheap, and if you only ever top up a phone you should buy something a third of the size for a quarter of the price.",
+      "body_he": "רוב סוללות הגיבוי נמכרות לפי קיבולת, שזה המספר הכי פחות מעניין. מה שחשוב זה ההספק: ב-140 ואט הסוללה הזאת טוענת מחשב נייד כמעט במהירות מלאה, ולא בטפטוף שמקבלים מסוללה רגילה, כך שהיא באמת מחליפה את המטען בנסיעה במקום רק לדחות את הרגע שהסוללה נגמרת. המסך הקטן שמראה ואט אמיתי ואחוזי סוללה נשמע גימיק ומתגלה כפיצ'ר שהכי משתמשים בו. היא כבדה והיא לא זולה, ואם אתם רק מטעינים טלפון כדאי לכם לקנות משהו בשליש מהגודל וברבע מהמחיר.",
+      "pros": ["Charges a laptop at near-full speed", "Live wattage display is genuinely informative", "One brick covers phone, tablet and laptop"],
+      "cons": ["Heavy — you feel it in a bag all day", "Overkill and overpriced if you only charge a phone"]
+    },
+    {
+      "name": "Sony WH-1000XM6",
+      "name_he": "אוזניות סוני WH-1000XM6",
+      "tag": "Best noise cancelling",
+      "tag_he": "ביטול הרעשים הטוב ביותר",
+      "price": "$350–430",
+      "search": "Sony WH-1000XM6 noise cancelling headphones",
+      "image": "sleek over-ear wireless headphones resting on a folded knit blanket beside a laptop",
+      "body": "Noise cancelling is the rare feature that changes how a space feels rather than just how it sounds. On a plane or in an open-plan office the effect is close to moving rooms. Sony's line has led this category for years on cancellation strength and on the software around it — multipoint pairing that actually works, and adaptive modes that duck the cancellation when you speak. The trade-off versus Bose is comfort: Sony sounds better and cancels marginally harder, Bose is easier to wear for six hours straight. If you wear glasses, try both before committing.",
+      "body_he": "ביטול רעשים הוא אחד הפיצ'רים הנדירים שמשנים איך חלל מרגיש ולא רק איך הוא נשמע. במטוס או במשרד פתוח האפקט דומה למעבר לחדר אחר. הסדרה של סוני מובילה בקטגוריה הזאת כבר שנים גם בעוצמת הביטול וגם בתוכנה שמסביב — חיבור לשני מכשירים במקביל שבאמת עובד, ומצבים אדפטיביים שמנמיכים את הביטול כשאתם מדברים. ההתלבטות מול בוס היא נוחות: סוני נשמעות טוב יותר ומבטלות קצת יותר חזק, בוס נוחות יותר לשש שעות רצופות. אם אתם מרכיבים משקפיים, תנסו את שתיהן לפני שתחליטו.",
+      "pros": ["Class-leading cancellation", "Multipoint pairing that works reliably", "Long battery life with fast top-up"],
+      "cons": ["Expensive, and discounted rarely", "Less comfortable than Bose over very long sessions"]
+    },
+    {
+      "name": "Anker 555 USB-C hub (8-in-1)",
+      "name_he": "מפצל Anker 555 USB-C‏ (8 ביחד)",
+      "tag": "Fixes the modern laptop",
+      "tag_he": "מתקן את הבעיה של מחשבים ניידים מודרניים",
+      "price": "$50–75",
+      "search": "Anker 555 USB-C hub 8 in 1",
+      "image": "a slim aluminium USB-C hub with several ports, connected to a laptop edge on a wooden desk",
+      "body": "Laptops shed ports faster than we shed the accessories that need them, and a hub is the unglamorous fix. Look for three things: HDMI at 4K and 60Hz rather than 30, power delivery pass-through so the hub charges the laptop while it works, and an aluminium body, because plastic hubs run hot and throttle. This Anker has all three. The category is full of near-identical units from unfamiliar brands for half the price; those are usually fine until the day the HDMI output starts flickering, and you have no warranty to fall back on.",
+      "body_he": "מחשבים ניידים מאבדים חיבורים מהר יותר משאנחנו מוותרים על האביזרים שצריכים אותם, ומפצל הוא הפתרון הלא זוהר. חפשו שלושה דברים: HDMI ב-4K ו-60 הרץ ולא 30, מעבר הזנת חשמל כך שהמפצל טוען את המחשב תוך כדי עבודה, וגוף אלומיניום, כי מפצלים מפלסטיק מתחממים ומורידים ביצועים. לאנקר הזה יש את שלושתם. הקטגוריה מלאה ביחידות כמעט זהות ממותגים לא מוכרים בחצי מחיר; הן בדרך כלל בסדר עד היום שבו יציאת ה-HDMI מתחילה להבהב, ואין לכם אחריות ליפול עליה.",
+      "pros": ["4K60 HDMI, not the common 4K30", "Passes power through to the laptop", "Aluminium body stays cool under load"],
+      "cons": ["Cheaper clones look identical on paper", "Adds another thing to carry"]
+    },
+    {
+      "name": "Apple Watch SE (3rd gen) or Galaxy Watch FE",
+      "name_he": "אפל ווטש SE דור 3 או גלקסי ווטש FE",
+      "tag": "Best smartwatch value",
+      "tag_he": "שעון חכם במחיר הכי משתלם",
+      "price": "$220–280",
+      "search": "Apple Watch SE 3rd generation GPS",
+      "image": "a modern smartwatch with a fabric band lying face-up on a linen surface",
+      "body": "The flagship watches add a brighter screen, deeper health sensors and a titanium case. The budget models keep the parts people actually use daily: notifications, workout tracking, sleep, and contactless payment. Unless you specifically need blood-oxygen or ECG readings, the gap is much smaller than the price difference suggests. The real constraint is ecosystem — an Apple Watch is useless with an Android phone and a Galaxy Watch loses most of its value away from a Samsung handset, so this decision was largely made for you when you bought your phone.",
+      "body_he": "השעונים המובילים מוסיפים מסך בהיר יותר, חיישני בריאות מתקדמים וגוף טיטניום. הדגמים הזולים שומרים על החלקים שאנשים באמת משתמשים בהם כל יום: התראות, מעקב אימונים, שינה ותשלום ללא מגע. אלא אם אתם ספציפית צריכים מדידת חמצן בדם או אק\"ג, הפער קטן בהרבה ממה שהפרש המחיר מרמז. האילוץ האמיתי הוא סביבה — אפל ווטש חסר תועלת עם טלפון אנדרואיד וגלקסי ווטש מאבד את רוב הערך שלו מחוץ למכשיר סמסונג, כך שההחלטה הזאת התקבלה בשבילכם כשקניתם את הטלפון.",
+      "pros": ["Keeps the features people use daily", "Well under flagship pricing", "Good multi-year software support"],
+      "cons": ["Locked to your phone's ecosystem", "No ECG or advanced sensors"]
+    },
+    {
+      "name": "Keychron K2 HE (or any hot-swappable board)",
+      "name_he": "מקלדת Keychron K2 HE או כל מקלדת עם החלפת מתגים",
+      "tag": "Best keyboard upgrade",
+      "tag_he": "שדרוג המקלדת המשתלם ביותר",
+      "price": "$90–190",
+      "search": "Keychron K2 hot swappable mechanical keyboard",
+      "image": "a compact mechanical keyboard with warm beige and grey keycaps on a wooden desk",
+      "body": "If you type for a living, the keyboard is the tool you touch more than any other, and a mechanical board is a real ergonomic and tactile upgrade over a laptop's flat travel. The specific feature to insist on is hot-swap sockets: they let you change the switches without soldering, which means one purchase can be made lighter, heavier, quieter or clickier later as you work out what you like. Buy quiet switches if you share a room or take calls — the stereotypical clatter is a choice, not a requirement, and it is the fastest way to annoy everyone near you.",
+      "body_he": "אם אתם מקלידים למחייתכם, המקלדת היא הכלי שאתם נוגעים בו יותר מכל דבר אחר, ומקלדת מכנית היא שדרוג ארגונומי ותחושתי אמיתי מול המהלך השטוח של מקלדת מחשב נייד. הפיצ'ר הספציפי שכדאי לעמוד עליו הוא שקעים להחלפה חמה: הם מאפשרים להחליף מתגים בלי הלחמה, כלומר רכישה אחת יכולה להיעשות אחר כך קלה יותר, כבדה יותר, שקטה יותר או נקישה יותר, ככל שתבינו מה אתם אוהבים. קנו מתגים שקטים אם אתם חולקים חדר או עונים לשיחות — הרעש הקלאסי הוא בחירה ולא הכרח, וזו הדרך הכי מהירה לעצבן את כל מי שלידכם.",
+      "pros": ["Hot-swap means one board can change over time", "Big comfort gain over laptop keyboards", "Wireless and wired on the same board"],
+      "cons": ["Loud unless you choose quiet switches deliberately", "Tall — you may need a wrist rest"]
+    },
+    {
+      "name": "Logitech MX Master 4",
+      "name_he": "עכבר Logitech MX Master 4",
+      "tag": "Best mouse for long days",
+      "tag_he": "העכבר הטוב ביותר לימים ארוכים",
+      "price": "$95–120",
+      "search": "Logitech MX Master 4 wireless mouse",
+      "image": "a sculpted ergonomic wireless mouse in graphite on a fabric desk mat",
+      "body": "The MX Master line has been the default recommendation for desk work for years, and the reason is the shape rather than the sensor: it supports the hand rather than requiring you to grip it, which is what your wrist notices after eight hours. The horizontal scroll wheel is the feature you did not know you wanted until you edit a wide spreadsheet or a video timeline. It is a large mouse built for medium-to-large hands and a palm grip; if you have small hands or claw-grip, this specific model will fight you, and the smaller MX Anywhere is the better buy.",
+      "body_he": "סדרת ה-MX Master היא ברירת המחדל להמלצה לעבודה משרדית כבר שנים, והסיבה היא הצורה ולא החיישן: היא תומכת בכף היד במקום לדרוש מכם לאחוז בה, וזה מה שפרק היד שלכם מרגיש אחרי שמונה שעות. גלגל הגלילה האופקי הוא הפיצ'ר שלא ידעתם שאתם רוצים עד שתערכו גיליון רחב או ציר עריכת וידאו. זה עכבר גדול שבנוי לכף יד בינונית עד גדולה ולאחיזה מלאה; אם יש לכם ידיים קטנות או אחיזת ציפורן, הדגם הזה ילחם בכם, וה-MX Anywhere הקטן יותר יהיה הקנייה הנכונה.",
+      "pros": ["Genuinely comfortable over full working days", "Horizontal scroll earns its keep", "Pairs with three machines and switches instantly"],
+      "cons": ["Too big for small hands or a claw grip", "Heavy for a portable setup"]
+    },
+    {
+      "name": "Kindle Paperwhite (2024 or later)",
+      "name_he": "קינדל פייפרוויט (2024 ואילך)",
+      "tag": "Best single-purpose device",
+      "tag_he": "המכשיר החד-תכליתי הטוב ביותר",
+      "price": "$145–180",
+      "search": "Kindle Paperwhite 2024 e-reader",
+      "image": "a slim e-reader with a paper-like screen resting on a linen chair arm next to a mug",
+      "body": "The argument for an e-reader is not that it does more than your phone — it is that it does dramatically less. No notifications, no browser, no app that wants your attention, just text on a screen you can read in direct sun and in the dark. Waterproofing matters more than the spec sheet suggests, because it turns the bath and the beach into reading places. Get the ad-free version; the discount for lock-screen ads is small and you will look at that screen thousands of times.",
+      "body_he": "הטיעון בעד קורא ספרים אלקטרוני הוא לא שהוא עושה יותר מהטלפון שלכם — אלא שהוא עושה הרבה פחות. בלי התראות, בלי דפדפן, בלי אפליקציה שרוצה את תשומת הלב שלכם, רק טקסט על מסך שאפשר לקרוא גם בשמש ישירה וגם בחושך. עמידות במים חשובה יותר ממה שהמפרט מרמז, כי היא הופכת את האמבטיה ואת החוף למקומות קריאה. קחו את הגרסה בלי פרסומות; ההנחה על פרסומות במסך הנעילה קטנה ואתם תסתכלו על המסך הזה אלפי פעמים.",
+      "pros": ["Readable in direct sunlight", "Battery measured in weeks", "Waterproof, so it goes more places than a tablet"],
+      "cons": ["Locked to Amazon's store for the easiest experience", "Slow refresh makes it poor for anything but reading"]
+    },
+    {
+      "name": "Anker Nano 3-port 65W GaN charger",
+      "name_he": "מטען Anker Nano GaN‏ 65W עם שלוש יציאות",
+      "tag": "Best small upgrade",
+      "tag_he": "השדרוג הקטן המשתלם ביותר",
+      "price": "$35–50",
+      "search": "Anker Nano 65W GaN charger 3 port",
+      "image": "a small white cube charger with folding prongs and three ports on a pale surface",
+      "body": "Gallium nitride made chargers roughly half the size at the same output, which is why the brick that came with your laptop now looks absurd. A single 65W GaN charger with three ports runs a laptop, a phone and earbuds from one wall socket, so travel means one plug and one spare cable rather than a bag of bricks. This is the cheapest item on the list and one of the two or three that changes daily friction the most, which is a fair definition of good value.",
+      "body_he": "טכנולוגיית גליום ניטריד הקטינה מטענים בערך בחצי באותו הספק, ובגלל זה הלבנה שהגיעה עם המחשב הנייד שלכם נראית היום מגוחכת. מטען GaN יחיד של 65 ואט עם שלוש יציאות מפעיל מחשב נייד, טלפון ואוזניות משקע אחד, כך שנסיעה פירושה תקע אחד וכבל רזרבי אחד במקום שקית מלאה בלבנים. זה הפריט הכי זול ברשימה ואחד משניים-שלושה שהכי משנים את החיכוך היומיומי, וזו הגדרה הוגנת לתמורה טובה.",
+      "pros": ["Replaces three chargers with one", "Folding prongs, genuinely pocketable", "Cheap for how much friction it removes"],
+      "cons": ["65W is not enough for power-hungry gaming laptops", "Shared wattage drops when all ports are in use"]
+    },
+    {
+      "name": "Xreal Air 2 display glasses",
+      "name_he": "משקפי תצוגה Xreal Air 2",
+      "tag": "Most interesting, most caveated",
+      "tag_he": "הכי מעניין, עם הכי הרבה הסתייגויות",
+      "price": "$350–450",
+      "search": "Xreal Air 2 AR display glasses",
+      "image": "a pair of dark tinted display glasses folded on a desk beside a phone and a small connector cable",
+      "body": "These put a large virtual screen in front of you from a device the size of sunglasses, which is legitimately useful on a plane or in a hotel room where a monitor is impossible. Text is sharp enough for real work, and plugging into a laptop or phone over USB-C is genuinely plug-and-play. Now the caveats, because they are substantial: the field of view is narrower than the marketing images suggest, they press on the nose after an hour or two, and you look conspicuous wearing them in public. Buy if you travel constantly and work on the move. Otherwise a second monitor is a tenth of the price.",
+      "body_he": "המשקפיים האלה שמים מולכם מסך וירטואלי גדול ממכשיר בגודל של משקפי שמש, וזה שימושי באמת במטוס או בחדר מלון שבהם מסך הוא לא אופציה. הטקסט חד מספיק לעבודה אמיתית, והחיבור למחשב נייד או לטלפון דרך USB-C באמת עובד מיד. עכשיו ההסתייגויות, כי הן משמעותיות: שדה הראייה צר יותר ממה שתמונות השיווק מרמזות, הם לוחצים על האף אחרי שעה-שעתיים, ואתם נראים בולטים כשאתם חובשים אותם בציבור. תקנו אם אתם נוסעים כל הזמן ועובדים בדרכים. אחרת מסך שני עולה עשירית מהמחיר.",
+      "pros": ["A big screen anywhere, from a pocketable device", "Sharp enough for real text work", "Works over a single USB-C cable"],
+      "cons": ["Narrow field of view versus the marketing", "Uncomfortable after an hour or two"]
+    },
+    {
+      "name": "Tile or AirTag item trackers (4-pack)",
+      "name_he": "איתוריות AirTag או Tile (רביעייה)",
+      "tag": "Cheapest peace of mind",
+      "tag_he": "שקט הנפש הזול ביותר",
+      "price": "$70–100",
+      "search": "Apple AirTag 4 pack item tracker",
+      "image": "four small round white item trackers on a marble surface beside a set of keys and a wallet",
+      "body": "A tracker in a bag, a wallet and a set of keys costs less than replacing any one of them once. The thing that makes these work is not the tracker but the network: every nearby phone in the ecosystem quietly reports a tag's location, so coverage in a city is close to total. That is also the reason to match your phone — AirTags are excellent on iPhone and largely pointless on Android, and Tile is the more platform-neutral choice. Worth knowing before you buy: these are designed to find your own things, and both companies now build in anti-stalking alerts that notify someone if an unknown tag travels with them.",
+      "body_he": "איתורית בתיק, בארנק ובצרור מפתחות עולה פחות מהחלפה אחת של כל אחד מהם. מה שגורם לזה לעבוד הוא לא האיתורית אלא הרשת: כל טלפון בסביבה שמשתייך לאותה מערכת מדווח בשקט על המיקום, כך שהכיסוי בעיר כמעט מלא. זו גם הסיבה להתאים לטלפון שלכם — AirTag מצוינים באייפון וכמעט חסרי טעם באנדרואיד, ו-Tile היא הבחירה הפחות תלוית פלטפורמה. כדאי לדעת לפני שקונים: המכשירים האלה נועדו למצוא את החפצים שלכם, ושתי החברות משלבות היום התראות נגד מעקב שמודיעות למישהו אם איתורית לא מוכרת נוסעת איתו.",
+      "pros": ["Finding network makes urban coverage near-total", "Replaceable battery lasts about a year", "Cheaper than replacing what you lose"],
+      "cons": ["Effectively tied to one phone ecosystem", "Useless in areas with few nearby phones"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it worth buying last year's flagship instead?",
+      "a": "Usually yes, for phones, watches and headphones. Year-on-year gains in these categories are small, and last year's model typically sells for 25–40% less within a few months of a new launch.",
+      "q_he": "האם כדאי לקנות את הדגם המוביל של השנה שעברה במקום?",
+      "a_he": "בדרך כלל כן, בטלפונים, שעונים ואוזניות. ההתקדמות משנה לשנה בקטגוריות האלה קטנה, והדגם של השנה שעברה נמכר בדרך כלל ב-25 עד 40 אחוז פחות תוך כמה חודשים מהשקה חדשה."
+    },
+    {
+      "q": "Are the cheap unbranded versions of these actually bad?",
+      "a": "For passive accessories like cables and stands, often they are fine. For anything with a battery or that delivers power, brand matters — that is where safety certification, thermal design and an honest warranty are worth paying for.",
+      "q_he": "האם הגרסאות הזולות בלי מותג באמת גרועות?",
+      "a_he": "לאביזרים פסיביים כמו כבלים ומעמדים, לרוב הן בסדר גמור. לכל דבר עם סוללה או שמעביר חשמל, המותג כן משנה — שם התקן הבטיחות, התכנון התרמי והאחריות האמיתית שווים את התוספת."
+    },
+    {
+      "q": "What should I buy first if I work from a laptop all day?",
+      "a": "A hub and a proper charger, then an external keyboard and mouse. Those four change your posture and your daily friction more than any single expensive device on this list.",
+      "q_he": "מה כדאי לקנות ראשון אם אני עובד מול מחשב נייד כל היום?",
+      "a_he": "מפצל ומטען הגון, ואחר כך מקלדת ועכבר חיצוניים. ארבעת אלה משנים את היציבה ואת החיכוך היומיומי שלכם יותר מכל מכשיר יקר בודד ברשימה."
+    },
+    {
+      "q": "Do I need the newest USB-C cable too?",
+      "a": "For charging, almost any modern cable works. For fast data or driving a monitor, cheap cables genuinely fail — check that the cable states its wattage and data speed rather than assuming.",
+      "q_he": "האם צריך גם את כבל ה-USB-C הכי חדש?",
+      "a_he": "לטעינה, כמעט כל כבל מודרני יעבוד. להעברת נתונים מהירה או להפעלת מסך, כבלים זולים באמת נכשלים — בדקו שהכבל מציין את ההספק ואת מהירות הנתונים שלו במקום להניח."
+    }
+  ]
+}

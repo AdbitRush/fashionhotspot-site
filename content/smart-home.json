@@ -1,0 +1,183 @@
+{
+  "slug": "smart-home",
+  "category": "Smart home",
+  "title": "The Smart Home Parts That Are Actually Worth Wiring In",
+  "title_he": "החלקים בבית החכם שבאמת שווה לחבר",
+  "dek": "Most smart home gear solves a problem you did not have. These ten solve real ones — and we say plainly which ones we would skip.",
+  "dek_he": "רוב הציוד לבית חכם פותר בעיה שלא הייתה לכם. העשרה האלה פותרים בעיות אמיתיות — ואנחנו אומרים בפירוש על מה היינו מוותרים.",
+  "hero_image": "a warm modern living room at dusk with soft lamp lighting, a small smart speaker on a side table and a thermostat on the wall",
+  "updated": "2026-08-08",
+  "read_minutes": 10,
+  "intro": [
+    "The smart home has a credibility problem, and it earned it. For a decade the pitch was that you would talk to your lights, and the reality was an app for every socket, a hub that stopped being supported, and a light switch your guests could not work out.",
+    "What changed is Matter and Thread — a shared standard that finally lets devices from different brands talk to each other without a pile of bridges. It is not perfect, but it means a purchase made today has a reasonable chance of still working in five years, which was not true before.",
+    "So the test here is simple: does it save real time or real money, and will it survive its manufacturer losing interest. Where a category fails that test, we say so rather than filling the slot.",
+    "Prices are approximate at the time of writing and move a lot on sale."
+  ],
+  "intro_he": [
+    "לבית החכם יש בעיית אמינות, והוא הרוויח אותה ביושר. במשך עשור ההבטחה הייתה שתדברו עם התאורה, והמציאות הייתה אפליקציה לכל שקע, האב שהפסיקו לתמוך בו, ומפסק תאורה שהאורחים שלכם לא הצליחו להפעיל.",
+    "מה שהשתנה זה Matter ו-Thread — תקן משותף שסוף סוף מאפשר למכשירים ממותגים שונים לדבר זה עם זה בלי ערימה של גשרים. הוא לא מושלם, אבל הוא אומר שלרכישה שנעשית היום יש סיכוי סביר לעבוד גם בעוד חמש שנים, וזה לא היה נכון קודם.",
+    "לכן המבחן כאן פשוט: האם זה חוסך זמן אמיתי או כסף אמיתי, והאם זה ישרוד את זה שהיצרן יאבד עניין. איפה שקטגוריה נכשלת במבחן הזה אנחנו אומרים את זה במקום למלא את המקום.",
+    "המחירים הם הערכה נכון לזמן הכתיבה והם זזים הרבה במבצעים."
+  ],
+  "how_we_pick": "We favour devices that speak Matter or Thread over ones locked to a single brand's cloud, because cloud shutdowns are the main way smart home gear dies. We weigh long-term owner reports and manufacturer support history heavily. We have not personally installed every product here, and where a category is genuinely not worth the money yet we leave it out and explain why in the questions at the end.",
+  "how_we_pick_he": "אנחנו מעדיפים מכשירים שמדברים Matter או Thread על פני כאלה שנעולים לענן של מותג יחיד, כי סגירת שירותי ענן היא הדרך העיקרית שבה ציוד לבית חכם מת. אנחנו נותנים משקל רב לדיווחים של בעלים לאורך זמן ולהיסטוריית התמיכה של היצרן. לא התקנו בעצמנו כל מוצר כאן, ואיפה שקטגוריה באמת עוד לא שווה את הכסף אנחנו משמיטים אותה ומסבירים למה בשאלות שבסוף.",
+  "products": [
+    {
+      "name": "Ecobee or Nest Learning Thermostat",
+      "name_he": "תרמוסטט חכם Ecobee או Nest",
+      "tag": "The one that pays for itself",
+      "tag_he": "זה שמחזיר את עצמו",
+      "price": "$130–250",
+      "search": "Ecobee smart thermostat with sensor",
+      "image": "a round wall-mounted smart thermostat with a bright display in a sunlit hallway",
+      "body": "Heating and cooling is the largest energy line in most homes, which makes the thermostat the only smart device with a credible payback argument. The saving does not come from talking to it — it comes from the schedule and from remote sensors that stop the system heating an empty room while the occupied one stays cold. Ecobee ships those sensors in the box, which is the practical advantage over Nest. Two honest limits: if your home is small and single-zone the saving is modest, and if you rent, check whether you are allowed to swap the unit at all.",
+      "body_he": "חימום וקירור הם סעיף האנרגיה הגדול ביותר ברוב הבתים, ולכן התרמוסטט הוא המכשיר החכם היחיד עם טיעון החזר השקעה אמין. החיסכון לא מגיע מזה שמדברים אליו — הוא מגיע מלוח הזמנים ומחיישנים מרוחקים שמונעים מהמערכת לחמם חדר ריק בזמן שהחדר המאויש נשאר קר. אקובי מגיעה עם החיישנים האלה בקופסה, וזה היתרון המעשי מול נסט. שתי מגבלות כנות: אם הבית שלכם קטן ובאזור אחד החיסכון צנוע, ואם אתם שוכרים, בדקו אם בכלל מותר לכם להחליף את היחידה.",
+      "pros": ["Real, measurable energy saving", "Remote sensors fix uneven heating", "Works from your phone when plans change"],
+      "cons": ["Modest payback in small single-zone homes", "May need professional wiring, and landlord permission"]
+    },
+    {
+      "name": "Philips Hue starter kit (bridge + bulbs)",
+      "name_he": "ערכת פתיחה Philips Hue (גשר ונורות)",
+      "tag": "Best lighting, at a price",
+      "tag_he": "התאורה הטובה ביותר, במחיר",
+      "price": "$130–200",
+      "search": "Philips Hue white and color starter kit bridge",
+      "image": "a warm living room corner with a floor lamp casting soft amber light against a textured wall",
+      "body": "Hue is the expensive option and it is still the one to buy, because lighting is where reliability matters most — a bulb that takes two seconds to respond, or fails once a week, is worse than a dumb switch. The bridge is what buys that reliability: it runs the lights locally over Zigbee rather than routing every command through the internet. Where the real value shows is scheduling, not colour. Lights that shift warm in the evening and come up gradually in the morning change how a room feels far more than any party scene ever will.",
+      "body_he": "היו היא האופציה היקרה והיא עדיין זו שכדאי לקנות, כי בתאורה האמינות היא הדבר הכי חשוב — נורה שלוקח לה שתי שניות להגיב, או שנתקעת פעם בשבוע, גרועה יותר ממפסק רגיל. הגשר הוא מה שקונה את האמינות הזאת: הוא מפעיל את התאורה מקומית דרך Zigbee במקום לנתב כל פקודה דרך האינטרנט. איפה שהערך האמיתי מתגלה זה בתזמון, לא בצבע. תאורה שמתחממת בערב ועולה בהדרגה בבוקר משנה את התחושה בחדר הרבה יותר מכל סצנת מסיבה.",
+      "pros": ["Fast and reliable — responds like a switch", "Local control, works when the internet is down", "Huge range of fittings and shapes"],
+      "cons": ["Considerably pricier than competing bulbs", "The bridge is another box to find a socket for"]
+    },
+    {
+      "name": "Aqara or Eve door and window sensors",
+      "name_he": "חיישני דלת וחלון Aqara או Eve",
+      "tag": "Cheapest thing that makes the rest useful",
+      "tag_he": "הדבר הזול שהופך את כל השאר לשימושי",
+      "price": "$15–30 each",
+      "search": "Aqara door window contact sensor Matter",
+      "image": "a small white contact sensor mounted discreetly on a white door frame",
+      "body": "Automations are only as good as what the house knows about itself, and contact sensors are the cheapest way to give it useful facts. A door sensor is what turns the hall light on when you come in, tells you the back door has been open for twenty minutes in winter, and warns you the garage never closed. None of that requires a camera or a subscription. Buy Thread or Zigbee versions rather than Wi-Fi ones — Wi-Fi sensors chew batteries and crowd your network, and you may end up with a dozen of these.",
+      "body_he": "אוטומציות טובות בדיוק כמו מה שהבית יודע על עצמו, וחיישני מגע הם הדרך הזולה ביותר לתת לו עובדות שימושיות. חיישן דלת הוא מה שמדליק את אור הכניסה כשאתם נכנסים, מודיע לכם שדלת האחורית פתוחה כבר עשרים דקות בחורף, ומזהיר אתכם שהמוסך לא נסגר. שום דבר מזה לא דורש מצלמה או מנוי. קנו גרסאות Thread או Zigbee ולא Wi-Fi — חיישני Wi-Fi טורפים סוללות ומעמיסים על הרשת, ואתם עלולים בסוף להחזיק תריסר כאלה.",
+      "pros": ["Very cheap, and they enable everything else", "Batteries last a year or more on Thread or Zigbee", "No camera, no subscription, no privacy trade"],
+      "cons": ["Useless on their own — they need something to trigger", "Adhesive mounting can fail on textured surfaces"]
+    },
+    {
+      "name": "Aqara U100 or Yale Assure Lock 2",
+      "name_he": "מנעול חכם Aqara U100 או Yale Assure Lock 2",
+      "tag": "Biggest daily convenience",
+      "tag_he": "הנוחות היומיומית הגדולה ביותר",
+      "price": "$180–300",
+      "search": "Yale Assure Lock 2 smart deadbolt keypad",
+      "image": "a modern black keypad smart lock installed on a wooden front door",
+      "body": "The smart lock is the device people are most sceptical about and end up using most, because it removes a small friction that occurs several times a day. Handing a cleaner or a guest a temporary code instead of cutting a key is the feature that converts people. Insist on two things: a physical key override, and standard AA batteries rather than a proprietary pack. Check your door before buying — these fit standard deadbolts, and European multipoint locks or unusual Israeli door hardware often need a different model entirely, so measure first.",
+      "body_he": "המנעול החכם הוא המכשיר שאנשים הכי סקפטיים לגביו ובסוף הכי משתמשים בו, כי הוא מסיר חיכוך קטן שקורה כמה פעמים ביום. לתת למנקה או לאורח קוד זמני במקום לשכפל מפתח זה הפיצ'ר שמשכנע אנשים. עמדו על שני דברים: אפשרות פתיחה במפתח פיזי, וסוללות AA רגילות ולא מארז ייעודי. בדקו את הדלת שלכם לפני הקנייה — המנעולים האלה מתאימים לבריח סטנדרטי, ומנעולים רב-בריחיים אירופיים או פרזול דלתות ישראלי לא שגרתי דורשים לעיתים קרובות דגם אחר לגמרי, אז תמדדו קודם.",
+      "pros": ["Temporary codes instead of spare keys", "Auto-lock removes a recurring worry", "Physical key still works as a fallback"],
+      "cons": ["Fit is genuinely not universal — measure your door", "Battery failure locks you out unless you carry a key"]
+    },
+    {
+      "name": "Roborock or Dreame robot vacuum with self-empty",
+      "name_he": "שואב רובוטי Roborock או Dreame עם ריקון עצמי",
+      "tag": "Best time saved per shekel",
+      "tag_he": "הכי הרבה זמן שנחסך לכל שקל",
+      "price": "$400–900",
+      "search": "Roborock robot vacuum self emptying lidar",
+      "image": "a low round robot vacuum on a light wooden floor beside its tall docking station",
+      "body": "This is the appliance that buys back the most time, provided you buy the right tier. The two features that matter are lidar mapping, so it cleans in rows rather than bouncing randomly, and a self-emptying dock, so you handle dust every few weeks rather than every day. Below roughly $400 you generally lose one or both and the novelty wears off fast. Be realistic about what it replaces: it handles daily maintenance beautifully and does not replace a proper clean. It also needs a tidy floor, so it quietly enforces a habit — which some people count as a feature.",
+      "body_he": "זה המכשיר שקונה בחזרה הכי הרבה זמן, בתנאי שקונים את הרמה הנכונה. שני הפיצ'רים שמשנים הם מיפוי לידאר, כדי שהוא ינקה בשורות ולא יקפץ אקראית, ותחנת ריקון עצמי, כדי שתטפלו באבק פעם בכמה שבועות ולא כל יום. מתחת לבערך 1,500 ש\"ח בדרך כלל מוותרים על אחד מהם או על שניהם וההתלהבות דועכת מהר. תהיו מציאותיים לגבי מה זה מחליף: הוא מטפל יפה בתחזוקה יומיומית ולא מחליף ניקיון יסודי. הוא גם דורש רצפה מסודרת, כך שהוא אוכף בשקט הרגל — ויש מי שסופר את זה כיתרון.",
+      "pros": ["Genuinely reclaims hours every month", "Lidar mapping means systematic, complete coverage", "Self-empty dock reduces contact with dust"],
+      "cons": ["Cheap models are a false economy", "Cannot handle clutter, cables or deep cleaning"]
+    },
+    {
+      "name": "Eve Energy or TP-Link Tapo smart plugs",
+      "name_he": "שקעים חכמים Eve Energy או TP-Link Tapo",
+      "tag": "Best starting point",
+      "tag_he": "נקודת ההתחלה הטובה ביותר",
+      "price": "$15–40 each",
+      "search": "smart plug energy monitoring Matter",
+      "image": "a compact white smart plug in a wall socket with a small indicator light",
+      "body": "A smart plug is the cheapest way to find out whether you actually want a smart home. It makes a dumb lamp, fan or heater schedulable, and the models with energy monitoring answer a question most people are guessing at — which appliance is quietly costing the most. That measurement is often more valuable than the automation. Get Matter-compatible plugs so they work with whatever assistant you end up using, and avoid unbranded ones: this is a device that carries mains current and lives in your wall for years.",
+      "body_he": "שקע חכם הוא הדרך הזולה ביותר לגלות אם אתם בכלל רוצים בית חכם. הוא הופך מנורה, מאוורר או תנור רגילים לניתנים לתזמון, והדגמים עם ניטור צריכה עונים על שאלה שרוב האנשים רק מנחשים לגביה — איזה מכשיר עולה לכם הכי הרבה בשקט. המדידה הזאת שווה לעיתים קרובות יותר מהאוטומציה. קנו שקעים תואמי Matter כדי שיעבדו עם כל עוזר קולי שתבחרו בסוף, והימנעו מדגמים בלי מותג: זה מכשיר שנושא זרם רשת וחי בקיר שלכם שנים.",
+      "pros": ["Cheapest way to test the whole idea", "Energy monitoring finds expensive appliances", "Makes existing dumb devices schedulable"],
+      "cons": ["Bulky ones block the second socket", "Not a place to save money on an unknown brand"]
+    },
+    {
+      "name": "Aqara water leak sensor",
+      "name_he": "חיישן נזילת מים Aqara",
+      "tag": "Best insurance for the money",
+      "tag_he": "הביטוח הכי טוב ביחס למחיר",
+      "price": "$15–25 each",
+      "search": "Aqara water leak sensor smart home",
+      "image": "a small round white water sensor placed on tiled floor beside the base of a washing machine",
+      "body": "A twenty dollar puck under the washing machine, the boiler and the sink is the highest return-per-shekel item on this page, and nobody buys it until after their first flood. Water damage is slow, expensive and usually discovered far too late — behind an appliance, into a floor, through a ceiling. These sit flat, run for a year or two on a coin cell, and scream and notify your phone the moment they get wet. There is no ongoing cost and nothing to maintain. If you buy one thing from this list, and you have never had a leak, buy this one anyway.",
+      "body_he": "דיסקית של שבעים שקל מתחת למכונת הכביסה, לדוד ולכיור היא הפריט עם ההחזר הגבוה ביותר לשקל בעמוד הזה, ואף אחד לא קונה אותה עד אחרי ההצפה הראשונה. נזקי מים הם איטיים, יקרים ובדרך כלל מתגלים מאוחר מדי — מאחורי מכשיר, לתוך רצפה, דרך תקרה. החיישנים האלה שוכבים שטוח, עובדים שנה-שנתיים על סוללת כפתור, וצורחים ושולחים התראה לטלפון ברגע שהם נרטבים. אין עלות שוטפת ואין מה לתחזק. אם אתם קונים דבר אחד מהרשימה, וגם אם מעולם לא הייתה לכם נזילה, קנו דווקא את זה.",
+      "pros": ["Trivially cheap against the damage it prevents", "Long battery life, zero maintenance", "Local alarm works even without the app"],
+      "cons": ["Only covers the exact spot you place it", "Needs a hub or Thread border router for phone alerts"]
+    },
+    {
+      "name": "Echo Show 8 or Nest Hub",
+      "name_he": "Echo Show 8 או Nest Hub",
+      "tag": "Best hub, with reservations",
+      "tag_he": "האב הטוב ביותר, עם הסתייגויות",
+      "price": "$90–150",
+      "search": "Amazon Echo Show 8 smart display",
+      "image": "a compact smart display with a fabric-covered speaker base on a kitchen counter",
+      "body": "A smart display earns its place in a kitchen, where hands are busy and a timer, a recipe and a camera feed on one screen genuinely help. Many of these units also act as a Thread border router or Zigbee hub, which quietly saves you buying a separate bridge. The reservation is real, though: this is a microphone and a camera in a room you live in, sold at a low margin because the business model is elsewhere. If that trade bothers you, cover the camera, mute the mic when not in use, or buy a display-free hub instead — that is a legitimate choice, not paranoia.",
+      "body_he": "מסך חכם מצדיק את מקומו במטבח, איפה שהידיים תפוסות וטיימר, מתכון והזנת מצלמה על מסך אחד באמת עוזרים. הרבה מהיחידות האלה גם מתפקדות כנתב גבול Thread או כאב Zigbee, וזה חוסך לכם בשקט קניית גשר נפרד. אבל ההסתייגות אמיתית: זה מיקרופון ומצלמה בחדר שאתם חיים בו, שנמכרים ברווח נמוך כי מודל העסק נמצא במקום אחר. אם העסקה הזאת מפריעה לכם, כסו את המצלמה, השתיקו את המיקרופון כשאינו בשימוש, או קנו אב בלי מסך במקום — זו בחירה לגיטימית ולא פרנויה.",
+      "pros": ["Genuinely useful in a kitchen", "Often doubles as a Thread or Zigbee hub", "Cheap, and frequently discounted"],
+      "cons": ["A camera and always-on mic in a living space", "Ad and upsell prompts on the home screen"]
+    },
+    {
+      "name": "Aqara FP2 presence sensor",
+      "name_he": "חיישן נוכחות Aqara FP2",
+      "tag": "The upgrade over motion sensors",
+      "tag_he": "השדרוג על פני חיישני תנועה",
+      "price": "$70–90",
+      "search": "Aqara FP2 mmWave presence sensor",
+      "image": "a small white wall-mounted sensor near the ceiling corner of a bright minimal room",
+      "body": "The reason smart lighting annoys people is that motion sensors detect motion, not presence — so the lights go out while you are reading, sitting still, or in the bath. Millimetre-wave presence sensors detect breathing and micro-movement, so they know the room is occupied even when nothing is moving. That single distinction is what makes automated lighting stop being irritating. It is more expensive than a motion sensor and needs mains power and a careful mounting position, so treat it as a fix for the one or two rooms where the lights keep failing you, not as something to install everywhere.",
+      "body_he": "הסיבה שתאורה חכמה מעצבנת אנשים היא שחיישני תנועה מזהים תנועה ולא נוכחות — ולכן האור נכבה בזמן שאתם קוראים, יושבים בשקט או באמבטיה. חיישני נוכחות בגלי מילימטר מזהים נשימה ותנועות מיקרו, כך שהם יודעים שהחדר מאויש גם כשכלום לא זז. ההבחנה הבודדת הזאת היא מה שגורם לתאורה אוטומטית להפסיק להיות מרגיזה. הוא יקר יותר מחיישן תנועה ודורש חשמל קבוע ומיקום התקנה מדויק, אז תתייחסו אליו כפתרון לחדר או שניים שבהם התאורה כל הזמן מכזיבה, ולא כמשהו להתקין בכל מקום.",
+      "pros": ["Detects presence, not just movement", "Ends the 'lights went out on me' problem", "Can define zones within one room"],
+      "cons": ["Needs mains power and careful placement", "Several times the price of a motion sensor"]
+    },
+    {
+      "name": "Eufy or Reolink local-storage camera",
+      "name_he": "מצלמת אבטחה Eufy או Reolink עם אחסון מקומי",
+      "tag": "Best camera without a subscription",
+      "tag_he": "מצלמת האבטחה הטובה ביותר בלי מנוי",
+      "price": "$60–200",
+      "search": "Eufy security camera local storage no subscription",
+      "image": "a small white outdoor security camera mounted under the eaves of a house in daylight",
+      "body": "Most security cameras are sold cheap and monetised through a monthly plan, and if you stop paying you often lose recording entirely. Cameras that record to a local card or a base station avoid that, so you own the footage and there is no recurring bill. Look for local recording, on-device person detection so you are not alerted by every passing cat, and RTSP support if you ever want to run your own recorder. Point them at entrances and outdoor spaces rather than inside living areas, and check the rules where you live — recording shared entrances or a neighbour's property has legal limits in most places.",
+      "body_he": "רוב מצלמות האבטחה נמכרות בזול ומניבות כסף דרך מנוי חודשי, ואם תפסיקו לשלם לעיתים קרובות תאבדו את ההקלטה לגמרי. מצלמות שמקליטות לכרטיס מקומי או לתחנת בסיס נמנעות מזה, כך שהצילומים שלכם ואין חשבון חוזר. חפשו הקלטה מקומית, זיהוי אנשים על המכשיר עצמו כדי שלא תקבלו התראה מכל חתול שעובר, ותמיכת RTSP אם תרצו להריץ מקליט משלכם. כוונו אותן לכניסות ולשטחים חיצוניים ולא לתוך אזורי המגורים, ובדקו את הכללים במקום מגוריכם — להקליט כניסה משותפת או רכוש של שכן מוגבל משפטית ברוב המקומות.",
+      "pros": ["No monthly fee, and you keep the footage", "On-device detection cuts false alerts", "Keeps working if the vendor's cloud goes away"],
+      "cons": ["Higher upfront cost than subscription models", "Legal limits on what you may record — check locally"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Matter, and do I need to care?",
+      "a": "It is a shared standard that lets devices from different brands work together and be controlled by any major assistant. You should care mainly because it protects you from buying into a brand that later shuts its servers down.",
+      "q_he": "מה זה Matter, וכדאי לי בכלל להתעניין?",
+      "a_he": "זה תקן משותף שמאפשר למכשירים ממותגים שונים לעבוד יחד ולהיות מנוהלים על ידי כל עוזר קולי מרכזי. כדאי להתעניין בעיקר כי זה מגן עליכם מלהיכנס למותג שיסגור אחר כך את השרתים שלו."
+    },
+    {
+      "q": "What smart home gear would you skip?",
+      "a": "Smart fridges, smart microwaves and most smart taps — the intelligence adds cost and failure modes to an appliance you keep for fifteen years. Also smart blinds unless you have a specific sun or accessibility problem, given the installation cost.",
+      "q_he": "על איזה ציוד לבית חכם הייתם מוותרים?",
+      "a_he": "מקררים חכמים, מיקרוגלים חכמים ורוב הברזים החכמים — התוספת החכמה מוסיפה עלות ונקודות כשל למכשיר שמחזיקים חמש-עשרה שנה. וגם תריסים חכמים, אלא אם יש לכם בעיית שמש או נגישות ספציפית, בהתחשב בעלות ההתקנה."
+    },
+    {
+      "q": "Will any of this still work if my internet goes down?",
+      "a": "Devices on Zigbee, Thread or a local hub mostly keep working, including schedules. Anything that depends on a manufacturer's cloud generally stops. That is the single best reason to prefer local control when you have the choice.",
+      "q_he": "האם משהו מזה ימשיך לעבוד אם האינטרנט ייפול?",
+      "a_he": "מכשירים על Zigbee, Thread או אב מקומי ברובם ימשיכו לעבוד, כולל לוחות זמנים. כל דבר שתלוי בענן של היצרן בדרך כלל ייעצר. זו הסיבה הכי טובה להעדיף שליטה מקומית כשיש לכם ברירה."
+    },
+    {
+      "q": "I rent. What can I install?",
+      "a": "Plugs, bulbs, sensors and a robot vacuum all install without changing anything permanent. Thermostats and locks usually need permission, though some locks replace only the interior side and leave the existing cylinder and key untouched.",
+      "q_he": "אני שוכר. מה אפשר להתקין?",
+      "a_he": "שקעים, נורות, חיישנים ושואב רובוטי — כולם מותקנים בלי לשנות שום דבר קבוע. תרמוסטטים ומנעולים בדרך כלל דורשים אישור, אם כי חלק מהמנעולים מחליפים רק את הצד הפנימי ומשאירים את הצילינדר והמפתח הקיימים."
+    }
+  ]
+}
