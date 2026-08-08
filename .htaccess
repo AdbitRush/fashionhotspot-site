@@ -11,6 +11,12 @@
     # rewritten yet keep serving normally instead of 404ing.
     RewriteCond %{DOCUMENT_ROOT}/post-$1.html -f
     RewriteRule ^post-(.+)-2026\.html$ /post-$1.html [R=301,L]
+
+    # eco and gifts were the two weakest of the original guides and were retired
+    # rather than rewritten — they were ~160 words with no images, which is the
+    # thin-affiliate pattern Amazon rejects. Send them to the guides index so the
+    # old URLs still land somewhere useful instead of 404ing.
+    RewriteRule ^post-(eco|gifts)-2026\.html$ /posts.html [R=301,L]
 </IfModule>
 
 # ---------------------------------------------------------------------------

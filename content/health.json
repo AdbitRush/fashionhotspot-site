@@ -1,0 +1,183 @@
+{
+  "slug": "health",
+  "category": "Health",
+  "title": "Health Gadgets: What Measures Something Real",
+  "title_he": "גאדג'טים לבריאות: מה באמת מודד משהו",
+  "dek": "A sceptical look at home health devices — which produce numbers you can act on, and which produce numbers that only look precise.",
+  "dek_he": "מבט ספקני על מכשירי בריאות ביתיים — אילו מהם מייצרים מספרים שאפשר לפעול לפיהם, ואילו מייצרים מספרים שרק נראים מדויקים.",
+  "hero_image": "a calm bedside table with a blood pressure monitor, a glass of water and a folded towel in soft morning light",
+  "updated": "2026-08-08",
+  "read_minutes": 10,
+  "intro": [
+    "Home health devices sit in an awkward spot. Some are genuinely clinical instruments that happen to be affordable now, and they can change how a real condition is managed. Others produce a confident-looking number with no established accuracy behind it, and a confident wrong number is worse than no number.",
+    "So the ordering here is by how much you can trust the reading and act on it. The top of the list is regulated equipment with published validation. The bottom is wellness tracking — interesting, motivating, and not a measurement you should make decisions on.",
+    "This is important enough to say plainly: nothing on this page diagnoses, treats or prevents anything, and none of it is medical advice. These are consumer devices. If a reading concerns you, or if you have symptoms, that is a conversation with a doctor — not a reason to buy another gadget. Never change prescribed medication based on a home reading.",
+    "Prices are approximate at the time of writing."
+  ],
+  "intro_he": [
+    "מכשירי בריאות ביתיים נמצאים במקום לא נוח. חלקם מכשירים קליניים אמיתיים שבמקרה נגישים היום מבחינת מחיר, והם יכולים לשנות איך מנהלים מצב רפואי אמיתי. אחרים מייצרים מספר שנראה בטוח בלי דיוק מבוסס מאחוריו, ומספר שגוי שנראה בטוח גרוע יותר מאף מספר.",
+    "לכן הסדר כאן הוא לפי כמה אפשר לסמוך על הקריאה ולפעול לפיה. בראש הרשימה ציוד מפוקח עם אימות שפורסם. בתחתית מעקב אורח חיים — מעניין, מעודד, ולא מדידה שכדאי לקבל לפיה החלטות.",
+    "זה חשוב מספיק כדי לומר במפורש: שום דבר בעמוד הזה לא מאבחן, מטפל או מונע דבר, ואף אחד מהם אינו ייעוץ רפואי. אלה מכשירי צריכה. אם קריאה מדאיגה אתכם, או אם יש לכם תסמינים, זו שיחה עם רופא — לא סיבה לקנות עוד גאדג'ט. לעולם אל תשנו תרופות מרשם על סמך מדידה ביתית.",
+    "המחירים הם הערכה נכון לזמן הכתיבה."
+  ],
+  "how_we_pick": "We rank by how well validated the measurement is: regulated devices with published clinical validation first, consumer wellness sensors last. We rely on published validation studies, regulatory clearance status and long-run owner reports, and we have not personally tested these devices. Nothing here is medical advice and none of these products diagnoses or treats any condition.",
+  "how_we_pick_he": "אנחנו מדרגים לפי כמה המדידה מאומתת: מכשירים מפוקחים עם אימות קליני שפורסם קודם, חיישני אורח חיים צרכניים אחרונים. אנחנו נשענים על מחקרי אימות שפורסמו, על מעמד אישור רגולטורי ועל דיווחים של בעלים לאורך זמן, ולא בדקנו בעצמנו את המכשירים האלה. שום דבר כאן אינו ייעוץ רפואי ואף אחד מהמוצרים אינו מאבחן או מטפל באף מצב.",
+  "products": [
+    {
+      "name": "A validated upper-arm blood pressure monitor",
+      "name_he": "מד לחץ דם לזרוע עם אימות קליני",
+      "tag": "The one with real clinical backing",
+      "tag_he": "זה עם הגיבוי הקליני האמיתי",
+      "price": "$45–110",
+      "search": "validated upper arm blood pressure monitor",
+      "image": "an upper-arm blood pressure monitor with its cuff laid out on a wooden table",
+      "body": "This is the most useful device on the page by a wide margin, because home blood pressure readings are genuinely used by clinicians and often reflect your normal state better than a single reading taken in a surgery. Two specifics matter. Buy upper-arm, not wrist — wrist monitors are far more sensitive to position and are not recommended for routine use. And check the specific model appears on a recognised validation list, because a great many monitors on sale have never been independently validated at all. Measure the cuff against your arm; the wrong cuff size skews readings substantially.",
+      "body_he": "זה המכשיר השימושי ביותר בעמוד בפער גדול, כי קריאות לחץ דם ביתיות באמת משמשות רופאים ולעיתים קרובות משקפות את המצב הרגיל שלכם טוב יותר ממדידה בודדת במרפאה. שני דברים ספציפיים חשובים. קנו לזרוע ולא לפרק כף היד — מדי פרק כף יד רגישים הרבה יותר למיקום ולא מומלצים לשימוש שגרתי. ובדקו שהדגם הספציפי מופיע ברשימת אימות מוכרת, כי הרבה מאוד מדים שנמכרים מעולם לא אומתו באופן עצמאי. מדדו את השרוול מול הזרוע שלכם; מידת שרוול לא נכונה מטה קריאות משמעותית.",
+      "pros": ["Readings clinicians genuinely use", "Validation lists let you check a specific model", "Cheap for a regulated instrument"],
+      "cons": ["Wrong cuff size skews the numbers badly", "Wrist models are not recommended for routine use"]
+    },
+    {
+      "name": "A digital thermometer",
+      "name_he": "מדחום דיגיטלי",
+      "tag": "Boring, essential, cheap",
+      "tag_he": "משעמם, חיוני, זול",
+      "price": "$12–45",
+      "search": "digital thermometer oral fast read",
+      "image": "a slim digital thermometer resting on a folded white cloth",
+      "body": "Every home should own one, and most own one with a flat battery. The main decision is type. A simple oral or underarm digital stick is the cheapest and the most consistently accurate, and it takes a little longer. Infrared forehead and ear thermometers are much faster and far more sensitive to technique, distance and whether the person just came in from the cold — which is exactly when people use them. If you buy infrared for speed with children, take two readings and treat a surprising result as a reason to check with the stick rather than a conclusion.",
+      "body_he": "בכל בית צריך להיות אחד, ולרוב הבתים יש אחד עם סוללה ריקה. ההחלטה העיקרית היא הסוג. מדחום דיגיטלי פשוט לפה או לבית השחי הוא הזול ביותר והעקבי ביותר מבחינת דיוק, ולוקח לו קצת יותר זמן. מדחומי אינפרה-אדום למצח ולאוזן מהירים בהרבה ורגישים הרבה יותר לטכניקה, למרחק ולשאלה אם האדם בדיוק נכנס מהקור — וזה בדיוק כשמשתמשים בהם. אם אתם קונים אינפרה-אדום בשביל מהירות עם ילדים, קחו שתי מדידות והתייחסו לתוצאה מפתיעה כסיבה לבדוק עם המדחום הרגיל ולא כמסקנה.",
+      "pros": ["Cheap and genuinely necessary", "Contact digital sticks are the most consistent", "Infrared is fast for a sleeping child"],
+      "cons": ["Infrared accuracy depends heavily on technique", "The one you own probably needs a battery"]
+    },
+    {
+      "name": "A pulse oximeter",
+      "name_he": "מד רוויון חמצן",
+      "tag": "Useful, with a known limitation",
+      "tag_he": "שימושי, עם מגבלה ידועה",
+      "price": "$25–60",
+      "search": "fingertip pulse oximeter",
+      "image": "a small fingertip pulse oximeter clipped onto a finger, resting on a table",
+      "body": "A fingertip oximeter estimates blood oxygen saturation and is a genuinely useful home device, particularly for people managing a known respiratory condition under medical guidance. One limitation is well documented and worth knowing before you rely on it: these devices have been found to overestimate saturation in people with darker skin, meaning a reading can look reassuring when it is not. Cold hands, nail polish and movement also skew readings. Treat it as one input among several — how someone looks and how breathless they are matters more than the number, and symptoms always warrant a call regardless of what it says.",
+      "body_he": "מד רוויון לקצה האצבע מעריך את רוויון החמצן בדם והוא מכשיר ביתי שימושי באמת, במיוחד לאנשים שמנהלים מצב נשימתי ידוע בהנחיה רפואית. מגבלה אחת מתועדת היטב ושווה לדעת אותה לפני שסומכים עליו: נמצא שהמכשירים האלה מעריכים ביתר את הרוויון אצל אנשים עם עור כהה יותר, כלומר קריאה יכולה להיראות מרגיעה כשהיא לא. גם ידיים קרות, לק וזוזים מטים קריאות. תתייחסו אליו כקלט אחד מכמה — איך שמישהו נראה וכמה הוא מתנשם חשובים יותר מהמספר, ותסמינים תמיד מצדיקים פנייה בלי קשר למה שהוא מראה.",
+      "pros": ["Genuinely useful under medical guidance", "Cheap and immediate", "Also gives a pulse reading"],
+      "cons": ["Documented overestimation on darker skin tones", "Cold hands, polish and movement skew readings"]
+    },
+    {
+      "name": "A smart scale, used for the trend only",
+      "name_he": "משקל חכם, לשימוש במגמה בלבד",
+      "tag": "Trust the line, not the number",
+      "tag_he": "תסמכו על הקו, לא על המספר",
+      "price": "$35–90",
+      "search": "smart bathroom scale bluetooth trend",
+      "image": "a slim glass bathroom scale on a tiled floor in soft daylight",
+      "body": "Weight fluctuates by a couple of kilos across a day from water, food and salt, so a single reading tells you very little and a daily reading can be actively demoralising for no good reason. What a connected scale does well is plot the trend, and the trend over weeks is the only part that means anything. The body fat percentage these report is derived from a small electrical current and is not accurate in absolute terms — it can be loosely useful as a direction of travel, and should not be treated as a measurement. If weight tracking is unhelpful for your relationship with food, skipping this entirely is a reasonable choice.",
+      "body_he": "המשקל משתנה בכמה קילוגרמים לאורך יום ממים, אוכל ומלח, אז מדידה בודדת אומרת מעט מאוד ומדידה יומית יכולה להיות ממש מדכאת בלי סיבה טובה. מה שמשקל מחובר עושה טוב זה לשרטט את המגמה, והמגמה לאורך שבועות היא החלק היחיד שאומר משהו. אחוז שומן הגוף שהם מדווחים נגזר מזרם חשמלי קטן והוא לא מדויק במונחים מוחלטים — הוא יכול להיות שימושי באופן רופף ככיוון תנועה, ולא צריך להתייחס אליו כמדידה. אם מעקב משקל לא מועיל ליחסים שלכם עם אוכל, לוותר על זה לגמרי זו בחירה סבירה.",
+      "pros": ["The multi-week trend is the useful output", "Automatic logging removes the manual step", "Cheap"],
+      "cons": ["Body fat percentage is not an accurate measurement", "Daily weighing is demoralising and uninformative"]
+    },
+    {
+      "name": "A SAD lamp, if your winters are dark",
+      "name_he": "מנורת אור יום, אם החורף שלכם חשוך",
+      "tag": "Check the lux figure",
+      "tag_he": "בדקו את נתון הלוקס",
+      "price": "$60–160",
+      "search": "10000 lux SAD light therapy lamp",
+      "image": "a slim white light therapy lamp on a desk beside a coffee cup in the early morning",
+      "body": "Bright light in the morning is one of the better-supported non-drug approaches for seasonal low mood in dark climates, and it also helps shift a body clock that has drifted late. The specification that matters is 10,000 lux at the distance you will actually sit — many lamps quote that figure at a distance nobody uses, so check the stated working distance rather than the headline number. Use it in the morning for twenty to thirty minutes; evening use can push your sleep later. Speak to a doctor first if you have bipolar disorder, an eye condition, or take photosensitising medication.",
+      "body_he": "אור בהיר בבוקר הוא אחת הגישות הלא-תרופתיות המבוססות יותר למצב רוח ירוד עונתי באקלים חשוך, והוא גם עוזר להזיז שעון ביולוגי שנדחף מאוחר. המפרט שחשוב הוא 10,000 לוקס במרחק שבו באמת תשבו — הרבה מנורות מצטטות את הנתון הזה במרחק שאף אחד לא משתמש בו, אז בדקו את מרחק העבודה המצוין ולא את המספר בכותרת. השתמשו בה בבוקר עשרים עד שלושים דקות; שימוש בערב יכול לדחוף את השינה מאוחר יותר. דברו קודם עם רופא אם יש לכם הפרעה דו-קוטבית, מצב עיניים, או שאתם נוטלים תרופות שמגבירות רגישות לאור.",
+      "pros": ["One of the better-supported non-drug options", "Also useful for shifting a late body clock", "No consumables"],
+      "cons": ["Lux figures are quoted at unrealistic distances", "Evening use can delay sleep; check with a doctor first"]
+    },
+    {
+      "name": "A humidifier, if the air is genuinely dry",
+      "name_he": "מכשיר אדים, אם האוויר באמת יבש",
+      "tag": "Buy a hygrometer first",
+      "tag_he": "קנו קודם מד לחות",
+      "price": "$50–130",
+      "search": "cool mist humidifier bedroom",
+      "image": "a simple white humidifier releasing a soft plume of vapour in a bedroom corner",
+      "body": "Dry indoor air genuinely contributes to a scratchy throat, dry skin and disturbed sleep, particularly with heating running all winter. But most people have no idea what their humidity actually is, and running a humidifier in an already-damp room causes mould rather than solving anything. Spend a few pounds on a hygrometer first and see whether you are below about forty percent. If you do buy one, cleaning is not optional — an uncleaned tank aerosolises bacteria into the room you sleep in, which is a genuinely worse outcome than dry air. Choose a model you can actually get your hand inside.",
+      "body_he": "אוויר יבש בבית באמת תורם לגרון מגרד, לעור יבש ולשינה מופרעת, במיוחד כשההסקה עובדת כל החורף. אבל לרוב האנשים אין מושג מה הלחות שלהם בפועל, והפעלת מכשיר אדים בחדר שכבר לח גורמת לעובש במקום לפתור משהו. תוציאו כמה שקלים על מד לחות קודם ותראו אם אתם מתחת לארבעים אחוז בערך. אם אתם כן קונים, ניקוי הוא לא אופציונלי — מיכל שלא מנוקה מרסס חיידקים לחדר שאתם ישנים בו, וזו תוצאה גרועה יותר מאוויר יבש. בחרו דגם שאפשר באמת להכניס אליו יד.",
+      "pros": ["Real benefit in genuinely dry heated air", "A cheap hygrometer tells you if you need one", "Helps sleep and skin in winter"],
+      "cons": ["An uncleaned tank spreads bacteria into the room", "Useless or harmful if the room is already damp"]
+    },
+    {
+      "name": "A weekly pill organiser",
+      "name_he": "מארגן תרופות שבועי",
+      "tag": "Least glamorous, most effective",
+      "tag_he": "הכי פחות זוהר, הכי יעיל",
+      "price": "$10–30",
+      "search": "weekly pill organiser am pm",
+      "image": "a weekly pill organiser with labelled compartments on a kitchen worktop",
+      "body": "Nothing else on this page comes close to this for practical value per shekel. Not taking medication as prescribed is an enormous and very ordinary problem, and most of it is not a decision — it is simply forgetting, or genuinely not remembering whether you took the morning dose. A box with visible compartments answers that question at a glance. Get one with separate morning and evening sections if you take doses at different times. Fill it on the same day each week, and keep it somewhere tied to an existing habit like the kettle rather than in a cupboard.",
+      "body_he": "שום דבר אחר בעמוד הזה לא מתקרב לזה מבחינת ערך מעשי לכל שקל. אי-נטילת תרופות כמו שנרשם היא בעיה עצומה ורגילה לגמרי, ורובה אינה החלטה — היא פשוט שכחה, או באמת לא לזכור אם לקחתם את מנת הבוקר. קופסה עם תאים גלויים עונה על השאלה הזאת במבט אחד. קחו כזו עם תאי בוקר וערב נפרדים אם אתם לוקחים מנות בזמנים שונים. מלאו אותה באותו יום כל שבוע, ושמרו אותה במקום שקשור להרגל קיים כמו הקומקום ולא בארון.",
+      "pros": ["Enormous practical value for the price", "Answers 'did I take it?' at a glance", "Nothing to charge or maintain"],
+      "cons": ["Only works if refilled on a fixed day", "Not suitable for medicines needing original packaging"]
+    },
+    {
+      "name": "A fitness tracker, for trends not diagnostics",
+      "name_he": "צמיד כושר, למגמות ולא לאבחון",
+      "tag": "Motivating, not medical",
+      "tag_he": "מעודד, לא רפואי",
+      "price": "$70–200",
+      "search": "fitness tracker sleep heart rate",
+      "image": "a slim fitness tracker with a fabric band lying on a pale linen surface",
+      "body": "Trackers are good at two things: counting steps, which is a reasonable proxy for daily movement, and making you slightly more aware of how much you move. That awareness is the actual mechanism, and it is worth something. Be sceptical of the rest. Sleep staging from a wrist device does not match what a sleep lab measures, calorie burn estimates carry large errors, and stress scores are largely derived from heart rate variability with a confident label attached. Use it to notice trends over weeks. If it makes you anxious about your sleep — a well-recognised effect — take it off at night.",
+      "body_he": "צמידים טובים בשני דברים: לספור צעדים, שזה מדד סביר לתנועה יומית, ולגרום לכם להיות קצת יותר מודעים לכמה אתם זזים. המודעות הזאת היא המנגנון האמיתי, והיא שווה משהו. תהיו ספקנים לגבי השאר. חלוקת שלבי שינה ממכשיר על פרק היד לא תואמת את מה שמעבדת שינה מודדת, הערכות שריפת קלוריות נושאות טעויות גדולות, וציוני לחץ נגזרים ברובם משונות קצב הלב עם תווית בטוחה מוצמדת. השתמשו בו כדי לשים לב למגמות לאורך שבועות. אם הוא גורם לכם לחרדה לגבי השינה — אפקט מוכר היטב — תורידו אותו בלילה.",
+      "pros": ["Step counts are a fair proxy for daily movement", "Awareness itself changes behaviour", "Long battery life on most models"],
+      "cons": ["Sleep staging and calorie burn are not accurate", "Can create genuine anxiety about sleep"]
+    },
+    {
+      "name": "A blackout blind or a good sleep mask",
+      "name_he": "וילון האפלה או מסכת שינה טובה",
+      "tag": "Beats most sleep gadgets",
+      "tag_he": "מנצח את רוב גאדג'טי השינה",
+      "price": "$20–120",
+      "search": "blackout blind bedroom or contoured sleep mask",
+      "image": "a dark bedroom with a blackout blind drawn and a contoured sleep mask on the bedside table",
+      "body": "Of everything sold to improve sleep, darkness has among the strongest evidence and the lowest price. Light suppresses melatonin and light leaking around a thin curtain at 5am in summer is a common and entirely fixable cause of early waking. A blackout blind fitted inside the window recess is the proper solution; a contoured sleep mask that does not press on the eyes costs a fraction and travels. Either will do more for most people than a sleep tracker, an app or a supplement — which is worth saying, because those are what get marketed and this is not.",
+      "body_he": "מכל מה שנמכר לשיפור שינה, לחושך יש מהראיות החזקות ביותר והמחיר הנמוך ביותר. אור מדכא מלטונין, ואור שדולף סביב וילון דק בחמש בבוקר בקיץ הוא סיבה נפוצה ולגמרי ניתנת לתיקון להתעוררות מוקדמת. וילון האפלה שמותקן בתוך גומחת החלון הוא הפתרון הנכון; מסכת שינה מעוצבת שלא לוחצת על העיניים עולה שבריר מזה וגם נוסעת. כל אחת מהן תעשה לרוב האנשים יותר מצמיד שינה, מאפליקציה או מתוסף — וזה שווה אמירה, כי אלה מה שמשווקים וזה לא.",
+      "pros": ["Strong evidence, very low cost", "Fixes early summer waking directly", "A mask travels and costs almost nothing"],
+      "cons": ["Blinds need measuring and fitting", "Flat masks press on the eyes — get a contoured one"]
+    },
+    {
+      "name": "A percussive massage gun",
+      "name_he": "אקדח עיסוי",
+      "tag": "Feels good, claims outrun evidence",
+      "tag_he": "מרגיש טוב, ההבטחות עוקפות את הראיות",
+      "price": "$80–250",
+      "search": "percussive massage gun quiet",
+      "image": "a handheld percussive massage device resting in its case on a wooden floor beside a mat",
+      "body": "These reliably feel good and can temporarily increase range of motion and reduce the sensation of muscle soreness, which is a real if modest benefit. What the evidence does not support is the larger marketing story about flushing lactic acid, accelerating recovery or breaking down adhesions. Judge it as a pleasant, convenient self-massage tool and it is decent value; judge it by the claims on the box and you will be disappointed. Avoid bone, joints, the neck and any area that is injured, swollen or numb, and talk to a doctor before using one if you take blood thinners or have a clotting condition.",
+      "body_he": "הם באמת מרגישים טוב ויכולים להגדיל זמנית טווח תנועה ולהפחית את תחושת הכאב בשרירים, וזו תועלת אמיתית גם אם צנועה. מה שהראיות לא תומכות בו הוא הסיפור השיווקי הגדול יותר על שטיפת חומצת חלב, האצת התאוששות או פירוק הידבקויות. תשפטו אותו ככלי עיסוי עצמי נעים ונוח והוא תמורה סבירה; תשפטו אותו לפי ההבטחות על הקופסה ותתאכזבו. הימנעו מעצם, ממפרקים, מהצוואר ומכל אזור פצוע, נפוח או חסר תחושה, ודברו עם רופא לפני שימוש אם אתם נוטלים מדללי דם או עם הפרעת קרישה.",
+      "pros": ["Genuinely pleasant and convenient", "Temporary range-of-motion and soreness benefit", "Reaches areas a foam roller cannot"],
+      "cons": ["Recovery and lactic acid claims are unsupported", "Not for bone, joints, neck or injured areas"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are smartwatch health features accurate?",
+      "a": "Heart rate at rest is generally good, and ECG features on cleared devices have real validation. Sleep staging, calorie burn and stress scores are estimates with large error margins — useful as trends, not as measurements.",
+      "q_he": "האם פיצ'רי הבריאות בשעונים חכמים מדויקים?",
+      "a_he": "דופק במנוחה בדרך כלל טוב, ולפיצ'רי אק\"ג במכשירים מאושרים יש אימות אמיתי. חלוקת שלבי שינה, שריפת קלוריות וציוני לחץ הם הערכות עם טווחי טעות גדולים — שימושיים כמגמות, לא כמדידות."
+    },
+    {
+      "q": "Which single device is most worth owning?",
+      "a": "A validated upper-arm blood pressure monitor, if it is relevant to you. It is the one device here whose readings a clinician will genuinely use, and high blood pressure has no symptoms until it matters a great deal.",
+      "q_he": "איזה מכשיר בודד הכי שווה להחזיק?",
+      "a_he": "מד לחץ דם לזרוע עם אימות קליני, אם זה רלוונטי לכם. זה המכשיר היחיד כאן שרופא באמת ישתמש בקריאות שלו, וללחץ דם גבוה אין תסמינים עד שהוא משנה מאוד."
+    },
+    {
+      "q": "My device gave me a worrying reading. What should I do?",
+      "a": "Take it again, correctly, after sitting quietly for five minutes — technique errors are common. If it stays abnormal, or you have symptoms, contact a doctor. Do not change any prescribed medication based on a home reading.",
+      "q_he": "המכשיר נתן לי קריאה מדאיגה. מה לעשות?",
+      "a_he": "מדדו שוב, נכון, אחרי חמש דקות של ישיבה בשקט — טעויות טכניקה נפוצות. אם זה נשאר חריג, או אם יש לכם תסמינים, פנו לרופא. אל תשנו שום תרופת מרשם על סמך מדידה ביתית."
+    },
+    {
+      "q": "What is the most overrated health gadget?",
+      "a": "Anything promising detox, and posture-correcting wearables. Also most sleep-tracking rings and bands for people who already sleep fine — for some users the tracking itself becomes a source of anxiety about sleep.",
+      "q_he": "מהו גאדג'ט הבריאות הכי מוערך יתר על המידה?",
+      "a_he": "כל דבר שמבטיח ניקוי רעלים, ומכשירים לבישים לתיקון יציבה. וגם רוב טבעות וצמידי מעקב השינה לאנשים שכבר ישנים בסדר — אצל חלק מהמשתמשים המעקב עצמו הופך למקור חרדה לגבי השינה."
+    }
+  ]
+}

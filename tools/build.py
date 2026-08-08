@@ -111,7 +111,7 @@ def page(title, desc, body, *, canonical, he=False, extra_head="", og_image=None
 <meta property="og:url" content="{e(canonical)}">
 <meta property="og:site_name" content="{BRAND}">{og}
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
 {fonts}
 <style>{CSS}</style>

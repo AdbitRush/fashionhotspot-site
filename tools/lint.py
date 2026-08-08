@@ -77,10 +77,21 @@ def latin_in_hebrew(text):
     if not re.search(f"[{HEB}]", text):
         return []
     bad = []
+    heb = re.compile(f"[{HEB}]")
     for m in re.finditer(r"[A-Za-z][A-Za-z'\-]*", text):
         tok = m.group()
         before = text[m.start() - 1:m.start()]
         after = text[m.end():m.end() + 1]
+
+        # A Latin run welded directly onto a Hebrew word — no space either side —
+        # is a keyboard slip, not a brand name. This is how "ים-תיכוniים" and
+        # "שולchan" get in, and both are short enough to duck the length rule
+        # below, so check adjacency first and ignore length entirely.
+        if heb.match(before or "") or heb.match(after or ""):
+            s, e = max(0, m.start() - 30), min(len(text), m.end() + 30)
+            bad.append((tok, text[s:e]))
+            continue
+
         if tok.lower() in LATIN_TECH:
             continue
         if not tok.islower() or len(tok) < 3:

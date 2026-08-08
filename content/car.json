@@ -1,0 +1,183 @@
+{
+  "slug": "car",
+  "category": "Car",
+  "title": "Car Accessories Worth Keeping in the Boot",
+  "title_he": "אביזרי רכב ששווה להחזיק בתא המטען",
+  "dek": "Ten things ranked by what they save you on the worst day, not the best one.",
+  "dek_he": "עשרה פריטים מדורגים לפי מה שהם חוסכים לכם ביום הגרוע, לא בטוב.",
+  "hero_image": "a clean car interior photographed from the passenger side in warm afternoon light, with a phone mount on the dashboard",
+  "updated": "2026-08-08",
+  "read_minutes": 9,
+  "intro": [
+    "Car accessories divide cleanly into two groups: things that make driving marginally nicer, and things that stop a bad day becoming a much worse one. The second group is small, cheap and boring, and it is where the top of this list sits.",
+    "Everything here is ordered by consequence. A jump starter matters once every few years and matters enormously on that day. A cup holder insert never matters. Both get sold with the same enthusiasm.",
+    "One note on legality that varies by country: rules on what may obstruct your windscreen, whether dashcams may record audio, and what safety equipment you are required to carry all differ. Check your local rules rather than assuming — several items here are mandatory in some countries and restricted in others.",
+    "Prices are approximate at the time of writing."
+  ],
+  "intro_he": [
+    "אביזרי רכב מתחלקים נקי לשתי קבוצות: דברים שהופכים נהיגה לנעימה קצת יותר, ודברים שמונעים מיום גרוע להפוך לגרוע הרבה יותר. הקבוצה השנייה קטנה, זולה ומשעממת, ושם יושב ראש הרשימה הזאת.",
+    "הכול כאן מסודר לפי השלכות. מצבר עזר משנה פעם בכמה שנים ומשנה עצומות ביום ההוא. מתאם למחזיק כוסות אף פעם לא משנה. שניהם נמכרים באותה התלהבות.",
+    "הערה אחת על חוקיות שמשתנה בין מדינות: הכללים לגבי מה מותר שיחסום את השמשה, האם מצלמות דרך רשאיות להקליט קול, ואיזה ציוד בטיחות אתם חייבים לשאת — כולם שונים. בדקו את הכללים המקומיים במקום להניח; כמה פריטים כאן הם חובה בחלק מהמדינות ומוגבלים באחרות.",
+    "המחירים הם הערכה נכון לזמן הכתיבה."
+  ],
+  "how_we_pick": "We rank by consequence — what a thing saves you on the worst day it is needed. We rely on published testing, safety standards and long-run owner reports, and we have not personally used every item here. Where local law varies we say so rather than giving advice that only applies in one country.",
+  "how_we_pick_he": "אנחנו מדרגים לפי השלכות — מה פריט חוסך לכם ביום הגרוע ביותר שבו צריך אותו. אנחנו נשענים על בדיקות שפורסמו, על תקני בטיחות ועל דיווחים של בעלים לאורך זמן, ולא השתמשנו בעצמנו בכל פריט כאן. איפה שהחוק המקומי משתנה נגיד את זה במקום לתת עצה שתקפה רק במדינה אחת.",
+  "products": [
+    {
+      "name": "A lithium jump starter",
+      "name_he": "מצבר עזר ליתיום",
+      "tag": "The one that rescues a bad day",
+      "tag_he": "זה שמציל יום גרוע",
+      "price": "$70–150",
+      "search": "lithium jump starter portable car battery booster",
+      "image": "a compact lithium jump starter with clamps resting in an open car boot",
+      "body": "A flat battery used to mean waiting for someone kind with jump leads, and a modern lithium pack the size of a paperback removes that dependency entirely. It also doubles as a large power bank, so it earns its space rather than just occupying it. Match the peak amp rating to your engine — petrol engines need less than diesels, and a unit rated for a small hatchback will not turn over a large diesel. Charge it every three to six months, because the one guaranteed way for this to fail you is to be sitting flat in the boot when you need it.",
+      "body_he": "מצבר ריק היה פעם אומר לחכות למישהו נחמד עם כבלי התנעה, וחבילת ליתיום מודרנית בגודל ספר כיס מסלקת את התלות הזאת לגמרי. היא גם משמשת כסוללת גיבוי גדולה, אז היא מצדיקה את המקום שלה במקום רק לתפוס אותו. התאימו את דירוג האמפר לשיא למנוע שלכם — מנועי בנזין צריכים פחות מדיזל, ויחידה שמדורגת למכונית קטנה לא תניע דיזל גדול. תטעינו אותה כל שלושה עד שישה חודשים, כי הדרך המובטחת היחידה שזה ייכשל לכם היא שהיא תשב ריקה בתא המטען בדיוק כשתצטרכו אותה.",
+      "pros": ["Removes dependence on a passing stranger", "Doubles as a large power bank", "Small enough to live in the boot permanently"],
+      "cons": ["Useless if you forget to charge it", "Amp rating must match your engine size"]
+    },
+    {
+      "name": "A tyre inflator with a pressure gauge",
+      "name_he": "מדחס אוויר עם מד לחץ",
+      "tag": "Safety and fuel economy",
+      "tag_he": "בטיחות וחיסכון בדלק",
+      "price": "$40–90",
+      "search": "portable tyre inflator digital preset shutoff",
+      "image": "a small digital tyre inflator connected to a car tyre on a driveway",
+      "body": "Under-inflated tyres wear faster, use more fuel, handle worse and are more likely to fail — and almost nobody checks them monthly as recommended, because it means a trip to a garage forecourt. A compressor in the boot removes that friction, so it actually happens. Get one with a digital preset that shuts off automatically at the target pressure; the ones you have to watch get used once. Check pressures cold, before driving, since a warm tyre reads high. Note this handles slow punctures and low pressure, not a blowout.",
+      "body_he": "צמיגים בלחץ נמוך נשחקים מהר יותר, צורכים יותר דלק, מתנהגים גרוע יותר ונוטים יותר לכשל — וכמעט אף אחד לא בודק אותם חודשית כמומלץ, כי זה אומר נסיעה לתחנה. מדחס בתא המטען מסיר את החיכוך הזה, אז זה באמת קורה. קחו כזה עם הגדרה דיגיטלית מראש שנכבית אוטומטית בלחץ היעד; אלה שצריך לשמור עליהם בעין משמשים פעם אחת. בדקו לחץ בצמיגים קרים, לפני נסיעה, כי צמיג חם מראה גבוה. שימו לב שזה מטפל בתקר איטי ובלחץ נמוך, לא בפיצוץ.",
+      "pros": ["Removes the friction that stops people checking", "Auto shut-off means you can walk away", "Pays for itself in tyre life and fuel"],
+      "cons": ["Read pressures cold or they are wrong", "Not a solution for a blowout"]
+    },
+    {
+      "name": "A dashcam with a parking mode",
+      "name_he": "מצלמת דרך עם מצב חניה",
+      "tag": "Insurance you hope never to use",
+      "tag_he": "ביטוח שאתם מקווים לא להשתמש בו",
+      "price": "$90–250",
+      "search": "dash cam 1440p parking mode capacitor",
+      "image": "a small dashcam mounted discreetly behind a rear view mirror in a car",
+      "body": "The value of a dashcam is entirely in the one disputed incident where footage settles who did what. Buy one with a capacitor rather than a lithium battery, because a car interior in summer gets hot enough to degrade and swell a battery. 1440p is the practical minimum to read a number plate at distance, which is the whole point. Two things to check locally: some countries restrict recording audio inside the car, and several regulate where a device may sit on the windscreen. Parking mode needs hardwiring to work properly.",
+      "body_he": "הערך של מצלמת דרך נמצא כולו באירוע השנוי במחלוקת האחד שבו הצילום קובע מי עשה מה. קנו כזו עם קבל ולא עם סוללת ליתיום, כי פנים רכב בקיץ מתחמם מספיק כדי לפגוע בסוללה ולנפח אותה. 1440p היא המינימום המעשי כדי לקרוא לוחית רישוי ממרחק, וזו כל המטרה. שני דברים לבדוק מקומית: חלק מהמדינות מגבילות הקלטת קול בתוך הרכב, וכמה מסדירות איפה מכשיר יכול לשבת על השמשה. מצב חניה דורש חיווט קבוע כדי לעבוד כמו שצריך.",
+      "pros": ["Settles disputed incidents definitively", "Capacitor models survive summer heat", "Parking mode captures car park damage"],
+      "cons": ["Audio recording and placement are regulated in some countries", "Parking mode needs hardwiring"]
+    },
+    {
+      "name": "A magnetic or vent phone mount",
+      "name_he": "מעמד טלפון מגנטי או למפוח",
+      "tag": "Safety, not convenience",
+      "tag_he": "בטיחות, לא נוחות",
+      "price": "$20–45",
+      "search": "magnetic car phone mount vent",
+      "image": "a compact magnetic phone mount attached to a car air vent holding a phone",
+      "body": "Handling a phone while driving is illegal in most places and dangerous everywhere, and a mount at eye line means navigation becomes a glance rather than a look down into your lap. Magnetic mounts dock one-handed, which matters because a mount that needs two hands to operate defeats its own purpose. Position it so it does not obstruct your view of the road — windscreen placement is regulated in several countries. If your phone has a magnetic ring built in, use a mount that engages it; otherwise a metal plate under the case works fine.",
+      "body_he": "אחיזה בטלפון בזמן נהיגה אסורה ברוב המקומות ומסוכנת בכל מקום, ומעמד בגובה העיניים אומר שניווט הופך למבט חטוף במקום להסתכלות למטה אל החיק. מעמדים מגנטיים מתחברים ביד אחת, וזה חשוב כי מעמד שדורש שתי ידיים מבטל את המטרה של עצמו. מקמו אותו כך שלא יחסום את שדה הראייה שלכם — מיקום על השמשה מוסדר בחוק בכמה מדינות. אם לטלפון שלכם יש טבעת מגנטית מובנית, קחו מעמד שנצמד אליה; אחרת פלטת מתכת מתחת לכיסוי עובדת מצוין.",
+      "pros": ["Keeps your eyes near the road", "One-handed docking", "Cheap for what it prevents"],
+      "cons": ["Windscreen placement is regulated in some countries", "Vent mounts sag on soft vanes"]
+    },
+    {
+      "name": "A reflective warning triangle and hi-vis vest",
+      "name_he": "משולש אזהרה ואפוד זוהר",
+      "tag": "Often legally required",
+      "tag_he": "לעיתים קרובות חובה בחוק",
+      "price": "$15–35",
+      "search": "reflective warning triangle hi vis vest car",
+      "image": "a folded reflective warning triangle and a yellow hi-vis vest in a car boot",
+      "body": "In many countries these are not accessories, they are legally required equipment, and in several you can be fined for not carrying them. Beyond the legal point, standing on a verge at night in dark clothes is genuinely one of the more dangerous things a driver ever does, and a vest changes how far away you are visible by a very large margin. Keep the vest in the cabin rather than the boot — the moment you need it is before you get out of the car, not after you have walked around to the back of it on a live carriageway.",
+      "body_he": "בהרבה מדינות אלה לא אביזרים אלא ציוד שנדרש בחוק, ובכמה מהן אפשר לקבל קנס על אי-נשיאה. מעבר לנקודה החוקית, לעמוד בשולי כביש בלילה בבגדים כהים זה באמת אחד הדברים המסוכנים ביותר שנהג עושה, ואפוד משנה בפער עצום מאיזה מרחק רואים אתכם. שמרו את האפוד בתא הנוסעים ולא בתא המטען — הרגע שבו אתם צריכים אותו הוא לפני שאתם יוצאים מהרכב, לא אחרי שהקפתם אותו לאחור על כביש פעיל.",
+      "pros": ["Legally required in many countries", "Dramatically increases how far away you are seen", "Costs almost nothing"],
+      "cons": ["Useless in the boot — keep the vest in the cabin", "Requirements vary between countries"]
+    },
+    {
+      "name": "A proper car phone charger",
+      "name_he": "מטען רכב הגון",
+      "tag": "Where cheap is a real risk",
+      "tag_he": "איפה שזול הוא סיכון אמיתי",
+      "price": "$18–40",
+      "search": "car charger USB-C PD 45W dual port",
+      "image": "a compact dual-port car charger plugged into a socket in a car console",
+      "body": "The socket chargers sold at petrol stations are among the worst-made electronics anyone buys, and they sit permanently in a powered socket in an enclosed space where nobody would notice them overheating. A branded USB-C power delivery unit charges a phone at full speed while navigation and the screen are both running — which a cheap one cannot manage, so your battery slowly drains while it is plugged in. That is a genuinely common and confusing complaint, and the charger is almost always the cause rather than the phone. Look for a recognised safety certification mark on the body itself, not just the packaging. Two ports is worth the small premium, because the passenger will always ask, and older cars may not supply enough current to run both at full speed anyway.",
+      "body_he": "המטענים לשקע שנמכרים בתחנות דלק הם מהאלקטרוניקה הגרועה ביותר שאנשים קונים, והם יושבים באופן קבוע בשקע מחושמל בחלל סגור. יחידת USB-C עם הזנת חשמל ממותגת טוענת טלפון במהירות מלאה בזמן שניווט רץ — מה שזול לא יכול, ולכן הסוללה שלכם מתרוקנת בזמן שהיא מחוברת, וזו תלונה נפוצה ומבלבלת באמת. חפשו סימן תקן מוכר. שתי יציאות שוות את התוספת הקטנה, כי הנוסע יבקש.",
+      "pros": ["Actually charges while navigation runs", "Branded units carry real safety certification", "Two ports for the price of one"],
+      "cons": ["The cheapest units are a genuine safety risk", "Older cars may not supply enough current"]
+    },
+    {
+      "name": "All-weather rubber floor mats",
+      "name_he": "שטיחוני גומי לכל מזג אוויר",
+      "tag": "Protects resale value",
+      "tag_he": "מגן על ערך המכירה",
+      "price": "$60–150",
+      "search": "all weather rubber car floor mats custom fit",
+      "image": "a set of black rubber car floor mats with raised edges laid out on a garage floor",
+      "body": "Carpet in a footwell absorbs everything and never fully recovers, and a stained interior takes a real bite out of what a car sells for. Rubber mats with a raised lip contain mud, snowmelt and spilled coffee, and they hose off in a minute. Buy mats cut for your specific model rather than universal ones — the universal type slides forward and can foul the pedals, which is a genuine hazard and the reason retaining clips exist. Check yours sit on the factory anchor points and cannot creep.",
+      "body_he": "שטיח בתא הרגליים סופג הכול ולעולם לא מתאושש לגמרי, ופנים מוכתם לוקח נגיסה אמיתית ממה שרכב נמכר בו. שטיחוני גומי עם שפה מוגבהת מכילים בוץ, שלג נמס וקפה שנשפך, ושוטפים אותם בצינור תוך דקה. קנו שטיחונים חתוכים לדגם הספציפי שלכם ולא אוניברסליים — הסוג האוניברסלי מחליק קדימה ויכול להיתקע בדוושות, וזו סכנה אמיתית וזו הסיבה שיש קליפסים מקבעים. ודאו שהשטיחונים שלכם יושבים על נקודות העיגון המקוריות ולא יכולים לזחול.",
+      "pros": ["Protects resale value meaningfully", "Hoses clean in under a minute", "Contains snow, mud and spills"],
+      "cons": ["Universal mats can slide and foul the pedals", "Model-specific sets cost more"]
+    },
+    {
+      "name": "A boot organiser",
+      "name_he": "מארגן לתא מטען",
+      "tag": "Stops everything rolling",
+      "tag_he": "מונע מהכול להתגלגל",
+      "price": "$30–60",
+      "search": "collapsible car boot organizer",
+      "image": "a collapsible fabric boot organiser holding shopping bags in a car boot",
+      "body": "A collapsible fabric organiser with dividers keeps shopping upright and stops loose items sliding across the boot on every roundabout, which is the noise everyone recognises. The ones with a non-slip base or velcro strips actually stay put; the ones without slide around and become part of the problem they were bought to solve. It also folds flat in seconds when you need the full boot for something large. This is a comfort item rather than a safety one, but it earns its place by being used on every single shopping trip.",
+      "body_he": "מארגן בד מתקפל עם מחיצות שומר על קניות זקופות ומונע מפריטים חופשיים להחליק ברחבי תא המטען בכל כיכר, וזה הרעש שכולם מזהים. אלה עם בסיס נגד החלקה או פסי סקוץ' באמת נשארים במקום; אלה בלי מחליקים והופכים לחלק מהבעיה שבשבילה נקנו. הוא גם מתקפל שטוח תוך שניות כשצריך את כל תא המטען למשהו גדול. זה פריט נוחות ולא בטיחות, אבל הוא מצדיק את מקומו בכך שמשתמשים בו בכל נסיעת קניות.",
+      "pros": ["Shopping arrives upright", "Folds flat when you need the full boot", "Used on essentially every trip"],
+      "cons": ["Without a non-slip base it slides too", "Takes up space when not needed"]
+    },
+    {
+      "name": "A microfibre cloth set and a screen wipe",
+      "name_he": "סט מטליות מיקרופייבר וממחטות למסך",
+      "tag": "Cheapest visibility improvement",
+      "tag_he": "שיפור הראות הזול ביותר",
+      "price": "$12–25",
+      "search": "microfibre cloths car interior glass",
+      "image": "a stack of folded microfibre cloths in muted colours on a car seat",
+      "body": "The film that builds up on the inside of a windscreen scatters oncoming headlights and low sun badly, and most drivers only notice how bad it was after cleaning it. A couple of microfibre cloths kept in the door pocket cost almost nothing and improve night visibility more than any bulb upgrade. Keep one cloth for glass and a separate one for everything else, because a cloth that has touched dashboard polish will smear glass persistently. Wipe the inside of the windscreen roughly monthly and you will notice the difference the first time you drive into low sun.",
+      "body_he": "הציפוי שנבנה על הצד הפנימי של השמשה מפזר פנסים מולכם ושמש נמוכה בצורה גרועה, ורוב הנהגים שמים לב כמה זה היה גרוע רק אחרי שניקו. שתי מטליות מיקרופייבר בכיס הדלת עולות כמעט כלום ומשפרות ראות לילה יותר מכל שדרוג נורות. שמרו מטלית אחת לזכוכית ואחרת נפרדת לכל השאר, כי מטלית שנגעה בפוליש לדשבורד תמרח את הזכוכית באופן עקשני. נגבו את הצד הפנימי של השמשה בערך פעם בחודש ותרגישו את ההבדל בפעם הראשונה שתיסעו אל תוך שמש נמוכה.",
+      "pros": ["Improves night visibility for almost nothing", "Better return than a headlight upgrade", "Takes two minutes a month"],
+      "cons": ["A polish-contaminated cloth smears glass badly", "Needs washing separately from other laundry"]
+    },
+    {
+      "name": "A sunshade for the windscreen",
+      "name_he": "מגן שמש לשמשה הקדמית",
+      "tag": "Small thing, hot climates",
+      "tag_he": "דבר קטן, אקלים חם",
+      "price": "$20–45",
+      "search": "car windscreen sunshade reflective foldable",
+      "image": "a reflective folding sunshade propped inside a car windscreen on a sunny day",
+      "body": "In a hot climate a parked car reaches temperatures that make the first ten minutes of any journey unpleasant and that visibly degrade a dashboard over a few summers — cracking, fading and warping are largely a UV and heat story. A reflective shade cuts the worst of it for the price of a couple of coffees. The concertina-folding type is far easier to store and deploy than the twist-to-fold spring type, which everyone struggles with. Measure your windscreen; a shade that is too small leaves a hot strip across the dashboard and does half a job.",
+      "body_he": "באקלים חם רכב חונה מגיע לטמפרטורות שהופכות את עשר הדקות הראשונות של כל נסיעה ללא נעימות ושפוגעות בדשבורד באופן נראה לעין תוך כמה קיצים — סדקים, דהייה ועיוות הם ברובם סיפור של קרינה וחום. מגן מחזיר אור חותך את הגרוע ביותר במחיר של שתי כוסות קפה. הסוג שמתקפל כמו אקורדיון הרבה יותר קל לאחסון ולפריסה מהסוג הקפיצי שמסובבים, שכולם מתקשים איתו. מדדו את השמשה שלכם; מגן קטן מדי משאיר רצועה חמה על הדשבורד ועושה חצי עבודה.",
+      "pros": ["Noticeably cooler cabin on return", "Slows UV damage to the dashboard", "Cheap"],
+      "cons": ["Spring-fold types are awkward to put away", "An undersized shade leaves a hot strip"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should live in the boot permanently?",
+      "a": "A jump starter, a tyre inflator, a warning triangle and a hi-vis vest — with the vest in the cabin rather than the boot. Those four cover the situations where being unprepared costs you a whole day.",
+      "q_he": "מה צריך לחיות בתא המטען באופן קבוע?",
+      "a_he": "מצבר עזר, מדחס אוויר, משולש אזהרה ואפוד זוהר — כשהאפוד בתא הנוסעים ולא בתא המטען. ארבעת אלה מכסים את המצבים שבהם חוסר מוכנות עולה לכם ביום שלם."
+    },
+    {
+      "q": "Are dashcams legal everywhere?",
+      "a": "The camera usually is, but recording audio inside the vehicle and where you may mount a device on the windscreen are regulated differently between countries. Check your local rules before fitting one.",
+      "q_he": "האם מצלמות דרך חוקיות בכל מקום?",
+      "a_he": "המצלמה בדרך כלל כן, אבל הקלטת קול בתוך הרכב ומיקום ההתקנה על השמשה מוסדרים אחרת בין מדינות. בדקו את הכללים המקומיים לפני התקנה."
+    },
+    {
+      "q": "How often should I check tyre pressure?",
+      "a": "Monthly, and before any long trip, always on cold tyres. It is the single most neglected piece of routine car maintenance and it affects safety, fuel use and how long the tyres last.",
+      "q_he": "כל כמה זמן לבדוק לחץ אוויר בצמיגים?",
+      "a_he": "חודשית, ולפני כל נסיעה ארוכה, תמיד בצמיגים קרים. זו התחזוקה השגרתית הכי מוזנחת ברכב והיא משפיעה על בטיחות, על צריכת דלק ועל אורך חיי הצמיגים."
+    },
+    {
+      "q": "What car accessory is not worth buying?",
+      "a": "Air ionisers and most 'purifying' gadgets, seat massagers, and universal-fit floor mats — the last of those is actively unsafe if it slides into the pedals. Model-specific mats cost more and are the only ones worth having.",
+      "q_he": "איזה אביזר רכב לא שווה קנייה?",
+      "a_he": "מייננים ורוב הגאדג'טים ה\"מטהרים\", מעסים למושב, ושטיחונים אוניברסליים — האחרונים ממש לא בטוחים אם הם מחליקים לדוושות. שטיחונים לדגם ספציפי עולים יותר והם היחידים ששווה להחזיק."
+    }
+  ]
+}

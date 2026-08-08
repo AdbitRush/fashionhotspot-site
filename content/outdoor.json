@@ -1,0 +1,183 @@
+{
+  "slug": "outdoor",
+  "category": "Outdoor",
+  "title": "Camping Kit That Works in Bad Weather, Not Just Photographs",
+  "title_he": "ציוד קמפינג שעובד במזג אוויר גרוע, ולא רק מצטלם יפה",
+  "dek": "Ten things ranked by what happens when the night is colder or wetter than forecast.",
+  "dek_he": "עשרה פריטים מדורגים לפי מה שקורה כשהלילה קר או רטוב יותר מהתחזית.",
+  "hero_image": "a small tent pitched on a grassy hillside at golden hour with a backpack and a camping stove beside it",
+  "updated": "2026-08-08",
+  "read_minutes": 10,
+  "intro": [
+    "Camping gear is marketed on sunny photographs and judged on bad nights. Everything works in fine weather. What separates good kit from expensive kit is whether it still works at 3am when the temperature dropped ten degrees below forecast and the rain arrived early.",
+    "So the ordering here follows consequence. Sleep and warmth come first, because being cold and tired makes everything else worse and is the reason most people decide they dislike camping. Cooking and comfort come after.",
+    "A note on safety: nothing here substitutes for telling someone where you are going, checking the forecast, and turning back when conditions change. Gear extends your margin; it does not replace judgement.",
+    "Prices are approximate at the time of writing. Outdoor equipment discounts heavily at the end of each season."
+  ],
+  "intro_he": [
+    "ציוד קמפינג משווק בתמונות שמשיות ונשפט בלילות גרועים. הכול עובד במזג אוויר יפה. מה שמפריד בין ציוד טוב לציוד יקר הוא אם הוא עדיין עובד בשלוש לפנות בוקר כשהטמפרטורה ירדה עשר מעלות מתחת לתחזית והגשם הקדים.",
+    "לכן הסדר כאן הולך לפי השלכות. שינה וחום קודם, כי להיות קרים ועייפים הופך כל דבר אחר לגרוע יותר וזו הסיבה שרוב האנשים מחליטים שהם לא אוהבים קמפינג. בישול ונוחות אחר כך.",
+    "הערה על בטיחות: שום דבר כאן לא מחליף את זה שתגידו למישהו לאן אתם הולכים, שתבדקו תחזית, ושתחזרו כשהתנאים משתנים. ציוד מרחיב את מרווח הביטחון; הוא לא מחליף שיקול דעת.",
+    "המחירים הם הערכה נכון לזמן הכתיבה. ציוד שטח יורד במחיר חזק בסוף כל עונה."
+  ],
+  "how_we_pick": "We rank by what fails first when conditions get worse, drawing on published field testing, manufacturer temperature and waterproofing standards, and long-run owner reports. We have not personally used every item here in the field. Where the honest advice is to rent, borrow or buy second-hand rather than purchase, we say so.",
+  "how_we_pick_he": "אנחנו מדרגים לפי מה שנכשל ראשון כשהתנאים מחמירים, ונשענים על בדיקות שטח שפורסמו, על תקני טמפרטורה ואטימות של יצרנים ועל דיווחים של בעלים לאורך זמן. לא השתמשנו בעצמנו בכל פריט כאן בשטח. איפה שהעצה הכנה היא לשכור, לשאול או לקנות יד שנייה במקום לרכוש, נגיד את זה.",
+  "products": [
+    {
+      "name": "An insulated sleeping pad with a real R-value",
+      "name_he": "מזרן שינה מבודד עם ערך R אמיתי",
+      "tag": "The thing people get wrong",
+      "tag_he": "הדבר שאנשים טועים בו",
+      "price": "$70–200",
+      "search": "insulated sleeping pad R value 4 camping",
+      "image": "an inflatable insulated sleeping pad partly rolled out inside a tent",
+      "body": "Almost everyone who has a cold night blames the sleeping bag, and almost always the pad was the problem. The ground draws heat out of you far faster than air does, and a bag compressed underneath your body has essentially no insulating loft left. The number that matters is R-value: roughly 2 is fine for summer, 4 or above for shoulder seasons, 5 plus for winter. Buy the pad before you upgrade the bag. A thick foam pad is cheap, indestructible and warm, and an inflatable one is far more comfortable but can puncture — carry the patch kit it came with.",
+      "body_he": "כמעט כל מי שעובר לילה קר מאשים את שק השינה, וכמעט תמיד המזרן היה הבעיה. הקרקע מושכת ממכם חום הרבה יותר מהר מהאוויר, ולשק שנדחס מתחת לגוף לא נשאר כמעט שום נפח מבודד. המספר שחשוב הוא ערך R: בערך 2 מספיק לקיץ, 4 ומעלה לעונות מעבר, 5 ומעלה לחורף. קנו את המזרן לפני שאתם משדרגים את השק. מזרן קצף עבה זול, בלתי ניתן להריסה וחם, ומזרן מתנפח נוח בהרבה אבל עלול להתנקב — קחו איתכם את ערכת הטלאים שהגיעה איתו.",
+      "pros": ["Fixes the actual cause of most cold nights", "R-value is a comparable, honest number", "Foam versions are cheap and unpuncturable"],
+      "cons": ["Inflatables puncture at the worst moment", "High R-value pads pack larger"]
+    },
+    {
+      "name": "A sleeping bag rated for real conditions",
+      "name_he": "שק שינה עם דירוג לתנאים אמיתיים",
+      "tag": "Read the rating properly",
+      "tag_he": "קראו את הדירוג כמו שצריך",
+      "price": "$90–300",
+      "search": "3 season sleeping bag comfort rating",
+      "image": "a rolled sleeping bag laid out on a groundsheet beside a tent door",
+      "body": "Bag ratings are widely misread. Most list a comfort rating and a lower limit; the limit is survival, not sleep, and buying to it means being cold all night. Buy to the comfort rating and add a margin, because forecasts are wrong and valleys are colder than the town whose weather you checked. Down is lighter, packs smaller and lasts longer, but loses most of its insulation when wet and costs more. Synthetic is bulkier and still works damp, which matters in a wet climate. Store it uncompressed at home — leaving it in the stuff sack is how a good bag dies.",
+      "body_he": "דירוגי שקי שינה נקראים לא נכון על ידי רבים. רובם מציינים דירוג נוחות וגבול תחתון; הגבול הוא הישרדות ולא שינה, ולקנות לפיו אומר להיות קרים כל הלילה. קנו לפי דירוג הנוחות והוסיפו מרווח, כי תחזיות טועות ועמקים קרים יותר מהעיר שבדקתם את מזג האוויר שלה. פוך קל יותר, נדחס קטן יותר ומחזיק יותר זמן, אבל מאבד את רוב הבידוד כשהוא רטוב ועולה יותר. סינתטי מגושם יותר ועדיין עובד לח, וזה חשוב באקלים גשום. אחסנו אותו פרוס בבית — להשאיר אותו בשק הדחיסה זו הדרך שבה שק טוב מת.",
+      "pros": ["Comfort rating is the number to buy to", "Down is lighter; synthetic works when damp", "A good bag lasts a decade if stored properly"],
+      "cons": ["Ratings are routinely misread as sleep temperature", "Down is useless once genuinely wet"]
+    },
+    {
+      "name": "A three-season tent with a full-coverage fly",
+      "name_he": "אוהל שלוש עונות עם כיסוי גשם מלא",
+      "tag": "Where cheap really shows",
+      "tag_he": "איפה שזול באמת מתגלה",
+      "price": "$150–450",
+      "search": "3 season backpacking tent full rainfly",
+      "image": "a two-person tent with its rain fly on, pitched among trees in soft light",
+      "body": "A cheap tent is fine until the first sustained rain, and then it is a very bad night. The features that matter are a rain fly that reaches close to the ground rather than a partial cap, sealed or taped seams, and a bathtub floor whose edges curve up so ground water cannot run in at the seam. Poles are the other failure point — aluminium bends and can be splinted, fibreglass shatters and cannot. Practise pitching it in the garden once. Learning your tent for the first time in the dark and the rain is genuinely miserable.",
+      "body_he": "אוהל זול בסדר עד הגשם הרציף הראשון, ואז זה לילה גרוע מאוד. הפיצ'רים שחשובים הם כיסוי גשם שמגיע קרוב לקרקע ולא כיפה חלקית, תפרים אטומים או מודבקים, ורצפת אמבטיה שהשוליים שלה מתעקלים כלפי מעלה כדי שמים לא יזרמו פנימה בתפר. המוטות הם נקודת הכשל השנייה — אלומיניום מתעקם ואפשר לחבוש אותו, פיברגלס מתנפץ ואי אפשר. תתאמנו להקים אותו בגינה פעם אחת. ללמוד את האוהל בפעם הראשונה בחושך ובגשם זה באמת עלוב.",
+      "pros": ["Full fly and taped seams are what keep rain out", "Bathtub floor stops ground water at the seam", "Aluminium poles can be splinted in the field"],
+      "cons": ["Fibreglass poles shatter and end the trip", "Cheap tents fail specifically when it matters"]
+    },
+    {
+      "name": "A headtorch with a red mode",
+      "name_he": "פנס ראש עם מצב אדום",
+      "tag": "Cheapest essential",
+      "tag_he": "החיוני הזול ביותר",
+      "price": "$25–60",
+      "search": "rechargeable headlamp red light waterproof",
+      "image": "a compact headtorch resting on a log beside a folded map at dusk",
+      "body": "Hands-free light is not a convenience outdoors, it is how you cook, pitch and navigate after dark without putting a torch in your teeth. Two features earn their place. A red mode preserves your night vision and does not blind everyone you turn to look at, which matters in a shared camp. And a water resistance rating of at least IPX4, because a headtorch that dies in drizzle is worse than no plan at all. Rechargeable is convenient; a model that also takes standard cells is better for long trips where you cannot charge anything.",
+      "body_he": "אור בלי ידיים הוא לא נוחות בשטח, הוא איך שמבשלים, מקימים אוהל ומנווטים אחרי החשכה בלי להחזיק פנס בשיניים. שני פיצ'רים מצדיקים את מקומם. מצב אדום שומר על ראיית הלילה שלכם ולא מסנוור את כל מי שאתם מסתובבים להסתכל עליו, וזה חשוב במחנה משותף. ודירוג עמידות במים של לפחות IPX4, כי פנס ראש שמת בטפטוף גרוע יותר מלא לתכנן בכלל. נטען זה נוח; דגם שמקבל גם סוללות רגילות עדיף לטיולים ארוכים שבהם אין איפה להטעין.",
+      "pros": ["Red mode protects night vision and the camp's", "Water resistance is non-negotiable outdoors", "Cheap, light, and used every single trip"],
+      "cons": ["Rechargeable-only is a liability on long trips", "Cheap models overstate their brightness"]
+    },
+    {
+      "name": "A proper waterproof jacket with taped seams",
+      "name_he": "מעיל גשם עם תפרים מודבקים",
+      "tag": "Water resistant is not waterproof",
+      "tag_he": "עמיד למים זה לא אטים למים",
+      "price": "$100–350",
+      "search": "waterproof breathable hiking jacket taped seams",
+      "image": "a folded waterproof shell jacket in muted green on a wooden bench outdoors",
+      "body": "Water resistant and waterproof are different claims and only one of them keeps you dry in a two-hour downpour. Look for taped seams and a hydrostatic head figure, which measures how much water pressure the fabric holds before leaking. A hood that adjusts and actually turns with your head is the difference between usable and infuriating. Breathability matters as much as waterproofing, because sweating inside a sealed shell gets you just as wet. Reproof it once a season — jackets that have stopped working usually just need the outer coating restored, not replacing.",
+      "body_he": "עמיד למים ואטים למים הן טענות שונות ורק אחת מהן משאירה אתכם יבשים בממטר של שעתיים. חפשו תפרים מודבקים ונתון של עמידות לעמוד מים, שמודד כמה לחץ מים הבד מחזיק לפני שהוא דולף. קפוצ'ון שמתכוונן ובאמת מסתובב עם הראש הוא ההבדל בין שמיש למרגיז. נשימות חשובה לא פחות מאטימות, כי להזיע בתוך מעטפת אטומה מרטיב אתכם באותה מידה. חדשו את הציפוי פעם בעונה — מעילים שהפסיקו לעבוד בדרך כלל רק צריכים חידוש של הציפוי החיצוני, לא החלפה.",
+      "pros": ["Taped seams and hydrostatic head are measurable", "A properly adjusting hood transforms usability", "Reproofing revives a jacket that seems finished"],
+      "cons": ["Breathability and waterproofing trade against each other", "Needs seasonal reproofing to keep working"]
+    },
+    {
+      "name": "A canister stove and a pot",
+      "name_he": "כירת גז קטנה וסיר",
+      "tag": "Simplest thing that works",
+      "tag_he": "הדבר הפשוט ביותר שעובד",
+      "price": "$40–120",
+      "search": "camping canister stove lightweight pot set",
+      "image": "a small camping stove screwed onto a gas canister with a metal pot on top, on a rock",
+      "body": "For most camping, a screw-on canister stove is the right answer: it lights instantly, simmers, packs to the size of a fist and needs no priming. Integrated systems boil faster and shield the flame from wind, which matters more than raw output — wind is what actually stops water boiling. Two safety points that are not optional. Never run a stove inside a tent or a closed porch, because carbon monoxide is odourless and has killed campers doing exactly that. And canister gas performs poorly near freezing, so cold-weather trips want a liquid fuel stove instead.",
+      "body_he": "לרוב הקמפינג, כירת גז מתברגת היא התשובה הנכונה: היא נדלקת מיד, מאפשרת בישול על אש קטנה, נדחסת לגודל אגרוף ולא דורשת הכנה. מערכות משולבות מרתיחות מהר יותר ומגנות על הלהבה מהרוח, וזה חשוב יותר מהספק גולמי — רוח היא מה שבאמת מונע ממים לרתוח. שתי נקודות בטיחות שאינן אופציונליות. לעולם אל תפעילו כירה בתוך אוהל או במרפסת סגורה, כי חד-חמצני הפחמן חסר ריח והרג מטיילים שעשו בדיוק את זה. וגז בקנקנים מתפקד גרוע בסביבות אפס מעלות, אז לטיולי חורף עדיפה כירת דלק נוזלי.",
+      "pros": ["Instant, simmers, packs tiny", "Integrated systems resist wind well", "Fuel canisters are widely available"],
+      "cons": ["Never safe to use inside a tent — CO risk", "Poor performance near freezing"]
+    },
+    {
+      "name": "A water filter or purifier",
+      "name_he": "מסנן או מטהר מים",
+      "tag": "Match it to the actual risk",
+      "tag_he": "התאימו אותו לסיכון האמיתי",
+      "price": "$30–110",
+      "search": "backpacking water filter squeeze 0.1 micron",
+      "image": "a small squeeze water filter and a soft flask resting on a rock beside a stream",
+      "body": "Carrying all your water is heavy and limits where you can go, and a filter removes that constraint. Understand what you are buying, though. A hollow-fibre filter at 0.1 micron removes bacteria and protozoa, which covers most temperate backcountry. It does not remove viruses, which matter in areas with human or livestock contamination upstream — there you want a purifier, chemical treatment or boiling. Filters are ruined by freezing, because ice cracks the fibres invisibly, so sleep with it in your bag on cold nights. Backflush it regularly or the flow rate collapses.",
+      "body_he": "לשאת את כל המים כבד ומגביל לאן אפשר ללכת, ומסנן מסיר את האילוץ הזה. אבל תבינו מה אתם קונים. מסנן סיבים חלולים ברמת 0.1 מיקרון מסיר חיידקים ופרוטוזואה, וזה מכסה את רוב השטחים הממוזגים. הוא לא מסיר וירוסים, שחשובים באזורים עם זיהום אנושי או של בעלי חיים במעלה הזרם — שם צריך מטהר, טיפול כימי או הרתחה. מסננים נהרסים מקפיאה, כי קרח סודק את הסיבים באופן בלתי נראה, אז תישנו איתו בשק בלילות קרים. שטפו אותו לאחור באופן קבוע אחרת קצב הזרימה קורס.",
+      "pros": ["Removes the need to carry all your water", "Hollow-fibre filters are light and fast", "Cheap relative to the freedom it buys"],
+      "cons": ["Standard filters do not remove viruses", "One freeze ruins the element invisibly"]
+    },
+    {
+      "name": "A power bank and a paper map",
+      "name_he": "סוללת גיבוי ומפת נייר",
+      "tag": "Two answers to one problem",
+      "tag_he": "שתי תשובות לבעיה אחת",
+      "price": "$40–80",
+      "search": "rugged power bank camping 20000mAh",
+      "image": "a rugged power bank and a folded topographic map lying on a wooden table outdoors",
+      "body": "Phone navigation is genuinely excellent right up to the moment the battery dies, and cold weather flattens a battery far faster than the percentage suggests. A power bank covers that, and keeping the phone warm inside a jacket rather than in an outside pocket does almost as much. But carry a paper map and know roughly how to read it, because a power bank fails too, and a phone in a puddle fails instantly. This is the one entry that is deliberately redundant, and redundancy is the point — the cost of being wrong here is much higher than the weight.",
+      "body_he": "ניווט בטלפון מצוין באמת עד הרגע שבו הסוללה נגמרת, ומזג אוויר קר מרוקן סוללה הרבה יותר מהר ממה שהאחוזים מרמזים. סוללת גיבוי מכסה את זה, ולשמור את הטלפון חם בתוך המעיל ולא בכיס חיצוני עושה כמעט אותו דבר. אבל קחו מפת נייר ותדעו בערך לקרוא אותה, כי גם סוללת גיבוי נכשלת, וטלפון בשלולית נכשל מיד. זה הפריט היחיד כאן שהוא כפילות בכוונה, והכפילות היא כל הנקודה — המחיר של טעות כאן גבוה בהרבה מהמשקל.",
+      "pros": ["Covers the main failure mode of phone navigation", "A paper map never runs out of battery", "Both together weigh very little"],
+      "cons": ["Cold drains batteries faster than indicated", "A map is only useful if you can read it"]
+    },
+    {
+      "name": "A first aid kit with blister supplies",
+      "name_he": "ערכת עזרה ראשונה עם ציוד לשלפוחיות",
+      "tag": "Blisters end more trips than injuries",
+      "tag_he": "שלפוחיות מסיימות יותר טיולים מפציעות",
+      "price": "$30–70",
+      "search": "hiking first aid kit blister treatment",
+      "image": "an open compact first aid pouch showing bandages and tape on a flat rock",
+      "body": "Serious injury is rare. Blisters are near-universal and they are what actually turns a good walk into a limp back to the car. Carry blister plasters and tape, and use them at the first hot spot rather than once the skin has gone — that timing is the whole trick. Beyond that, the kit should match your trip length and how far you are from help: a day walk near a road needs very little, a remote multi-day trip needs real thought. A wilderness first aid course is worth more than any kit you can buy, if you go out often.",
+      "body_he": "פציעה רצינית היא נדירה. שלפוחיות כמעט אוניברסליות והן מה שבאמת הופך הליכה טובה לצליעה חזרה לאוטו. קחו פלסטרים לשלפוחיות ונייר דבק, והשתמשו בהם ברגע שמרגישים נקודה חמה ולא אחרי שהעור כבר נהרס — התזמון הזה הוא כל הטריק. מעבר לזה, הערכה צריכה להתאים לאורך הטיול ולמרחק מעזרה: הליכה יומית ליד כביש דורשת מעט מאוד, טיול רב-יומי מרוחק דורש מחשבה אמיתית. קורס עזרה ראשונה בשטח שווה יותר מכל ערכה שאפשר לקנות, אם אתם יוצאים לעיתים קרובות.",
+      "pros": ["Blister care prevents the most common trip-ender", "Light for the problems it covers", "Forces you to think about distance from help"],
+      "cons": ["A kit is not a substitute for training", "Contents expire — check between seasons"]
+    },
+    {
+      "name": "A comfortable pack that actually fits",
+      "name_he": "תיק גב שבאמת מתאים לכם",
+      "tag": "Fit beats brand",
+      "tag_he": "התאמה חשובה יותר ממותג",
+      "price": "$120–350",
+      "search": "hiking backpack 50L adjustable torso",
+      "image": "a loaded hiking backpack leaning against a stone wall on a trail",
+      "body": "A pack is the one item where fit matters more than any feature list, because a well-fitted cheap pack carries better than a badly fitted expensive one. The measurement that matters is torso length, not your height, and most good packs come in sizes or have an adjustable harness. The hip belt should carry roughly eighty percent of the weight on your hips, with the shoulder straps only stabilising. Go to a shop and have it loaded and fitted if you possibly can — this is the single item on this page where buying online blind most often goes wrong.",
+      "body_he": "תיק הוא הפריט היחיד שבו התאמה חשובה יותר מכל רשימת פיצ'רים, כי תיק זול שמותאם היטב נושא טוב יותר מתיק יקר שמותאם גרוע. המדד שחשוב הוא אורך הגו ולא הגובה שלכם, ולרוב התיקים הטובים יש מידות או רתמה מתכווננת. חגורת המותן צריכה לשאת בערך שמונים אחוז מהמשקל על האגן, כשרצועות הכתפיים רק מייצבות. לכו לחנות ותנו להם לטעון ולהתאים אותו אם רק אפשר — זה הפריט היחיד בעמוד הזה שקנייה עיוורת אונליין הכי לעיתים קרובות משתבשת בו.",
+      "pros": ["Correct fit outperforms an expensive bad fit", "Hip belt should carry most of the load", "A good pack lasts many years"],
+      "cons": ["Sized by torso length, not height", "The worst item to buy online untried"]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why was I cold even in a warm sleeping bag?",
+      "a": "Almost certainly the sleeping pad. Your body compresses the insulation underneath you to nothing, so the ground conducts heat straight out. Check the pad's R-value before spending anything on a warmer bag.",
+      "q_he": "למה הייתי קר גם בשק שינה חם?",
+      "a_he": "כמעט בוודאות המזרן. הגוף שלכם דוחס לאפס את הבידוד שמתחתיכם, ולכן הקרקע מוליכה את החום החוצה. בדקו את ערך ה-R של המזרן לפני שאתם מוציאים כסף על שק חם יותר."
+    },
+    {
+      "q": "Down or synthetic?",
+      "a": "Down if you want light and packable and can keep it dry. Synthetic if you camp in a wet climate or cannot be confident of that, because synthetic still insulates when damp and down does not.",
+      "q_he": "פוך או סינתטי?",
+      "a_he": "פוך אם אתם רוצים קל ונדחס ואתם יכולים לשמור אותו יבש. סינתטי אם אתם מחנים באקלים גשום או שאתם לא בטוחים בזה, כי סינתטי עדיין מבודד כשהוא לח ופוך לא."
+    },
+    {
+      "q": "What should I buy first?",
+      "a": "Pad, bag, tent, in that order, then a headtorch. Those four decide whether you sleep. Everything else can be borrowed, improvised or bought later once you know you enjoy it.",
+      "q_he": "מה לקנות ראשון?",
+      "a_he": "מזרן, שק, אוהל, בסדר הזה, ואז פנס ראש. ארבעת אלה קובעים אם תישנו. כל השאר אפשר לשאול, לאלתר או לקנות אחר כך אחרי שתדעו שאתם נהנים מזה."
+    },
+    {
+      "q": "Is it safe to cook inside the tent porch if it is raining?",
+      "a": "No. Carbon monoxide from a stove is odourless and has killed people sheltering from exactly that rain. Cook outside under a tarp, or wait. This is the one rule on this page with no exceptions.",
+      "q_he": "האם בטוח לבשל במרפסת האוהל אם יורד גשם?",
+      "a_he": "לא. חד-חמצני הפחמן מכירה הוא חסר ריח והרג אנשים שהסתתרו בדיוק מאותו גשם. תבשלו בחוץ מתחת לטארפ, או תחכו. זה הכלל היחיד בעמוד הזה שאין לו יוצאים מן הכלל."
+    }
+  ]
+}
