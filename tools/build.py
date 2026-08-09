@@ -23,6 +23,42 @@ BRAND = "fashionhotspot"
 AUTHOR = "The fashionhotspot editors"
 AUTHOR_HE = "מערכת fashionhotspot"
 
+
+def load_config():
+    """Which affiliate networks this build publishes. See site-config.json."""
+    f = ROOT / "site-config.json"
+    if not f.exists():
+        return {"amazon": True, "aliexpress": True}
+    return json.loads(f.read_text(encoding="utf-8")).get(
+        "affiliates", {"amazon": True, "aliexpress": True})
+
+
+AFF = load_config()
+SHOW_ALI = bool(AFF.get("aliexpress", True))
+SHOW_AMZ = bool(AFF.get("amazon", True))
+
+
+def disclosure(he=False, short=False):
+    """Disclosure text that names only the networks actually linked.
+
+    Naming AliExpress while linking nowhere near it would be its own small
+    inaccuracy, so this tracks the config rather than being hardcoded.
+    """
+    nets_en = [n for n, on in (("Amazon Associate", SHOW_AMZ),
+                               ("AliExpress affiliate", SHOW_ALI)) if on]
+    nets_he = [n for n, on in (("שותפים של אמזון", SHOW_AMZ),
+                               ("שותפים של עליאקספרס", SHOW_ALI)) if on]
+    if he:
+        who = " ו".join(nets_he) if nets_he else "שותפים"
+        base = f"כ{who} אנחנו מרוויחים עמלה מרכישות מזכות."
+        return base if short else (
+            base + " המחירים והזמינות נכונים לזמן הפרסום ועשויים להשתנות.")
+    who = " and an ".join(nets_en) if nets_en else "an affiliate"
+    base = f"As an {who} we earn from qualifying purchases."
+    return base if short else (
+        base + " Prices and availability are accurate as of the date of "
+               "publication and may change.")
+
 # Order guides appear in on the index. Anything not listed lands at the end.
 ORDER = ["tech", "smart-home", "kitchen", "coffee", "home-office", "fitness",
          "travel", "pets", "photography", "gaming", "outdoor", "beauty",
@@ -78,15 +114,13 @@ def footer(he=False, prefix=""):
         links = [("../about.html", "עלינו"), ("../contact.html", "צור קשר"),
                  ("../privacy.html", "פרטיות"), ("../terms.html", "תנאים"),
                  ("posts.html", "מדריכים")]
-        disc = ("כשותפים של אמזון ושל עליאקספרס אנחנו מרוויחים עמלה מרכישות "
-                "מזכות. זה לא מייקר עבורכם את המוצר.")
+        disc = disclosure(True, short=True) + " זה לא מייקר עבורכם את המוצר."
         sw = '<div class="langsw"><a href="../posts.html">English</a></div>'
     else:
         links = [(f"{prefix}about.html", "About"), (f"{prefix}contact.html", "Contact"),
                  (f"{prefix}privacy.html", "Privacy"), (f"{prefix}terms.html", "Terms"),
                  (f"{prefix}posts.html", "Guides")]
-        disc = ("As an Amazon Associate and an AliExpress affiliate we earn from "
-                "qualifying purchases. This never costs you more.")
+        disc = disclosure(False, short=True) + " This never costs you more."
         sw = '<div class="langsw"><a href="he/posts.html">עברית</a></div>'
     nl = "".join(f'<a href="{e(h)}">{e(t)}</a>' for h, t in links)
     return (f'<footer><nav>{nl}</nav><p>{e(disc)}</p>'
@@ -168,7 +202,7 @@ def render_guide(g, he=False):
     intro = "".join(f'<p{" class=\"lead\"" if i == 0 else ""}>{e(p)}</p>'
                     for i, p in enumerate(paras))
 
-    disclosure = (f'<div class="note">'
+    disclosure_note = (f'<div class="note">'
                   f'<b>{"גילוי נאות" if he else "Disclosure"}.</b> '
                   + ("הקישורים בעמוד הזה הם קישורי שותפים. אם תקנו דרכם אנחנו "
                      "עשויים להרוויח עמלה, בלי תוספת עלות לכם. זה לא משפיע על "
@@ -222,12 +256,12 @@ def render_guide(g, he=False):
             f'<div class="cons"><h4>{"נגד" if he else "Worth knowing"}</h4>'
             f'<ul>{cons}</ul></div></div>'
             f'<div class="buys">'
-            f'<a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" '
-            f'href="{e(amazon(p["search"]))}">'
-            f'{"בדקו באמזון" if he else "Check price on Amazon"}</a>'
-            f'<a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" '
-            f'href="{e(aliexpress(p["search"]))}">AliExpress</a>'
-            f'</div></div></article>')
+            + (f'<a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" '
+               f'href="{e(amazon(p["search"]))}">'
+               f'{"בדקו באמזון" if he else "Check price on Amazon"}</a>' if SHOW_AMZ else "")
+            + (f'<a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" '
+               f'href="{e(aliexpress(p["search"]))}">AliExpress</a>' if SHOW_ALI else "")
+            + f'</div></div></article>')
 
     picks_h = f'<h2>{"הבחירות" if he else "The picks"}</h2>'
 
@@ -241,18 +275,11 @@ def render_guide(g, he=False):
 
     other = f'<p style="margin-top:34px"><a href="posts.html">← {"כל המדריכים" if he else "All guides"}</a></p>'
 
-    final_disc = (f'<p class="disc">'
-                  + ("כשותפים של אמזון ושל עליאקספרס אנחנו מרוויחים עמלה מרכישות מזכות. "
-                     "המחירים והזמינות נכונים לזמן הפרסום ועשויים להשתנות."
-                     if he else
-                     "As an Amazon Associate and an AliExpress affiliate we earn from "
-                     "qualifying purchases. Prices and availability are accurate as of "
-                     "the date of publication and may change.")
-                  + "</p>")
+    final_disc = f'<p class="disc">{e(disclosure(he))}</p>'
 
     body = (nav(NAV_HE if he else NAV_EN, f"post-{slug}.html", pfx)
             + '<div class="wrap">' + head + hero_html
-            + '<div class="body">' + intro + disclosure + how + table
+            + '<div class="body">' + intro + disclosure_note + how + table
             + picks_h + "".join(cards) + faq + other + final_disc
             + "</div></div>" + footer(he, pfx))
 
@@ -334,12 +361,7 @@ def render_index(guides, he=False):
             + f'<h1>{"מה באמת שווה לקנות" if he else "What is actually worth buying"}</h1>'
             + f'<p class="dek" style="max-width:640px">{e(dek)}</p>'
             + f'<div class="grid">{"".join(cards)}</div>'
-            + '<p class="disc" style="max-width:760px">'
-            + ("כשותפים של אמזון ושל עליאקספרס אנחנו מרוויחים עמלה מרכישות מזכות."
-               if he else
-               "As an Amazon Associate and an AliExpress affiliate we earn from "
-               "qualifying purchases.")
-            + "</p></div>" + footer(he, pfx))
+            + f'<p class="disc" style="max-width:760px">{e(disclosure(he, short=True))}</p></div>' + footer(he, pfx))
     canon = f"{SITE}/{'he/' if he else ''}posts.html"
     alt = (f'<link rel="alternate" hreflang="en" href="{SITE}/posts.html">'
            f'<link rel="alternate" hreflang="he" href="{SITE}/he/posts.html">')

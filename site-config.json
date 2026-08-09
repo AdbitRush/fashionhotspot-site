@@ -1,0 +1,19 @@
+{
+  "_comment": [
+    "Controls what the buying guides publish. Read at BUILD time by tools/build.py,",
+    "not at runtime — when a network is off its links are never written into the HTML",
+    "at all, rather than being hidden with CSS. Hiding them would leave competitor",
+    "affiliate links sitting in the page source of every product, which reads as",
+    "concealment to anyone who looks.",
+    "",
+    "Flip it with:  python tools/site_toggle.py aliexpress on|off",
+    "or from WhatsApp (admin):  !site ali on|off",
+    "Either way the site is rebuilt and redeployed, so a change is live in ~2 minutes."
+  ],
+  "affiliates": {
+    "amazon": true,
+    "aliexpress": false
+  },
+  "aliexpress_off_reason": "Off while the Amazon Associates application is under review — a page that leads with a competing marketplace on every product is a needless reason to be rejected. Turn back on once approved.",
+  "last_changed": "2026-08-09"
+}
