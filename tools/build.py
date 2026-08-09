@@ -175,7 +175,7 @@ def render_guide(g, lang):
     head = (f'{crumb}<div class="kicker">{e(g["category"])} · {e(t(lang, "buying_guide"))}</div>'
             f'<h1>{e(g["title"])}</h1><p class="dek">{e(g["dek"])}</p>{byline}')
     hero = (f'<div class="hero"><img src="{r}images/hero-{slug}.jpg" '
-            f'alt="{e(g["title"])}" width="1200" height="630" fetchpriority="high"></div>')
+            f'alt="{e(g["title"])}" width="1600" height="840" fetchpriority="high"></div>')
 
     intro = "".join(f'<p{" class=\"lead\"" if i == 0 else ""}>{e(p)}</p>'
                     for i, p in enumerate(g["intro"]))
@@ -208,7 +208,7 @@ def render_guide(g, lang):
         cards.append(
             f'<article class="card" id="p{i}">'
             f'<img class="card-img" src="{r}images/{slug}-{i:02d}.jpg" alt="{e(p["name"])}" '
-            f'width="600" height="375" loading="lazy" decoding="async">'
+            f'width="1200" height="750" loading="lazy" decoding="async">'
             f'<div class="card-in"><div class="card-top"><div class="num">{i}</div>'
             f'<div style="flex:1"><span class="tag">{e(p["tag"])}</span>'
             f'<h3>{e(p["name"])}</h3><div class="price">{e(p["price"])}</div></div></div>'
@@ -273,7 +273,7 @@ def render_index(guides, lang):
         cards.append(
             f'<a class="gcard" href="post-{g["slug"]}.html">'
             f'<img src="{r}images/hero-{g["slug"]}.jpg" alt="{e(g["title"])}" '
-            f'width="1200" height="630" loading="lazy" decoding="async">'
+            f'width="1600" height="840" loading="lazy" decoding="async">'
             f'<div class="gcard-in"><span class="tag">{e(g["category"])}</span>'
             f'<h3>{e(g["title"])}</h3><p class="sum">{e(g["dek"])}</p>'
             f'<div class="meta">{e(fmt_date(g["updated"], lang))} · '

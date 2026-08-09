@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "site-config.json"
-NETWORKS = ("amazon", "aliexpress")
+NETWORKS = ("amazon", "aliexpress", "israel")
 
 # Windows consoles default to cp1252 and cannot print the arrow or the Hebrew in
 # the status output, which would crash the run mid-rebuild.

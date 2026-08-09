@@ -17,6 +17,15 @@ ENV = Path(r"C:\Users\AdBitRush\Documents\AdbitRush 22\2026\abri-brain\.env")
 MODEL = "gemini-2.5-flash-image"
 IMG = ROOT / "images"
 
+# Output sizes are driven by how the page actually renders them, not by round
+# numbers. The card image is ~714 CSS px wide and cropped to 16:10, so a
+# 600x600 source was upscaled 1.19x on a normal screen and 2.4x on a phone —
+# which is exactly the softness that showed up on the live site. Generating at
+# the display aspect also stops the 16:10 crop throwing away 37% of a square.
+CARD_SIZE = (1200, 750)    # 16:10, sharp to ~1200 device px
+HERO_SIZE = (1600, 840)    # ~1.9:1, covers a 2x retina hero
+
+
 
 def api_key():
     """Read the key without ever printing it."""
@@ -133,10 +142,10 @@ def main():
     for slug in slugs:
         g = guides[slug]
         jobs.append((f"{g['hero_image']}. {HERO_STYLE}",
-                     IMG / f"hero-{slug}.jpg", (1200, 630)))
+                     IMG / f"hero-{slug}.jpg", HERO_SIZE))
         for i, p in enumerate(g["products"], 1):
             jobs.append((f"{p['image']}. {STYLE}",
-                         IMG / f"{slug}-{i:02d}.jpg", (600, 600)))
+                         IMG / f"{slug}-{i:02d}.jpg", CARD_SIZE))
     sys.exit(1 if run(jobs) else 0)
 
 

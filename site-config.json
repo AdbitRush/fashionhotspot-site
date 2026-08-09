@@ -8,11 +8,16 @@
     "",
     "Flip it with:  python tools/site_toggle.py aliexpress on|off",
     "or from WhatsApp (admin):  !site ali on|off",
-    "Either way the site is rebuilt and redeployed, so a change is live in ~2 minutes."
+    "Either way the site is rebuilt and redeployed, so a change is live in ~2 minutes.",
+    "",
+    "israel covers local Israeli-store deals on the homepage feed. Amazon does",
+    "not require exclusivity, so these are kept by default — turn them off with",
+    "!site israel off if you want the homepage to be Amazon and nothing else."
   ],
   "affiliates": {
     "amazon": true,
-    "aliexpress": false
+    "aliexpress": false,
+    "israel": true
   },
   "aliexpress_off_reason": "Off while the Amazon Associates application is under review — a page that leads with a competing marketplace on every product is a needless reason to be rejected. Turn back on once approved.",
   "last_changed": "2026-08-09"
