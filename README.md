@@ -1,6 +1,6 @@
 # fashionhotspot 🛍️
 
-**🌐 Live site: https://adbitrush.github.io/fashionhotspot-site/**
+**🌐 Live site: https://fashionhotspot.site**
 
 Hand-picked deals from Amazon, AliExpress & Israeli stores — updated daily.
 
