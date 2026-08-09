@@ -355,6 +355,25 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   footer a{min-height:44px;display:inline-flex;align-items:center;padding:0 6px}
   .buy-btn{min-height:44px}
 }
+
+/* mobile regression fix */
+@media(max-width:768px){
+  /* A row that is too wide should scroll, not stack. Wrapping turned 16
+     category pills at a 44px tap target into ~5 rows: 503px of filter buttons
+     before the first deal. Scrolling keeps the targets and costs ~160px. */
+  #sort-bar,#plat-bar,#cat-bar{
+    flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+  }
+  #sort-bar::-webkit-scrollbar,#plat-bar::-webkit-scrollbar,
+  #cat-bar::-webkit-scrollbar{display:none}
+  #sort-bar>*,#plat-bar>*,#cat-bar>*{flex:0 0 auto}
+
+  /* Cards back up — 145x220 inside a 150px ring collapsed the carousel. */
+  .car-item{width:165px;height:250px;margin:-125px 0 0 -82px}
+  .car-item .ci-img{height:130px}
+  #stage3d-wrap{height:290px}
+}
 </style>
 </head>
 <body>
@@ -953,7 +972,7 @@ function showToast(msg) {
   if (items.length < 4) { document.getElementById('showcase').style.display = 'none'; return; }
   
   const n = items.length;
-  const radius = Math.max(150, Math.min(360, window.innerWidth * 0.30));  // floor was 240, which put the outer cards at 427px on a 375px screen
+  const radius = Math.min(360, Math.max(230, window.innerWidth * 0.30));  // .showcase clips, so the ring may exceed the viewport — a 150 floor collapsed it
   let currentAngle = 0;
   let isDragging = false;
   let isHover = false;
