@@ -904,7 +904,7 @@ function showToast(msg) {
     const ang = Math.round(i * (360 / n));
     return '<a class="car-item" data-index="' + i + '" style="transform:rotateY(' + ang + 'deg) translateZ(' + radius + 'px)"'
       + ' href="' + x.d.link + '" target="_blank" rel="nofollow noopener sponsored">'
-      + '<div class="ci-img"><img src="' + (x.d.image || placeholderFor(x.d.cat)) + '" alt="" loading="lazy" onerror="this.src=placeholderFor('' + (x.d.cat || 'general') + '');this.onerror=null">'
+      + '<div class="ci-img"><img src="' + (x.d.image || IMG_FALLBACK) + '" alt="" loading="lazy" onerror="this.src=IMG_FALLBACK;this.onerror=null">'
       + '<span class="ci-pct">-' + x.disc + '%</span></div>'
       + '<div class="ci-body"><div class="ci-title">' + x.d.title + '</div>'
       + '<div class="ci-price">~₪' + Math.round(x.d.price * RATE).toLocaleString('he-IL') + '</div></div>'
@@ -1076,7 +1076,7 @@ function runFindSearch(q) {
         + (disc > 0 ? ' <span style="font-size:12px;background:#FF3A3A;color:#fff;border-radius:6px;padding:2px 6px">-' + disc + '%</span>' : '')
         + '</div>'
       : '';
-    return '<div class="find-card"><div class="find-card-img"><img src="' + (d.image || placeholderFor(d.cat)) + '" alt="" loading="lazy" onerror="this.src=placeholderFor('' + (d.cat || 'general') + '');this.onerror=null"></div>'
+    return '<div class="find-card"><div class="find-card-img"><img src="' + (d.image || IMG_FALLBACK) + '" alt="" loading="lazy" onerror="this.src=IMG_FALLBACK;this.onerror=null"></div>'
       + '<div class="find-card-body"><div class="find-card-title">' + d.title + '</div>' + priceHtml
       + '<a href="' + d.link + '" target="_blank" rel="nofollow noopener sponsored" class="find-card-btn">' + T('shop_now') + '</a></div></div>';
   }).join('');
