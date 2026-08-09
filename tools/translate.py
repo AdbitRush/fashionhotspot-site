@@ -31,8 +31,11 @@ except AttributeError:
     pass
 
 ENV = Path(r"C:\Users\AdBitRush\Documents\AdbitRush 22\2026\abri-brain\.env")
-MODEL = os.environ.get("TRANSLATE_MODEL", "gemini-2.5-pro")
-FALLBACK_MODEL = "gemini-2.5-flash"
+# Cheapest capable model by default. 2.5-pro produced better prose but
+# costs many times more per token; set TRANSLATE_MODEL to override when
+# there is budget for it.
+MODEL = os.environ.get("TRANSLATE_MODEL", "gemini-2.5-flash-lite")
+FALLBACK_MODEL = "gemini-2.5-flash"  # only if flash-lite is unavailable
 API = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent?key={}"
 
 
