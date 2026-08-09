@@ -374,6 +374,12 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   .car-item .ci-img{height:130px}
   #stage3d-wrap{height:290px}
 }
+
+/* bars: beat the inline flex-wrap */
+@media(max-width:768px){
+  /* flex-wrap:wrap is set inline on these two; only !important reaches it. */
+  #plat-bar,#cat-bar{flex-wrap:nowrap!important}
+}
 </style>
 </head>
 <body>
