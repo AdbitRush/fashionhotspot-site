@@ -129,15 +129,15 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .tick-item .pct{background:var(--grad);color:#2A1208;font-weight:900;border-radius:8px;padding:2px 9px;font-size:12.5px}
 
 /* ── 3D showcase carousel ── */
-.showcase{max-width:1280px;margin:0 auto;padding:64px 24px 10px;text-align:center}
+.showcase{max-width:1280px;margin:0 auto;padding:44px 24px 10px;text-align:center}
 .sec-kicker{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--coral);margin-bottom:8px}
 .sec-title{font-weight:700;font-size:clamp(24px,3.4vw,36px);letter-spacing:-.03em;color:var(--ink);margin-bottom:6px}
 .sec-sub{color:var(--ink3);font-size:15px;margin-bottom:12px}
-#stage3d-wrap{position:relative;height:440px;perspective:1500px;margin-top:8px}
+#stage3d-wrap{position:relative;height:330px;perspective:1500px;margin-top:8px}
 #stage3d{position:absolute;inset:0;transform-style:preserve-3d}
-.car-item{position:absolute;top:50%;left:50%;width:220px;margin:-160px 0 0 -110px;height:320px;border-radius:20px;overflow:hidden;background:#171028;border:1px solid var(--border-2);box-shadow:0 24px 60px rgba(0,0,0,.55);display:flex;flex-direction:column;transition:border-color .2s}
+.car-item{position:absolute;top:50%;left:50%;width:180px;margin:-130px 0 0 -90px;height:260px;border-radius:20px;overflow:hidden;background:#171028;border:1px solid var(--border-2);box-shadow:0 24px 60px rgba(0,0,0,.55);display:flex;flex-direction:column;transition:border-color .2s}
 .car-item:hover{border-color:var(--amber)}
-.car-item .ci-img{height:190px;background:#FFFDF8;overflow:hidden;position:relative}
+.car-item .ci-img{height:150px;background:#FFFDF8;overflow:hidden;position:relative}
 .car-item .ci-img img{width:100%;height:100%;object-fit:cover}
 .car-item .ci-pct{position:absolute;top:10px;left:10px;background:var(--grad);color:#2A1208;font-weight:900;font-size:14px;border-radius:999px;padding:4px 12px;box-shadow:0 4px 16px rgba(255,93,93,.5)}
 .car-item .ci-body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1;text-align:left}
@@ -254,9 +254,9 @@ footer a:hover{color:var(--peach)}
 }
 
 @media(max-width:760px){
-  #stage3d-wrap{height:340px}
-  .car-item{width:170px;height:262px;margin:-131px 0 0 -85px}
-  .car-item .ci-img{height:140px}
+  #stage3d-wrap{height:270px}
+  .car-item{width:145px;height:220px;margin:-110px 0 0 -72px}
+  .car-item .ci-img{height:115px}
   .viz-row{grid-template-columns:104px 1fr 70px}
 }
 @media(max-width:640px){
@@ -892,13 +892,12 @@ function showToast(msg) {
   if (items.length < 4) { document.getElementById('showcase').style.display = 'none'; return; }
   
   const n = items.length;
-  const radius = Math.min(460, Math.max(300, window.innerWidth * 0.32));
+  const radius = Math.min(360, Math.max(240, window.innerWidth * 0.26));
   let currentAngle = 0;
   let isDragging = false;
   let isHover = false;
   let startX = 0, startY = 0, startAngle = 0;
   let idleTimer = null;
-  let wheelTimer = null;
   
   stage.innerHTML = items.map(function(x, i){
     const ang = Math.round(i * (360 / n));
@@ -979,13 +978,11 @@ function showToast(msg) {
     snap(); startIdle();
   });
   
-  // Wheel scroll
-  wrap.addEventListener('wheel', function(e) {
-    e.preventDefault();
-    rotate(currentAngle + (e.deltaY > 0 ? -1 : 1) * (360 / n), true);
-    stopIdle();
-    clearTimeout(wheelTimer); wheelTimer = setTimeout(startIdle, 2500);
-  }, { passive: false });
+  // carousel no longer swallows the wheel: it used to preventDefault()
+  // every wheel event, so scrolling with the pointer over the showcase
+  // rotated the ring instead of moving the page and the homepage felt
+  // stuck. Arrows, drag and swipe still turn it; the page always scrolls.
+
   
   // עצירה בריחוף
   wrap.addEventListener('mouseenter', function() { isHover = true; stopIdle(); });
