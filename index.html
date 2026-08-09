@@ -340,6 +340,21 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   #lang-sel,#theme-btn{height:44px;min-width:44px}
   .orbit-arrow{width:44px;height:44px}
 }
+
+/* 375px pass — round two */
+/* The last of the horizontal scroll. #plat-bar and #cat-bar already wrap and
+   fit; #sort-bar was nowrap and ran 348px wide inside a 312px column. */
+#sort-bar{flex-wrap:wrap}
+
+@media(max-width:768px){
+  /* These two carry height:36px inline, which outranks any stylesheet rule.
+     Overriding an inline style is the case !important exists for. */
+  #lang-sel{height:44px!important}
+  #theme-btn{width:44px!important;height:44px!important}
+  /* Real navigation, and they were 17px tall — block anchors with no padding. */
+  footer a{min-height:44px;display:inline-flex;align-items:center;padding:0 6px}
+  .buy-btn{min-height:44px}
+}
 </style>
 </head>
 <body>
