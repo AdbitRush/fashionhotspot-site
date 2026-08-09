@@ -1,0 +1,173 @@
+{
+  "slug": "fashion",
+  "title": "Accessoires, mit denen alles andere besser aussieht",
+  "dek": "Zehn Teile, die ein gewöhnliches Outfit aufwerten. Ausgewählt nach Langlebigkeit statt nach aktuellen Trends.",
+  "category": "Mode",
+  "how_we_pick": "Wir bevorzugen langlebige Verarbeitung und zeitlose Formen gegenüber dem, was gerade angesagt ist. Wir stützen uns auf veröffentlichte Materialtests, traditionelle Fertigungsstandards und langjährige Erfahrungsberichte von Besitzern. Nicht jeden Artikel hier haben wir persönlich getragen. Wir sagen Ihnen nicht, was Ihnen steht – das ist Geschmackssache. Und wo eine Wahl persönlich ist, sagen wir das auch, anstatt so zu tun, als gäbe es eine richtige Antwort.",
+  "intro": [
+    "Accessoires leisten überproportional viel. Ein schlichtes Outfit mit einem guten Gürtel, einer anständigen Uhr und passenden Schuhen wirkt durchdacht; dasselbe Outfit mit abgetragenen Versionen dieser drei Dinge wirkt müde. Die Kleidung hat sich dabei kaum verändert.",
+    "Dieser Hebeleffekt ist der Grund, warum diese Liste auf langlebige Dinge ausgerichtet ist. Trendige Accessoires sind schnell veraltet und aus gutem Grund billig. Die folgenden Teile sind diejenigen, die auch in fünf Jahren noch gut aussehen, was sie pro Tragen auch weitaus preiswerter macht, als der Preis vermuten lässt.",
+    "Eine ehrliche Anmerkung zu Passform und Geschmack: Wir können Ihnen sagen, was gut verarbeitet ist und was lange hält. Wir können Ihnen nicht sagen, was Ihnen steht, und jeder, der eine allgemeingültige Regel dazu verkauft, rät nur. Wo eine Wahl wirklich persönlich ist, sagen wir das auch.",
+    "Die Preise sind ungefähre Angaben zum Zeitpunkt der Erstellung dieses Artikels. Einige dieser Teile kauft man viel besser gebraucht, und wir weisen darauf hin, bei welchen das der Fall ist."
+  ],
+  "products": [
+    {
+      "name": "Ein Gürtel aus Vollnarbenleder",
+      "tag": "Richtig gekauft, nur einmal gekauft",
+      "body": "Die meisten verkauften Gürtel bestehen aus Spaltleder oder sogenanntem „Genuine Leather“, was trotz des Namens die niedrigste Güteklasse ist: zerkleinerte, zu einer Schicht verleimte Lederreste. Dieses Material bekommt innerhalb von ein oder zwei Jahren Risse und löst sich auf, weshalb die Leute ständig neue Gürtel kaufen. Vollnarbenleder ist die ungeschnittene oberste Hautschicht und wird mit der Zeit weicher, anstatt sich abzubauen. Nach fünf Jahren sieht es besser aus als im Neuzustand. Achten Sie auf genähte statt geklebte Kanten und eine mit Schrauben statt Nieten befestigte Schnalle, damit Sie sie austauschen können. Ein Gürtel dieser Qualität überdauert sechs billige und kostet über diesen Zeitraum weniger.",
+      "pros": [
+        "Wird mit dem Alter besser, anstatt sich abzubauen",
+        "Austauschbare Schnalle verlängert die Lebensdauer zusätzlich",
+        "Auf das Jahr gerechnet günstiger als ständiges Neukaufen von Billigware"
+      ],
+      "cons": [
+        "„Genuine Leather“ ist trotz des Namens eine niedrige Güteklasse",
+        "In den ersten Wochen etwas steif"
+      ]
+    },
+    {
+      "name": "Sonnenbrille mit echtem UV-Schutz",
+      "tag": "Auf den Schutzfaktor achten, nicht auf die Tönung",
+      "body": "Dunkle Gläser ohne UV-Filter sind schlimmer als gar keine Sonnenbrille, denn die Tönung lässt die Pupillen weiter werden, sodass mehr ultraviolettes Licht ins Auge gelangt. Achten Sie auf die Angabe „UV400“ oder „100 Prozent UVA- und UVB-Schutz“ – das ist die entscheidende Spezifikation und hat nichts damit zu tun, wie dunkel oder teuer die Gläser sind. Polarisation ist eine separate Eigenschaft, die Blendeffekte von Wasser und Straßen reduziert und beim Autofahren wirklich nützlich ist. Die Form des Gestells ist reine Geschmackssache, weshalb man sie anprobieren sollte, anstatt nach einem Foto zu kaufen.",
+      "pros": [
+        "UV400 ist eine überprüfbare, aussagekräftige Angabe",
+        "Polarisation hilft beim Autofahren wirklich",
+        "Klassische Formen bleiben jahrelang tragbar"
+      ],
+      "cons": [
+        "Dunkle Tönung ohne UV-Filter ist aktiv schädlich",
+        "Die Form des Gestells ist Geschmackssache – vor dem Kauf anprobieren"
+      ]
+    },
+    {
+      "name": "Eine schlichte Uhr mit wechselbarem Armband",
+      "tag": "Eine Uhr, mehrere Looks",
+      "body": "Eine schlichte Analoguhr mit einem klaren Zifferblatt passt zu allem und kommt viel langsamer aus der Mode als Modelle mit überladenem Design. Ein oft übersehenes Merkmal sind Schnellwechsel-Federstege, mit denen man das Armband in Sekunden ohne Werkzeug wechseln kann – ein Leder- und ein Stoffarmband machen aus einer Uhr zwei, für etwa zwanzig Pfund. Vergleichen Sie den Gehäusedurchmesser mit Ihrem Handgelenk, anstatt nach Trends zu kaufen, da die Uhrengrößen sich im Zehnjahrestakt ändern. Ein Quarzwerk ist präziser und weitaus günstiger im Unterhalt als ein mechanisches; mechanische Uhren sind ein Hobby, kein Upgrade.",
+      "pros": [
+        "Schnellwechsel-Armbänder machen aus einer Uhr mehrere",
+        "Schlichte Zifferblätter kommen sehr langsam aus der Mode",
+        "Quarzwerke sind präzise und günstig in der Wartung"
+      ],
+      "cons": [
+        "Gehäusegröße ist Geschmackssache – messen Sie Ihr Handgelenk",
+        "Mechanische Uhrwerke müssen regelmäßig gewartet werden"
+      ]
+    },
+    {
+      "name": "Ein Schal aus Merino- oder Lammwolle",
+      "tag": "Die meiste Wärme pro Gramm",
+      "body": "Ein Schal ist die günstigste Methode, einen Mantel wärmer zu machen, da die meiste Wärme über die Halsöffnung verloren geht. Außerdem ist er die einfachste Möglichkeit, einem ansonsten schlichten Outfit Farbe zu verleihen. Merinowolle ist fein genug, um nicht zu kratzen, was die meisten Leute an Wolle stört, und sie reguliert die Temperatur weitaus besser als Acryl – Acryl staut Schweiß und fühlt sich dann kalt an. Eine neutrale Farbe ist der nützlichere Kauf, wenn man nur einen besitzt; eine leuchtende Farbe ist besser, wenn man schon drei hat. Selten und kalt waschen und liegend trocknen.",
+      "pros": [
+        "Schließt das größte Wärmeleck eines Mantels",
+        "Merinowolle kratzt nicht und kommt gut mit Feuchtigkeit zurecht",
+        "Günstige Möglichkeit, schlichter Kleidung Farbe zu verleihen"
+      ],
+      "cons": [
+        "Wolle muss vorsichtig gewaschen und liegend getrocknet werden",
+        "Motten – im Sommer richtig lagern"
+      ]
+    },
+    {
+      "name": "Eine formstabile Tote-Bag aus Leder oder Canvas",
+      "tag": "Ersetzt mehrere Taschen",
+      "body": "Die Tasche, die man jeden Tag benutzt, ist die, in die ein Laptop passt, die nicht in sich zusammenfällt, wenn sie halb leer ist, und die weder bei der Arbeit noch beim Abendessen deplatziert wirkt. Das liegt an der Formstabilität – eine formlose Tasche sackt durch und alles sammelt sich am Boden, weshalb sie oft ungenutzt bleibt. Achten Sie auf einen flachen Boden, verstärkte Henkelbefestigungen und eine Henkellänge, die auch mit Mantel noch über die Schulter passt. Prüfen Sie, ob es innen mindestens eine Reißverschlusstasche gibt; ein einziges offenes Fach bedeutet, dass man für den Schlüssel die ganze Tasche durchwühlen muss.",
+      "pros": [
+        "Passt sowohl zur Arbeit als auch für den Abend",
+        "Die Formstabilität verhindert, dass alles nach unten rutscht",
+        "Gutes Leder wird mit dem Gebrauch schöner"
+      ],
+      "cons": [
+        "Schon schwer, bevor man etwas hineinpackt",
+        "Oben offene Designs sind in Menschenmengen nicht sicher"
+      ]
+    },
+    {
+      "name": "Schuhspanner und eine anständige Bürste",
+      "tag": "Verdoppelt die Lebensdauer guter Schuhe",
+      "body": "Dies ist der Punkt mit der größten Hebelwirkung hier, und niemand kauft es. Lederschuhe nehmen über den Tag eine bemerkenswerte Menge an Feuchtigkeit auf und trocknen dann in der zerknitterten Form, in der man sie zurücklässt. An diesen Falten bricht das Leder schließlich. Schuhspanner aus Zedernholz halten die Form und ziehen über Nacht die Feuchtigkeit heraus. Eine Bürste und gelegentliche Pflegecreme erledigen den Rest. Zusammen verdoppeln sie die Nutzungsdauer eines Paars guter Schuhe ungefähr, und das zum Preis eines Essens zum Mitnehmen. Das macht sie zu einem besseren Kauf als fast jedes andere Kleidungsstück auf dieser Seite.",
+      "pros": [
+        "Verdoppelt ungefähr die Lebensdauer von Lederschuhen",
+        "Zedernholz absorbiert Feuchtigkeit und neutralisiert Gerüche",
+        "Kostet einen Bruchteil der Schuhe, die es schützt"
+      ],
+      "cons": [
+        "Lohnt sich nur für Lederschuhe, nicht für Sneaker",
+        "Muss zur täglichen Routine werden, um zu wirken"
+      ]
+    },
+    {
+      "name": "Ein hochwertiger Mantel aus zweiter Hand",
+      "tag": "Wo Secondhand klar gewinnt",
+      "body": "Ein gut gemachter Wollmantel ist eines der wenigen Kleidungsstücke, die wirklich Jahrzehnte halten. Und weil sich die Schnitte von Mänteln langsam ändern, sieht ein zehn Jahre altes Modell selten altmodisch aus. Diese Kombination macht den Secondhand-Markt hier ungewöhnlich attraktiv: Man kann eine Verarbeitungsqualität kaufen, die neu das Vierfache kosten würde. Überprüfen Sie das Futter und die Nähte unter den Armen, die vor dem Oberstoff nachgeben und teuer zu reparieren sind. Lassen Sie ihn dann ändern – die Schultern müssen passen, aber Ärmellänge und Taillierung sind günstige Anpassungen. Und die Passform ist das, was einen Mantel teuer aussehen lässt.",
+      "pros": [
+        "Verarbeitungsqualität zum Viertel des Neupreises kaufen",
+        "Mantelschnitte veralten sehr langsam",
+        "Änderungen sind günstig und verwandeln die Passform"
+      ],
+      "cons": [
+        "Die Schultern müssen passen – das lässt sich nicht günstig ändern",
+        "Vor dem Kauf Futter und Nähte unter den Armen prüfen"
+      ]
+    },
+    {
+      "name": "Ein schmales Kartenetui aus Leder",
+      "tag": "Ersetzt die überfüllte Brieftasche",
+      "body": "Die traditionelle, mit Belegen vollgestopfte Brieftasche ist klobig, zerstört die Silhouette der Hosentasche und wird – wenn man sie in der Gesäßtasche trägt und den ganzen Tag darauf sitzt – tatsächlich mit Haltungsschäden und Rückenbeschwerden in Verbindung gebracht. Ein Kartenetui zwingt zur nützlichen Disziplin, nur drei oder vier statt fünfzehn Karten bei sich zu tragen. Auch hier gilt: Vollnarbenleder und genähte statt geklebte Kanten. Wenn Sie kontaktlose Karten mit sich führen, beachten Sie, dass mehrere Karten zusammen gelegentlich ein Lesegerät verwirren können; ein Etui, das sie trennt, oder das einfache Herausnehmen einer Karte löst das Problem.",
+      "pros": [
+        "Viel weniger klobig in der Tasche",
+        "Zwingt einen, nur das Nötigste mitzunehmen",
+        "Gutes Leder altert gut"
+      ],
+      "cons": [
+        "In den kleinsten Modellen kein Platz für Geldscheine",
+        "Mehrere kontaktlose Karten zusammen können Lesegeräte verwirren"
+      ]
+    },
+    {
+      "name": "Ein Fusselrasierer",
+      "tag": "Lässt alte Kleidung neu aussehen",
+      "body": "Pilling ist das, was einen Pullover alt aussehen lässt, und es ist fast rein kosmetisch – das Kleidungsstück darunter ist meistens in Ordnung. Ein batteriebetriebener Fusselrasierer entfernt diese Knötchen in wenigen Minuten und lässt Strickwaren, Mäntel und Polstermöbel um Jahre jünger aussehen. Es ist das Günstigste auf dieser Seite und wahrscheinlich das mit dem besten Verhältnis von sichtbarer Verbesserung zu Kosten. Auf einer flachen Oberfläche anwenden, nicht während man das Kleidungsstück trägt, in Bewegung halten und bei empfindlichen Stoffen mit der niedrigsten Einstellung beginnen, da man tatsächlich ein Loch in feinen Strick schneiden kann.",
+      "pros": [
+        "Lässt Strickwaren um Jahre jünger aussehen",
+        "Die günstigste sichtbare Verbesserung hier",
+        "Funktioniert auch bei Polstermöbeln und Mänteln"
+      ],
+      "cons": [
+        "Kann bei unvorsichtiger Anwendung feinen Strick zerschneiden",
+        "Benötigt Batterien oder muss aufgeladen werden"
+      ]
+    },
+    {
+      "name": "Holzbügel, zumindest für Mäntel und Sakkos",
+      "tag": "Günstig und beugt Schäden vor",
+      "body": "Dünne Draht- und Plastikbügel konzentrieren das Gewicht eines Kleidungsstücks auf zwei schmale Punkte. Über ein Jahr hinweg hinterlässt das permanente Beulen in den Schultern von Strickwaren und verformt die Schulterlinie eines Sakkos – der einzige Teil eines maßgeschneiderten Stücks, der nicht günstig repariert werden kann. Breite Holzbügel verteilen die Last über die natürliche Schulterform. Man braucht sie nicht für alles; verwenden Sie sie für Mäntel, Jacken und alles Formstabile und behalten Sie die Plastikbügel für T-Shirts. Strickwaren sollten ohnehin besser gefaltet als aufgehängt werden, egal auf welchem Bügel.",
+      "pros": [
+        "Verhindert permanente Verformung der Schulterpartie",
+        "Der Schaden, den sie verhindern, ist nicht günstig zu reparieren",
+        "Nur für formstabile Kleidungsstücke nötig"
+      ],
+      "cons": [
+        "Nehmen merklich mehr Platz auf der Kleiderstange ein",
+        "Strickwaren sollten ohnehin gefaltet werden"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welches einzelne Accessoire macht den größten Unterschied?",
+      "a": "Schuhe, die passen und gepflegt werden. Abgetragene Schuhe fallen den Leuten als Erstes auf, und Schuhspanner plus Bürste kosten sehr wenig im Vergleich zu dem Paar, das sie schützen."
+    },
+    {
+      "q": "Ist „Genuine Leather“ von guter Qualität?",
+      "a": "Nein – trotz des Namens ist es eine der niedrigeren Güteklassen, hergestellt aus verklebten Resten. Vollnarbenleder ist die oberste Schicht der Haut und die, die am längsten hält. Sogenanntes Top-Grain-Leder liegt qualitativ dazwischen."
+    },
+    {
+      "q": "Was lohnt sich, gebraucht zu kaufen?",
+      "a": "Mäntel, Ledertaschen und hochwertige Strickwaren, die alle viel länger halten, als ein Besitzer sie behält. Schuhe sollte man neu kaufen, es sei denn, man weiß, dass sie passen, da ein gebrauchtes Paar sich bereits an den Fuß eines anderen angepasst hat."
+    },
+    {
+      "q": "Wie verhindere ich, dass Pullover alt aussehen?",
+      "a": "Ein Fusselrasierer gegen Pilling, falten statt aufhängen, damit die Schultern in Form bleiben, und seltener und kälter waschen, als Sie es wahrscheinlich tun. Wolle muss viel öfter gelüftet als gewaschen werden."
+    }
+  ]
+}

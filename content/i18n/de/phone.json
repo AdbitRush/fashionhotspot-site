@@ -1,0 +1,172 @@
+{
+  "slug": "phone",
+  "title": "Handy-Zubehör, das Sie auch in einem Jahr noch benutzen werden",
+  "dek": "Zehn Zubehörteile, die den täglichen Gebrauch überstehen, und die beliebten, die wir nicht noch einmal kaufen würden.",
+  "category": "Handy",
+  "how_we_pick": "Wir bevorzugen Produkte, die einen teuren Defekt verhindern, ein tägliches Ärgernis beseitigen oder mehr als nur ein Handy überdauern. Wir stützen uns auf veröffentlichte Tests, Zertifizierungsstandards und Langzeitberichte von Besitzern und haben nicht jedes hier vorgestellte Produkt persönlich verwendet. Wenn ein beliebtes Zubehörteil den Kauf wirklich nicht wert ist, sagen wir das auch, anstatt es einfach stillschweigend wegzulassen.",
+  "intro": [
+    "Handy-Zubehör ist eine Kategorie für Impulskäufe. Es ist billig genug, um nicht lange darüber nachzudenken, und genau deshalb haben die meisten Leute eine Schublade voll davon, benutzen aber nur drei Teile.",
+    "Die drei Teile, die überleben, sind fast immer dieselben: etwas, das das Handy vor dem Zerbrechen schützt, etwas, das es auflädt, und etwas, das es aufrecht hält. Alles Folgende wird danach beurteilt, ob es sich nach einem Jahr seinen Platz in der Hosen- oder Handtasche noch verdient hat.",
+    "Die Preise sind ungefähre Angaben zum Zeitpunkt der Erstellung dieses Artikels. Diese Kategorie ist überschwemmt mit nahezu identischen Produkten unter verschiedenen Namen, daher beschreiben wir, worauf Sie achten sollten, anstatt auf einer bestimmten Marke zu bestehen."
+  ],
+  "products": [
+    {
+      "name": "Eine Hülle mit erhöhtem Rand und Eckenschutz",
+      "tag": "Die, die Geld spart",
+      "body": "Handys gehen fast immer auf eine von zwei Arten kaputt: durch einen Aufprall auf eine Ecke, der sich durch den Rahmen zum Display fortsetzt, oder durch eine Landung mit der Vorderseite nach unten auf Splitt. Eine Hülle hilft nur, wenn sie beides berücksichtigt, was eine echte Eckenverstärkung und einen Rand bedeutet, der über das Display und das Kameraglas hinausragt. Dieser Rand ist das wichtigste Merkmal und das, worauf dünne Hüllen als Erstes verzichten. Achten Sie auf eine angegebene Fallhöhe anstelle eines Marketing-Spruchs. Und wenn Ihr Handy magnetische Halterungen unterstützt, besorgen Sie sich eine Hülle, die diese Funktion durchlässt – sonst verlieren Sie das Feature in dem Moment, in dem Sie das Handy schützen.",
+      "pros": [
+        "Verhindert die beiden häufigsten Ursachen für Handy-Schäden",
+        "Erhöhter Rand schützt Display und Kameraglas",
+        "Günstig im Vergleich zu einer Display-Reparatur"
+      ],
+      "cons": [
+        "Dünne Hüllen verzichten auf den entscheidenden Rand",
+        "Macht sich in der Hosentasche deutlich bemerkbar"
+      ]
+    },
+    {
+      "name": "Displayschutz aus Panzerglas (Doppelpack)",
+      "tag": "Kaufen Sie zwei, Sie werden zwei brauchen",
+      "body": "Ein Displayschutz ist ein Verbrauchsartikel, der ein Zehntel einer Display-Reparatur kostet. Glas ist den kleinen Aufpreis gegenüber Plastikfolie wert, weil es dem Sand und den Schlüsseln widersteht, die tatsächlich Kratzer verursachen. Das Merkmal, auf das Sie bestehen sollten, ist ein Montagerahmen in der Verpackung – falsche Anbringung, nicht die Qualität, ist der Grund, warum die meisten Schutzfolien mit Staubblasen und abgelösten Ecken enden. Kaufen Sie einen Doppelpack, denn Ihr erster Versuch könnte misslingen und weil ein gesprungener Schutz seine Aufgabe erfüllt hat und ersetzt werden muss. Reinigen Sie das Display, dann reinigen Sie es noch einmal und benutzen Sie dann die Staubaufkleber.",
+      "pros": [
+        "Ein Zehntel der Kosten einer Display-Reparatur",
+        "Glas widersteht den wirklichen Ursachen für Kratzer",
+        "Montagerahmen machen die Anbringung kinderleicht"
+      ],
+      "cons": [
+        "Billige Modelle stören im Display integrierte Fingerabdrucksensoren",
+        "Ohne Rahmen verzeiht die Anbringung keine Fehler"
+      ]
+    },
+    {
+      "name": "Eine magnetische kabellose Powerbank",
+      "tag": "Die bequemste Art zu laden",
+      "body": "Der Grund, warum diese benutzt werden und eine Powerbank mit Kabel nicht, ist, dass sie mit einer Bewegung haften und man das Handy während des Ladevorgangs weiter benutzen kann, ohne dass unten ein Kabel herumbaumelt. Dieser Komfort ist das ganze Argument, und es ist ein gutes. Seien Sie sich des Kompromisses bewusst: Kabelloses Laden ist deutlich weniger effizient als mit Kabel, sodass eine magnetische 5,000mAh-Powerbank spürbar weniger Strom liefert als eine kabelgebundene mit 5,000mAh, und sie wird dabei warm. Für einen Tagesausflug ist sie ideal. Für einen langen Flug nehmen Sie das Kabel mit.",
+      "pros": [
+        "Haftet mit einer Bewegung, kein baumelndes Kabel",
+        "Handy während des Ladens normal benutzen",
+        "Schlank genug, um in der Tasche am Handy zu bleiben"
+      ],
+      "cons": [
+        "Die kabellose Übertragung verschwendet einen Teil der Kapazität",
+        "Wird unter Last warm"
+      ]
+    },
+    {
+      "name": "Ein geflochtenes USB-C-Kabel, 2 m",
+      "tag": "Wo billig teurer kommt",
+      "body": "Kabel gehen an der Zugentlastung kaputt, wo das Kabel auf den Stecker trifft, weshalb das mitgelieferte Kabel als Erstes ausfranst. Eine geflochtene Ummantelung mit einem richtigen Formkragen übersteht jahrelang dieselbe Behandlung. Die Länge ist wichtiger, als die Leute zugeben – zwei Meter machen den Unterschied, ob man sein Handy im Bett oder auf dem Sofa benutzen kann oder nicht. Wenn Sie einen Laptop mit demselben Kabel laden, prüfen Sie die angegebene Wattzahl, und für schnelle Datenübertragung auch die Datengeschwindigkeit, da viele Kabel 100W Leistung, aber nur USB 2.0-Datenrate übertragen.",
+      "pros": [
+        "Geflochtene Ummantelung übersteht jahrelanges Biegen",
+        "2 m reichen auch von einer ungünstig platzierten Steckdose",
+        "Eine günstige Versicherung gegen ein kaputtes Kabel"
+      ],
+      "cons": [
+        "Hohe Wattzahl bedeutet nicht schnelle Datenübertragung",
+        "Geflecht wird bei Kälte steif"
+      ]
+    },
+    {
+      "name": "Eine magnetische Autohalterung",
+      "tag": "Sicherheit, nicht Bequemlichkeit",
+      "body": "Dies gehört eher als Sicherheitsartikel denn als Gadget auf die Liste. Ein Handy in einer Halterung auf Augenhöhe bedeutet kurze Blicke statt eines Blicks nach unten in den Schoß, und vielerorts ist die Benutzung eines Handys am Steuer ohnehin eine Straftat. Magnethalterungen sind besser als Klemmen, weil man das Handy einhändig andocken kann, ohne Arme verstellen zu müssen. Halterungen für die Lüftungsschlitze sind am einfachsten zu montieren, können aber den Luftstrom blockieren oder an weichen Lamellen durchhängen; Saugnapfhalterungen für die Windschutzscheibe sind stabiler, aber prüfen Sie die örtlichen Vorschriften, da die Behinderung der Sicht durch die Windschutzscheibe in einigen Ländern reguliert ist.",
+      "pros": [
+        "Hält den Blick nahe an der Straße",
+        "Einhändiges Andocken",
+        "Günstig für das, was es verhindert"
+      ],
+      "cons": [
+        "Lüftungshalterungen hängen durch und blockieren den Luftstrom",
+        "Die Anbringung an der Windschutzscheibe ist in einigen Ländern reguliert"
+      ]
+    },
+    {
+      "name": "Ein 30W+ GaN-Wandladegerät",
+      "tag": "Ersetzt das mitgelieferte",
+      "body": "Die meisten Handys werden nicht mehr mit einem Ladegerät geliefert, und die billigsten Ersatzgeräte auf einem Online-Marktplatz sind das Schlimmste, woran man sparen kann, denn sie stecken in Ihrer Wand und führen Netzspannung. Ein 30W-Galliumnitrid-Ladegerät einer bekannten Marke ist klein, bleibt kühl und lädt ein modernes Handy mit voller Geschwindigkeit. Modelle mit zwei Anschlüssen bedeuten, dass ein Stecker für Handy und Kopfhörer ausreicht. Achten Sie auf ein anerkanntes Sicherheitszertifikat auf dem Gehäuse – sein Fehlen bei einem markenlosen Gerät ist ein echter Grund, es nicht zu kaufen, keine Formalität.",
+      "pros": [
+        "Laden mit voller Geschwindigkeit in einem winzigen Gehäuse",
+        "Bleibt kühl, klappbare Stecker sind ideal für Reisen",
+        "Zwei Anschlüsse versorgen Handy und Kopfhörer"
+      ],
+      "cons": [
+        "Hier sollte man keine markenlosen Produkte kaufen",
+        "Sehr hohe Wattzahlen sind für ein Handy allein verschwendet"
+      ]
+    },
+    {
+      "name": "Ein Handy-Griff oder Ring-Ständer",
+      "tag": "Günstig und verhindert Stürze",
+      "body": "Handys sind über die Größe hinausgewachsen, die eine Hand bequem halten kann, und die meisten Stürze passieren bei dem einhändigen Versuch, die ferne Ecke des Bildschirms zu erreichen. Ein Griff macht diese Streckbewegung überflüssig und dient gleichzeitig als Ständer, um etwas anzusehen. Wählen Sie einen magnetischen, abnehmbaren Griff anstelle eines selbstklebenden: Klebeversionen blockieren das kabellose Laden, lassen sich nicht sauber entfernen und lösen sich irgendwann ab. Zusammenklappbare Designs liegen flacher in der Tasche. Es ist eine Kleinigkeit und eines der wenigen Zubehörteile, das messbar reduziert, wie oft man das Handy fallen lässt.",
+      "pros": [
+        "Macht die einhändige Streckbewegung überflüssig, die zu Stürzen führt",
+        "Dient gleichzeitig als Ständer zum Ansehen von Videos",
+        "Magnetische Versionen lassen sich sauber abnehmen"
+      ],
+      "cons": [
+        "Selbstklebende Varianten blockieren das kabellose Laden",
+        "Sorgt für eine Beule in einer engen Tasche"
+      ]
+    },
+    {
+      "name": "Ein kleines Stativ oder ein Schwanenhals-Ständer",
+      "tag": "Am besten für Videoanrufe",
+      "body": "Das Handy gegen eine Tasse zu lehnen, ist die Art, wie die meisten Leute Videoanrufe tätigen, und das erklärt sehr viele unvorteilhafte Kamerawinkel. Ein kleines Stativ bringt das Objektiv auf Augenhöhe und hält es ruhig, was die ganze Aufgabe ist. Die Variante mit flexiblen Beinen ist nützlicher, weil sie sich genauso leicht um eine Stuhllehne, eine Regalkante oder einen Fahrradrahmen wickeln lässt, wie sie auf einem Tisch steht. Prüfen Sie, ob sich die Klemme weit genug für Ihr Handy mit Hülle öffnen lässt – überraschend viele tun das nicht, und das ist die Angabe, die die Leute vergessen.",
+      "pros": [
+        "Bringt die Kamera auf Augenhöhe",
+        "Flexible Beine halten sich an fast allem fest",
+        "Lässt sich klein genug für eine Tasche zusammenfalten"
+      ],
+      "cons": [
+        "Viele Klemmen passen nicht für ein Handy mit Hülle",
+        "Billige Modelle biegen sich unter einem schweren Handy durch"
+      ]
+    },
+    {
+      "name": "Ein ausklappbarer Kartenhalter oder eine Wallet-Hülle",
+      "tag": "Nützlich, mit einer Warnung",
+      "body": "Zwei Karten auf der Rückseite des Handys zu tragen, ersetzt für die meisten kurzen Wege wirklich eine Brieftasche, und die magnetischen, abnehmbaren Halter tun dies, ohne das Handy dauerhaft zu verändern. Zwei praktische Warnungen: Hotel-Schlüsselkarten und einige ältere Magnetstreifenkarten können durch starke Magnete gelöscht werden, also bewahren Sie diese getrennt auf. Und wenn Sie Ihren Ausweis und Ihre Bankkarte auf dem Gegenstand aufbewahren, der am ehesten verloren geht oder gestohlen wird, konzentrieren Sie das Risiko an einem Ort – in Ordnung für den Gang zum Einkaufen, weniger clever für einen Abend auswärts. Kontaktlose Karten selbst sind im Allgemeinen nicht betroffen.",
+      "pros": [
+        "Ersetzt die Brieftasche für kurze Wege",
+        "Magnetische Versionen lassen sich abnehmen, wenn sie nicht gebraucht werden",
+        "Schlank, trägt kaum auf"
+      ],
+      "cons": [
+        "Starke Magnete können Magnetstreifen- und Hotelkarten löschen",
+        "Konzentriert das Verlustrisiko auf einen einzigen Gegenstand"
+      ]
+    },
+    {
+      "name": "Kabelgebundene Kopfhörer mit USB-C-Stecker",
+      "tag": "Das unmodische Backup",
+      "body": "Ein billiges Paar kabelgebundener Kopfhörer in der Tasche zu haben, löst die Probleme, die kabellose Kopfhörer verursachen: ein leeres Ladecase vor einem langen Anruf, ein Kopplungsfehler in einem Meeting oder ein Bordunterhaltungssystem, das eine physische Verbindung erfordert. Sie müssen nie aufgeladen werden, haben keine Latenz und kosten weniger als der Ersatz für einen einzigen verlorenen kabellosen Stöpsel. Das Mikrofon eines anständigen kabelgebundenen Paars ist für Anrufe in der Regel auch besser positioniert als das eines Laptops. Nicht aufregend, aber das Teil, über das Sie froh sein werden, wenn an dem Tag etwas anderes ausfällt.",
+      "pros": [
+        "Muss nie geladen werden, keine Latenz",
+        "Günstig genug für ein Ersatzpaar",
+        "Bessere Mikrofonposition für Anrufe als bei einem Laptop"
+      ],
+      "cons": [
+        "Ein Kabel, das man entwirren muss",
+        "Belegt bei den meisten Handys den Ladeanschluss"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welches Handy-Zubehör ist den Kauf nicht wert?",
+      "a": "Aufsteckbare Handy-Kameraobjektive, billige markenlose Ladegeräte und selbstklebende Griffe im PopSocket-Stil, die das kabellose Laden dauerhaft blockieren. UV-Desinfektionsboxen sind ebenfalls meist unnötig – Seife und ein Mikrofasertuch erledigen den Job."
+    },
+    {
+      "q": "Beeinträchtigt ein Displayschutz den Fingerabdrucksensor?",
+      "a": "Ein guter nicht. Billiges oder übermäßig dickes Glas kann die im Display integrierten Sensoren stören. Prüfen Sie daher vor dem Kauf, ob das Produkt ausdrücklich die Kompatibilität mit dem Sensor Ihres Handys angibt."
+    },
+    {
+      "q": "Ist kabelloses Laden schlecht für den Akku?",
+      "a": "Die dabei entstehende Wärme ist der relevante Faktor, und Hitze lässt einen Akku altern. Gelegentliches kabelloses Laden ist in Ordnung; das Laden über Nacht auf einer warmen Unterlage in einem heißen Raum ist der Fall, den man vermeiden sollte."
+    },
+    {
+      "q": "Wie viel Watt brauche ich wirklich für ein Handy-Ladegerät?",
+      "a": "Etwa 30W decken das Laden mit voller Geschwindigkeit bei fast jedem aktuellen Handy ab. Höhere Werte sind nur dann von Bedeutung, wenn dasselbe Ladegerät auch einen Laptop oder mehrere Geräte gleichzeitig versorgen muss."
+    }
+  ]
+}

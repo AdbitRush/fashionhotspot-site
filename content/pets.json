@@ -2,9 +2,7 @@
   "slug": "pets",
   "category": "Pets",
   "title": "Pet Gear Worth Buying, and the Kind That Just Clutters the Hall",
-  "title_he": "ציוד לחיות מחמד ששווה לקנות, ומה שסתם תופס מקום במסדרון",
   "dek": "Ten things that make life better for the animal, not just easier to photograph. Ordered by how much difference they actually make.",
-  "dek_he": "עשרה דברים שמשפרים את החיים של החיה, ולא רק מצטלמים יפה. לפי סדר התרומה האמיתית שלהם.",
   "hero_image": "a sunlit living room with a dog resting on a large cushioned bed and a cat sitting on a window perch nearby",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -14,170 +12,195 @@
     "Two things we will not do. We will not make health claims for products — anything involving your animal's joints, teeth, weight or behaviour is a conversation with a vet, not a purchase. And we will not recommend aversive training tools, which have good evidence against them and better alternatives.",
     "Prices are approximate at the time of writing."
   ],
-  "intro_he": [
-    "מחלקת חיות המחמד בנויה סביב איך שהבעלים מרגישים ולא סביב מה שהחיות צריכות. בגלל זה יש קיר שלם של תחפושות ומדף קטן מאוד של הדברים שבאמת משנים את היום של החיה — העשרה, מנוחה נוחה, וגישה אמינה למים.",
-    "הרשימה הזאת נוטה לקבוצה השנייה. כמה פריטים בה לא זוהרים ואחד מהם הוא קופסת קרטון, וזו לא בדיחה והיא תוסבר.",
-    "שני דברים שלא נעשה. לא נטען טענות בריאותיות על מוצרים — כל דבר שקשור למפרקים, לשיניים, למשקל או להתנהגות של החיה שלכם הוא שיחה עם וטרינר ולא רכישה. ולא נמליץ על אמצעי אילוף מרתיעים, שיש נגדם ראיות טובות ויש להם חלופות טובות יותר.",
-    "המחירים הם הערכה נכון לזמן הכתיבה."
-  ],
   "how_we_pick": "We weigh animal welfare guidance, veterinary consensus and long-run owner reports, and we prioritise things that reduce boredom, improve rest or make care easier to keep up. We have not personally used every product with our own animals. Nothing here is veterinary advice, and where a problem is medical or behavioural we point you to a professional rather than to a product.",
-  "how_we_pick_he": "אנחנו נשענים על הנחיות רווחת בעלי חיים, על הסכמה וטרינרית ועל דיווחים של בעלים לאורך זמן, ומעדיפים דברים שמפחיתים שעמום, משפרים מנוחה או מקלים על ההתמדה בטיפול. לא השתמשנו בעצמנו בכל מוצר עם החיות שלנו. שום דבר כאן אינו ייעוץ וטרינרי, ואיפה שהבעיה רפואית או התנהגותית נפנה אתכם לאיש מקצוע ולא למוצר.",
   "products": [
     {
       "name": "A pet water fountain",
-      "name_he": "מזרקת מים לחיות מחמד",
       "tag": "Most useful for cats",
-      "tag_he": "הכי שימושי לחתולים",
       "price": "$35–70",
       "search": "pet water fountain cat ceramic filtered",
       "image": "a ceramic pet water fountain with gently flowing water on a tiled kitchen floor",
       "body": "Cats in particular tend to drink too little, and many are far more interested in moving water than in a still bowl — a preference thought to trace back to avoiding stagnant sources. A fountain reliably increases how much they drink, which matters because cats are prone to urinary problems. Choose ceramic or stainless steel over plastic, which scratches and harbours bacteria, and be honest about maintenance: these need rinsing weekly and a filter change monthly, and a neglected fountain is worse than a clean bowl. If your animal has any urinary or kidney history, that is a vet conversation, not a shopping one.",
-      "body_he": "חתולים במיוחד נוטים לשתות מעט מדי, ורבים מהם מתעניינים הרבה יותר במים זורמים מאשר בקערה עומדת — העדפה שמיוחסת להימנעות ממקורות עומדים בטבע. מזרקה מעלה באופן אמין את כמות השתייה, וזה חשוב כי חתולים נוטים לבעיות בדרכי השתן. בחרו קרמיקה או נירוסטה על פני פלסטיק, שנשרט ואוגר חיידקים, ותהיו כנים לגבי התחזוקה: צריך לשטוף שבועית ולהחליף מסנן חודשית, ומזרקה מוזנחת גרועה יותר מקערה נקייה. אם לחיה שלכם יש היסטוריה של בעיות שתן או כליות, זו שיחה עם וטרינר ולא שיחת קניות.",
-      "pros": ["Reliably increases how much cats drink", "Ceramic and steel stay hygienic", "Filters remove the taste of stale water"],
-      "cons": ["Needs genuine weekly cleaning", "Pump noise varies — some models hum"]
+      "pros": [
+        "Reliably increases how much cats drink",
+        "Ceramic and steel stay hygienic",
+        "Filters remove the taste of stale water"
+      ],
+      "cons": [
+        "Needs genuine weekly cleaning",
+        "Pump noise varies — some models hum"
+      ]
     },
     {
       "name": "A puzzle feeder or slow feeder bowl",
-      "name_he": "קערת האטה או מתקן האכלה עם חידה",
       "tag": "Best value enrichment",
-      "tag_he": "ההעשרה המשתלמת ביותר",
       "price": "$15–40",
       "search": "dog puzzle feeder slow feeder bowl",
       "image": "a moulded slow feeder bowl with a maze pattern on a kitchen floor beside a dog toy",
       "body": "Most companion animals get their food for free in about ninety seconds, which leaves a lot of hours in the day with nothing to do. A puzzle feeder turns a meal into ten or fifteen minutes of foraging, which is closer to how animals are built to eat and takes the edge off boredom-driven behaviour. It also slows down dogs that inhale their food. Start easy — a puzzle that is too hard just gets abandoned or destroyed — and wash it properly, because the crevices that make it interesting also make it a good place for old food to sit.",
-      "body_he": "רוב חיות המחמד מקבלות את האוכל שלהן בחינם תוך תשעים שניות בערך, וזה משאיר הרבה שעות ביום בלי מה לעשות. מתקן חידה הופך ארוחה לעשר או חמש-עשרה דקות של חיפוש מזון, וזה קרוב יותר לאיך שחיות בנויות לאכול ומוריד את הקצה מהתנהגות שנובעת משעמום. הוא גם מאט כלבים ששואפים את האוכל. תתחילו בקל — חידה קשה מדי פשוט נזנחת או נהרסת — ותשטפו אותה כמו שצריך, כי החריצים שהופכים אותה למעניינת הם גם מקום טוב לשאריות אוכל לשבת בו.",
-      "pros": ["Turns a 90-second meal into real activity", "Reduces boredom behaviour", "Slows down fast eaters"],
-      "cons": ["Too-hard puzzles get abandoned", "Crevices need proper washing"]
+      "pros": [
+        "Turns a 90-second meal into real activity",
+        "Reduces boredom behaviour",
+        "Slows down fast eaters"
+      ],
+      "cons": [
+        "Too-hard puzzles get abandoned",
+        "Crevices need proper washing"
+      ]
     },
     {
       "name": "A large, washable orthopaedic-style bed",
-      "name_he": "מיטה גדולה ורחיצה בסגנון אורתופדי",
       "tag": "Where the money is well spent",
-      "tag_he": "איפה שהכסף מושקע נכון",
       "price": "$60–160",
       "search": "large dog bed washable removable cover memory foam",
       "image": "a large cushioned dog bed with a grey removable cover in a sunlit corner of a room",
       "body": "Animals sleep for most of the day, so the surface they sleep on is one of the highest-impact purchases on this list. The two specifications that matter are a genuinely removable, machine-washable cover — beds without one become unusable within a year — and enough size for the animal to stretch out fully rather than curl by necessity. Thick supportive foam is more comfortable for older or larger animals. We will describe it as supportive rather than therapeutic: comfort is real, but if your animal is stiff, slow on stairs or reluctant to jump, that is a vet visit.",
-      "body_he": "חיות ישנות את רוב היום, ולכן המשטח שהן ישנות עליו הוא אחת הרכישות המשפיעות ביותר ברשימה. שני המפרטים שחשובים הם ציפוי שבאמת מתפרק וניתן לכביסה במכונה — מיטות בלי כזה הופכות לבלתי שמישות תוך שנה — ומספיק גודל כדי שהחיה תוכל להתמתח לגמרי ולא להתכרבל מתוך אילוץ. קצף תומך ועבה נוח יותר לחיות מבוגרות או גדולות. נתאר אותו כתומך ולא כטיפולי: הנוחות אמיתית, אבל אם החיה שלכם נוקשה, איטית במדרגות או נמנעת מקפיצות, זה ביקור אצל וטרינר.",
-      "pros": ["Affects most of your animal's day", "Washable covers keep it usable for years", "Thick foam suits older and larger animals"],
-      "cons": ["Good ones are expensive in large sizes", "Comfort is not treatment — see a vet for stiffness"]
+      "pros": [
+        "Affects most of your animal's day",
+        "Washable covers keep it usable for years",
+        "Thick foam suits older and larger animals"
+      ],
+      "cons": [
+        "Good ones are expensive in large sizes",
+        "Comfort is not treatment — see a vet for stiffness"
+      ]
     },
     {
       "name": "A Y-front or front-clip harness",
-      "name_he": "רתמת חזה בצורת Y או עם חיבור קדמי",
       "tag": "Better than a collar for walks",
-      "tag_he": "עדיפה על קולר לטיולים",
       "price": "$25–60",
       "search": "Y front dog harness no pull front clip",
       "image": "a padded fabric dog harness laid out flat on a wooden floor beside a lead",
       "body": "Pressure on a dog's throat from a collar during pulling is worth avoiding, and a well-fitted harness spreads the load across the chest instead. Look specifically for a Y-shaped front that sits clear of the shoulder joint, since the horizontal strap-across-the-chest designs restrict the shoulder through its natural range. A front attachment point helps redirect a dog that pulls, but treat it as a management tool while you train rather than a solution — pulling is a training problem, and the harness only buys you a calmer walk in the meantime. Measure the chest girth; sizing by weight alone is unreliable.",
-      "body_he": "כדאי להימנע מלחץ על גרון הכלב מקולר בזמן משיכה, ורתמה מותאמת היטב מפזרת את העומס על החזה במקום. חפשו במיוחד חזית בצורת Y שיושבת מחוץ למפרק הכתף, כי דגמים עם רצועה אופקית לרוחב החזה מגבילים את הכתף בטווח התנועה הטבעי שלה. נקודת חיבור קדמית עוזרת להסיט כלב שמושך, אבל תתייחסו לזה ככלי ניהול בזמן שאתם מאלפים ולא כפתרון — משיכה היא בעיית אילוף, והרתמה רק קונה לכם טיול רגוע יותר בינתיים. מדדו את היקף החזה; מידה לפי משקל בלבד אינה אמינה.",
-      "pros": ["Keeps pressure off the throat", "Y-front designs leave the shoulder free", "Front clip helps while you train"],
-      "cons": ["Not a substitute for training", "Sizing by weight is unreliable — measure"]
+      "pros": [
+        "Keeps pressure off the throat",
+        "Y-front designs leave the shoulder free",
+        "Front clip helps while you train"
+      ],
+      "cons": [
+        "Not a substitute for training",
+        "Sizing by weight is unreliable — measure"
+      ]
     },
     {
       "name": "A cardboard box, and cat shelves",
-      "name_he": "קופסת קרטון, ומדפים לחתולים",
       "tag": "The free one genuinely works",
-      "tag_he": "הגרסה החינמית באמת עובדת",
       "price": "$0–90",
       "search": "cat wall shelves climbing perch",
       "image": "a cat sitting inside a plain cardboard box on a wooden floor in warm light",
       "body": "Cats need enclosed spaces and height, in roughly that order. Enclosure is about feeling secure enough to sleep deeply, and a plain cardboard box satisfies it completely and for free — studies on shelter cats found boxes measurably reduced stress in new arrivals. Height matters because vertical space effectively enlarges a small flat and lets a cat retreat from a dog, a toddler or a visitor. Wall shelves or a tall tree provide that. Spend the money on the vertical space if you are going to spend it anywhere, and let the box be a box.",
-      "body_he": "חתולים צריכים מרחבים סגורים וגובה, בערך בסדר הזה. הסגירות עוסקת בתחושת ביטחון מספקת כדי לישון עמוק, וקופסת קרטון פשוטה עונה על זה לגמרי ובחינם — מחקרים במקלטים מצאו שקופסאות הפחיתו מדידה סטרס אצל חתולים חדשים. גובה חשוב כי מרחב אנכי למעשה מגדיל דירה קטנה ומאפשר לחתול לסגת מכלב, מפעוט או מאורח. מדפי קיר או עץ גבוה מספקים את זה. תוציאו את הכסף על המרחב האנכי אם אתם מוציאים אותו בכלל, ותנו לקופסה להיות קופסה.",
-      "pros": ["The free option is genuinely effective", "Vertical space enlarges a small flat", "Gives a cat somewhere to retreat to"],
-      "cons": ["Wall shelves need secure fixing", "Cats ignore anything placed in the wrong spot"]
+      "pros": [
+        "The free option is genuinely effective",
+        "Vertical space enlarges a small flat",
+        "Gives a cat somewhere to retreat to"
+      ],
+      "cons": [
+        "Wall shelves need secure fixing",
+        "Cats ignore anything placed in the wrong spot"
+      ]
     },
     {
       "name": "A quality nail clipper or grinder",
-      "name_he": "קוצץ ציפורניים איכותי או משחזת",
       "tag": "Small tool, avoids a real problem",
-      "tag_he": "כלי קטן, מונע בעיה אמיתית",
       "price": "$15–45",
       "search": "dog nail grinder quiet rechargeable",
       "image": "a small handheld pet nail grinder on a table beside a folded towel",
       "body": "Overgrown nails change how an animal stands and walks, so this is basic maintenance rather than grooming vanity. A grinder is usually easier for nervous animals than clippers because it removes the sudden pressure and the loud snap, though it makes a vibration and a noise of its own that some animals dislike more. Whichever you choose, the important part is avoiding the quick — the blood vessel inside the nail — which is easy to see on pale nails and nearly impossible on dark ones. If your animal has black nails or hates having its feet held, having a groomer or vet nurse do it is a completely reasonable choice.",
-      "body_he": "ציפורניים שגדלו יותר מדי משנות את אופן העמידה וההליכה של החיה, אז זו תחזוקה בסיסית ולא גנדרנות טיפוח. משחזת בדרך כלל קלה יותר לחיות עצבניות מאשר קוצץ כי היא מסלקת את הלחץ הפתאומי ואת הנקישה הרועשת, אם כי היא מייצרת רעידה ורעש משלה שחלק מהחיות אוהבות פחות. מה שלא תבחרו, החלק החשוב הוא להימנע מהחלק החי — כלי הדם שבתוך הציפורן — שקל לראות בציפורניים בהירות וכמעט בלתי אפשרי בכהות. אם לחיה שלכם ציפורניים שחורות או שהיא שונאת שמחזיקים לה את הרגליים, לתת למטפח או לאח וטרינרי לעשות את זה זו בחירה סבירה לגמרי.",
-      "pros": ["Prevents a genuine posture and gait problem", "Grinders suit animals that fear the clipper snap", "Cheap, and lasts for years"],
-      "cons": ["Cutting the quick hurts and bleeds", "Grinder vibration bothers some animals"]
+      "pros": [
+        "Prevents a genuine posture and gait problem",
+        "Grinders suit animals that fear the clipper snap",
+        "Cheap, and lasts for years"
+      ],
+      "cons": [
+        "Cutting the quick hurts and bleeds",
+        "Grinder vibration bothers some animals"
+      ]
     },
     {
       "name": "An enzymatic cleaner",
-      "name_he": "מנקה אנזימטי",
       "tag": "The one you will restock",
-      "tag_he": "זה שתקנו שוב ושוב",
       "price": "$15–30",
       "search": "enzymatic pet stain odour remover",
       "image": "a spray bottle of cleaning solution standing on a wooden floor beside a folded cloth",
       "body": "Ordinary household cleaner removes the visible mark and leaves the scent markers, which is why animals return to the same spot and repeat the accident. Enzymatic cleaners break those compounds down instead of masking them, which addresses the cause rather than the symptom. Two practical points. Never use an ammonia-based cleaner on animal urine, because ammonia is a component of urine and effectively signals that the spot is a toilet. And give the enzymes time — these products need to stay wet for several minutes to work, so soaking the area properly beats a quick wipe.",
-      "body_he": "חומר ניקוי ביתי רגיל מסיר את הכתם הנראה ומשאיר את סמני הריח, ובגלל זה חיות חוזרות לאותה נקודה וחוזרות על התאונה. מנקים אנזימטיים מפרקים את התרכובות האלה במקום להסוות אותן, וזה מטפל בסיבה ולא בסימפטום. שתי נקודות מעשיות. לעולם אל תשתמשו בחומר על בסיס אמוניה על שתן של חיה, כי אמוניה היא מרכיב בשתן ולמעשה מסמנת שהמקום הזה הוא שירותים. ותנו לאנזימים זמן — המוצרים האלה צריכים להישאר רטובים כמה דקות כדי לעבוד, אז הרטבה יסודית עדיפה על ניגוב מהיר.",
-      "pros": ["Removes the scent marker, not just the stain", "Stops animals returning to the same spot", "Cheap relative to replacing a rug"],
-      "cons": ["Needs to stay wet for several minutes", "Never combine with ammonia-based cleaners"]
+      "pros": [
+        "Removes the scent marker, not just the stain",
+        "Stops animals returning to the same spot",
+        "Cheap relative to replacing a rug"
+      ],
+      "cons": [
+        "Needs to stay wet for several minutes",
+        "Never combine with ammonia-based cleaners"
+      ]
     },
     {
       "name": "A secure, well-ventilated carrier",
-      "name_he": "כלוב הובלה בטוח ומאוורר",
       "tag": "Buy before you need it",
-      "tag_he": "קנו לפני שתצטרכו",
       "price": "$40–110",
       "search": "cat carrier top loading hard sided",
       "image": "a hard-sided pet carrier with a wire door standing open on a wooden floor",
       "body": "The carrier is bought in a hurry on a bad day, which is exactly the wrong time to be choosing one. Get a top-opening hard-sided model rather than front-only: lifting a frightened cat down into a carrier is far easier than posting it through a small front door while it braces against the frame. Leave it out in the room permanently with a blanket inside so it becomes furniture rather than a signal that something unpleasant is about to happen. That single habit removes most of the struggle. Check airline requirements separately if you plan to fly, as they are specific and strictly enforced.",
-      "body_he": "הכלוב נקנה בחיפזון ביום גרוע, וזה בדיוק הזמן הלא נכון לבחור אחד. קחו דגם קשיח שנפתח מלמעלה ולא רק מלפנים: להוריד חתול מבוהל לתוך כלוב מלמעלה הרבה יותר קל מלדחוף אותו דרך דלת קדמית קטנה בזמן שהוא נועץ רגליים במסגרת. השאירו אותו בחדר באופן קבוע עם שמיכה בפנים כדי שיהפוך לרהיט ולא לאות שמשהו לא נעים עומד לקרות. ההרגל הבודד הזה מסלק את רוב המאבק. בדקו בנפרד את דרישות חברות התעופה אם אתם מתכננים לטוס, כי הן ספציפיות ונאכפות בקפדנות.",
-      "pros": ["Top-loading is dramatically easier", "Leaving it out removes the fear association", "Hard sides protect in a car"],
-      "cons": ["Bulky to store if you do not leave it out", "Airline-approved sizes differ — check separately"]
+      "pros": [
+        "Top-loading is dramatically easier",
+        "Leaving it out removes the fear association",
+        "Hard sides protect in a car"
+      ],
+      "cons": [
+        "Bulky to store if you do not leave it out",
+        "Airline-approved sizes differ — check separately"
+      ]
     },
     {
       "name": "A rubber grooming brush or de-shedding tool",
-      "name_he": "מברשת גומי או כלי להסרת פרווה נושרת",
       "tag": "Best for the sofa, and the animal",
-      "tag_he": "הכי טוב לספה, וגם לחיה",
       "price": "$15–40",
       "search": "pet deshedding brush rubber grooming glove",
       "image": "a rubber grooming brush with soft nubs resting on a folded blanket with loose pet hair nearby",
       "body": "Regular brushing removes loose hair before it reaches your furniture, reduces the hairballs that come from cats grooming themselves, and gives you a weekly excuse to run your hands over the animal — which is how most owners find lumps, ticks and sore spots early. A soft rubber brush suits short coats and most cats, and it is the one animals tend to enjoy rather than tolerate. Aggressive blade-style de-shedding tools work quickly but will damage the coat if overused, so go gently and stop before the skin reddens.",
-      "body_he": "הברשה קבועה מסירה שיער נושר לפני שהוא מגיע לרהיטים שלכם, מפחיתה את כדורי השיער שנוצרים כשחתולים מלקקים את עצמם, ונותנת לכם תירוץ שבועי להעביר ידיים על החיה — וכך רוב הבעלים מגלים גושים, קרציות ונקודות רגישות מוקדם. מברשת גומי רכה מתאימה לפרוות קצרות ולרוב החתולים, וזו זו שחיות נוטות ליהנות ממנה ולא רק לסבול אותה. כלים אגרסיביים בסגנון להב מסירים פרווה מהר אבל יפגעו בפרווה אם משתמשים בהם יותר מדי, אז תעבדו בעדינות ותפסיקו לפני שהעור מאדים.",
-      "pros": ["Less hair on furniture and clothes", "Weekly handling catches problems early", "Most animals enjoy the rubber type"],
-      "cons": ["Blade-style tools damage coats if overused", "Long or double coats need a different brush"]
+      "pros": [
+        "Less hair on furniture and clothes",
+        "Weekly handling catches problems early",
+        "Most animals enjoy the rubber type"
+      ],
+      "cons": [
+        "Blade-style tools damage coats if overused",
+        "Long or double coats need a different brush"
+      ]
     },
     {
       "name": "A GPS tracker, for outdoor animals",
-      "name_he": "איתורית GPS, לחיות שיוצאות החוצה",
       "tag": "Conditional — read the caveats",
-      "tag_he": "מותנה — קראו את ההסתייגויות",
       "price": "$50–120 plus subscription",
       "search": "pet GPS tracker collar subscription",
       "image": "a small GPS tracker attached to a pet collar lying on a garden table",
       "body": "For a cat with outdoor access or a dog that has ever slipped a lead, live GPS location is genuinely reassuring in a way that a microchip is not — a chip only helps once someone else has found the animal and taken it to be scanned. Read the details carefully before buying, though. Most real GPS units need a monthly subscription, so the sticker price is not the cost. Battery life on live tracking is measured in days rather than weeks. And for cats, weight matters: a tracker should be well under five percent of body weight, on a quick-release safety collar.",
-      "body_he": "לחתול שיוצא החוצה או לכלב שאי פעם השתחרר מרצועה, מיקום GPS חי באמת מרגיע בצורה שצ'יפ אינו — צ'יפ עוזר רק אחרי שמישהו אחר כבר מצא את החיה ולקח אותה לסריקה. אבל קראו את הפרטים בעיון לפני הקנייה. רוב יחידות ה-GPS האמיתיות דורשות מנוי חודשי, אז מחיר המדבקה אינו העלות. חיי הסוללה במעקב חי נמדדים בימים ולא בשבועות. ולחתולים, המשקל חשוב: איתורית צריכה להיות הרבה מתחת לחמישה אחוזים ממשקל הגוף, על קולר בטיחות עם שחרור מהיר.",
-      "pros": ["Live location, unlike a microchip", "Real reassurance for free-roaming animals", "Geofence alerts on some models"],
-      "cons": ["Ongoing subscription is the real cost", "Battery lasts days, not weeks — and weight matters for cats"]
+      "pros": [
+        "Live location, unlike a microchip",
+        "Real reassurance for free-roaming animals",
+        "Geofence alerts on some models"
+      ],
+      "cons": [
+        "Ongoing subscription is the real cost",
+        "Battery lasts days, not weeks — and weight matters for cats"
+      ]
     }
   ],
   "faq": [
     {
       "q": "Does my cat really need a fountain?",
-      "a": "Not strictly, but many cats drink noticeably more from moving water, and low water intake is linked to urinary problems. If your cat already drinks well from a bowl, a wide shallow bowl kept away from the food is fine.",
-      "q_he": "האם החתול שלי באמת צריך מזרקה?",
-      "a_he": "לא בהכרח, אבל הרבה חתולים שותים הרבה יותר ממים זורמים, ושתייה מועטה קשורה לבעיות בדרכי השתן. אם החתול שלכם כבר שותה יפה מקערה, קערה רחבה ורדודה שמרוחקת מהאוכל מספיקה."
+      "a": "Not strictly, but many cats drink noticeably more from moving water, and low water intake is linked to urinary problems. If your cat already drinks well from a bowl, a wide shallow bowl kept away from the food is fine."
     },
     {
       "q": "Are anti-bark collars or shock collars a good idea?",
-      "a": "No. The evidence points to aversive tools increasing fear and aggression without addressing the cause, and most veterinary behaviour bodies advise against them. Excessive barking is usually boredom, anxiety or alarm — worth diagnosing before buying anything.",
-      "q_he": "האם קולרים נגד נביחות או קולרי שוק הם רעיון טוב?",
-      "a_he": "לא. הראיות מצביעות על כך שאמצעים מרתיעים מגבירים פחד ותוקפנות בלי לטפל בסיבה, ורוב הגופים להתנהגות וטרינרית ממליצים נגדם. נביחות מוגזמות הן בדרך כלל שעמום, חרדה או בהלה — שווה לאבחן לפני שקונים משהו."
+      "a": "No. The evidence points to aversive tools increasing fear and aggression without addressing the cause, and most veterinary behaviour bodies advise against them. Excessive barking is usually boredom, anxiety or alarm — worth diagnosing before buying anything."
     },
     {
       "q": "What is the most overrated pet purchase?",
-      "a": "Clothing, most branded toys, and automatic feeders bought for convenience rather than need. A feeder is genuinely useful for a strict feeding schedule, and largely pointless otherwise.",
-      "q_he": "מהי הרכישה הכי מוערכת יתר על המידה לחיות מחמד?",
-      "a_he": "בגדים, רוב הצעצועים הממותגים, ומאכילים אוטומטיים שנקנים מטעמי נוחות ולא מתוך צורך. מאכיל באמת שימושי ללוח האכלה קפדני, ובעיקר מיותר אחרת."
+      "a": "Clothing, most branded toys, and automatic feeders bought for convenience rather than need. A feeder is genuinely useful for a strict feeding schedule, and largely pointless otherwise."
     },
     {
       "q": "How do I keep an indoor cat from getting bored?",
-      "a": "Vertical space, a window view, a few minutes of wand play daily, and feeding through a puzzle rather than a bowl. Those four cost very little and address the actual problem better than any single toy.",
-      "q_he": "איך מונעים שעמום מחתול שחי בבית?",
-      "a_he": "מרחב אנכי, נוף מהחלון, כמה דקות משחק עם מקל ביום, והאכלה דרך חידה במקום קערה. ארבעת אלה עולים מעט מאוד ומטפלים בבעיה האמיתית טוב יותר מכל צעצוע בודד."
+      "a": "Vertical space, a window view, a few minutes of wand play daily, and feeding through a puzzle rather than a bowl. Those four cost very little and address the actual problem better than any single toy."
     }
   ]
 }

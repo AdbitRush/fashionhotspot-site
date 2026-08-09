@@ -1,0 +1,172 @@
+{
+  "slug": "coffee",
+  "title": "S'équiper pour le café à la maison : les achats à faire, du premier au dernier",
+  "dek": "Dix accessoires qui changent vraiment le goût de votre café, classés selon leur impact par euro dépensé.",
+  "category": "Café",
+  "how_we_pick": "Notre sélection se base sur des tests de laboratoire publiés, des retours d'utilisateurs sur le long terme et des forums de spécialistes du café, le tout vérifié par rapport aux offres commerciales actuelles. Nous n'avons pas testé personnellement chaque article de cette liste. Lorsqu'une catégorie a un gagnant qui fait clairement l'unanimité, nous le disons ; lorsque le choix dépend vraiment de votre budget ou de votre cuisine, nous vous présentons les compromis plutôt qu'un faux verdict.",
+  "intro": [
+    "La plupart des gens améliorent leur équipement à café dans le mauvais ordre. Ils achètent d'abord la machine à expresso, puis passent deux ans à se demander pourquoi leur café n'a pas le même goût que celui du bistrot du coin. Le problème n'a jamais été la machine, mais le café de supermarché éventé et le moulin à lames.",
+    "Cette liste est donc classée par ordre d'efficacité : l'amélioration obtenue pour chaque euro dépensé. Les trois premiers articles auront plus d'impact sur votre café du matin que les trois derniers réunis, et deux d'entre eux coûtent moins de 40 $. Même si vous ne lisez que le début de cette page, vous aurez déjà l'essentiel.",
+    "Les prix ci-dessous sont des prix publics approximatifs au moment de la rédaction et varient constamment, surtout pendant les soldes. Considérez-les comme une fourchette de prix pour votre budget, pas comme un devis. Vérifiez toujours le prix affiché sur le site du vendeur avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Baratza Encore ESP",
+      "tag": "Le premier achat à faire pour tout changer",
+      "body": "Si vous ne deviez acheter qu'une seule chose sur cette page, que ce soit un moulin à meules. Un moulin à lames réduit les grains en un mélange de gros morceaux et de poussière, ce qui donne un café à la fois amer et acide. Aucune machine ne peut rattraper ça. Les meules coniques, elles, assurent une mouture de taille uniforme, et la différence est immédiate et flagrante. L'Encore ESP est la version du modèle phare de Baratza, avec une plage de réglage plus fine qui lui permet de moudre aussi bien pour l'expresso que pour le café filtre. Il n'est ni rapide, ni silencieux, mais c'est le moulin que les boutiques spécialisées recommandent aux débutants depuis plus de dix ans, et Baratza continue de vendre des pièces de rechange des années après l'achat.",
+      "pros": [
+        "Mouture uniforme pour le filtre comme pour l'expresso",
+        "Meules et pièces de rechange disponibles pendant des années",
+        "Simple à démonter et à nettoyer"
+      ],
+      "cons": [
+        "Bruyant et plus lent qu'un moulin haut de gamme",
+        "Le corps en plastique fait moins qualitatif que son prix ne le suggère"
+      ]
+    },
+    {
+      "name": "Du café en grains frais avec une date de torréfaction",
+      "tag": "L'amélioration la moins chère et la plus efficace",
+      "body": "Le café est un produit agricole dont la fraîcheur est éphémère. Le sachet du supermarché, qui n'indique qu'une lointaine date de péremption, contient souvent du café torréfié depuis des mois. Cherchez une date de torréfaction sur le paquet et achetez un café torréfié au cours des trois ou quatre dernières semaines. Les grains entiers conservent leurs arômes bien plus longtemps que le café prémoulu, qui s'évente en quelques jours. C'est le seul article de cette liste qui ne coûte presque rien de plus et qui transformera chaque tasse que vous préparerez désormais. C'est pourquoi il est si haut dans ce classement, bien avant du matériel dix fois plus cher.",
+      "pros": [
+        "Coûte le même prix que l'option éventée",
+        "Améliore chaque tasse, quel que soit votre équipement",
+        "La date de torréfaction vous dit ce que vous achetez vraiment"
+      ],
+      "cons": [
+        "Nécessite de se réapprovisionner toutes les quelques semaines",
+        "On ne trouve pas de bons torréfacteurs locaux partout"
+      ]
+    },
+    {
+      "name": "Hario V60 dripper and server",
+      "tag": "La meilleure cafetière manuelle à petit prix",
+      "body": "Le V60 est le moyen le moins cher de préparer un café vraiment excellent, et c'est la cafetière que la plupart des coffee shops vous servent quand vous commandez un filtre. Sa forme conique et ses rainures en spirale permettent de piloter l'extraction avec la manière de verser, ce qui signifie qu'il récompense l'attention... et punit la négligence. Il y a donc une vraie courbe d'apprentissage. Donnez-vous deux week-ends. Une fois que vous aurez pris le coup de main, il produira une tasse plus nette, plus douce et plus complexe que n'importe quelle cafetière électrique à moins de plusieurs centaines d'euros. Et le tout tient dans un tiroir.",
+      "pros": [
+        "Une qualité de café exceptionnelle pour le prix",
+        "Compact, rien à casser",
+        "Filtres et pièces de rechange bon marché et faciles à trouver"
+      ],
+      "cons": [
+        "La technique est importante : les premières tasses seront inégales",
+        "Pour une ou deux tasses à la fois, pas une verseuse entière"
+      ]
+    },
+    {
+      "name": "Timemore Black Mirror Basic 2 scale",
+      "tag": "La balance au meilleur rapport qualité-prix",
+      "body": "Une balance, c'est ce qui transforme une tasse réussie par hasard en un résultat reproductible. Le café est une question de ratio – grammes de café pour grammes d'eau – et doser à l'œil nu introduit assez de variations pour expliquer la plupart des irrégularités d'un jour à l'autre. La Black Mirror a une précision de 0,1 g, réagit assez vite pour verser en continu et intègre un chronomètre pour ne pas avoir à jongler avec son téléphone. N'importe quelle balance de cuisine précise à 0,1 g fera l'affaire ; celle-ci est simplement agréable à utiliser tous les matins, ce qui, pour un objet qu'on manipule au quotidien, compte plus que la fiche technique.",
+      "pros": [
+        "Précision à 0,1 g avec une réponse rapide et stable",
+        "Chronomètre d'extraction intégré",
+        "Assez fine pour rester sous le porte-filtre"
+      ],
+      "cons": [
+        "Recharge en micro-USB sur certains modèles",
+        "Pas étanche : essuyez les éclaboussures rapidement"
+      ]
+    },
+    {
+      "name": "Fellow Stagg EKG electric kettle",
+      "tag": "La meilleure bouilloire à col de cygne",
+      "body": "Un bec en col de cygne permet un versement lent et précis, ce qui est essentiel pour le pour-over : le but est d'humidifier la mouture uniformément, pas de creuser un trou dedans. Le contrôle de la température est également important : les torréfactions claires s'expriment mieux près du point d'ébullition, tandis que les torréfactions foncées y deviennent âpres. La Stagg EKG est le plus bel objet de sa catégorie, avec une poignée contrebalancée et un versement d'une précision redoutable. Elle est aussi chère pour une bouilloire, et un modèle à col de cygne à 40 $ pour la cuisinière, accompagné d'un thermomètre, vous donnera un résultat presque équivalent. Achetez-la parce que vous la voulez sur votre plan de travail, pas parce que votre café l'exige.",
+      "pros": [
+        "Versement précis et contrôlable",
+        "Maintien de la température au degré près",
+        "Vraiment belle sur un plan de travail"
+      ],
+      "cons": [
+        "Chère pour ce qu'elle fait, au fond",
+        "Capacité de 1 L un peu juste pour une carafe pleine"
+      ]
+    },
+    {
+      "name": "AeroPress Original",
+      "tag": "Idéal pour les voyages et les petites cuisines",
+      "body": "L'AeroPress est quasi indestructible, prépare un café en deux minutes environ et se nettoie en éjectant la galette de marc à la poubelle. C'est pour ça qu'on la retrouve dans tant de valises et de tiroirs de bureau. L'immersion combinée à la pression la rend très tolérante aux moutures irrégulières ; c'est la cafetière qui vous sortira une tasse correcte avec la bouilloire de l'hôtel et les grains que vous aurez réussi à trouver. Elle bénéficie aussi d'une communauté d'utilisateurs particulièrement inventive, et il existe des décennies de recettes publiées à explorer si c'est votre truc.",
+      "pros": [
+        "Extrêmement durable et léger",
+        "Très tolérant sur la mouture et la technique",
+        "Rapide à préparer, encore plus rapide à nettoyer"
+      ],
+      "cons": [
+        "Pour une seule tasse à la fois",
+        "Les filtres en papier sont un consommable à racheter"
+      ]
+    },
+    {
+      "name": "Airscape or Fellow Atmos storage canister",
+      "tag": "Le meilleur moyen de protéger les grains",
+      "body": "L'oxygène est ce qui fait vieillir le café, et un sachet refermé avec une pince en est plein. Ces boîtes fonctionnent en éliminant l'air : l'Airscape avec un couvercle-piston que l'on presse vers le bas, l'Atmos avec un mécanisme rotatif qui crée un vide partiel. L'une ou l'autre de ces approches prolonge de manière significative la fraîcheur de votre café, doublant à peu près le temps pendant lequel un paquet conserve ses arômes. C'est un petit investissement peu coûteux qui protège l'argent que vous venez de dépenser en grains frais, et c'est la seule raison pour laquelle il se trouve avant du matériel plus excitant.",
+      "pros": [
+        "Double à peu près la durée de fraîcheur des grains",
+        "Protège de la lumière en plus de l'air",
+        "Achat unique, rien à remplacer"
+      ],
+      "cons": [
+        "N'a d'intérêt que si vous achetez du café frais",
+        "Les modèles sous vide ont des pièces mobiles qui peuvent s'user"
+      ]
+    },
+    {
+      "name": "Breville Bambino Plus",
+      "tag": "La meilleure machine à expresso pour débuter",
+      "body": "L'expresso est la partie la plus chère et la moins indulgente de ce hobby, c'est pourquoi il se trouve ici et non en haut de la liste. La Bambino Plus gagne sa place car elle chauffe en environ trois secondes, maintient bien la température et inclut une buse vapeur automatique qui produit une micromousse de qualité sans entraînement. Deux avertissements, en toute honnêteté : la machine ne représente que la moitié du coût, car l'expresso exige une mouture beaucoup plus fine et uniforme que le filtre. Prévoyez donc le budget pour un moulin adapté. Et si vous buvez principalement des cafés au lait, un bon équipement pour café filtre et un mousseur à lait séparé vous coûteront bien moins cher et vous décevront moins.",
+      "pros": [
+        "Chauffe en trois secondes, maintient bien la température",
+        "La buse vapeur automatique produit une micromousse fiable",
+        "Faible encombrement pour une vraie machine à expresso"
+      ],
+      "cons": [
+        "Nécessite un moulin adapté à l'expresso : un coût caché important",
+        "Petit réservoir d'eau, corps en plastique à ce prix"
+      ]
+    },
+    {
+      "name": "Bodum Chambord French press",
+      "tag": "Idéal pour préparer une grande quantité",
+      "body": "L'immersion totale est la méthode d'extraction la plus tolérante qui soit : le café infuse dans l'eau pendant quatre minutes, et les petites erreurs de mouture ou de temps se remarquent à peine. Elle préserve aussi les huiles du café que les filtres en papier retiennent, donnant une tasse plus lourde et plus ronde – ce qui est mieux pour les torréfactions foncées et le lait, mais moins flatteur pour les torréfactions claires et délicates. La Chambord est un classique pour une bonne raison, et contrairement à la plupart des articles de cette liste, elle permet de servir plusieurs personnes à la fois. Videz-la dès que vous avez pressé le piston, sinon l'extraction continue et le café devient amer.",
+      "pros": [
+        "Presque impossible à rater complètement",
+        "Sert plusieurs personnes à la fois",
+        "Pas de filtres en papier à acheter"
+      ],
+      "cons": [
+        "Du dépôt dans la tasse, tout le monde n'aime pas ça",
+        "La carafe en verre est vraiment fragile"
+      ]
+    },
+    {
+      "name": "Mug de voyage isotherme avec revêtement en céramique",
+      "tag": "Idéal pour les trajets quotidiens",
+      "body": "L'acier inoxydable nu donne au café chaud un léger goût métallique qui devient plus perceptible avec le temps. Un revêtement en céramique ou en émail l'évite complètement, si bien que la dernière gorgée a le même goût que la première – ce qui est tout l'intérêt. Privilégiez un couvercle vraiment étanche, que vous pouvez démonter et laver, car c'est le joint qui finit par poser problème. De nombreuses chaînes de cafés offrent encore une réduction si vous amenez votre propre tasse, donc un bon mug est souvent rentabilisé en quelques mois de trajets.",
+      "pros": [
+        "Pas d'arrière-goût métallique",
+        "Garde le café chaud pendant des heures",
+        "Permet souvent d'obtenir une réduction"
+      ],
+      "cons": [
+        "Le revêtement en céramique s'écaille en cas de chute",
+        "Plus lourd qu'un simple gobelet en acier"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Si je ne peux me permettre qu'un seul achat, lequel choisir ?",
+      "a": "Un moulin à meules, sans hésiter. L'uniformité de la mouture détermine la qualité de tout le reste. Un bon moulin avec une cafetière bas de gamme donnera un meilleur résultat qu'une cafetière chère avec un mauvais moulin, et de loin."
+    },
+    {
+      "q": "Une bouilloire à col de cygne onéreuse est-elle vraiment nécessaire ?",
+      "a": "Pour le pour-over, le bec en col de cygne aide vraiment ; l'électronique, c'est du luxe. Une bouilloire à col de cygne pour la cuisinière et un thermomètre bon marché vous donneront quasiment le même résultat pour un quart du prix."
+    },
+    {
+      "q": "Combien de temps les grains de café restent-ils vraiment frais ?",
+      "a": "Environ trois à quatre semaines après la date de torréfaction pour le café filtre, un peu plus pour l'expresso, s'ils sont conservés entiers et dans un récipient hermétique. Le café moulu commence à perdre ses arômes en quelques jours."
+    },
+    {
+      "q": "Dois-je acheter une machine à expresso ou un équipement pour pour-over ?",
+      "a": "Si vous buvez du café allongé, le pour-over l'emporte de loin en termes de coût et de qualité. N'achetez une machine à expresso que si vous voulez spécifiquement des expressos courts et des boissons lactées, et intégrez le budget du moulin à celui de la machine."
+    }
+  ]
+}

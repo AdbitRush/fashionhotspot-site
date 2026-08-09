@@ -1,0 +1,173 @@
+{
+  "slug": "smart-home",
+  "title": "Los dispositivos para el hogar inteligente que realmente vale la pena instalar",
+  "dek": "La mayoría de los dispositivos para el hogar inteligente resuelven un problema que no tenías. Estos diez resuelven problemas reales, y te decimos sin rodeos cuáles nos saltaríamos.",
+  "category": "Hogar inteligente",
+  "how_we_pick": "Preferimos los dispositivos compatibles con Matter o Thread en lugar de los que están atados a la nube de una sola marca, porque el cierre de los servicios en la nube es la principal causa de que los dispositivos inteligentes dejen de funcionar. Le damos mucha importancia a las opiniones de los usuarios a largo plazo y al historial de soporte del fabricante. No hemos instalado personalmente todos los productos de esta lista, y si una categoría realmente todavía no vale lo que cuesta, la omitimos y explicamos por qué en las preguntas del final.",
+  "intro": [
+    "El hogar inteligente tiene un problema de credibilidad, y se lo ha ganado a pulso. Durante una década, la promesa fue que hablarías con tus luces, y la realidad fue una app para cada enchufe, un 'hub' que dejó de recibir soporte y un interruptor de luz que tus invitados no sabían cómo usar.",
+    "Lo que ha cambiado es la llegada de Matter y Thread: un estándar compartido que por fin permite que los dispositivos de diferentes marcas se comuniquen entre sí sin un montón de puentes. No es perfecto, pero significa que una compra hecha hoy tiene una probabilidad razonable de seguir funcionando dentro de cinco años, algo que antes no se podía decir.",
+    "Así que la prueba aquí es sencilla: ¿ahorra tiempo o dinero de verdad y sobrevivirá si su fabricante pierde el interés? Cuando una categoría no supera esa prueba, lo decimos en lugar de rellenar el hueco.",
+    "Los precios son aproximados en el momento de escribir este artículo y varían mucho durante las rebajas."
+  ],
+  "products": [
+    {
+      "name": "Ecobee o Nest Learning Thermostat",
+      "tag": "El que se paga solo",
+      "body": "La calefacción y el aire acondicionado son la mayor partida de gasto energético en la mayoría de los hogares, lo que convierte al termostato en el único dispositivo inteligente con un argumento creíble de amortización. El ahorro no viene de hablarle, sino de la programación y de los sensores remotos que evitan que el sistema caliente una habitación vacía mientras la que está ocupada permanece fría. Ecobee incluye esos sensores en la caja, lo que supone una ventaja práctica sobre Nest. Dos limitaciones, para ser sinceros: si tu casa es pequeña y de una sola zona, el ahorro es modesto; y si vives de alquiler, comprueba si tienes permiso para cambiar el aparato.",
+      "pros": [
+        "Ahorro de energía real y medible",
+        "Los sensores remotos corrigen la calefacción desigual",
+        "Funciona desde el móvil cuando cambian los planes"
+      ],
+      "cons": [
+        "Amortización modesta en casas pequeñas de una sola zona",
+        "Puede requerir instalación profesional y permiso del casero"
+      ]
+    },
+    {
+      "name": "Philips Hue starter kit (bridge + bulbs)",
+      "tag": "La mejor iluminación, pero tiene un precio",
+      "body": "Hue es la opción cara y, aun así, es la que hay que comprar, porque en iluminación la fiabilidad es lo más importante: una bombilla que tarda dos segundos en responder, o que falla una vez por semana, es peor que un interruptor tonto. El puente es lo que garantiza esa fiabilidad: controla las luces localmente a través de Zigbee en lugar de enviar cada orden por internet. El valor real se demuestra en la programación, no en el color. Unas luces que se vuelven cálidas por la noche y se encienden gradualmente por la mañana cambian la sensación de una habitación mucho más de lo que lo hará cualquier modo fiesta.",
+      "pros": [
+        "Rápido y fiable: responde como un interruptor",
+        "Control local, funciona cuando no hay internet",
+        "Enorme variedad de casquillos y formas"
+      ],
+      "cons": [
+        "Considerablemente más caras que las bombillas de la competencia",
+        "El puente es otro cacharro más al que buscarle un enchufe"
+      ]
+    },
+    {
+      "name": "Aqara or Eve door and window sensors",
+      "tag": "Lo más barato que hace útil todo lo demás",
+      "body": "Las automatizaciones solo son tan buenas como la información que la casa tiene sobre sí misma, y los sensores de contacto son la forma más barata de darle datos útiles. Un sensor de puerta es lo que enciende la luz del recibidor cuando entras, te avisa de que la puerta trasera lleva veinte minutos abierta en invierno y te alerta de que el garaje no se ha cerrado. Nada de eso requiere una cámara ni una suscripción. Compra las versiones Thread o Zigbee en lugar de las que usan Wi-Fi: los sensores Wi-Fi devoran las pilas y saturan tu red, y es posible que acabes teniendo una docena de estos.",
+      "pros": [
+        "Muy baratos, y habilitan todo lo demás",
+        "Las pilas duran un año o más con Thread o Zigbee",
+        "Sin cámara, sin suscripción, sin sacrificar la privacidad"
+      ],
+      "cons": [
+        "Inútiles por sí solos: necesitan algo que activar",
+        "El montaje adhesivo puede fallar en superficies con textura"
+      ]
+    },
+    {
+      "name": "Aqara U100 or Yale Assure Lock 2",
+      "tag": "La mayor comodidad en el día a día",
+      "body": "La cerradura inteligente es el dispositivo que más escepticismo genera en la gente y el que más acaban usando, porque elimina una pequeña fricción que se produce varias veces al día. Darle un código temporal al personal de limpieza o a un invitado en lugar de hacer una copia de la llave es la función que convence a la gente. Exige dos cosas: una anulación con llave física y pilas AA estándar en lugar de una batería propietaria. Comprueba tu puerta antes de comprar: estas se adaptan a cerrojos estándar ('deadbolts'), y las cerraduras multipunto europeas o los herrajes de puerta israelíes, menos comunes, suelen necesitar un modelo completamente diferente, así que mide primero.",
+      "pros": [
+        "Códigos temporales en lugar de copias de llaves",
+        "El bloqueo automático elimina una preocupación recurrente",
+        "La llave física sigue funcionando como plan B"
+      ],
+      "cons": [
+        "La compatibilidad no es universal, de verdad: mide tu puerta",
+        "Si se agotan las pilas te quedas fuera, a menos que lleves una llave"
+      ]
+    },
+    {
+      "name": "Roborock or Dreame robot vacuum with self-empty",
+      "tag": "El mejor ahorro de tiempo por tu dinero",
+      "body": "Este es el electrodoméstico que más tiempo te devuelve, siempre que compres la gama adecuada. Las dos características que importan son el mapeo lidar, para que limpie en hileras en lugar de rebotar al azar, y una base de autovaciado, para que te ocupes del polvo cada pocas semanas en lugar de cada día. Por debajo de unos $400, generalmente pierdes una de las dos cosas o ambas, y la novedad se pasa rápido. Sé realista sobre lo que sustituye: se encarga del mantenimiento diario de maravilla, pero no reemplaza una limpieza a fondo. También necesita un suelo despejado, así que impone sutilmente un hábito, lo que algunos consideran una ventaja.",
+      "pros": [
+        "Realmente recupera horas cada mes",
+        "El mapeo lidar significa una cobertura sistemática y completa",
+        "La base de autovaciado reduce el contacto con el polvo"
+      ],
+      "cons": [
+        "Los modelos baratos son un falso ahorro",
+        "No puede con el desorden, los cables ni la limpieza a fondo"
+      ]
+    },
+    {
+      "name": "Eve Energy or TP-Link Tapo smart plugs",
+      "tag": "El mejor punto de partida",
+      "body": "Un enchufe inteligente es la forma más barata de averiguar si de verdad quieres un hogar inteligente. Permite programar una lámpara, un ventilador o un calefactor tontos, y los modelos con monitor de energía responden a una pregunta que la mayoría de la gente solo intuye: qué electrodoméstico es el que más gasta sin hacer ruido. Esa medición suele ser más valiosa que la propia automatización. Compra enchufes compatibles con Matter para que funcionen con cualquier asistente que acabes usando, y evita los de marcas desconocidas: es un dispositivo que maneja corriente eléctrica y vive en tu pared durante años.",
+      "pros": [
+        "La forma más barata de probar la idea",
+        "El monitor de energía descubre los electrodomésticos que más gastan",
+        "Permite programar dispositivos tontos que ya tienes"
+      ],
+      "cons": [
+        "Los más voluminosos bloquean el segundo enchufe",
+        "No es algo en lo que ahorrar dinero con una marca desconocida"
+      ]
+    },
+    {
+      "name": "Aqara water leak sensor",
+      "tag": "El mejor seguro por lo que cuesta",
+      "body": "Un disco de veinte dólares debajo de la lavadora, la caldera y el fregadero es el artículo con mayor retorno de la inversión de esta lista, y nadie lo compra hasta después de su primera inundación. Los daños por agua son lentos, caros y normalmente se descubren demasiado tarde: detrás de un electrodoméstico, en el suelo, a través del techo. Estos son planos, funcionan durante uno o dos años con una pila de botón, y pitan y te avisan al móvil en el momento en que se mojan. No tiene costes recurrentes ni necesita mantenimiento. Si solo vas a comprar una cosa de esta lista y nunca has tenido una fuga, compra esta de todos modos.",
+      "pros": [
+        "Irrisoriamente barato en comparación con el daño que evita",
+        "Batería de larga duración, mantenimiento cero",
+        "La alarma local funciona incluso sin la app"
+      ],
+      "cons": [
+        "Solo cubre el punto exacto donde lo colocas",
+        "Necesita un 'hub' o un 'border router' Thread para las alertas al móvil"
+      ]
+    },
+    {
+      "name": "Echo Show 8 or Nest Hub",
+      "tag": "El mejor 'hub', con reservas",
+      "body": "Una pantalla inteligente se gana su sitio en la cocina, donde las manos están ocupadas y tener un temporizador, una receta y la imagen de una cámara en una sola pantalla ayuda de verdad. Muchos de estos aparatos también actúan como 'border router' de Thread o 'hub' de Zigbee, lo que te ahorra discretamente la compra de un puente por separado. Pero las reservas son reales: es un micrófono y una cámara en una habitación en la que vives, vendidos con un margen bajo porque el modelo de negocio está en otra parte. Si ese trueque te incomoda, tapa la cámara, silencia el micrófono cuando no lo uses o compra un 'hub' sin pantalla; es una elección legítima, no una paranoia.",
+      "pros": [
+        "Realmente útil en la cocina",
+        "A menudo también funciona como 'hub' de Thread o Zigbee",
+        "Barato y con descuentos frecuentes"
+      ],
+      "cons": [
+        "Una cámara y un micrófono siempre encendido en un espacio vital",
+        "Anuncios y sugerencias de compra en la pantalla de inicio"
+      ]
+    },
+    {
+      "name": "Aqara FP2 presence sensor",
+      "tag": "La mejora sobre los sensores de movimiento",
+      "body": "La razón por la que la iluminación inteligente molesta a la gente es que los sensores de movimiento detectan movimiento, no presencia, así que las luces se apagan mientras lees, estás sentado quieto o en la bañera. Los sensores de presencia de ondas milimétricas detectan la respiración y los micromovimientos, por lo que saben que la habitación está ocupada aunque nada se mueva. Esa única distinción es lo que hace que la iluminación automatizada deje de ser irritante. Es más caro que un sensor de movimiento y necesita alimentación eléctrica y una posición de montaje cuidadosa, así que considéralo una solución para esa una o dos habitaciones donde las luces siempre te fallan, no como algo para instalar en todas partes.",
+      "pros": [
+        "Detecta la presencia, no solo el movimiento",
+        "Acaba con el problema de 'se me apagaron las luces'",
+        "Puede definir zonas dentro de una misma habitación"
+      ],
+      "cons": [
+        "Necesita alimentación eléctrica y una colocación cuidadosa",
+        "Cuesta varias veces más que un sensor de movimiento"
+      ]
+    },
+    {
+      "name": "Eufy or Reolink local-storage camera",
+      "tag": "La mejor cámara sin suscripción",
+      "body": "La mayoría de las cámaras de seguridad se venden baratas y se monetizan a través de un plan mensual, y si dejas de pagar, a menudo pierdes la grabación por completo. Las cámaras que graban en una tarjeta local o en una estación base evitan eso, así que las grabaciones son tuyas y no hay factura recurrente. Busca que tengan grabación local, detección de personas en el propio dispositivo para que no te avise cada vez que pasa un gato, y soporte RTSP si alguna vez quieres usar tu propio sistema de grabación. Apúntalas hacia las entradas y los espacios exteriores en lugar de hacia las zonas de estar interiores, y comprueba la normativa de donde vives: grabar entradas compartidas o la propiedad de un vecino tiene límites legales en la mayoría de los sitios.",
+      "pros": [
+        "Sin cuota mensual, y las grabaciones son tuyas",
+        "La detección en el dispositivo reduce las falsas alarmas",
+        "Sigue funcionando si la nube del proveedor desaparece"
+      ],
+      "cons": [
+        "Coste inicial más alto que los modelos de suscripción",
+        "Límites legales sobre lo que puedes grabar: consúltalo en tu localidad"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es Matter y debería importarme?",
+      "a": "Es un estándar compartido que permite que dispositivos de diferentes marcas funcionen juntos y sean controlados por cualquiera de los principales asistentes. Debería importarte principalmente porque te protege de comprar un producto de una marca que más tarde cierre sus servidores."
+    },
+    {
+      "q": "¿Qué dispositivos de hogar inteligente te saltarías?",
+      "a": "Neveras inteligentes, microondas inteligentes y la mayoría de los grifos inteligentes: la 'inteligencia' añade coste y posibles puntos de fallo a un electrodoméstico que conservas durante quince años. También las persianas inteligentes, a menos que tengas un problema específico de sol o accesibilidad, dado el coste de la instalación."
+    },
+    {
+      "q": "¿Algo de esto seguirá funcionando si se me cae internet?",
+      "a": "Los dispositivos que usan Zigbee, Thread o un 'hub' local seguirán funcionando en su mayoría, incluidas las programaciones. Todo lo que depende de la nube de un fabricante generalmente se detiene. Esa es la mejor razón para preferir el control local cuando tienes la opción."
+    },
+    {
+      "q": "Vivo de alquiler. ¿Qué puedo instalar?",
+      "a": "Enchufes, bombillas, sensores y un robot aspirador se pueden instalar sin cambiar nada de forma permanente. Los termostatos y las cerraduras suelen necesitar permiso, aunque algunas cerraduras solo reemplazan la parte interior y dejan el bombín y la llave existentes intactos."
+    }
+  ]
+}

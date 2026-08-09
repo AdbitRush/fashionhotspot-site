@@ -1,71 +1,49 @@
 #!/usr/bin/env python
-"""Render the fashionhotspot buying guides from content/*.json.
+"""Render the fashionhotspot buying guides, in every language they exist in.
 
-    python tools/build.py            # every guide + the index + sitemap
-    python tools/build.py coffee     # one guide (fast iteration)
+    python tools/build.py              # everything
+    python tools/build.py coffee       # one guide, all languages
+    python tools/build.py --lang en    # one language, all guides
 
-Writes post-<slug>.html, he/post-<slug>.html, posts.html, he/posts.html and
-sitemap.xml at the repo root. Content lives in content/*.json so the copy can
-be edited without touching this file.
+English is canonical (content/<slug>.json). Other languages merge in
+content/i18n/<lang>/<slug>.json field by field, so a partial translation falls
+back to English per field rather than rendering blanks.
+
+Output: post-<slug>.html and posts.html at the root for English, and the same
+under <lang>/ for the rest, plus sitemap.xml covering all of them.
 """
-import argparse, html, json, re, sys
+import argparse, html, json, sys
 from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from theme import CSS, FONTS, RTL_FONT  # noqa: E402
+from theme import CSS, FONTS, RTL_FONT                      # noqa: E402
+from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, FONT_LINKS,  # noqa: E402
+                   t, fmt_date, disclosure)
+from i18n_schema import CONTENT, load_translation, merge     # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-CONTENT = ROOT / "content"
 SITE = "https://fashionhotspot.site"
 AMZ_TAG = "fashionhots0f-20"
 BRAND = "fashionhotspot"
-AUTHOR = "The fashionhotspot editors"
-AUTHOR_HE = "מערכת fashionhotspot"
 
-
-def load_config():
-    """Which affiliate networks this build publishes. See site-config.json."""
-    f = ROOT / "site-config.json"
-    if not f.exists():
-        return {"amazon": True, "aliexpress": True}
-    return json.loads(f.read_text(encoding="utf-8")).get(
-        "affiliates", {"amazon": True, "aliexpress": True})
-
-
-AFF = load_config()
-SHOW_ALI = bool(AFF.get("aliexpress", True))
-SHOW_AMZ = bool(AFF.get("amazon", True))
-
-
-def disclosure(he=False, short=False):
-    """Disclosure text that names only the networks actually linked.
-
-    Naming AliExpress while linking nowhere near it would be its own small
-    inaccuracy, so this tracks the config rather than being hardcoded.
-    """
-    nets_en = [n for n, on in (("Amazon Associate", SHOW_AMZ),
-                               ("AliExpress affiliate", SHOW_ALI)) if on]
-    nets_he = [n for n, on in (("שותפים של אמזון", SHOW_AMZ),
-                               ("שותפים של עליאקספרס", SHOW_ALI)) if on]
-    if he:
-        who = " ו".join(nets_he) if nets_he else "שותפים"
-        base = f"כ{who} אנחנו מרוויחים עמלה מרכישות מזכות."
-        return base if short else (
-            base + " המחירים והזמינות נכונים לזמן הפרסום ועשויים להשתנות.")
-    who = " and an ".join(nets_en) if nets_en else "an affiliate"
-    base = f"As an {who} we earn from qualifying purchases."
-    return base if short else (
-        base + " Prices and availability are accurate as of the date of "
-               "publication and may change.")
-
-# Order guides appear in on the index. Anything not listed lands at the end.
 ORDER = ["tech", "smart-home", "kitchen", "coffee", "home-office", "fitness",
          "travel", "pets", "photography", "gaming", "outdoor", "beauty",
          "phone", "kids", "health", "storage", "car", "garden", "fashion",
          "back-to-school"]
 
 e = lambda s: html.escape(str(s), quote=True)
+
+
+def load_affiliates():
+    f = ROOT / "site-config.json"
+    if not f.exists():
+        return True, True
+    a = json.loads(f.read_text(encoding="utf-8")).get("affiliates", {})
+    return bool(a.get("amazon", True)), bool(a.get("aliexpress", True))
+
+
+SHOW_AMZ, SHOW_ALI = load_affiliates()
 
 
 def amazon(term):
@@ -78,61 +56,78 @@ def aliexpress(term):
     return f"https://www.aliexpress.com/wholesale?SearchText={quote_plus(term)}"
 
 
-def fmt_date(iso):
-    y, m, d = (int(x) for x in iso.split("-"))
-    return date(y, m, d).strftime("%d %B %Y").lstrip("0")
+def url(lang, page):
+    """Absolute URL of a page in a language."""
+    return f"{SITE}/{LANGS[lang]['path']}{page}"
 
 
-def fmt_date_he(iso):
-    months = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי",
-              "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"]
-    y, m, d = (int(x) for x in iso.split("-"))
-    return f"{d} ב{months[m - 1]} {y}"
+def rel_root(lang):
+    """Relative path back to the site root from inside a language folder."""
+    return "" if lang == DEFAULT else "../"
 
 
 # --------------------------------------------------------------------------
 # chrome
 # --------------------------------------------------------------------------
-NAV_EN = [("index.html", "Deals"), ("posts.html", "Guides"), ("about.html", "About"),
-          ("contact.html", "Contact")]
-NAV_HE = [("../index.html", "דילים"), ("posts.html", "מדריכים"),
-          ("../about.html", "עלינו"), ("../contact.html", "צור קשר")]
-
-
-def nav(items, current, prefix=""):
+def nav(lang, current):
+    r = rel_root(lang)
+    items = [(f"{r}index.html", t(lang, "deals")),
+             ("posts.html", t(lang, "guides")),
+             (f"{r}about.html", t(lang, "about")),
+             (f"{r}contact.html", t(lang, "contact"))]
     links = "".join(
-        f'<a href="{e(h)}"{" aria-current=\"page\"" if h.endswith(current) else ""}>{e(t)}</a>'
-        for h, t in items)
-    home = f"{prefix}index.html"
+        f'<a href="{e(h)}"{" aria-current=\"page\"" if h.endswith(current) else ""}>{e(x)}</a>'
+        for h, x in items)
     return (f'<div class="nav"><div class="nav-in">'
-            f'<a class="logo" href="{e(home)}">fashion<span>hotspot</span></a>'
+            f'<a class="logo" href="{e(r)}index.html">fashion<span>hotspot</span></a>'
             f'<nav class="nav-links">{links}</nav></div></div>')
 
 
-def footer(he=False, prefix=""):
-    if he:
-        links = [("../about.html", "עלינו"), ("../contact.html", "צור קשר"),
-                 ("../privacy.html", "פרטיות"), ("../terms.html", "תנאים"),
-                 ("posts.html", "מדריכים")]
-        disc = disclosure(True, short=True) + " זה לא מייקר עבורכם את המוצר."
-        sw = '<div class="langsw"><a href="../posts.html">English</a></div>'
-    else:
-        links = [(f"{prefix}about.html", "About"), (f"{prefix}contact.html", "Contact"),
-                 (f"{prefix}privacy.html", "Privacy"), (f"{prefix}terms.html", "Terms"),
-                 (f"{prefix}posts.html", "Guides")]
-        disc = disclosure(False, short=True) + " This never costs you more."
-        sw = '<div class="langsw"><a href="he/posts.html">עברית</a></div>'
-    nl = "".join(f'<a href="{e(h)}">{e(t)}</a>' for h, t in links)
+def lang_switcher(lang, page):
+    """Every other language this page exists in."""
+    out = []
+    for code, cfg in LANGS.items():
+        if code == lang:
+            continue
+        href = f"{rel_root(lang)}{cfg['path']}{page}"
+        out.append(f'<a href="{e(href)}" hreflang="{code}">{e(cfg["name"])}</a>')
+    return f'<div class="langsw">{" · ".join(out)}</div>'
+
+
+def footer(lang, page="posts.html"):
+    r = rel_root(lang)
+    links = [(f"{r}about.html", t(lang, "about")),
+             (f"{r}contact.html", t(lang, "contact")),
+             (f"{r}privacy.html", t(lang, "privacy")),
+             (f"{r}terms.html", t(lang, "terms")),
+             ("posts.html", t(lang, "guides"))]
+    nl = "".join(f'<a href="{e(h)}">{e(x)}</a>' for h, x in links)
+    disc = disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True) + " " + t(lang, "no_extra_cost")
     return (f'<footer><nav>{nl}</nav><p>{e(disc)}</p>'
-            f'<p style="margin-top:10px">© {date.today().year} {BRAND}</p>{sw}</footer>')
+            f'<p style="margin-top:10px">© {date.today().year} {BRAND}</p>'
+            f'{lang_switcher(lang, page)}</footer>')
 
 
-def page(title, desc, body, *, canonical, he=False, extra_head="", og_image=None):
-    d = 'dir="rtl" lang="he"' if he else 'lang="en"'
-    fonts = FONTS + (RTL_FONT if he else "")
+def alternates(page):
+    """hreflang set — every language plus x-default pointing at English."""
+    out = "".join(f'<link rel="alternate" hreflang="{c}" href="{url(c, page)}">'
+                  for c in LANGS)
+    return out + f'<link rel="alternate" hreflang="x-default" href="{url(DEFAULT, page)}">'
+
+
+def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=None):
+    cfg = LANGS[lang]
+    rtl = cfg["dir"] == "rtl"
+    fonts = FONTS + (RTL_FONT if rtl else "")
+    if cfg["font"] and cfg["font"] in FONT_LINKS and not rtl:
+        fonts += FONT_LINKS[cfg["font"]]
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
+    extra_css = ""
+    if cfg["font"] == "Noto Sans":
+        extra_css = ("<style>body,h1,h2,h3,.logo{font-family:'Noto Sans',"
+                     "Inter,system-ui,sans-serif}</style>")
     return f"""<!DOCTYPE html>
-<html {d}>
+<html lang="{lang}" dir="{cfg['dir']}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -148,7 +143,7 @@ def page(title, desc, body, *, canonical, he=False, extra_head="", og_image=None
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
 {fonts}
-<style>{CSS}</style>
+<style>{CSS}</style>{extra_css}
 {extra_head}
 </head>
 <body>
@@ -159,151 +154,95 @@ def page(title, desc, body, *, canonical, he=False, extra_head="", og_image=None
 
 
 # --------------------------------------------------------------------------
-# a single guide
+# a guide
 # --------------------------------------------------------------------------
-def render_guide(g, he=False):
+def render_guide(g, lang):
     slug = g["slug"]
-    L = (lambda k: g.get(k + "_he") or g[k]) if he else (lambda k: g[k])
-    pfx = "../" if he else ""
-    title = L("title")
-    dek = L("dek")
-    canon = f"{SITE}/{'he/' if he else ''}post-{slug}.html"
-    hero = f"{pfx}images/hero-{slug}.jpg"
+    r = rel_root(lang)
+    page = f"post-{slug}.html"
+    canon = url(lang, page)
     products = g["products"]
 
-    def pl(p, k):
-        return (p.get(k + "_he") or p[k]) if he else p[k]
-
-    # --- head matter -----------------------------------------------------
-    crumb = (f'<div class="crumbs"><a href="{pfx}index.html">'
-             f'{"בית" if he else "Home"}</a> › '
-             f'<a href="posts.html">{"מדריכים" if he else "Guides"}</a> › '
-             f'{e(g["category"])}</div>')
-    updated = fmt_date_he(g["updated"]) if he else fmt_date(g["updated"])
-    mins = g.get("read_minutes", 8)
-    byline = (f'<div class="byline"><b>{e(AUTHOR_HE if he else AUTHOR)}</b>'
+    crumb = (f'<div class="crumbs"><a href="{r}index.html">{e(t(lang, "home"))}</a> › '
+             f'<a href="posts.html">{e(t(lang, "guides"))}</a> › {e(g["category"])}</div>')
+    byline = (f'<div class="byline"><b>{e(AUTHOR.get(lang, AUTHOR[DEFAULT]))}</b>'
+              f'<span class="dot">·</span><span>{e(t(lang, "updated"))} '
+              f'<time datetime="{e(g["updated"])}">{e(fmt_date(g["updated"], lang))}</time></span>'
               f'<span class="dot">·</span>'
-              f'<span>{"עודכן" if he else "Updated"} '
-              f'<time datetime="{e(g["updated"])}">{e(updated)}</time></span>'
+              f'<span>{g.get("read_minutes", 9)} {e(t(lang, "min_read"))}</span>'
               f'<span class="dot">·</span>'
-              f'<span>{mins} {"דקות קריאה" if he else "min read"}</span>'
-              f'<span class="dot">·</span>'
-              f'<span>{len(products)} {"מוצרים" if he else "picks"}</span></div>')
+              f'<span>{len(products)} {e(t(lang, "picks"))}</span></div>')
+    head = (f'{crumb}<div class="kicker">{e(g["category"])} · {e(t(lang, "buying_guide"))}</div>'
+            f'<h1>{e(g["title"])}</h1><p class="dek">{e(g["dek"])}</p>{byline}')
+    hero = (f'<div class="hero"><img src="{r}images/hero-{slug}.jpg" '
+            f'alt="{e(g["title"])}" width="1200" height="630" fetchpriority="high"></div>')
 
-    head = (f'{crumb}<div class="kicker">{e(g["category"])} · '
-            f'{"מדריך קנייה" if he else "Buying guide"}</div>'
-            f'<h1>{e(title)}</h1><p class="dek">{e(dek)}</p>{byline}')
-
-    hero_html = (f'<div class="hero"><img src="{e(hero)}" alt="{e(title)}" '
-                 f'width="1200" height="630" fetchpriority="high"></div>')
-
-    # --- intro -----------------------------------------------------------
-    paras = L("intro")
     intro = "".join(f'<p{" class=\"lead\"" if i == 0 else ""}>{e(p)}</p>'
-                    for i, p in enumerate(paras))
+                    for i, p in enumerate(g["intro"]))
+    note = (f'<div class="note"><b>{e(t(lang, "disclosure_label"))}</b> '
+            f'{e(t(lang, "disclosure_body"))}</div>')
+    how = f'<h2>{e(t(lang, "how_we_picked"))}</h2><p>{e(g["how_we_pick"])}</p>'
 
-    disclosure_note = (f'<div class="note">'
-                  f'<b>{"גילוי נאות" if he else "Disclosure"}.</b> '
-                  + ("הקישורים בעמוד הזה הם קישורי שותפים. אם תקנו דרכם אנחנו "
-                     "עשויים להרוויח עמלה, בלי תוספת עלות לכם. זה לא משפיע על "
-                     "מה שנכנס לרשימה או על הסדר שלו."
-                     if he else
-                     "The links on this page are affiliate links. If you buy through "
-                     "one we may earn a commission at no extra cost to you. It does "
-                     "not affect what makes this list or the order it is in.")
-                  + '</div>')
-
-    how = (f'<h2>{"איך בחרנו" if he else "How we picked"}</h2>'
-           f'<p>{e(L("how_we_pick"))}</p>')
-
-    # --- comparison table ------------------------------------------------
-    hdrs = (["#", "מוצר", "הכי מתאים ל", "מחיר משוער"] if he
-            else ["#", "Product", "Best for", "Approx. price"])
+    hdrs = ["#", t(lang, "product"), t(lang, "best_for"), t(lang, "approx_price")]
     rows = "".join(
-        f'<tr><td class="rank">{i}</td>'
-        f'<td><a href="#p{i}">{e(pl(p, "name"))}</a></td>'
-        f'<td>{e(pl(p, "tag"))}</td>'
-        f'<td>{e(p["price"])}</td></tr>'
+        f'<tr><td class="rank">{i}</td><td><a href="#p{i}">{e(p["name"])}</a></td>'
+        f'<td>{e(p["tag"])}</td><td>{e(p["price"])}</td></tr>'
         for i, p in enumerate(products, 1))
-    table = (f'<h2>{"השוואה מהירה" if he else "At a glance"}</h2>'
-             f'<div class="tablewrap"><table><thead><tr>'
+    table = (f'<h2>{e(t(lang, "at_a_glance"))}</h2><div class="tablewrap"><table><thead><tr>'
              + "".join(f"<th>{e(h)}</th>" for h in hdrs)
              + f'</tr></thead><tbody>{rows}</tbody></table></div>'
              f'<p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">'
-             + ("המחירים הם הערכה נכון לזמן הכתיבה ומשתנים לעיתים קרובות."
-                if he else
-                "Prices are approximate at the time of writing and change often.")
-             + "</p>")
+             f'{e(t(lang, "price_note"))}</p>')
 
-    # --- product cards ---------------------------------------------------
     cards = []
     for i, p in enumerate(products, 1):
-        img = f"{pfx}images/{slug}-{i:02d}.jpg"
-        pros = "".join(f"<li>{e(x)}</li>" for x in (p.get("pros_he" if he else "pros") or p["pros"]))
-        cons = "".join(f"<li>{e(x)}</li>" for x in (p.get("cons_he" if he else "cons") or p["cons"]))
-        name = pl(p, "name")
+        pros = "".join(f"<li>{e(x)}</li>" for x in p.get("pros", []))
+        cons = "".join(f"<li>{e(x)}</li>" for x in p.get("cons", []))
+        buys = ""
+        if SHOW_AMZ:
+            buys += (f'<a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" '
+                     f'href="{e(amazon(p["search"]))}">{e(t(lang, "check_amazon"))}</a>')
+        if SHOW_ALI:
+            buys += (f'<a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" '
+                     f'href="{e(aliexpress(p["search"]))}">AliExpress</a>')
         cards.append(
             f'<article class="card" id="p{i}">'
-            f'<img class="card-img" src="{e(img)}" alt="{e(name)}" '
+            f'<img class="card-img" src="{r}images/{slug}-{i:02d}.jpg" alt="{e(p["name"])}" '
             f'width="600" height="375" loading="lazy" decoding="async">'
             f'<div class="card-in"><div class="card-top"><div class="num">{i}</div>'
-            f'<div style="flex:1"><span class="tag">{e(pl(p, "tag"))}</span>'
-            f'<h3>{e(name)}</h3>'
-            f'<div class="price">{e(p["price"])}</div></div></div>'
-            f'<p>{e(pl(p, "body"))}</p>'
-            f'<div class="pc"><div class="pros"><h4>{"בעד" if he else "Why it is here"}</h4>'
-            f'<ul>{pros}</ul></div>'
-            f'<div class="cons"><h4>{"נגד" if he else "Worth knowing"}</h4>'
-            f'<ul>{cons}</ul></div></div>'
-            f'<div class="buys">'
-            + (f'<a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" '
-               f'href="{e(amazon(p["search"]))}">'
-               f'{"בדקו באמזון" if he else "Check price on Amazon"}</a>' if SHOW_AMZ else "")
-            + (f'<a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" '
-               f'href="{e(aliexpress(p["search"]))}">AliExpress</a>' if SHOW_ALI else "")
-            + f'</div></div></article>')
+            f'<div style="flex:1"><span class="tag">{e(p["tag"])}</span>'
+            f'<h3>{e(p["name"])}</h3><div class="price">{e(p["price"])}</div></div></div>'
+            f'<p>{e(p["body"])}</p>'
+            f'<div class="pc"><div class="pros"><h4>{e(t(lang, "why_here"))}</h4><ul>{pros}</ul></div>'
+            f'<div class="cons"><h4>{e(t(lang, "worth_knowing"))}</h4><ul>{cons}</ul></div></div>'
+            f'<div class="buys">{buys}</div></div></article>')
 
-    picks_h = f'<h2>{"הבחירות" if he else "The picks"}</h2>'
-
-    # --- faq -------------------------------------------------------------
     faq_items = "".join(
-        f'<details><summary>{e(f.get("q_he") if he else f["q"])}</summary>'
-        f'<p>{e(f.get("a_he") if he else f["a"])}</p></details>'
+        f'<details><summary>{e(f["q"])}</summary><p>{e(f["a"])}</p></details>'
         for f in g.get("faq", []))
-    faq = (f'<h2>{"שאלות נפוצות" if he else "Common questions"}</h2>'
-           f'<div class="faq">{faq_items}</div>') if faq_items else ""
+    faq = (f'<h2>{e(t(lang, "faq"))}</h2><div class="faq">{faq_items}</div>'
+           if faq_items else "")
 
-    other = f'<p style="margin-top:34px"><a href="posts.html">← {"כל המדריכים" if he else "All guides"}</a></p>'
+    body = (nav(lang, page) + '<div class="wrap">' + head + hero
+            + '<div class="body">' + intro + note + how + table
+            + f'<h2>{e(t(lang, "the_picks"))}</h2>' + "".join(cards) + faq
+            + f'<p style="margin-top:34px"><a href="posts.html">← {e(t(lang, "all_guides"))}</a></p>'
+            + f'<p class="disc">{e(disclosure(lang, SHOW_AMZ, SHOW_ALI))}</p>'
+            + "</div></div>" + footer(lang, page))
 
-    final_disc = f'<p class="disc">{e(disclosure(he))}</p>'
-
-    body = (nav(NAV_HE if he else NAV_EN, f"post-{slug}.html", pfx)
-            + '<div class="wrap">' + head + hero_html
-            + '<div class="body">' + intro + disclosure_note + how + table
-            + picks_h + "".join(cards) + faq + other + final_disc
-            + "</div></div>" + footer(he, pfx))
-
-    ld = json_ld(g, he, canon, hero)
-    alt = (f'<link rel="alternate" hreflang="en" href="{SITE}/post-{slug}.html">'
-           f'<link rel="alternate" hreflang="he" href="{SITE}/he/post-{slug}.html">'
-           f'<link rel="alternate" hreflang="x-default" href="{SITE}/post-{slug}.html">')
-    return page(f"{title} — {BRAND}", dek, body, canonical=canon, he=he,
-                extra_head=ld + alt, og_image=f"{SITE}/images/hero-{slug}.jpg")
+    return page_shell(lang, f'{g["title"]} — {BRAND}', g["dek"], body,
+                      canonical=canon,
+                      extra_head=json_ld(g, lang, canon) + alternates(page),
+                      og_image=f"{SITE}/images/hero-{slug}.jpg")
 
 
-def json_ld(g, he, canon, hero):
-    """Article + ItemList + FAQPage, so the guide is machine-legible."""
-    L = (lambda k: g.get(k + "_he") or g[k]) if he else (lambda k: g[k])
-
-    def pl(p, k):
-        return (p.get(k + "_he") or p[k]) if he else p[k]
-
+def json_ld(g, lang, canon):
     blocks = [{
         "@context": "https://schema.org", "@type": "Article",
-        "headline": L("title"), "description": L("dek"),
+        "headline": g["title"], "description": g["dek"],
         "datePublished": g["updated"], "dateModified": g["updated"],
-        "inLanguage": "he" if he else "en",
-        "author": {"@type": "Organization", "name": AUTHOR_HE if he else AUTHOR},
+        "inLanguage": lang,
+        "author": {"@type": "Organization", "name": AUTHOR.get(lang, AUTHOR[DEFAULT])},
         "publisher": {"@type": "Organization", "name": BRAND},
         "image": f"{SITE}/images/hero-{g['slug']}.jpg",
         "mainEntityOfPage": canon,
@@ -311,88 +250,76 @@ def json_ld(g, he, canon, hero):
         "@context": "https://schema.org", "@type": "ItemList",
         "itemListOrder": "https://schema.org/ItemListOrderDescending",
         "numberOfItems": len(g["products"]),
-        "itemListElement": [
-            {"@type": "ListItem", "position": i, "name": pl(p, "name"),
-             "url": f"{canon}#p{i}"}
-            for i, p in enumerate(g["products"], 1)],
+        "itemListElement": [{"@type": "ListItem", "position": i, "name": p["name"],
+                             "url": f"{canon}#p{i}"}
+                            for i, p in enumerate(g["products"], 1)],
     }]
     if g.get("faq"):
         blocks.append({
             "@context": "https://schema.org", "@type": "FAQPage",
-            "mainEntity": [
-                {"@type": "Question", "name": f.get("q_he") if he else f["q"],
-                 "acceptedAnswer": {"@type": "Answer",
-                                    "text": f.get("a_he") if he else f["a"]}}
-                for f in g["faq"]],
+            "mainEntity": [{"@type": "Question", "name": f["q"],
+                            "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+                           for f in g["faq"]],
         })
-    return "".join(f'<script type="application/ld+json">{json.dumps(b, ensure_ascii=False)}</script>'
-                   for b in blocks)
+    return "".join(
+        f'<script type="application/ld+json">{json.dumps(b, ensure_ascii=False)}</script>'
+        for b in blocks)
 
 
-# --------------------------------------------------------------------------
-# guides index
-# --------------------------------------------------------------------------
-def render_index(guides, he=False):
-    pfx = "../" if he else ""
-    title = ("מדריכי קנייה — fashionhotspot" if he
-             else f"Buying guides — {BRAND}")
-    dek = ("מדריכים מפורטים למוצרים ששווים את הכסף, עם הסבר למה בחרנו בכל אחד "
-           "ומה החיסרון שלו." if he else
-           "In-depth guides to gear worth buying — what we picked, why, and the "
-           "trade-off you are accepting with each one.")
+def render_index(guides, lang):
+    r = rel_root(lang)
     cards = []
     for g in guides:
-        L = (lambda k: g.get(k + "_he") or g[k]) if he else (lambda k: g[k])
-        upd = fmt_date_he(g["updated"]) if he else fmt_date(g["updated"])
         cards.append(
             f'<a class="gcard" href="post-{g["slug"]}.html">'
-            f'<img src="{pfx}images/hero-{g["slug"]}.jpg" alt="{e(L("title"))}" '
+            f'<img src="{r}images/hero-{g["slug"]}.jpg" alt="{e(g["title"])}" '
             f'width="1200" height="630" loading="lazy" decoding="async">'
             f'<div class="gcard-in"><span class="tag">{e(g["category"])}</span>'
-            f'<h3>{e(L("title"))}</h3>'
-            f'<p class="sum">{e(L("dek"))}</p>'
-            f'<div class="meta">{e(upd)} · {len(g["products"])} '
-            f'{"מוצרים" if he else "picks"}</div></div></a>')
-
-    body = (nav(NAV_HE if he else NAV_EN, "posts.html", pfx)
-            + '<div class="wide">'
-            + f'<div class="kicker" style="margin-top:34px">'
-              f'{"מדריכי קנייה" if he else "Buying guides"}</div>'
-            + f'<h1>{"מה באמת שווה לקנות" if he else "What is actually worth buying"}</h1>'
-            + f'<p class="dek" style="max-width:640px">{e(dek)}</p>'
+            f'<h3>{e(g["title"])}</h3><p class="sum">{e(g["dek"])}</p>'
+            f'<div class="meta">{e(fmt_date(g["updated"], lang))} · '
+            f'{len(g["products"])} {e(t(lang, "picks"))}</div></div></a>')
+    body = (nav(lang, "posts.html") + '<div class="wide">'
+            + f'<div class="kicker" style="margin-top:34px">{e(t(lang, "guides"))}</div>'
+            + f'<h1>{e(t(lang, "index_title"))}</h1>'
+            + f'<p class="dek" style="max-width:640px">{e(t(lang, "index_dek"))}</p>'
             + f'<div class="grid">{"".join(cards)}</div>'
-            + f'<p class="disc" style="max-width:760px">{e(disclosure(he, short=True))}</p></div>' + footer(he, pfx))
-    canon = f"{SITE}/{'he/' if he else ''}posts.html"
-    alt = (f'<link rel="alternate" hreflang="en" href="{SITE}/posts.html">'
-           f'<link rel="alternate" hreflang="he" href="{SITE}/he/posts.html">')
-    return page(title, dek, body, canonical=canon, he=he, extra_head=alt,
-                og_image=f"{SITE}/images/hero-{guides[0]['slug']}.jpg" if guides else None)
+            + f'<p class="disc" style="max-width:760px">'
+              f'{e(disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True))}</p></div>'
+            + footer(lang, "posts.html"))
+    return page_shell(lang, f'{t(lang, "index_title")} — {BRAND}', t(lang, "index_dek"),
+                      body, canonical=url(lang, "posts.html"),
+                      extra_head=alternates("posts.html"),
+                      og_image=f"{SITE}/images/hero-{guides[0]['slug']}.jpg" if guides else None)
 
 
-# --------------------------------------------------------------------------
 def render_sitemap(guides):
     today = date.today().isoformat()
-    urls = [("/", "1.0", "daily"), ("/posts.html", "0.9", "weekly"),
-            ("/he/posts.html", "0.7", "weekly"), ("/about.html", "0.5", "monthly"),
-            ("/contact.html", "0.4", "monthly"), ("/privacy.html", "0.3", "yearly"),
-            ("/terms.html", "0.3", "yearly")]
-    for g in guides:
-        urls.append((f"/post-{g['slug']}.html", "0.8", "monthly"))
-        urls.append((f"/he/post-{g['slug']}.html", "0.6", "monthly"))
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
            'xmlns:xhtml="http://www.w3.org/1999/xhtml">']
-    for loc, pri, freq in urls:
+
+    def entry(loc, pri, freq, page=None):
         alt = ""
-        m = re.match(r"^(?:/he)?/post-(.+)\.html$", loc)
-        if m:
-            s = m.group(1)
-            alt = (f'    <xhtml:link rel="alternate" hreflang="en" href="{SITE}/post-{s}.html"/>\n'
-                   f'    <xhtml:link rel="alternate" hreflang="he" href="{SITE}/he/post-{s}.html"/>\n')
-        out.append(f"  <url>\n    <loc>{SITE}{loc}</loc>\n"
-                   f"    <lastmod>{today}</lastmod>\n"
-                   f"    <changefreq>{freq}</changefreq>\n"
-                   f"    <priority>{pri}</priority>\n{alt}  </url>")
+        if page:
+            alt = "".join(
+                f'    <xhtml:link rel="alternate" hreflang="{c}" href="{url(c, page)}"/>\n'
+                for c in LANGS)
+        return (f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{today}</lastmod>\n"
+                f"    <changefreq>{freq}</changefreq>\n    <priority>{pri}</priority>\n"
+                f"{alt}  </url>")
+
+    out.append(entry(f"{SITE}/", "1.0", "daily"))
+    for p, pri in (("about.html", "0.5"), ("contact.html", "0.4"),
+                   ("privacy.html", "0.3"), ("terms.html", "0.3")):
+        out.append(entry(f"{SITE}/{p}", pri, "monthly"))
+    for lang in LANGS:
+        pri = "0.9" if lang == DEFAULT else "0.7"
+        out.append(entry(url(lang, "posts.html"), pri, "weekly", "posts.html"))
+    for g in guides:
+        page = f"post-{g['slug']}.html"
+        for lang in LANGS:
+            pri = "0.8" if lang == DEFAULT else "0.6"
+            out.append(entry(url(lang, page), pri, "monthly", page))
     out.append("</urlset>")
     return "\n".join(out) + "\n"
 
@@ -408,27 +335,33 @@ def load_guides():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slugs", nargs="*")
+    ap.add_argument("--lang", action="append", choices=list(LANGS))
     args = ap.parse_args()
 
-    gs = load_guides()
-    if not gs:
+    src = load_guides()
+    if not src:
         sys.exit("no content/*.json found")
-    ordered = ([gs[s] for s in ORDER if s in gs]
-               + [g for s, g in gs.items() if s not in ORDER])
-    targets = [gs[s] for s in args.slugs] if args.slugs else ordered
+    ordered = ([src[s] for s in ORDER if s in src]
+               + [g for s, g in src.items() if s not in ORDER])
+    targets = [src[s] for s in args.slugs] if args.slugs else ordered
+    langs = args.lang or list(LANGS)
 
-    (ROOT / "he").mkdir(exist_ok=True)
-    n = 0
-    for g in targets:
-        (ROOT / f"post-{g['slug']}.html").write_text(render_guide(g, False), encoding="utf-8")
-        (ROOT / "he" / f"post-{g['slug']}.html").write_text(render_guide(g, True), encoding="utf-8")
-        n += 2
-        print(f"  post-{g['slug']}.html + he/")
+    written = 0
+    for lang in langs:
+        out_dir = ROOT / LANGS[lang]["path"] if LANGS[lang]["path"] else ROOT
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for g in targets:
+            merged = merge(g, load_translation(lang, g["slug"])) if lang != DEFAULT else g
+            (out_dir / f"post-{g['slug']}.html").write_text(
+                render_guide(merged, lang), encoding="utf-8")
+            written += 1
+        idx = [merge(g, load_translation(lang, g["slug"])) if lang != DEFAULT else g
+               for g in ordered]
+        (out_dir / "posts.html").write_text(render_index(idx, lang), encoding="utf-8")
 
-    (ROOT / "posts.html").write_text(render_index(ordered, False), encoding="utf-8")
-    (ROOT / "he" / "posts.html").write_text(render_index(ordered, True), encoding="utf-8")
     (ROOT / "sitemap.xml").write_text(render_sitemap(ordered), encoding="utf-8")
-    print(f"\n{n} guide pages, posts.html x2, sitemap.xml ({len(ordered)} guides)")
+    print(f"{written} guide pages across {len(langs)} languages "
+          f"({', '.join(langs)}), plus {len(langs)} index pages and sitemap.xml")
 
 
 if __name__ == "__main__":

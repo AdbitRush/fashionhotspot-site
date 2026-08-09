@@ -1,0 +1,172 @@
+{
+  "slug": "travel",
+  "title": "Accesorios de viaje que valen lo que pesan",
+  "dek": "Todo lo que metes en la maleta tiene un coste. Estos diez artículos lo compensan, y te decimos cuáles de los más populares no lo hacen.",
+  "category": "Viajes",
+  "how_we_pick": "Evaluamos el equipaje de viaje en función de su peso, su resistencia al trato de las aerolíneas y en cuántos viajes al año se gana realmente un sitio. Nos basamos en pruebas publicadas, en opiniones de usuarios a largo plazo y en la normativa de las aerolíneas vigente en el momento de escribir este artículo, y no hemos viajado personalmente con todos los artículos de esta lista. Cuando la opción más popular es la equivocada, lo decimos y explicamos por qué, en lugar de omitirla sin más.",
+  "intro": [
+    "Cada artículo que metes en la maleta tiene un coste, que se paga en peso, en espacio y en el pequeño peaje de tener una cosa más que controlar. La mayoría de los artilugios de viaje no superan esa prueba: solucionan un problema que tienes una vez al año y los cargas las otras cincuenta y una semanas.",
+    "Los artículos que te mostramos a continuación sí la superan. Varios son aburridos. Un par son cosas que ya tienes en una versión peor, y uno de ellos es una bolsa de plástico, que sabemos que no es una recomendación muy emocionante, pero resulta que es la correcta.",
+    "Los precios son aproximados en el momento de la publicación, y el equipaje en particular suele tener grandes descuentos con frecuencia; pagar el precio completo por una maleta es casi un error."
+  ],
+  "products": [
+    {
+      "name": "Organizadores de equipaje",
+      "tag": "Cambian tu forma de hacer la maleta",
+      "body": "En realidad, los organizadores no ahorran espacio; los de compresión ahorran un poco, y el resto se limita a contener cosas. Lo que cambian es la experiencia de vivir con lo puesto. La ropa se mantiene ordenada durante todo el viaje en lugar de acabar hecha un montón a la primera de cambio, puedes encontrar una camisa sin deshacer toda la maleta y volver a empacar te lleva dos minutos en vez de veinte. En un viaje con varias paradas, la diferencia es enorme. Compra unos pocos organizadores grandes en lugar de muchos pequeños y usa uno como bolsa para la ropa sucia.",
+      "pros": [
+        "Mantienen la maleta organizada durante todo el viaje",
+        "Hacer la maleta de nuevo es cosa de dos minutos",
+        "Uno de ellos sirve como bolsa para la ropa sucia"
+      ],
+      "cons": [
+        "Ahorran menos espacio de lo que anuncian",
+        "Añaden un poco de peso extra"
+      ]
+    },
+    {
+      "name": "Una mochila de 40L o un bolso de cabina blando como equipaje de mano",
+      "tag": "La maleta que se salta la recogida de equipajes",
+      "body": "Viajar solo con equipaje de mano elimina las dos peores partes de volar: esperar en la cinta de equipajes y la posibilidad de que tu maleta haya acabado en otro país. Una mochila de 40L tipo *clamshell*, que se abre completamente como una maleta, es el formato que debes buscar, porque las mochilas de carga superior te obligan a sacar todo para llegar al fondo. Comprueba las dimensiones permitidas por tu aerolínea antes de comprar, y vuelve a comprobarlas si vuelas con aerolíneas de bajo coste, que tienen límites más pequeños y mucho más entusiasmo en hacerlos cumplir. La contrapartida es clara: llevarás el peso en la espalda en lugar de arrastrarlo.",
+      "pros": [
+        "Sin recogida de equipaje, sin maletas perdidas",
+        "La apertura tipo *clamshell* funciona como una maleta",
+        "Cumple los límites de las aerolíneas de bajo coste si tiene el tamaño adecuado"
+      ],
+      "cons": [
+        "Llevas el peso a la espalda en lugar de arrastrarlo",
+        "Los límites de tamaño de cabina varían según la aerolínea: compruébalo antes"
+      ]
+    },
+    {
+      "name": "Un adaptador de viaje universal con USB-C PD",
+      "tag": "Compra uno bueno, no tres malos",
+      "body": "Los adaptadores baratos que venden en los aeropuertos son los que se calientan, pierden el contacto en cuanto mueves el cable y a veces fallan de formas en las que preferirías no pensar mientras duermes en un hotel. Uno bueno tiene fusibles adecuados, sujeta el enchufe con firmeza y —la parte que de verdad importa ahora— incluye carga USB-C Power Delivery de 30W o más, para que cargue un portátil directamente y reemplace por completo un segundo cargador. Ojo, casi ninguno de estos convierte el voltaje; solo cambian la forma del enchufe. Comprueba que tu secador de pelo o tu afeitadora sean de doble voltaje antes de usarlos con uno.",
+      "pros": [
+        "También reemplaza el cargador de tu portátil",
+        "Fusibles seguros y un agarre firme del enchufe",
+        "Un solo aparato sirve para casi todo el mundo"
+      ],
+      "cons": [
+        "No convierte el voltaje, solo la forma del enchufe",
+        "Es voluminoso para llevarlo en un bolso de día pequeño"
+      ]
+    },
+    {
+      "name": "Auriculares de botón con cancelación de ruido",
+      "tag": "Lo mejor para vuelos largos",
+      "body": "En un vuelo largo, cancelar el zumbido de los motores es la diferencia entre llegar cansado y llegar destrozado, porque el ruido constante de baja frecuencia es realmente agotador, incluso si no eres consciente de ello. Para viajar, los auriculares de botón ganan a los de diadema: caben en un bolsillo, funcionan si te apoyas de lado en el asiento del avión y la diadema no se pelea con la almohada de cuello. Los de diadema cancelan un poco mejor el ruido y tienen más batería, así que si los vas a usar principalmente para volar y duermes erguido, son una alternativa razonable. Lleva unos con cable de repuesto para los sistemas de entretenimiento antiguos de los aviones.",
+      "pros": [
+        "Reduce la fatiga del ruido de los motores",
+        "Caben en el bolsillo y funcionan si te apoyas de lado",
+        "No estorban si usas una almohada de cuello"
+      ],
+      "cons": [
+        "Menos cancelación y batería que los de diadema",
+        "Es fácil perder uno: son muy pequeños"
+      ]
+    },
+    {
+      "name": "Una batería externa fina de menos de 100Wh",
+      "tag": "Consulta la normativa de la aerolínea",
+      "body": "Una batería de 10.000mAh es el punto ideal para viajar: da para unas dos cargas de móvil, es lo bastante fina para sujetarla junto al teléfono y está holgadamente dentro de los límites de las aerolíneas. La norma que debes conocer es que las baterías de litio tienen que ir en el equipaje de mano, nunca en el facturado, y las de más de 100Wh suelen necesitar la aprobación de la aerolínea. Casi todas las baterías de 10.000mAh rondan los 37Wh, así que no hay problema, pero una grande para portátil podría no cumplirlo. Varias aerolíneas también han endurecido las normas sobre su uso o carga durante el vuelo; consúltalo con tu compañía antes de viajar.",
+      "pros": [
+        "Unas dos cargas de móvil en un tamaño de bolsillo",
+        "Holgadamente dentro de los límites de las aerolíneas",
+        "Baratas y fáciles de encontrar"
+      ],
+      "cons": [
+        "Debe ir en el equipaje de mano, nunca en el facturado",
+        "Las normas de uso en vuelo son más estrictas: compruébalo antes"
+      ]
+    },
+    {
+      "name": "Una botella de agua rellenable que se pliega o se aplana",
+      "tag": "Se amortiza en una semana",
+      "body": "Los precios del agua en los aeropuertos son el ejemplo más claro de lo que es un mercado cautivo, y una botella que pasas vacía por el control de seguridad y rellenas al otro lado te lo ahorra por completo en cada viaje que hagas. Una plegable resuelve el problema de que una botella rígida ocupa espacio en la maleta cuando está vacía: se enrolla hasta ocupar lo que un puño. Las advertencias reales: el agua del grifo no es potable en todas partes, así que infórmate sobre tu destino en lugar de darlo por hecho, y las botellas blandas son más difíciles de limpiar bien, lo que importa si metes algo que no sea agua.",
+      "pros": [
+        "Evita por completo los precios del agua en los aeropuertos",
+        "Se enrolla hasta el tamaño de un puño cuando está vacía",
+        "Barata y útil en absolutamente todos los viajes"
+      ],
+      "cons": [
+        "El agua del grifo no es potable en todas partes",
+        "Las botellas blandas son más difíciles de limpiar a fondo"
+      ]
+    },
+    {
+      "name": "Un botiquín compacto de primeros auxilios y medicamentos",
+      "tag": "El que esperas no tener que usar",
+      "body": "Comprar paracetamol a las 2 de la madrugada en un país cuyo idioma no hablas y con un envase que no reconoces es una experiencia realmente miserable, y es totalmente evitable con un neceser que pesa doscientos gramos. Solo por los apósitos para ampollas ya merece la pena en cualquier viaje que implique caminar. Lleva los medicamentos con receta en su envase original etiquetado y en tu equipaje de mano, y comprueba la normativa de tu destino antes de viajar: algunos medicamentos comunes, incluidos ciertos analgésicos y remedios para el resfriado, están restringidos o prohibidos en determinados países.",
+      "pros": [
+        "Solo por los apósitos para ampollas ya merece la pena llevarlo",
+        "Evita tener que apañártelas en una farmacia extranjera por la noche",
+        "Muy ligero para todo lo que incluye"
+      ],
+      "cons": [
+        "Algunos medicamentos están restringidos en ciertos países",
+        "Hay que revisarlo y reponerlo entre viaje y viaje"
+      ]
+    },
+    {
+      "name": "Una bolsa estanca o una bolsa de plástico resistente",
+      "tag": "El seguro más barato que puedes meter en la maleta",
+      "body": "Sabemos que no es una recomendación apasionante. Está en la lista porque un simple bote de champú que gotea, un chaparrón inesperado o un trayecto en barco con salpicaduras pueden arruinarte los aparatos electrónicos, los documentos y toda la ropa que llevas. Una bolsa estanca con cierre enrollable no pesa casi nada y elimina por completo esa categoría de imprevistos que te arruinan el viaje. Una bolsa resistente con cierre hermético hace el ochenta por ciento del mismo trabajo por cero euros, por eso el precio empieza en cero y no te juzgaremos si eliges esa opción.",
+      "pros": [
+        "Protege documentos y aparatos electrónicos por completo",
+        "No pesa casi nada",
+        "La versión gratuita funciona casi igual de bien"
+      ],
+      "cons": [
+        "Realmente aburrido",
+        "Los cierres enrollables hay que cerrarlos bien para que sean estancos"
+      ]
+    },
+    {
+      "name": "Una almohada de cuello, pero del tipo correcto",
+      "tag": "La mayoría se equivoca con esto",
+      "body": "La herradura hinchable que venden en todos los aeropuertos es prácticamente inútil, porque el problema en un avión no es que la cabeza se te caiga hacia atrás (el asiento ya lo impide), es que se te caiga hacia los lados. Por eso, las almohadas que funcionan son las firmes que llenan el hueco entre el hombro y la mandíbula, o los diseños envolventes que sujetan la barbilla. La espuma viscoelástica es más voluminosa de transportar que la hinchable, y esa es la verdadera contrapartida. Si solo haces vuelos cortos, olvídate de esto y apoya un jersey doblado contra la ventanilla.",
+      "pros": [
+        "El diseño adecuado de verdad ayuda a dormir erguido",
+        "La espuma firme evita que la cabeza se caiga hacia los lados",
+        "También es útil en trenes y autobuses"
+      ],
+      "cons": [
+        "La típica herradura hinchable apenas funciona",
+        "Es voluminosa para lo que hace"
+      ]
+    },
+    {
+      "name": "Una eSIM en lugar del roaming",
+      "tag": "El mayor ahorro de esta página",
+      "body": "Esto no es un producto físico, y precisamente por eso está aquí: sustituye el engorro de comprar una SIM local al llegar y el negocio, mucho peor, de pagar las tarifas de *roaming* de tu operador. Compras un plan de datos por internet antes de volar, lo instalas en unos dos minutos y aterrizas ya conectado. Dos cosas que debes comprobar primero: que tu móvil sea compatible con eSIM, como la mayoría de los modelos de los últimos años, y que no esté bloqueado por el operador. Mantén tu SIM normal activa para llamadas y mensajes, y usa la eSIM solo para los datos.",
+      "pros": [
+        "Una fracción del coste del *roaming*",
+        "Conectado en el momento en que aterrizas",
+        "Nada físico que llevar o perder"
+      ],
+      "cons": [
+        "Necesitas un móvil libre y compatible con eSIM",
+        "Solo datos: mantienes tu número habitual para las llamadas"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es el producto de viaje más sobrevalorado?",
+      "a": "La almohada de cuello hinchable en forma de herradura, seguida de las básculas de equipaje y las versiones de viaje de productos que podrías simplemente rellenar en un bote pequeño. Los tres se compran con mucha más frecuencia de la que se usan."
+    },
+    {
+      "q": "¿Puedo llevar una batería externa en un avión?",
+      "a": "Sí, en tu equipaje de mano; nunca en el facturado. Por lo general, las de menos de 100Wh están permitidas sin necesidad de aprobación, lo que cubre prácticamente todas las baterías del tamaño de un móvil. Algunas aerolíneas ahora restringen su uso o carga durante el vuelo, así que consúltalo con tu compañía."
+    },
+    {
+      "q": "¿Son mejores los organizadores de compresión que los normales?",
+      "a": "Para prendas blandas y voluminosas como jerséis y chaquetas, sí, notablemente. Para camisas y pantalones la ganancia es pequeña y se arrugan más, así que un juego mixto suele ser la mejor solución."
+    },
+    {
+      "q": "¿Solo equipaje de mano o facturar maleta?",
+      "a": "Solo equipaje de mano para viajes de hasta unos diez días si estás dispuesto a hacer la colada una vez. Factura una maleta para viajes en invierno, si llevas equipo especializado o cuando la tarifa es baja y prefieres no complicarte."
+    }
+  ]
+}

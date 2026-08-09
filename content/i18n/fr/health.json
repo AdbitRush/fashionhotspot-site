@@ -1,0 +1,173 @@
+{
+  "slug": "health",
+  "title": "Gadgets santé : lesquels mesurent vraiment quelque chose ?",
+  "dek": "Un regard sceptique sur les appareils de santé à domicile : lesquels fournissent des chiffres exploitables, et lesquels ne font que paraître précis.",
+  "category": "Santé",
+  "how_we_pick": "Notre classement se base sur la fiabilité des mesures : les appareils réglementés avec validation clinique publiée en premier, les capteurs de bien-être grand public en dernier. Nous nous appuyons sur les études de validation publiées, le statut d'approbation réglementaire et les avis d'utilisateurs sur le long terme, et nous n'avons pas testé personnellement ces appareils. Rien dans cet article ne constitue un avis médical et aucun de ces produits ne diagnostique ni ne traite une quelconque maladie.",
+  "intro": [
+    "Les appareils de santé à domicile occupent une place délicate. Certains sont de véritables instruments cliniques, aujourd'hui devenus abordables, et peuvent changer la façon dont une pathologie est prise en charge. D'autres affichent un chiffre qui semble fiable, mais sans aucune précision avérée pour le soutenir, et un chiffre erroné affiché avec assurance est pire qu'une absence de chiffre.",
+    "L'ordre de cette liste est donc basé sur la fiabilité des mesures et leur utilité pratique. En haut de la liste, on trouve les appareils réglementés dont la validation a été publiée. En bas, le suivi du bien-être : intéressant, motivant, mais pas une mesure sur laquelle fonder des décisions.",
+    "Il est important de le dire clairement : rien sur cette page ne diagnostique, ne traite ni ne prévient quoi que ce soit, et rien de tout cela ne constitue un avis médical. Ce sont des appareils grand public. Si une mesure vous inquiète ou si vous avez des symptômes, parlez-en à un médecin. N'allez pas acheter un autre gadget. Ne modifiez jamais un traitement prescrit sur la base d'une mesure effectuée à la maison.",
+    "Les prix sont approximatifs au moment de la rédaction."
+  ],
+  "products": [
+    {
+      "name": "Un tensiomètre de bras validé",
+      "tag": "Celui qui a un vrai soutien clinique",
+      "body": "C'est de loin l'appareil le plus utile de cette page, car les mesures de tension à domicile sont réellement utilisées par les médecins et reflètent souvent mieux votre état normal qu'une seule mesure prise en cabinet. Deux points sont importants. Achetez un modèle pour le bras, pas pour le poignet — les tensiomètres de poignet sont beaucoup plus sensibles à la position et ne sont pas recommandés pour un usage régulier. Et vérifiez que le modèle spécifique figure sur une liste de validation reconnue, car un grand nombre de tensiomètres en vente n'ont jamais été validés de manière indépendante. Mesurez le brassard sur votre bras ; une mauvaise taille fausse considérablement les résultats.",
+      "pros": [
+        "Des mesures que les médecins utilisent vraiment",
+        "Des listes de validation permettent de vérifier un modèle précis",
+        "Bon marché pour un instrument réglementé"
+      ],
+      "cons": [
+        "Une mauvaise taille de brassard fausse lourdement les chiffres",
+        "Les modèles pour poignet ne sont pas recommandés en usage régulier"
+      ]
+    },
+    {
+      "name": "Un thermomètre numérique",
+      "tag": "Banal, essentiel, pas cher",
+      "body": "Chaque foyer devrait en avoir un, et la plupart en ont un avec une pile à plat. Le choix principal concerne le type. Un simple thermomètre digital oral ou sous l'aisselle est le moins cher et le plus fiable, mais il prend un peu plus de temps. Les thermomètres infrarouges frontaux et auriculaires sont beaucoup plus rapides et bien plus sensibles à la technique, à la distance et au fait que la personne vienne de rentrer du froid — ce qui est précisément le moment où on les utilise. Si vous achetez un infrarouge pour sa rapidité avec les enfants, prenez deux mesures et considérez un résultat surprenant comme une raison de vérifier avec le thermomètre classique, pas comme une conclusion.",
+      "pros": [
+        "Pas cher et vraiment nécessaire",
+        "Les thermomètres digitaux à contact sont les plus fiables",
+        "L'infrarouge est rapide pour un enfant qui dort"
+      ],
+      "cons": [
+        "La précision de l'infrarouge dépend beaucoup de la technique",
+        "Celui que vous avez a probablement besoin d'une pile"
+      ]
+    },
+    {
+      "name": "Un oxymètre de pouls",
+      "tag": "Utile, avec une limite connue",
+      "body": "Un oxymètre de pouls de doigt estime la saturation en oxygène du sang et est un appareil domestique vraiment utile, surtout pour les personnes qui gèrent une affection respiratoire connue sous suivi médical. Une limite est bien documentée et mérite d'être connue avant de s'y fier : il a été démontré que ces appareils surestiment la saturation chez les personnes à la peau plus foncée, ce qui signifie qu'une mesure peut paraître rassurante alors qu'elle ne l'est pas. Les mains froides, le vernis à ongles et le mouvement faussent aussi les mesures. Considérez-le comme une donnée parmi d'autres : l'apparence d'une personne et son essoufflement comptent plus que le chiffre, et des symptômes justifient toujours un appel à un médecin, quoi que l'appareil indique.",
+      "pros": [
+        "Vraiment utile sous suivi médical",
+        "Pas cher et immédiat",
+        "Donne aussi la fréquence cardiaque"
+      ],
+      "cons": [
+        "Surestimation documentée sur les peaux plus foncées",
+        "Les mains froides, le vernis et le mouvement faussent les mesures"
+      ]
+    },
+    {
+      "name": "Une balance connectée, pour la tendance uniquement",
+      "tag": "Fiez-vous à la courbe, pas au chiffre",
+      "body": "Le poids fluctue de quelques kilos au cours de la journée à cause de l'eau, de la nourriture et du sel, donc une seule mesure ne dit pas grand-chose, et une pesée quotidienne peut être franchement démoralisante sans raison. Ce qu'une balance connectée fait bien, c'est tracer la tendance, et la tendance sur plusieurs semaines est la seule chose qui ait un sens. Le pourcentage de graisse corporelle qu'elles indiquent est dérivé d'un faible courant électrique et n'est pas précis en valeur absolue ; il peut être vaguement utile pour indiquer une direction, mais ne doit pas être considéré comme une mesure. Si le suivi du poids est néfaste pour votre rapport à la nourriture, il est tout à fait raisonnable de s'en passer.",
+      "pros": [
+        "La tendance sur plusieurs semaines est l'information utile",
+        "L'enregistrement automatique évite la saisie manuelle",
+        "Pas cher"
+      ],
+      "cons": [
+        "Le pourcentage de graisse corporelle n'est pas une mesure précise",
+        "La pesée quotidienne est démoralisante et peu informative"
+      ]
+    },
+    {
+      "name": "Une lampe de luminothérapie, si vos hivers sont sombres",
+      "tag": "Vérifiez le nombre de lux",
+      "body": "La lumière vive le matin est l'une des approches non médicamenteuses les mieux étayées contre la déprime saisonnière dans les climats sombres, et elle aide aussi à recaler une horloge biologique qui a pris du retard. La caractéristique qui compte, c'est 10,000 lux à la distance où vous serez réellement assis. Beaucoup de lampes annoncent ce chiffre à une distance que personne n'utilise, donc vérifiez la distance d'utilisation indiquée plutôt que le chiffre mis en avant. Utilisez-la le matin pendant vingt à trente minutes ; une utilisation le soir peut retarder votre sommeil. Parlez-en d'abord à un médecin si vous souffrez de trouble bipolaire, d'une affection oculaire, ou si vous prenez des médicaments photosensibilisants.",
+      "pros": [
+        "Une des options non médicamenteuses les mieux étayées",
+        "Utile aussi pour recaler une horloge biologique tardive",
+        "Pas de consommables"
+      ],
+      "cons": [
+        "Le nombre de lux est indiqué pour des distances irréalistes",
+        "L'utilisation le soir peut retarder le sommeil ; consultez un médecin d'abord"
+      ]
+    },
+    {
+      "name": "Un humidificateur, si l'air est vraiment sec",
+      "tag": "Achetez d'abord un hygromètre",
+      "body": "L'air intérieur sec contribue réellement à la gorge qui gratte, à la peau sèche et à un sommeil perturbé, surtout quand le chauffage tourne tout l'hiver. Mais la plupart des gens n'ont aucune idée de leur taux d'humidité réel, et faire fonctionner un humidificateur dans une pièce déjà humide provoque des moisissures au lieu de résoudre quoi que ce soit. Dépensez d'abord quelques pounds pour un hygromètre et vérifiez si vous êtes en dessous d'environ quarante pour cent. Si vous en achetez un, le nettoyage n'est pas une option : un réservoir non nettoyé pulvérise des bactéries dans la pièce où vous dormez, ce qui est un résultat bien pire que l'air sec. Choisissez un modèle dans lequel vous pouvez réellement passer la main.",
+      "pros": [
+        "Un vrai bénéfice dans un air chauffé vraiment sec",
+        "Un hygromètre bon marché vous dit si vous en avez besoin",
+        "Aide au sommeil et à la peau en hiver"
+      ],
+      "cons": [
+        "Un réservoir non nettoyé propage des bactéries dans la pièce",
+        "Inutile ou nocif si la pièce est déjà humide"
+      ]
+    },
+    {
+      "name": "Un pilulier hebdomadaire",
+      "tag": "Le moins glamour, le plus efficace",
+      "body": "Rien d'autre sur cette page n'approche son utilité pratique pour le prix. Ne pas prendre ses médicaments comme prescrit est un problème énorme et très courant, et ce n'est généralement pas une décision : c'est un simple oubli, ou le fait de ne plus se souvenir si on a pris sa dose du matin. Une boîte à compartiments visibles répond à cette question d'un seul coup d'œil. Prenez-en un avec des sections matin et soir si vous avez des prises à différents moments. Remplissez-le le même jour chaque semaine, et gardez-le à un endroit lié à une habitude existante, comme près de la bouilloire, plutôt que dans un placard.",
+      "pros": [
+        "Une valeur pratique énorme pour le prix",
+        "Répond à 'l'ai-je pris ?' d'un coup d'œil",
+        "Rien à charger ou à entretenir"
+      ],
+      "cons": [
+        "Ne fonctionne que si on le remplit à jour fixe",
+        "Ne convient pas aux médicaments nécessitant leur emballage d'origine"
+      ]
+    },
+    {
+      "name": "Un bracelet d'activité, pour les tendances, pas le diagnostic",
+      "tag": "Motivant, pas médical",
+      "body": "Les bracelets d'activité sont bons pour deux choses : compter les pas, ce qui est un indicateur correct de l'activité quotidienne, et vous rendre un peu plus conscient de votre niveau d'activité. Cette prise de conscience est le véritable mécanisme, et ça a de la valeur. Soyez sceptique sur le reste. L'analyse des phases de sommeil par un appareil de poignet ne correspond pas à ce que mesure un laboratoire du sommeil, les estimations de calories brûlées comportent de grandes marges d'erreur, et les scores de stress sont principalement dérivés de la variabilité de la fréquence cardiaque, avec une étiquette affirmative apposée dessus. Utilisez-le pour repérer les tendances sur plusieurs semaines. S'il vous rend anxieux à propos de votre sommeil – un effet bien connu – retirez-le la nuit.",
+      "pros": [
+        "Le nombre de pas est un bon indicateur de l'activité quotidienne",
+        "La prise de conscience change à elle seule le comportement",
+        "Grande autonomie sur la plupart des modèles"
+      ],
+      "cons": [
+        "L'analyse du sommeil et les calories brûlées ne sont pas précises",
+        "Peut créer une véritable anxiété liée au sommeil"
+      ]
+    },
+    {
+      "name": "Un store occultant ou un bon masque de sommeil",
+      "tag": "Mieux que la plupart des gadgets pour le sommeil",
+      "body": "De tout ce qui est vendu pour améliorer le sommeil, l'obscurité est la solution la mieux prouvée et la moins chère. La lumière supprime la mélatonine, et la lumière qui filtre autour d'un rideau fin à 5h du matin en été est une cause fréquente et tout à fait évitable de réveil précoce. Un store occultant installé dans l'encadrement de la fenêtre est la vraie solution ; un masque de sommeil profilé qui n'appuie pas sur les yeux coûte une fraction du prix et s'emporte partout. L'un comme l'autre sera plus efficace pour la plupart des gens qu'un tracker de sommeil, une application ou un complément alimentaire — ce qui mérite d'être dit, car ce sont ces derniers qui font l'objet de marketing, pas les stores.",
+      "pros": [
+        "Preuves solides, coût très faible",
+        "Corrige directement le réveil précoce en été",
+        "Un masque s'emporte partout et ne coûte presque rien"
+      ],
+      "cons": [
+        "Les stores nécessitent mesure et installation",
+        "Les masques plats appuient sur les yeux — prenez-en un profilé"
+      ]
+    },
+    {
+      "name": "Un pistolet de massage à percussion",
+      "tag": "Agréable, mais les promesses dépassent les preuves",
+      "body": "Ils procurent une sensation agréable de manière fiable et peuvent augmenter temporairement l'amplitude de mouvement et réduire la sensation de courbature, ce qui est un bénéfice réel, bien que modeste. Ce que les preuves ne soutiennent pas, c'est le discours marketing plus large sur l'élimination de l'acide lactique, l'accélération de la récupération ou la rupture des adhérences. Considérez-le comme un outil d'auto-massage agréable et pratique, et son prix est correct ; jugez-le sur les promesses de l'emballage et vous serez déçu. Évitez les os, les articulations, le cou et toute zone blessée, enflée ou engourdie, et parlez-en à un médecin avant de l'utiliser si vous prenez des anticoagulants ou si vous avez un trouble de la coagulation.",
+      "pros": [
+        "Vraiment agréable et pratique",
+        "Bénéfice temporaire sur l'amplitude et les courbatures",
+        "Atteint des zones inaccessibles au rouleau en mousse"
+      ],
+      "cons": [
+        "Les promesses sur la récupération et l'acide lactique ne sont pas prouvées",
+        "Pas pour les os, les articulations, le cou ou les zones blessées"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Les fonctions santé des montres connectées sont-elles précises ?",
+      "a": "La fréquence cardiaque au repos est généralement fiable, et les fonctions ECG sur les appareils certifiés ont une vraie validation. L'analyse des phases de sommeil, les calories brûlées et les scores de stress sont des estimations avec de grandes marges d'erreur, utiles pour les tendances, pas comme des mesures."
+    },
+    {
+      "q": "Quel est le seul appareil qui vaille vraiment la peine ?",
+      "a": "Un tensiomètre de bras validé, si c'est pertinent pour vous. C'est le seul appareil de cette liste dont les mesures seront réellement utilisées par un médecin, et l'hypertension artérielle n'a pas de symptômes jusqu'à ce que ce soit très grave."
+    },
+    {
+      "q": "Mon appareil m'a donné une mesure inquiétante. Que dois-je faire ?",
+      "a": "Reprenez la mesure, correctement, après être resté assis tranquillement pendant cinq minutes — les erreurs de technique sont fréquentes. Si elle reste anormale, ou si vous avez des symptômes, contactez un médecin. Ne modifiez aucun traitement prescrit sur la base d'une mesure à domicile."
+    },
+    {
+      "q": "Quel est le gadget santé le plus surcoté ?",
+      "a": "Tout ce qui promet une 'détox', et les appareils portables qui corrigent la posture. Aussi, la plupart des bagues et bracelets de suivi du sommeil pour les gens qui dorment déjà bien ; pour certains utilisateurs, le suivi lui-même devient une source d'anxiété liée au sommeil."
+    }
+  ]
+}

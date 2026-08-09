@@ -2,9 +2,7 @@
   "slug": "garden",
   "category": "Garden",
   "title": "Garden and Balcony Kit That Earns Its Shed Space",
-  "title_he": "ציוד לגינה ולמרפסת שמצדיק את המקום במחסן",
   "dek": "Ten things that work on a balcony as well as a garden, ranked by how much they actually change what grows.",
-  "dek_he": "עשרה דברים שעובדים גם במרפסת וגם בגינה, מדורגים לפי כמה הם באמת משנים את מה שגדל.",
   "hero_image": "a sunny balcony with potted herbs, a watering can and a pair of secateurs on a small wooden table",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -14,170 +12,195 @@
     "Almost everything here works on a balcony as well as in a garden, because pots have the same requirements as beds — they just dry out faster. Where something is genuinely garden-only we say so.",
     "Prices are approximate at the time of writing. Garden equipment is heavily discounted at the end of the season, which is the sensible time to buy anything non-urgent."
   ],
-  "intro_he": [
-    "לגינון יש שוק גאדג'טים ענק צמוד לו ורשימה קצרה מאוד של דברים שקובעים אם צמחים חיים. מים, אור, ניקוז ואדמה עושים כמעט את כל העבודה. כל השאר זה נוחות.",
-    "לכן הרשימה מסודרת לפי השפעה על התוצאה. הפריטים בראש הם אלה שמונעים מצמחים למות בזמן שאתם בחופשה או מוסחים, וזו בפער הסיבה הנפוצה ביותר לכישלון. כלים באים אחר כך.",
-    "כמעט הכול כאן עובד גם במרפסת וגם בגינה, כי לעציצים יש אותן דרישות כמו לערוגות — הם רק מתייבשים מהר יותר. איפה שמשהו באמת מיועד רק לגינה נגיד את זה.",
-    "המחירים הם הערכה נכון לזמן הכתיבה. ציוד גינון יורד במחיר חזק בסוף העונה, וזה הזמן ההגיוני לקנות כל דבר שאינו דחוף."
-  ],
   "how_we_pick": "We rank by effect on whether plants survive and produce, not by how satisfying the tool is to hold. We rely on horticultural guidance, published testing and long-run owner reports, and we have not personally used every item here. Where the answer is a technique rather than a purchase — and in gardening it often is — we say that instead.",
-  "how_we_pick_he": "אנחנו מדרגים לפי השפעה על השאלה אם צמחים שורדים ומניבים, ולא לפי כמה נעים להחזיק את הכלי. אנחנו נשענים על הנחיות גננות, על בדיקות שפורסמו ועל דיווחים של בעלים לאורך זמן, ולא השתמשנו בעצמנו בכל פריט כאן. איפה שהתשובה היא טכניקה ולא רכישה — ובגינון זה קורה הרבה — נגיד את זה במקום.",
   "products": [
     {
       "name": "A drip irrigation kit with a timer",
-      "name_he": "ערכת טפטוף עם שעון",
       "tag": "Solves the actual killer",
-      "tag_he": "פותר את מה שבאמת הורג",
       "price": "$45–120",
       "search": "drip irrigation kit timer container garden",
       "image": "thin black drip irrigation tubing running between potted plants on a patio",
       "body": "Inconsistent watering kills more container plants than pests and disease combined, and the pattern is always the same — fine for three weeks, then a hot spell or a holiday and everything is gone. A timer plus drip line removes the human from the loop entirely, which is the whole point. It also waters better than a can: slow delivery at the root reaches the whole root ball instead of running down the inside of the pot and out the bottom, which is what a fast pour actually does. Kits are modular and need no plumbing. Check the timer's batteries each spring.",
-      "body_he": "השקיה לא עקבית הורגת יותר צמחים בעציצים ממזיקים ומחלות ביחד, והדפוס תמיד זהה — בסדר שלושה שבועות, ואז גל חום או חופשה והכול נגמר. שעון עם קו טפטוף מסלק את האדם מהמשוואה לגמרי, וזו כל הנקודה. הוא גם משקה טוב יותר ממשפך: אספקה איטית בשורש מגיעה לכל גוש השורשים במקום לזרום במורד דופן העציץ והחוצה מלמטה, וזה מה ששפיכה מהירה באמת עושה. הערכות מודולריות ולא דורשות אינסטלציה. בדקו את הסוללות של השעון כל אביב.",
-      "pros": ["Removes the main cause of container plant death", "Waters the root ball properly, not just the surface", "No plumbing, fully modular"],
-      "cons": ["Timer batteries fail silently — check each spring", "Emitters clog and need occasional clearing"]
+      "pros": [
+        "Removes the main cause of container plant death",
+        "Waters the root ball properly, not just the surface",
+        "No plumbing, fully modular"
+      ],
+      "cons": [
+        "Timer batteries fail silently — check each spring",
+        "Emitters clog and need occasional clearing"
+      ]
     },
     {
       "name": "Pots with real drainage, and the right compost",
-      "name_he": "עציצים עם ניקוז אמיתי, והאדמה הנכונה",
       "tag": "The unglamorous fundamentals",
-      "tag_he": "היסודות הלא זוהרים",
       "price": "$30–80",
       "search": "plant pots drainage holes potting compost",
       "image": "several terracotta and glazed pots of different sizes grouped on a balcony floor",
       "body": "Two failures account for an enormous share of dead container plants, and both are avoidable for almost nothing. The first is a decorative pot with no drainage hole, which drowns roots invisibly — either drill it or use it as an outer sleeve with a plastic pot inside. The second is filling pots with garden soil, which compacts into a dense airless block in a container and does not behave the way it does in the ground. Use a proper potting compost. Terracotta breathes and dries faster, which suits herbs and Mediterranean plants and works against thirsty ones.",
-      "body_he": "שני כשלים אחראים לחלק עצום מהצמחים המתים בעציצים, ושניהם נמנעים כמעט בחינם. הראשון הוא עציץ דקורטיבי בלי חור ניקוז, שמטביע שורשים באופן בלתי נראה — או שקדחו אותו או שתשתמשו בו כמעטפת חיצונית עם עציץ פלסטיק בפנים. השני הוא למלא עציצים באדמת גינה, שנדחסת לגוש צפוף וחסר אוויר בכלי ולא מתנהגת כמו שהיא מתנהגת בקרקע. השתמשו במצע שתילה מתאים. חרס נושם ומתייבש מהר יותר, וזה מתאים לתבלינים ולצמחים ים-תיכוניים ופועל נגד צמחים צמאים.",
-      "pros": ["Fixes two of the commonest causes of failure", "Costs almost nothing to get right", "Terracotta suits herbs and dry-loving plants"],
-      "cons": ["Decorative pots often have no drainage at all", "Garden soil compacts badly in containers"]
+      "pros": [
+        "Fixes two of the commonest causes of failure",
+        "Costs almost nothing to get right",
+        "Terracotta suits herbs and dry-loving plants"
+      ],
+      "cons": [
+        "Decorative pots often have no drainage at all",
+        "Garden soil compacts badly in containers"
+      ]
     },
     {
       "name": "A pair of bypass secateurs",
-      "name_he": "מזמרה דו-להבית",
       "tag": "Buy sharp, keep sharp",
-      "tag_he": "לקנות חד, לשמור חד",
       "price": "$30–70",
       "search": "bypass secateurs pruners garden",
       "image": "a pair of red-handled bypass secateurs lying on a wooden garden bench",
       "body": "Bypass secateurs cut like scissors, with two blades passing each other, and they leave a clean cut that heals. Anvil secateurs crush the stem against a flat plate, which damages living wood and invites disease — use those only on dead material. A clean cut matters more than most beginners expect. Buy a model whose blades can be replaced and sharpened rather than a sealed one, and clean them between plants if anything is diseased. A blunt pair does not fail obviously; it just tears everything and you blame the plant.",
-      "body_he": "מזמרה דו-להבית חותכת כמו מספריים, עם שני להבים שעוברים זה ליד זה, והיא משאירה חתך נקי שמחלים. מזמרת סדן מועכת את הגבעול מול לוחית שטוחה, וזה פוגע בעץ חי ומזמין מחלות — השתמשו בה רק על חומר מת. חתך נקי חשוב יותר ממה שרוב המתחילים מצפים. קנו דגם שאפשר להחליף ולהשחיז את הלהבים שלו ולא כזה אטום, ונקו אותם בין צמחים אם משהו חולה. זוג קהה לא נכשל באופן ברור; הוא פשוט קורע הכול ואתם מאשימים את הצמח.",
-      "pros": ["Clean cuts heal; crushed ones invite disease", "Replaceable blades mean one pair lasts years", "Comfortable models reduce hand fatigue"],
-      "cons": ["Anvil types damage living stems", "Blunt blades fail invisibly — sharpen them"]
+      "pros": [
+        "Clean cuts heal; crushed ones invite disease",
+        "Replaceable blades mean one pair lasts years",
+        "Comfortable models reduce hand fatigue"
+      ],
+      "cons": [
+        "Anvil types damage living stems",
+        "Blunt blades fail invisibly — sharpen them"
+      ]
     },
     {
       "name": "A moisture meter, if you overwater",
-      "name_he": "מד לחות, אם אתם משקים יותר מדי",
       "tag": "Cheap answer to a common question",
-      "tag_he": "תשובה זולה לשאלה נפוצה",
       "price": "$12–30",
       "search": "soil moisture meter plants",
       "image": "a simple soil moisture meter probe inserted into the soil of a potted plant",
       "body": "Overwatering kills more houseplants than drought, because soggy soil suffocates roots and the symptoms — drooping, yellowing leaves — look exactly like thirst, so people water more and accelerate it. A cheap probe reads moisture at root depth rather than at the surface, which is the part you cannot see and the part that matters. It is a learning tool more than a permanent one: use it for a season, learn what the right weight and feel are for your pots, and you will stop needing it. Sticking a finger two inches into the soil does the same job for free.",
-      "body_he": "השקיה יתר הורגת יותר צמחי בית מיובש, כי אדמה ספוגה חונקת שורשים והתסמינים — עלים כמושים ומצהיבים — נראים בדיוק כמו צמא, אז אנשים משקים יותר ומאיצים את זה. מד זול קורא לחות בעומק השורשים ולא בפני השטח, וזה החלק שאתם לא רואים והחלק שמשנה. זה כלי לימוד יותר מכלי קבע: השתמשו בו עונה אחת, תלמדו מה המשקל והתחושה הנכונים לעציצים שלכם, ותפסיקו להזדקק לו. להכניס אצבע חמישה סנטימטרים לאדמה עושה את אותה עבודה בחינם.",
-      "pros": ["Reads at root depth, where it matters", "Very cheap and needs no batteries on basic models", "Breaks the overwatering cycle quickly"],
-      "cons": ["A finger does the same job for free", "Cheap meters drift and corrode over time"]
+      "pros": [
+        "Reads at root depth, where it matters",
+        "Very cheap and needs no batteries on basic models",
+        "Breaks the overwatering cycle quickly"
+      ],
+      "cons": [
+        "A finger does the same job for free",
+        "Cheap meters drift and corrode over time"
+      ]
     },
     {
       "name": "A grow light, for a dark flat",
-      "name_he": "תאורת גידול, לדירה חשוכה",
       "tag": "Only if light is the limit",
-      "tag_he": "רק אם האור הוא המגבלה",
       "price": "$40–120",
       "search": "LED grow light full spectrum plants",
       "image": "a slim LED grow light above a row of small potted seedlings on a windowsill",
       "body": "If your plants are leggy — stretched, pale and reaching toward the window — light is the constraint and nothing else you buy will help. A full-spectrum LED fixes that directly, and it also makes winter seed-starting genuinely viable. Check the actual output rather than the wattage, since marketing figures here are unusually inflated, and put it on a timer for twelve to sixteen hours; more is not better and plants need a dark period. If your plants are healthy and compact, you do not have a light problem and this is money better spent elsewhere.",
-      "body_he": "אם הצמחים שלכם מתארכים — מתוחים, חיוורים ונמתחים לכיוון החלון — אור הוא האילוץ ושום דבר אחר שתקנו לא יעזור. LED בספקטרום מלא מתקן את זה ישירות, והוא גם הופך הנבטה בחורף לאפשרית באמת. בדקו את התפוקה בפועל ולא את הוואטים, כי נתוני השיווק כאן מנופחים במיוחד, ושימו אותו על שעון לשתים-עשרה עד שש-עשרה שעות; יותר זה לא טוב יותר וצמחים צריכים תקופת חושך. אם הצמחים שלכם בריאים וקומפקטיים, אין לכם בעיית אור וזה כסף שעדיף להוציא במקום אחר.",
-      "pros": ["Directly fixes leggy growth in dark rooms", "Makes winter seed-starting viable", "Cheap to run on modern LEDs"],
-      "cons": ["Output figures are routinely overstated", "Pointless if light is not your actual limitation"]
+      "pros": [
+        "Directly fixes leggy growth in dark rooms",
+        "Makes winter seed-starting viable",
+        "Cheap to run on modern LEDs"
+      ],
+      "cons": [
+        "Output figures are routinely overstated",
+        "Pointless if light is not your actual limitation"
+      ]
     },
     {
       "name": "A compost caddy and a small bin or wormery",
-      "name_he": "דלי קומפוסט ומתקן קטן או תולעים",
       "tag": "Works on a balcony too",
-      "tag_he": "עובד גם במרפסת",
       "price": "$40–120",
       "search": "kitchen compost caddy small garden bin wormery",
       "image": "a small kitchen compost caddy beside a compact garden compost bin on a patio",
       "body": "Compost is the cheapest soil improvement there is and you are currently paying to have the raw material taken away. A caddy with a charcoal filter sits on the worktop without smelling, and a small bin or a wormery handles the volume from a household without a garden — wormeries in particular work on a balcony and produce a concentrated liquid feed as a by-product. Keep the ratio roughly balanced between green kitchen waste and brown material like cardboard; almost every complaint about smell traces back to too much green and not enough air.",
-      "body_he": "קומפוסט הוא שיפור הקרקע הזול ביותר שקיים ואתם כרגע משלמים על כך שיפנו את חומר הגלם. דלי עם מסנן פחם יושב על השיש בלי להריח, ומתקן קטן או ארגז תולעים מטפל בכמות של משק בית בלי גינה — ארגזי תולעים במיוחד עובדים במרפסת ומייצרים דשן נוזלי מרוכז כתוצר לוואי. שמרו על יחס מאוזן בערך בין פסולת מטבח ירוקה לחומר חום כמו קרטון; כמעט כל תלונה על ריח מתחילה בעודף ירוק ובחוסר אוויר.",
-      "pros": ["Turns waste into the best soil improver there is", "Wormeries work on a balcony", "Liquid feed as a free by-product"],
-      "cons": ["Smell means the green-to-brown ratio is off", "Takes months before the first usable output"]
+      "pros": [
+        "Turns waste into the best soil improver there is",
+        "Wormeries work on a balcony",
+        "Liquid feed as a free by-product"
+      ],
+      "cons": [
+        "Smell means the green-to-brown ratio is off",
+        "Takes months before the first usable output"
+      ]
     },
     {
       "name": "Kneeling pad and proper gloves",
-      "name_he": "כרית ברכיים וכפפות הגונות",
       "tag": "Determines how long you last",
-      "tag_he": "קובע כמה זמן תחזיקו",
       "price": "$25–50",
       "search": "garden kneeling pad nitrile coated gloves",
       "image": "a foam kneeling pad and a pair of coated gardening gloves on a stone path",
       "body": "How long you keep gardening on any given afternoon is usually decided by your knees and hands rather than your enthusiasm, which makes these worth more than they look. A thick foam pad costs very little and roughly doubles comfortable working time. For gloves, nitrile-coated fabric is the useful compromise — enough dexterity to handle seedlings and enough protection for thorns, unlike thick leather which is safe and useless for fine work. Get two pairs, because one will always be wet. Wear gloves for soil work generally; there are bacteria and fungi in compost worth not handling bare-handed.",
-      "body_he": "כמה זמן תמשיכו לגנן באיזה שהוא אחר צהריים נקבע בדרך כלל על ידי הברכיים והידיים ולא על ידי ההתלהבות, וזה הופך את הפריטים האלה לשווים יותר ממה שהם נראים. כרית קצף עבה עולה מעט מאוד ובערך מכפילה את זמן העבודה הנוח. לכפפות, בד מצופה ניטריל הוא הפשרה השימושית — מספיק זריזות כדי לטפל בשתילים ומספיק הגנה מקוצים, בניגוד לעור עבה שבטוח וחסר תועלת לעבודה עדינה. קחו שני זוגות, כי אחד תמיד יהיה רטוב. תלבשו כפפות לעבודה עם אדמה באופן כללי; יש בקומפוסט חיידקים ופטריות ששווה לא לגעת בהם בידיים חשופות.",
-      "pros": ["Roughly doubles comfortable working time", "Nitrile coating balances grip and protection", "Cheap"],
-      "cons": ["Gloves need two pairs in rotation", "Thick leather is useless for fine work"]
+      "pros": [
+        "Roughly doubles comfortable working time",
+        "Nitrile coating balances grip and protection",
+        "Cheap"
+      ],
+      "cons": [
+        "Gloves need two pairs in rotation",
+        "Thick leather is useless for fine work"
+      ]
     },
     {
       "name": "A watering can with a fine rose",
-      "name_he": "משפך השקיה עם פיה מפזרת",
       "tag": "The rose is the point",
-      "tag_he": "הפיה היא כל העניין",
       "price": "$25–60",
       "search": "watering can fine rose seedlings",
       "image": "a galvanised metal watering can with a fine rose attachment on a garden step",
       "body": "Any container carries water. What you are actually buying is the rose — the perforated head that turns a stream into rain. Without it, watering seedlings washes them out of the compost and watering pots carves a channel that sends water straight down one side and out the drainage hole, leaving most of the root ball dry. A fine rose delivers slowly enough that the compost absorbs it. Check the balance when full, since a badly balanced can is tiring to use and encourages you to water less than you meant to.",
-      "body_he": "כל כלי נושא מים. מה שאתם באמת קונים זו הפיה — הראש המחורר שהופך זרם לגשם. בלעדיה, השקיית שתילים שוטפת אותם החוצה מהמצע והשקיית עציצים חורצת תעלה ששולחת מים ישר במורד צד אחד והחוצה מחור הניקוז, ומשאירה את רוב גוש השורשים יבש. פיה עדינה מספקת לאט מספיק כדי שהמצע יספוג. בדקו את האיזון כשהוא מלא, כי משפך לא מאוזן מעייף לשימוש ומעודד אתכם להשקות פחות ממה שהתכוונתם.",
-      "pros": ["A fine rose is what makes watering actually work", "Essential for seedlings, which a stream destroys", "Simple, nothing to break"],
-      "cons": ["Roses are easy to lose — keep a spare", "Poorly balanced cans are tiring when full"]
+      "pros": [
+        "A fine rose is what makes watering actually work",
+        "Essential for seedlings, which a stream destroys",
+        "Simple, nothing to break"
+      ],
+      "cons": [
+        "Roses are easy to lose — keep a spare",
+        "Poorly balanced cans are tiring when full"
+      ]
     },
     {
       "name": "Slug control that is not blue pellets",
-      "name_he": "הגנה משבלולים שאינה גרגירים כחולים",
       "tag": "Check what is legal locally",
-      "tag_he": "בדקו מה חוקי אצלכם",
       "price": "$15–40",
       "search": "wool slug pellets copper tape organic",
       "image": "a copper tape ring around the rim of a terracotta pot with green seedlings inside",
       "body": "Slugs will remove a row of seedlings in a night, and the traditional metaldehyde pellets have now been banned or restricted in a number of countries because of harm to wildlife and pets — check what is permitted where you live before buying anything. The alternatives that work reasonably are copper tape around pot rims, wool pellets, and iron phosphate based products which are approved for organic use in many places. Beer traps work and need emptying more often than anyone expects. No method is complete; combining two is more effective than perfecting one.",
-      "body_he": "שבלולים יחסלו שורת שתילים בלילה אחד, וגרגירי המטאלדהיד המסורתיים נאסרו או הוגבלו במספר מדינות בגלל נזק לחיות בר ולחיות מחמד — בדקו מה מותר במקום מגוריכם לפני שאתם קונים משהו. החלופות שעובדות סבירות הן סרט נחושת סביב שפת העציץ, גרגירי צמר, ומוצרים על בסיס ברזל פוספט שמאושרים לשימוש אורגני בהרבה מקומות. מלכודות בירה עובדות ודורשות ריקון בתדירות גבוהה ממה שמישהו מצפה. שום שיטה אינה מלאה; שילוב של שתיים יעיל יותר משכלול אחת.",
-      "pros": ["Protects seedlings from the fastest total loss", "Iron phosphate is organic-approved in many places", "Copper tape is reusable year after year"],
-      "cons": ["Metaldehyde is banned or restricted in many countries", "No single method works completely"]
+      "pros": [
+        "Protects seedlings from the fastest total loss",
+        "Iron phosphate is organic-approved in many places",
+        "Copper tape is reusable year after year"
+      ],
+      "cons": [
+        "Metaldehyde is banned or restricted in many countries",
+        "No single method works completely"
+      ]
     },
     {
       "name": "A folding pruning saw",
-      "name_he": "מסור גיזום מתקפל",
       "tag": "Garden only, and safer than loppers",
-      "tag_he": "לגינה בלבד, ובטוח יותר ממזמרת ענפים",
       "price": "$30–60",
       "search": "folding pruning saw garden",
       "image": "a folding pruning saw with an orange handle lying open on a wooden log",
       "body": "This is the one genuinely garden-only item here. Anything thicker than a thumb is beyond secateurs, and forcing loppers through it produces a torn wound and often a broken tool. A folding saw with a pull-stroke blade cuts fast, folds into a pocket and costs less than the loppers people buy instead. Japanese-style pull-cut teeth are noticeably more efficient than push-cut. Fold it every time you put it down — an open saw left in the grass is one of the more predictable ways to injure yourself in a garden.",
-      "body_he": "זה הפריט היחיד כאן שהוא באמת רק לגינה. כל דבר עבה מאגודל הוא מעבר ליכולת של מזמרה, ולהכריח מזמרת ענפים דרכו מייצר פצע קרוע ולעיתים קרובות כלי שבור. מסור מתקפל עם להב שחותך במשיכה חותך מהר, מתקפל לכיס ועולה פחות ממזמרת הענפים שאנשים קונים במקום. שיניים בסגנון יפני שחותכות במשיכה יעילות בצורה ניכרת מכאלה שחותכות בדחיפה. תקפלו אותו בכל פעם שאתם מניחים אותו — מסור פתוח שנשאר בדשא הוא אחת הדרכים הצפויות יותר להיפצע בגינה.",
-      "pros": ["Handles branches secateurs cannot", "Pull-cut blades are notably more efficient", "Folds to pocket size"],
-      "cons": ["Genuinely garden-only, no balcony use", "An open blade left down is a real hazard"]
+      "pros": [
+        "Handles branches secateurs cannot",
+        "Pull-cut blades are notably more efficient",
+        "Folds to pocket size"
+      ],
+      "cons": [
+        "Genuinely garden-only, no balcony use",
+        "An open blade left down is a real hazard"
+      ]
     }
   ],
   "faq": [
     {
       "q": "What kills container plants most often?",
-      "a": "Inconsistent watering, then no drainage hole, then using garden soil instead of potting compost. Those three account for the large majority, and all are cheap to fix.",
-      "q_he": "מה הכי הורג צמחים בעציצים?",
-      "a_he": "השקיה לא עקבית, אחר כך היעדר חור ניקוז, ואז שימוש באדמת גינה במקום במצע שתילה. שלושת אלה אחראים לרוב הגדול, וכולם זולים לתיקון."
+      "a": "Inconsistent watering, then no drainage hole, then using garden soil instead of potting compost. Those three account for the large majority, and all are cheap to fix."
     },
     {
       "q": "Can I grow anything worthwhile on a balcony?",
-      "a": "Yes — herbs, salad leaves, chillies, tomatoes and strawberries all do well in pots. The real constraints are sunlight hours and wind, not space. Count how many hours of direct sun the spot actually gets before choosing plants.",
-      "q_he": "אפשר לגדל משהו שווה במרפסת?",
-      "a_he": "כן — תבלינים, עלי סלט, פלפלים חריפים, עגבניות ותותים כולם מצליחים בעציצים. האילוצים האמיתיים הם שעות שמש ורוח, לא מקום. תספרו כמה שעות שמש ישירה המקום באמת מקבל לפני שתבחרו צמחים."
+      "a": "Yes — herbs, salad leaves, chillies, tomatoes and strawberries all do well in pots. The real constraints are sunlight hours and wind, not space. Count how many hours of direct sun the spot actually gets before choosing plants."
     },
     {
       "q": "Is a moisture meter worth buying?",
-      "a": "For a season, if you tend to overwater. After that you will have learned what a pot should weigh and feel like, and a finger pushed two inches into the compost tells you the same thing for free.",
-      "q_he": "האם שווה לקנות מד לחות?",
-      "a_he": "לעונה אחת, אם אתם נוטים להשקות יותר מדי. אחר כך תלמדו כמה עציץ אמור לשקול ואיך הוא אמור להרגיש, ואצבע שנדחפת חמישה סנטימטרים לתוך המצע אומרת לכם את אותו דבר בחינם."
+      "a": "For a season, if you tend to overwater. After that you will have learned what a pot should weigh and feel like, and a finger pushed two inches into the compost tells you the same thing for free."
     },
     {
       "q": "When is the best time to buy garden equipment?",
-      "a": "End of season, when retailers clear stock. Tools, pots and furniture are all heavily discounted, and none of it deteriorates in storage over a winter.",
-      "q_he": "מתי הזמן הכי טוב לקנות ציוד גינון?",
-      "a_he": "בסוף העונה, כשהחנויות מפנות מלאי. כלים, עציצים ורהיטים כולם בהנחות גדולות, ושום דבר מזה לא מתקלקל באחסון לאורך חורף."
+      "a": "End of season, when retailers clear stock. Tools, pots and furniture are all heavily discounted, and none of it deteriorates in storage over a winter."
     }
   ]
 }

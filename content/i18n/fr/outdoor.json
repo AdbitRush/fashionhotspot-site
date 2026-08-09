@@ -1,0 +1,173 @@
+{
+  "slug": "outdoor",
+  "title": "Matériel de camping : celui qui fonctionne par mauvais temps, pas seulement en photo",
+  "dek": "Dix articles classés en fonction de ce qui se passe lorsque la nuit est plus froide ou plus humide que prévu.",
+  "category": "Plein air",
+  "how_we_pick": "Nous classons les articles en fonction de ce qui lâche en premier lorsque les conditions se dégradent, en nous basant sur des tests de terrain publiés, les normes de température et d'imperméabilité des fabricants, et les avis d'utilisateurs sur le long terme. Nous n'avons pas personnellement utilisé chaque article sur le terrain. Lorsque le conseil honnête est de louer, d'emprunter ou d'acheter d'occasion plutôt que neuf, nous le disons clairement.",
+  "intro": [
+    "Le matériel de camping est vendu avec des photos ensoleillées, mais jugé lors des mauvaises nuits. Tout fonctionne par beau temps. Ce qui distingue le bon matériel du matériel cher, c'est sa capacité à fonctionner encore à 3 heures du matin, quand la température a chuté de dix degrés en dessous des prévisions et que la pluie est arrivée en avance.",
+    "Notre classement est donc logique : le sommeil et la chaleur d'abord, car le froid et la fatigue rendent tout le reste plus pénible et sont la principale raison pour laquelle les gens finissent par détester le camping. La cuisine et le confort viennent ensuite.",
+    "Une remarque sur la sécurité : rien de ce qui suit ne remplace le fait de dire à quelqu'un où vous allez, de consulter la météo et de faire demi-tour lorsque les conditions changent. Le matériel augmente votre marge de sécurité, il ne remplace pas votre jugement.",
+    "Les prix sont approximatifs au moment de la rédaction. Le matériel de plein air est souvent vendu avec d'importantes réductions en fin de saison."
+  ],
+  "products": [
+    {
+      "name": "Un matelas de sol isolant avec une vraie R-value",
+      "tag": "L'erreur que tout le monde fait",
+      "body": "Presque tous ceux qui ont froid la nuit accusent leur sac de couchage, alors que le problème vient presque toujours du matelas. Le sol absorbe votre chaleur corporelle bien plus vite que l'air, et un sac de couchage écrasé sous votre corps n'a quasiment plus de pouvoir isolant. Le chiffre qui compte, c'est la R-value : environ 2 pour l'été, 4 ou plus pour la mi-saison, et 5 ou plus pour l'hiver. Achetez le matelas avant de changer de sac. Un matelas en mousse épaisse est bon marché, indestructible et chaud ; un modèle gonflable est bien plus confortable mais peut se percer – emportez le kit de réparation fourni avec.",
+      "pros": [
+        "S'attaque à la vraie cause de la plupart des nuits froides",
+        "La R-value est une mesure comparable et fiable",
+        "Les versions en mousse sont bon marché et increvables"
+      ],
+      "cons": [
+        "Les modèles gonflables se percent toujours au pire moment",
+        "Les matelas à R-value élevée sont plus encombrants"
+      ]
+    },
+    {
+      "name": "Un sac de couchage conçu pour des conditions réelles",
+      "tag": "Bien lire les températures indiquées",
+      "body": "Les températures indiquées sur les sacs de couchage sont souvent mal comprises. La plupart indiquent une température de confort et une température limite ; la limite est pour la survie, pas pour le sommeil, et s'y fier, c'est l'assurance d'avoir froid toute la nuit. Basez-vous sur la température de confort et ajoutez une marge, car les prévisions météo se trompent et il fait plus froid dans les vallées que dans la ville dont vous avez consulté la météo. Le duvet est plus léger, plus compact et plus durable, mais il perd l'essentiel de son pouvoir isolant une fois mouillé et coûte plus cher. Le synthétique est plus volumineux mais reste efficace même humide, ce qui est important en climat pluvieux. Rangez-le non compressé à la maison – le laisser dans son sac de compression, c'est le meilleur moyen de tuer un bon sac de couchage.",
+      "pros": [
+        "La température de confort est le chiffre de référence",
+        "Le duvet est plus léger ; le synthétique fonctionne même humide",
+        "Un bon sac dure une décennie s'il est bien rangé"
+      ],
+      "cons": [
+        "Les températures indiquées sont souvent confondues avec la température de sommeil",
+        "Le duvet est inutile une fois vraiment mouillé"
+      ]
+    },
+    {
+      "name": "Une tente trois saisons avec un double-toit intégral",
+      "tag": "Là où le bas de gamme se voit vraiment",
+      "body": "Une tente bon marché fait l'affaire jusqu'à la première pluie soutenue, et là, la nuit devient un cauchemar. Les caractéristiques qui comptent sont un double-toit qui descend presque jusqu'au sol (plutôt qu'une simple coiffe), des coutures étanches ou thermosoudées, et un tapis de sol en forme de cuvette dont les bords remontent pour que l'eau ne s'infiltre pas par les coutures. Les arceaux sont l'autre point faible : l'aluminium se plie et peut être réparé avec une attelle, la fibre de verre se brise et est irréparable. Entraînez-vous à la monter une fois dans votre jardin. Découvrir sa tente pour la première fois dans le noir et sous la pluie est une expérience vraiment horrible.",
+      "pros": [
+        "Le double-toit intégral et les coutures étanches protègent de la pluie",
+        "Le tapis de sol en cuvette empêche l'eau de s'infiltrer",
+        "Les arceaux en aluminium peuvent être réparés sur le terrain"
+      ],
+      "cons": [
+        "Les arceaux en fibre de verre se brisent et ruinent l'expédition",
+        "Les tentes bas de gamme lâchent précisément quand on en a besoin"
+      ]
+    },
+    {
+      "name": "Une lampe frontale avec un mode rouge",
+      "tag": "L'essentiel le moins cher",
+      "body": "Avoir les mains libres pour s'éclairer n'est pas un luxe en extérieur, c'est ce qui permet de cuisiner, de monter sa tente et de s'orienter la nuit sans tenir une lampe torche entre les dents. Deux caractéristiques sont indispensables. Un mode rouge préserve votre vision nocturne et n'éblouit pas tous ceux que vous regardez, ce qui est important quand on campe à plusieurs. Et un indice de résistance à l'eau d'au moins IPX4, car une frontale qui rend l'âme sous la bruine est pire que pas de plan du tout. Le rechargeable est pratique ; un modèle qui accepte aussi des piles standard est préférable pour les longs voyages où vous ne pouvez rien recharger.",
+      "pros": [
+        "Le mode rouge préserve votre vision nocturne et celle des autres",
+        "La résistance à l'eau est non négociable en extérieur",
+        "Bon marché, légère, et utile à chaque sortie"
+      ],
+      "cons": [
+        "Le tout-rechargeable est un handicap lors des longs voyages",
+        "Les modèles bas de gamme surestiment leur luminosité"
+      ]
+    },
+    {
+      "name": "Une vraie veste imperméable avec des coutures étanches",
+      "tag": "« Déperlant » n'est pas « imperméable »",
+      "body": "« Déperlant » et « imperméable » sont deux choses différentes, et seule l'une des deux vous gardera au sec lors d'une averse de deux heures. Cherchez des coutures étanches et un indice Schmerber (ou « colonne d'eau »), qui mesure la pression d'eau que le tissu peut supporter avant de fuir. Une capuche qui s'ajuste et tourne avec votre tête fait toute la différence entre une veste pratique et une veste exaspérante. La respirabilité compte autant que l'imperméabilité, car transpirer dans une coquille étanche vous mouille tout autant. Réimperméabilisez-la une fois par saison : les vestes qui ne fonctionnent plus ont souvent juste besoin que leur revêtement extérieur soit restauré, pas d'être remplacées.",
+      "pros": [
+        "Les coutures étanches et l'indice Schmerber sont mesurables",
+        "Une capuche bien ajustée transforme l'expérience",
+        "Une réimperméabilisation peut ressusciter une veste qu'on croyait finie"
+      ],
+      "cons": [
+        "La respirabilité et l'imperméabilité sont souvent compromises l'une par l'autre",
+        "Nécessite une réimperméabilisation saisonnière pour rester efficace"
+      ]
+    },
+    {
+      "name": "Un réchaud à cartouche et une casserole",
+      "tag": "La solution la plus simple qui fonctionne",
+      "body": "Pour la plupart des sorties camping, un réchaud à cartouche vissable est la bonne solution : il s'allume instantanément, permet de mijoter, se range dans le creux de la main et ne nécessite aucun préchauffage. Les systèmes intégrés font bouillir l'eau plus vite et protègent la flamme du vent, ce qui est plus important que la puissance brute – c'est le vent qui empêche l'eau de bouillir. Deux points de sécurité non négociables. N'utilisez jamais un réchaud dans une tente ou une abside fermée, car le monoxyde de carbone est inodore et a déjà tué des campeurs dans ces circonstances précises. De plus, le gaz en cartouche fonctionne mal près du point de congélation, donc pour les sorties par temps froid, préférez un réchaud à combustible liquide.",
+      "pros": [
+        "Instantané, permet de mijoter, ultra-compact",
+        "Les systèmes intégrés résistent bien au vent",
+        "Les cartouches de gaz sont faciles à trouver"
+      ],
+      "cons": [
+        "Jamais sûr à utiliser dans une tente – risque de CO",
+        "Performances médiocres près du point de congélation"
+      ]
+    },
+    {
+      "name": "Un filtre à eau ou un purificateur",
+      "tag": "À choisir en fonction du risque réel",
+      "body": "Transporter toute son eau est lourd et limite vos déplacements ; un filtre lève cette contrainte. Mais comprenez bien ce que vous achetez. Un filtre à fibres creuses de 0,1 micron élimine les bactéries et les protozoaires, ce qui suffit pour la plupart des régions sauvages tempérées. Il n'élimine pas les virus, qui sont un problème dans les zones contaminées en amont par l'homme ou le bétail – là, il vous faut un purificateur, un traitement chimique ou faire bouillir l'eau. Le gel détruit les filtres, car la glace fissure les fibres de manière invisible, donc dormez avec dans votre sac de couchage par nuits froides. Rincez-le à contre-courant régulièrement, sinon le débit s'effondre.",
+      "pros": [
+        "Évite d'avoir à transporter toute son eau",
+        "Les filtres à fibres creuses sont légers et rapides",
+        "Bon marché par rapport à la liberté qu'il offre"
+      ],
+      "cons": [
+        "Les filtres standard n'éliminent pas les virus",
+        "Un seul coup de gel détruit l'élément filtrant de manière invisible"
+      ]
+    },
+    {
+      "name": "Une batterie externe et une carte papier",
+      "tag": "Deux réponses à un seul problème",
+      "body": "La navigation par téléphone est excellente, jusqu'au moment où la batterie lâche. Et le froid vide une batterie bien plus vite que ne le suggère le pourcentage affiché. Une batterie externe pare à ce problème, et garder le téléphone au chaud dans une poche intérieure de veste plutôt qu'extérieure est presque aussi efficace. Mais emportez une carte papier et sachez à peu près la lire, car une batterie externe peut aussi tomber en panne, et un téléphone qui tombe dans une flaque d'eau est instantanément hors service. C'est le seul article de cette liste qui est volontairement redondant, et c'est tout l'intérêt : le coût d'une erreur ici est bien plus élevé que le poids du matériel.",
+      "pros": [
+        "Prévient la principale défaillance de la navigation par téléphone",
+        "Une carte papier n'est jamais à court de batterie",
+        "Les deux ensemble pèsent très peu"
+      ],
+      "cons": [
+        "Le froid vide les batteries plus vite que prévu",
+        "Une carte n'est utile que si on sait la lire"
+      ]
+    },
+    {
+      "name": "Une trousse de premiers secours avec de quoi soigner les ampoules",
+      "tag": "Les ampoules gâchent plus de sorties que les blessures",
+      "body": "Les blessures graves sont rares. Les ampoules, elles, sont quasi universelles et ce sont elles qui transforment une belle randonnée en un retour boitillant à la voiture. Emportez des pansements pour ampoules et du ruban adhésif, et utilisez-les dès le premier signe d'échauffement plutôt qu'une fois la peau partie – le timing est la clé. Pour le reste, la trousse doit être adaptée à la durée de votre voyage et à votre éloignement des secours : une marche d'une journée près d'une route ne nécessite que très peu de choses, un voyage de plusieurs jours en autonomie demande une vraie réflexion. Une formation aux premiers secours en milieu sauvage vaut bien plus que n'importe quelle trousse que vous pourriez acheter, si vous sortez souvent.",
+      "pros": [
+        "Soigner les ampoules évite la cause la plus fréquente d'abandon",
+        "Léger pour les problèmes que ça résout",
+        "Oblige à réfléchir à son éloignement des secours"
+      ],
+      "cons": [
+        "Une trousse ne remplace pas une formation",
+        "Le contenu périme – à vérifier entre les saisons"
+      ]
+    },
+    {
+      "name": "Un sac à dos confortable et vraiment à sa taille",
+      "tag": "L'ajustement avant la marque",
+      "body": "Le sac à dos est l'article pour lequel l'ajustement compte plus que toute liste de caractéristiques, car un sac bon marché bien ajusté est plus agréable à porter qu'un sac cher mal ajusté. La mesure qui compte est la longueur de votre torse, pas votre taille, et la plupart des bons sacs existent en plusieurs tailles ou ont un harnais réglable. La ceinture de hanches devrait porter environ 80 % du poids sur vos hanches, les bretelles ne servant qu'à stabiliser. Allez dans un magasin pour le faire charger et ajuster si vous le pouvez – c'est le seul article de cette page pour lequel un achat en ligne à l'aveugle tourne le plus souvent mal.",
+      "pros": [
+        "Un bon ajustement est plus performant qu'un mauvais, même sur un sac cher",
+        "La ceinture de hanches doit porter l'essentiel de la charge",
+        "Un bon sac dure de nombreuses années"
+      ],
+      "cons": [
+        "La taille dépend de la longueur du torse, pas de la hauteur",
+        "Le pire article à acheter en ligne sans l'essayer"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Pourquoi ai-je eu froid même avec un bon sac de couchage ?",
+      "a": "C'est presque certainement à cause du matelas de sol. Votre corps écrase l'isolant sous vous, qui devient inefficace, et le sol absorbe directement votre chaleur. Vérifiez la R-value de votre matelas avant de dépenser de l'argent dans un sac plus chaud."
+    },
+    {
+      "q": "Duvet ou synthétique ?",
+      "a": "Duvet si vous cherchez la légèreté et la compacité et que vous pouvez le garder au sec. Synthétique si vous campez en climat humide ou si vous n'êtes pas sûr de pouvoir le protéger, car le synthétique isole même humide, contrairement au duvet."
+    },
+    {
+      "q": "Par quoi commencer ?",
+      "a": "Matelas, sac de couchage, tente, dans cet ordre, puis une lampe frontale. Ces quatre éléments déterminent si vous allez dormir. Tout le reste peut être emprunté, improvisé ou acheté plus tard, une fois que vous êtes sûr d'aimer ça."
+    },
+    {
+      "q": "Peut-on cuisiner dans l'abside de la tente s'il pleut ?",
+      "a": "Non. Le monoxyde de carbone d'un réchaud est inodore et a déjà tué des gens qui s'abritaient précisément de la pluie. Cuisinez dehors sous une bâche, ou attendez. C'est la seule règle de cette page qui ne souffre aucune exception."
+    }
+  ]
+}

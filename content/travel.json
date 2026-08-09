@@ -2,9 +2,7 @@
   "slug": "travel",
   "category": "Travel",
   "title": "Travel Gear That Earns Its Weight",
-  "title_he": "ציוד נסיעות שמצדיק את המשקל שלו",
   "dek": "Everything in a bag costs you something to carry. These ten pay that back — and we name the popular items that do not.",
-  "dek_he": "כל דבר בתיק עולה לכם משהו לסחוב. העשרה האלה מחזירים את ההשקעה — ואנחנו נוקבים בשמם של הפריטים הפופולריים שלא.",
   "hero_image": "an open carry-on suitcase on a hotel bed with neatly packed clothes, a passport, headphones and a power bank arranged beside it",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -13,169 +11,195 @@
     "The items below survive it. Several are boring. A couple are things you already own in a worse version, and one of them is a plastic bag, which we are aware is not an exciting recommendation but happens to be correct.",
     "Prices are approximate at the time of writing, and luggage in particular is discounted heavily and often — paying full price for a suitcase is close to a mistake."
   ],
-  "intro_he": [
-    "לכל פריט שאתם אורזים יש עלות סחיבה, שמשולמת במשקל, במקום בתיק, ובמס הקטן של עוד דבר אחד לעקוב אחריו. רוב גאדג'טי הנסיעות נכשלים במבחן הזה — הם פותרים בעיה שאתם פוגשים פעם בשנה, ואתם סוחבים אותם את חמישים ואחד השבועות הנותרים.",
-    "הפריטים למטה שורדים אותו. כמה מהם משעממים. שניים מהם דברים שכבר יש לכם בגרסה גרועה יותר, ואחד מהם הוא שקית ניילון, ואנחנו מודעים לכך שזו לא המלצה מרגשת אבל היא במקרה נכונה.",
-    "המחירים הם הערכה נכון לזמן הכתיבה, ומזוודות במיוחד יורדות במחיר חזק ולעיתים קרובות — לשלם מחיר מלא על מזוודה זו כמעט טעות."
-  ],
   "how_we_pick": "We judge travel gear on weight, durability under airline handling, and how many trips a year it actually earns a place on. We rely on published testing, long-run owner reports and airline rules current at the time of writing, and we have not personally travelled with every item here. Where the popular choice is the wrong one, we say so and explain the trade-off rather than quietly leaving it off the list.",
-  "how_we_pick_he": "אנחנו שופטים ציוד נסיעות לפי משקל, עמידות מול טיפול של חברות תעופה, ולפי כמה נסיעות בשנה הוא באמת מצדיק מקום. אנחנו נשענים על בדיקות שפורסמו, על דיווחים של בעלים לאורך זמן ועל תקנות תעופה נכון לזמן הכתיבה, ולא נסענו בעצמנו עם כל פריט כאן. איפה שהבחירה הפופולרית היא הלא נכונה, נגיד את זה ונסביר את ההתלבטות במקום להשמיט אותה בשקט מהרשימה.",
   "products": [
     {
       "name": "Packing cubes",
-      "name_he": "קוביות אריזה",
       "tag": "Changes how packing works",
-      "tag_he": "משנה את כל שיטת האריזה",
       "price": "$25–50 for a set",
       "search": "packing cubes set compression travel",
       "image": "a set of fabric packing cubes in muted colours, one open showing folded clothes, on a bed",
       "body": "Cubes do not really save space — the compression ones save a little, and the rest mostly just contain things. What they change is the experience of living out of a bag. Your clothes stay sorted for the whole trip instead of collapsing into a pile after the first morning, you can find one shirt without unpacking everything, and repacking takes two minutes rather than twenty. On a multi-stop trip that difference is enormous. Buy a small number of larger cubes rather than many small ones, and use one as the dirty laundry bag.",
-      "body_he": "קוביות לא באמת חוסכות מקום — אלה עם הדחיסה חוסכות קצת, והשאר בעיקר פשוט מכילות דברים. מה שהן משנות זו החוויה של לחיות מתוך תיק. הבגדים שלכם נשארים ממוינים לאורך כל הטיול במקום לקרוס לערימה כבר אחרי הבוקר הראשון, אתם מוצאים חולצה אחת בלי לפרוק הכול, ואריזה מחדש לוקחת שתי דקות במקום עשרים. בטיול עם כמה תחנות ההבדל הזה עצום. קנו מספר קטן של קוביות גדולות ולא הרבה קטנות, והשתמשו באחת כשקית לכביסה מלוכלכת.",
-      "pros": ["Keeps a bag organised across a whole trip", "Repacking becomes a two-minute job", "One cube doubles as a laundry bag"],
-      "cons": ["Space saving is smaller than advertised", "Adds a little weight of its own"]
+      "pros": [
+        "Keeps a bag organised across a whole trip",
+        "Repacking becomes a two-minute job",
+        "One cube doubles as a laundry bag"
+      ],
+      "cons": [
+        "Space saving is smaller than advertised",
+        "Adds a little weight of its own"
+      ]
     },
     {
       "name": "A 40L carry-on backpack or soft-sided cabin bag",
-      "name_he": "תיק גב 40 ליטר או תיק עלייה למטוס רך",
       "tag": "The bag that skips baggage claim",
-      "tag_he": "התיק שמדלג על מסוע המזוודות",
       "price": "$100–250",
       "search": "40L carry on travel backpack clamshell",
       "image": "a structured grey travel backpack standing upright against a wall beside a doorway",
       "body": "Travelling carry-on only removes the two worst parts of flying: waiting at the carousel and the possibility your bag went to a different country. A 40L clamshell bag that opens flat like a suitcase is the format to look for, because top-loading rucksacks make you unpack everything to reach the bottom. Check your airline's dimensions before buying, and check them again for budget carriers, which have both smaller limits and far more enthusiasm for enforcing them. The trade-off is honest: you will carry the weight on your back rather than rolling it.",
-      "body_he": "נסיעה עם תיק יד בלבד מסלקת את שני החלקים הגרועים ביותר בטיסה: ההמתנה במסוע והאפשרות שהתיק שלכם נסע למדינה אחרת. תיק 40 ליטר שנפתח שטוח כמו מזוודה הוא הפורמט שכדאי לחפש, כי תרמילים שנטענים מלמעלה מכריחים אתכם לפרוק הכול כדי להגיע לתחתית. בדקו את המידות של חברת התעופה שלכם לפני הקנייה, ובדקו שוב אצל חברות לואו קוסט, שגם המגבלות שלהן קטנות יותר וגם ההתלהבות שלהן לאכוף אותן גדולה בהרבה. ההתלבטות כנה: תסחבו את המשקל על הגב במקום לגלגל אותו.",
-      "pros": ["No baggage claim, no lost luggage", "Clamshell opening works like a suitcase", "Fits budget-airline limits if sized correctly"],
-      "cons": ["You carry the weight rather than roll it", "Cabin size limits vary by airline — verify first"]
+      "pros": [
+        "No baggage claim, no lost luggage",
+        "Clamshell opening works like a suitcase",
+        "Fits budget-airline limits if sized correctly"
+      ],
+      "cons": [
+        "You carry the weight rather than roll it",
+        "Cabin size limits vary by airline — verify first"
+      ]
     },
     {
       "name": "A universal travel adapter with USB-C PD",
-      "name_he": "מתאם חשמל אוניברסלי עם USB-C PD",
       "tag": "Buy one good one, not three cheap ones",
-      "tag_he": "קנו אחד טוב, לא שלושה זולים",
       "price": "$30–60",
       "search": "universal travel adapter USB-C power delivery",
       "image": "a white universal travel adapter with multiple ports on a hotel desk beside a passport",
       "body": "The cheap adapters sold at airports are the ones that get warm, lose contact when you nudge the cable, and occasionally fail in ways you would rather not think about while asleep in a hotel room. A good one has proper fusing, holds a plug firmly, and — the part that actually matters now — includes USB-C power delivery at 30W or more, so it charges a laptop directly and replaces a second charger entirely. Note that almost none of these convert voltage; they change the plug shape only. Check your hairdryer or shaver is dual voltage before you rely on one.",
-      "body_he": "המתאמים הזולים שנמכרים בשדות תעופה הם אלה שמתחממים, מאבדים מגע כשנוגעים בכבל, ומדי פעם כושלים בדרכים שעדיף לא לחשוב עליהן בזמן שינה בחדר מלון. אחד טוב כולל נתיכים כמו שצריך, מחזיק תקע בחוזקה, ו — החלק שבאמת חשוב היום — כולל הזנת חשמל USB-C של 30 ואט ומעלה, כך שהוא טוען מחשב נייד ישירות ומחליף מטען שני לגמרי. שימו לב שכמעט אף אחד מהם לא ממיר מתח; הם משנים רק את צורת התקע. בדקו שהמייבש שיער או מכונת הגילוח שלכם דו-מתחיים לפני שאתם סומכים על אחד כזה.",
-      "pros": ["Replaces your laptop charger as well", "Safe fusing and a firm plug grip", "One item covers most of the world"],
-      "cons": ["Does not convert voltage, only the plug shape", "Bulky in a small day bag"]
+      "pros": [
+        "Replaces your laptop charger as well",
+        "Safe fusing and a firm plug grip",
+        "One item covers most of the world"
+      ],
+      "cons": [
+        "Does not convert voltage, only the plug shape",
+        "Bulky in a small day bag"
+      ]
     },
     {
       "name": "Noise cancelling earbuds",
-      "name_he": "אוזניות אלחוטיות עם ביטול רעשים",
       "tag": "Best for long flights",
-      "tag_he": "הכי טוב לטיסות ארוכות",
       "price": "$120–300",
       "search": "noise cancelling wireless earbuds travel",
       "image": "a small pair of wireless earbuds in an open charging case on a folded jumper",
       "body": "On a long flight, cancelling the engine drone is the difference between arriving tired and arriving wrecked, because the constant low-frequency noise is genuinely fatiguing even when you are not conscious of it. Earbuds win over full-size headphones for travel specifically: they fit in a pocket, they work lying sideways against an aeroplane seat, and there is no headband fighting a neck pillow. Over-ears cancel slightly better and have longer battery, so if flights are the main use and you sleep upright, they are the reasonable alternative. Take a wired backup for older in-flight entertainment systems.",
-      "body_he": "בטיסה ארוכה, ביטול זמזום המנועים הוא ההבדל בין להגיע עייפים לבין להגיע הרוסים, כי הרעש הנמוך והמתמיד באמת מתיש גם כשלא שמים לב אליו. אוזניות פנימיות מנצחות אוזניות מלאות דווקא לנסיעות: הן נכנסות לכיס, הן עובדות כששוכבים על הצד מול מושב במטוס, ואין קשת שנלחמת בכרית צוואר. אוזניות מלאות מבטלות קצת יותר טוב ויש להן סוללה ארוכה יותר, אז אם טיסות הן השימוש העיקרי ואתם ישנים בישיבה זקופה, הן החלופה ההגיונית. קחו גיבוי חוטי למערכות בידור ישנות במטוס.",
-      "pros": ["Cuts the fatigue of engine noise", "Pocketable, and work lying on your side", "No conflict with a neck pillow"],
-      "cons": ["Less cancellation and battery than over-ears", "Easy to lose one — they are very small"]
+      "pros": [
+        "Cuts the fatigue of engine noise",
+        "Pocketable, and work lying on your side",
+        "No conflict with a neck pillow"
+      ],
+      "cons": [
+        "Less cancellation and battery than over-ears",
+        "Easy to lose one — they are very small"
+      ]
     },
     {
       "name": "A slim power bank under 100Wh",
-      "name_he": "סוללת גיבוי דקה מתחת ל-100 ואט שעה",
       "tag": "Check the airline rule",
-      "tag_he": "בדקו את תקנת חברת התעופה",
       "price": "$30–60",
       "search": "slim 10000mAh power bank USB-C airline safe",
       "image": "a slim black power bank the size of a phone lying on a boarding pass and passport",
       "body": "A 10,000mAh bank is the practical sweet spot for travel: roughly two phone charges, thin enough to hold together with your phone, and comfortably inside the limits airlines set. The rule to know is that lithium batteries must travel in your cabin bag, never in checked luggage, and anything above 100Wh generally needs airline approval. Almost all 10,000mAh banks are around 37Wh, so they are fine, but a large laptop bank may not be. Several airlines have also tightened rules on using or charging them in flight — check your carrier before you travel.",
-      "body_he": "סוללה של 10,000 מיליאמפר-שעה היא נקודת האיזון המעשית לנסיעות: בערך שתי טעינות טלפון, דקה מספיק כדי להחזיק ביחד עם הטלפון, ובנוחות בתוך המגבלות שחברות התעופה קובעות. הכלל שחשוב לדעת הוא שסוללות ליתיום חייבות לנסוע בתיק היד ולעולם לא במזוודה שנשלחת לבטן המטוס, וכל דבר מעל 100 ואט שעה בדרך כלל דורש אישור מחברת התעופה. כמעט כל הסוללות של 10,000 מיליאמפר-שעה הן סביב 37 ואט שעה, אז הן בסדר, אבל סוללה גדולה למחשב נייד עשויה לא להיות. כמה חברות תעופה גם הידקו כללים לגבי שימוש או טעינה במהלך הטיסה — בדקו מול המוביל שלכם לפני הנסיעה.",
-      "pros": ["About two phone charges in a pocketable size", "Comfortably within airline limits", "Cheap and widely available"],
-      "cons": ["Must go in cabin baggage, never checked", "In-flight use rules are tightening — check first"]
+      "pros": [
+        "About two phone charges in a pocketable size",
+        "Comfortably within airline limits",
+        "Cheap and widely available"
+      ],
+      "cons": [
+        "Must go in cabin baggage, never checked",
+        "In-flight use rules are tightening — check first"
+      ]
     },
     {
       "name": "A refillable water bottle that folds or packs flat",
-      "name_he": "בקבוק מים רב-פעמי שמתקפל או נארז שטוח",
       "tag": "Pays for itself in a week",
-      "tag_he": "מחזיר את עצמו תוך שבוע",
       "price": "$20–40",
       "search": "collapsible travel water bottle BPA free",
       "image": "a soft collapsible water bottle partly rolled up on a wooden table beside a map",
       "body": "Airport water prices are the clearest illustration of a captive market there is, and a bottle you take through security empty and fill on the other side sidesteps it entirely on every trip you ever take. A collapsible one solves the objection that a rigid bottle takes up bag space when empty — it rolls to the size of a fist. The genuine caveats: tap water is not safe to drink everywhere, so check your destination rather than assuming, and soft bottles are harder to clean properly, which matters if you put anything but water in them.",
-      "body_he": "מחירי המים בשדות תעופה הם ההמחשה הברורה ביותר לשוק שבוי שקיימת, ובקבוק שאתם מעבירים בביקורת ריק וממלאים בצד השני עוקף את זה לגמרי בכל טיול שתעשו אי פעם. בקבוק מתקפל פותר את ההתנגדות שבקבוק קשיח תופס מקום בתיק כשהוא ריק — הוא מתגלגל לגודל של אגרוף. ההסתייגויות האמיתיות: מי ברז אינם בטוחים לשתייה בכל מקום, אז בדקו את היעד שלכם במקום להניח, ובקבוקים רכים קשים יותר לניקוי יסודי, וזה משנה אם אתם שמים בהם משהו מלבד מים.",
-      "pros": ["Sidesteps airport water pricing entirely", "Rolls down to fist size when empty", "Cheap, and useful on every single trip"],
-      "cons": ["Tap water is not drinkable everywhere", "Soft bottles are harder to clean thoroughly"]
+      "pros": [
+        "Sidesteps airport water pricing entirely",
+        "Rolls down to fist size when empty",
+        "Cheap, and useful on every single trip"
+      ],
+      "cons": [
+        "Tap water is not drinkable everywhere",
+        "Soft bottles are harder to clean thoroughly"
+      ]
     },
     {
       "name": "A compact first aid and medication kit",
-      "name_he": "ערכת עזרה ראשונה ותרופות קומפקטית",
       "tag": "The one you hope stays unused",
-      "tag_he": "זו שאתם מקווים שתישאר סגורה",
       "price": "$20–45",
       "search": "compact travel first aid kit",
       "image": "a small red zip pouch open to show plasters, tape and small medical supplies on a table",
       "body": "Buying paracetamol at 2am in a country where you do not speak the language and the packaging is unfamiliar is a genuinely miserable experience, and it is entirely avoidable with a pouch that weighs two hundred grams. Blister plasters alone justify the whole thing on any trip involving walking. Keep prescription medication in its original labelled packaging and carry it in your cabin bag, and check the rules for your destination before you travel — some common medicines, including certain painkillers and cold remedies, are restricted or banned in particular countries.",
-      "body_he": "לקנות אקמול בשתיים בלילה במדינה שאתם לא דוברים את שפתה והאריזות לא מוכרות זו חוויה עלובה באמת, והיא נמנעת לגמרי עם פאוץ' ששוקל מאתיים גרם. פלסטרים לשלפוחיות לבדם מצדיקים את כל העניין בכל טיול שכולל הליכה. שמרו תרופות מרשם באריזה המקורית עם התווית ותשאו אותן בתיק היד, ובדקו את הכללים ביעד שלכם לפני הנסיעה — תרופות נפוצות מסוימות, כולל משככי כאבים ותרופות הצטננות מסוימות, מוגבלות או אסורות במדינות מסוימות.",
-      "pros": ["Blister plasters alone justify carrying it", "Avoids navigating a foreign pharmacy at night", "Very light for what it covers"],
-      "cons": ["Some medicines are restricted in some countries", "Needs checking and restocking between trips"]
+      "pros": [
+        "Blister plasters alone justify carrying it",
+        "Avoids navigating a foreign pharmacy at night",
+        "Very light for what it covers"
+      ],
+      "cons": [
+        "Some medicines are restricted in some countries",
+        "Needs checking and restocking between trips"
+      ]
     },
     {
       "name": "A dry bag or heavy-duty plastic bag",
-      "name_he": "שק אטום למים או שקית פלסטיק חזקה",
       "tag": "Cheapest insurance you can pack",
-      "tag_he": "הביטוח הזול ביותר שאפשר לארוז",
       "price": "$0–20",
       "search": "waterproof dry bag 10L roll top",
       "image": "a rolled waterproof dry bag in muted green resting on a wooden dock",
       "body": "We are aware this is not a thrilling recommendation. It is on the list because a single leaking bottle of shampoo, one unexpected downpour, or one boat transfer with spray coming over the side can ruin electronics, documents and every item of clothing you brought. A roll-top dry bag weighs almost nothing and removes that entire category of trip-wrecking event. A sturdy zip-lock bag does eighty percent of the same job for nothing at all, which is why the price starts at zero and we would not think less of you for taking that option.",
-      "body_he": "אנחנו מודעים לכך שזו לא המלצה מרגשת. היא ברשימה כי בקבוק שמפו אחד שדולף, ממטר בלתי צפוי אחד, או הסעה אחת בסירה עם רסס שנכנס מהצד יכולים להרוס אלקטרוניקה, מסמכים וכל פריט לבוש שהבאתם. שק אטום עם סגירת גלילה שוקל כמעט כלום ומסלק את כל קטגוריית האירועים שהורסים טיול. שקית זיפ-לוק חזקה עושה שמונים אחוז מאותה עבודה בחינם לגמרי, ובגלל זה המחיר מתחיל באפס ולא נחשוב עליכם פחות טוב אם תבחרו באופציה הזאת.",
-      "pros": ["Protects documents and electronics completely", "Weighs almost nothing", "The free version works nearly as well"],
-      "cons": ["Genuinely boring", "Roll-top closures need doing properly to seal"]
+      "pros": [
+        "Protects documents and electronics completely",
+        "Weighs almost nothing",
+        "The free version works nearly as well"
+      ],
+      "cons": [
+        "Genuinely boring",
+        "Roll-top closures need doing properly to seal"
+      ]
     },
     {
       "name": "A neck pillow — the right kind",
-      "name_he": "כרית צוואר — מהסוג הנכון",
       "tag": "Most get this wrong",
-      "tag_he": "רוב האנשים טועים בזה",
       "price": "$30–70",
       "search": "travel neck pillow memory foam support",
       "image": "a grey memory foam travel neck pillow resting on the back of an armchair",
       "body": "The inflatable horseshoe sold at every airport is close to useless, because the problem on a plane is not your head falling backwards — the seat already stops that. It is your head falling sideways. So the pillows that work are the firm ones that fill the gap between your shoulder and your jaw, or the wrap-around designs that support the chin. Memory foam is bulkier to carry than inflatable, and that is the real trade-off. If you only fly short-haul, skip this entirely and put a folded jumper against the window instead.",
-      "body_he": "הכרית המתנפחת בצורת פרסה שנמכרת בכל שדה תעופה כמעט חסרת תועלת, כי הבעיה במטוס היא לא שהראש נופל אחורה — המושב כבר מונע את זה. הבעיה היא שהראש נופל הצידה. לכן הכריות שעובדות הן הקשיחות שממלאות את הרווח בין הכתף ללסת, או דגמי העטיפה שתומכים בסנטר. קצף זיכרון מגושם יותר לסחיבה ממתנפחת, וזו ההתלבטות האמיתית. אם אתם טסים רק טיסות קצרות, ותרו על זה לגמרי ושימו סוודר מקופל מול החלון במקום.",
-      "pros": ["The right design genuinely helps you sleep upright", "Firm foam supports sideways head fall", "Useful on trains and coaches too"],
-      "cons": ["The common inflatable horseshoe barely works", "Bulky to carry for what it does"]
+      "pros": [
+        "The right design genuinely helps you sleep upright",
+        "Firm foam supports sideways head fall",
+        "Useful on trains and coaches too"
+      ],
+      "cons": [
+        "The common inflatable horseshoe barely works",
+        "Bulky to carry for what it does"
+      ]
     },
     {
       "name": "An eSIM instead of roaming",
-      "name_he": "eSIM במקום נדידה",
       "tag": "Biggest money saved on this page",
-      "tag_he": "החיסכון הכספי הגדול ביותר בעמוד",
       "price": "$5–25 per trip",
       "search": "travel eSIM data plan international",
       "image": "a smartphone on a cafe table showing a map, beside a coffee and a folded paper map",
       "body": "This is not a physical product, which is exactly why it belongs here — it replaces the fiddly business of buying a local SIM on arrival and the far worse business of paying your home carrier's roaming rates. You buy a data plan online before you fly, install it in about two minutes, and land connected. Two things to verify first: that your phone actually supports eSIM, which most models from the last few years do, and that it is not carrier-locked. Keep your normal SIM active for calls and messages, and run the eSIM for data only.",
-      "body_he": "זה לא מוצר פיזי, ובדיוק בגלל זה הוא שייך לכאן — הוא מחליף את ההתעסקות בקניית סים מקומי עם הנחיתה, ואת העסק הגרוע בהרבה של תשלום תעריפי נדידה למפעיל הביתי שלכם. אתם קונים חבילת גלישה אונליין לפני הטיסה, מתקינים תוך שתי דקות בערך, ונוחתים מחוברים. שני דברים לוודא קודם: שהטלפון שלכם באמת תומך ב-eSIM, ורוב הדגמים מהשנים האחרונות תומכים, ושהוא לא נעול לרשת. השאירו את הסים הרגיל פעיל לשיחות והודעות, והפעילו את ה-eSIM לגלישה בלבד.",
-      "pros": ["A fraction of roaming charges", "Connected the moment you land", "Nothing physical to carry or lose"],
-      "cons": ["Needs an eSIM-capable, unlocked phone", "Data only — you keep your normal number for calls"]
+      "pros": [
+        "A fraction of roaming charges",
+        "Connected the moment you land",
+        "Nothing physical to carry or lose"
+      ],
+      "cons": [
+        "Needs an eSIM-capable, unlocked phone",
+        "Data only — you keep your normal number for calls"
+      ]
     }
   ],
   "faq": [
     {
       "q": "What is the most overrated travel product?",
-      "a": "The inflatable horseshoe neck pillow, followed by luggage scales and travel-sized versions of things you could simply decant into a small bottle. All three are bought far more often than they are used.",
-      "q_he": "מהו מוצר הנסיעות הכי מוערך יתר על המידה?",
-      "a_he": "כרית הצוואר המתנפחת בצורת פרסה, ואחריה משקלי מזוודות וגרסאות מוקטנות של דברים שאפשר פשוט להעביר לבקבוקון קטן. שלושתם נקנים הרבה יותר ממה שמשתמשים בהם."
+      "a": "The inflatable horseshoe neck pillow, followed by luggage scales and travel-sized versions of things you could simply decant into a small bottle. All three are bought far more often than they are used."
     },
     {
       "q": "Can I take a power bank on a plane?",
-      "a": "In your cabin bag, yes, and never in checked luggage. Under 100Wh is generally fine without approval, which covers virtually all phone-sized banks. Some airlines now restrict using or charging them mid-flight, so check your carrier.",
-      "q_he": "אפשר לקחת סוללת גיבוי למטוס?",
-      "a_he": "בתיק היד כן, ולעולם לא במזוודה שנשלחת לבטן המטוס. מתחת ל-100 ואט שעה בדרך כלל בסדר בלי אישור, וזה מכסה כמעט כל סוללה בגודל טלפון. חלק מחברות התעופה מגבילות היום שימוש או טעינה תוך כדי טיסה, אז בדקו מול המוביל שלכם."
+      "a": "In your cabin bag, yes, and never in checked luggage. Under 100Wh is generally fine without approval, which covers virtually all phone-sized banks. Some airlines now restrict using or charging them mid-flight, so check your carrier."
     },
     {
       "q": "Are compression packing cubes better than regular ones?",
-      "a": "For bulky soft items like jumpers and jackets, yes, noticeably. For shirts and trousers the gain is small and they crease more, so a mixed set is usually the best answer.",
-      "q_he": "האם קוביות אריזה עם דחיסה עדיפות על רגילות?",
-      "a_he": "לפריטים רכים ונפוחים כמו סוודרים וג'קטים, כן, בהחלט. לחולצות ומכנסיים הרווח קטן והם מתקמטים יותר, אז סט מעורב הוא בדרך כלל התשובה הטובה ביותר."
+      "a": "For bulky soft items like jumpers and jackets, yes, noticeably. For shirts and trousers the gain is small and they crease more, so a mixed set is usually the best answer."
     },
     {
       "q": "Carry-on only, or check a bag?",
-      "a": "Carry-on only for trips up to about ten days if you are willing to do laundry once. Check a bag for winter travel, for anything involving specialist equipment, or when the fee is small and you would rather not think about it.",
-      "q_he": "רק תיק יד או לשלוח מזוודה?",
-      "a_he": "רק תיק יד לטיולים של עד עשרה ימים בערך אם אתם מוכנים לכבס פעם אחת. שלחו מזוודה לנסיעות חורף, לכל דבר שכולל ציוד מיוחד, או כשהאגרה קטנה ואתם מעדיפים פשוט לא לחשוב על זה."
+      "a": "Carry-on only for trips up to about ten days if you are willing to do laundry once. Check a bag for winter travel, for anything involving specialist equipment, or when the fee is small and you would rather not think about it."
     }
   ]
 }

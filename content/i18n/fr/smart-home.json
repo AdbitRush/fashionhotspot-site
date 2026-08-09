@@ -1,0 +1,173 @@
+{
+  "slug": "smart-home",
+  "title": "Les appareils de domotique qui valent vraiment la peine d'être installés",
+  "dek": "La plupart des appareils de domotique résolvent des problèmes que vous n'aviez pas. Ces dix-là en résolvent de vrais — et nous vous disons clairement lesquels nous laisserions de côté.",
+  "category": "Maison connectée",
+  "how_we_pick": "Nous privilégions les appareils compatibles Matter ou Thread plutôt que ceux qui sont verrouillés sur le cloud d'une seule marque, car l'arrêt des services cloud est la principale cause de fin de vie des équipements de domotique. Nous accordons beaucoup d'importance aux retours d'expérience des propriétaires sur le long terme et à l'historique du support technique des fabricants. Nous n'avons pas personnellement installé tous les produits présentés ici, et lorsqu'une catégorie ne vaut pas encore vraiment l'investissement, nous l'omettons et expliquons pourquoi dans les questions à la fin.",
+  "intro": [
+    "La maison connectée a un problème de crédibilité, et elle l'a bien mérité. Pendant une décennie, la promesse était que vous parleriez à vos lumières, mais la réalité, c'était une application pour chaque prise, un hub dont le support était abandonné, et un interrupteur que vos invités ne savaient pas utiliser.",
+    "Ce qui a changé, c'est l'arrivée de Matter et Thread — un standard commun qui permet enfin aux appareils de différentes marques de communiquer entre eux sans une pile de ponts. Ce n'est pas parfait, mais cela signifie qu'un achat effectué aujourd'hui a une chance raisonnable de fonctionner encore dans cinq ans, ce qui n'était pas le cas auparavant.",
+    "Le test est donc simple : l'appareil permet-il d'économiser réellement du temps ou de l'argent, et survivra-t-il si son fabricant se désintéresse de lui ? Lorsqu'une catégorie échoue à ce test, nous le disons clairement au lieu de combler la place vacante.",
+    "Les prix sont approximatifs au moment de la rédaction et varient beaucoup lors des promotions."
+  ],
+  "products": [
+    {
+      "name": "Thermostat Ecobee ou Nest Learning Thermostat",
+      "tag": "Celui qui se rentabilise",
+      "body": "Le chauffage et la climatisation représentent le plus gros poste de dépense énergétique dans la plupart des foyers, ce qui fait du thermostat le seul appareil connecté avec un argument de rentabilité crédible. Les économies ne viennent pas du fait de lui parler, mais de la programmation et des capteurs à distance qui empêchent le système de chauffer une pièce vide alors que celle qui est occupée reste froide. Ecobee inclut ces capteurs dans la boîte, ce qui est son avantage pratique sur Nest. Deux limites, en toute honnêteté : si votre logement est petit et n'a qu'une seule zone de chauffage, les économies seront modestes, et si vous êtes locataire, vérifiez si vous avez le droit de changer l'appareil.",
+      "pros": [
+        "Économies d'énergie réelles et mesurables",
+        "Les capteurs à distance corrigent un chauffage inégal",
+        "Contrôlable depuis votre téléphone en cas d'imprévu"
+      ],
+      "cons": [
+        "Rentabilité modeste dans les petits logements à zone unique",
+        "Peut nécessiter une installation professionnelle et l'accord du propriétaire"
+      ]
+    },
+    {
+      "name": "Kit de démarrage Philips Hue (pont + ampoules)",
+      "tag": "Le meilleur éclairage, mais il a un prix",
+      "body": "Hue est l'option la plus chère, et c'est pourtant celle qu'il faut acheter, car en matière d'éclairage, la fiabilité est primordiale. Une ampoule qui met deux secondes à réagir, ou qui tombe en panne une fois par semaine, est pire qu'un interrupteur classique. C'est le pont qui garantit cette fiabilité : il gère les lumières localement via Zigbee au lieu de faire passer chaque commande par Internet. La vraie valeur ajoutée réside dans la programmation, pas dans la couleur. Des lumières qui deviennent chaudes le soir et s'allument progressivement le matin changent l'ambiance d'une pièce bien plus que n'importe quel mode 'soirée'.",
+      "pros": [
+        "Rapide et fiable — réagit comme un interrupteur",
+        "Contrôle local, fonctionne même sans Internet",
+        "Vaste gamme de culots et de formes"
+      ],
+      "cons": [
+        "Nettement plus cher que les ampoules concurrentes",
+        "Le pont est un boîtier de plus à brancher"
+      ]
+    },
+    {
+      "name": "Capteurs d'ouverture de porte et fenêtre Aqara ou Eve",
+      "tag": "L'appareil le moins cher qui rend tout le reste utile",
+      "body": "Les automatisations ne sont efficaces que si la maison a des informations sur son propre état, et les capteurs de contact sont le moyen le moins cher de lui fournir des données utiles. Un capteur de porte, c'est ce qui allume la lumière de l'entrée quand vous arrivez, vous signale que la porte de derrière est ouverte depuis vingt minutes en plein hiver, et vous avertit que le garage n'a pas été fermé. Tout cela ne nécessite ni caméra, ni abonnement. Achetez des versions Thread ou Zigbee plutôt que Wi-Fi : les capteurs Wi-Fi dévorent les piles et encombrent votre réseau, et vous pourriez finir par en avoir une douzaine.",
+      "pros": [
+        "Très bon marché, et ils rendent tout le reste possible",
+        "Les piles durent un an ou plus en Thread ou Zigbee",
+        "Pas de caméra, pas d'abonnement, pas de compromis sur la vie privée"
+      ],
+      "cons": [
+        "Inutiles seuls — ils ont besoin de quelque chose à déclencher",
+        "La fixation adhésive peut lâcher sur les surfaces texturées"
+      ]
+    },
+    {
+      "name": "Serrure Aqara U100 ou Yale Assure Lock 2",
+      "tag": "Le plus grand confort au quotidien",
+      "body": "La serrure connectée est l'appareil qui suscite le plus de scepticisme, mais qui finit par être le plus utilisé, car elle élimine une petite friction qui se produit plusieurs fois par jour. Donner un code temporaire à une personne de ménage ou à un invité au lieu de faire un double de clé, voilà la fonction qui convainc tout le monde. Exigez deux choses : une ouverture par clé physique en secours, et des piles AA standard plutôt qu'une batterie propriétaire. Vérifiez votre porte avant d'acheter : ces modèles s'adaptent aux pênes dormants standards, mais les serrures multipoints européennes ou les mécanismes de porte israéliens inhabituels nécessitent souvent un modèle complètement différent. Mesurez d'abord.",
+      "pros": [
+        "Des codes temporaires au lieu de doubles de clés",
+        "Le verrouillage automatique élimine un souci récurrent",
+        "La clé physique fonctionne toujours en cas de problème"
+      ],
+      "cons": [
+        "La compatibilité n'est vraiment pas universelle — mesurez votre porte",
+        "Une panne de batterie vous laissera dehors si vous n'avez pas de clé"
+      ]
+    },
+    {
+      "name": "Aspirateur robot Roborock ou Dreame avec vidage automatique",
+      "tag": "Le meilleur gain de temps par shekel",
+      "body": "C'est l'appareil qui vous fait gagner le plus de temps, à condition d'acheter le bon modèle. Les deux caractéristiques qui comptent sont la cartographie lidar, pour qu'il nettoie en lignes droites plutôt qu'en rebondissant au hasard, et une station de vidage automatique, pour que vous ne vous occupiez de la poussière que toutes les quelques semaines au lieu de tous les jours. En dessous d'environ 400 $, vous perdez généralement l'une ou l'autre de ces fonctions, et la nouveauté s'estompe vite. Soyez réaliste sur ce qu'il remplace : il gère parfaitement l'entretien quotidien mais ne remplace pas un vrai nettoyage en profondeur. Il a aussi besoin d'un sol dégagé, ce qui impose discrètement une bonne habitude — que certains considèrent comme un avantage.",
+      "pros": [
+        "Fait vraiment gagner des heures chaque mois",
+        "La cartographie lidar assure une couverture systématique et complète",
+        "La station de vidage automatique réduit le contact avec la poussière"
+      ],
+      "cons": [
+        "Les modèles bon marché sont une fausse économie",
+        "Ne gère pas le désordre, les câbles ou le nettoyage en profondeur"
+      ]
+    },
+    {
+      "name": "Prises connectées Eve Energy ou TP-Link Tapo",
+      "tag": "Le meilleur point de départ",
+      "body": "Une prise connectée est le moyen le moins cher de savoir si vous voulez vraiment d'une maison connectée. Elle permet de programmer une lampe, un ventilateur ou un radiateur classique, et les modèles avec suivi de consommation répondent à une question que beaucoup se posent : quel appareil est discrètement le plus énergivore ? Cette mesure est souvent plus précieuse que l'automatisation elle-même. Prenez des prises compatibles Matter pour qu'elles fonctionnent avec n'importe quel assistant que vous choisirez, et évitez les marques inconnues : c'est un appareil qui est traversé par le courant du secteur et qui reste branché dans votre mur pendant des années.",
+      "pros": [
+        "Le moyen le moins cher de tester le concept",
+        "Le suivi de consommation débusque les appareils énergivores",
+        "Permet de programmer des appareils classiques existants"
+      ],
+      "cons": [
+        "Les modèles encombrants bloquent la deuxième prise",
+        "Ce n'est pas le produit sur lequel économiser en choisissant une marque inconnue"
+      ]
+    },
+    {
+      "name": "Détecteur de fuite d'eau Aqara",
+      "tag": "La meilleure assurance pour le prix",
+      "body": "Un petit palet à vingt dollars sous la machine à laver, la chaudière et l'évier est l'article le plus rentable par shekel de cette page, et personne ne l'achète avant sa première inondation. Les dégâts des eaux sont lents, coûteux et généralement découverts bien trop tard — derrière un appareil, dans le sol, à travers un plafond. Ceux-ci se posent à plat, fonctionnent un an ou deux avec une pile bouton, et hurlent tout en envoyant une notification sur votre téléphone à la seconde où ils sont mouillés. Il n'y a pas de coût récurrent ni d'entretien. Si vous n'achetez qu'une seule chose de cette liste, et que vous n'avez jamais eu de fuite, achetez quand même celui-ci.",
+      "pros": [
+        "Dérisoirement peu cher par rapport aux dégâts qu'il évite",
+        "Longue autonomie, aucun entretien",
+        "L'alarme locale fonctionne même sans l'application"
+      ],
+      "cons": [
+        "Ne couvre que l'endroit exact où il est placé",
+        "Nécessite un hub ou un routeur de bordure Thread pour les alertes téléphoniques"
+      ]
+    },
+    {
+      "name": "Echo Show 8 ou Nest Hub",
+      "tag": "Le meilleur hub, avec des réserves",
+      "body": "Un écran connecté a toute sa place dans une cuisine, où les mains sont occupées et où un minuteur, une recette et le flux d'une caméra sur un seul écran sont une aide réelle. Beaucoup de ces appareils font aussi office de routeur de bordure Thread ou de hub Zigbee, ce qui vous évite discrètement d'acheter un pont séparé. La réserve est cependant bien réelle : il s'agit d'un microphone et d'une caméra dans une pièce où vous vivez, vendus avec une faible marge car le modèle économique est ailleurs. Si ce compromis vous dérange, couvrez la caméra, coupez le micro quand vous ne l'utilisez pas, ou achetez un hub sans écran à la place — c'est un choix légitime, pas de la paranoïa.",
+      "pros": [
+        "Vraiment utile dans une cuisine",
+        "Fait souvent aussi office de hub Thread ou Zigbee",
+        "Bon marché, et fréquemment en promotion"
+      ],
+      "cons": [
+        "Une caméra et un micro toujours allumé dans un espace de vie",
+        "Publicités et incitations à l'achat sur l'écran d'accueil"
+      ]
+    },
+    {
+      "name": "Capteur de présence Aqara FP2",
+      "tag": "L'amélioration par rapport aux détecteurs de mouvement",
+      "body": "La raison pour laquelle l'éclairage intelligent agace les gens, c'est que les détecteurs de mouvement détectent le mouvement, pas la présence. Les lumières s'éteignent donc pendant que vous lisez, que vous êtes assis sans bouger, ou dans votre bain. Les capteurs de présence à ondes millimétriques détectent la respiration et les micro-mouvements, et savent donc que la pièce est occupée même si rien ne bouge. C'est cette seule distinction qui fait que l'éclairage automatisé cesse d'être irritant. Il est plus cher qu'un détecteur de mouvement, nécessite une alimentation secteur et un positionnement soigné. Considérez-le donc comme une solution pour la ou les deux pièces où les lumières vous lâchent constamment, pas comme un appareil à installer partout.",
+      "pros": [
+        "Détecte la présence, pas seulement le mouvement",
+        "Met fin au problème des 'lumières qui s'éteignent toutes seules'",
+        "Peut définir des zones au sein d'une même pièce"
+      ],
+      "cons": [
+        "Nécessite une alimentation secteur et un placement soigné",
+        "Plusieurs fois le prix d'un détecteur de mouvement"
+      ]
+    },
+    {
+      "name": "Caméra à stockage local Eufy ou Reolink",
+      "tag": "La meilleure caméra sans abonnement",
+      "body": "La plupart des caméras de sécurité sont vendues à bas prix et monétisées via un abonnement mensuel. Si vous arrêtez de payer, vous perdez souvent toute possibilité d'enregistrement. Les caméras qui enregistrent sur une carte locale ou une station de base évitent ce problème : vous possédez les images et il n'y a pas de facture récurrente. Recherchez l'enregistrement local, la détection de personnes sur l'appareil (pour ne pas être alerté par chaque chat qui passe), et le support RTSP si vous voulez un jour utiliser votre propre enregistreur. Pointez-les vers les entrées et les espaces extérieurs plutôt que vers les pièces à vivre, et vérifiez la réglementation en vigueur chez vous : l'enregistrement des entrées communes ou de la propriété d'un voisin est légalement encadré dans la plupart des pays.",
+      "pros": [
+        "Pas de frais mensuels, et vous conservez les images",
+        "La détection sur l'appareil réduit les fausses alertes",
+        "Continue de fonctionner si le cloud du fabricant disparaît"
+      ],
+      "cons": [
+        "Coût initial plus élevé que les modèles à abonnement",
+        "Limites légales sur ce que vous pouvez enregistrer — vérifiez localement"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu'est-ce que Matter, et est-ce que je dois m'en soucier ?",
+      "a": "C'est un standard commun qui permet aux appareils de différentes marques de fonctionner ensemble et d'être contrôlés par n'importe quel assistant majeur. Vous devriez vous en soucier principalement parce que cela vous évite d'acheter un produit d'une marque qui pourrait plus tard fermer ses serveurs."
+    },
+    {
+      "q": "Quels appareils de domotique laisseriez-vous de côté ?",
+      "a": "Les réfrigérateurs, micro-ondes et la plupart des robinets connectés : l'intelligence ajoute un coût et des points de défaillance à un appareil que vous gardez quinze ans. Également les stores connectés, sauf si vous avez un problème spécifique d'ensoleillement ou d'accessibilité, vu le coût d'installation."
+    },
+    {
+      "q": "Est-ce que tout cela fonctionnera encore si ma connexion Internet est coupée ?",
+      "a": "Les appareils en Zigbee, Thread ou sur un hub local continuent de fonctionner pour la plupart, y compris les programmations. Tout ce qui dépend du cloud d'un fabricant s'arrête généralement. C'est la meilleure raison de préférer le contrôle local quand vous avez le choix."
+    },
+    {
+      "q": "Je suis locataire. Qu'est-ce que je peux installer ?",
+      "a": "Les prises, ampoules, capteurs et aspirateurs robots s'installent tous sans rien modifier de permanent. Les thermostats et les serrures nécessitent généralement une autorisation, bien que certaines serrures ne remplacent que la partie intérieure et laissent le cylindre et la clé existants intacts."
+    }
+  ]
+}

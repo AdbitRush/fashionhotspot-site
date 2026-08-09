@@ -1,0 +1,173 @@
+{
+  "slug": "back-to-school",
+  "title": "Material escolar para la vuelta al cole que dura más allá de octubre",
+  "dek": "Diez artículos elegidos por su capacidad para sobrevivir un año entero en la mochila, y aquellos en los que no merece la pena gastar nada.",
+  "category": "Vuelta al cole",
+  "how_we_pick": "Clasificamos los productos según si sobreviven a un año escolar completo de uso real, y consideramos las licencias de personajes como un sobrecoste, no como una ventaja. Nos basamos en pruebas publicadas, recomendaciones ergonómicas sobre el peso de las mochilas y testimonios de padres a largo plazo, y no hemos probado personalmente cada artículo. Cuando la respuesta sensata es no comprar nada, lo decimos claramente.",
+  "intro": [
+    "La vuelta al cole es la semana con el marketing más eficiente del año, y la mayoría de lo que se compra se reemplaza antes de diciembre. El patrón es siempre el mismo: la versión con personajes de un producto cuesta más y dura menos que la versión sencilla que tiene al lado.",
+    "Por eso, esta lista está ordenada por la relación entre durabilidad y precio a lo largo de un año escolar completo. Unos pocos artículos son deliberadamente anti-recomendaciones: casos en los que lo más sensato es no gastar nada y reutilizar lo que ya tienes.",
+    "Hay dos cosas en las que de verdad merece la pena gastar dinero: la mochila, porque soporta peso sobre una espalda en crecimiento todos los días, y los zapatos, por la misma razón. Casi todo lo demás es un producto genérico.",
+    "Los precios son aproximados en el momento de redactar este artículo, y esta categoría de productos alcanza su precio máximo en las dos semanas previas al inicio del curso. Comprar en la última semana de vacaciones es la peor idea posible."
+  ],
+  "products": [
+    {
+      "name": "Una mochila con espalda acolchada y correa para el pecho",
+      "tag": "Gasta aquí, no en el estuche",
+      "body": "Este es el único artículo que carga peso real sobre una espalda en crecimiento cada día, así que es aquí donde hay que invertir el dinero. Las características importantes son unas correas anchas y acolchadas, un panel trasero acolchado y una correa para el pecho o el esternón, que evita que las correas de los hombros se deslicen hacia afuera y tiren de los hombros hacia atrás. Las recomendaciones generales sugieren que una mochila cargada no debe superar entre el diez y el quince por ciento del peso corporal del niño, y que siempre se deben usar ambas correas. Llevar una mochila pesada en un solo hombro es una costumbre que conviene corregir cuanto antes. Además, los diseños sencillos duran más que la fase de los personajes.",
+      "pros": [
+        "Soporta el peso diario sobre una espalda en crecimiento",
+        "La correa del pecho mantiene la carga en su sitio",
+        "Los diseños sencillos duran varios años"
+      ],
+      "cons": [
+        "Las versiones con personajes cuestan más y duran menos",
+        "Hay que comprobar el ajuste a medida que el niño crece"
+      ]
+    },
+    {
+      "name": "Zapatos de colegio bien ajustados",
+      "tag": "Medidos, no a ojo",
+      "body": "Se usan seis o siete horas al día, cinco días a la semana, durante una etapa en la que los pies cambian de tamaño notablemente, lo que los convierte en el segundo artículo en el que merece la pena invertir. Haz que le midan el largo y el ancho en lugar de comprar una talla más para que le duren: un zapato demasiado grande hace que el pie se agarrote y resbale, lo que genera otros problemas. Vuelve a comprobar la talla a mitad de curso. La piel suele durar más que el material sintético y se amolda al pie, y es la opción más económica a lo largo del año, aunque el precio inicial sea más alto.",
+      "pros": [
+        "Se usan más horas que cualquier otra cosa que tengan",
+        "La piel se amolda y dura más que el material sintético",
+        "Más baratos a lo largo del año a pesar del precio inicial"
+      ],
+      "cons": [
+        "Comprar una talla más grande crea otros problemas",
+        "Los pies cambian: hay que volver a medir a mitad de curso"
+      ]
+    },
+    {
+      "name": "Una botella de agua isotérmica y antifugas",
+      "tag": "Prueba el tapón antes de que empiece el curso",
+      "body": "Una botella que gotea estropea los libros, los deberes y el portátil, si lo hay. Por eso, que sea antifugas es la única característica que de verdad importa, y es la más difícil de comprobar en la descripción del producto. Llénala, ponla boca abajo sobre el fregadero durante un minuto y averígualo antes de que ocurra dentro de la mochila. El acero inoxidable isotérmico mantiene el agua fría todo el día, lo que aumenta de forma medible la cantidad que un niño bebe realmente. Elige un tapón que el niño pueda abrir sin ayuda (una botella que necesita un adulto se queda llena) y que puedas desmontar para lavarlo, ya que la junta de goma es donde se acumula la suciedad.",
+      "pros": [
+        "Las botellas isotérmicas aumentan de forma medible la cantidad que beben",
+        "El acero inoxidable no retiene sabores",
+        "Los tapones desmontables se pueden limpiar de verdad"
+      ],
+      "cons": [
+        "Hay que comprobar si de verdad es antifugas poniéndola sobre el fregadero",
+        "Los tapones complejos necesitan un adulto, así que se quedan llenas"
+      ]
+    },
+    {
+      "name": "Un estuche rígido",
+      "tag": "Rígido mejor que de tela",
+      "body": "Un estuche de tela en el fondo de la mochila deja que todo lo de dentro se aplaste, y un bolígrafo que pierde tinta mancha el propio estuche y todo lo que lo toca. Un estuche rígido contiene ambos problemas por un poco más de dinero. Aparte de eso, resiste la tentación del enorme estuche de varios pisos con cien bolígrafos: pesa, ocupa un espacio en el pupitre que el niño no tiene y su contenido se pierde antes de que acabe el primer trimestre. Un estuche sencillo con cremallera y solo lo necesario es más ligero, más barato y dura más.",
+      "pros": [
+        "Protege el contenido y contiene las fugas",
+        "Barato",
+        "Los pequeños caben en el espacio real del pupitre"
+      ],
+      "cons": [
+        "Ocupa más que uno de tela en una mochila llena",
+        "Las bisagras son la parte que acaba rompiéndose"
+      ]
+    },
+    {
+      "name": "Bolígrafos recargables y un sacapuntas con depósito",
+      "tag": "Más barato a lo largo del año",
+      "body": "Un paquete de bolígrafos desechables desaparece a una velocidad asombrosa y hay que volver a comprarlo en noviembre y febrero. Un buen bolígrafo recargable con una caja de cartuchos cuesta más o menos lo mismo a lo largo del año, escribe mejor y es mucho menos probable que se pierda porque se percibe como un objeto, no como algo de usar y tirar. Un sacapuntas con depósito es el pequeño detalle que evita que las virutas se esparzan por la mochila. Ninguna de estas cosas es emocionante, pero ambas eliminan una compra recurrente que, sin hacer ruido, cuesta más que la alternativa de un solo pago.",
+      "pros": [
+        "Más barato a lo largo de un año completo",
+        "Los recargables se pierden menos que los desechables",
+        "Los sacapuntas con depósito mantienen las virutas fuera de la mochila"
+      ],
+      "cons": [
+        "Los cartuchos son un formato al que luego te ves atado",
+        "Un recargable perdido cuesta más que un boli perdido"
+      ]
+    },
+    {
+      "name": "Una lámpara de escritorio para los deberes",
+      "tag": "A menudo olvidada, pero muy útil",
+      "body": "Los deberes se suelen hacer en la mesa de la cocina, con una luz de techo que queda detrás del niño, lo que proyecta su propia sombra sobre la página. Una lámpara de escritorio dirigida soluciona eso. Merece la pena que tenga temperatura de color ajustable: luz más fría para la concentración por la tarde, y más cálida por la noche, cuando una luz brillante y azulada es lo último que quieres antes de dormir. Colócala en el lado opuesto a la mano con la que escribe, o la mano proyectará una sombra sobre la línea que está escribiendo, que es el error más común y anula todo el propósito.",
+      "pros": [
+        "Elimina la sombra del propio niño de la página",
+        "La luz cálida por la noche es adecuada para antes de dormir",
+        "Barata y dura años"
+      ],
+      "cons": [
+        "En el lado equivocado, la mano proyecta sombra sobre la página",
+        "Los LED baratos parpadean y reproducen mal el color"
+      ]
+    },
+    {
+      "name": "Etiquetas para el nombre",
+      "tag": "Coste mínimo, evita reemplazos constantes",
+      "body": "Los jerséis, las botellas de agua y los abrigos desaparecen a un ritmo que sorprende a todos los padres primerizos, y la mayoría de lo que acaba en la caja de objetos perdidos nunca se reclama, simplemente porque nadie puede saber de quién es. Las etiquetas son la intervención más barata posible contra un gasto recurrente. Sirven tanto las termoadhesivas como las autoadhesivas; las primeras aguantan más lavados. Ponlas en un lugar que un niño pueda encontrar sin ayuda (en el interior del cuello en lugar de en una costura oculta), porque la idea es que pueda identificar su propio jersey en una pila de cuarenta idénticos.",
+      "pros": [
+        "Irrisoriamente baratas en comparación con lo que se reemplaza",
+        "Las termoadhesivas aguantan lavados repetidos",
+        "Permite que el niño identifique sus propias cosas"
+      ],
+      "cons": [
+        "Solo funcionan si se colocan en un lugar visible",
+        "Las termoadhesivas hay que ponerlas bien o se despegan"
+      ]
+    },
+    {
+      "name": "Un planificador de pared o pizarra blanca",
+      "tag": "Funciona mejor que una app a esta edad",
+      "body": "Un planificador compartido y visible en la pared es de verdad más eficaz para los niños pequeños que una app de calendario, porque es visible de forma pasiva: nadie tiene que acordarse de abrirlo, y un niño puede consultarlo por sí mismo sin preguntar ni pedir un teléfono. La ropa de gimnasia, las clases de música, las fechas de entrega y quién tiene que estar dónde, todo está en un solo lugar por el que pasa toda la familia. Ponlo donde la gente ya suele estar, normalmente en la cocina. Este es el artículo que más reduce el caos matutino de toda la lista.",
+      "pros": [
+        "Visible de forma pasiva: nadie tiene que abrirlo",
+        "Los niños pueden consultarlo por su cuenta",
+        "Reduce el caos matutino de forma medible"
+      ],
+      "cons": [
+        "Solo funciona donde la familia realmente pasa",
+        "Necesita que alguien lo mantenga actualizado"
+      ]
+    },
+    {
+      "name": "Una fiambrera con compartimentos separados",
+      "tag": "Menos recipientes, menos pérdidas",
+      "body": "Una sola fiambrera con compartimentos integrados sustituye a tres táperes pequeños, lo que importa sobre todo porque los táperes pequeños son los que se quedan olvidados en el colegio. Las secciones separadas también evitan que los alimentos húmedos estropeen los secos, que es la razón principal por la que la comida vuelve a casa sin tocar. Comprueba que la tapa cierre bien y que el niño pueda abrir cada sección sin ayuda; es la misma regla que con la botella de agua, ya que una sección que no puede abrir es una sección que vuelve a casa llena. Asegúrate de que quepa en la mochila junto a la botella antes de que empiece el curso, no la primera mañana.",
+      "pros": [
+        "Una fiambrera en vez de tres táperes que se pueden perder",
+        "Los compartimentos separan lo húmedo de lo seco",
+        "Más fácil preparar un almuerzo variado"
+      ],
+      "cons": [
+        "Voluminosa: comprueba que quepa en la mochila con la botella",
+        "Las secciones que un niño no puede abrir vuelven a casa llenas"
+      ]
+    },
+    {
+      "name": "Cuadernos y carpetas sencillos: no compres nada sofisticado",
+      "tag": "Deliberadamente la opción barata",
+      "body": "Este artículo está aquí para decirte que no gastes. Los cuadernos, las carpetas y los separadores son productos de consumo; se gastan y se reemplazan sin importar la calidad, y las versiones de marca cuestan varias veces más sin ninguna diferencia funcional. Compra la marca blanca del supermercado, cómpralos después de que empiece el curso en lugar de en la avalancha previa cuando los precios están por las nubes, y cómpralos una vez que tengas la lista real del colegio en lugar de adivinar. Una gran parte de lo que se compra en la semana de la vuelta al cole no se usa jamás.",
+      "pros": [
+        "La marca blanca es funcionalmente idéntica",
+        "Comprar después de que empiece el curso es mucho más barato",
+        "Evita comprar lo que el colegio nunca pidió"
+      ],
+      "cons": [
+        "Requiere esperar a la lista real",
+        "Los artículos populares a veces se agotan"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto debe pesar una mochila escolar?",
+      "a": "Las recomendaciones generales sitúan una mochila cargada por debajo del diez o quince por ciento del peso corporal del niño. Siempre se deben usar ambas correas, y los objetos más pesados deben colocarse lo más cerca posible de la espalda."
+    },
+    {
+      "q": "¿Cuándo es más barato comprar?",
+      "a": "Después de que empiece el curso, no antes. Los precios alcanzan su punto máximo en las dos semanas previas al año escolar y bajan una vez que pasa la avalancha, y para entonces ya tienes la lista real en lugar de una suposición."
+    },
+    {
+      "q": "¿Merece la pena comprar material de papelería de marca?",
+      "a": "No. Los cuadernos, las carpetas y los bolígrafos básicos son productos de consumo y las versiones con licencia cuestan varias veces más sin ninguna diferencia funcional. Gasta lo que te ahorres en la mochila y los zapatos, que sí tienen diferencias reales de calidad."
+    },
+    {
+      "q": "¿Qué es lo que más se pierde?",
+      "a": "Los jerséis, las botellas de agua y los táperes pequeños, en ese orden. Las etiquetas con el nombre y una única fiambrera con compartimentos en lugar de varios táperes solucionan la mayor parte del problema por muy poco dinero."
+    }
+  ]
+}

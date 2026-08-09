@@ -1,0 +1,173 @@
+{
+  "slug": "car",
+  "title": "Les accessoires auto qui méritent une place dans votre coffre",
+  "dek": "Dix accessoires classés selon leur utilité les mauvais jours, pas les bons.",
+  "category": "Voiture",
+  "how_we_pick": "Notre classement se base sur les conséquences : ce qu'un accessoire vous évite le jour où tout va mal. Nous nous appuyons sur des tests publiés, des normes de sécurité et des avis de propriétaires sur le long terme, et nous n'avons pas testé personnellement chaque article de cette liste. Lorsque la loi varie localement, nous le signalons au lieu de donner un conseil qui ne serait valable que dans un seul pays.",
+  "intro": [
+    "Les accessoires auto se divisent nettement en deux catégories : ceux qui rendent la conduite un peu plus agréable, et ceux qui empêchent une mauvaise journée de virer à la catastrophe. Ce deuxième groupe est restreint, bon marché et sans grand intérêt, et c'est pourtant lui qui occupe le haut de notre classement.",
+    "Tous les articles de cette liste sont classés par ordre de conséquence. Un booster de batterie ne sert qu'une fois tous les deux ou trois ans, mais ce jour-là, son aide est précieuse. Un insert de porte-gobelet, lui, n'a jamais la moindre importance. Pourtant, les deux sont vendus avec le même enthousiasme.",
+    "Une remarque sur la législation, qui varie d'un pays à l'autre : les règles sur ce qui peut obstruer le pare-brise, sur l'autorisation pour les dashcams d'enregistrer le son, et sur l'équipement de sécurité obligatoire diffèrent. Vérifiez la réglementation locale au lieu de faire des suppositions : plusieurs articles présentés ici sont obligatoires dans certains pays et soumis à des restrictions dans d'autres.",
+    "Les prix sont approximatifs au moment de la rédaction de cet article."
+  ],
+  "products": [
+    {
+      "name": "Un booster de batterie au lithium",
+      "tag": "Celui qui vous sauve la mise",
+      "body": "Avant, une batterie à plat signifiait qu'il fallait attendre qu'une âme charitable passe avec des câbles de démarrage, mais un booster au lithium moderne, de la taille d'un livre de poche, supprime totalement cette dépendance. Il fait aussi office de batterie externe de grande capacité, ce qui justifie sa place dans le coffre au lieu de simplement l'occuper. Adaptez l'ampérage de pointe à votre moteur : les moteurs essence sont moins exigeants que les diesels, et un modèle conçu pour une petite citadine ne parviendra pas à démarrer un gros diesel. Rechargez-le tous les trois à six mois, car la seule façon d'être sûr qu'il vous laissera tomber, c'est qu'il soit lui-même à plat dans votre coffre le jour où vous en aurez besoin.",
+      "pros": [
+        "Plus besoin de dépendre d'un inconnu qui passe par là",
+        "Sert aussi de batterie externe de grande capacité",
+        "Assez petit pour rester en permanence dans le coffre"
+      ],
+      "cons": [
+        "Inutile si vous oubliez de le recharger",
+        "L'ampérage doit correspondre à la taille de votre moteur"
+      ]
+    },
+    {
+      "name": "Un compresseur de pneu avec manomètre",
+      "tag": "Sécurité et économies de carburant",
+      "body": "Des pneus sous-gonflés s'usent plus vite, consomment plus de carburant, ont une moins bonne tenue de route et risquent davantage d'éclater. Et presque personne ne vérifie la pression tous les mois comme recommandé, car cela oblige à se rendre dans une station-service. Un compresseur dans le coffre lève cet obstacle, ce qui permet de le faire vraiment. Choisissez un modèle avec un préréglage numérique qui s'arrête automatiquement à la pression cible ; ceux qu'il faut surveiller ne servent en général qu'une seule fois. Vérifiez la pression à froid, avant de rouler, car un pneu chaud indique une pression plus élevée. Notez que cet appareil est utile pour les crevaisons lentes et les baisses de pression, pas pour un pneu éclaté.",
+      "pros": [
+        "Lève l'obstacle qui empêche de faire les vérifications",
+        "L'arrêt automatique permet de faire autre chose pendant ce temps",
+        "S'amortit grâce aux économies de pneus et de carburant"
+      ],
+      "cons": [
+        "La pression doit être mesurée à froid, sinon elle est faussée",
+        "N'est pas une solution en cas d'éclatement d'un pneu"
+      ]
+    },
+    {
+      "name": "Une dashcam avec mode parking",
+      "tag": "L'assurance que vous espérez ne jamais utiliser",
+      "body": "L'intérêt d'une dashcam réside entièrement dans sa capacité à régler un litige grâce à la vidéo, en montrant qui a fait quoi. Achetez un modèle avec un condensateur plutôt qu'une batterie au lithium, car l'habitacle d'une voiture en été chauffe suffisamment pour dégrader et faire gonfler une batterie. Une résolution de 1440p est le minimum requis pour pouvoir lire une plaque d'immatriculation à distance, ce qui est tout l'intérêt. Deux points à vérifier localement : certains pays limitent l'enregistrement audio à l'intérieur de la voiture, et plusieurs réglementent l'endroit où un appareil peut être placé sur le pare-brise. Le mode parking nécessite un branchement permanent pour fonctionner correctement.",
+      "pros": [
+        "Règle les litiges de manière définitive",
+        "Les modèles à condensateur résistent à la chaleur estivale",
+        "Le mode parking enregistre les accrochages sur les parkings"
+      ],
+      "cons": [
+        "L'enregistrement audio et l'emplacement sont réglementés dans certains pays",
+        "Le mode parking nécessite un branchement permanent"
+      ]
+    },
+    {
+      "name": "Un support de téléphone magnétique ou pour grille d'aération",
+      "tag": "Une question de sécurité, pas de confort",
+      "body": "Manipuler un téléphone en conduisant est illégal dans la plupart des pays et dangereux partout. Un support à hauteur des yeux permet de suivre la navigation d'un simple coup d'œil plutôt qu'en baissant les yeux sur ses genoux. Les supports magnétiques s'utilisent d'une seule main, ce qui est important car un support qui nécessite les deux mains va à l'encontre de son objectif. Positionnez-le de manière à ne pas obstruer votre vue sur la route : l'emplacement sur le pare-brise est réglementé dans plusieurs pays. Si votre téléphone a un anneau magnétique intégré, utilisez un support compatible ; sinon, une plaque métallique sous la coque fera l'affaire.",
+      "pros": [
+        "Permet de garder les yeux près de la route",
+        "S'utilise d'une seule main",
+        "Bon marché au vu de ce qu'il prévient"
+      ],
+      "cons": [
+        "L'emplacement sur le pare-brise est réglementé dans certains pays",
+        "Les supports pour grille d'aération s'affaissent sur les ailettes souples"
+      ]
+    },
+    {
+      "name": "Un triangle de présignalisation et un gilet de haute visibilité",
+      "tag": "Souvent obligatoire",
+      "body": "Dans de nombreux pays, ce ne sont pas des accessoires, mais des équipements légalement obligatoires, et dans plusieurs d'entre eux, vous risquez une amende si vous ne les avez pas. Au-delà de l'aspect légal, se tenir sur le bas-côté la nuit avec des vêtements sombres est l'une des choses les plus dangereuses qu'un conducteur puisse faire, et un gilet augmente de très loin la distance à laquelle vous êtes visible. Gardez le gilet dans l'habitacle plutôt que dans le coffre : le moment où vous en avez besoin, c'est avant de sortir de la voiture, pas après avoir fait le tour du véhicule sur une voie de circulation.",
+      "pros": [
+        "Obligatoire dans de nombreux pays",
+        "Augmente considérablement la distance à laquelle on vous voit",
+        "Ne coûte presque rien"
+      ],
+      "cons": [
+        "Inutile dans le coffre : gardez le gilet dans l'habitacle",
+        "Les obligations varient d'un pays à l'autre"
+      ]
+    },
+    {
+      "name": "Un vrai chargeur de téléphone pour voiture",
+      "tag": "Quand le bas de gamme présente un risque réel",
+      "body": "Les chargeurs allume-cigare vendus en station-service comptent parmi les appareils électroniques les plus mal fabriqués qui soient, et ils restent branchés en permanence sur une prise alimentée, dans un espace clos où personne ne remarquerait une surchauffe. Un chargeur de marque USB-C Power Delivery recharge un téléphone à pleine vitesse même lorsque la navigation et l'écran sont actifs, ce qu'un modèle bas de gamme ne peut pas faire, si bien que votre batterie se décharge lentement alors même qu'elle est branchée. C'est un problème très courant et déroutant, et le chargeur en est presque toujours la cause, pas le téléphone. Recherchez une marque de certification de sécurité reconnue sur le corps du produit lui-même, pas seulement sur l'emballage. Deux ports valent le petit surcoût, car le passager en demandera toujours un, et les voitures plus anciennes pourraient de toute façon ne pas fournir assez de courant pour alimenter les deux à pleine vitesse.",
+      "pros": [
+        "Recharge vraiment le téléphone pendant la navigation",
+        "Les modèles de marque ont une vraie certification de sécurité",
+        "Deux ports pour un faible surcoût"
+      ],
+      "cons": [
+        "Les modèles les moins chers présentent un réel risque pour la sécurité",
+        "Les voitures plus anciennes peuvent ne pas fournir assez de courant"
+      ]
+    },
+    {
+      "name": "Des tapis de sol en caoutchouc toutes saisons",
+      "tag": "Protège la valeur de revente",
+      "body": "La moquette au sol absorbe tout et ne retrouve jamais son état d'origine, et un intérieur taché fait chuter lourdement le prix de vente d'une voiture. Les tapis en caoutchouc à rebord retiennent la boue, la neige fondue et le café renversé, et se nettoient au jet d'eau en une minute. Achetez des tapis découpés pour votre modèle spécifique plutôt que des tapis universels. Les modèles universels glissent vers l'avant et peuvent gêner les pédales, ce qui est un réel danger et la raison d'être des clips de fixation. Vérifiez que les vôtres reposent sur les points d'ancrage d'origine et ne peuvent pas bouger.",
+      "pros": [
+        "Protège la valeur de revente de manière significative",
+        "Se nettoient au jet d'eau en moins d'une minute",
+        "Retiennent la neige, la boue et les liquides renversés"
+      ],
+      "cons": [
+        "Les tapis universels peuvent glisser et gêner les pédales",
+        "Les jeux spécifiques à un modèle coûtent plus cher"
+      ]
+    },
+    {
+      "name": "Un organisateur de coffre",
+      "tag": "Empêche tout de rouler",
+      "body": "Un organisateur pliable en tissu avec des séparateurs maintient les courses droites et empêche les objets de se balader dans le coffre à chaque rond-point, un bruit que tout le monde connaît. Ceux qui ont une base antidérapante ou des bandes velcro restent vraiment en place ; ceux qui n'en ont pas glissent et aggravent le problème qu'ils sont censés résoudre. Il se replie aussi à plat en quelques secondes quand vous avez besoin de tout le coffre pour un objet volumineux. C'est un accessoire de confort plutôt que de sécurité, mais il gagne sa place car il sert à chaque fois que vous faites les courses.",
+      "pros": [
+        "Les courses arrivent à destination sans se renverser",
+        "Se replie à plat quand on a besoin de tout le coffre",
+        "Sert à quasiment chaque trajet"
+      ],
+      "cons": [
+        "Sans base antidérapante, il glisse aussi",
+        "Prend de la place quand on ne s'en sert pas"
+      ]
+    },
+    {
+      "name": "Un jeu de chiffons microfibres et une lingette pour écran",
+      "tag": "L'amélioration de visibilité la moins chère",
+      "body": "Le film qui se dépose à l'intérieur du pare-brise diffuse fortement la lumière des phares en sens inverse et du soleil bas, et la plupart des conducteurs ne réalisent à quel point c'était gênant qu'après l'avoir nettoyé. Deux chiffons microfibres gardés dans la portière ne coûtent presque rien et améliorent la visibilité de nuit plus que n'importe quel changement d'ampoule. Gardez un chiffon pour les vitres et un autre pour tout le reste, car un chiffon qui a touché un produit pour tableau de bord laissera des traces tenaces sur les vitres. Essuyez l'intérieur du pare-brise environ une fois par mois et vous verrez la différence la prochaine fois que vous conduirez face au soleil bas.",
+      "pros": [
+        "Améliore la visibilité de nuit pour presque rien",
+        "Plus efficace qu'un changement de phares",
+        "Prend deux minutes par mois"
+      ],
+      "cons": [
+        "Un chiffon contaminé par un produit d'entretien laisse de grosses traces sur les vitres",
+        "Doit être lavé séparément du reste du linge"
+      ]
+    },
+    {
+      "name": "Un pare-soleil pour le pare-brise",
+      "tag": "Un petit accessoire pour les climats chauds",
+      "body": "Dans un climat chaud, une voiture garée atteint des températures qui rendent les dix premières minutes de n'importe quel trajet désagréables et qui dégradent visiblement le tableau de bord en quelques étés : les fissures, la décoloration et la déformation sont principalement dues aux UV et à la chaleur. Un pare-soleil réfléchissant atténue le pire pour le prix de deux ou trois cafés. Le type qui se plie en accordéon est bien plus facile à ranger et à déployer que le type à ressort qu'on doit tordre pour le plier, avec lequel tout le monde a du mal. Mesurez votre pare-brise ; un pare-soleil trop petit laisse une bande brûlante sur le tableau de bord et ne fait le travail qu'à moitié.",
+      "pros": [
+        "Habitacle nettement plus frais au retour",
+        "Ralentit les dommages des UV sur le tableau de bord",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les modèles à ressort sont difficiles à ranger",
+        "Un modèle sous-dimensionné laisse une bande brûlante"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Que faut-il garder en permanence dans son coffre ?",
+      "a": "Un booster de batterie, un compresseur de pneu, un triangle de présignalisation et un gilet de haute visibilité — en gardant le gilet dans l'habitacle et non dans le coffre. Ces quatre éléments couvrent les situations où ne pas être préparé peut vous coûter une journée entière."
+    },
+    {
+      "q": "Les dashcams sont-elles légales partout ?",
+      "a": "La caméra l'est généralement, mais l'enregistrement audio à l'intérieur du véhicule et l'endroit où vous pouvez monter l'appareil sur le pare-brise sont réglementés différemment selon les pays. Vérifiez la réglementation locale avant d'en installer une."
+    },
+    {
+      "q": "À quelle fréquence dois-je vérifier la pression de mes pneus ?",
+      "a": "Une fois par mois, et avant chaque long trajet, toujours sur des pneus froids. C'est l'élément d'entretien courant le plus négligé, et il affecte la sécurité, la consommation de carburant et la durée de vie des pneus."
+    },
+    {
+      "q": "Quel accessoire auto est un achat inutile ?",
+      "a": "Les ioniseurs d'air et la plupart des gadgets 'purifiants', les sièges massants, et les tapis de sol universels — ces derniers sont même dangereux s'ils glissent sous les pédales. Les tapis spécifiques à un modèle coûtent plus cher mais sont les seuls qui en valent la peine."
+    }
+  ]
+}

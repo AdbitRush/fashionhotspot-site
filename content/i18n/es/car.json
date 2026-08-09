@@ -1,0 +1,173 @@
+{
+  "slug": "car",
+  "title": "Accesorios para el coche que merece la pena llevar en el maletero",
+  "dek": "Diez artículos clasificados por su utilidad en el peor de los días, no en el mejor.",
+  "category": "Coche",
+  "how_we_pick": "Clasificamos según las consecuencias: lo que un artículo puede hacer por ti en el peor día que lo necesites. Nos basamos en pruebas publicadas, normas de seguridad e informes de propietarios a largo plazo, y no hemos usado personalmente todos los artículos de esta lista. Cuando la legislación local varía, lo indicamos en lugar de dar consejos que solo se aplican a un país.",
+  "intro": [
+    "Los accesorios para el coche se dividen claramente en dos grupos: los que hacen la conducción un poco más agradable y los que evitan que un mal día se convierta en uno mucho peor. Este segundo grupo es pequeño, barato y aburrido, y es el que ocupa los primeros puestos de esta lista.",
+    "Todo lo que incluimos aquí está ordenado según sus consecuencias. Un arrancador de batería es importante una vez cada varios años, pero ese día es importantísimo. Un adaptador para el posavasos no es importante nunca. Y sin embargo, ambos se venden con el mismo entusiasmo.",
+    "Un apunte sobre la legalidad, que varía según el país: las normas sobre qué puede obstruir el parabrisas, si las 'dashcams' pueden grabar audio y qué equipamiento de seguridad es obligatorio llevar son diferentes en cada sitio. Consulta la normativa local en lugar de darlo por hecho, ya que varios artículos de esta lista son obligatorios en algunos países y están restringidos en otros.",
+    "Los precios son aproximados en el momento de redactar este artículo."
+  ],
+  "products": [
+    {
+      "name": "Un arrancador de batería de litio",
+      "tag": "El que te salva un mal día",
+      "body": "Antes, quedarse sin batería significaba esperar a que alguien amable apareciera con unas pinzas, pero un moderno pack de litio del tamaño de un libro de bolsillo elimina esa dependencia por completo. También funciona como una batería externa de gran capacidad, así que se gana el sitio en vez de solo ocuparlo. Asegúrate de que el amperaje máximo se corresponde con tu motor: los motores de gasolina necesitan menos que los diésel, y un aparato diseñado para un coche pequeño no podrá arrancar un diésel grande. Cárgalo cada tres o seis meses, porque la única forma segura de que te falle es que esté descargado en el maletero cuando lo necesites.",
+      "pros": [
+        "Elimina la dependencia de un desconocido que pase por allí",
+        "Funciona también como una batería externa de gran capacidad",
+        "Lo bastante pequeño como para llevarlo siempre en el maletero"
+      ],
+      "cons": [
+        "Inútil si te olvidas de cargarlo",
+        "El amperaje debe ser compatible con el tamaño de tu motor"
+      ]
+    },
+    {
+      "name": "Un inflador de neumáticos con manómetro",
+      "tag": "Seguridad y ahorro de combustible",
+      "body": "Los neumáticos poco inflados se desgastan más rápido, consumen más combustible, empeoran la conducción y es más probable que fallen. Y casi nadie los revisa una vez al mes como se recomienda, porque implica ir a una gasolinera. Un compresor en el maletero elimina esa pereza, y así sí se hace. Compra uno con preajuste digital que se apague automáticamente al alcanzar la presión deseada; los que tienes que vigilar se usan una vez y nunca más. Mide la presión en frío, antes de conducir, ya que un neumático caliente da una lectura más alta. Ten en cuenta que esto sirve para pinchazos lentos y presiones bajas, no para un reventón.",
+      "pros": [
+        "Elimina la pereza que impide revisar la presión",
+        "El apagado automático te permite despreocuparte",
+        "Se amortiza con lo que ahorras en neumáticos y combustible"
+      ],
+      "cons": [
+        "La presión debe medirse en frío o la lectura será incorrecta",
+        "No es una solución para un reventón"
+      ]
+    },
+    {
+      "name": "Una 'dashcam' con modo de aparcamiento",
+      "tag": "Un seguro que esperas no tener que usar nunca",
+      "body": "El valor de una 'dashcam' reside únicamente en ese incidente polémico en el que la grabación zanja la discusión sobre quién hizo qué. Compra una con condensador en lugar de batería de litio, porque el interior de un coche en verano se calienta lo suficiente como para degradar e hinchar una batería. 1440p es el mínimo práctico para poder leer una matrícula a distancia, que es de lo que se trata. Dos cosas que debes comprobar localmente: algunos países restringen la grabación de audio dentro del coche y varios regulan dónde se puede colocar un dispositivo en el parabrisas. El modo de aparcamiento necesita una instalación eléctrica fija para funcionar bien.",
+      "pros": [
+        "Zanja las discusiones en los incidentes de forma definitiva",
+        "Los modelos con condensador sobreviven al calor del verano",
+        "El modo de aparcamiento graba los golpes en los aparcamientos"
+      ],
+      "cons": [
+        "La grabación de audio y la colocación están reguladas en algunos países",
+        "El modo de aparcamiento requiere una instalación eléctrica fija"
+      ]
+    },
+    {
+      "name": "Un soporte para el móvil magnético o de rejilla",
+      "tag": "Seguridad, no comodidad",
+      "body": "Usar el móvil mientras se conduce es ilegal en la mayoría de los sitios y peligroso en todas partes, y un soporte a la altura de los ojos convierte la consulta del navegador en un vistazo en lugar de tener que bajar la mirada al regazo. Los soportes magnéticos permiten colocar el móvil con una sola mano, lo cual es importante, porque un soporte que requiere las dos manos va en contra de su propio propósito. Colócalo de forma que no obstruya la visión de la carretera; la colocación en el parabrisas está regulada en varios países. Si tu móvil tiene un anillo magnético incorporado, usa un soporte que lo aproveche; si no, una placa metálica debajo de la funda funciona perfectamente.",
+      "pros": [
+        "Mantiene la vista cerca de la carretera",
+        "Se coloca con una sola mano",
+        "Barato para lo que evita"
+      ],
+      "cons": [
+        "La colocación en el parabrisas está regulada en algunos países",
+        "Los soportes de rejilla se caen si las lamas son blandas"
+      ]
+    },
+    {
+      "name": "Un triángulo de emergencia reflectante y un chaleco de alta visibilidad",
+      "tag": "A menudo es obligatorio por ley",
+      "body": "En muchos países no son accesorios, sino equipamiento obligatorio por ley, y en varios te pueden multar por no llevarlos. Más allá de la cuestión legal, estar parado en el arcén por la noche con ropa oscura es una de las cosas más peligrosas que puede hacer un conductor, y un chaleco aumenta la distancia a la que se te ve por un margen enorme. Guarda el chaleco en el habitáculo, no en el maletero: el momento en que lo necesitas es antes de salir del coche, no después de haber caminado hasta la parte trasera por una calzada con tráfico.",
+      "pros": [
+        "Obligatorio por ley en muchos países",
+        "Aumenta drásticamente la distancia a la que se te ve",
+        "No cuesta casi nada"
+      ],
+      "cons": [
+        "Inútil en el maletero: el chaleco debe ir en el habitáculo",
+        "Los requisitos varían de un país a otro"
+      ]
+    },
+    {
+      "name": "Un cargador de móvil para el coche en condiciones",
+      "tag": "Donde lo barato supone un riesgo real",
+      "body": "Los cargadores de mechero que se venden en las gasolineras están entre los peores aparatos electrónicos que se pueden comprar, y se quedan permanentemente en una toma de corriente en un espacio cerrado donde nadie se daría cuenta si se sobrecalientan. Un cargador de marca con USB-C Power Delivery carga un móvil a toda velocidad mientras el navegador y la pantalla están funcionando, algo que uno barato no puede hacer, por lo que la batería se va agotando lentamente mientras está enchufado. Esta es una queja realmente común y desconcertante, y la causa es casi siempre el cargador, no el teléfono. Busca un sello de certificación de seguridad reconocido en el propio aparato, no solo en el embalaje. Merece la pena pagar un poco más por uno con dos puertos, porque el copiloto siempre te lo va a pedir, y de todos modos los coches más antiguos puede que no suministren suficiente corriente para usar ambos a la máxima velocidad.",
+      "pros": [
+        "De verdad carga mientras usas el navegador",
+        "Los de marca tienen una certificación de seguridad real",
+        "Dos puertos por un pequeño extra"
+      ],
+      "cons": [
+        "Los más baratos son un verdadero riesgo para la seguridad",
+        "Los coches más antiguos pueden no suministrar suficiente corriente"
+      ]
+    },
+    {
+      "name": "Alfombrillas de goma para todo tipo de clima",
+      "tag": "Protege el valor de reventa",
+      "body": "La moqueta del suelo lo absorbe todo y nunca se recupera del todo, y un interior manchado le resta un buen pellizco al precio de venta del coche. Las alfombrillas de goma con un borde elevado contienen el barro, la nieve derretida y el café derramado, y se limpian con una manguera en un minuto. Compra alfombrillas a medida para tu modelo específico en lugar de las universales: las de tipo universal se deslizan hacia delante y pueden engancharse en los pedales, lo que es un peligro real y la razón por la que existen los clips de sujeción. Comprueba que las tuyas encajen en los anclajes de fábrica y no puedan moverse.",
+      "pros": [
+        "Protege el valor de reventa de forma significativa",
+        "Se limpian con manguera en menos de un minuto",
+        "Contienen la nieve, el barro y los derrames"
+      ],
+      "cons": [
+        "Las alfombrillas universales pueden deslizarse y engancharse en los pedales",
+        "Las específicas para cada modelo cuestan más"
+      ]
+    },
+    {
+      "name": "Un organizador de maletero",
+      "tag": "Evita que todo ruede de un lado a otro",
+      "body": "Un organizador de tela plegable con divisores mantiene la compra en su sitio y evita que los objetos sueltos se deslicen por el maletero en cada rotonda, ese ruido que todo el mundo conoce. Los que tienen una base antideslizante o tiras de velcro se quedan quietos de verdad; los que no, se deslizan y se convierten en parte del problema que pretendían solucionar. Además, se pliega en segundos cuando necesitas todo el maletero para algo grande. Esto es un artículo de comodidad más que de seguridad, pero se gana su sitio porque se usa en cada viaje a la compra.",
+      "pros": [
+        "La compra llega de pie",
+        "Se pliega cuando necesitas todo el maletero",
+        "Se usa prácticamente en cada viaje"
+      ],
+      "cons": [
+        "Sin una base antideslizante, también se desliza",
+        "Ocupa espacio cuando no se necesita"
+      ]
+    },
+    {
+      "name": "Un juego de paños de microfibra y una toallita para pantallas",
+      "tag": "La mejora de visibilidad más barata",
+      "body": "La película de suciedad que se acumula en el interior del parabrisas dispersa mucho la luz de los faros de frente y el sol bajo, y la mayoría de los conductores solo se dan cuenta de lo mal que estaba después de limpiarlo. Un par de paños de microfibra guardados en la puerta no cuestan casi nada y mejoran la visibilidad nocturna más que cualquier mejora de las bombillas. Usa un paño para el cristal y otro para todo lo demás, porque un paño que haya tocado el abrillantador del salpicadero dejará manchas persistentes en el cristal. Limpia el interior del parabrisas más o menos una vez al mes y notarás la diferencia la primera vez que conduzcas con el sol de frente.",
+      "pros": [
+        "Mejora la visibilidad nocturna por casi nada de dinero",
+        "Mejor resultado que cambiar los faros",
+        "Lleva dos minutos al mes"
+      ],
+      "cons": [
+        "Un paño contaminado con abrillantador mancha mucho el cristal",
+        "Hay que lavarlos por separado del resto de la colada"
+      ]
+    },
+    {
+      "name": "Un parasol para el parabrisas",
+      "tag": "Un detalle importante en climas cálidos",
+      "body": "En un clima cálido, un coche aparcado alcanza temperaturas que hacen que los primeros diez minutos de cualquier viaje sean desagradables y que degradan visiblemente el salpicadero en pocos veranos: las grietas, la decoloración y la deformación son en gran medida consecuencia de los rayos UV y el calor. Un parasol reflectante mitiga lo peor por el precio de un par de cafés. El tipo que se pliega como un acordeón es mucho más fácil de guardar y desplegar que el que se pliega girándolo, con el que todo el mundo tiene problemas. Mide tu parabrisas; un parasol demasiado pequeño deja una franja caliente en el salpicadero y hace el trabajo a medias.",
+      "pros": [
+        "Habitáculo notablemente más fresco al volver",
+        "Retrasa el daño de los rayos UV en el salpicadero",
+        "Barato"
+      ],
+      "cons": [
+        "Los que se pliegan girándolos son difíciles de guardar",
+        "Un parasol demasiado pequeño deja una franja caliente"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué debería llevarse siempre en el maletero?",
+      "a": "Un arrancador de batería, un inflador de neumáticos, un triángulo de emergencia y un chaleco de alta visibilidad (este último en el habitáculo, no en el maletero). Esos cuatro elementos cubren las situaciones en las que no estar preparado te cuesta un día entero."
+    },
+    {
+      "q": "¿Son legales las 'dashcams' en todas partes?",
+      "a": "La cámara en sí suele serlo, pero la grabación de audio dentro del vehículo y el lugar donde se puede montar el dispositivo en el parabrisas están regulados de forma diferente en cada país. Consulta la normativa local antes de instalar una."
+    },
+    {
+      "q": "¿Con qué frecuencia debo revisar la presión de los neumáticos?",
+      "a": "Una vez al mes y antes de cualquier viaje largo, siempre con los neumáticos en frío. Es la tarea de mantenimiento rutinario del coche que más se pasa por alto y afecta a la seguridad, al consumo de combustible y a la duración de los neumáticos."
+    },
+    {
+      "q": "¿Qué accesorio para el coche no merece la pena comprar?",
+      "a": "Los ionizadores de aire y la mayoría de los aparatos 'purificadores', los masajeadores de asiento y las alfombrillas universales. Estas últimas son directamente peligrosas si se deslizan hasta los pedales. Las alfombrillas específicas para cada modelo cuestan más y son las únicas que merecen la pena."
+    }
+  ]
+}

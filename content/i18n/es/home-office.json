@@ -1,0 +1,172 @@
+{
+  "slug": "home-office",
+  "title": "Pon a punto el escritorio donde pasas cuarenta horas a la semana",
+  "dek": "Invierte en los elementos que están en contacto con tu cuerpo. Todo lo demás en esta página es opcional, y te decimos qué lo es y qué no.",
+  "category": "Oficina en casa",
+  "how_we_pick": "Priorizamos la investigación ergonómica, las pruebas de durabilidad publicadas y las opiniones de usuarios a largo plazo por encima de los premios de diseño. No hemos usado personalmente cada artículo de esta lista durante un año laboral completo. Cuando la recomendación honesta es comprar de segunda mano o no gastar nada, lo decimos claramente: una pila de libros debajo del portátil soluciona el mismo problema que un soporte, y preferimos decirte eso antes que venderte uno.",
+  "intro": [
+    "Hay una regla sencilla para gastar dinero en un puesto de trabajo: prioriza los elementos que tocan tu cuerpo. La silla, el teclado, el ratón y la altura de la pantalla con respecto a tus ojos. Esos cuatro elementos deciden si terminas el día con dolores. Todo lo demás es comodidad o estética.",
+    "El error que comete la mayoría de la gente es invertir el orden: un monitor espectacular y una alfombrilla preciosa sobre una silla de comedor. Seis meses después, aparece el dolor de cuello y no hay resolución de pantalla que lo arregle.",
+    "Los precios son aproximados en el momento de escribir este artículo. El mobiliario de oficina, en particular, tiene un mercado de segunda mano muy potente, y te indicamos cuándo comprar usado es la opción más inteligente."
+  ],
+  "products": [
+    {
+      "name": "Una Herman Miller Aeron o Steelcase Leap de segunda mano",
+      "tag": "Invierte en esto primero",
+      "body": "La silla es la compra más importante, y lo más inteligente es comprar una excelente de segunda mano en lugar de una mediocre nueva. Estas sillas se fabricaron para durar doce años en entornos comerciales, se vendieron en cantidades enormes a oficinas que ya no existen, y las unidades reacondicionadas suelen costar un tercio de su precio original con las piezas importantes sustituidas. Por lo que pagas es por la capacidad de ajuste: profundidad del asiento, altura y ángulo de los brazos, y un soporte lumbar real que se adapta a la forma de tu espalda. Si es posible, siéntate en una antes de comprarla, porque la Aeron viene en tres tallas y una talla incorrecta es peor que una silla barata.",
+      "pros": [
+        "Diseñadas para más de una década de uso diario",
+        "Gran capacidad de ajuste para adaptarse a tu cuerpo, no a un promedio",
+        "El precio de segunda mano la hace realmente asequible"
+      ],
+      "cons": [
+        "La talla es importante: pruébala antes de comprar si puedes",
+        "La calidad del reacondicionamiento varía mucho entre vendedores"
+      ]
+    },
+    {
+      "name": "Un brazo para monitor",
+      "tag": "La mejor corrección postural por tu dinero",
+      "body": "La mayoría de los soportes de monitor colocan la pantalla demasiado baja, lo que te obliga a mirar ligeramente hacia abajo todo el día y a forzar el cuello hacia adelante. Un brazo te permite situar la parte superior de la pantalla a la altura de los ojos, que es donde debe estar, y libera el espacio del escritorio. Comprueba dos datos antes de comprar: el estándar VESA de tu monitor y su peso, porque un brazo con un muelle de gas para menos peso se irá venciendo a lo largo del día. Si tu escritorio es grueso o de cristal, confirma que la abrazadera es compatible. Es una solución barata para un problema que sale caro si lo ignoras.",
+      "pros": [
+        "Coloca la pantalla a la altura correcta, de forma permanente",
+        "Libera la superficie del escritorio",
+        "Barato en comparación con el problema que previene"
+      ],
+      "cons": [
+        "Debe ser compatible con el estándar VESA y el peso de la pantalla",
+        "Las abrazaderas no se ajustan a todos los bordes de escritorio"
+      ]
+    },
+    {
+      "name": "Un monitor de 27 pulgadas y 1440p",
+      "tag": "La opción ideal",
+      "body": "Este tamaño y resolución es el punto ideal para trabajar: el texto se ve nítido sin necesidad de escalado y puedes poner dos documentos uno al lado del otro sin problemas. Pasar a 4K en 27 pulgadas implica usar una resolución escalada de todos modos, así que pagas por píxeles que luego desperdicias. Si tu portátil es compatible, elige un modelo con carga por USB-C: un solo cable transmite vídeo, datos y energía, y el ritual diario de conectar y desconectar se convierte en un único gesto. A este tamaño, olvídate de las pantallas curvas; merecen la pena a partir de 34 pulgadas, no antes.",
+      "pros": [
+        "Texto nítido sin los inconvenientes del escalado",
+        "Los modelos con USB-C reducen los cables a uno solo",
+        "Un mercado amplio y competitivo mantiene los precios bajos"
+      ],
+      "cons": [
+        "El 4K a este tamaño es un desperdicio en gran medida",
+        "Los paneles baratos varían mucho en la uniformidad del color"
+      ]
+    },
+    {
+      "name": "Altavoz manos libres Anker PowerConf o Jabra Speak",
+      "tag": "La mejor mejora para la calidad de las llamadas",
+      "body": "Los micrófonos de los portátiles están junto al ventilador y apuntan al techo, por eso en las llamadas se te oye lejano y con eco. Un altavoz manos libres dedicado con micrófonos direccionales y cancelación de eco soluciona eso con una sola compra y, a diferencia de unos auriculares de diadema, no te aprieta la cabeza durante seis horas. Si pasas el día en llamadas, esto cambia la percepción que los demás tienen de ti más que cualquier mejora de la cámara. Si tienes dos llamadas a la semana, unos auriculares de cable con micrófono integrado ya solucionan la mayor parte del problema por casi nada de dinero.",
+      "pros": [
+        "Elimina el eco y el sonido hueco del micrófono del portátil",
+        "Sin la presión de los auriculares en jornadas largas",
+        "Fácil de transportar para llamadas desde un hotel"
+      ],
+      "cons": [
+        "Excesivo si rara vez tienes llamadas",
+        "Capta el ruido ambiente en un espacio compartido"
+      ]
+    },
+    {
+      "name": "Una lámpara de escritorio con temperatura de color ajustable",
+      "tag": "La más infravalorada",
+      "body": "Trabajar solo con el brillo del monitor en una habitación a oscuras es lo que hace que las tardes sean agotadoras: el contraste entre una pantalla brillante y un entorno oscuro es realmente cansado para la vista. Una lámpara que ilumine la pared y el escritorio alrededor de la pantalla elimina ese contraste. La temperatura de color ajustable es importante porque la luz fría por la mañana y la cálida por la noche se adaptan mejor a cómo funciona tu atención. Colócala a un lado en lugar de detrás de ti, o te pasarás el día viendo su reflejo en tu propia pantalla.",
+      "pros": [
+        "Reduce la fatiga visual de trabajar con la pantalla a oscuras",
+        "La luz cálida por la tarde facilita el trabajo",
+        "Te da más libertad con la iluminación del techo"
+      ],
+      "cons": [
+        "Una mala colocación crea reflejos en la pantalla",
+        "Los LED baratos parpadean y reproducen mal el color"
+      ]
+    },
+    {
+      "name": "Un soporte para portátil, o una pila de libros",
+      "tag": "La solución más barata de la página",
+      "body": "Un portátil te obliga a una solución de compromiso imposible: si pones la pantalla a la altura correcta, el teclado queda en el aire; si pones el teclado a la altura correcta, te pasas el día mirando hacia abajo. Elevar el portátil y añadir un teclado y un ratón externos lo resuelve por completo. Un soporte de aluminio es elegante y fácil de transportar, pero unos libros funcionan exactamente igual de bien ergonómicamente y no cuestan nada: a la física no le importa qué sujeta la pantalla. Compra el soporte si valoras la estética o necesitas llevarlo contigo; si no, invierte ese dinero en el teclado, que es la parte de la solución que sí cuesta dinero.",
+      "pros": [
+        "Soluciona por completo el dolor de cuello por el portátil",
+        "La versión gratuita funciona igual de bien",
+        "Mejora el flujo de aire y la refrigeración como efecto secundario"
+      ],
+      "cons": [
+        "Solo funciona con un teclado y un ratón externos",
+        "Otra cosa que cargar si te desplazas"
+      ]
+    },
+    {
+      "name": "Una alfombrilla antifatiga (si tienes un escritorio elevable)",
+      "tag": "Solo si de verdad trabajas de pie",
+      "body": "Estar de pie sobre un suelo duro durante horas es malo a su manera, y es la razón por la que la mayoría de los escritorios elevables se convierten silenciosamente en escritorios normales en menos de un mes. Una alfombrilla acolchada te permite cambiar de peso y moverte, que es la clave: el beneficio de estar de pie viene del movimiento, no de la rigidez. Cómprala solo cuando lleves suficiente tiempo con un escritorio elevable como para saber que lo usas. Si aún te lo estás pensando, ten en cuenta que los estudios sobre estos escritorios son mucho más modestos de lo que sugiere el marketing: alternar posturas ayuda, pero estar de pie como una estatua todo el día no.",
+      "pros": [
+        "Hace que las sesiones de trabajo de pie sean realmente sostenibles",
+        "Fomenta el movimiento que aporta el beneficio",
+        "Barata en comparación con el escritorio que la acompaña"
+      ],
+      "cons": [
+        "Inútil sin un escritorio elevable",
+        "Estorba cuando vuelves a sentarte"
+      ]
+    },
+    {
+      "name": "Bandeja para cables y bridas reutilizables",
+      "tag": "Poco esfuerzo, resultado permanente",
+      "body": "Este es el artículo menos interesante de la lista y, a la vez, el que la gente más se alegra de haber comprado. Una bandeja bajo el escritorio levanta la regleta y los cables sueltos del suelo, lo que te permite pasar la aspiradora, mover el escritorio sin desenchufarlo todo y dejar de darle patadas al cargador del portátil. Usa bridas de velcro reutilizables en lugar de las de plástico, porque tu configuración cambiará y tener que cortar una brida cada vez es la forma más rápida de que el desorden vuelva. Media hora, una sola vez, y el problema desaparece durante años.",
+      "pros": [
+        "Te permite limpiar bien debajo del escritorio",
+        "Mueve el escritorio sin tener que desenchufarlo todo",
+        "Un trabajo de una sola vez que dura años"
+      ],
+      "cons": [
+        "La instalación es un poco engorrosa y lleva media hora",
+        "Las bandejas de pinza no sirven para todos los escritorios"
+      ]
+    },
+    {
+      "name": "Un escritorio de oficina de segunda mano, o un tablero de puerta con patas",
+      "tag": "Dónde no gastar de más",
+      "body": "El escritorio es una superficie plana a la altura correcta. No hace casi nada que no pueda hacer uno barato, lo que lo convierte en el lugar ideal para ahorrar dinero y destinarlo a la silla. Lo que de verdad importa es el fondo (al menos 70 cm para que el monitor quede lo bastante lejos) y la rigidez, porque un escritorio que se tambalea al teclear es desesperante. Los escritorios de oficina de segunda mano abundan, son extremadamente sólidos y se venden baratos porque son difíciles de transportar. Las estructuras elevables eléctricas son la única mejora por la que vale la pena pagar, y solo si de verdad las vas a usar.",
+      "pros": [
+        "Un ahorro enorme frente a un escritorio de diseño",
+        "Los modelos de oficina son extremadamente rígidos",
+        "El dinero ahorrado va a la silla, que es lo que importa"
+      ],
+      "cons": [
+        "Incómodos de recoger y transportar",
+        "Los tableros de segunda mano suelen tener marcas estéticas"
+      ]
+    },
+    {
+      "name": "Una webcam dedicada, solo si usas el portátil con la tapa cerrada",
+      "tag": "Compra condicional",
+      "body": "Sé honesto sobre si necesitas esto. Las cámaras de los portátiles modernos son decentes, y si tienes el portátil abierto delante de ti, la que viene integrada es suficiente. El único caso real es cuando el portátil está cerrado y conectado a un dock o a un brazo; entonces no tienes cámara a la altura de los ojos, y una webcam de pinza es la única solución. Si decides comprar una, la iluminación mejorará tu imagen mucho más que la resolución del sensor: una ventana o una lámpara delante de ti siempre le ganará a una cámara cara en una habitación oscura.",
+      "pros": [
+        "La única solución si usas el portátil cerrado o en un soporte",
+        "Coloca la cámara a la altura de los ojos",
+        "Mejor óptica que la mayoría de las cámaras integradas"
+      ],
+      "cons": [
+        "Realmente innecesaria si tienes el portátil abierto",
+        "La iluminación importa mucho más que la cámara"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿En qué orden conviene comprar las cosas?",
+      "a": "Primero la silla, luego la altura de la pantalla, después el teclado y el ratón, y por último todo lo demás. Ese orden se basa en cuánto afecta cada elemento a tu cuerpo a lo largo de un año de trabajo."
+    },
+    {
+      "q": "¿Merecen la pena los escritorios elevables?",
+      "a": "Alternar entre estar sentado y de pie es mejor que cualquiera de las dos posturas por sí sola, pero los beneficios para la salud son mucho menores de lo que sugiere el marketing. Si un escritorio elevable se te va de presupuesto, un temporizador que te recuerde que te levantes te da la mayor parte del beneficio gratis."
+    },
+    {
+      "q": "¿Un monitor grande o dos más pequeños?",
+      "a": "Dos pantallas si constantemente consultas una cosa mientras trabajas en otra. Una pantalla panorámica si lo que quieres es más espacio en una sola aplicación. Para el trabajo de oficina, dos pantallas suelen ser la opción más flexible."
+    },
+    {
+      "q": "¿De verdad merece la pena una silla cara si solo teletrabajo dos días a la semana?",
+      "a": "Entonces, cómprala de segunda mano en lugar de nueva. Una silla de oficina reacondicionada por un tercio de su precio es la respuesta correcta para un uso a tiempo parcial: obtienes toda la capacidad de ajuste sin pagar por una garantía que apenas vas a usar."
+    }
+  ]
+}

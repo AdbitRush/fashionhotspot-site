@@ -2,9 +2,7 @@
   "slug": "fitness",
   "category": "Fitness",
   "title": "Home Gym Kit for People Who Will Actually Use It",
-  "title_he": "ציוד לחדר כושר ביתי בשביל אנשים שבאמת ישתמשו בו",
   "dek": "Ordered by how likely each piece is to still be in use next year, rather than by how good it looks in a garage.",
-  "dek_he": "מסודר לפי הסיכוי שכל פריט עדיין יהיה בשימוש בשנה הבאה, ולא לפי כמה טוב הוא נראה במחסן.",
   "hero_image": "a bright corner of a home with a yoga mat unrolled, a pair of adjustable dumbbells and resistance bands on a wooden floor",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -14,170 +12,195 @@
     "One honest note before the list. None of this is medical advice, and if you have an injury, a heart condition or are returning to exercise after a long break, a professional who can see you is worth more than anything on this page.",
     "Prices are approximate at the time of writing."
   ],
-  "intro_he": [
-    "אופן הכישלון של ציוד כושר ביתי הוא לא שהוא נשבר. זה שהוא הופך למתלה בגדים. כל הליכון שלא בשימוש נקנה בידי מישהו עם מוטיבציה אמיתית, ומה שהביס אותו היה חיכוך: זמן הקמה, מקום, רעש, או פריט שעושה רק דבר אחד.",
-    "לכן הסדר כאן הוא לפי הסיכוי להמשך שימוש ולא לפי יכולת. הפריטים הזולים, שנמצאים תמיד מול העיניים ומוכנים תוך שלושים שניות, נמצאים למעלה בכוונה, כי ציוד שאפשר להתחיל להשתמש בו תוך חצי דקה הוא ציוד שעדיין תשתמשו בו בעוד שנה.",
-    "הערה כנה אחת לפני הרשימה. שום דבר כאן אינו ייעוץ רפואי, ואם יש לכם פציעה, בעיה לבבית או שאתם חוזרים לפעילות אחרי הפסקה ארוכה, איש מקצוע שרואה אתכם שווה יותר מכל דבר בעמוד הזה.",
-    "המחירים הם הערכה נכון לזמן הכתיבה."
-  ],
   "how_we_pick": "We favour equipment that is versatile, quiet enough for a flat, quick to set up and hard to break. We draw on published equipment testing, coaching practice and long-run owner reports, and we have not personally trained with every item here. Where the honest answer is that you do not need to buy anything, we say so — several of the most effective things you can do at home cost nothing at all.",
-  "how_we_pick_he": "אנחנו מעדיפים ציוד רב-תכליתי, שקט מספיק לדירה, מהיר להקמה וקשה לשבירה. אנחנו נשענים על בדיקות ציוד שפורסמו, על נוהג אימוני ועל דיווחים של בעלים לאורך זמן, ולא התאמנו בעצמנו עם כל פריט כאן. איפה שהתשובה הכנה היא שאתם לא צריכים לקנות כלום, נגיד את זה — כמה מהדברים היעילים ביותר שאפשר לעשות בבית לא עולים כלום.",
   "products": [
     {
       "name": "A set of resistance bands with handles",
-      "name_he": "סט גומיות התנגדות עם ידיות",
       "tag": "Highest chance you keep using it",
-      "tag_he": "הסיכוי הגבוה ביותר שתמשיכו להשתמש",
       "price": "$25–50",
       "search": "resistance bands set with handles door anchor",
       "image": "a set of coloured resistance bands with foam handles and a door anchor laid out on a wooden floor",
       "body": "Bands are top of this list for one reason: they remove every excuse. They cost less than a month of gym membership, live in a drawer, weigh nothing in a suitcase, and set up in about ten seconds. With a door anchor you can pull, press and row through most of the movement patterns a cable machine offers. The resistance curve is different from free weights — hardest at full stretch rather than constant — which suits some exercises and suits others less well. They also perish eventually, so check for nicks near the handles and replace them before one snaps back at you.",
-      "body_he": "גומיות נמצאות בראש הרשימה מסיבה אחת: הן מסלקות כל תירוץ. הן עולות פחות מחודש מנוי לחדר כושר, חיות במגירה, לא שוקלות כלום במזוודה, ומוכנות תוך עשר שניות בערך. עם עוגן לדלת אפשר למשוך, לדחוף ולחתור דרך רוב דפוסי התנועה שמכונת כבלים מציעה. עקומת ההתנגדות שונה ממשקולות חופשיות — הכי קשה במתיחה מלאה ולא קבועה — וזה מתאים לחלק מהתרגילים ופחות לאחרים. הן גם מתבלות עם הזמן, אז בדקו חתכים ליד הידיות והחליפו אותן לפני שאחת תיקרע לכם חזרה.",
-      "pros": ["Cheapest way to train the whole body", "Packs into a drawer or a suitcase", "Ten-second setup removes the main excuse"],
-      "cons": ["Resistance curve differs from free weights", "Rubber perishes — inspect regularly and replace"]
+      "pros": [
+        "Cheapest way to train the whole body",
+        "Packs into a drawer or a suitcase",
+        "Ten-second setup removes the main excuse"
+      ],
+      "cons": [
+        "Resistance curve differs from free weights",
+        "Rubber perishes — inspect regularly and replace"
+      ]
     },
     {
       "name": "Adjustable dumbbells (Bowflex, NÜOBELL or similar)",
-      "name_he": "משקולות יד מתכווננות מסוג Bowflex או NÜOBELL",
       "tag": "Best single purchase",
-      "tag_he": "הרכישה הבודדת הטובה ביותר",
       "price": "$300–550",
       "search": "adjustable dumbbells 50lb pair quick change",
       "image": "a pair of modern adjustable dumbbells sitting in their cradles on a wooden floor",
       "body": "One pair of adjustable dumbbells replaces about fifteen pairs of fixed ones and the rack to hold them, which is the difference between a home gym that fits in a corner and one that needs a room. That space saving is the whole argument, and it is a strong one. Two practical warnings. First, they do not like being dropped — the adjustment mechanism is the fragile part, so these suit controlled training rather than heavy sets taken to failure. Second, check the dial speed: the ones that change weight in a second get used for drop sets, the ones that take fifteen seconds quietly do not.",
-      "body_he": "זוג אחד של משקולות מתכווננות מחליף בערך חמישה-עשר זוגות קבועים ואת המתקן שמחזיק אותם, וזה ההבדל בין חדר כושר ביתי שנכנס בפינה לבין כזה שדורש חדר. חיסכון המקום הזה הוא כל הטיעון, והוא טיעון חזק. שתי אזהרות מעשיות. ראשית, הן לא אוהבות שמפילים אותן — מנגנון הכוונון הוא החלק השברירי, אז הן מתאימות לאימון מבוקר ולא לסטים כבדים עד כישלון. שנית, בדקו את מהירות ההחלפה: אלה שמחליפות משקל בשנייה משמשות לסטים יורדים, ואלה שלוקח להן חמש-עשרה שניות פשוט לא.",
-      "pros": ["Replaces a whole rack in one footprint", "Covers most strength work at home", "Holds resale value well"],
-      "cons": ["Mechanism is damaged by dropping", "Slow-adjusting models discourage certain training styles"]
+      "pros": [
+        "Replaces a whole rack in one footprint",
+        "Covers most strength work at home",
+        "Holds resale value well"
+      ],
+      "cons": [
+        "Mechanism is damaged by dropping",
+        "Slow-adjusting models discourage certain training styles"
+      ]
     },
     {
       "name": "A proper thick exercise mat",
-      "name_he": "מזרן אימון עבה ואיכותי",
       "tag": "Cheap and used constantly",
-      "tag_he": "זול ובשימוש מתמיד",
       "price": "$30–70",
       "search": "thick exercise mat non slip 10mm",
       "image": "a rolled and partly unrolled dark exercise mat on a light wooden floor beside a window",
       "body": "A mat is what turns any floor into a place you are willing to lie down on, and that is most of the battle for stretching, core work and rehab exercises. Thickness is the spec that matters — the thin yoga mats sold everywhere are miserable for anything involving your spine or knees pressing into the floor. Around 10mm is the sweet spot for general training. It also does real work absorbing noise, which matters more than people expect if you have neighbours below and train early in the morning.",
-      "body_he": "מזרן הוא מה שהופך כל רצפה למקום שאתם מוכנים לשכב עליו, וזה רוב הקרב בכל מה שקשור למתיחות, לעבודת ליבה ולתרגילי שיקום. העובי הוא המפרט שמשנה — מזרני היוגה הדקים שנמכרים בכל מקום איומים לכל דבר שכולל עמוד שדרה או ברכיים שנלחצים לרצפה. בערך 10 מילימטר זו נקודת האיזון לאימון כללי. הוא גם עושה עבודה אמיתית בבליעת רעש, וזה חשוב יותר ממה שאנשים מצפים אם יש לכם שכנים מלמטה ואתם מתאמנים מוקדם בבוקר.",
-      "pros": ["Makes floor work genuinely comfortable", "Absorbs noise for downstairs neighbours", "Rolls away in seconds"],
-      "cons": ["Thin yoga mats are a false economy here", "Cheap foam compresses and smells at first"]
+      "pros": [
+        "Makes floor work genuinely comfortable",
+        "Absorbs noise for downstairs neighbours",
+        "Rolls away in seconds"
+      ],
+      "cons": [
+        "Thin yoga mats are a false economy here",
+        "Cheap foam compresses and smells at first"
+      ]
     },
     {
       "name": "A doorway pull-up bar",
-      "name_he": "מוט מתח לפתח דלת",
       "tag": "Most strength per shekel",
-      "tag_he": "הכי הרבה כוח לכל שקל",
       "price": "$30–60",
       "search": "doorway pull up bar no screws",
       "image": "a black steel pull-up bar fitted in a white doorway in a bright hallway",
       "body": "There is no cheaper way to build upper body pulling strength, and pulling is the half of training that home setups usually neglect entirely. A bar in a doorway you walk through several times a day also creates the best habit mechanism there is — a few reps every time you pass. Fit is the thing to get right: measure your door frame width and depth, and check the frame is solid rather than hollow plasterboard. Leverage-mounted bars press hard against the frame above, so inspect the trim occasionally for marks, and never mount one over a staircase.",
-      "body_he": "אין דרך זולה יותר לבנות כוח משיכה בפלג גוף עליון, ומשיכה היא החצי של האימון שעמדות ביתיות בדרך כלל מזניחות לגמרי. מוט בפתח דלת שאתם עוברים בו כמה פעמים ביום גם יוצר את מנגנון ההרגל הטוב ביותר שקיים — כמה חזרות בכל מעבר. ההתאמה היא מה שחשוב לדייק בו: מדדו את רוחב ועומק המשקוף, ובדקו שהמסגרת מוצקה ולא גבס חלול. מוטות שנתלים בעיקרון המנוף לוחצים חזק על המשקוף מלמעלה, אז בדקו מדי פעם סימנים על הציפוי, ולעולם אל תתקינו מוט מעל גרם מדרגות.",
-      "pros": ["Unmatched value for upper body strength", "Encourages frequent small sets through the day", "Stores flat or stays mounted"],
-      "cons": ["Needs a solid, correctly sized door frame", "Can mark or dent the frame over time"]
+      "pros": [
+        "Unmatched value for upper body strength",
+        "Encourages frequent small sets through the day",
+        "Stores flat or stays mounted"
+      ],
+      "cons": [
+        "Needs a solid, correctly sized door frame",
+        "Can mark or dent the frame over time"
+      ]
     },
     {
       "name": "A jump rope",
-      "name_he": "חבל קפיצה",
       "tag": "Best cardio in the smallest space",
-      "tag_he": "האימון האירובי הטוב ביותר במקום הכי קטן",
       "price": "$15–35",
       "search": "speed jump rope adjustable ball bearing",
       "image": "a coiled speed jump rope with weighted handles on a concrete floor",
       "body": "Ten minutes of skipping is a serious cardiovascular session, and the equipment costs less than a single spin class and fits in a pocket. It also builds calf resilience and coordination in a way running on a treadmill does not. The honest constraints: you need about two and a half metres of ceiling height, a forgiving surface, and downstairs neighbours who are either out or tolerant. It is also genuinely hard at first — expect to whip your shins for the first week, and adjust the rope so the handles reach your armpits when you stand on the middle.",
-      "body_he": "עשר דקות קפיצה בחבל הן אימון קרדיו רציני, והציוד עולה פחות משיעור ספינינג אחד ונכנס לכיס. הוא גם בונה חוסן בשרירי השוק וקואורדינציה בצורה שריצה על הליכון לא עושה. האילוצים הכנים: אתם צריכים בערך שני מטר וחצי גובה תקרה, משטח סלחני, ושכנים מלמטה שאינם בבית או שהם סובלניים. זה גם באמת קשה בהתחלה — צפו להצליף לעצמכם בשוקיים בשבוע הראשון, וכווננו את החבל כך שהידיות יגיעו לבתי השחי כשאתם עומדים על אמצעו.",
-      "pros": ["Serious cardio in ten minutes", "Fits in a pocket, costs almost nothing", "Builds coordination and lower-leg resilience"],
-      "cons": ["Needs ceiling height and tolerant neighbours", "Real learning curve in the first week"]
+      "pros": [
+        "Serious cardio in ten minutes",
+        "Fits in a pocket, costs almost nothing",
+        "Builds coordination and lower-leg resilience"
+      ],
+      "cons": [
+        "Needs ceiling height and tolerant neighbours",
+        "Real learning curve in the first week"
+      ]
     },
     {
       "name": "A kettlebell (16kg or 12kg to start)",
-      "name_he": "קטלבל (16 או 12 קילו להתחלה)",
       "tag": "One object, whole-body work",
-      "tag_he": "חפץ אחד, אימון לכל הגוף",
       "price": "$50–110",
       "search": "cast iron kettlebell 16kg",
       "image": "a single black cast iron kettlebell standing on a wooden floor in soft light",
       "body": "A kettlebell is unusually good value because the offset handle makes swings, cleans and get-ups possible — movements that train the whole posterior chain and your conditioning at the same time. One bell is a complete programme for a beginner. It is also indestructible, silent, takes up the space of a shoebox, and will be worth roughly what you paid if you sell it in five years. The important caveat is technique: the swing is a hip hinge, not a squat or a lift with the arms, and doing it wrong is a well-known way to hurt your lower back. Learn the hinge before you add speed.",
-      "body_he": "קטלבל הוא תמורה טובה במיוחד כי הידית הלא מרוכזת מאפשרת סווינגים, קלינים ותרגילי קימה — תנועות שמאמנות את כל השרשרת האחורית ואת הכושר האירובי בו זמנית. פעמון אחד הוא תוכנית מלאה למתחיל. הוא גם בלתי ניתן להריסה, שקט, תופס מקום של קופסת נעליים, ויהיה שווה בערך את מה ששילמתם עליו אם תמכרו אותו בעוד חמש שנים. ההסתייגות החשובה היא טכניקה: הסווינג הוא כיפוף מפרק הירך ולא סקוואט ולא הרמה עם הידיים, ולעשות אותו לא נכון זו דרך מוכרת היטב לפגוע בגב התחתון. תלמדו את הכיפוף לפני שתוסיפו מהירות.",
-      "pros": ["One object covers strength and conditioning", "Effectively indestructible and silent", "Holds its resale value"],
-      "cons": ["Swing technique genuinely matters for your back", "One fixed weight limits progression"]
+      "pros": [
+        "One object covers strength and conditioning",
+        "Effectively indestructible and silent",
+        "Holds its resale value"
+      ],
+      "cons": [
+        "Swing technique genuinely matters for your back",
+        "One fixed weight limits progression"
+      ]
     },
     {
       "name": "A foam roller",
-      "name_he": "רולר קצף",
       "tag": "Good, with modest expectations",
-      "tag_he": "טוב, עם ציפיות מתונות",
       "price": "$25–50",
       "search": "high density foam roller 90cm",
       "image": "a textured black foam roller lying on a light exercise mat",
       "body": "Rolling out tight muscles reliably makes people feel better and move more freely in the short term, and it costs very little. What it does not do is any of the deeper things it is often marketed for — it does not break down scar tissue or lengthen muscle permanently, and the evidence on it preventing injury is thin. Judge it as a pleasant, cheap way to loosen up before training and feel less stiff afterwards, and it is genuinely worth owning. Judge it as therapy and you will be disappointed. Get a long one, since a 90cm roller lets you lie along your spine as well as roll your legs.",
-      "body_he": "גלגול שרירים תפוסים גורם לאנשים להרגיש טוב יותר ולנוע בחופשיות רבה יותר בטווח הקצר, והוא עולה מעט מאוד. מה שהוא לא עושה זה את הדברים העמוקים יותר שמשווקים בשמו — הוא לא מפרק רקמת צלקת ולא מאריך שריר לצמיתות, והראיות לכך שהוא מונע פציעות דלות. תשפטו אותו כדרך נעימה וזולה להתרכך לפני אימון ולהרגיש פחות תפוסים אחריו, וכך הוא באמת שווה החזקה. תשפטו אותו כטיפול ותתאכזבו. קחו רולר ארוך, כי אורך של 90 סנטימטר מאפשר לשכב לאורך עמוד השדרה ולא רק לגלגל רגליים.",
-      "pros": ["Cheap, and genuinely feels good", "Useful warm-up and cool-down tool", "Nothing to break or maintain"],
-      "cons": ["Marketing claims outrun the evidence", "Uncomfortable on very tight muscles at first"]
+      "pros": [
+        "Cheap, and genuinely feels good",
+        "Useful warm-up and cool-down tool",
+        "Nothing to break or maintain"
+      ],
+      "cons": [
+        "Marketing claims outrun the evidence",
+        "Uncomfortable on very tight muscles at first"
+      ]
     },
     {
       "name": "A chest-strap heart rate monitor",
-      "name_he": "מד דופק חזה",
       "tag": "Best data for the money",
-      "tag_he": "הנתונים הטובים ביותר ביחס למחיר",
       "price": "$50–95",
       "search": "chest strap heart rate monitor bluetooth ANT+",
       "image": "a slim black heart rate chest strap coiled on a pale surface beside a phone",
       "body": "Wrist-based heart rate is convincing at rest and unreliable during intervals, which is exactly when the number matters. A chest strap reads the electrical signal directly and is close to lab-accurate, and it pairs with essentially any app or machine over Bluetooth. The value is not the number itself but what it stops you doing: most people train their easy sessions too hard and their hard sessions too easy, and seeing the number in real time is the simplest fix for that. It is less comfortable than a watch, and the strap needs rinsing or it starts to smell.",
-      "body_he": "מדידת דופק מפרק היד משכנעת במנוחה ולא אמינה במקטעים אינטנסיביים, וזה בדיוק כשהמספר חשוב. רצועת חזה קוראת את האות החשמלי ישירות והיא קרובה לדיוק מעבדתי, והיא מתחברת כמעט לכל אפליקציה או מכשיר דרך בלוטות'. הערך הוא לא המספר עצמו אלא מה שהוא מונע מכם: רוב האנשים מתאמנים חזק מדי באימונים הקלים וקל מדי באימונים הקשים, וראיית המספר בזמן אמת היא הפתרון הפשוט ביותר לזה. היא פחות נוחה משעון, והרצועה דורשת שטיפה אחרת היא מתחילה להריח.",
-      "pros": ["Far more accurate than wrist sensors under load", "Works with almost any app or machine", "Stops you training every session at the same intensity"],
-      "cons": ["Less comfortable than a watch", "Strap needs rinsing after every use"]
+      "pros": [
+        "Far more accurate than wrist sensors under load",
+        "Works with almost any app or machine",
+        "Stops you training every session at the same intensity"
+      ],
+      "cons": [
+        "Less comfortable than a watch",
+        "Strap needs rinsing after every use"
+      ]
     },
     {
       "name": "A cheap timer or interval app",
-      "name_he": "טיימר זול או אפליקציית אינטרוולים",
       "tag": "Costs nothing, changes everything",
-      "tag_he": "לא עולה כלום, משנה הכול",
       "price": "$0–25",
       "search": "gym interval timer",
       "image": "a small digital interval timer standing on a shelf beside a water bottle",
       "body": "The difference between wandering around your flat between sets and finishing a session in thirty focused minutes is almost entirely a timer. Fixed rest intervals keep intensity honest, stop you scrolling your phone between sets, and turn a vague intention into a session with an end. A free phone app does this perfectly well, so treat the money as optional — a dedicated timer is worth it only because it keeps the phone out of your hand, which for many people is the actual benefit being purchased here.",
-      "body_he": "ההבדל בין להסתובב בדירה בין סטים לבין לסיים אימון בשלושים דקות ממוקדות הוא כמעט לגמרי טיימר. מנוחות קבועות שומרות על עצימות כנה, מונעות מכם לגלול בטלפון בין סטים, והופכות כוונה מעורפלת לאימון עם סוף. אפליקציה חינמית בטלפון עושה את זה מצוין, אז תתייחסו לכסף כרשות — טיימר ייעודי שווה את זה רק כי הוא משאיר את הטלפון מחוץ ליד, ובשביל הרבה אנשים זו התועלת האמיתית שנקנית כאן.",
-      "pros": ["Free version works perfectly", "Keeps sessions short and honest", "Removes the phone from your hand"],
-      "cons": ["Nothing to buy, really", "Dedicated units are a want, not a need"]
+      "pros": [
+        "Free version works perfectly",
+        "Keeps sessions short and honest",
+        "Removes the phone from your hand"
+      ],
+      "cons": [
+        "Nothing to buy, really",
+        "Dedicated units are a want, not a need"
+      ]
     },
     {
       "name": "A folding exercise bike or rowing machine",
-      "name_he": "אופני כושר מתקפלים או מכונת חתירה",
       "tag": "Buy last, and buy used",
-      "tag_he": "לקנות אחרון, ולקנות יד שנייה",
       "price": "$200–900",
       "search": "folding exercise bike magnetic resistance",
       "image": "a compact folding exercise bike beside a window in a bright room",
       "body": "Big cardio machines are last on this list because they are the most commonly abandoned. They are expensive, they dominate a room, and they do one thing. That said, if bad weather or small children genuinely stop you leaving the house, a machine at home is the difference between training and not training, and then it is worth every shekel. Two pieces of advice. Buy second-hand, because the depreciation on these is brutal and the used market is full of barely-touched examples for exactly the reason described above. And choose magnetic resistance for quietness if you live in a flat.",
-      "body_he": "מכונות קרדיו גדולות נמצאות בסוף הרשימה כי הן הכי נזנחות. הן יקרות, הן משתלטות על חדר, והן עושות דבר אחד. עם זאת, אם מזג אוויר גרוע או ילדים קטנים באמת מונעים מכם לצאת מהבית, מכונה בבית היא ההבדל בין להתאמן לבין לא להתאמן, ואז היא שווה כל שקל. שתי עצות. תקנו יד שנייה, כי הפחת על אלה אכזרי ושוק היד השנייה מלא בדוגמאות שכמעט לא נגעו בהן, בדיוק מהסיבה שתוארה למעלה. ובחרו התנגדות מגנטית בשביל השקט אם אתם גרים בדירה.",
-      "pros": ["Removes weather and childcare as excuses", "Used market is full of nearly-new units", "Magnetic models are quiet enough for a flat"],
-      "cons": ["Most commonly abandoned purchase in home fitness", "Dominates a room even when folded"]
+      "pros": [
+        "Removes weather and childcare as excuses",
+        "Used market is full of nearly-new units",
+        "Magnetic models are quiet enough for a flat"
+      ],
+      "cons": [
+        "Most commonly abandoned purchase in home fitness",
+        "Dominates a room even when folded"
+      ]
     }
   ],
   "faq": [
     {
       "q": "What should I buy if I only have a small budget?",
-      "a": "Bands, a mat and a pull-up bar. That is under $150 together and covers pushing, pulling, core and mobility — genuinely enough for a complete beginner programme.",
-      "q_he": "מה כדאי לקנות אם התקציב קטן?",
-      "a_he": "גומיות, מזרן ומוט מתח. זה פחות מ-550 שקל ביחד ומכסה דחיפה, משיכה, ליבה וניידות — באמת מספיק לתוכנית שלמה למתחילים."
+      "a": "Bands, a mat and a pull-up bar. That is under $150 together and covers pushing, pulling, core and mobility — genuinely enough for a complete beginner programme."
     },
     {
       "q": "Do I need weights to build muscle at home?",
-      "a": "Not at the start. Bodyweight progressions build real strength for months, and bands extend that further. Weights become necessary once bodyweight movements stop being challenging for the lower body in particular.",
-      "q_he": "האם צריך משקולות כדי לבנות שריר בבית?",
-      "a_he": "לא בהתחלה. התקדמות במשקל גוף בונה כוח אמיתי במשך חודשים, וגומיות מרחיבות את זה עוד. משקולות נעשות הכרחיות ברגע שתנועות משקל גוף מפסיקות לאתגר, במיוחד בפלג הגוף התחתון."
+      "a": "Not at the start. Bodyweight progressions build real strength for months, and bands extend that further. Weights become necessary once bodyweight movements stop being challenging for the lower body in particular."
     },
     {
       "q": "How do I train without annoying downstairs neighbours?",
-      "a": "A thick mat, no jumping, and controlled reps rather than dropped weights covers most of it. Kettlebell swings, bands and bodyweight work are all quiet; skipping and plyometrics are not.",
-      "q_he": "איך מתאמנים בלי לעצבן את השכנים מלמטה?",
-      "a_he": "מזרן עבה, בלי קפיצות, וחזרות מבוקרות במקום משקולות שנופלות מכסים את רוב זה. סווינגים עם קטלבל, גומיות ועבודת משקל גוף כולם שקטים; קפיצה בחבל ופליומטריקה לא."
+      "a": "A thick mat, no jumping, and controlled reps rather than dropped weights covers most of it. Kettlebell swings, bands and bodyweight work are all quiet; skipping and plyometrics are not."
     },
     {
       "q": "Is a treadmill worth it?",
-      "a": "Only if weather or safety genuinely stops you running outside. They are the largest, loudest and most frequently abandoned item in home fitness, so buy used and be honest about your climate first.",
-      "q_he": "האם הליכון שווה את זה?",
-      "a_he": "רק אם מזג האוויר או הבטיחות באמת מונעים מכם לרוץ בחוץ. הם הפריט הגדול, הרועש והנזנח ביותר בכושר ביתי, אז תקנו יד שנייה ותהיו כנים לגבי האקלים שלכם קודם."
+      "a": "Only if weather or safety genuinely stops you running outside. They are the largest, loudest and most frequently abandoned item in home fitness, so buy used and be honest about your climate first."
     }
   ]
 }

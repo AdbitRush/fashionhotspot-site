@@ -2,9 +2,7 @@
   "slug": "back-to-school",
   "category": "Back to school",
   "title": "Back to School Kit That Lasts Past October",
-  "title_he": "ציוד לחזרה ללימודים ששורד מעבר לאוקטובר",
   "dek": "Ten things chosen for whether they survive a full year in a school bag, and the ones that are worth spending nothing on.",
-  "dek_he": "עשרה פריטים שנבחרו לפי השאלה אם הם שורדים שנה שלמה בתיק בית ספר, ואלה שלא שווה להוציא עליהם כלום.",
   "hero_image": "a school backpack, notebooks, a water bottle and a pencil case arranged on a wooden desk in morning light",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -14,170 +12,195 @@
     "Two things genuinely worth spending on: the bag, because it carries weight on a growing spine every day, and the shoes, for the same reason. Almost everything else is a commodity.",
     "Prices are approximate at the time of writing, and this category is at its most expensive in the two weeks before term starts — buying in the last week of the holidays is the worst possible timing."
   ],
-  "intro_he": [
-    "חזרה ללימודים היא השבוע המשווק ביותר בשנת הקמעונאות, ורוב מה שנקנה בו מוחלף עד דצמבר. הדפוס עקבי: הגרסה עם הדמות המוכרת עולה יותר ומחזיקה פחות מהגרסה הפשוטה שלידה.",
-    "לכן הרשימה מסודרת לפי עמידות לכל שקל לאורך שנת לימודים שלמה. כמה מהפריטים הם בכוונה המלצות נגד — מקומות שבהם המהלך ההגיוני הוא לא להוציא כלום ולהשתמש שוב במה שכבר יש לכם.",
-    "שני דברים שבאמת שווה להוציא עליהם: התיק, כי הוא נושא משקל על עמוד שדרה שגדל כל יום, והנעליים, מאותה סיבה. כמעט כל השאר הוא מוצר מדף.",
-    "המחירים הם הערכה נכון לזמן הכתיבה, והקטגוריה הזאת יקרה ביותר בשבועיים שלפני תחילת הלימודים — קנייה בשבוע האחרון של החופש היא התזמון הגרוע ביותר האפשרי."
-  ],
   "how_we_pick": "We rank by whether a thing survives a full school year of genuine use, and we treat licensed branding as a cost rather than a feature. We rely on published testing, ergonomic guidance on school bag weight and long-run parent reports, and we have not personally tested every item here. Where the sensible answer is to buy nothing, we say that instead.",
-  "how_we_pick_he": "אנחנו מדרגים לפי השאלה אם פריט שורד שנת לימודים שלמה של שימוש אמיתי, ומתייחסים למיתוג של דמויות כעלות ולא כפיצ'ר. אנחנו נשענים על בדיקות שפורסמו, על הנחיות ארגונומיות למשקל תיק בית ספר ועל דיווחים של הורים לאורך זמן, ולא בדקנו בעצמנו כל פריט כאן. איפה שהתשובה ההגיונית היא לא לקנות כלום, נגיד את זה במקום.",
   "products": [
     {
       "name": "A backpack with a padded back and chest strap",
-      "name_he": "תיק גב עם גב מרופד ורצועת חזה",
       "tag": "Spend here, not on the pencil case",
-      "tag_he": "כאן תשקיעו, לא בקלמר",
       "price": "$50–120",
       "search": "school backpack padded back chest strap ergonomic",
       "image": "a sturdy navy school backpack standing upright against a wall",
       "body": "This is the one item that carries real weight on a growing back every single day, so it is where the money belongs. The features that matter are wide padded straps, a padded back panel, and a chest or sternum strap, which stops the shoulder straps sliding outward and pulling the shoulders back. Guidance generally suggests a loaded bag should stay under about ten to fifteen percent of the child's body weight, and both straps should always be used — carrying a heavy bag on one shoulder is the habit worth breaking early. Plain designs also outlast the character phase.",
-      "body_he": "זה הפריט היחיד שנושא משקל אמיתי על גב שגדל כל יום, ולכן שם הכסף צריך להיות. הפיצ'רים שחשובים הם רצועות רחבות ומרופדות, לוח גב מרופד, ורצועת חזה, שמונעת מרצועות הכתפיים להחליק החוצה ולמשוך את הכתפיים אחורה. ההנחיות בדרך כלל ממליצות שתיק עמוס יישאר מתחת לעשרה עד חמישה-עשר אחוז ממשקל הגוף של הילד, ושתמיד ישתמשו בשתי הרצועות — לסחוב תיק כבד על כתף אחת זה ההרגל ששווה לשבור מוקדם. עיצובים פשוטים גם שורדים את שלב הדמויות.",
-      "pros": ["Carries daily weight on a growing spine", "Chest strap keeps the load properly positioned", "Plain designs last several years"],
-      "cons": ["Character-branded versions cost more, last less", "Needs checking for fit as the child grows"]
+      "pros": [
+        "Carries daily weight on a growing spine",
+        "Chest strap keeps the load properly positioned",
+        "Plain designs last several years"
+      ],
+      "cons": [
+        "Character-branded versions cost more, last less",
+        "Needs checking for fit as the child grows"
+      ]
     },
     {
       "name": "School shoes fitted properly",
-      "name_he": "נעלי בית ספר במידה נכונה",
       "tag": "Measured, not guessed",
-      "tag_he": "נמדדות, לא מנוחשות",
       "price": "$45–100",
       "search": "school shoes leather fitted kids",
       "image": "a pair of black leather school shoes on a wooden floor beside a school bag",
       "body": "These are worn for six or seven hours a day, five days a week, through a period when feet change size noticeably, which makes them the second place worth spending. Have them measured for both length and width rather than buying a size up to last — a shoe that is too big causes the foot to grip and slide, which is its own problem. Check the fit again mid-year. Leather generally outlasts synthetic and moulds to the foot, and it is the more economical choice over the year even though the sticker price is higher.",
-      "body_he": "אלה נעולות שש-שבע שעות ביום, חמישה ימים בשבוע, בתקופה שבה כפות רגליים משתנות בגודל באופן ניכר, וזה הופך אותן למקום השני ששווה להשקיע בו. תמדדו גם אורך וגם רוחב במקום לקנות מידה גדולה יותר שתחזיק — נעל גדולה מדי גורמת לכף הרגל לתפוס ולהחליק, וזו בעיה בפני עצמה. בדקו את ההתאמה שוב באמצע השנה. עור בדרך כלל מחזיק יותר מסינתטי ומתעצב לכף הרגל, והוא הבחירה החסכונית יותר לאורך השנה למרות שמחיר המדבקה גבוה יותר.",
-      "pros": ["Worn more hours than anything else they own", "Leather moulds and outlasts synthetic", "Cheaper over a year despite the higher price"],
-      "cons": ["Buying a size up creates its own problems", "Feet change — refit mid-year"]
+      "pros": [
+        "Worn more hours than anything else they own",
+        "Leather moulds and outlasts synthetic",
+        "Cheaper over a year despite the higher price"
+      ],
+      "cons": [
+        "Buying a size up creates its own problems",
+        "Feet change — refit mid-year"
+      ]
     },
     {
       "name": "An insulated leakproof water bottle",
-      "name_he": "בקבוק מים תרמי אטים לנזילות",
       "tag": "Test the lid before term starts",
-      "tag_he": "בדקו את המכסה לפני תחילת הלימודים",
       "price": "$20–40",
       "search": "kids insulated water bottle leakproof",
       "image": "a stainless steel insulated water bottle standing beside a school bag",
       "body": "A bottle that leaks ruins books, homework and a laptop if there is one, so leakproof is the only specification that really matters and it is the one hardest to verify from a listing. Fill it, turn it upside down over a sink for a minute, and find out before it happens in a bag. Insulated stainless keeps water cold all day, which measurably increases how much a child actually drinks. Choose a lid the child can open unaided — a bottle that needs an adult stays full — and one you can dismantle to wash, since the gasket is where these get unpleasant.",
-      "body_he": "בקבוק שדולף הורס ספרים, שיעורי בית ומחשב נייד אם יש כזה, אז אטימות לנזילות היא המפרט היחיד שבאמת חשוב והוא הכי קשה לאימות ממודעה. תמלאו אותו, תהפכו אותו מעל כיור לדקה, ותגלו לפני שזה קורה בתיק. נירוסטה מבודדת שומרת על מים קרים כל היום, וזה מגדיל מדידה את הכמות שילד באמת שותה. בחרו מכסה שהילד יכול לפתוח לבד — בקבוק שדורש מבוגר נשאר מלא — וכזה שאפשר לפרק לשטיפה, כי האטם הוא המקום שבו הבקבוקים האלה נעשים לא נעימים.",
-      "pros": ["Insulated bottles measurably increase how much they drink", "Stainless does not hold flavours", "Dismantling lids can actually be cleaned"],
-      "cons": ["Leakproof claims need testing over a sink", "Complex lids need an adult, so stay full"]
+      "pros": [
+        "Insulated bottles measurably increase how much they drink",
+        "Stainless does not hold flavours",
+        "Dismantling lids can actually be cleaned"
+      ],
+      "cons": [
+        "Leakproof claims need testing over a sink",
+        "Complex lids need an adult, so stay full"
+      ]
     },
     {
       "name": "A hard-shell pencil case",
-      "name_he": "קלמר קשיח",
       "tag": "Hard beats fabric",
-      "tag_he": "קשיח מנצח בד",
       "price": "$12–30",
       "search": "hard shell pencil case school",
       "image": "a simple hard-shell pencil case open showing pens and pencils inside",
       "body": "A fabric case at the bottom of a bag lets everything inside be crushed, and a leaking pen inside a fabric case marks the case and everything touching it. A hard shell contains both problems for a couple of pounds more. Beyond that, resist the temptation of the enormous multi-layer case with a hundred pens — it is heavy, it takes up desk space the child does not have, and the contents are lost by half term. A plain zip case with what is actually needed is lighter, cheaper and survives longer.",
-      "body_he": "קלמר בד בתחתית התיק מאפשר לכל מה שבפנים להימעך, ועט שדולף בתוך קלמר בד מכתים את הקלמר ואת כל מה שנוגע בו. מעטפת קשיחה מכילה את שתי הבעיות בתוספת של כמה שקלים. מעבר לזה, עמדו בפיתוי של הקלמר הענק הרב-שכבתי עם מאה עטים — הוא כבד, הוא תופס מקום על שולחן שאין לילד, והתכולה שלו אובדת עד אמצע השנה. קלמר רוכסן פשוט עם מה שבאמת צריך קל יותר, זול יותר ושורד יותר.",
-      "pros": ["Protects contents and contains leaks", "Cheap", "Small ones fit the desk space actually available"],
-      "cons": ["Bulkier in a full bag than fabric", "Hinges are the part that eventually breaks"]
+      "pros": [
+        "Protects contents and contains leaks",
+        "Cheap",
+        "Small ones fit the desk space actually available"
+      ],
+      "cons": [
+        "Bulkier in a full bag than fabric",
+        "Hinges are the part that eventually breaks"
+      ]
     },
     {
       "name": "Refillable pens and a pencil sharpener with a reservoir",
-      "name_he": "עטים למילוי חוזר ומחדד עם מיכל",
       "tag": "Cheaper across the year",
-      "tag_he": "זול יותר לאורך השנה",
       "price": "$15–35",
       "search": "refillable pen school ink cartridges",
       "image": "a few simple pens and a small sharpener with a shavings reservoir on a notebook",
       "body": "A pack of disposable pens vanishes at a remarkable rate and is bought again in November and February. A decent refillable pen with a box of cartridges costs about the same across the year, writes better, and is much less likely to be lost because it feels like an object rather than a consumable. A sharpener with an enclosed reservoir is the small detail that stops shavings going through a bag. Neither of these is exciting, and both remove a recurring purchase that quietly costs more than the one-off alternative.",
-      "body_he": "חבילת עטים חד-פעמיים נעלמת בקצב מרשים ונקנית שוב בנובמבר ובפברואר. עט הגון למילוי חוזר עם קופסת מחסניות עולה בערך אותו דבר לאורך השנה, כותב טוב יותר, והרבה פחות סביר שיאבד כי הוא מרגיש כמו חפץ ולא כמו מוצר מתכלה. מחדד עם מיכל סגור הוא הפרט הקטן שמונע משבבים להתפזר בתיק. אף אחד משניהם לא מרגש, ושניהם מסלקים רכישה חוזרת שעולה בשקט יותר מהחלופה החד-פעמית.",
-      "pros": ["Cheaper across a full year", "Refillables get lost less than disposables", "Enclosed sharpeners keep shavings out of the bag"],
-      "cons": ["Cartridges are a format you are then tied to", "A lost refillable costs more than a lost biro"]
+      "pros": [
+        "Cheaper across a full year",
+        "Refillables get lost less than disposables",
+        "Enclosed sharpeners keep shavings out of the bag"
+      ],
+      "cons": [
+        "Cartridges are a format you are then tied to",
+        "A lost refillable costs more than a lost biro"
+      ]
     },
     {
       "name": "A desk lamp for homework",
-      "name_he": "מנורת שולחן לשיעורי בית",
       "tag": "Overlooked, genuinely useful",
-      "tag_he": "מתפספס, שימושי באמת",
       "price": "$30–70",
       "search": "kids desk lamp adjustable LED homework",
       "image": "an adjustable desk lamp lighting an open textbook on a wooden desk",
       "body": "Homework often happens at a kitchen table lit by a ceiling light behind the child, which puts their own shadow across the page. A directed desk lamp fixes that. Adjustable colour temperature is worth having — cooler light for concentration in the afternoon, warmer in the evening when bright blue-toned light is the last thing you want before bed. Position it on the opposite side to the writing hand, or the hand casts a shadow over the line being written, which is the single most common mistake and undoes the whole point.",
-      "body_he": "שיעורי בית קורים לעיתים קרובות ליד שולחן מטבח שמואר בנורת תקרה מאחורי הילד, וזה מטיל את הצל שלו על הדף. מנורת שולחן מכוונת מתקנת את זה. טמפרטורת צבע מתכווננת שווה — אור קר יותר לריכוז אחר הצהריים, חם יותר בערב כשאור כחלחל בהיר הוא הדבר האחרון שרוצים לפני השינה. מקמו אותה בצד הנגדי ליד הכותבת, אחרת היד מטילה צל על השורה שנכתבת, וזו הטעות הנפוצה ביותר והיא מבטלת את כל המטרה.",
-      "pros": ["Removes the child's own shadow from the page", "Warm evening light suits the hour before bed", "Cheap and lasts for years"],
-      "cons": ["Wrong side means the hand shadows the page", "Cheap LEDs flicker and render colour poorly"]
+      "pros": [
+        "Removes the child's own shadow from the page",
+        "Warm evening light suits the hour before bed",
+        "Cheap and lasts for years"
+      ],
+      "cons": [
+        "Wrong side means the hand shadows the page",
+        "Cheap LEDs flicker and render colour poorly"
+      ]
     },
     {
       "name": "Name labels",
-      "name_he": "תוויות שם",
       "tag": "Tiny cost, stops constant replacing",
-      "tag_he": "עלות זעירה, מונעת החלפות מתמידות",
       "price": "$10–25",
       "search": "iron on name labels school clothing",
       "image": "a sheet of small printed name labels beside a folded school jumper",
       "body": "Jumpers, water bottles and coats disappear at a rate that surprises every first-year parent, and most of what ends up in a lost property box is never claimed simply because nobody can tell whose it is. Labels are the cheapest possible intervention against a recurring cost. Iron-on or stick-on both work; the iron-on kind survives more washes. Put them somewhere a child can find without help — inside the collar rather than a hidden seam — because the point is that they can identify their own jumper in a pile of forty identical ones.",
-      "body_he": "סוודרים, בקבוקי מים ומעילים נעלמים בקצב שמפתיע כל הורה בשנה הראשונה, ורוב מה שמגיע לתיבת האבידות אף פעם לא נאסף פשוט כי אף אחד לא יודע של מי זה. תוויות הן ההתערבות הזולה ביותר האפשרית נגד עלות חוזרת. גם גיהוץ וגם הדבקה עובדים; סוג הגיהוץ שורד יותר כביסות. שימו אותן איפה שילד יכול למצוא בלי עזרה — בתוך הצווארון ולא בתפר נסתר — כי כל הנקודה היא שהם יזהו את הסוודר שלהם בערימה של ארבעים זהים.",
-      "pros": ["Trivially cheap against what gets replaced", "Iron-on survives repeated washing", "Lets the child identify their own things"],
-      "cons": ["Only work if placed somewhere findable", "Iron-on needs doing properly or it peels"]
+      "pros": [
+        "Trivially cheap against what gets replaced",
+        "Iron-on survives repeated washing",
+        "Lets the child identify their own things"
+      ],
+      "cons": [
+        "Only work if placed somewhere findable",
+        "Iron-on needs doing properly or it peels"
+      ]
     },
     {
       "name": "A wall planner or whiteboard",
-      "name_he": "לוח תכנון קיר או לוח מחיק",
       "tag": "Works better than an app at this age",
-      "tag_he": "עובד טוב יותר מאפליקציה בגיל הזה",
       "price": "$20–45",
       "search": "family wall planner whiteboard academic year",
       "image": "a wall-mounted whiteboard planner with a week laid out in marker pen",
       "body": "A visible shared plan on a wall is genuinely more effective for younger children than a calendar app, because it is passively visible — nobody has to remember to open it, and a child can check it themselves without asking or borrowing a phone. PE kit, instrument lessons, deadlines and who needs to be where all live in one place the whole household walks past. Put it where people already stand, usually the kitchen. This is the entry that reduces morning chaos more than anything else on the page.",
-      "body_he": "תוכנית משותפת ונראית על קיר יעילה באמת יותר לילדים צעירים מאפליקציית לוח שנה, כי היא נראית באופן פסיבי — אף אחד לא צריך לזכור לפתוח אותה, וילד יכול לבדוק בעצמו בלי לבקש או לשאול טלפון. בגדי ספורט, שיעורי נגינה, מועדי הגשה ומי צריך להיות איפה — הכול חי במקום אחד שכל הבית עובר לידו. שימו אותו איפה שאנשים כבר עומדים, בדרך כלל במטבח. זה הפריט שמפחית כאוס בבקרים יותר מכל דבר אחר בעמוד.",
-      "pros": ["Passively visible — nobody has to open it", "Children can check it independently", "Reduces morning chaos measurably"],
-      "cons": ["Only works where the household actually walks", "Needs someone to keep it updated"]
+      "pros": [
+        "Passively visible — nobody has to open it",
+        "Children can check it independently",
+        "Reduces morning chaos measurably"
+      ],
+      "cons": [
+        "Only works where the household actually walks",
+        "Needs someone to keep it updated"
+      ]
     },
     {
       "name": "A lunchbox with separate compartments",
-      "name_he": "קופסת אוכל עם תאים נפרדים",
       "tag": "Fewer containers, less lost",
-      "tag_he": "פחות כלים, פחות אובדן",
       "price": "$25–50",
       "search": "bento lunch box kids leakproof compartments",
       "image": "an open compartmented lunchbox with fruit and sandwiches on a kitchen counter",
       "body": "A single box with built-in compartments replaces three small tubs, which matters mostly because small tubs are what get left at school. Separate sections also stop wet things making dry things unpleasant, which is the main reason food comes home uneaten. Check the lid seals and that a child can open every section unaided — the same rule as the water bottle, since a section they cannot open is a section that comes home full. Make sure it fits inside the bag alongside the bottle before term starts, not on the first morning.",
-      "body_he": "קופסה אחת עם תאים מובנים מחליפה שלוש קופסאות קטנות, וזה חשוב בעיקר כי קופסאות קטנות הן מה שנשאר בבית הספר. תאים נפרדים גם מונעים מדברים רטובים להפוך דברים יבשים ללא נעימים, וזו הסיבה העיקרית שאוכל חוזר הביתה לא נאכל. בדקו שהמכסה אוטם ושילד יכול לפתוח כל תא לבד — אותו כלל כמו בבקבוק, כי תא שהוא לא יכול לפתוח הוא תא שחוזר הביתה מלא. ודאו שהיא נכנסת לתיק לצד הבקבוק לפני תחילת הלימודים, לא בבוקר הראשון.",
-      "pros": ["One box instead of three losable tubs", "Compartments keep wet away from dry", "Easier to pack a varied lunch"],
-      "cons": ["Bulky — check it fits the bag with the bottle", "Sections a child cannot open come home full"]
+      "pros": [
+        "One box instead of three losable tubs",
+        "Compartments keep wet away from dry",
+        "Easier to pack a varied lunch"
+      ],
+      "cons": [
+        "Bulky — check it fits the bag with the bottle",
+        "Sections a child cannot open come home full"
+      ]
     },
     {
       "name": "Plain exercise books and folders — buy nothing fancy",
-      "name_he": "מחברות ותיקיות פשוטות — אל תקנו שום דבר מפואר",
       "tag": "Deliberately the cheap option",
-      "tag_he": "בכוונה האופציה הזולה",
       "price": "$10–30",
       "search": "school exercise books folders plain",
       "image": "a neat stack of plain exercise books and folders on a desk",
       "body": "This entry is here to tell you not to spend. Exercise books, folders and dividers are commodities, they are consumed and replaced regardless of quality, and the branded versions cost several times more for no functional difference whatsoever. Buy the supermarket own-brand, buy them after term starts rather than in the pre-term rush when prices peak, and buy them once you have the actual list from the school rather than guessing. A great deal of what gets bought in the back to school week is never used at all.",
-      "body_he": "הפריט הזה נמצא כאן כדי להגיד לכם לא להוציא. מחברות, תיקיות וחוצצים הם מוצרי מדף, הם נצרכים ומוחלפים בלי קשר לאיכות, והגרסאות הממותגות עולות פי כמה בלי שום הבדל תפקודי. קנו מותג פרטי של הרשת, קנו אחרי שהלימודים מתחילים ולא בבהלה שלפני כשהמחירים בשיא, וקנו אחרי שיש לכם את הרשימה האמיתית מבית הספר ולא לפי ניחוש. חלק גדול ממה שנקנה בשבוע החזרה ללימודים לא בשימוש בכלל.",
-      "pros": ["Own-brand is functionally identical", "Buying after term starts is significantly cheaper", "Avoids buying what the school never asked for"],
-      "cons": ["Requires waiting for the actual list", "Popular items occasionally sell out"]
+      "pros": [
+        "Own-brand is functionally identical",
+        "Buying after term starts is significantly cheaper",
+        "Avoids buying what the school never asked for"
+      ],
+      "cons": [
+        "Requires waiting for the actual list",
+        "Popular items occasionally sell out"
+      ]
     }
   ],
   "faq": [
     {
       "q": "How heavy should a school bag be?",
-      "a": "Guidance generally puts a loaded bag under about ten to fifteen percent of the child's body weight. Both straps should always be used, and the heaviest items should sit closest to the back.",
-      "q_he": "כמה כבד צריך להיות תיק בית ספר?",
-      "a_he": "ההנחיות בדרך כלל מציבות תיק עמוס מתחת לעשרה עד חמישה-עשר אחוז ממשקל הגוף של הילד. תמיד צריך להשתמש בשתי הרצועות, והפריטים הכבדים ביותר צריכים לשבת הכי קרוב לגב."
+      "a": "Guidance generally puts a loaded bag under about ten to fifteen percent of the child's body weight. Both straps should always be used, and the heaviest items should sit closest to the back."
     },
     {
       "q": "When is the cheapest time to buy?",
-      "a": "After term starts, not before. Prices peak in the two weeks before the school year and drop once the rush is over — and by then you have the actual list rather than a guess.",
-      "q_he": "מתי הכי זול לקנות?",
-      "a_he": "אחרי שהלימודים מתחילים, לא לפני. המחירים בשיא בשבועיים שלפני שנת הלימודים ויורדים ברגע שהבהלה נגמרת — ועד אז יש לכם את הרשימה האמיתית ולא ניחוש."
+      "a": "After term starts, not before. Prices peak in the two weeks before the school year and drop once the rush is over — and by then you have the actual list rather than a guess."
     },
     {
       "q": "Is it worth buying branded stationery?",
-      "a": "No. Exercise books, folders and basic pens are commodities and the licensed versions cost several times more for no functional difference. Spend the saving on the bag and shoes, which genuinely differ in quality.",
-      "q_he": "האם שווה לקנות ציוד כתיבה ממותג?",
-      "a_he": "לא. מחברות, תיקיות ועטים בסיסיים הם מוצרי מדף והגרסאות הממותגות עולות פי כמה בלי שום הבדל תפקודי. תשקיעו את החיסכון בתיק ובנעליים, שבהם האיכות באמת שונה."
+      "a": "No. Exercise books, folders and basic pens are commodities and the licensed versions cost several times more for no functional difference. Spend the saving on the bag and shoes, which genuinely differ in quality."
     },
     {
       "q": "What gets lost most often?",
-      "a": "Jumpers, water bottles and small lunch tubs, in that order. Name labels and a single compartmented lunchbox instead of several tubs address most of it for very little money.",
-      "q_he": "מה הכי הולך לאיבוד?",
-      "a_he": "סוודרים, בקבוקי מים וקופסאות אוכל קטנות, בסדר הזה. תוויות שם וקופסת אוכל אחת עם תאים במקום כמה קופסאות מטפלות ברוב זה בכסף מועט מאוד."
+      "a": "Jumpers, water bottles and small lunch tubs, in that order. Name labels and a single compartmented lunchbox instead of several tubs address most of it for very little money."
     }
   ]
 }

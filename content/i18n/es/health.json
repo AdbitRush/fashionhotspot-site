@@ -1,0 +1,173 @@
+{
+  "slug": "health",
+  "title": "Gadgets de salud: cuáles miden algo real",
+  "dek": "Un vistazo escéptico a los dispositivos de salud para el hogar: cuáles ofrecen cifras fiables y cuáles solo parecen precisas.",
+  "category": "Salud",
+  "how_we_pick": "Clasificamos los productos según la validez de sus mediciones: primero, los dispositivos regulados con validación clínica publicada; al final, los sensores de bienestar para el consumidor. Nos basamos en estudios de validación publicados, el estado de aprobación regulatoria y las opiniones de los usuarios a largo plazo, y no hemos probado personalmente estos dispositivos. Nada de lo que aquí se expone constituye un consejo médico y ninguno de estos productos diagnostica o trata ninguna afección.",
+  "intro": [
+    "Los dispositivos de salud para el hogar se encuentran en una posición incómoda. Algunos son auténticos instrumentos clínicos que ahora resultan asequibles y pueden cambiar el manejo de una enfermedad real. Otros ofrecen una cifra que parece fiable pero sin ninguna precisión demostrada, y una cifra errónea pero convincente es peor que ninguna.",
+    "Por eso, el orden que seguimos aquí se basa en la fiabilidad de la lectura y en si puedes actuar en consecuencia. En los primeros puestos están los equipos regulados con validación publicada. Al final, los medidores de bienestar: interesantes, motivadores, pero no una medición en la que debas basar tus decisiones.",
+    "Es tan importante que hay que decirlo claramente: nada en esta página diagnostica, trata o previene nada, y nada de esto es un consejo médico. Son dispositivos de consumo. Si una lectura te preocupa o si tienes síntomas, háblalo con un médico, no te compres otro gadget. Nunca modifiques una medicación recetada basándote en una lectura casera.",
+    "Los precios son aproximados en el momento de la publicación."
+  ],
+  "products": [
+    {
+      "name": "Un tensiómetro de brazo validado",
+      "tag": "El que tiene respaldo clínico real",
+      "body": "Este es, con diferencia, el dispositivo más útil de la página, porque las lecturas de tensión arterial en casa son utilizadas realmente por los médicos y a menudo reflejan mejor tu estado normal que una sola lectura en la consulta. Hay dos detalles importantes. Compra uno de brazo, no de muñeca: los de muñeca son mucho más sensibles a la posición y no se recomiendan para un uso rutinario. Y comprueba que el modelo específico aparezca en una lista de validación reconocida, porque muchísimos de los que se venden nunca han sido validados de forma independiente. Mide el manguito en tu brazo; un tamaño incorrecto altera considerablemente las lecturas.",
+      "pros": [
+        "Lecturas que los médicos realmente utilizan",
+        "Las listas de validación te permiten comprobar un modelo concreto",
+        "Barato para ser un instrumento regulado"
+      ],
+      "cons": [
+        "Un tamaño de manguito incorrecto altera mucho las cifras",
+        "Los modelos de muñeca no se recomiendan para un uso rutinario"
+      ]
+    },
+    {
+      "name": "Un termómetro digital",
+      "tag": "Aburrido, esencial, barato",
+      "body": "Toda casa debería tener uno, y la mayoría tiene uno con la pila gastada. La principal decisión es el tipo. Un simple termómetro digital de varilla, para uso oral o axilar, es el más barato y el más preciso de forma consistente, aunque tarda un poco más. Los termómetros infrarrojos de frente y de oído son mucho más rápidos y mucho más sensibles a la técnica, la distancia y si la persona acaba de entrar del frío, que es justo cuando la gente los usa. Si compras uno de infrarrojos por su rapidez con los niños, toma dos lecturas y, si el resultado es sorprendente, úsalo como motivo para comprobarlo con el de varilla, no como una conclusión.",
+      "pros": [
+        "Barato y realmente necesario",
+        "Los termómetros digitales de varilla son los más consistentes",
+        "El de infrarrojos es rápido para un niño dormido"
+      ],
+      "cons": [
+        "La precisión del de infrarrojos depende mucho de la técnica",
+        "El que tienes en casa probablemente necesite una pila"
+      ]
+    },
+    {
+      "name": "Un pulsioxímetro",
+      "tag": "Útil, con una limitación conocida",
+      "body": "Un pulsioxímetro de dedo estima la saturación de oxígeno en sangre y es un dispositivo doméstico realmente útil, sobre todo para personas que controlan una afección respiratoria conocida bajo supervisión médica. Hay una limitación bien documentada que conviene conocer antes de fiarse de él: se ha descubierto que estos dispositivos sobrestiman la saturación en personas de piel más oscura, lo que significa que una lectura puede parecer tranquilizadora cuando no lo es. Las manos frías, el esmalte de uñas y el movimiento también alteran las lecturas. Considéralo un dato más entre varios: el aspecto de la persona y su dificultad para respirar importan más que la cifra, y los síntomas siempre justifican una llamada al médico, diga lo que diga el aparato.",
+      "pros": [
+        "Realmente útil bajo supervisión médica",
+        "Barato e inmediato",
+        "También da una lectura del pulso"
+      ],
+      "cons": [
+        "Sobrestimación documentada en tonos de piel más oscuros",
+        "Las manos frías, el esmalte y el movimiento alteran las lecturas"
+      ]
+    },
+    {
+      "name": "Una báscula inteligente, solo para ver la tendencia",
+      "tag": "Fíate de la línea, no del número",
+      "body": "El peso fluctúa un par de kilos a lo largo del día por el agua, la comida y la sal, así que una sola lectura dice muy poco y una lectura diaria puede ser activamente desmoralizante sin motivo. Lo que una báscula conectada hace bien es trazar la tendencia, y la tendencia a lo largo de las semanas es lo único que significa algo. El porcentaje de grasa corporal que indican se deriva de una pequeña corriente eléctrica y no es preciso en términos absolutos; puede ser vagamente útil para ver la dirección, pero no debe tratarse como una medición. Si controlar el peso no ayuda a tu relación con la comida, prescindir de ella por completo es una opción razonable.",
+      "pros": [
+        "La tendencia de varias semanas es el dato útil",
+        "El registro automático elimina el paso manual",
+        "Barata"
+      ],
+      "cons": [
+        "El porcentaje de grasa corporal no es una medición precisa",
+        "Pesarse a diario es desmoralizante y no aporta información"
+      ]
+    },
+    {
+      "name": "Una lámpara para el TAE, si tus inviernos son oscuros",
+      "tag": "Comprueba la cifra de lux",
+      "body": "La luz brillante por la mañana es uno de los enfoques no farmacológicos con más respaldo para el bajo estado de ánimo estacional en climas oscuros, y también ayuda a ajustar un reloj biológico que se ha retrasado. La especificación que importa es 10,000 lux a la distancia a la que realmente te sentarás; muchas lámparas citan esa cifra a una distancia que nadie usa, así que comprueba la distancia de trabajo indicada en lugar de la cifra principal. Úsala por la mañana durante veinte o treinta minutos; el uso por la tarde puede retrasar el sueño. Habla primero con un médico si tienes trastorno bipolar, alguna afección ocular o tomas medicamentos fotosensibilizantes.",
+      "pros": [
+        "Una de las opciones no farmacológicas con más respaldo",
+        "También es útil para ajustar un reloj biológico retrasado",
+        "Sin consumibles"
+      ],
+      "cons": [
+        "Las cifras de lux se indican a distancias poco realistas",
+        "Usarla por la tarde puede retrasar el sueño; consulta primero a un médico"
+      ]
+    },
+    {
+      "name": "Un humidificador, si el aire es realmente seco",
+      "tag": "Compra primero un higrómetro",
+      "body": "El aire interior seco contribuye de verdad a la garganta irritada, la piel seca y las alteraciones del sueño, sobre todo con la calefacción encendida todo el invierno. Pero la mayoría de la gente no tiene ni idea de cuál es su humedad real, y usar un humidificador en una habitación ya húmeda causa moho en lugar de solucionar nada. Gástate unas pocas libras primero en un higrómetro y comprueba si estás por debajo del cuarenta por ciento. Si compras uno, la limpieza no es opcional: un depósito sin limpiar pulveriza bacterias en la habitación donde duermes, lo que es un resultado realmente peor que el aire seco. Elige un modelo en el que puedas meter la mano.",
+      "pros": [
+        "Beneficio real en aire realmente seco por la calefacción",
+        "Un higrómetro barato te dice si lo necesitas",
+        "Ayuda al sueño y a la piel en invierno"
+      ],
+      "cons": [
+        "Un depósito sin limpiar esparce bacterias por la habitación",
+        "Inútil o perjudicial si la habitación ya está húmeda"
+      ]
+    },
+    {
+      "name": "Un pastillero semanal",
+      "tag": "El menos glamuroso, el más eficaz",
+      "body": "Ninguna otra cosa en esta página se acerca a esto en valor práctico por euro. No tomar la medicación como se prescribe es un problema enorme y muy común, y la mayoría de las veces no es una decisión: es simplemente un olvido, o no recordar si tomaste la dosis de la mañana. Una caja con compartimentos visibles responde a esa pregunta de un vistazo. Compra uno con secciones separadas para la mañana y la noche si tomas dosis a diferentes horas. Llénalo el mismo día cada semana y guárdalo en algún lugar ligado a un hábito existente, como junto a la cafetera, en lugar de en un armario.",
+      "pros": [
+        "Enorme valor práctico por su precio",
+        "Responde a '¿me la he tomado?' de un vistazo",
+        "Nada que cargar ni mantener"
+      ],
+      "cons": [
+        "Solo funciona si se rellena un día fijo",
+        "No es adecuado para medicamentos que necesitan su envase original"
+      ]
+    },
+    {
+      "name": "Un monitor de actividad, para tendencias, no para diagnósticos",
+      "tag": "Motivador, no médico",
+      "body": "Los monitores de actividad son buenos para dos cosas: contar pasos, que es un indicador razonable del movimiento diario, y hacerte un poco más consciente de cuánto te mueves. Esa conciencia es el verdadero mecanismo, y tiene su valor. Sé escéptico con el resto. Las fases del sueño de un dispositivo de muñeca no coinciden con lo que mide un laboratorio del sueño, las estimaciones de quema de calorías tienen grandes errores y las puntuaciones de estrés se derivan en gran medida de la variabilidad de la frecuencia cardíaca con una etiqueta convincente adjunta. Úsalo para observar tendencias a lo largo de las semanas. Si te genera ansiedad por el sueño —un efecto bien conocido—, quítatelo por la noche.",
+      "pros": [
+        "El recuento de pasos es un indicador aceptable del movimiento diario",
+        "La conciencia en sí misma cambia el comportamiento",
+        "Batería de larga duración en la mayoría de los modelos"
+      ],
+      "cons": [
+        "Las fases del sueño y la quema de calorías no son precisas",
+        "Puede generar una verdadera ansiedad por el sueño"
+      ]
+    },
+    {
+      "name": "Una persiana opaca o un buen antifaz para dormir",
+      "tag": "Mejor que la mayoría de los gadgets para dormir",
+      "body": "De todo lo que se vende para mejorar el sueño, la oscuridad tiene una de las evidencias más sólidas y el precio más bajo. La luz suprime la melatonina, y la que se filtra por una cortina fina a las 5am en verano es una causa común y totalmente solucionable de despertarse temprano. Una persiana opaca instalada en el hueco de la ventana es la solución adecuada; un antifaz anatómico que no presione los ojos cuesta una fracción y se puede llevar de viaje. Cualquiera de las dos cosas hará más por la mayoría de la gente que un monitor de sueño, una aplicación o un suplemento, y vale la pena decirlo, porque eso es lo que se promociona, y esto no.",
+      "pros": [
+        "Evidencia sólida, coste muy bajo",
+        "Soluciona directamente el despertarse temprano en verano",
+        "Un antifaz se puede llevar de viaje y no cuesta casi nada"
+      ],
+      "cons": [
+        "Las persianas necesitan medirse e instalarse",
+        "Los antifaces planos presionan los ojos; compra uno anatómico"
+      ]
+    },
+    {
+      "name": "Una pistola de masaje de percusión",
+      "tag": "Sienta bien, pero sus promesas superan la evidencia",
+      "body": "Sientan bien de forma fiable y pueden aumentar temporalmente el rango de movimiento y reducir la sensación de agujetas, lo que es un beneficio real aunque modesto. Lo que la evidencia no respalda es el discurso de marketing más amplio sobre eliminar el ácido láctico, acelerar la recuperación o romper adherencias. Si la juzgas como una herramienta de automasaje agradable y práctica, tiene un valor decente; si la juzgas por las promesas de la caja, te decepcionará. Evita los huesos, las articulaciones, el cuello y cualquier zona lesionada, hinchada o entumecida, y habla con un médico antes de usarla si tomas anticoagulantes o tienes algún trastorno de la coagulación.",
+      "pros": [
+        "Realmente agradable y práctica",
+        "Beneficio temporal en el rango de movimiento y las agujetas",
+        "Llega a zonas que un rodillo de espuma no puede alcanzar"
+      ],
+      "cons": [
+        "Las promesas sobre la recuperación y el ácido láctico no tienen respaldo",
+        "No usar en huesos, articulaciones, cuello o zonas lesionadas"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Son precisas las funciones de salud de los smartwatches?",
+      "a": "La frecuencia cardíaca en reposo suele ser buena, y las funciones de ECG en dispositivos autorizados tienen una validación real. Las fases del sueño, la quema de calorías y las puntuaciones de estrés son estimaciones con grandes márgenes de error: útiles como tendencias, no como mediciones."
+    },
+    {
+      "q": "¿Qué dispositivo individual vale más la pena tener?",
+      "a": "Un tensiómetro de brazo validado, si es relevante para ti. Es el único dispositivo de esta lista cuyas lecturas un médico utilizará de verdad, y la tensión arterial alta no tiene síntomas hasta que el problema es muy grave."
+    },
+    {
+      "q": "Mi dispositivo me ha dado una lectura preocupante. ¿Qué debo hacer?",
+      "a": "Vuelve a tomarla, correctamente, después de estar sentado en silencio cinco minutos; los errores de técnica son comunes. Si sigue siendo anómala o tienes síntomas, contacta con un médico. No cambies ninguna medicación recetada basándote en una lectura casera."
+    },
+    {
+      "q": "¿Cuál es el gadget de salud más sobrevalorado?",
+      "a": "Cualquier cosa que prometa 'detox' y los 'wearables' correctores de postura. También la mayoría de los anillos y pulseras de seguimiento del sueño para gente que ya duerme bien: para algunos usuarios, el propio seguimiento se convierte en una fuente de ansiedad sobre el sueño."
+    }
+  ]
+}

@@ -2,9 +2,7 @@
   "slug": "fashion",
   "category": "Fashion",
   "title": "Accessories That Make Everything Else Look Better",
-  "title_he": "אביזרים שגורמים לכל השאר להיראות טוב יותר",
   "dek": "Ten pieces that lift an ordinary outfit, chosen for how many years they last rather than how current they are.",
-  "dek_he": "עשרה פריטים שמרימים לוק רגיל, נבחרו לפי כמה שנים הם מחזיקים ולא לפי כמה הם עכשוויים.",
   "hero_image": "a flat lay of a leather belt, a watch, sunglasses and a folded scarf on a linen surface in soft daylight",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -14,170 +12,195 @@
     "One honest note on fit and taste: we can tell you what is well made and what lasts. We cannot tell you what suits you, and anyone selling a universal rule about that is guessing. Where a choice is genuinely personal, we say so.",
     "Prices are approximate at the time of writing. Several of these are much better bought second-hand, and we point out which."
   ],
-  "intro_he": [
-    "אביזרים עושים כמות עבודה לא פרופורציונלית. לוק פשוט עם חגורה טובה, שעון הגון ונעליים שמתאימות נקרא כמחושב; אותו לוק עם גרסאות שחוקות של שלושת אלה נקרא כעייף. הבגדים כמעט לא השתנו.",
-    "המינוף הזה הוא הסיבה שהרשימה בנויה סביב דברים שמחזיקים. אביזרים שרודפים אחרי טרנדים מתיישנים מהר והם זולים מסיבה טובה. הפריטים למטה הם אלה שעדיין נראים נכון בעוד חמש שנים, וזה גם הופך אותם למשתלמים בהרבה לכל לבישה ממה שהמחיר מרמז.",
-    "הערה כנה אחת על מידה וטעם: אנחנו יכולים לומר לכם מה עשוי היטב ומה מחזיק. אנחנו לא יכולים לומר לכם מה מתאים לכם, ומי שמוכר כלל אוניברסלי בנושא הזה מנחש. איפה שבחירה היא באמת אישית, נגיד את זה.",
-    "המחירים הם הערכה נכון לזמן הכתיבה. כמה מהפריטים האלה עדיף בהרבה לקנות יד שנייה, ואנחנו מציינים אילו."
-  ],
   "how_we_pick": "We favour construction that lasts and shapes that do not date, over whatever is current this season. We rely on published materials testing, traditional construction standards and long-run owner reports, and we have not personally worn every item here. We do not tell you what suits you — that is taste, and where a choice is personal we say so instead of pretending there is a right answer.",
-  "how_we_pick_he": "אנחנו מעדיפים בנייה שמחזיקה וצורות שלא מתיישנות, על פני מה שעכשווי העונה. אנחנו נשענים על בדיקות חומרים שפורסמו, על תקני בנייה מסורתיים ועל דיווחים של בעלים לאורך זמן, ולא לבשנו בעצמנו כל פריט כאן. אנחנו לא אומרים לכם מה מתאים לכם — זה טעם, ואיפה שבחירה היא אישית נגיד את זה במקום להעמיד פנים שיש תשובה נכונה.",
   "products": [
     {
       "name": "A full-grain leather belt",
-      "name_he": "חגורת עור מלא",
       "tag": "Buy once if you buy right",
-      "tag_he": "קנייה אחת אם קונים נכון",
       "price": "$50–120",
       "search": "full grain leather belt solid brass buckle",
       "image": "a coiled brown full-grain leather belt with a brass buckle on a linen cloth",
       "body": "Most belts sold are bonded or genuine leather, which despite the name is the low grade — shredded leather scraps glued into a sheet. It cracks and delaminates within a year or two, which is why people replace belts constantly. Full-grain is the uncut top layer of the hide and it softens rather than degrades, so it looks better after five years than it did new. Look for stitched edges rather than glued, and a buckle attached with screws rather than rivets so you can replace it. One belt at this quality outlasts six cheap ones and costs less over that span.",
-      "body_he": "רוב החגורות שנמכרות הן עור מודבק או \"עור אמיתי\", ששמו למרות הכול הוא הדרגה הנמוכה — שאריות עור גרוסות שהודבקו ליריעה. הוא נסדק ומתפרק תוך שנה-שנתיים, ובגלל זה אנשים מחליפים חגורות כל הזמן. עור מלא הוא השכבה העליונה הלא חתוכה של העור והוא מתרכך במקום להתפורר, אז הוא נראה טוב יותר אחרי חמש שנים ממה שנראה חדש. חפשו שוליים תפורים ולא מודבקים, ואבזם שמחובר בברגים ולא במסמרות כדי שתוכלו להחליף אותו. חגורה אחת באיכות הזאת שורדת שש זולות ועולה פחות לאורך אותו זמן.",
-      "pros": ["Improves with age instead of degrading", "Replaceable buckle extends its life further", "Cheaper per year than repeatedly buying cheap"],
-      "cons": ["'Genuine leather' is a low grade, despite the name", "Stiff for the first few weeks"]
+      "pros": [
+        "Improves with age instead of degrading",
+        "Replaceable buckle extends its life further",
+        "Cheaper per year than repeatedly buying cheap"
+      ],
+      "cons": [
+        "'Genuine leather' is a low grade, despite the name",
+        "Stiff for the first few weeks"
+      ]
     },
     {
       "name": "Sunglasses with real UV protection",
-      "name_he": "משקפי שמש עם הגנת UV אמיתית",
       "tag": "Check the rating, not the tint",
-      "tag_he": "בדקו את הדירוג, לא את הגוון",
       "price": "$40–200",
       "search": "polarized sunglasses UV400 protection",
       "image": "a pair of classic tortoiseshell sunglasses folded on a pale stone surface",
       "body": "Dark lenses without UV filtering are worse than no sunglasses, because the tint makes your pupils open wider and lets more ultraviolet reach the eye. Look for UV400 or a stated 100 percent UVA and UVB block — that is the specification that matters, and it is unrelated to how dark or how expensive the lenses are. Polarisation is a separate feature that cuts glare from water and roads and is genuinely useful for driving. Frame shape is entirely personal, which is a good reason to try them on rather than buy from a photograph.",
-      "body_he": "עדשות כהות בלי סינון UV גרועות יותר מאשר בלי משקפי שמש בכלל, כי הגוון גורם לאישונים שלכם להיפתח יותר ומכניס יותר קרינה על-סגולה לעין. חפשו UV400 או חסימה מוצהרת של 100 אחוז UVA ו-UVB — זה המפרט שחשוב, והוא לא קשור לכמה העדשות כהות או יקרות. פולריזציה היא פיצ'ר נפרד שחותך סנוור ממים ומכבישים והוא שימושי באמת לנהיגה. צורת המסגרת היא עניין אישי לגמרי, וזו סיבה טובה למדוד ולא לקנות מתמונה.",
-      "pros": ["UV400 is a checkable, meaningful spec", "Polarisation genuinely helps when driving", "Classic shapes stay wearable for years"],
-      "cons": ["Dark tint without UV filtering is actively harmful", "Frame shape is personal — try before buying"]
+      "pros": [
+        "UV400 is a checkable, meaningful spec",
+        "Polarisation genuinely helps when driving",
+        "Classic shapes stay wearable for years"
+      ],
+      "cons": [
+        "Dark tint without UV filtering is actively harmful",
+        "Frame shape is personal — try before buying"
+      ]
     },
     {
       "name": "A simple watch on a changeable strap",
-      "name_he": "שעון פשוט עם רצועה מתחלפת",
       "tag": "One watch, several looks",
-      "tag_he": "שעון אחד, כמה מראות",
       "price": "$100–350",
       "search": "minimalist watch quick release strap 20mm",
       "image": "a simple analogue watch with a leather strap resting on a wooden surface",
       "body": "A plain analogue watch with a clean dial goes with everything and dates far more slowly than anything with a busy face. The feature that gets overlooked is quick-release spring bars, which let you change the strap in seconds without tools — a leather strap and a woven one turn one watch into two, for about twenty pounds. Check the case diameter against your wrist rather than buying by trend, since watch sizing swings back and forth by a decade. A quartz movement is more accurate and far cheaper to maintain than mechanical; mechanical is a hobby, not an upgrade.",
-      "body_he": "שעון אנלוגי פשוט עם לוח נקי הולך עם הכול ומתיישן הרבה יותר לאט מכל דבר עם לוח עמוס. הפיצ'ר שמתפספס הוא מוטות שחרור מהיר, שמאפשרים להחליף רצועה תוך שניות בלי כלים — רצועת עור ורצועה ארוגה הופכות שעון אחד לשניים, בערך במאה שקל. בדקו את קוטר הבית מול פרק היד שלכם במקום לקנות לפי טרנד, כי מידות שעונים מתנדנדות הלוך ושוב לאורך עשור. מנגנון קוורץ מדויק יותר וזול בהרבה לתחזוקה ממכני; מכני הוא תחביב, לא שדרוג.",
-      "pros": ["Quick-release straps make one watch several", "Plain dials date very slowly", "Quartz is accurate and cheap to service"],
-      "cons": ["Case size is personal — measure your wrist", "Mechanical movements need periodic servicing"]
+      "pros": [
+        "Quick-release straps make one watch several",
+        "Plain dials date very slowly",
+        "Quartz is accurate and cheap to service"
+      ],
+      "cons": [
+        "Case size is personal — measure your wrist",
+        "Mechanical movements need periodic servicing"
+      ]
     },
     {
       "name": "A merino or lambswool scarf",
-      "name_he": "צעיף מרינו או צמר כבש",
       "tag": "Most warmth per gram",
-      "tag_he": "הכי הרבה חום לגרם",
       "price": "$40–120",
       "search": "merino wool scarf lambswool",
       "image": "a soft folded wool scarf in a muted colour on a wooden bench",
       "body": "A scarf is the cheapest way to make a coat warmer, because most heat is lost at the neck opening, and it is also the easiest place to add colour to an otherwise plain outfit. Merino is fine enough not to itch, which is the objection most people have to wool, and it regulates temperature far better than acrylic — acrylic traps sweat and then feels cold. A neutral colour is the more useful buy if you own one; a bright one is the better buy if you own three. Wash it rarely, cold, and dry it flat.",
-      "body_he": "צעיף הוא הדרך הזולה ביותר להפוך מעיל לחם יותר, כי רוב החום אובד בפתח הצוואר, והוא גם המקום הכי קל להוסיף בו צבע ללוק פשוט. מרינו דק מספיק כדי לא לדגדג, וזו ההתנגדות שיש לרוב האנשים לצמר, והוא מווסת טמפרטורה הרבה יותר טוב מאקריל — אקריל כולא זיעה ואז מרגיש קר. צבע נייטרלי הוא הקנייה השימושית יותר אם יש לכם אחד; צבע בולט הוא הקנייה הטובה יותר אם יש לכם שלושה. תכבסו לעיתים רחוקות, בקר, ותייבשו שטוח.",
-      "pros": ["Closes the biggest heat leak in a coat", "Merino does not itch and handles damp well", "Cheap way to add colour to plain clothes"],
-      "cons": ["Wool needs careful washing and drying flat", "Moths — store it properly in summer"]
+      "pros": [
+        "Closes the biggest heat leak in a coat",
+        "Merino does not itch and handles damp well",
+        "Cheap way to add colour to plain clothes"
+      ],
+      "cons": [
+        "Wool needs careful washing and drying flat",
+        "Moths — store it properly in summer"
+      ]
     },
     {
       "name": "A structured leather or canvas tote",
-      "name_he": "תיק טוט מובנה מעור או מבד",
       "tag": "Replaces several bags",
-      "tag_he": "מחליף כמה תיקים",
       "price": "$80–250",
       "search": "structured leather tote bag laptop",
       "image": "a structured tan leather tote bag standing upright on a wooden floor",
       "body": "The bag that gets used every day is the one that fits a laptop, does not collapse when half empty, and does not look out of place either at work or at dinner. Structure is what does that — an unstructured tote sags and everything migrates to the bottom, which is why they get abandoned. Look for a flat base, reinforced handle attachments, and a strap drop that clears your shoulder with a coat on. Check the interior has at least one zipped pocket; a single open compartment means excavating the whole bag for keys.",
-      "body_he": "התיק שמשתמשים בו כל יום הוא זה שנכנס אליו מחשב נייד, שלא קורס כשהוא חצי ריק, ושלא נראה לא במקום בעבודה ולא בארוחת ערב. מבנה הוא מה שעושה את זה — תיק טוט בלי מבנה צונח והכול נודד לתחתית, ובגלל זה נוטשים אותם. חפשו בסיס שטוח, חיזוקים בנקודות חיבור הידיות, ואורך רצועה שעובר את הכתף עם מעיל. בדקו שיש בפנים לפחות כיס אחד עם רוכסן; תא פתוח אחד אומר לחפור בכל התיק כדי למצוא מפתחות.",
-      "pros": ["Works for both work and evening", "Structure stops everything sinking to the bottom", "Good leather improves with use"],
-      "cons": ["Heavy before you put anything in it", "Open-top designs are not secure in crowds"]
+      "pros": [
+        "Works for both work and evening",
+        "Structure stops everything sinking to the bottom",
+        "Good leather improves with use"
+      ],
+      "cons": [
+        "Heavy before you put anything in it",
+        "Open-top designs are not secure in crowds"
+      ]
     },
     {
       "name": "Shoe trees and a decent brush",
-      "name_he": "מותחני נעליים ומברשת הגונה",
       "tag": "Doubles the life of good shoes",
-      "tag_he": "מכפילים את חיי הנעליים הטובות",
       "price": "$30–70",
       "search": "cedar shoe trees horsehair brush",
       "image": "a pair of cedar shoe trees inserted into leather shoes beside a horsehair brush",
       "body": "This is the highest-leverage entry here and nobody buys it. Leather shoes absorb a remarkable amount of moisture during a day and then dry in whatever crumpled shape they were left in, and those creases are where the leather eventually cracks. Cedar trees hold the shape and draw the moisture out overnight. A brush and occasional conditioner do the rest. Together they roughly double the usable life of a pair of good shoes for the price of a takeaway, which makes them better value than almost any actual garment on this page.",
-      "body_he": "זה הפריט עם המינוף הגבוה ביותר כאן ואף אחד לא קונה אותו. נעלי עור סופגות כמות מרשימה של לחות במהלך יום ואז מתייבשות בכל צורה מקומטת שהושארו בה, והקמטים האלה הם המקום שבו העור בסוף נסדק. מותחני ארז שומרים על הצורה ומושכים את הלחות החוצה בלילה. מברשת ומרכך מדי פעם עושים את השאר. יחד הם בערך מכפילים את אורך החיים השימושי של זוג נעליים טובות במחיר של טייק אווי, וזה הופך אותם למשתלמים יותר מכמעט כל פריט לבוש בעמוד הזה.",
-      "pros": ["Roughly doubles the life of leather shoes", "Cedar absorbs moisture and controls odour", "Costs a fraction of the shoes it protects"],
-      "cons": ["Only worth it for leather, not trainers", "Needs to become a nightly habit to work"]
+      "pros": [
+        "Roughly doubles the life of leather shoes",
+        "Cedar absorbs moisture and controls odour",
+        "Costs a fraction of the shoes it protects"
+      ],
+      "cons": [
+        "Only worth it for leather, not trainers",
+        "Needs to become a nightly habit to work"
+      ]
     },
     {
       "name": "A pre-owned quality coat",
-      "name_he": "מעיל איכותי יד שנייה",
       "tag": "Where second-hand wins outright",
-      "tag_he": "איפה שיד שנייה מנצחת בגדול",
       "price": "$80–300 used",
       "search": "wool overcoat second hand vintage",
       "image": "a folded charcoal wool overcoat draped over the back of a wooden chair",
       "body": "A well-made wool coat is one of the few garments that genuinely lasts decades, and because coat shapes move slowly, a ten-year-old one rarely looks dated. That combination makes the second-hand market unusually good here: you can buy construction quality that would cost four times as much new. Check the lining and the underarm seams, which fail before the outer fabric does and are the expensive things to repair. Then get it altered — the shoulders must fit, but sleeve length and body taper are cheap adjustments, and fit is most of what makes a coat look expensive.",
-      "body_he": "מעיל צמר עשוי היטב הוא אחד הבגדים הבודדים שבאמת מחזיקים עשרות שנים, ומכיוון שצורות מעילים משתנות לאט, מעיל בן עשר שנים כמעט אף פעם לא נראה מיושן. השילוב הזה הופך את שוק היד השנייה לטוב במיוחד כאן: אפשר לקנות איכות בנייה שהייתה עולה פי ארבעה חדשה. בדקו את הבטנה ואת תפרי בית השחי, שנכשלים לפני הבד החיצוני והם הדברים היקרים לתיקון. ואז תעשו תיקונים — הכתפיים חייבות להתאים, אבל אורך שרוול והצרה בגוף הם שינויים זולים, והמידה היא רוב מה שגורם למעיל להיראות יקר.",
-      "pros": ["Buy construction quality at a quarter of new", "Coat shapes date very slowly", "Alterations are cheap and transform the fit"],
-      "cons": ["Shoulders must fit — that cannot be altered cheaply", "Check lining and underarm seams before buying"]
+      "pros": [
+        "Buy construction quality at a quarter of new",
+        "Coat shapes date very slowly",
+        "Alterations are cheap and transform the fit"
+      ],
+      "cons": [
+        "Shoulders must fit — that cannot be altered cheaply",
+        "Check lining and underarm seams before buying"
+      ]
     },
     {
       "name": "A slim leather cardholder",
-      "name_he": "ארנק כרטיסים דק מעור",
       "tag": "Replaces the overstuffed wallet",
-      "tag_he": "מחליף את הארנק התפוח",
       "price": "$30–90",
       "search": "slim leather card holder wallet",
       "image": "a slim brown leather cardholder with two cards visible on a stone surface",
       "body": "The traditional bifold stuffed with receipts is bulky, ruins the line of a pocket and — if you carry it in a back pocket and sit on it all day — is genuinely associated with posture and back discomfort. A cardholder forces the useful discipline of carrying three or four cards rather than fifteen. Full-grain leather again, and stitched rather than glued edges. If you carry contactless cards, note that having several together can occasionally confuse a reader; a holder that separates them, or simply pulling one out, solves it.",
-      "body_he": "הארנק המתקפל המסורתי דחוס בקבלות, מגושם, הורס את הקו של הכיס — ואם אתם נושאים אותו בכיס אחורי ויושבים עליו כל היום, הוא באמת קשור ליציבה ולאי-נוחות בגב. ארנק כרטיסים כופה את המשמעת המועילה של לשאת שלושה-ארבעה כרטיסים במקום חמישה-עשר. שוב עור מלא, ושוליים תפורים ולא מודבקים. אם אתם נושאים כרטיסים ללא מגע, שימו לב שכמה יחד יכולים מדי פעם לבלבל קורא; ארנק שמפריד ביניהם, או פשוט לשלוף אחד, פותר את זה.",
-      "pros": ["Far less bulk in a pocket", "Forces you to carry only what you use", "Good leather ages well"],
-      "cons": ["No room for notes in the smallest designs", "Several contactless cards together can confuse readers"]
+      "pros": [
+        "Far less bulk in a pocket",
+        "Forces you to carry only what you use",
+        "Good leather ages well"
+      ],
+      "cons": [
+        "No room for notes in the smallest designs",
+        "Several contactless cards together can confuse readers"
+      ]
     },
     {
       "name": "A fabric shaver",
-      "name_he": "מסיר כדוריות מבד",
       "tag": "Makes old clothes look new",
-      "tag_he": "גורם לבגדים ישנים להיראות חדשים",
       "price": "$20–40",
       "search": "fabric shaver lint pill remover",
       "image": "a small handheld fabric shaver resting on a folded knitted jumper",
       "body": "Pilling is what makes a jumper look old, and it is almost entirely cosmetic — the garment underneath is usually fine. A battery fabric shaver removes those bobbles in a few minutes and takes years off the appearance of knitwear, coats and upholstery. It is the cheapest thing on this page and probably the one with the highest ratio of visible improvement to cost. Use it on a flat surface rather than while wearing the garment, keep it moving, and start on the lowest setting on anything delicate, since it is genuinely possible to cut a hole in fine knit.",
-      "body_he": "כדוריות הן מה שגורם לסוודר להיראות ישן, וזה כמעט לגמרי קוסמטי — הבגד עצמו בדרך כלל בסדר. מסיר כדוריות על סוללות מוריד את הכדוריות תוך כמה דקות ומוריד שנים מהמראה של סריגים, מעילים וריפודים. זה הדבר הזול ביותר בעמוד וכנראה זה עם היחס הגבוה ביותר בין שיפור נראה לעין לעלות. השתמשו בו על משטח שטוח ולא בזמן שאתם לובשים את הבגד, שמרו על תנועה, והתחילו בהגדרה הנמוכה ביותר על כל דבר עדין, כי באמת אפשר לחתוך חור בסריג דק.",
-      "pros": ["Takes years off the look of knitwear", "Cheapest visible improvement here", "Works on upholstery and coats too"],
-      "cons": ["Can cut fine knit if used carelessly", "Needs batteries or charging"]
+      "pros": [
+        "Takes years off the look of knitwear",
+        "Cheapest visible improvement here",
+        "Works on upholstery and coats too"
+      ],
+      "cons": [
+        "Can cut fine knit if used carelessly",
+        "Needs batteries or charging"
+      ]
     },
     {
       "name": "Wooden hangers, at least for coats and tailoring",
-      "name_he": "קולבי עץ, לפחות למעילים ולחליפות",
       "tag": "Cheap, and prevents damage",
-      "tag_he": "זול, ומונע נזק",
       "price": "$25–60",
       "search": "wooden hangers wide shoulder set",
       "image": "several wooden hangers holding shirts on a clothing rail against a pale wall",
       "body": "Thin wire and plastic hangers concentrate the weight of a garment onto two narrow points, and over a year that leaves permanent shoulder bumps in knitwear and distorts the shoulder line of a jacket — the one part of tailoring that cannot be repaired affordably. Broad wooden hangers spread the load across the natural shoulder shape. You do not need them for everything; use them for coats, jackets and anything structured, and keep the plastic ones for t-shirts. Knitwear is better folded than hung at all, whatever the hanger.",
-      "body_he": "קולבי חוט ופלסטיק דקים מרכזים את משקל הבגד לשתי נקודות צרות, ולאורך שנה זה משאיר בליטות כתף קבועות בסריגים ומעוות את קו הכתף של ז'קט — החלק היחיד בחייטות שאי אפשר לתקן בזול. קולבי עץ רחבים מפזרים את העומס לאורך צורת הכתף הטבעית. אתם לא צריכים אותם לכל דבר; השתמשו בהם למעילים, לז'קטים ולכל דבר מובנה, ושמרו את הפלסטיק לחולצות טי. סריגים עדיף לקפל מאשר לתלות בכלל, בכל קולב שהוא.",
-      "pros": ["Prevents permanent shoulder distortion", "The damage they prevent is not repairable cheaply", "Only needed for structured garments"],
-      "cons": ["Take up noticeably more rail space", "Knitwear should be folded regardless"]
+      "pros": [
+        "Prevents permanent shoulder distortion",
+        "The damage they prevent is not repairable cheaply",
+        "Only needed for structured garments"
+      ],
+      "cons": [
+        "Take up noticeably more rail space",
+        "Knitwear should be folded regardless"
+      ]
     }
   ],
   "faq": [
     {
       "q": "What single accessory makes the biggest difference?",
-      "a": "Shoes that fit and are looked after. People notice worn-out shoes before anything else, and shoe trees plus a brush cost very little against the pair they protect.",
-      "q_he": "איזה אביזר בודד עושה את ההבדל הגדול ביותר?",
-      "a_he": "נעליים שמתאימות ומטופלות. אנשים שמים לב לנעליים שחוקות לפני כל דבר אחר, ומותחנים ומברשת עולים מעט מאוד מול הזוג שהם מגנים עליו."
+      "a": "Shoes that fit and are looked after. People notice worn-out shoes before anything else, and shoe trees plus a brush cost very little against the pair they protect."
     },
     {
       "q": "Is 'genuine leather' good quality?",
-      "a": "No — despite the name it is one of the lower grades, made from bonded scraps. Full-grain is the top layer of the hide and the one that lasts. Top-grain sits between the two.",
-      "q_he": "האם \"עור אמיתי\" הוא איכות טובה?",
-      "a_he": "לא — למרות השם זו אחת הדרגות הנמוכות, עשויה משאריות מודבקות. עור מלא הוא השכבה העליונה של העור וזה שמחזיק. Top-grain נמצא בין השניים."
+      "a": "No — despite the name it is one of the lower grades, made from bonded scraps. Full-grain is the top layer of the hide and the one that lasts. Top-grain sits between the two."
     },
     {
       "q": "What is worth buying second-hand?",
-      "a": "Coats, leather bags and quality knitwear, all of which last far longer than one owner keeps them. Buy shoes new unless you know they fit, since a used pair has already moulded to someone else's foot.",
-      "q_he": "מה שווה לקנות יד שנייה?",
-      "a_he": "מעילים, תיקי עור וסריגים איכותיים, שכולם מחזיקים הרבה יותר זמן ממה שבעלים אחד שומר אותם. נעליים קנו חדשות אלא אם אתם יודעים שהן מתאימות, כי זוג משומש כבר התעצב לרגל של מישהו אחר."
+      "a": "Coats, leather bags and quality knitwear, all of which last far longer than one owner keeps them. Buy shoes new unless you know they fit, since a used pair has already moulded to someone else's foot."
     },
     {
       "q": "How do I stop jumpers looking old?",
-      "a": "A fabric shaver for the pilling, folding rather than hanging so the shoulders keep their shape, and washing less often and cooler than you probably do. Wool needs airing far more than it needs washing.",
-      "q_he": "איך מונעים מסוודרים להיראות ישנים?",
-      "a_he": "מסיר כדוריות לכדוריות, קיפול במקום תלייה כדי שהכתפיים ישמרו על הצורה, וכביסה בתדירות נמוכה ובטמפרטורה נמוכה יותר ממה שאתם כנראה עושים. צמר צריך אוורור הרבה יותר משהוא צריך כביסה."
+      "a": "A fabric shaver for the pilling, folding rather than hanging so the shoulders keep their shape, and washing less often and cooler than you probably do. Wool needs airing far more than it needs washing."
     }
   ]
 }

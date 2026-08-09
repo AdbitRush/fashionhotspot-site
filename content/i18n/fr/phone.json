@@ -1,0 +1,172 @@
+{
+  "slug": "phone",
+  "title": "Les accessoires pour téléphone que vous utiliserez encore dans un an",
+  "dek": "Dix accessoires qui résistent à un usage quotidien, et ceux, pourtant populaires, que nous ne rachèterions pas.",
+  "category": "Téléphone",
+  "how_we_pick": "Nous privilégions les articles qui évitent une panne coûteuse, qui suppriment un désagrément quotidien ou qui durent plus longtemps qu'un seul téléphone. Nous nous basons sur des tests publiés, des normes de certification et des avis d'utilisateurs sur le long terme, et nous n'avons pas personnellement utilisé tous les produits présentés ici. Lorsqu'un accessoire populaire ne vaut vraiment pas la peine d'être acheté, nous le disons clairement au lieu de simplement l'ignorer.",
+  "intro": [
+    "Les accessoires pour téléphone sont une catégorie d'achat impulsif. Ils sont assez bon marché pour qu'on n'y réfléchisse pas, et c'est précisément pourquoi la plupart des gens en ont un tiroir plein mais n'en utilisent que trois.",
+    "Les trois qui survivent sont presque toujours les mêmes : quelque chose qui empêche le téléphone de se casser, quelque chose qui le maintient chargé et quelque chose qui le fait tenir debout. Tous les produits ci-dessous sont évalués sur leur capacité à mériter encore leur place dans une poche ou un sac au bout d'un an.",
+    "Les prix sont approximatifs au moment de la rédaction. Cette catégorie est inondée de produits quasi identiques sous des noms différents, nous décrivons donc ce qu'il faut rechercher plutôt que d'insister sur une seule marque."
+  ],
+  "products": [
+    {
+      "name": "Une coque avec des bords surélevés et des coins renforcés",
+      "tag": "Celle qui vous fera économiser de l'argent",
+      "body": "Les téléphones se cassent presque toujours de deux manières : un choc sur un coin qui se propage à travers le châssis jusqu'à l'écran, ou une chute face contre terre sur du gravier. Une coque n'est utile que si elle répond à ces deux problèmes, ce qui implique de vrais renforts dans les coins et un rebord qui dépasse de l'écran et du verre de l'appareil photo. Ce rebord est la caractéristique la plus importante, et c'est la première que les coques fines sacrifient. Recherchez une certification de résistance aux chutes plutôt qu'un slogan marketing, et si votre téléphone est compatible avec la fixation magnétique, prenez une coque qui la laisse passer – sinon vous perdez cette fonction au moment même où vous protégez le téléphone.",
+      "pros": [
+        "Prévient les deux causes de casse les plus courantes",
+        "Le rebord surélevé protège l'écran et le verre de l'appareil photo",
+        "Bon marché par rapport à une réparation d'écran"
+      ],
+      "cons": [
+        "Les coques fines sacrifient le rebord qui est le plus important",
+        "Ajoute un volume non négligeable dans une poche"
+      ]
+    },
+    {
+      "name": "Protection d'écran en verre trempé (lot de deux)",
+      "tag": "Achetez-en deux, vous en aurez besoin de deux",
+      "body": "Une protection d'écran est un consommable qui coûte un dixième du prix d'une réparation d'écran. Le verre justifie le léger surcoût par rapport au film plastique, car il résiste au sable et aux clés qui causent les vraies rayures. La caractéristique sur laquelle insister est la présence d'un cadre d'alignement dans la boîte : c'est une mauvaise application, et non la qualité, qui explique pourquoi la plupart des protections finissent avec des bulles de poussière et des coins décollés. Achetez un lot de deux, car votre première tentative pourrait mal se passer et parce qu'une protection fissurée a rempli son rôle et doit être remplacée. Nettoyez l'écran, puis nettoyez-le à nouveau, puis utilisez les autocollants anti-poussière.",
+      "pros": [
+        "Un dixième du coût d'une réparation d'écran",
+        "Le verre résiste aux causes réelles de rayures",
+        "Les cadres d'alignement rendent la pose infaillible"
+      ],
+      "cons": [
+        "Les modèles bas de gamme interfèrent avec les lecteurs d'empreintes sous l'écran",
+        "La pose ne pardonne aucune erreur sans un cadre"
+      ]
+    },
+    {
+      "name": "Une batterie externe sans fil magnétique",
+      "tag": "La recharge la plus pratique",
+      "body": "La raison pour laquelle on les utilise, contrairement aux batteries filaires, c'est qu'elles se fixent en un seul geste et permettent de continuer à utiliser le téléphone pendant qu'il charge, sans câble qui pend en bas. Cette commodité est leur seul argument, mais il est de taille. Soyez lucide sur le compromis : la charge sans fil est nettement moins efficace qu'un câble. Une batterie magnétique de 5,000mAh fournira donc sensiblement moins d'énergie qu'un modèle filaire de 5,000mAh, et elle chauffera. Pour une journée à l'extérieur, c'est idéal. Pour un long vol, prenez le câble.",
+      "pros": [
+        "Se fixe en un seul geste, sans câble qui pend",
+        "Permet d'utiliser le téléphone normalement pendant la charge",
+        "Assez fine pour rester attachée dans une poche"
+      ],
+      "cons": [
+        "Le transfert sans fil gaspille une partie de la capacité",
+        "Chauffe en cours d'utilisation"
+      ]
+    },
+    {
+      "name": "Un câble USB-C tressé de 2 m",
+      "tag": "Quand le bas de gamme coûte plus cher",
+      "body": "Les câbles lâchent au niveau du manchon de protection, là où le cordon rejoint le connecteur. C'est pourquoi celui fourni avec le téléphone s'effiloche en premier. Une gaine tressée avec un collier moulé correctement résiste des années au même traitement. La longueur compte plus qu'on ne l'admet : deux mètres, c'est la différence entre pouvoir ou non utiliser son téléphone au lit ou sur le canapé. Si vous chargez un ordinateur portable avec le même câble, vérifiez la puissance en watts indiquée, et pour un transfert de données rapide, vérifiez aussi le débit, car de nombreux câbles transportent 100W de puissance mais seulement des données en USB 2.0.",
+      "pros": [
+        "La gaine tressée résiste à des années de pliage",
+        "2 m permettent d'atteindre une prise mal placée",
+        "Une assurance bon marché contre un câble hors service"
+      ],
+      "cons": [
+        "Une puissance élevée n'implique pas un transfert de données rapide",
+        "Le tressage le rend plus rigide par temps froid"
+      ]
+    },
+    {
+      "name": "Un support de voiture magnétique",
+      "tag": "Une question de sécurité, pas de confort",
+      "body": "Cet article figure sur la liste pour des raisons de sécurité plutôt que comme un gadget. Un téléphone dans un support à hauteur des yeux permet de jeter un coup d'œil plutôt que de baisser la tête vers ses genoux, et dans de nombreux pays, manipuler un téléphone en conduisant est de toute façon une infraction. Les supports magnétiques l'emportent sur les pinces car on peut y fixer le téléphone d'une seule main, sans ajuster de bras. Les supports sur grille d'aération sont les plus faciles à installer mais peuvent bloquer le flux d'air ou s'affaisser sur des ailettes souples ; les supports à ventouse sur le pare-brise sont plus stables, mais vérifiez la réglementation locale, car l'obstruction du pare-brise est réglementée dans certains pays.",
+      "pros": [
+        "Garde vos yeux près de la route",
+        "Fixation d'une seule main",
+        "Bon marché pour ce qu'il permet d'éviter"
+      ],
+      "cons": [
+        "Les supports sur grille d'aération s'affaissent et bloquent le flux d'air",
+        "Le placement sur le pare-brise est réglementé dans certains pays"
+      ]
+    },
+    {
+      "name": "Un chargeur mural GaN de 30W ou plus",
+      "tag": "Pour remplacer celui de la boîte",
+      "body": "La plupart des téléphones ne sont plus livrés avec un chargeur, et les modèles de remplacement les moins chers sur les places de marché sont la pire chose sur laquelle faire des économies, car ils sont branchés sur votre prise murale et transportent la tension du secteur. Un chargeur au nitrure de gallium (GaN) de 30W d'une marque connue est petit, ne chauffe pas et charge un téléphone moderne à pleine vitesse. Les modèles à deux ports permettent à une seule prise de servir pour un téléphone et des écouteurs. Recherchez un marquage de certification de sécurité reconnu sur le boîtier : son absence sur un produit sans marque est une vraie raison de ne pas acheter, pas une simple formalité.",
+      "pros": [
+        "Charge à pleine vitesse dans un format minuscule",
+        "Ne chauffe pas, les broches pliables sont pratiques en voyage",
+        "Deux ports pour le téléphone et les écouteurs"
+      ],
+      "cons": [
+        "Ce n'est pas le produit à acheter sans marque",
+        "Une puissance très élevée est gaspillée pour un téléphone seul"
+      ]
+    },
+    {
+      "name": "Une poignée ou un anneau de support pour téléphone",
+      "tag": "Pas cher, et ça évite les chutes",
+      "body": "Les téléphones sont devenus trop grands pour être tenus confortablement à une main, et la plupart des chutes se produisent en essayant d'atteindre le coin opposé de l'écran. Une poignée élimine complètement cet effort et sert aussi de support pour regarder des vidéos. Choisissez un modèle magnétique amovible plutôt qu'un modèle adhésif : les versions adhésives bloquent la charge sans fil, ne s'enlèvent pas proprement et finissent par se décoller. Les modèles pliables sont plus plats dans une poche. C'est un petit objet, et c'est l'un des rares accessoires qui réduit de manière mesurable la fréquence des chutes.",
+      "pros": [
+        "Évite de devoir étirer les doigts, ce qui cause les chutes",
+        "Sert aussi de support de visionnage",
+        "Les versions magnétiques se détachent proprement"
+      ],
+      "cons": [
+        "Les modèles adhésifs bloquent la charge sans fil",
+        "Ajoute une surépaisseur dans une poche serrée"
+      ]
+    },
+    {
+      "name": "Un petit trépied ou un support à bras flexible",
+      "tag": "Idéal pour les appels vidéo",
+      "body": "Caler son téléphone contre une tasse est la façon dont la plupart des gens passent leurs appels vidéo, ce qui explique un grand nombre d'angles de caméra peu flatteurs. Un petit trépied place l'objectif à hauteur des yeux et le maintient stable, c'est tout ce qu'on lui demande. Le type à pieds flexibles est le plus utile car il s'enroule autour d'un dossier de chaise, du bord d'une étagère ou d'un cadre de vélo aussi facilement qu'il se pose sur une table. Vérifiez que la pince s'ouvre assez grand pour votre téléphone avec sa coque – un nombre surprenant de modèles ne le permettent pas, et c'est la caractéristique que les gens oublient.",
+      "pros": [
+        "Place la caméra à hauteur des yeux",
+        "Les pieds flexibles s'accrochent à presque tout",
+        "Se plie assez petit pour un sac"
+      ],
+      "cons": [
+        "Beaucoup de pinces ne sont pas adaptées à un téléphone avec sa coque",
+        "Les modèles bas de gamme s'affaissent sous le poids d'un appareil lourd"
+      ]
+    },
+    {
+      "name": "Un porte-cartes amovible ou un étui portefeuille",
+      "tag": "Utile, mais attention",
+      "body": "Transporter deux cartes au dos du téléphone remplace vraiment un portefeuille pour la plupart des petits trajets, et les supports magnétiques amovibles le font sans modifier le téléphone de façon permanente. Deux avertissements pratiques. Les cartes de chambre d'hôtel et certaines anciennes cartes à bande magnétique peuvent être démagnétisées par des aimants puissants, gardez-les donc à part. Et mettre sa carte d'identité et sa carte bancaire sur l'objet le plus susceptible d'être perdu ou volé concentre le risque en un seul endroit : c'est bien pour aller faire les courses, mais moins malin pour une soirée. Les cartes sans contact elles-mêmes ne sont généralement pas affectées.",
+      "pros": [
+        "Remplace un portefeuille pour les petits trajets",
+        "Les versions magnétiques s'enlèvent quand on n'en a pas besoin",
+        "Fin, n'ajoute presque pas de volume"
+      ],
+      "cons": [
+        "Les aimants puissants peuvent démagnétiser les cartes à bande et les cartes d'hôtel",
+        "Concentre le risque de perte sur un seul objet"
+      ]
+    },
+    {
+      "name": "Des écouteurs filaires avec une prise USB-C",
+      "tag": "La solution de secours démodée",
+      "body": "Garder une paire d'écouteurs filaires bon marché dans son sac résout les problèmes créés par les écouteurs sans fil : un boîtier de charge vide avant un long appel, un échec d'appairage en réunion, ou un système de divertissement en vol qui exige une connexion physique. Ils n'ont jamais besoin d'être chargés, n'ont aucune latence et coûtent moins cher que le remplacement d'un seul écouteur sans fil perdu. Le microphone d'une bonne paire filaire est aussi généralement mieux placé pour les appels que celui d'un ordinateur portable. Ce n'est pas très excitant, mais c'est le genre de chose dont vous serez content le jour où le reste tombe en panne.",
+      "pros": [
+        "Jamais besoin de les charger, latence nulle",
+        "Assez bon marché pour en garder une paire de rechange",
+        "Micro mieux placé pour les appels que celui d'un ordinateur portable"
+      ],
+      "cons": [
+        "Un câble à démêler",
+        "Occupe le port de charge sur la plupart des téléphones"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel accessoire pour téléphone ne vaut pas la peine d'être acheté ?",
+      "a": "Les objectifs photo à clipser, les chargeurs sans marque bon marché et les poignées adhésives type PopSocket qui bloquent en permanence la charge sans fil. Les boîtiers de désinfection UV sont aussi largement inutiles : du savon et un chiffon en microfibre font l'affaire."
+    },
+    {
+      "q": "Une protection d'écran affecte-t-elle le lecteur d'empreintes digitales ?",
+      "a": "Un bon modèle, non. Un verre bon marché ou trop épais peut interférer avec les lecteurs sous l'écran, donc vérifiez que le produit mentionne explicitement la compatibilité avec le capteur de votre téléphone avant d'acheter."
+    },
+    {
+      "q": "La charge sans fil est-elle mauvaise pour la batterie ?",
+      "a": "La chaleur qu'elle génère est le facteur pertinent, et c'est la chaleur qui fait vieillir une batterie. Une charge sans fil occasionnelle ne pose pas de problème ; charger toute la nuit sur un socle tiède dans une pièce chaude est le cas de figure à éviter."
+    },
+    {
+      "q": "De quelle puissance ai-je réellement besoin pour un chargeur de téléphone ?",
+      "a": "Environ 30W couvrent la charge à pleine vitesse sur presque tous les téléphones actuels. Des chiffres plus élevés n'ont d'importance que si le même chargeur doit aussi alimenter un ordinateur portable ou plusieurs appareils à la fois."
+    }
+  ]
+}

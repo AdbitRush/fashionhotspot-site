@@ -2,9 +2,7 @@
   "slug": "coffee",
   "category": "Coffee",
   "title": "The Home Coffee Setup, From First Upgrade to Last",
-  "title_he": "ציוד הקפה הביתי — מהשדרוג הראשון ועד האחרון",
   "dek": "Ten pieces of gear that actually change what lands in your cup, ordered by how much difference each one makes for the money.",
-  "dek_he": "עשרה פריטים שבאמת משנים את מה שמגיע לכוס — לפי סדר התרומה שלהם ביחס למחיר.",
   "hero_image": "a warm sunlit kitchen counter with a pour-over dripper mid-brew, a burr grinder, a bag of whole beans and a ceramic mug arranged as a coffee corner",
   "updated": "2026-08-08",
   "read_minutes": 9,
@@ -13,169 +11,195 @@
     "So this list is ordered by leverage: how much better your coffee gets per shekel spent. The first three items will do more for your morning than the last three combined, and two of them cost under $40. If you only read the top of this page, you will still have gotten the useful part.",
     "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote — always check the live listing before you buy."
   ],
-  "intro_he": [
-    "רוב האנשים משדרגים את פינת הקפה בבית בדיוק בסדר הלא נכון. קודם קונים מכונת אספרסו, ואז תוהים שנתיים למה זה לא מתקרב לבית קפה. המכונה אף פעם לא הייתה הבעיה — פולים ישנים מהסופר ומטחנת סכין כן.",
-    "לכן הרשימה הזאת מסודרת לפי תשואה: כמה הקפה משתפר ביחס לכסף שהוצאתם. שלושת הפריטים הראשונים ישפיעו על הבוקר שלכם יותר משלושת האחרונים ביחד, ושניים מהם עולים פחות מ-150 ש\"ח. גם אם תקראו רק את ההתחלה, קיבלתם את העיקר.",
-    "המחירים למטה הם הערכה גסה נכון לזמן הכתיבה והם משתנים כל הזמן, במיוחד בימי מכירות. תתייחסו אליהם כטווח לתכנון תקציב, לא כהצעת מחיר — תמיד בדקו את המחיר בפועל לפני קנייה."
-  ],
   "how_we_pick": "These picks come from published lab testing, long-run owner reports and specialist coffee forums, cross-checked against current retail listings. We have not personally tested every item here. Where a category has one clear consensus winner we say so; where it genuinely depends on your budget or kitchen, we give you the trade-off instead of a fake verdict.",
-  "how_we_pick_he": "הבחירות כאן מבוססות על בדיקות מעבדה שפורסמו, דיווחים של בעלים לאורך זמן ופורומים מקצועיים של קפה, בהצלבה מול הצעות המחיר בחנויות. לא בדקנו בעצמנו כל פריט ברשימה. איפה שיש מנצח מוסכם אנחנו אומרים את זה; איפה שזה באמת תלוי בתקציב או במטבח שלכם, נציג לכם את ההתלבטות במקום פסיקה מזויפת.",
   "products": [
     {
       "name": "Baratza Encore ESP",
-      "name_he": "מטחנת בוראצה אנקור ESP",
       "tag": "The upgrade to make first",
-      "tag_he": "השדרוג הראשון שכדאי לעשות",
       "price": "$180–220",
       "search": "Baratza Encore ESP conical burr grinder",
       "image": "a matte black conical burr coffee grinder on a kitchen counter beside a small pile of freshly ground coffee",
       "body": "If you buy one thing on this page, buy a burr grinder. A blade grinder smashes beans into a mix of boulders and dust, which brews bitter and sour in the same cup — no machine downstream can fix that. Conical burrs cut to a consistent size instead, and the difference is immediate and obvious. The Encore ESP is the version of Baratza's long-running workhorse with a finer low end, so it reaches true espresso range as well as filter. It is not fast and it is not quiet, but it is the grinder that specialist shops have recommended to beginners for over a decade, and Baratza sells replacement parts for it years after purchase.",
-      "body_he": "אם אתם קונים דבר אחד מהעמוד הזה — קנו מטחנת אבן. מטחנת סכין מרסקת את הפולים לתערובת של גושים ואבק, ואז אותה כוס יוצאת גם מרירה וגם חמוצה, ושום מכונה בהמשך הדרך לא תתקן את זה. אבני טחינה חרוטיות חותכות לגודל אחיד, וההבדל מורגש מיד. דגם ה-ESP הוא הגרסה של סוסת העבודה הוותיקה של בוראצה עם טווח טחינה דק יותר, כך שהיא מגיעה גם לאספרסו אמיתי וגם לפילטר. היא לא מהירה ולא שקטה, אבל זו המטחנה שחנויות מקצועיות ממליצות למתחילים כבר יותר מעשור, ובוראצה מוכרת לה חלקי חילוף שנים אחרי הקנייה.",
-      "pros": ["Consistent grind across filter and espresso range", "Replacement burrs and parts stay available for years", "Simple to strip down and clean"],
-      "cons": ["Loud, and slower than a premium grinder", "Plastic body feels cheaper than the price suggests"]
+      "pros": [
+        "Consistent grind across filter and espresso range",
+        "Replacement burrs and parts stay available for years",
+        "Simple to strip down and clean"
+      ],
+      "cons": [
+        "Loud, and slower than a premium grinder",
+        "Plastic body feels cheaper than the price suggests"
+      ]
     },
     {
       "name": "Fresh whole beans with a roast date",
-      "name_he": "פולים שלמים עם תאריך קלייה",
       "tag": "Cheapest real improvement",
-      "tag_he": "השיפור הזול באמת",
       "price": "$15–25 per bag",
       "search": "specialty coffee whole bean fresh roasted",
       "image": "an open kraft paper bag of glossy dark roasted coffee beans spilling onto a stone surface",
       "body": "Coffee is an agricultural product with a short good window, and the supermarket bag marked only with a distant expiry date is usually months past it. Look for a printed roast date and buy something roasted within the last three to four weeks. Whole beans hold their aromatics far longer than pre-ground, which goes flat within days of opening. This is the one item on the list that costs almost nothing extra and changes every single cup you make from now on — which is why it sits this high, above hardware costing ten times more.",
-      "body_he": "קפה הוא מוצר חקלאי עם חלון טעם קצר, והשקית בסופר שמסומנת רק בתאריך תפוגה רחוק היא בדרך כלל חודשים אחרי החלון הזה. חפשו תאריך קלייה מודפס וקנו משהו שנקלה בשלושה-ארבעה השבועות האחרונים. פולים שלמים שומרים על הארומות הרבה יותר זמן מקפה טחון, שמאבד את הטעם תוך ימים מרגע הפתיחה. זה הפריט היחיד ברשימה שכמעט לא עולה יותר ומשנה כל כוס שתכינו מכאן והלאה — ובגלל זה הוא יושב כל כך גבוה, מעל ציוד שעולה פי עשרה.",
-      "pros": ["Costs the same as the stale option", "Improves every cup regardless of your gear", "Roast date tells you what you are actually buying"],
-      "cons": ["Needs restocking every few weeks", "Good local roasters are not available everywhere"]
+      "pros": [
+        "Costs the same as the stale option",
+        "Improves every cup regardless of your gear",
+        "Roast date tells you what you are actually buying"
+      ],
+      "cons": [
+        "Needs restocking every few weeks",
+        "Good local roasters are not available everywhere"
+      ]
     },
     {
       "name": "Hario V60 dripper and server",
-      "name_he": "האריו V60 ומזגן זכוכית",
       "tag": "Best cheap brewer",
-      "tag_he": "המחליט הזול ביותר ששווה קנייה",
       "price": "$25–40",
       "search": "Hario V60 pour over dripper set with server",
       "image": "a white ceramic cone dripper with a paper filter sitting on a glass carafe, coffee dripping through",
       "body": "The V60 is the cheapest way to make genuinely excellent coffee, and it is the brewer most specialty cafés hand you when you order filter. The cone shape and spiral ribs let you steer the brew with how you pour, which means it rewards attention — and punishes carelessness, so it has a real learning curve. Give it two weekends. Once you have a routine, it produces a cleaner, sweeter, more articulate cup than any drip machine under a few hundred dollars, and the whole setup fits in a drawer.",
-      "body_he": "ה-V60 הוא הדרך הזולה ביותר להכין קפה באמת מצוין, וזה גם המחליט שרוב בתי הקפה המקצועיים ישלפו כשתזמינו פילטר. צורת החרוט והחריצים הספירליים מאפשרים לכם לכוון את החליטה דרך אופן היציקה — כלומר הוא מתגמל תשומת לב, וגם לא סולח על חוסר ריכוז, ולכן יש לו עקומת למידה אמיתית. תנו לו שני סופי שבוע. אחרי שתפתחו שגרה הוא ייתן כוס נקייה, מתוקה ומדויקת יותר מכל מכונת טפטוף שעולה פחות מכמה מאות דולרים, וכל הסט נכנס למגירה.",
-      "pros": ["Outstanding cup quality for the price", "Packs down small, nothing to break", "Filters and spares are cheap and everywhere"],
-      "cons": ["Technique matters — early cups will be inconsistent", "Makes one or two cups at a time, not a pot"]
+      "pros": [
+        "Outstanding cup quality for the price",
+        "Packs down small, nothing to break",
+        "Filters and spares are cheap and everywhere"
+      ],
+      "cons": [
+        "Technique matters — early cups will be inconsistent",
+        "Makes one or two cups at a time, not a pot"
+      ]
     },
     {
       "name": "Timemore Black Mirror Basic 2 scale",
-      "name_he": "משקל טייממור בלאק מירור בייסיק 2",
       "tag": "Best value scale",
-      "tag_he": "המשקל המשתלם ביותר",
       "price": "$45–65",
       "search": "Timemore Black Mirror Basic 2 coffee scale",
       "image": "a slim black digital coffee scale with a glass mug of coffee on top, minimal setup",
       "body": "A scale is what turns a lucky cup into a repeatable one. Coffee is a ratio — grams of coffee to grams of water — and eyeballing scoops introduces enough variance to explain most day-to-day inconsistency. The Black Mirror reads to 0.1g, responds fast enough to pour against, and has a built-in timer so you are not juggling your phone mid-brew. Any 0.1g kitchen scale will do the job; this one is simply the one that feels good to use every morning, which matters more than the spec sheet for something you touch daily.",
-      "body_he": "משקל הוא מה שהופך כוס מוצלחת במקרה לכוס שאפשר לשחזר. קפה הוא יחס — גרם קפה לגרם מים — ומדידה בעין מכניסה מספיק שונות כדי להסביר את רוב חוסר העקביות מיום ליום. הבלאק מירור מודד ברזולוציה של 0.1 גרם, מגיב מספיק מהר כדי ליצוק מולו, ויש בו טיימר מובנה כך שלא תצטרכו לתמרן את הטלפון באמצע החליטה. כל משקל מטבח ברזולוציה של 0.1 גרם יעשה את העבודה; זה פשוט זה שנעים להשתמש בו כל בוקר, וזה חשוב יותר ממפרט טכני כשמדובר במשהו שנוגעים בו כל יום.",
-      "pros": ["0.1g resolution with a fast, stable response", "Built-in brew timer", "Slim enough to live under the dripper"],
-      "cons": ["Micro-USB charging on some units", "Not waterproof — wipe spills quickly"]
+      "pros": [
+        "0.1g resolution with a fast, stable response",
+        "Built-in brew timer",
+        "Slim enough to live under the dripper"
+      ],
+      "cons": [
+        "Micro-USB charging on some units",
+        "Not waterproof — wipe spills quickly"
+      ]
     },
     {
       "name": "Fellow Stagg EKG electric kettle",
-      "name_he": "קומקום חשמלי פלואו סטאג EKG",
       "tag": "Best gooseneck",
-      "tag_he": "קומקום צוואר האווז הטוב ביותר",
       "price": "$150–195",
       "search": "Fellow Stagg EKG electric gooseneck kettle",
       "image": "a matte black gooseneck electric kettle on its power base, steam rising, minimal counter",
       "body": "A gooseneck spout gives you a slow, aimable stream, which is the whole game in pour-over — you want to wet the bed evenly rather than blast a hole through it. Variable temperature control matters too: lighter roasts open up near boiling, darker roasts turn harsh there. The Stagg EKG is the nicest object in this category, with a counterweighted handle and a genuinely precise pour. It is also expensive for a kettle, and a $40 stovetop gooseneck plus a thermometer gets you most of the way. Buy this one because you want it on your counter, not because the coffee demands it.",
-      "body_he": "פיית צוואר אווז נותנת לכם זרם איטי שאפשר לכוון, וזה כל המשחק בפור-אובר — אתם רוצים להרטיב את הקפה באופן אחיד ולא לקדוח בו חור. גם שליטה בטמפרטורה חשובה: קליות בהירות נפתחות קרוב לרתיחה, קליות כהות הופכות שם לחדות ומרירות. הסטאג EKG הוא האובייקט הכי יפה בקטגוריה, עם ידית מאוזנת ויציקה מדויקת באמת. הוא גם יקר בתור קומקום, וקומקום צוואר אווז לכיריים ב-150 ש\"ח יחד עם מדחום יביאו אתכם לרוב הדרך. קנו את זה כי אתם רוצים אותו על השיש, לא כי הקפה מחייב.",
-      "pros": ["Precise, controllable pour", "Set-and-hold temperature to the degree", "Genuinely handsome on a counter"],
-      "cons": ["Expensive for what it fundamentally does", "1L capacity is tight for a full carafe"]
+      "pros": [
+        "Precise, controllable pour",
+        "Set-and-hold temperature to the degree",
+        "Genuinely handsome on a counter"
+      ],
+      "cons": [
+        "Expensive for what it fundamentally does",
+        "1L capacity is tight for a full carafe"
+      ]
     },
     {
       "name": "AeroPress Original",
-      "name_he": "אירופרס אוריג'ינל",
       "tag": "Best for travel and small kitchens",
-      "tag_he": "הכי טוב לנסיעות ולמטבחים קטנים",
       "price": "$35–45",
       "search": "AeroPress Original coffee press",
       "image": "a cylindrical plastic coffee press standing beside a mug on a wooden table with scattered coffee grounds",
       "body": "The AeroPress is close to unbreakable, brews in about two minutes, and cleans up by popping a puck into the bin — which is why it ends up in so many suitcases and office drawers. Immersion plus pressure makes it very forgiving of grind inconsistency, so it is the brewer that will still make you a decent cup on a hotel kettle with whatever beans you could find. It also has an unusually inventive owner community, and there are decades of published recipes to work through if you enjoy that sort of thing.",
-      "body_he": "האירופרס כמעט בלתי שביר, מכין קפה בשתי דקות בערך, והניקוי שלו הוא דחיפה של דיסקית קפה לפח — ובגלל זה הוא מוצא את דרכו לכל כך הרבה מזוודות ומגירות במשרד. השילוב של השריה ולחץ מאוד סלחני כלפי טחינה לא אחידה, ולכן זה המחליט שעדיין יכין לכם כוס סבירה עם קומקום של בית מלון ועם הפולים שהצלחתם למצוא. יש לו גם קהילת משתמשים יצירתית במיוחד, ואם זה מעניין אתכם — יש עשרות שנים של מתכונים מפורסמים להתנסות בהם.",
-      "pros": ["Extremely durable and light", "Very forgiving of grind and technique", "Fast to brew and faster to clean"],
-      "cons": ["Single serving only", "Paper filters are a consumable you must restock"]
+      "pros": [
+        "Extremely durable and light",
+        "Very forgiving of grind and technique",
+        "Fast to brew and faster to clean"
+      ],
+      "cons": [
+        "Single serving only",
+        "Paper filters are a consumable you must restock"
+      ]
     },
     {
       "name": "Airscape or Fellow Atmos storage canister",
-      "name_he": "קופסת אחסון אטומה לוואקום",
       "tag": "Best way to protect the beans",
-      "tag_he": "הדרך הטובה ביותר לשמור על הפולים",
       "price": "$25–45",
       "search": "Airscape coffee storage canister vacuum airtight",
       "image": "a brushed steel airtight coffee canister with the lid beside it and beans visible inside",
       "body": "Oxygen is what stales coffee, and a bag rolled shut with a clip is full of it. These canisters work by removing the headspace — the Airscape with a plunger lid you press down, the Atmos with a twist that pulls a partial vacuum. Either approach buys you a meaningfully longer good window, roughly doubling the time a bag stays bright. It is a small, cheap intervention that protects the money you just spent on fresh beans, which is the only reason it earns a slot ahead of more exciting hardware.",
-      "body_he": "חמצן הוא מה שמייבש ומזקין את הקפה, ושקית שסגורה בקליפס מלאה בו. הקופסאות האלה עובדות בשיטה של סילוק האוויר מעל הקפה — האיירסקייפ עם מכסה בוכנה שלוחצים כלפי מטה, האטמוס עם סיבוב שיוצר ואקום חלקי. שתי הגישות קונות לכם חלון טעם ארוך משמעותית, בערך פי שניים זמן שבו השקית נשארת חיה. זו התערבות קטנה וזולה שמגנה על הכסף שבדיוק הוצאתם על פולים טריים, וזו הסיבה היחידה שהיא מקבלת מקום לפני ציוד מרגש יותר.",
-      "pros": ["Roughly doubles the window beans stay fresh", "Blocks light as well as air", "One-time purchase, nothing to replace"],
-      "cons": ["Only worth it if you are buying fresh beans", "Vacuum models add moving parts that can wear"]
+      "pros": [
+        "Roughly doubles the window beans stay fresh",
+        "Blocks light as well as air",
+        "One-time purchase, nothing to replace"
+      ],
+      "cons": [
+        "Only worth it if you are buying fresh beans",
+        "Vacuum models add moving parts that can wear"
+      ]
     },
     {
       "name": "Breville Bambino Plus",
-      "name_he": "מכונת אספרסו ברוויל במבינו פלוס",
       "tag": "Best entry espresso machine",
-      "tag_he": "מכונת האספרסו הטובה ביותר למתחילים",
       "price": "$420–500",
       "search": "Breville Bambino Plus espresso machine",
       "image": "a compact stainless steel espresso machine on a kitchen counter pulling a shot into a small cup",
       "body": "Espresso is the expensive end of this hobby and the least forgiving, which is why it sits here rather than at the top. The Bambino Plus earns its place by heating up in about three seconds, holding temperature properly, and including an automatic steam wand that produces genuinely good microfoam without practice. Two honest warnings: the machine is only half the cost, because espresso demands a much finer and more consistent grind than filter, so budget for a capable espresso grinder alongside it. And if you mainly drink milk-based coffee, a good filter setup plus a separate frother will cost far less and disappoint you less.",
-      "body_he": "אספרסו הוא הקצה היקר של התחביב הזה והכי פחות סלחני, ולכן הוא יושב כאן ולא בראש הרשימה. הבמבינו פלוס מצדיק את מקומו בזכות חימום של שלוש שניות בערך, שמירה נכונה על טמפרטורה, ומקציף אוטומטי שמייצר מיקרופום טוב באמת בלי תרגול. שתי אזהרות כנות: המכונה היא רק חצי מהעלות, כי אספרסו דורש טחינה הרבה יותר דקה ואחידה מפילטר, אז תתקצבו גם מטחנת אספרסו רצינית. ואם אתם בעיקר שותים קפה עם חלב, סט פילטר טוב ומקציף נפרד יעלו הרבה פחות ויאכזבו אתכם פחות.",
-      "pros": ["Three-second heat-up, holds temperature well", "Automatic steam wand makes reliable microfoam", "Small footprint for a real espresso machine"],
-      "cons": ["Needs an espresso-capable grinder — a large hidden cost", "Small water tank, plastic housing at this price"]
+      "pros": [
+        "Three-second heat-up, holds temperature well",
+        "Automatic steam wand makes reliable microfoam",
+        "Small footprint for a real espresso machine"
+      ],
+      "cons": [
+        "Needs an espresso-capable grinder — a large hidden cost",
+        "Small water tank, plastic housing at this price"
+      ]
     },
     {
       "name": "Bodum Chambord French press",
-      "name_he": "פרנץ' פרס בודום שמבור",
       "tag": "Best for making a pot",
-      "tag_he": "הכי טוב להכנת קנקן",
       "price": "$30–45",
       "search": "Bodum Chambord French press 8 cup",
       "image": "a classic glass and chrome french press full of dark coffee beside two ceramic cups",
       "body": "Full immersion is the most forgiving brew method there is: coffee sits in water for four minutes, and small errors in grind or timing barely register. It also keeps the coffee oils that paper filters trap, giving a heavier, rounder cup — better with dark roasts and milk, less flattering to delicate light roasts. The Chambord is the classic for a reason, and unlike most of this list it makes enough for a table of people at once. Decant it as soon as you plunge, though, or it keeps extracting and turns bitter.",
-      "body_he": "השריה מלאה היא שיטת החליטה הכי סלחנית שיש: הקפה יושב במים ארבע דקות, וטעויות קטנות בטחינה או בתזמון כמעט לא מורגשות. היא גם משאירה את שמני הקפה שפילטר נייר לוכד, ונותנת כוס כבדה ומעוגלת יותר — מתאים יותר לקליות כהות ולחלב, פחות מחמיא לקליות בהירות ועדינות. השמבור הוא הקלאסיקה מסיבה טובה, ובניגוד לרוב הרשימה הוא מכין מספיק לשולחן שלם בבת אחת. רק תעבירו לקנקן אחר מיד אחרי הלחיצה, אחרת הקפה ממשיך להיחלט ונעשה מר.",
-      "pros": ["Almost impossible to get badly wrong", "Serves several people at once", "No paper filters to buy"],
-      "cons": ["Sediment in the cup — not everyone likes it", "Glass carafe is genuinely fragile"]
+      "pros": [
+        "Almost impossible to get badly wrong",
+        "Serves several people at once",
+        "No paper filters to buy"
+      ],
+      "cons": [
+        "Sediment in the cup — not everyone likes it",
+        "Glass carafe is genuinely fragile"
+      ]
     },
     {
       "name": "Insulated ceramic-lined travel mug",
-      "name_he": "כוס תרמית מצופה קרמיקה",
       "tag": "Best for the commute",
-      "tag_he": "הכי טוב לדרך",
       "price": "$25–45",
       "search": "insulated ceramic lined travel coffee mug leakproof",
       "image": "a matte ceramic-lined insulated travel mug with the lid off, steam rising, on a windowsill",
       "body": "Bare stainless steel gives hot coffee a faint metallic edge that gets more noticeable the longer it sits. A ceramic or enamel liner avoids it entirely, so the last mouthful tastes like the first — which is the whole point of carrying it. Prioritise a genuinely leakproof lid you can dismantle and wash, because the gasket is where these go bad. Many chains still discount a refill for bringing your own cup, so a decent mug tends to pay for itself over a few months of commuting.",
-      "body_he": "נירוסטה חשופה נותנת לקפה חם נגיעה מתכתית קלה שנעשית בולטת יותר ככל שהוא יושב. ציפוי קרמי או אמייל מונע את זה לגמרי, כך שהלגימה האחרונה טעימה כמו הראשונה — וזו כל המטרה. תעדיפו מכסה אטום באמת שאפשר לפרק ולשטוף, כי האטם הוא המקום שבו הכוסות האלה מתקלקלות. הרבה רשתות עדיין נותנות הנחה על מילוי בכוס שלכם, אז כוס טובה בדרך כלל מחזירה את עצמה תוך כמה חודשי נסיעות.",
-      "pros": ["No metallic aftertaste", "Keeps coffee hot for hours", "Often earns a refill discount"],
-      "cons": ["Ceramic liners chip if you drop it", "Heavier than a plain steel tumbler"]
+      "pros": [
+        "No metallic aftertaste",
+        "Keeps coffee hot for hours",
+        "Often earns a refill discount"
+      ],
+      "cons": [
+        "Ceramic liners chip if you drop it",
+        "Heavier than a plain steel tumbler"
+      ]
     }
   ],
   "faq": [
     {
       "q": "If I can only afford one upgrade, what should it be?",
-      "a": "A burr grinder, every time. Grind consistency sets the ceiling on everything downstream — a good grinder with a cheap brewer beats an expensive brewer with a bad grinder, and it is not close.",
-      "q_he": "אם אני יכול להרשות לעצמי שדרוג אחד בלבד, מה כדאי?",
-      "a_he": "מטחנת אבן, תמיד. אחידות הטחינה קובעת את התקרה של כל מה שבא אחריה — מטחנה טובה עם מחליט זול מנצחת מחליט יקר עם מטחנה גרועה, ובפער."
+      "a": "A burr grinder, every time. Grind consistency sets the ceiling on everything downstream — a good grinder with a cheap brewer beats an expensive brewer with a bad grinder, and it is not close."
     },
     {
       "q": "Is an expensive gooseneck kettle actually necessary?",
-      "a": "For pour-over the gooseneck spout genuinely helps; the electronics are a luxury. A stovetop gooseneck and a cheap thermometer get you most of the result for a quarter of the price.",
-      "q_he": "האם קומקום צוואר אווז יקר באמת הכרחי?",
-      "a_he": "בפור-אובר הפייה עצמה באמת עוזרת; האלקטרוניקה היא מותרות. קומקום צוואר אווז לכיריים ומדחום זול יביאו אתכם לרוב התוצאה ברבע מהמחיר."
+      "a": "For pour-over the gooseneck spout genuinely helps; the electronics are a luxury. A stovetop gooseneck and a cheap thermometer get you most of the result for a quarter of the price."
     },
     {
       "q": "How long do beans actually stay good?",
-      "a": "Roughly three to four weeks past the roast date for filter, a little longer for espresso, if they are stored whole and airtight. Ground coffee starts fading within days.",
-      "q_he": "כמה זמן פולים באמת נשארים טובים?",
-      "a_he": "בערך שלושה עד ארבעה שבועות מתאריך הקלייה לפילטר, קצת יותר לאספרסו, אם הם נשמרים שלמים ובכלי אטום. קפה טחון מתחיל לדעוך תוך ימים."
+      "a": "Roughly three to four weeks past the roast date for filter, a little longer for espresso, if they are stored whole and airtight. Ground coffee starts fading within days."
     },
     {
       "q": "Should I buy an espresso machine or a pour-over setup?",
-      "a": "If you drink long black coffee, pour-over wins on cost and cup quality by a wide margin. Buy espresso only if you specifically want short shots and milk drinks, and budget for the grinder as part of the machine.",
-      "q_he": "לקנות מכונת אספרסו או סט פור-אובר?",
-      "a_he": "אם אתם שותים קפה ארוך, פור-אובר מנצח בגדול גם בעלות וגם באיכות הכוס. תקנו אספרסו רק אם אתם ספציפית רוצים שוטים קצרים ומשקאות חלב, ותתקצבו את המטחנה כחלק מהמכונה."
+      "a": "If you drink long black coffee, pour-over wins on cost and cup quality by a wide margin. Buy espresso only if you specifically want short shots and milk drinks, and budget for the grinder as part of the machine."
     }
   ]
 }

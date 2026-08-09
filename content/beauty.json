@@ -2,9 +2,7 @@
   "slug": "beauty",
   "category": "Beauty",
   "title": "Beauty Tools That Do Something, and the Ones That Mostly Do Not",
-  "title_he": "מכשירי טיפוח שעושים משהו, ואלה שבעיקר לא",
   "dek": "A sceptical look at the at-home devices everyone is buying — what the evidence supports, what it does not, and what a towel does for free.",
-  "dek_he": "מבט ספקני על מכשירי הטיפוח הביתיים שכולם קונים — מה שהראיות תומכות בו, מה שלא, ומה שמגבת עושה בחינם.",
   "hero_image": "a calm bathroom shelf with folded towels, a hair dryer, a facial roller and small skincare bottles in soft morning light",
   "updated": "2026-08-08",
   "read_minutes": 10,
@@ -14,170 +12,195 @@
     "Nothing here is medical advice, and none of it treats a skin condition. If you are dealing with persistent acne, hair loss, rosacea or pigmentation, a dermatologist will do more for you in one appointment than anything on this page. Do a patch test with any new device, and follow the instructions on eye safety with anything that emits light.",
     "Prices are approximate at the time of writing."
   ],
-  "intro_he": [
-    "מכשירי טיפוח הם הקטגוריה שבה השיווק רץ הכי רחוק לפני הראיות. הטענות מנוסחות בשפה שנשמעת קלינית בלי להיות קלינית, ומילים כמו מחדש, מרענן ומחזק נבחרות בדיוק כי הן לא אומרות שום דבר ספציפי ולכן אי אפשר להפריך אותן.",
-    "לכן הרשימה הזאת בנויה סביב שאלה פשוטה: מה הדבר הזה באמת עושה, מכנית, והאם יש ראיות סבירות שהוא עושה את זה. חלק מהמכשירים כאן באמת טובים. אחרים הם טקסים נעימים עם השפעה צנועה, ואנחנו אומרים את זה במקום להעמיד פנים אחרת.",
-    "שום דבר כאן אינו ייעוץ רפואי ואף אחד מהמוצרים אינו מטפל במצב עורי. אם אתם מתמודדים עם אקנה מתמשך, נשירת שיער, רוזציאה או פיגמנטציה, רופא עור יעשה בשבילכם יותר בפגישה אחת מכל דבר בעמוד הזה. עשו בדיקת רגישות עם כל מכשיר חדש, ועקבו אחרי הוראות בטיחות העיניים בכל דבר שפולט אור.",
-    "המחירים הם הערכה נכון לזמן הכתיבה."
-  ],
   "how_we_pick": "We looked for a plausible mechanism and independent evidence, not brand claims. Where a device has reasonable published support we say so; where the effect is mainly temporary, cosmetic or a pleasant ritual, we say that instead. We have not personally tested these products, and individual results vary enormously with skin and hair type. Nothing here diagnoses or treats any condition.",
-  "how_we_pick_he": "חיפשנו מנגנון סביר וראיות עצמאיות, לא הצהרות של מותגים. איפה שלמכשיר יש תמיכה סבירה שפורסמה אנחנו אומרים את זה; איפה שההשפעה בעיקר זמנית, קוסמטית או טקס נעים, נאמר זאת במקום. לא בדקנו בעצמנו את המוצרים האלה, והתוצאות משתנות מאוד לפי סוג עור ושיער. שום דבר כאן אינו מאבחן או מטפל באף מצב.",
   "products": [
     {
       "name": "An ionic hair dryer with a concentrator nozzle",
-      "name_he": "מייבש שיער יוני עם פייה מרכזת",
       "tag": "The device that does the most",
-      "tag_he": "המכשיר שעושה הכי הרבה",
       "price": "$60–400",
       "search": "ionic hair dryer concentrator nozzle",
       "image": "a modern matte hair dryer with a narrow nozzle resting on a marble bathroom counter",
       "body": "Of everything on this page, a good dryer changes the most for the most people, because heat damage is cumulative and a dryer that finishes faster at a lower temperature does measurably less of it. The features that matter are airflow rather than wattage, a genuine cool shot to set the style, and a concentrator nozzle, which directs air along the hair rather than blasting it in all directions. The very expensive models are quieter, lighter and faster, which is a real quality-of-life difference over years of daily use, but a mid-priced dryer used correctly beats an expensive one held too close.",
-      "body_he": "מכל מה שבעמוד הזה, מייבש טוב משנה הכי הרבה להכי הרבה אנשים, כי נזק חום מצטבר ומייבש שמסיים מהר יותר בטמפרטורה נמוכה יותר גורם למדידה פחות ממנו. הפיצ'רים שחשובים הם זרימת אוויר ולא ואטים, מצב אוויר קר אמיתי לקיבוע התסרוקת, ופייה מרכזת שמכוונת את האוויר לאורך השיער במקום לפזר אותו לכל הכיוונים. הדגמים היקרים מאוד שקטים, קלים ומהירים יותר, וזה הבדל אמיתי באיכות החיים לאורך שנים של שימוש יומי, אבל מייבש במחיר בינוני שמשתמשים בו נכון מנצח יקר שמחזיקים קרוב מדי.",
-      "pros": ["Faster drying means less cumulative heat damage", "Concentrator nozzle genuinely improves results", "Cool shot sets the style properly"],
-      "cons": ["Wattage is a poor guide — look at airflow", "Premium pricing buys comfort more than results"]
+      "pros": [
+        "Faster drying means less cumulative heat damage",
+        "Concentrator nozzle genuinely improves results",
+        "Cool shot sets the style properly"
+      ],
+      "cons": [
+        "Wattage is a poor guide — look at airflow",
+        "Premium pricing buys comfort more than results"
+      ]
     },
     {
       "name": "A hot air styling brush",
-      "name_he": "מברשת חשמלית לייבוש ועיצוב",
       "tag": "Replaces two tools with one",
-      "tag_he": "מחליפה שני כלים באחד",
       "price": "$50–150",
       "search": "hot air styling brush volumizer",
       "image": "an oval hot air styling brush with bristles lying on a folded towel",
       "body": "This does the job of a dryer and a round brush at once, which matters because the hard part of a home blow-dry is coordinating both hands with a brush and a nozzle. One tool halves the difficulty, and for most people that means a noticeably better result than they were getting. Best on medium-length hair with some natural body. Very short hair does not give the bristles enough to grip, and very thick or coarse hair usually needs more power than these produce. Use it on damp rather than soaking hair — rough-dry to about eighty percent first.",
-      "body_he": "היא עושה את העבודה של מייבש ומברשת עגולה בבת אחת, וזה חשוב כי החלק הקשה בפן ביתי הוא לתאם שתי ידיים עם מברשת ופייה. כלי אחד מוריד את הקושי בחצי, ובשביל רוב האנשים זה אומר תוצאה טובה בהרבה ממה שהם קיבלו קודם. הכי טובה על שיער באורך בינוני עם קצת נפח טבעי. שיער קצר מאוד לא נותן לזיפים מספיק אחיזה, ושיער עבה או גס מאוד בדרך כלל דורש יותר כוח ממה שהן מייצרות. השתמשו בה על שיער לח ולא רטוב לגמרי — ייבשו קודם גס עד שמונים אחוז בערך.",
-      "pros": ["One-handed styling is far easier", "Good results for people who cannot blow-dry well", "Cheaper than a dryer plus salon visits"],
-      "cons": ["Poor on very short, very thick or coarse hair", "Slower than a dedicated dryer on long hair"]
+      "pros": [
+        "One-handed styling is far easier",
+        "Good results for people who cannot blow-dry well",
+        "Cheaper than a dryer plus salon visits"
+      ],
+      "cons": [
+        "Poor on very short, very thick or coarse hair",
+        "Slower than a dedicated dryer on long hair"
+      ]
     },
     {
       "name": "An LED light therapy mask",
-      "name_he": "מסכת פנים עם תאורת LED",
       "tag": "Some evidence, big caveats",
-      "tag_he": "יש ראיות, עם הסתייגויות גדולות",
       "price": "$100–400",
       "search": "LED light therapy face mask red blue",
       "image": "a smooth white LED face mask resting on a pale folded towel on a bathroom shelf",
       "body": "This is the device where honesty matters most. There is a real body of research behind red and blue light in dermatology, and consumer masks are far weaker than the equipment those studies used — so expect a smaller effect, if any, and expect it slowly over months of near-daily use rather than in a fortnight. Buy only from a brand that publishes wavelengths and irradiance and includes proper eye protection, and follow the eye guidance exactly. If you are pregnant, taking photosensitising medication or have a light-sensitive condition, ask a doctor before using one at all.",
-      "body_he": "זה המכשיר שבו הכנות חשובה יותר מכול. יש גוף מחקר אמיתי מאחורי אור אדום וכחול ברפואת עור, ומסכות צרכניות חלשות בהרבה מהציוד שאותם מחקרים השתמשו בו — אז צפו להשפעה קטנה יותר, אם בכלל, וצפו לה לאט לאורך חודשים של שימוש כמעט יומי ולא תוך שבועיים. קנו רק ממותג שמפרסם אורכי גל ועוצמת קרינה וכולל הגנת עיניים כמו שצריך, ועקבו אחרי הנחיות העיניים בדיוק. אם אתן בהיריון, אם אתם נוטלים תרופות שמגבירות רגישות לאור או אם יש לכם מצב רגיש לאור, שאלו רופא לפני שימוש בכלל.",
-      "pros": ["A real research basis exists in dermatology", "Passive — you can wear it while doing nothing", "No consumables"],
-      "cons": ["Consumer units are far weaker than clinical devices", "Needs months of consistent use; eye safety matters"]
+      "pros": [
+        "A real research basis exists in dermatology",
+        "Passive — you can wear it while doing nothing",
+        "No consumables"
+      ],
+      "cons": [
+        "Consumer units are far weaker than clinical devices",
+        "Needs months of consistent use; eye safety matters"
+      ]
     },
     {
       "name": "A gua sha stone or facial roller",
-      "name_he": "אבן גואה שא או רולר פנים",
       "tag": "Pleasant, modest, temporary",
-      "tag_he": "נעים, צנוע, זמני",
       "price": "$12–35",
       "search": "gua sha stone jade facial roller",
       "image": "a smooth pale stone gua sha tool and a jade roller lying on a linen cloth",
       "body": "Here is the honest version. Massaging the face moves fluid, and moving fluid temporarily reduces the morning puffiness around the eyes and jaw. That effect is real, and it is also temporary — it is drainage, not a change to your face. What these tools do not do is lift, tighten or reshape anything permanently, whatever the before-and-after photographs suggest. Judged as a cheap, genuinely relaxing few minutes that leaves you looking less puffy, a gua sha stone is good value. Always use it with oil or a slip serum; dragging a stone across dry skin is how you cause irritation.",
-      "body_he": "הנה הגרסה הכנה. עיסוי הפנים מזיז נוזלים, והזזת נוזלים מפחיתה זמנית את הנפיחות של הבוקר סביב העיניים והלסת. ההשפעה הזאת אמיתית, והיא גם זמנית — זו ניקוז, לא שינוי בפנים שלכם. מה שהכלים האלה לא עושים זה להרים, להדק או לעצב מחדש שום דבר לצמיתות, מה שלא יראו תמונות הלפני ואחרי. בתור כמה דקות זולות ומרגיעות באמת שמשאירות אתכם נראים פחות נפוחים, אבן גואה שא היא תמורה טובה. תמיד השתמשו בה עם שמן או סרום מחליק; לגרור אבן על עור יבש זו הדרך לגרום לגירוי.",
-      "pros": ["Genuinely reduces morning puffiness", "Cheap, and a pleasant few minutes", "Nothing to break or recharge"],
-      "cons": ["The effect is temporary drainage, not lifting", "Needs oil or serum, or it irritates skin"]
+      "pros": [
+        "Genuinely reduces morning puffiness",
+        "Cheap, and a pleasant few minutes",
+        "Nothing to break or recharge"
+      ],
+      "cons": [
+        "The effect is temporary drainage, not lifting",
+        "Needs oil or serum, or it irritates skin"
+      ]
     },
     {
       "name": "A silk or satin pillowcase",
-      "name_he": "ציפית משי או סאטן",
       "tag": "Cheap, and quietly effective",
-      "tag_he": "זול, ויעיל בשקט",
       "price": "$20–60",
       "search": "silk pillowcase mulberry hair skin",
       "image": "a smooth ivory silk pillowcase on a neatly made bed in soft morning light",
       "body": "Cotton grips hair and drags on skin as you move through the night, which is a meaningful part of why some people wake with creased cheeks and frizz. A smoother surface reduces that friction, and for curly, fine or chemically treated hair the difference in morning frizz and breakage is noticeable rather than theoretical. It also does not wick moisture out of your skin and hair the way cotton does. This is one of the few genuinely low-cost, low-effort items in beauty that does what it says, largely because the claim is modest and mechanical. Satin performs similarly to silk for much less.",
-      "body_he": "כותנה תופסת שיער וגוררת על העור בזמן שאתם זזים בלילה, וזה חלק משמעותי מהסיבה שחלק מהאנשים מתעוררים עם קמטי לחי ופריז. משטח חלק יותר מפחית את החיכוך הזה, ולשיער מתולתל, דק או מעובד כימית ההבדל בפריז ובשבירה של הבוקר מורגש ולא תיאורטי. הוא גם לא מושך לחות מהעור ומהשיער כמו שכותנה עושה. זה אחד הפריטים הבודדים בטיפוח שהם באמת זולים, לא דורשים מאמץ ועושים את מה שהם מבטיחים, בעיקר כי ההבטחה צנועה ומכנית. סאטן מתפקד דומה למשי בהרבה פחות כסף.",
-      "pros": ["Less friction means less frizz and breakage", "Requires no effort or routine change", "Satin gives most of the benefit far cheaper"],
-      "cons": ["Silk needs gentle washing", "Does nothing for hair you do not sleep on"]
+      "pros": [
+        "Less friction means less frizz and breakage",
+        "Requires no effort or routine change",
+        "Satin gives most of the benefit far cheaper"
+      ],
+      "cons": [
+        "Silk needs gentle washing",
+        "Does nothing for hair you do not sleep on"
+      ]
     },
     {
       "name": "An electric facial cleansing brush",
-      "name_he": "מברשת ניקוי פנים חשמלית",
       "tag": "Only if your skin tolerates it",
-      "tag_he": "רק אם העור שלכם סובל את זה",
       "price": "$30–150",
       "search": "silicone facial cleansing brush sonic",
       "image": "a small rounded silicone facial cleansing device on a white bathroom surface",
       "body": "A cleansing brush removes makeup and sunscreen more thoroughly than fingers, which is a genuine benefit if you wear heavy products. But over-cleansing is one of the most common causes of irritated, reactive skin, and a device makes over-cleansing much easier to do. Silicone heads are the better choice over bristles: they do not harbour bacteria and they need no replacement heads, which also removes an ongoing cost. Use it a few times a week rather than twice daily, stop if your skin becomes tight or reactive, and skip it entirely if you use retinoids or acids.",
-      "body_he": "מברשת ניקוי מסירה איפור וקרם הגנה ביסודיות רבה יותר מאצבעות, וזו תועלת אמיתית אם אתם מתאפרים בכבדות. אבל ניקוי יתר הוא אחת הסיבות הנפוצות ביותר לעור מגורה ורגיש, ומכשיר מקל מאוד על ניקוי יתר. ראשי סיליקון עדיפים על זיפים: הם לא אוגרים חיידקים ולא צריך להחליף אותם, וזה גם מסלק עלות שוטפת. השתמשו בה כמה פעמים בשבוע ולא פעמיים ביום, הפסיקו אם העור נעשה מתוח או רגיש, ודלגו עליה לגמרי אם אתם משתמשים ברטינואידים או בחומצות.",
-      "pros": ["More thorough removal of makeup and sunscreen", "Silicone heads never need replacing", "Waterproof and easy to clean"],
-      "cons": ["Very easy to over-cleanse and irritate skin", "Not compatible with retinoid or acid routines"]
+      "pros": [
+        "More thorough removal of makeup and sunscreen",
+        "Silicone heads never need replacing",
+        "Waterproof and easy to clean"
+      ],
+      "cons": [
+        "Very easy to over-cleanse and irritate skin",
+        "Not compatible with retinoid or acid routines"
+      ]
     },
     {
       "name": "A quality nail care set",
-      "name_he": "ערכת טיפוח ציפורניים איכותית",
       "tag": "Boring, and genuinely worth it",
-      "tag_he": "משעמם, ובאמת שווה",
       "price": "$25–60",
       "search": "stainless steel manicure set glass nail file",
       "image": "a set of stainless steel nail tools and a glass file arranged on a folded cloth",
       "body": "Cheap emery boards tear the nail edge rather than cutting it, and that ragged edge is where splits and peeling start. A glass file cuts cleanly and lasts effectively forever, and it can be washed, which cardboard cannot. Good stainless clippers cut without crushing. The rest of a typical set is optional, and one specific warning: leave your cuticles alone. Pushing them back gently after a shower is fine, cutting them is not — that seal is what keeps infection out of the nail bed, and manicures that cut it are the most common route to an infected finger.",
-      "body_he": "פצירות קרטון זולות קורעות את קצה הציפורן במקום לחתוך אותו, והקצה המרוט הזה הוא המקום שבו סדקים וקילופים מתחילים. פצירת זכוכית חותכת נקי ומחזיקה מעמד למעשה לנצח, ואפשר לשטוף אותה, מה שקרטון לא. קוצץ נירוסטה טוב חותך בלי למעוך. שאר הערכה הטיפוסית היא רשות, ואזהרה ספציפית אחת: עזבו את העוריות. לדחוף אותן בעדינות אחרי מקלחת זה בסדר, לחתוך אותן לא — האטם הזה הוא מה שמונע מזיהום להיכנס למצע הציפורן, ומניקור שחותך אותו הוא הדרך הנפוצה ביותר לאצבע מזוהמת.",
-      "pros": ["Glass files cut cleanly and last indefinitely", "Washable, unlike cardboard boards", "Prevents the splitting that ragged edges cause"],
-      "cons": ["Glass files chip if dropped", "Most sets include tools you should not use"]
+      "pros": [
+        "Glass files cut cleanly and last indefinitely",
+        "Washable, unlike cardboard boards",
+        "Prevents the splitting that ragged edges cause"
+      ],
+      "cons": [
+        "Glass files chip if dropped",
+        "Most sets include tools you should not use"
+      ]
     },
     {
       "name": "A jade or metal cooling under-eye tool",
-      "name_he": "כלי קירור לאזור מתחת לעיניים",
       "tag": "A cold spoon also works",
-      "tag_he": "כפית קרה גם עובדת",
       "price": "$10–30",
       "search": "cooling under eye massager stainless",
       "image": "a small chilled metal eye massager wand resting beside a folded white cloth",
       "body": "Cold constricts blood vessels, which reduces morning puffiness around the eyes for an hour or two. That is the entire mechanism, and it works. What is worth knowing is that the mechanism is the cold, not the tool — a chilled teaspoon, a cool damp flannel or the back of a cold metal spoon from the fridge do exactly the same thing for nothing. Buy the tool if having a dedicated one in the fridge means you will actually use it in the morning, which for a lot of people is a legitimate reason. Just do not expect it to do anything a cold spoon would not.",
-      "body_he": "קור מכווץ כלי דם, וזה מפחית נפיחות בוקר סביב העיניים לשעה או שעתיים. זה כל המנגנון, והוא עובד. מה ששווה לדעת זה שהמנגנון הוא הקור ולא הכלי — כפית מקוררת, מטלית לחה וקרירה או הצד האחורי של כפית מתכת מהמקרר עושים בדיוק אותו דבר בחינם. קנו את הכלי אם זה שיש אחד ייעודי במקרר אומר שבאמת תשתמשו בו בבוקר, וזו סיבה לגיטימית להרבה אנשים. רק אל תצפו שהוא יעשה משהו שכפית קרה לא הייתה עושה.",
-      "pros": ["The cooling effect on puffiness is real", "Cheap", "Having one ready makes you actually use it"],
-      "cons": ["A cold spoon does the same job for free", "Effect lasts an hour or two at most"]
+      "pros": [
+        "The cooling effect on puffiness is real",
+        "Cheap",
+        "Having one ready makes you actually use it"
+      ],
+      "cons": [
+        "A cold spoon does the same job for free",
+        "Effect lasts an hour or two at most"
+      ]
     },
     {
       "name": "A facial steamer",
-      "name_he": "מאדה פנים",
       "tag": "Nice ritual, modest effect",
-      "tag_he": "טקס נעים, השפעה צנועה",
       "price": "$35–80",
       "search": "facial steamer nano ionic",
       "image": "a small white facial steamer emitting a soft plume of vapour on a bathroom counter",
       "body": "Steam hydrates the outer layer of skin temporarily and softens surface debris, which makes cleansing afterwards a little more effective and the whole thing feel pleasant. It does not open pores, because pores are not muscles and have nothing to open with — that phrase is marketing shorthand for softening what is in them. Used once a week it is a nice, low-risk ritual. Used often, or too hot, or too close, it can leave skin dry and irritated, and it is generally not recommended for rosacea or very reactive skin. Keep it thirty centimetres away and limit sessions to about ten minutes.",
-      "body_he": "אדים מלחלחים את השכבה החיצונית של העור באופן זמני ומרככים לכלוך שטחי, וזה הופך את הניקוי שאחריו למעט יעיל יותר ואת כל העניין לנעים. הם לא פותחים נקבוביות, כי נקבוביות אינן שרירים ואין להן במה להיפתח — הביטוי הזה הוא קיצור שיווקי לריכוך מה שיש בתוכן. שימוש פעם בשבוע הוא טקס נעים ובסיכון נמוך. שימוש תכוף, או חם מדי, או קרוב מדי, יכול להשאיר את העור יבש ומגורה, ובדרך כלל לא מומלץ לרוזציאה או לעור רגיש מאוד. שמרו מרחק של שלושים סנטימטר והגבילו לעשר דקות בערך.",
-      "pros": ["Genuinely pleasant and relaxing", "Softens debris before cleansing", "Low risk when used occasionally"],
-      "cons": ["Does not open pores — that is a marketing phrase", "Can dry or irritate reactive skin if overused"]
+      "pros": [
+        "Genuinely pleasant and relaxing",
+        "Softens debris before cleansing",
+        "Low risk when used occasionally"
+      ],
+      "cons": [
+        "Does not open pores — that is a marketing phrase",
+        "Can dry or irritate reactive skin if overused"
+      ]
     },
     {
       "name": "A broad-spectrum sunscreen you will actually wear",
-      "name_he": "קרם הגנה רחב טווח שבאמת תמרחו",
       "tag": "The one with the strongest evidence",
-      "tag_he": "זה עם הראיות החזקות ביותר",
       "price": "$12–40",
       "search": "broad spectrum sunscreen SPF 50 face daily",
       "image": "a plain white tube of sunscreen standing on a sunlit windowsill beside a small plant",
       "body": "It is not a device and it is the least exciting entry here, and it has more evidence behind it than everything else on this page combined. Daily broad-spectrum sun protection is the single best-supported thing you can do for how your skin ages, and no LED mask or serum comes close. The only specification that really matters is that you will wear it every day, so texture and finish are not vanity concerns — they are the difference between a bottle you use and a bottle in a drawer. Try samples until you find one you do not mind, then apply more than feels necessary and reapply if you are outdoors.",
-      "body_he": "זה לא מכשיר וזה הפריט הכי פחות מרגש כאן, ויש מאחוריו יותר ראיות מכל שאר העמוד הזה ביחד. הגנה יומית רחבת טווח מהשמש היא הדבר הכי מבוסס שאפשר לעשות עבור אופן ההזדקנות של העור, ושום מסכת LED או סרום לא מתקרבים. המפרט היחיד שבאמת חשוב הוא שתמרחו אותו כל יום, ולכן מרקם וגימור אינם עניין של גנדרנות — הם ההבדל בין בקבוק שמשתמשים בו לבין בקבוק במגירה. תנסו דוגמיות עד שתמצאו אחד שלא מפריע לכם, ואז תמרחו יותר ממה שמרגיש נחוץ ותמרחו שוב אם אתם בחוץ.",
-      "pros": ["By far the strongest evidence base here", "Cheap relative to every device on this page", "Works on the cause rather than the appearance"],
-      "cons": ["Only works if worn daily and generously", "Finding a texture you like takes trial and error"]
+      "pros": [
+        "By far the strongest evidence base here",
+        "Cheap relative to every device on this page",
+        "Works on the cause rather than the appearance"
+      ],
+      "cons": [
+        "Only works if worn daily and generously",
+        "Finding a texture you like takes trial and error"
+      ]
     }
   ],
   "faq": [
     {
       "q": "Do LED masks actually work?",
-      "a": "There is real dermatological research behind the underlying light therapy, but consumer masks are much weaker than clinical devices. Expect a small effect over months of consistent use, not a transformation, and buy only from brands that publish wavelength and irradiance figures.",
-      "q_he": "האם מסכות LED באמת עובדות?",
-      "a_he": "יש מחקר רפואי אמיתי מאחורי טיפול האור עצמו, אבל מסכות צרכניות חלשות בהרבה ממכשירים קליניים. צפו להשפעה קטנה לאורך חודשים של שימוש עקבי, לא למהפך, וקנו רק ממותגים שמפרסמים נתוני אורך גל ועוצמת קרינה."
+      "a": "There is real dermatological research behind the underlying light therapy, but consumer masks are much weaker than clinical devices. Expect a small effect over months of consistent use, not a transformation, and buy only from brands that publish wavelength and irradiance figures."
     },
     {
       "q": "What is the most overrated beauty device?",
-      "a": "Anything promising to lift or tighten skin permanently through massage. Massage moves fluid and feels good, which is worth something — but it does not restructure tissue, and the before-and-after photographs rely heavily on lighting and angle.",
-      "q_he": "מהו מכשיר הטיפוח הכי מוערך יתר על המידה?",
-      "a_he": "כל דבר שמבטיח להרים או להדק עור לצמיתות באמצעות עיסוי. עיסוי מזיז נוזלים ומרגיש טוב, וזה שווה משהו — אבל הוא לא משנה מבנה רקמה, ותמונות הלפני ואחרי נשענות מאוד על תאורה וזווית."
+      "a": "Anything promising to lift or tighten skin permanently through massage. Massage moves fluid and feels good, which is worth something — but it does not restructure tissue, and the before-and-after photographs rely heavily on lighting and angle."
     },
     {
       "q": "If I only buy one thing, what should it be?",
-      "a": "Sunscreen, then a decent hair dryer if you heat-style regularly. Those two have the clearest effect on how your skin and hair actually look over years.",
-      "q_he": "אם אני קונה דבר אחד בלבד, מה כדאי?",
-      "a_he": "קרם הגנה, ואז מייבש שיער הגון אם אתם מעצבים בחום באופן קבוע. לשניים האלה ההשפעה הברורה ביותר על איך שהעור והשיער שלכם באמת נראים לאורך שנים."
+      "a": "Sunscreen, then a decent hair dryer if you heat-style regularly. Those two have the clearest effect on how your skin and hair actually look over years."
     },
     {
       "q": "Are expensive hair dryers worth the money?",
-      "a": "They are lighter, quieter and faster, which is a real daily comfort difference if you dry your hair most days. They will not repair damaged hair. A mid-priced dryer used at a lower heat and a sensible distance gets you most of the way.",
-      "q_he": "האם מייבשי שיער יקרים שווים את הכסף?",
-      "a_he": "הם קלים, שקטים ומהירים יותר, וזה הבדל נוחות יומיומי אמיתי אם אתם מייבשים שיער ברוב הימים. הם לא יתקנו שיער פגום. מייבש במחיר בינוני בחום נמוך ובמרחק סביר יביא אתכם לרוב הדרך."
+      "a": "They are lighter, quieter and faster, which is a real daily comfort difference if you dry your hair most days. They will not repair damaged hair. A mid-priced dryer used at a lower heat and a sensible distance gets you most of the way."
     }
   ]
 }

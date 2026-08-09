@@ -1,0 +1,173 @@
+{
+  "slug": "garden",
+  "title": "Matériel pour jardin et balcon : ce qui mérite vraiment sa place",
+  "dek": "Dix articles qui fonctionnent aussi bien sur un balcon qu'au jardin, classés selon leur impact réel sur vos plantations.",
+  "category": "Jardin",
+  "how_we_pick": "Notre classement se base sur l'impact sur la survie et la production des plantes, pas sur le plaisir d'avoir l'outil en main. Nous nous appuyons sur les conseils d'horticulteurs, les tests publiés et les avis d'utilisateurs sur le long terme. Nous n'avons pas testé personnellement chaque article de cette liste. Quand la solution est une technique plutôt qu'un achat – ce qui est souvent le cas en jardinage – nous le précisons.",
+  "intro": [
+    "Le jardinage est un marché inondé de gadgets, mais la liste des éléments qui déterminent la survie d'une plante est très courte. L'eau, la lumière, le drainage et la terre font presque tout le travail. Le reste n'est qu'une question de confort.",
+    "Cette liste est donc classée en fonction de l'impact sur le résultat final. Les premiers articles sont ceux qui empêchent les plantes de mourir pendant votre absence ou un moment d'inattention, ce qui est de loin la cause d'échec la plus fréquente. Les outils viennent ensuite.",
+    "Presque tout ce qui est présenté ici fonctionne aussi bien sur un balcon qu'au jardin, car les pots ont les mêmes exigences que la pleine terre – ils sèchent simplement plus vite. Quand un article est exclusivement réservé au jardin, nous le mentionnons.",
+    "Les prix sont approximatifs au moment de la rédaction. Le matériel de jardinage bénéficie de fortes réductions en fin de saison, ce qui est le moment le plus judicieux pour acheter tout ce qui n'est pas urgent."
+  ],
+  "products": [
+    {
+      "name": "Un kit d'arrosage goutte-à-goutte avec minuteur",
+      "tag": "La solution au problème n°1",
+      "body": "Un arrosage irrégulier tue plus de plantes en pot que les parasites et les maladies réunis. Le scénario est toujours le même : tout va bien pendant trois semaines, puis arrive une vague de chaleur ou des vacances, et tout est mort. Un minuteur avec un système de goutte-à-goutte élimine complètement le facteur humain, et c'est bien là tout l'intérêt. Il arrose aussi mieux qu'un arrosoir : un apport lent à la racine atteint toute la motte au lieu de s'écouler le long de la paroi intérieure du pot et de sortir par le fond, ce qui se passe réellement quand on verse l'eau rapidement. Les kits sont modulaires et ne nécessitent aucune plomberie. Vérifiez les piles du minuteur chaque printemps.",
+      "pros": [
+        "Élimine la principale cause de mortalité des plantes en pot",
+        "Arrose la motte en profondeur, pas seulement la surface",
+        "Sans plomberie, entièrement modulaire"
+      ],
+      "cons": [
+        "Les piles du minuteur lâchent sans prévenir – à vérifier chaque printemps",
+        "Les goutteurs se bouchent et doivent être nettoyés de temps en temps"
+      ]
+    },
+    {
+      "name": "Des pots avec un vrai drainage, et le bon terreau",
+      "tag": "Les fondamentaux, pas très sexy",
+      "body": "Deux erreurs expliquent une grande partie des plantes en pot qui meurent, et les deux sont évitables pour trois fois rien. La première : un pot décoratif sans trou de drainage, qui noie les racines sans qu'on s'en aperçoive. La solution : le percer ou l'utiliser comme cache-pot avec un pot en plastique à l'intérieur. La seconde : remplir les pots avec de la terre de jardin, qui se compacte en un bloc dense et sans air et ne se comporte pas du tout comme en pleine terre. Utilisez un vrai terreau de rempotage. La terre cuite respire et sèche plus vite, ce qui convient aux herbes et aux plantes méditerranéennes, mais dessert les plantes qui ont besoin de beaucoup d'eau.",
+      "pros": [
+        "Corrige deux des causes d'échec les plus courantes",
+        "Ne coûte presque rien à mettre en place",
+        "La terre cuite convient aux herbes et aux plantes qui aiment le sec"
+      ],
+      "cons": [
+        "Les pots décoratifs n'ont souvent aucun drainage",
+        "La terre de jardin se compacte énormément dans les pots"
+      ]
+    },
+    {
+      "name": "Un sécateur à coupe franche",
+      "tag": "Achetez-le bien aiguisé, gardez-le bien aiguisé",
+      "body": "Le sécateur à coupe franche (ou 'bypass') coupe comme des ciseaux, avec deux lames qui se croisent, laissant une coupe nette qui cicatrise bien. Le sécateur à enclume écrase la tige contre une plaque métallique, ce qui abîme le bois vivant et favorise les maladies – ne l'utilisez que sur du bois mort. Une coupe nette est plus importante que ne le pensent la plupart des débutants. Achetez un modèle dont les lames peuvent être remplacées et affûtées plutôt qu'un modèle scellé, et nettoyez-le entre chaque plante si l'une d'elles est malade. Un sécateur mal affûté ne rate pas sa coupe de façon évidente : il déchire tout, et vous accuserez la plante.",
+      "pros": [
+        "Les coupes nettes cicatrisent ; les tiges écrasées attirent les maladies",
+        "Les lames remplaçables permettent de le garder des années",
+        "Les modèles confortables réduisent la fatigue de la main"
+      ],
+      "cons": [
+        "Les modèles à enclume abîment les tiges vivantes",
+        "Des lames mal affûtées ne se voient pas tout de suite – pensez à les aiguiser"
+      ]
+    },
+    {
+      "name": "Un testeur d'humidité, si vous arrosez trop",
+      "tag": "Une réponse pas chère à une question fréquente",
+      "body": "L'excès d'arrosage tue plus de plantes d'intérieur que la sécheresse. Un sol détrempé étouffe les racines, et les symptômes – feuilles qui tombent et jaunissent – ressemblent exactement à ceux de la soif. On a donc tendance à arroser encore plus, ce qui ne fait qu'accélérer le processus. Une simple sonde mesure l'humidité au niveau des racines plutôt qu'en surface, c'est-à-dire là où c'est invisible mais crucial. C'est plus un outil d'apprentissage qu'un accessoire permanent : utilisez-le une saison pour apprendre à reconnaître le poids et l'aspect de vos pots, et vous n'en aurez plus besoin. Enfoncer un doigt de deux pouces dans la terre fait le même travail gratuitement.",
+      "pros": [
+        "Mesure au niveau des racines, là où ça compte",
+        "Très bon marché et sans piles sur les modèles de base",
+        "Met fin rapidement au cycle de l'arrosage excessif"
+      ],
+      "cons": [
+        "Un doigt fait le même travail gratuitement",
+        "Les testeurs bon marché se dérèglent et se corrodent avec le temps"
+      ]
+    },
+    {
+      "name": "Une lampe de croissance, pour un appartement sombre",
+      "tag": "Seulement si la lumière est le problème",
+      "body": "Si vos plantes sont 'étiolées' – allongées, pâles et tendues vers la fenêtre – le manque de lumière est le seul problème, et aucun autre achat ne pourra vous aider. Une LED à spectre complet corrige cela directement, et rend aussi les semis d'hiver vraiment possibles. Vérifiez la puissance lumineuse réelle plutôt que le nombre de watts, car les chiffres marketing sont ici particulièrement gonflés. Branchez-la sur un minuteur pour twelve à sixteen hours ; plus n'est pas mieux, les plantes ont besoin d'une période d'obscurité. Si vos plantes sont saines et compactes, vous n'avez pas de problème de lumière et cet argent sera mieux dépensé ailleurs.",
+      "pros": [
+        "Corrige directement l'étiolement dans les pièces sombres",
+        "Rend les semis d'hiver réalisables",
+        "Peu coûteux à l'usage avec les LED modernes"
+      ],
+      "cons": [
+        "Les chiffres de puissance sont systématiquement exagérés",
+        "Inutile si la lumière n'est pas votre vrai problème"
+      ]
+    },
+    {
+      "name": "Un seau à compost et un petit composteur ou lombricomposteur",
+      "tag": "Fonctionne aussi sur un balcon",
+      "body": "Le compost est le meilleur amendement de sol qui soit, et en plus il est gratuit. Pourtant, vous payez pour vous débarrasser de la matière première. Un seau avec un filtre à charbon peut rester sur le plan de travail sans sentir, et un petit composteur ou un lombricomposteur peut gérer le volume d'un foyer sans jardin. Les lombricomposteurs, en particulier, fonctionnent sur un balcon et produisent un engrais liquide concentré en prime. Maintenez un équilibre approximatif entre les déchets de cuisine 'verts' et les matières 'brunes' comme le carton. Presque toutes les plaintes concernant les odeurs proviennent d'un excès de matières vertes et d'un manque d'air.",
+      "pros": [
+        "Transforme les déchets en le meilleur amendement de sol qui soit",
+        "Les lombricomposteurs fonctionnent sur un balcon",
+        "Un engrais liquide gratuit en prime"
+      ],
+      "cons": [
+        "Une mauvaise odeur signifie que le ratio vert/brun est déséquilibré",
+        "Il faut des mois avant d'obtenir le premier compost utilisable"
+      ]
+    },
+    {
+      "name": "Un agenouilloir et de bons gants",
+      "tag": "Le secret pour tenir la distance",
+      "body": "La durée de votre session de jardinage un après-midi donné dépend généralement plus de vos genoux et de vos mains que de votre enthousiasme. Ces accessoires sont donc plus utiles qu'ils n'en ont l'air. Un épais coussin en mousse ne coûte presque rien et double à peu près votre temps de travail confortable. Pour les gants, le tissu enduit de nitrile est le bon compromis : assez de dextérité pour manipuler les semis et assez de protection contre les épines, contrairement au cuir épais, qui protège bien mais est inutile pour les travaux de précision. Prenez-en deux paires, car l'une sera toujours mouillée. Portez des gants pour travailler la terre en général ; le compost contient des bactéries et des champignons qu'il vaut mieux ne pas manipuler à mains nues.",
+      "pros": [
+        "Double à peu près le temps de travail confortable",
+        "Le revêtement en nitrile offre un bon équilibre entre adhérence et protection",
+        "Pas cher"
+      ],
+      "cons": [
+        "Il faut deux paires de gants pour pouvoir alterner",
+        "Le cuir épais est inutile pour les travaux de précision"
+      ]
+    },
+    {
+      "name": "Un arrosoir avec une pomme fine",
+      "tag": "Tout l'intérêt est dans la pomme",
+      "body": "N'importe quel récipient peut contenir de l'eau. Ce que vous achetez vraiment, c'est la pomme – l'embout perforé qui transforme un jet en pluie fine. Sans elle, l'arrosage des semis les déterre du terreau, et l'arrosage des pots creuse un sillon qui envoie l'eau directement le long d'une paroi et hors du trou de drainage, laissant la majeure partie de la motte sèche. Une pomme fine distribue l'eau assez lentement pour que le terreau l'absorbe. Vérifiez l'équilibre de l'arrosoir une fois plein : un modèle mal équilibré est fatigant à utiliser et vous incitera à arroser moins que prévu.",
+      "pros": [
+        "C'est la pomme fine qui rend l'arrosage vraiment efficace",
+        "Essentiel pour les semis, qu'un jet d'eau détruirait",
+        "Simple, rien ne peut se casser"
+      ],
+      "cons": [
+        "Les pommes se perdent facilement – gardez-en une de rechange",
+        "Les arrosoirs mal équilibrés sont fatigants quand ils sont pleins"
+      ]
+    },
+    {
+      "name": "Un anti-limaces qui ne soit pas des granulés bleus",
+      "tag": "Vérifiez ce qui est autorisé chez vous",
+      "body": "Les limaces peuvent dévorer une rangée de semis en une nuit. Les granulés traditionnels au métaldéhyde sont désormais interdits ou réglementés dans de nombreux pays en raison de leur dangerosité pour la faune et les animaux domestiques – vérifiez ce qui est autorisé là où vous vivez avant d'acheter quoi que ce soit. Les alternatives qui fonctionnent raisonnablement bien sont le ruban de cuivre autour du bord des pots, les granulés de laine et les produits à base de phosphate de fer, qui sont autorisés en agriculture biologique dans de nombreux endroits. Les pièges à bière fonctionnent, mais doivent être vidés plus souvent qu'on ne le pense. Aucune méthode n'est parfaite ; en combiner deux est plus efficace que de chercher à en perfectionner une seule.",
+      "pros": [
+        "Protège les semis d'une perte totale et rapide",
+        "Le phosphate de fer est autorisé en bio dans de nombreux pays",
+        "Le ruban de cuivre est réutilisable d'année en année"
+      ],
+      "cons": [
+        "Le métaldéhyde est interdit ou réglementé dans de nombreux pays",
+        "Aucune méthode ne fonctionne à 100 %"
+      ]
+    },
+    {
+      "name": "Une scie d'élagage pliante",
+      "tag": "Pour le jardin uniquement, et plus sûre qu'un ébrancheur",
+      "body": "C'est le seul article de cette liste qui soit vraiment réservé au jardin. Tout ce qui est plus épais qu'un pouce dépasse les capacités d'un sécateur, et forcer avec un ébrancheur produit une plaie déchiquetée et finit souvent par casser l'outil. Une scie pliante avec une lame tirante coupe vite, se glisse dans une poche et coûte moins cher que l'ébrancheur que les gens achètent à la place. Les dents à coupe tirante de style japonais sont nettement plus efficaces que celles à coupe poussante. Repliez-la chaque fois que vous la posez : une scie ouverte laissée dans l'herbe est l'un des moyens les plus sûrs de se blesser au jardin.",
+      "pros": [
+        "S'occupe des branches trop grosses pour un sécateur",
+        "Les lames à coupe tirante sont nettement plus efficaces",
+        "Se plie pour tenir dans la poche"
+      ],
+      "cons": [
+        "Vraiment pour le jardin uniquement, inutile sur un balcon",
+        "Une lame ouverte laissée par terre est un vrai danger"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu'est-ce qui tue le plus souvent les plantes en pot ?",
+      "a": "L'arrosage irrégulier, suivi de l'absence de trou de drainage, puis l'utilisation de terre de jardin au lieu de terreau. Ces trois causes expliquent la grande majorité des échecs, et toutes sont faciles et peu coûteuses à corriger."
+    },
+    {
+      "q": "Peut-on vraiment faire pousser des choses intéressantes sur un balcon ?",
+      "a": "Oui : les herbes aromatiques, les salades, les piments, les tomates et les fraises se plaisent très bien en pot. Les vraies contraintes sont le nombre d'heures d'ensoleillement et le vent, pas l'espace. Comptez le nombre d'heures de soleil direct que l'endroit reçoit réellement avant de choisir vos plantes."
+    },
+    {
+      "q": "Est-ce que ça vaut le coup d'acheter un testeur d'humidité ?",
+      "a": "Pour une saison, si vous avez tendance à trop arroser. Après cela, vous aurez appris à reconnaître le poids et l'aspect d'un pot qui a besoin d'eau. Et un doigt enfoncé de two inches dans le terreau vous donnera la même information gratuitement."
+    },
+    {
+      "q": "Quel est le meilleur moment pour acheter du matériel de jardinage ?",
+      "a": "En fin de saison, quand les magasins liquident leurs stocks. Les outils, les pots et le mobilier de jardin sont alors fortement soldés, et rien de tout cela ne s'abîme si vous le stockez pendant l'hiver."
+    }
+  ]
+}

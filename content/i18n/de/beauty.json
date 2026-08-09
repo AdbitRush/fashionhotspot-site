@@ -1,0 +1,173 @@
+{
+  "slug": "beauty",
+  "title": "Beauty-Tools, die etwas bringen – und solche, die das meistens nicht tun",
+  "dek": "Ein skeptischer Blick auf die Geräte für zu Hause, die gerade alle kaufen – was die Wissenschaft stützt, was nicht und was ein Handtuch gratis erledigt.",
+  "category": "Beauty",
+  "how_we_pick": "Wir haben nach einem plausiblen Wirkmechanismus und unabhängigen Belegen gesucht, nicht nach Markenversprechen. Wenn ein Gerät durch seriöse Veröffentlichungen gestützt wird, sagen wir das auch. Wenn der Effekt hauptsächlich vorübergehend, kosmetisch oder ein angenehmes Ritual ist, sagen wir stattdessen das. Wir haben diese Produkte nicht persönlich getestet und die individuellen Ergebnisse hängen stark vom Haut- und Haartyp ab. Keines der hier genannten Produkte dient der Diagnose oder Behandlung von Krankheiten.",
+  "intro": [
+    "Beauty-Geräte sind die Kategorie, in der das Marketing der wissenschaftlichen Evidenz am weitesten voraus ist. Behauptungen werden in einer Sprache formuliert, die klinisch klingt, ohne es zu sein. Wörter wie ‚erneuern‘, ‚revitalisieren‘ und ‚beleben‘ werden gezielt gewählt, weil sie nichts Spezifisches bedeuten und daher nicht falsch sein können.",
+    "Diese Liste orientiert sich daher an einer einfachen Frage: Was bewirkt das Gerät tatsächlich, rein mechanisch, und gibt es dafür vernünftige Belege? Einige davon sind wirklich gute Hilfsmittel. Andere sind angenehme Rituale mit bescheidener Wirkung, und das sagen wir auch so, anstatt etwas anderes vorzugeben.",
+    "Nichts davon ist als medizinischer Rat zu verstehen und keines der Produkte behandelt Hautkrankheiten. Wenn Sie mit hartnäckiger Akne, Haarausfall, Rosazea oder Pigmentstörungen zu kämpfen haben, wird ein Dermatologe in einem einzigen Termin mehr für Sie tun als alles auf dieser Seite. Machen Sie bei jedem neuen Gerät einen Patch-Test und befolgen Sie bei allen lichtemittierenden Geräten die Anweisungen zur Augensicherheit.",
+    "Die Preise sind ungefähre Angaben zum Zeitpunkt der Erstellung dieses Artikels."
+  ],
+  "products": [
+    {
+      "name": "Ein Ionen-Haartrockner mit Zentrierdüse",
+      "tag": "Das Gerät, das am meisten bringt",
+      "body": "Von allen Geräten auf dieser Seite bewirkt ein guter Föhn für die meisten Menschen am meisten, denn Hitzeschäden sind kumulativ, und ein Föhn, der bei niedrigerer Temperatur schneller trocknet, verursacht messbar weniger davon. Wichtig sind der Luftstrom, nicht die Wattzahl, eine echte Kaltstufe zum Fixieren der Frisur und eine Zentrierdüse, die die Luft am Haar entlangführt, anstatt sie in alle Richtungen zu pusten. Die sehr teuren Modelle sind leiser, leichter und schneller, was bei jahrelangem täglichem Gebrauch einen echten Unterschied in der Lebensqualität ausmacht. Aber ein mittelpreisiger Föhn, der richtig benutzt wird, ist besser als ein teurer, der zu nah gehalten wird.",
+      "pros": [
+        "Schnelleres Trocknen bedeutet weniger kumulative Hitzeschäden",
+        "Zentrierdüse verbessert die Ergebnisse wirklich",
+        "Kaltstufe fixiert die Frisur richtig"
+      ],
+      "cons": [
+        "Die Wattzahl ist kein guter Indikator – achten Sie auf den Luftstrom",
+        "Der Premium-Preis kauft eher Komfort als bessere Ergebnisse"
+      ]
+    },
+    {
+      "name": "Eine Warmluft-Stylingbürste",
+      "tag": "Ersetzt zwei Geräte durch eines",
+      "body": "Dieses Gerät erledigt die Arbeit eines Föhns und einer Rundbürste auf einmal. Das ist entscheidend, denn das Schwierigste beim Föhnen zu Hause ist die Koordination beider Hände mit Bürste und Düse. Ein einziges Gerät halbiert die Schwierigkeit, und für die meisten Menschen bedeutet das ein spürbar besseres Ergebnis. Am besten für mittellanges Haar mit etwas natürlichem Volumen. Bei sehr kurzem Haar haben die Borsten nicht genug Halt, und sehr dickes oder grobes Haar braucht in der Regel mehr Leistung, als diese Geräte bieten. Auf handtuchtrockenem, nicht auf nassem Haar anwenden – am besten erst zu etwa achtzig Prozent vortrocknen.",
+      "pros": [
+        "Einhändiges Styling ist viel einfacher",
+        "Gute Ergebnisse für Leute, die nicht gut föhnen können",
+        "Günstiger als ein Föhn plus Friseurbesuche"
+      ],
+      "cons": [
+        "Schlechte Ergebnisse bei sehr kurzem, sehr dickem oder grobem Haar",
+        "Langsamer als ein reiner Föhn bei langem Haar"
+      ]
+    },
+    {
+      "name": "Eine LED-Lichttherapie-Maske",
+      "tag": "Einige Belege, aber mit großen Vorbehalten",
+      "body": "Dies ist das Gerät, bei dem Ehrlichkeit am wichtigsten ist. Es gibt eine solide Forschungsgrundlage für rotes und blaues Licht in der Dermatologie, aber die Masken für den Heimgebrauch sind weitaus schwächer als die Geräte, die in diesen Studien verwendet wurden. Erwarten Sie also eine geringere Wirkung, wenn überhaupt, und das auch erst langsam über Monate bei fast täglicher Anwendung, nicht innerhalb von zwei Wochen. Kaufen Sie nur von einer Marke, die Wellenlängen und Bestrahlungsstärke angibt und einen richtigen Augenschutz beilegt. Befolgen Sie die Anweisungen zum Augenschutz genau. Wenn Sie schwanger sind, lichtsensibilisierende Medikamente einnehmen oder an einer lichtempfindlichen Krankheit leiden, fragen Sie vor der Anwendung unbedingt einen Arzt.",
+      "pros": [
+        "Es gibt eine echte Forschungsgrundlage in der Dermatologie",
+        "Passiv – man kann sie tragen, während man nichts tut",
+        "Keine Verbrauchsmaterialien"
+      ],
+      "cons": [
+        "Geräte für den Heimgebrauch sind viel schwächer als klinische Geräte",
+        "Monatelange konsequente Anwendung nötig; Augenschutz ist wichtig"
+      ]
+    },
+    {
+      "name": "Ein Gua-Sha-Stein oder Gesichtsroller",
+      "tag": "Angenehm, bescheiden, vorübergehend",
+      "body": "Hier ist die ehrliche Version: Eine Gesichtsmassage bewegt Flüssigkeit, und das reduziert vorübergehend die morgendlichen Schwellungen um Augen und Kiefer. Dieser Effekt ist real, aber er ist auch nur vorübergehend – es ist eine Drainage, keine Veränderung Ihres Gesichts. Was diese Werkzeuge nicht tun, ist, irgendetwas dauerhaft zu straffen, zu festigen oder neu zu formen, egal was die Vorher-Nachher-Fotos suggerieren. Betrachtet man ihn als ein günstiges, wirklich entspannendes Ritual von ein paar Minuten, das einen weniger geschwollen aussehen lässt, ist ein Gua-Sha-Stein sein Geld wert. Immer mit Öl oder einem gleitfähigen Serum verwenden; einen Stein über trockene Haut zu ziehen, verursacht nur Reizungen.",
+      "pros": [
+        "Reduziert wirklich morgendliche Schwellungen",
+        "Günstig und ein paar angenehme Minuten",
+        "Nichts, was kaputtgehen oder aufgeladen werden muss"
+      ],
+      "cons": [
+        "Der Effekt ist eine vorübergehende Drainage, kein Lifting",
+        "Benötigt Öl oder Serum, sonst reizt es die Haut"
+      ]
+    },
+    {
+      "name": "Ein Kissenbezug aus Seide oder Satin",
+      "tag": "Günstig und unauffällig wirksam",
+      "body": "Baumwolle greift das Haar und zerrt an der Haut, wenn man sich nachts bewegt. Das ist ein wesentlicher Grund, warum manche Menschen mit Knitterfalten im Gesicht und Frizz aufwachen. Eine glattere Oberfläche reduziert diese Reibung, und bei lockigem, feinem oder chemisch behandeltem Haar ist der Unterschied bei Frizz und Haarbruch am Morgen spürbar und nicht nur theoretisch. Außerdem entzieht es Haut und Haar nicht so viel Feuchtigkeit wie Baumwolle. Dies ist eines der wenigen wirklich günstigen und mühelosen Beauty-Produkte, das hält, was es verspricht – vor allem, weil das Versprechen bescheiden und rein mechanisch ist. Satin hat eine ähnliche Wirkung wie Seide, ist aber viel günstiger.",
+      "pros": [
+        "Weniger Reibung bedeutet weniger Frizz und Haarbruch",
+        "Erfordert keine Mühe oder Änderung der Routine",
+        "Satin bietet die meisten Vorteile viel günstiger"
+      ],
+      "cons": [
+        "Seide muss schonend gewaschen werden",
+        "Nützt den Haaren nichts, auf denen man nicht liegt"
+      ]
+    },
+    {
+      "name": "Eine elektrische Gesichtsreinigungsbürste",
+      "tag": "Nur, wenn Ihre Haut es verträgt",
+      "body": "Eine Reinigungsbürste entfernt Make-up und Sonnencreme gründlicher als die Finger, was ein echter Vorteil ist, wenn man stark deckende Produkte verwendet. Aber eine übermäßige Reinigung ist eine der häufigsten Ursachen für gereizte, reaktive Haut, und mit einem Gerät reinigt man sehr viel leichter zu stark. Silikonköpfe sind die bessere Wahl als Borsten: Sie beherbergen keine Bakterien und benötigen keine Ersatzköpfe, was auch die Folgekosten eliminiert. Verwenden Sie sie ein paar Mal pro Woche statt zweimal täglich, hören Sie auf, wenn Ihre Haut spannt oder reagiert, und verzichten Sie ganz darauf, wenn Sie Retinoide oder Säuren verwenden.",
+      "pros": [
+        "Gründlichere Entfernung von Make-up und Sonnencreme",
+        "Silikonköpfe müssen nie ersetzt werden",
+        "Wasserdicht und leicht zu reinigen"
+      ],
+      "cons": [
+        "Man kann die Haut sehr leicht überreinigen und reizen",
+        "Nicht mit Retinoid- oder Säure-Routinen kompatibel"
+      ]
+    },
+    {
+      "name": "Ein hochwertiges Nagelpflegeset",
+      "tag": "Langweilig, aber es lohnt sich wirklich",
+      "body": "Billige Sandpapierfeilen reißen den Nagelrand auf, anstatt ihn zu schneiden, und an diesem ausgefransten Rand beginnen Nägel zu splittern und sich abzulösen. Eine Glasfeile schneidet sauber, hält praktisch ewig und kann abgewaschen werden, was bei Pappfeilen nicht geht. Gute Edelstahlknipser schneiden, ohne zu quetschen. Der Rest eines typischen Sets ist optional, und eine besondere Warnung: Lassen Sie Ihre Nagelhaut in Ruhe. Sanftes Zurückschieben nach dem Duschen ist in Ordnung, Schneiden nicht – diese Versiegelung schützt das Nagelbett vor Infektionen, und Maniküren, bei denen sie geschnitten wird, sind der häufigste Weg zu einem entzündeten Finger.",
+      "pros": [
+        "Glasfeilen schneiden sauber und halten unbegrenzt",
+        "Abwaschbar, im Gegensatz zu Pappfeilen",
+        "Verhindert das Splittern, das durch ausgefranste Kanten entsteht"
+      ],
+      "cons": [
+        "Glasfeilen können splittern, wenn sie herunterfallen",
+        "Die meisten Sets enthalten Werkzeuge, die man nicht benutzen sollte"
+      ]
+    },
+    {
+      "name": "Ein kühlendes Augen-Tool aus Jade oder Metall",
+      "tag": "Ein kalter Löffel tut es auch",
+      "body": "Kälte verengt die Blutgefäße, was morgendliche Schwellungen um die Augen für ein oder zwei Stunden reduziert. Das ist der ganze Mechanismus, und er funktioniert. Wissenswert ist, dass der Mechanismus die Kälte ist, nicht das Werkzeug – ein gekühlter Teelöffel, ein kühler, feuchter Waschlappen oder die Rückseite eines kalten Metalllöffels aus dem Kühlschrank bewirken genau dasselbe, und zwar umsonst. Kaufen Sie das Tool, wenn ein spezielles Gerät im Kühlschrank bedeutet, dass Sie es morgens auch wirklich benutzen – was für viele ein legitimer Grund ist. Erwarten Sie nur nicht, dass es etwas tut, was ein kalter Löffel nicht auch könnte.",
+      "pros": [
+        "Der kühlende Effekt bei Schwellungen ist real",
+        "Günstig",
+        "Wenn man eines parat hat, benutzt man es auch wirklich"
+      ],
+      "cons": [
+        "Ein kalter Löffel erledigt den gleichen Job umsonst",
+        "Die Wirkung hält höchstens ein bis zwei Stunden an"
+      ]
+    },
+    {
+      "name": "Ein Gesichtsdampfgerät",
+      "tag": "Schönes Ritual, bescheidene Wirkung",
+      "body": "Dampf versorgt die äußere Hautschicht vorübergehend mit Feuchtigkeit und weicht oberflächliche Ablagerungen auf, was die anschließende Reinigung etwas effektiver und das Ganze zu einem angenehmen Erlebnis macht. Er öffnet nicht die Poren, denn Poren sind keine Muskeln und können sich nicht öffnen – dieser Ausdruck ist eine Marketing-Abkürzung für das Aufweichen ihres Inhalts. Einmal pro Woche angewendet, ist es ein schönes, risikoarmes Ritual. Bei häufiger, zu heißer oder zu naher Anwendung kann die Haut trocken und gereizt werden, und bei Rosazea oder sehr reaktiver Haut wird im Allgemeinen davon abgeraten. Halten Sie dreißig Zentimeter Abstand und begrenzen Sie die Sitzungen auf etwa zehn Minuten.",
+      "pros": [
+        "Wirklich angenehm und entspannend",
+        "Weicht Ablagerungen vor der Reinigung auf",
+        "Geringes Risiko bei gelegentlicher Anwendung"
+      ],
+      "cons": [
+        "Öffnet keine Poren – das ist ein Marketing-Ausdruck",
+        "Kann bei übermäßiger Anwendung reaktive Haut austrocknen oder reizen"
+      ]
+    },
+    {
+      "name": "Ein Breitband-Sonnenschutz, den Sie auch wirklich benutzen",
+      "tag": "Das Mittel mit der stärksten wissenschaftlichen Evidenz",
+      "body": "Es ist kein Gerät und der unspektakulärste Eintrag hier, aber es gibt mehr wissenschaftliche Belege dafür als für alles andere auf dieser Seite zusammen. Täglicher Breitband-Sonnenschutz ist die am besten belegte Maßnahme gegen die Hautalterung, und keine LED-Maske und kein Serum kommt da auch nur annähernd heran. Die einzige Eigenschaft, die wirklich zählt, ist, dass Sie ihn jeden Tag tragen. Textur und Finish sind also keine Eitelkeiten – sie sind der Unterschied zwischen einer Flasche, die Sie benutzen, und einer, die in der Schublade liegt. Probieren Sie Muster, bis Sie einen finden, der Ihnen nichts ausmacht, tragen Sie dann mehr auf, als nötig erscheint, und cremen Sie nach, wenn Sie im Freien sind.",
+      "pros": [
+        "Die bei weitem stärkste wissenschaftliche Evidenz hier",
+        "Günstig im Vergleich zu jedem Gerät auf dieser Seite",
+        "Wirkt bei der Ursache, nicht nur beim Erscheinungsbild"
+      ],
+      "cons": [
+        "Wirkt nur bei täglicher und großzügiger Anwendung",
+        "Eine angenehme Textur zu finden, erfordert Ausprobieren"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Funktionieren LED-Masken wirklich?",
+      "a": "Es gibt echte dermatologische Forschung zur zugrunde liegenden Lichttherapie, aber die Masken für den Heimgebrauch sind viel schwächer als klinische Geräte. Erwarten Sie eine geringe Wirkung über Monate konsequenter Anwendung, keine Transformation, und kaufen Sie nur von Marken, die Angaben zu Wellenlänge und Bestrahlungsstärke machen."
+    },
+    {
+      "q": "Welches ist das am meisten überschätzte Beauty-Gerät?",
+      "a": "Alles, was verspricht, die Haut durch Massage dauerhaft zu straffen oder zu festigen. Massage bewegt Flüssigkeit und fühlt sich gut an, was ja auch etwas wert ist – aber sie strukturiert kein Gewebe um, und die Vorher-Nachher-Fotos hängen stark von Beleuchtung und Winkel ab."
+    },
+    {
+      "q": "Wenn ich nur eine Sache kaufe, was sollte es sein?",
+      "a": "Sonnenschutz, und dann ein anständiger Föhn, wenn Sie Ihr Haar regelmäßig mit Hitze stylen. Diese beiden haben über die Jahre den deutlichsten Effekt darauf, wie Ihre Haut und Haare tatsächlich aussehen."
+    },
+    {
+      "q": "Lohnen sich teure Haartrockner?",
+      "a": "Sie sind leichter, leiser und schneller, was bei täglichem Gebrauch einen echten Komfortunterschied ausmacht. Sie reparieren aber kein geschädigtes Haar. Ein mittelpreisiger Föhn, der mit geringerer Hitze und vernünftigem Abstand verwendet wird, bringt Sie schon fast ans Ziel."
+    }
+  ]
+}

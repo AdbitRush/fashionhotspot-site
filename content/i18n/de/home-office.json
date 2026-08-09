@@ -1,0 +1,172 @@
+{
+  "slug": "home-office",
+  "title": "So optimieren Sie den Schreibtisch, an dem Sie vierzig Stunden pro Woche sitzen",
+  "dek": "Investieren Sie dort, wo Ihr Körper den Arbeitsplatz berührt. Alles andere auf dieser Seite ist optional, und wir sagen Ihnen, was sich lohnt und was nicht.",
+  "category": "Homeoffice",
+  "how_we_pick": "Wir gewichten Ergonomiestudien, veröffentlichte Haltbarkeitstests und Langzeitberichte von Nutzern höher als Designpreise. Wir haben nicht jeden hier vorgestellten Artikel persönlich ein ganzes Arbeitsjahr lang genutzt. Wo die ehrliche Empfehlung lautet, gebraucht zu kaufen oder gar nichts auszugeben, sagen wir das auch – ein Stapel Bücher unter einem Laptop löst dasselbe Problem wie ein Ständer, und wir sagen Ihnen das lieber, als Ihnen einen Ständer zu verkaufen.",
+  "intro": [
+    "Es gibt eine einfache Regel, wenn Sie Geld für die Einrichtung Ihres Arbeitsplatzes ausgeben: Priorisieren Sie die Dinge, die Ihr Körper berührt. Stuhl, Tastatur, Maus und die Höhe des Bildschirms im Verhältnis zu Ihren Augen. Diese vier Punkte entscheiden darüber, ob Sie den Tag mit Schmerzen beenden. Alles andere ist Komfort oder Ästhetik.",
+    "Der Fehler, den die meisten machen, ist, diese Prioritäten umzukehren – ein schöner Monitor und eine schicke Schreibtischunterlage, aber dazu ein Esszimmerstuhl. Sechs Monate später stellen sich Nackenschmerzen ein, und da hilft auch die höchste Bildschirmauflösung nichts.",
+    "Die Preise sind ungefähre Angaben zum Zeitpunkt der Veröffentlichung. Insbesondere für Büromöbel gibt es einen starken Gebrauchtmarkt, und wir weisen darauf hin, wo ein Gebrauchtkauf wirklich der klügere Kauf ist."
+  ],
+  "products": [
+    {
+      "name": "Ein gebrauchter Herman Miller Aeron oder Steelcase Leap",
+      "tag": "Hier zuerst investieren",
+      "body": "Der Stuhl ist die mit Abstand wichtigste Anschaffung. Der klügste Schachzug ist, ein hervorragendes Modell gebraucht zu kaufen statt ein mittelmäßiges neu. Diese Stühle wurden für eine gewerbliche Lebensdauer von zwölf Jahren gebaut, in enormen Stückzahlen an Büros verkauft, die es nicht mehr gibt, und generalüberholte Modelle kosten oft nur ein Drittel des Neupreises, wobei die wichtigen Teile ersetzt wurden. Wofür Sie hier bezahlen, ist die Einstellbarkeit: Sitztiefe, Höhe und Winkel der Armlehnen und eine echte Lendenwirbelstütze, die Ihren Rücken auch wirklich dort stützt, wo er es braucht. Wenn es irgendwie geht, sitzen Sie vor dem Kauf Probe, denn den Aeron gibt es in drei Größen, und die falsche Größe ist schlimmer als ein billiger Stuhl.",
+      "pros": [
+        "Für über ein Jahrzehnt täglichen Gebrauchs gebaut",
+        "Vielfältige Einstellmöglichkeiten passen sich Ihrem Körper an, nicht dem Durchschnitt",
+        "Durch Gebrauchtpreise wirklich erschwinglich"
+      ],
+      "cons": [
+        "Die Größe ist entscheidend – wenn möglich, vor dem Kauf probesitzen",
+        "Die Qualität der Aufarbeitung schwankt stark je nach Händler"
+      ]
+    },
+    {
+      "name": "Ein Monitorarm",
+      "tag": "Die beste Haltungskorrektur für wenig Geld",
+      "body": "Die meisten Monitorständer positionieren den Bildschirm zu niedrig, sodass Sie den ganzen Tag leicht nach unten schauen und Ihr Nacken den Kopf nach vorne halten muss. Ein Monitorarm ermöglicht es Ihnen, die Oberkante des Bildschirms auf Augenhöhe einzustellen – wo sie hingehört – und schafft Platz auf dem Schreibtisch darunter. Prüfen Sie vor dem Kauf zwei Werte: das VESA-Befestigungsmuster und das Gewicht Ihres Monitors. Eine Gasdruckfeder, die für weniger Gewicht ausgelegt ist, wird im Laufe des Tages langsam absinken. Wenn Ihr Schreibtisch eine dicke oder gläserne Platte hat, stellen Sie sicher, dass die Klemme passt. Dies ist eine günstige Lösung für ein Problem, das teuer werden kann, wenn man es ignoriert.",
+      "pros": [
+        "Bringt den Bildschirm dauerhaft auf die richtige Höhe",
+        "Schafft Platz auf der Schreibtischoberfläche",
+        "Günstig im Vergleich zu dem Problem, das er verhindert"
+      ],
+      "cons": [
+        "Muss zum VESA-Muster und zum Gewicht des Bildschirms passen",
+        "Klemmen passen nicht an jede Schreibtischkante"
+      ]
+    },
+    {
+      "name": "Ein 27-Zoll-Monitor mit 1440p",
+      "tag": "Der goldene Mittelweg",
+      "body": "Diese Größe und Auflösung ist der goldene Mittelweg für die Schreibtischarbeit: Der Text ist scharf, ohne dass eine Skalierung nötig ist, und man kann wirklich zwei Dokumente nebeneinander platzieren. Ein 4K-Monitor mit 27 Zoll würde ohnehin mit einer skalierten Auflösung laufen, Sie bezahlen also für Pixel, die Sie dann wegwerfen. Wenn Ihr Laptop es unterstützt, nehmen Sie ein Modell mit USB-C-Stromversorgung. Ein einziges Kabel überträgt dann Video, Daten und Ladestrom, und das tägliche An- und Abstöpseln wird zu einer einzigen Bewegung. Verzichten Sie bei dieser Größe auf ein gekrümmtes Display; Curved-Monitore lohnen sich erst ab 34 Zoll und mehr, aber nicht hier.",
+      "pros": [
+        "Scharfer Text ohne Skalierungskompromisse",
+        "USB-C-Modelle reduzieren den Kabelsalat auf ein einziges Kabel",
+        "Ein breiter, umkämpfter Markt hält die Preise niedrig"
+      ],
+      "cons": [
+        "4K ist bei dieser Größe weitgehend verschwendet",
+        "Günstige Panels schwanken stark in der Farbgleichmäßigkeit"
+      ]
+    },
+    {
+      "name": "Anker PowerConf oder Jabra Speak Freisprecheinrichtung",
+      "tag": "Das beste Upgrade für die Anrufqualität",
+      "body": "Laptop-Mikrofone sitzen neben dem Lüfter und sind zur Decke gerichtet. Deshalb klingen Sie bei jedem Anruf weit entfernt und hallend. Eine dedizierte Freisprecheinrichtung mit Richtmikrofonen und Echounterdrückung löst dieses Problem mit einem einzigen Kauf. Und im Gegensatz zu einem Headset klemmt sie Ihnen nicht sechs Stunden lang den Kopf ein. Wenn Sie den ganzen Tag in Telefonaten verbringen, verändert dies die Art, wie andere Sie wahrnehmen, mehr als jedes Kamera-Upgrade. Wenn Sie nur zwei Anrufe pro Woche haben, lösen kabelgebundene Ohrhörer mit integriertem Mikrofon den Großteil des Problems für fast kein Geld.",
+      "pros": [
+        "Entfernt Echo und den hohlen Klang von Laptop-Mikrofonen",
+        "Kein Druck durch ein Headset an langen Tagen",
+        "Ideal für Anrufe aus dem Hotelzimmer"
+      ],
+      "cons": [
+        "Überdimensioniert, wenn Sie selten telefonieren",
+        "Nimmt in einem geteilten Raum Umgebungsgeräusche auf"
+      ]
+    },
+    {
+      "name": "Eine Schreibtischlampe mit einstellbarer Farbtemperatur",
+      "tag": "Am meisten unterschätzt",
+      "body": "Die Arbeit im Schein des Monitors in einem ansonsten dunklen Raum macht Abende so anstrengend – der Kontrast zwischen einem hellen Bildschirm und einer dunklen Umgebung ist für die Augen wirklich ermüdend. Eine Lampe, die die Wand und den Schreibtisch um den Bildschirm herum beleuchtet, hebt diesen Kontrast auf. Die einstellbare Farbtemperatur ist wichtig, weil kühles Licht am Morgen und warmes Licht nach Einbruch der Dunkelheit zu Ihrem natürlichen Aufmerksamkeitsrhythmus passt. Positionieren Sie sie seitlich und nicht hinter sich, sonst sehen Sie den ganzen Tag ihre Spiegelung auf Ihrem eigenen Bildschirm.",
+      "pros": [
+        "Reduziert die Augenbelastung durch den Bildschirm in einem dunklen Raum",
+        "Warmes Abendlicht macht die Arbeit angenehmer",
+        "Macht Sie von der Deckenbeleuchtung unabhängiger"
+      ],
+      "cons": [
+        "Falsche Platzierung erzeugt Blendeffekte auf dem Bildschirm",
+        "Billige LEDs flimmern und haben eine schlechte Farbwiedergabe"
+      ]
+    },
+    {
+      "name": "Ein Laptopständer oder ein Stapel Bücher",
+      "tag": "Die günstigste Lösung auf dieser Seite",
+      "body": "Ein Laptop erzwingt einen unmöglichen Kompromiss: Ist der Bildschirm auf der richtigen Höhe, schwebt die Tastatur in der Luft; ist die Tastatur auf der richtigen Höhe, schauen Sie den ganzen Tag nach unten. Den Laptop höher zu stellen und eine separate Tastatur und Maus zu verwenden, löst das Problem vollständig. Ein Aluminiumständer ist schick und reisetauglich, aber Bücher funktionieren ergonomisch genauso gut und kosten nichts – der Physik ist es egal, was den Bildschirm hochhält. Kaufen Sie den Ständer, wenn Ihnen die Optik wichtig ist oder Sie ihn transportieren müssen. Andernfalls investieren Sie das Geld lieber in die Tastatur, die ja der Teil dieser Lösung ist, der tatsächlich etwas kostet.",
+      "pros": [
+        "Löst das Problem der Nackenverspannung durch den Laptop vollständig",
+        "Die kostenlose Variante funktioniert genauso gut",
+        "Verbessert als Nebeneffekt die kühlende Luftzirkulation"
+      ],
+      "cons": [
+        "Funktioniert nur mit separater Tastatur und Maus",
+        "Ein weiteres Teil, das man transportieren muss, wenn man mobil ist"
+      ]
+    },
+    {
+      "name": "Eine Anti-Ermüdungsmatte (wenn Sie einen Stehschreibtisch haben)",
+      "tag": "Nur wenn Sie auch wirklich stehen",
+      "body": "Stundenlanges Stehen auf einem harten Boden ist auf seine eigene Art schlecht und der Grund, warum die meisten Stehschreibtische innerhalb eines Monats stillschweigend zu Sitzschreibtischen werden. Eine gepolsterte Matte ermöglicht es Ihnen, Ihr Gewicht zu verlagern und sich zu bewegen, und genau darum geht es: Der Vorteil des Stehens kommt von der Bewegung, nicht vom starren Aufrechtsein. Kaufen Sie eine solche Matte erst, wenn Sie Ihren Stehschreibtisch lange genug haben, um zu wissen, dass Sie ihn auch wirklich nutzen. Falls Sie noch unentschlossen sind: Die Forschungsergebnisse zu Stehschreibtischen sind weitaus bescheidener, als das Marketing suggeriert. Der Wechsel zwischen den Positionen hilft, den ganzen Tag starr zu stehen hingegen nicht.",
+      "pros": [
+        "Macht das Arbeiten im Stehen wirklich durchhaltbar",
+        "Fördert die Gewichtsverlagerung, die den eigentlichen Nutzen bringt",
+        "Günstig im Vergleich zum Schreibtisch, den sie ergänzt"
+      ],
+      "cons": [
+        "Sinnlos ohne einen Stehschreibtisch",
+        "Ist im Weg, wenn man sich wieder hinsetzt"
+      ]
+    },
+    {
+      "name": "Kabelwanne und wiederverwendbare Kabelbinder",
+      "tag": "Kleiner Aufwand, dauerhafter Nutzen",
+      "body": "Dies ist der uninteressanteste Artikel hier und gleichzeitig der, über den die Leute im Nachhinein am frohsten sind. Eine Wanne unter dem Schreibtisch nimmt die Steckdosenleiste und die losen Kabel vom Boden auf. Das bedeutet, Sie können richtig staubsaugen, den Schreibtisch bewegen, ohne alles ausstecken zu müssen, und treten nicht mehr versehentlich das Ladekabel aus dem Laptop. Verwenden Sie wiederverwendbare Klettkabelbinder anstelle von Einweg-Kabelbindern, denn Ihr Setup wird sich ändern, und jedes Mal einen Kabelbinder aufzuschneiden, ist der schnellste Weg zurück zum Chaos. Eine halbe Stunde Arbeit, einmalig, und das Problem ist für Jahre gelöst.",
+      "pros": [
+        "Ermöglicht es, richtig unter dem Schreibtisch zu putzen",
+        "Den Schreibtisch bewegen, ohne alles ausstecken zu müssen",
+        "Eine einmalige Sache, die jahrelang hält"
+      ],
+      "cons": [
+        "Die Montage ist eine fummelige halbe Stunde Arbeit",
+        "Kabelwannen zum Klemmen passen nicht an jeden Schreibtisch"
+      ]
+    },
+    {
+      "name": "Ein gebrauchter Büroschreibtisch oder eine massive Tür auf Tischbeinen",
+      "tag": "Wo man nicht zu viel ausgeben sollte",
+      "body": "Der Schreibtisch ist eine flache Oberfläche in der richtigen Höhe. Er kann fast nichts, was ein billiger nicht auch könnte. Das macht ihn zum einfachsten Posten, um Geld zu sparen und es in den Stuhl zu investieren. Was wirklich zählt, ist die Tiefe – mindestens 70 cm, damit der Monitor weit genug entfernt stehen kann – und die Stabilität, denn ein Schreibtisch, der beim Tippen wackelt, ist zum Verrücktwerden. Gebrauchte Büroschreibtische aus Geschäftsauflösungen gibt es im Überfluss, sie sind extrem solide und günstig, weil sie schwer zu transportieren sind. Elektrische Sitz-Steh-Gestelle sind das einzige Upgrade, für das es sich zu zahlen lohnt – und auch nur dann, wenn Sie sie wirklich nutzen werden.",
+      "pros": [
+        "Enorme Ersparnis gegenüber einem Designerschreibtisch",
+        "Gewerbliche Modelle sind extrem stabil",
+        "Das gesparte Geld fließt in den Stuhl, wo es wichtig ist"
+      ],
+      "cons": [
+        "Umständlich abzuholen und zu transportieren",
+        "Gebrauchte Tischplatten haben oft Schönheitsfehler"
+      ]
+    },
+    {
+      "name": "Eine dedizierte Webcam, aber nur bei geschlossenem Laptop",
+      "tag": "Kauf unter Vorbehalt",
+      "body": "Seien Sie ehrlich zu sich selbst, ob Sie diese wirklich brauchen. Moderne Laptop-Kameras sind anständig, und wenn Ihr Laptop offen vor Ihnen steht, reicht die eingebaute völlig aus. Der einzige echte Anwendungsfall ist ein Setup, bei dem der Laptop geschlossen in einer Dockingstation steckt oder der Bildschirm an einem Monitorarm befestigt ist. Dann haben Sie keine Kamera auf Augenhöhe, und eine Webcam zum Anklemmen ist die einzige Lösung. Wenn Sie doch eine kaufen, wird die Beleuchtung Ihr Bild weitaus mehr verbessern als die Sensorauflösung: Ein Fenster oder eine Lampe vor Ihnen schlägt jedes Mal eine teure Kamera in einem dunklen Raum.",
+      "pros": [
+        "Die einzige Lösung für ein Setup mit geschlossenem Laptop oder Monitorarm",
+        "Bringt die Kamera auf Augenhöhe",
+        "Bessere Optik als die meisten eingebauten Kameras"
+      ],
+      "cons": [
+        "Wirklich unnötig, wenn Ihr Laptop geöffnet ist",
+        "Die Beleuchtung ist weitaus wichtiger als die Kamera"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "In welcher Reihenfolge sollte man die Dinge am besten kaufen?",
+      "a": "Zuerst der Stuhl, dann die Bildschirmhöhe, dann Tastatur und Maus, dann alles andere. Diese Reihenfolge richtet sich danach, wie stark sich die einzelnen Komponenten über ein Arbeitsjahr hinweg auf Ihren Körper auswirken."
+    },
+    {
+      "q": "Lohnen sich Stehschreibtische?",
+      "a": "Der Wechsel zwischen Sitzen und Stehen ist besser als beides für sich genommen, aber die gesundheitlichen Vorteile sind weitaus geringer, als das Marketing verspricht. Wenn ein Stehschreibtisch Ihr Budget sprengt, bringt ein Timer, der Sie daran erinnert aufzustehen, den Großteil des Nutzens kostenlos."
+    },
+    {
+      "q": "Ein großer Monitor oder zwei kleinere?",
+      "a": "Zwei Bildschirme, wenn Sie ständig auf eine Sache schauen, während Sie an einer anderen arbeiten. Ein breiter Bildschirm, wenn Sie hauptsächlich mehr Platz in einer einzigen Anwendung benötigen. Für die Büroarbeit sind zwei Bildschirme in der Regel die flexiblere Wahl."
+    },
+    {
+      "q": "Lohnt sich ein teurer Stuhl wirklich, wenn ich nur zwei Tage pro Woche im Homeoffice arbeite?",
+      "a": "Dann kaufen Sie ihn gebraucht statt neu. Ein generalüberholter Bürostuhl für ein Drittel des Neupreises ist die richtige Antwort für die Teilzeitnutzung – Sie erhalten die volle Einstellbarkeit, ohne für eine Garantie zu bezahlen, die Sie kaum in Anspruch nehmen werden."
+    }
+  ]
+}

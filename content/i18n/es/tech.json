@@ -1,0 +1,172 @@
+{
+  "slug": "tech",
+  "title": "Diez gadgets que se ganan un sitio en tu escritorio",
+  "dek": "No son los lanzamientos más espectaculares del año, sino los que la gente sigue usando seis meses después de que se pasara la novedad.",
+  "category": "Electrónica",
+  "how_we_pick": "Damos más peso a los análisis basados en mediciones publicadas, a las opiniones de usuarios a largo plazo y al historial de garantías y reparaciones que a la cobertura del día de lanzamiento. No hemos probado personalmente cada artículo. Cuando un producto es el líder claro de su categoría, lo nombramos; cuando la respuesta honesta es que depende de tu móvil, tus oídos o tu escritorio, te explicamos cuál es la contrapartida en lugar de inventarnos un ganador.",
+  "intro": [
+    "El gadget más recomendado rara vez es el que más se usa. Las reseñas se escriben la primera semana, cuando todo es emocionante y todavía no se ha roto nada. Lo que importa es si el cacharro sigue en tu escritorio en marzo.",
+    "Por eso, el filtro para esta lista fue deliberadamente aburrido: ¿resuelve un problema que de verdad tienes a diario y sigue funcionando? Faltan algunas categorías obvias porque, actualmente, nada de lo que ofrecen justifica su precio, y preferimos dejar un hueco que rellenar la lista por rellenar.",
+    "Los precios son aproximados en el momento de escribir este artículo y varían mucho durante las rebajas. Úsalos como referencia para tu presupuesto y luego comprueba el precio actualizado en la tienda."
+  ],
+  "products": [
+    {
+      "name": "Anker 737 Power Bank (24,000mAh, 140W)",
+      "tag": "El más útil de la lista",
+      "body": "La mayoría de las baterías externas se venden por su capacidad, que es el dato menos interesante. Lo que importa es la potencia de salida: con 140 W, esta carga un portátil casi a toda velocidad, no con el goteo que te da una batería normal, así que de verdad sustituye a tu cargador en un viaje en lugar de solo retrasar que te quedes sin batería. La pequeña pantalla que muestra los vatios reales y la carga restante parece una pijada, pero resulta ser la función que más usas. Es pesada y no es barata, y si solo la vas a usar para recargar el móvil, deberías comprar algo que ocupe la tercera parte y cueste la cuarta.",
+      "pros": [
+        "Carga un portátil casi a máxima velocidad",
+        "La pantalla de vatios en tiempo real es realmente informativa",
+        "Un solo ladrillo para el móvil, la tableta y el portátil"
+      ],
+      "cons": [
+        "Pesada: la notas en la mochila todo el día",
+        "Excesiva y cara si solo cargas el móvil"
+      ]
+    },
+    {
+      "name": "Sony WH-1000XM6",
+      "tag": "La mejor cancelación de ruido",
+      "body": "La cancelación de ruido es una de esas raras funciones que cambia cómo se siente un espacio, no solo cómo suena. En un avión o en una oficina diáfana, el efecto es casi como cambiarse de habitación. La línea de Sony lleva años liderando esta categoría por la potencia de su cancelación y por el software que la acompaña: un emparejamiento multipunto que de verdad funciona y modos adaptativos que desactivan la cancelación cuando hablas. La contrapartida frente a Bose es la comodidad: los Sony suenan mejor y cancelan un poco más, pero los Bose son más cómodos de llevar durante seis horas seguidas. Si usas gafas, pruébate ambos antes de decidirte.",
+      "pros": [
+        "Cancelación líder en su categoría",
+        "Emparejamiento multipunto que funciona de forma fiable",
+        "Batería de larga duración con carga rápida"
+      ],
+      "cons": [
+        "Caros y rara vez tienen descuento",
+        "Menos cómodos que los Bose en sesiones muy largas"
+      ]
+    },
+    {
+      "name": "Anker 555 USB-C hub (8-in-1)",
+      "tag": "El apaño para el portátil moderno",
+      "body": "Los portátiles pierden puertos más rápido de lo que nosotros dejamos de usar los accesorios que los necesitan, y un hub es el apaño poco glamuroso. Fíjate en tres cosas: HDMI a 4K y 60 Hz en lugar de 30, que permita la carga del portátil (pass-through) para que el hub lo alimente mientras funciona, y una carcasa de aluminio, porque los de plástico se calientan y reducen su rendimiento. Este de Anker tiene las tres. La categoría está llena de aparatos casi idénticos de marcas desconocidas por la mitad de precio; suelen ir bien hasta el día en que la salida HDMI empieza a parpadear y no tienes una garantía a la que recurrir.",
+      "pros": [
+        "HDMI 4K a 60 Hz, no los habituales 30 Hz",
+        "Permite la carga del portátil (pass-through)",
+        "La carcasa de aluminio se mantiene fría bajo carga"
+      ],
+      "cons": [
+        "Los clones más baratos parecen idénticos sobre el papel",
+        "Otro cacharro más que llevar encima"
+      ]
+    },
+    {
+      "name": "Apple Watch SE (3rd gen) or Galaxy Watch FE",
+      "tag": "El smartwatch con mejor relación calidad-precio",
+      "body": "Los relojes de gama alta añaden una pantalla más brillante, sensores de salud más avanzados y una caja de titanio. Los modelos económicos mantienen las funciones que la gente usa a diario: notificaciones, seguimiento de entrenamientos, sueño y pagos sin contacto. A menos que necesites específicamente mediciones de oxígeno en sangre o un electrocardiograma, la diferencia es mucho menor de lo que sugiere el precio. La verdadera limitación es el ecosistema: un Apple Watch no sirve para nada con un móvil Android y un Galaxy Watch pierde la mayor parte de su valor si no se usa con un Samsung, así que esta decisión ya estaba prácticamente tomada cuando compraste el móvil.",
+      "pros": [
+        "Mantiene las funciones que la gente usa a diario",
+        "Mucho más baratos que los de gama alta",
+        "Buen soporte de software durante varios años"
+      ],
+      "cons": [
+        "Atado al ecosistema de tu móvil",
+        "Sin electrocardiograma ni sensores avanzados"
+      ]
+    },
+    {
+      "name": "Keychron K2 HE (or any hot-swappable board)",
+      "tag": "La mejor mejora para tu teclado",
+      "body": "Si te ganas la vida escribiendo, el teclado es la herramienta que más tocas, y uno mecánico es una verdadera mejora ergonómica y táctil frente al recorrido plano de un portátil. La característica específica en la que debes insistir son los zócalos 'hot-swap': te permiten cambiar los interruptores (switches) sin soldar, lo que significa que una sola compra puede volverse más ligera, pesada, silenciosa o ruidosa más adelante, a medida que descubres lo que te gusta. Compra interruptores silenciosos si compartes habitación o atiendes llamadas: el traqueteo estereotípico es una elección, no una obligación, y es la forma más rápida de molestar a todos los que te rodean.",
+      "pros": [
+        "El 'hot-swap' permite que un solo teclado cambie con el tiempo",
+        "Gran mejora en comodidad frente a los teclados de portátil",
+        "Inalámbrico y con cable en el mismo teclado"
+      ],
+      "cons": [
+        "Ruidoso, a menos que elijas interruptores silenciosos a propósito",
+        "Alto, puede que necesites un reposamuñecas"
+      ]
+    },
+    {
+      "name": "Logitech MX Master 4",
+      "tag": "El mejor ratón para jornadas largas",
+      "body": "La línea MX Master ha sido la recomendación por defecto para trabajar en un escritorio durante años, y la razón es su forma más que su sensor: sostiene la mano en lugar de exigir que la agarres, y eso es lo que tu muñeca nota después de ocho horas. La rueda de desplazamiento horizontal es esa función que no sabías que querías hasta que editas una hoja de cálculo ancha o una línea de tiempo de vídeo. Es un ratón grande, hecho para manos de medianas a grandes y un agarre de palma; si tienes las manos pequeñas o usas un agarre de garra, este modelo en concreto te resultará incómodo, y el MX Anywhere, más pequeño, es mejor compra.",
+      "pros": [
+        "Realmente cómodo durante jornadas de trabajo completas",
+        "El desplazamiento horizontal justifica su existencia",
+        "Se empareja con tres dispositivos y cambia al instante"
+      ],
+      "cons": [
+        "Demasiado grande para manos pequeñas o agarre de garra",
+        "Pesado para llevarlo de un sitio a otro"
+      ]
+    },
+    {
+      "name": "Kindle Paperwhite (2024 or later)",
+      "tag": "El mejor dispositivo para una sola cosa",
+      "body": "El argumento a favor de un lector de libros electrónicos no es que haga más que tu móvil, sino que hace muchísimo menos. Sin notificaciones, sin navegador, sin aplicaciones que reclamen tu atención, solo texto en una pantalla que puedes leer a pleno sol y en la oscuridad. La resistencia al agua importa más de lo que parece en la ficha técnica, porque convierte el baño y la playa en lugares de lectura. Compra la versión sin anuncios; el descuento por tener publicidad en la pantalla de bloqueo es pequeño y vas a mirar esa pantalla miles de veces.",
+      "pros": [
+        "Se puede leer a pleno sol",
+        "La batería se mide en semanas",
+        "Resistente al agua, así que va a más sitios que una tableta"
+      ],
+      "cons": [
+        "Atado a la tienda de Amazon para una experiencia más sencilla",
+        "El refresco lento de pantalla lo hace malo para cualquier cosa que no sea leer"
+      ]
+    },
+    {
+      "name": "Anker Nano 3-port 65W GaN charger",
+      "tag": "La mejor pequeña mejora",
+      "body": "El nitruro de galio ha hecho que los cargadores tengan aproximadamente la mitad del tamaño con la misma potencia, razón por la cual el ladrillo que venía con tu portátil ahora parece absurdo. Un solo cargador GaN de 65 W con tres puertos alimenta un portátil, un móvil y unos auriculares desde un único enchufe, por lo que viajar significa llevar un enchufe y un cable de repuesto en lugar de una bolsa de ladrillos. Es el artículo más barato de la lista y uno de los dos o tres que más reduce las molestias del día a día, lo que es una buena definición de algo que merece la pena.",
+      "pros": [
+        "Sustituye tres cargadores por uno",
+        "Clavijas plegables, realmente de bolsillo",
+        "Barato para la cantidad de molestias que quita"
+      ],
+      "cons": [
+        "65 W no son suficientes para portátiles gaming de alto consumo",
+        "La potencia se reparte y disminuye cuando se usan todos los puertos"
+      ]
+    },
+    {
+      "name": "Xreal Air 2 display glasses",
+      "tag": "El más interesante, y el que tiene más peros",
+      "body": "Estas gafas ponen una gran pantalla virtual delante de ti desde un dispositivo del tamaño de unas gafas de sol, lo que es realmente útil en un avión o en la habitación de un hotel donde es imposible tener un monitor. El texto es lo suficientemente nítido para trabajar de verdad, y conectarlas a un portátil o a un móvil por USB-C es un auténtico 'plug-and-play'. Ahora, los peros, porque son importantes: el campo de visión es más estrecho de lo que sugieren las imágenes de marketing, aprietan en la nariz después de una o dos horas y das el cante si las llevas en público. Cómpralas si viajas constantemente y trabajas sobre la marcha. Si no, un segundo monitor cuesta la décima parte.",
+      "pros": [
+        "Una pantalla grande en cualquier sitio, desde un dispositivo de bolsillo",
+        "Suficientemente nítido para trabajar con texto de verdad",
+        "Funciona con un solo cable USB-C"
+      ],
+      "cons": [
+        "Campo de visión más estrecho de lo que promete el marketing",
+        "Incómodas después de una o dos horas"
+      ]
+    },
+    {
+      "name": "Tile or AirTag item trackers (4-pack)",
+      "tag": "La tranquilidad más barata",
+      "body": "Un localizador en la mochila, la cartera y las llaves cuesta menos que reponer cualquiera de esas cosas una sola vez. Lo que hace que funcionen no es el localizador en sí, sino la red: cada móvil cercano del ecosistema informa discretamente de la ubicación de una etiqueta, por lo que la cobertura en una ciudad es casi total. Esa es también la razón para elegir el que corresponda a tu móvil: los AirTags son excelentes en un iPhone y prácticamente inútiles en Android, y Tile es la opción más neutral. Vale la pena saberlo antes de comprar: están diseñados para encontrar tus propias cosas, y ambas compañías ahora incluyen alertas antiacoso que notifican a una persona si una etiqueta desconocida viaja con ella.",
+      "pros": [
+        "La red de búsqueda hace que la cobertura urbana sea casi total",
+        "La pila reemplazable dura aproximadamente un año",
+        "Más barato que reponer lo que pierdes"
+      ],
+      "cons": [
+        "Efectivamente atado al ecosistema de un móvil",
+        "Inútiles en zonas con pocos móviles cerca"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Merece la pena comprar el modelo de gama alta del año pasado?",
+      "a": "Normalmente sí, para móviles, relojes y auriculares. Las mejoras de un año para otro en estas categorías son pequeñas, y el modelo del año pasado suele venderse por un 25–40% menos a los pocos meses de un nuevo lanzamiento."
+    },
+    {
+      "q": "¿Son realmente malas las versiones baratas y sin marca?",
+      "a": "Para accesorios pasivos como cables y soportes, a menudo están bien. Para cualquier cosa que lleve batería o suministre energía, la marca importa: ahí es donde merece la pena pagar por las certificaciones de seguridad, el diseño térmico y una garantía honesta."
+    },
+    {
+      "q": "Si trabajo todo el día con un portátil, ¿qué debería comprar primero?",
+      "a": "Un hub y un cargador en condiciones, y después un teclado y un ratón externos. Esas cuatro cosas mejoran tu postura y reducen las molestias diarias más que cualquier dispositivo caro de esta lista."
+    },
+    {
+      "q": "¿Necesito también el cable USB-C más nuevo?",
+      "a": "Para cargar, casi cualquier cable moderno sirve. Para transferir datos rápidamente o conectar un monitor, los cables baratos fallan de verdad; comprueba que el cable especifique su potencia y velocidad de datos en lugar de darlo por hecho."
+    }
+  ]
+}

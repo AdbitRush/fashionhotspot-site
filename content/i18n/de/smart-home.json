@@ -1,0 +1,173 @@
+{
+  "slug": "smart-home",
+  "title": "Die Smart-Home-Komponenten, deren Einbau sich wirklich lohnt",
+  "dek": "Die meisten Smart-Home-Geräte lösen Probleme, die Sie gar nicht hatten. Diese zehn hier lösen echte – und wir sagen Ihnen klipp und klar, auf welche wir verzichten würden.",
+  "category": "Smart Home",
+  "how_we_pick": "Wir bevorzugen Geräte, die Matter oder Thread unterstützen, gegenüber solchen, die an die Cloud einer einzigen Marke gebunden sind. Denn die Abschaltung der Cloud ist der häufigste Grund, warum Smart-Home-Geräte unbrauchbar werden. Langzeitberichte von Besitzern und die Support-Historie der Hersteller fließen stark in unsere Bewertung ein. Wir haben nicht jedes hier vorgestellte Produkt selbst installiert, und wenn eine Kategorie das Geld wirklich noch nicht wert ist, lassen wir sie aus und erklären am Ende im Frage-Teil, warum.",
+  "intro": [
+    "Das Smart Home hat ein Glaubwürdigkeitsproblem, und das hat es sich selbst zuzuschreiben. Ein Jahrzehnt lang wurde uns versprochen, wir würden mit unseren Lampen sprechen, doch die Realität sah anders aus: eine App für jede Steckdose, ein Hub, dessen Support eingestellt wurde, und ein Lichtschalter, mit dem Gäste nicht klarkamen.",
+    "Geändert hat sich das mit Matter und Thread – einem gemeinsamen Standard, der es Geräten verschiedener Marken endlich ermöglicht, ohne einen Haufen Bridges miteinander zu kommunizieren. Der Standard ist nicht perfekt, aber er bedeutet, dass ein heute gekauftes Gerät eine realistische Chance hat, in fünf Jahren noch zu funktionieren, was vorher nicht der Fall war.",
+    "Unser Test ist also einfach: Spart es wirklich Zeit oder Geld, und wird es überleben, wenn der Hersteller das Interesse verliert? Wenn eine Kategorie diesen Test nicht besteht, sagen wir das, anstatt den Platz einfach zu füllen.",
+    "Die Preise sind Schätzungen zum Zeitpunkt der Veröffentlichung und können sich bei Rabattaktionen stark ändern."
+  ],
+  "products": [
+    {
+      "name": "Ecobee oder Nest Learning Thermostat",
+      "tag": "Das Einzige, das sich von selbst bezahlt macht",
+      "body": "Heizen und Kühlen sind die größten Energieposten in den meisten Haushalten, was das Thermostat zum einzigen Smart-Gerät macht, bei dem sich die Anschaffung glaubhaft rechnet. Die Ersparnis entsteht nicht dadurch, dass man mit ihm spricht, sondern durch Zeitpläne und Fernsensoren, die verhindern, dass das System einen leeren Raum heizt, während der genutzte kalt bleibt. Ecobee liefert diese Sensoren direkt mit, was der praktische Vorteil gegenüber Nest ist. Zwei ehrliche Einschränkungen: Wenn Sie in einer kleinen Ein-Zonen-Wohnung leben, ist die Ersparnis bescheiden, und wenn Sie zur Miete wohnen, prüfen Sie, ob Sie das Gerät überhaupt austauschen dürfen.",
+      "pros": [
+        "Echte, messbare Energieeinsparung",
+        "Fernsensoren gleichen ungleichmäßige Heizung aus",
+        "Steuerbar per Handy, wenn sich Pläne ändern"
+      ],
+      "cons": [
+        "Geringe Ersparnis in kleinen Ein-Zonen-Wohnungen",
+        "Erfordert eventuell professionelle Verkabelung und die Erlaubnis des Vermieters"
+      ]
+    },
+    {
+      "name": "Philips Hue Starter-Kit (Bridge + Leuchtmittel)",
+      "tag": "Beste Beleuchtung, hat aber ihren Preis",
+      "body": "Hue ist die teure Option und trotzdem die richtige Wahl, denn bei der Beleuchtung kommt es am meisten auf Zuverlässigkeit an – eine Lampe, die zwei Sekunden zum Reagieren braucht oder einmal pro Woche ausfällt, ist schlimmer als ein dummer Schalter. Diese Zuverlässigkeit erkauft man sich mit der Bridge: Sie steuert die Lampen lokal über Zigbee, anstatt jeden Befehl durch das Internet zu leiten. Der wahre Wert liegt in den Zeitplänen, nicht in den Farben. Licht, das abends wärmer wird und morgens langsam hochfährt, verändert die Atmosphäre eines Raumes viel mehr als jede Partyszene es je könnte.",
+      "pros": [
+        "Schnell und zuverlässig – reagiert wie ein Schalter",
+        "Lokale Steuerung, funktioniert auch ohne Internet",
+        "Riesige Auswahl an Fassungen und Formen"
+      ],
+      "cons": [
+        "Deutlich teurer als konkurrierende Leuchtmittel",
+        "Die Bridge ist ein weiteres Gerät, das eine Steckdose braucht"
+      ]
+    },
+    {
+      "name": "Aqara oder Eve Tür- und Fenstersensoren",
+      "tag": "Das Günstigste, was den Rest nützlich macht",
+      "body": "Automationen sind nur so gut wie das, was das Haus über sich selbst weiß, und Kontaktsensoren sind der günstigste Weg, ihm nützliche Fakten zu liefern. Ein Türsensor schaltet das Flurlicht ein, wenn Sie hereinkommen, meldet Ihnen im Winter, dass die Hintertür seit zwanzig Minuten offen steht, und warnt Sie, wenn das Garagentor nicht geschlossen wurde. All das erfordert weder eine Kamera noch ein Abonnement. Kaufen Sie Versionen mit Thread oder Zigbee statt mit WLAN – WLAN-Sensoren fressen Batterien und belasten Ihr Netzwerk, und am Ende haben Sie vielleicht ein Dutzend davon.",
+      "pros": [
+        "Sehr günstig und die Grundlage für alles andere",
+        "Batterien halten mit Thread oder Zigbee ein Jahr oder länger",
+        "Keine Kamera, kein Abo, kein Kompromiss bei der Privatsphäre"
+      ],
+      "cons": [
+        "Alleine nutzlos – sie müssen etwas auslösen können",
+        "Klebemontage kann auf strukturierten Oberflächen versagen"
+      ]
+    },
+    {
+      "name": "Aqara U100 oder Yale Assure Lock 2",
+      "tag": "Der größte Komfort im Alltag",
+      "body": "Das smarte Schloss ist das Gerät, dem die Leute am skeptischsten gegenüberstehen und das sie am Ende am häufigsten benutzen, weil es eine kleine Hürde beseitigt, die mehrmals täglich auftritt. Einer Reinigungskraft oder einem Gast einen temporären Code zu geben, anstatt einen Schlüssel nachmachen zu lassen, ist die Funktion, die die Leute überzeugt. Bestehen Sie auf zwei Dinge: eine mechanische Notentriegelung mit Schlüssel und Standard-AA-Batterien anstelle eines proprietären Akkus. Prüfen Sie Ihre Tür vor dem Kauf – diese Schlösser passen auf Standard-Riegel, aber europäische Mehrfachverriegelungen oder spezielle israelische Türbeschläge benötigen oft ein komplett anderes Modell, also messen Sie vorher nach.",
+      "pros": [
+        "Temporäre Codes statt Ersatzschlüssel",
+        "Automatisches Verriegeln nimmt eine Sorge ab",
+        "Physischer Schlüssel funktioniert als Notlösung"
+      ],
+      "cons": [
+        "Passt wirklich nicht universell – messen Sie Ihre Tür aus",
+        "Bei leerer Batterie ausgesperrt, wenn man keinen Schlüssel dabeihat"
+      ]
+    },
+    {
+      "name": "Saugroboter von Roborock oder Dreame mit Absaugstation",
+      "tag": "Die meiste Zeitersparnis pro Schekel",
+      "body": "Dies ist das Haushaltsgerät, das am meisten Zeit zurückgibt, vorausgesetzt, Sie kaufen die richtige Leistungsklasse. Die beiden wichtigen Merkmale sind Lidar-Kartierung, damit er in Bahnen statt zufällig reinigt, und eine Absaugstation, sodass Sie sich nur alle paar Wochen um den Staub kümmern müssen, nicht jeden Tag. Unter etwa 400 $ verliert man in der Regel eines oder beides, und der Reiz des Neuen verfliegt schnell. Seien Sie realistisch, was er ersetzt: Er erledigt die tägliche Instandhaltung hervorragend, ersetzt aber keine Grundreinigung. Außerdem braucht er einen aufgeräumten Boden, erzwingt also stillschweigend eine Gewohnheit – was manche als Vorteil sehen.",
+      "pros": [
+        "Spart jeden Monat wirklich mehrere Stunden",
+        "Lidar-Kartierung bedeutet systematische, lückenlose Abdeckung",
+        "Absaugstation reduziert den Kontakt mit Staub"
+      ],
+      "cons": [
+        "Billige Modelle sind eine Sparmaßnahme am falschen Ende",
+        "Kommt nicht mit Gerümpel, Kabeln oder Grundreinigung klar"
+      ]
+    },
+    {
+      "name": "Smarte Steckdosen von Eve Energy oder TP-Link Tapo",
+      "tag": "Der beste Einstieg",
+      "body": "Eine smarte Steckdose ist der günstigste Weg, um herauszufinden, ob Sie wirklich ein Smart Home wollen. Sie macht eine dumme Lampe, einen Ventilator oder eine Heizung programmierbar, und die Modelle mit Energiemessung beantworten eine Frage, bei der die meisten nur raten: Welches Gerät ist der heimliche Stromfresser? Diese Messung ist oft wertvoller als die Automation. Kaufen Sie Matter-kompatible Steckdosen, damit sie mit jedem Assistenten funktionieren, den Sie am Ende nutzen, und meiden Sie markenlose Produkte: Dies ist ein Gerät, das Netzspannung führt und jahrelang in Ihrer Wand steckt.",
+      "pros": [
+        "Günstigster Weg, die ganze Idee zu testen",
+        "Energiemessung findet teure Stromfresser",
+        "Macht vorhandene dumme Geräte programmierbar"
+      ],
+      "cons": [
+        "Klobige Modelle blockieren die zweite Steckdose",
+        "Hier sollte man nicht bei einer unbekannten Marke sparen"
+      ]
+    },
+    {
+      "name": "Aqara Wassermelder",
+      "tag": "Die beste Versicherung für das Geld",
+      "body": "Ein Zwanzig-Dollar-Puck unter der Waschmaschine, dem Boiler und der Spüle ist der Artikel auf dieser Seite mit der höchsten Rendite pro Schekel, und niemand kauft ihn, bis er die erste Überschwemmung hatte. Wasserschäden sind schleichend, teuer und werden meist viel zu spät entdeckt – hinter einem Gerät, im Boden, durch eine Decke. Sie liegen flach auf, laufen ein oder zwei Jahre mit einer Knopfzelle und schreien und benachrichtigen Ihr Handy, sobald sie nass werden. Es gibt keine laufenden Kosten und nichts zu warten. Wenn Sie nur eine Sache von dieser Liste kaufen und noch nie einen Wasserschaden hatten, kaufen Sie trotzdem diesen Melder.",
+      "pros": [
+        "Lächerlich billig im Vergleich zum Schaden, den er verhindert",
+        "Lange Batterielaufzeit, keine Wartung",
+        "Lokaler Alarm funktioniert auch ohne App"
+      ],
+      "cons": [
+        "Deckt nur genau die Stelle ab, an der er liegt",
+        "Benötigt einen Hub oder Thread Border Router für Handy-Alarme"
+      ]
+    },
+    {
+      "name": "Echo Show 8 oder Nest Hub",
+      "tag": "Der beste Hub, mit Vorbehalten",
+      "body": "Ein Smart Display verdient seinen Platz in der Küche, wo die Hände beschäftigt sind und ein Timer, ein Rezept und ein Kamerabild auf einem Bildschirm wirklich helfen. Viele dieser Geräte fungieren auch als Thread Border Router oder Zigbee-Hub, was Ihnen stillschweigend den Kauf einer separaten Bridge erspart. Der Vorbehalt ist jedoch berechtigt: Es handelt sich um ein Mikrofon und eine Kamera in einem Raum, in dem Sie leben, die mit geringer Marge verkauft werden, weil das Geschäftsmodell woanders liegt. Wenn Sie dieser Tausch stört, decken Sie die Kamera ab, schalten Sie das Mikrofon stumm, wenn Sie es nicht benutzen, oder kaufen Sie stattdessen einen Hub ohne Display – das ist eine legitime Entscheidung, keine Paranoia.",
+      "pros": [
+        "Wirklich nützlich in der Küche",
+        "Dient oft gleichzeitig als Thread- oder Zigbee-Hub",
+        "Günstig und häufig im Angebot"
+      ],
+      "cons": [
+        "Eine Kamera und ein ständig aktives Mikrofon im Wohnbereich",
+        "Werbung und Kaufanreize auf dem Startbildschirm"
+      ]
+    },
+    {
+      "name": "Aqara FP2 Anwesenheitssensor",
+      "tag": "Das Upgrade für Bewegungsmelder",
+      "body": "Der Grund, warum smarte Beleuchtung nervt, ist, dass Bewegungsmelder Bewegung erkennen, nicht Anwesenheit – also geht das Licht aus, während Sie lesen, still sitzen oder in der Badewanne liegen. Millimeterwellen-Anwesenheitssensoren erkennen Atmung und Mikrobewegungen, sodass sie wissen, dass der Raum besetzt ist, auch wenn sich nichts bewegt. Dieser einzige Unterschied sorgt dafür, dass automatische Beleuchtung nicht mehr nervt. Er ist teurer als ein Bewegungsmelder und benötigt Netzstrom sowie eine sorgfältige Montageposition. Sehen Sie ihn also als Lösung für die ein oder zwei Räume, in denen das Licht Sie ständig im Stich lässt, nicht als etwas, das man überall installiert.",
+      "pros": [
+        "Erkennt Anwesenheit, nicht nur Bewegung",
+        "Beendet das Problem „das Licht ist mir ausgegangen“",
+        "Kann Zonen innerhalb eines Raumes definieren"
+      ],
+      "cons": [
+        "Benötigt Netzstrom und sorgfältige Platzierung",
+        "Mehrfacher Preis eines Bewegungsmelders"
+      ]
+    },
+    {
+      "name": "Kamera von Eufy oder Reolink mit lokalem Speicher",
+      "tag": "Beste Kamera ohne Abonnement",
+      "body": "Die meisten Überwachungskameras werden billig verkauft und über einen monatlichen Tarif monetarisiert, und wenn man aufhört zu zahlen, verliert man oft die Aufnahmefunktion komplett. Kameras, die auf eine lokale Karte oder eine Basisstation aufzeichnen, umgehen das, sodass Ihnen das Videomaterial gehört und es keine wiederkehrende Rechnung gibt. Achten Sie auf lokale Aufzeichnung, Personenerkennung auf dem Gerät, damit Sie nicht bei jeder vorbeilaufenden Katze alarmiert werden, und RTSP-Unterstützung, falls Sie jemals Ihren eigenen Rekorder betreiben wollen. Richten Sie sie auf Eingänge und Außenbereiche statt auf Wohnräume und prüfen Sie die Vorschriften an Ihrem Wohnort – die Aufzeichnung von Gemeinschaftseingängen oder dem Grundstück eines Nachbarn unterliegt an den meisten Orten rechtlichen Beschränkungen.",
+      "pros": [
+        "Keine monatliche Gebühr, und das Material gehört Ihnen",
+        "Geräteinterne Erkennung reduziert Fehlalarme",
+        "Funktioniert weiter, auch wenn die Cloud des Anbieters verschwindet"
+      ],
+      "cons": [
+        "Höhere Anschaffungskosten als bei Abo-Modellen",
+        "Rechtliche Grenzen für Aufnahmen – prüfen Sie die lokalen Vorschriften"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist Matter und muss mich das interessieren?",
+      "a": "Es ist ein gemeinsamer Standard, der es Geräten verschiedener Marken ermöglicht, zusammenzuarbeiten und von jedem gängigen Assistenten gesteuert zu werden. Es sollte Sie vor allem deshalb interessieren, weil es Sie davor schützt, auf eine Marke zu setzen, die später ihre Server abschaltet."
+    },
+    {
+      "q": "Auf welche Smart-Home-Geräte würden Sie verzichten?",
+      "a": "Smarte Kühlschränke, smarte Mikrowellen und die meisten smarten Wasserhähne – die Intelligenz erhöht die Kosten und die Fehleranfälligkeit bei einem Gerät, das man fünfzehn Jahre lang behält. Auch smarte Jalousien, es sei denn, Sie haben ein spezifisches Sonnen- oder Barrierefreiheitsproblem, angesichts der Installationskosten."
+    },
+    {
+      "q": "Funktioniert irgendetwas davon noch, wenn mein Internet ausfällt?",
+      "a": "Geräte mit Zigbee, Thread oder einem lokalen Hub funktionieren meistens weiter, einschließlich Zeitplänen. Alles, was von der Cloud eines Herstellers abhängt, fällt in der Regel aus. Das ist der beste Grund, eine lokale Steuerung zu bevorzugen, wenn man die Wahl hat."
+    },
+    {
+      "q": "Ich wohne zur Miete. Was kann ich installieren?",
+      "a": "Steckdosen, Leuchtmittel, Sensoren und ein Saugroboter lassen sich alle installieren, ohne etwas Dauerhaftes zu verändern. Für Thermostate und Schlösser braucht man in der Regel eine Erlaubnis, obwohl manche Schlösser nur die Innenseite ersetzen und den vorhandenen Zylinder und Schlüssel unberührt lassen."
+    }
+  ]
+}

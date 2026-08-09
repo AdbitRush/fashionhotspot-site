@@ -2,9 +2,7 @@
   "slug": "home-office",
   "category": "Home office",
   "title": "Fixing the Desk You Sit At for Forty Hours a Week",
-  "title_he": "לתקן את השולחן שאתם יושבים מולו ארבעים שעות בשבוע",
   "dek": "Spend where your body touches the setup. Everything else on this page is optional, and we say which is which.",
-  "dek_he": "תשקיעו איפה שהגוף שלכם נוגע בעמדה. כל השאר בעמוד הזה הוא רשות, ואנחנו אומרים מה זה מה.",
   "hero_image": "a bright home office corner with a wooden desk, an ergonomic chair, a monitor on a stand and a small plant by a window",
   "updated": "2026-08-08",
   "read_minutes": 10,
@@ -13,169 +11,195 @@
     "The mistake most people make is inverting that — a beautiful monitor and a lovely desk mat above a dining chair. Six months later the neck pain shows up and no amount of screen resolution helps.",
     "Prices are approximate at the time of writing. Office furniture in particular has a strong second-hand market, and we point out where used is genuinely the smarter buy."
   ],
-  "intro_he": [
-    "יש כלל פשוט להוצאת כסף על עמדת עבודה: תעדיפו את הדברים שנוגעים בגוף שלכם. כיסא, מקלדת, עכבר, וגובה המסך ביחס לעיניים. ארבעת אלה קובעים אם תסיימו את היום כואבים. כל השאר הוא נוחות או אסתטיקה.",
-    "הטעות שרוב האנשים עושים היא להפוך את הסדר — מסך יפהפה ומשטח שולחן מהמם מעל כיסא אוכל. אחרי חצי שנה מגיעים כאבי הצוואר ושום רזולוציה לא עוזרת.",
-    "המחירים הם הערכה נכון לזמן הכתיבה. לריהוט משרדי במיוחד יש שוק יד שנייה חזק, ואנחנו מציינים איפה משומש הוא באמת הקנייה החכמה."
-  ],
   "how_we_pick": "We weight ergonomics research, published durability testing and long-run owner reports above design awards. We have not personally used every item here for a full working year. Where the honest recommendation is to buy second-hand or to spend nothing at all, we say that — a stack of books under a laptop solves the same problem as a stand, and we would rather tell you that than sell you a stand.",
-  "how_we_pick_he": "אנחנו נותנים משקל למחקר ארגונומי, לבדיקות עמידות שפורסמו ולדיווחים של בעלים לאורך זמן, יותר מאשר לפרסי עיצוב. לא השתמשנו בעצמנו בכל פריט כאן במשך שנת עבודה שלמה. איפה שההמלצה הכנה היא לקנות יד שנייה או לא להוציא כלום, נגיד את זה — ערימת ספרים מתחת למחשב נייד פותרת בדיוק את אותה בעיה כמו מעמד, ואנחנו מעדיפים להגיד לכם את זה מאשר למכור לכם מעמד.",
   "products": [
     {
       "name": "A used Herman Miller Aeron or Steelcase Leap",
-      "name_he": "כיסא Herman Miller Aeron או Steelcase Leap יד שנייה",
       "tag": "Spend here first",
-      "tag_he": "כאן תשקיעו קודם",
       "price": "$300–700 used",
       "search": "Herman Miller Aeron used office chair",
       "image": "a mesh-backed ergonomic office chair in a bright room beside a wooden desk",
       "body": "The chair is the single most important purchase, and the smart move is buying a great one second-hand rather than a mediocre one new. These chairs were built for twelve-year commercial lifespans, they were sold in enormous numbers to offices that no longer exist, and refurbished units routinely go for a third of retail with the important parts replaced. What you are paying for is adjustability — seat depth, arm height and angle, and real lumbar support that meets your back where it actually is. Sit in one before buying if you possibly can, because the Aeron comes in three sizes and the wrong size is worse than a cheap chair.",
-      "body_he": "הכיסא הוא הרכישה הכי חשובה, והמהלך החכם הוא לקנות כיסא מצוין יד שנייה במקום כיסא בינוני חדש. הכיסאות האלה נבנו לחיי שירות מסחריים של שתים-עשרה שנה, הם נמכרו בכמויות אדירות למשרדים שכבר לא קיימים, ויחידות משופצות נמכרות דרך קבע בשליש מהמחיר בחנות כשהחלקים החשובים הוחלפו. מה שאתם משלמים עליו זה יכולת כוונון — עומק מושב, גובה וזווית משענות ידיים, ותמיכה מותנית אמיתית שפוגשת את הגב שלכם איפה שהוא באמת נמצא. שבו על אחד לפני שאתם קונים אם רק אפשר, כי ה-Aeron מגיע בשלושה גדלים והגודל הלא נכון גרוע יותר מכיסא זול.",
-      "pros": ["Built for a decade-plus of daily use", "Deep adjustability fits your body, not an average", "Second-hand pricing makes it genuinely attainable"],
-      "cons": ["Sizing matters — try before you buy if you can", "Refurb quality varies a lot between sellers"]
+      "pros": [
+        "Built for a decade-plus of daily use",
+        "Deep adjustability fits your body, not an average",
+        "Second-hand pricing makes it genuinely attainable"
+      ],
+      "cons": [
+        "Sizing matters — try before you buy if you can",
+        "Refurb quality varies a lot between sellers"
+      ]
     },
     {
       "name": "A monitor arm",
-      "name_he": "זרוע למסך מחשב",
       "tag": "Biggest posture fix for the money",
-      "tag_he": "התיקון הגדול ביותר ליציבה ביחס למחיר",
       "price": "$40–120",
       "search": "monitor arm desk mount gas spring VESA",
       "image": "an articulated metal monitor arm clamped to a desk edge holding a screen at eye level",
       "body": "Most monitor stands hold the screen too low, so you spend the day looking slightly down and your neck holds your head forward. An arm lets you set the top of the screen at roughly eye level, which is where it should be, and it frees the desk underneath. Check two numbers before buying: your monitor's VESA pattern and its weight, because a gas spring rated below your screen will slowly sag all day. If your desk has a thick or glass top, confirm the clamp fits. This is a cheap fix for a problem that gets expensive if you ignore it.",
-      "body_he": "רוב מעמדי המסך מחזיקים את המסך נמוך מדי, ולכן אתם מבלים את היום במבט מעט למטה והצוואר מחזיק את הראש קדימה. זרוע מאפשרת לכם להציב את קצה המסך העליון בערך בגובה העיניים, וזה המקום שלו, והיא גם משחררת את השולחן מתחת. בדקו שני מספרים לפני הקנייה: תבנית ה-VESA של המסך והמשקל שלו, כי קפיץ גז שמדורג מתחת למשקל המסך שלכם ישקע לאט לאורך היום. אם לשולחן שלכם משטח עבה או מזכוכית, ודאו שהמלחציים מתאימים. זה תיקון זול לבעיה שנעשית יקרה אם מתעלמים ממנה.",
-      "pros": ["Puts the screen at the right height, permanently", "Clears the desk surface underneath", "Cheap relative to the problem it prevents"],
-      "cons": ["Must match VESA pattern and screen weight", "Clamps do not fit every desk edge"]
+      "pros": [
+        "Puts the screen at the right height, permanently",
+        "Clears the desk surface underneath",
+        "Cheap relative to the problem it prevents"
+      ],
+      "cons": [
+        "Must match VESA pattern and screen weight",
+        "Clamps do not fit every desk edge"
+      ]
     },
     {
       "name": "A 27-inch 1440p monitor",
-      "name_he": "מסך 27 אינץ' ברזולוציית 1440p",
       "tag": "The sweet spot",
-      "tag_he": "נקודת האיזון",
       "price": "$200–350",
       "search": "27 inch 1440p IPS monitor USB-C",
       "image": "a slim-bezel computer monitor on a wooden desk showing a soft abstract wallpaper",
       "body": "This size and resolution is the sweet spot for desk work: text is sharp without needing scaling, and you can genuinely fit two documents side by side. Going to 4K at 27 inches means running at a scaled resolution anyway, so you pay for pixels you then throw away. If your laptop supports it, get a model with USB-C power delivery — one cable then carries video, data and charging, and the daily plug-and-unplug ritual becomes a single motion. Skip the curve at this size; curves earn their keep at 34 inches and wider, not here.",
-      "body_he": "הגודל והרזולוציה האלה הם נקודת האיזון לעבודה משרדית: הטקסט חד בלי צורך בהגדלה, ובאמת נכנסים שני מסמכים זה לצד זה. מעבר ל-4K ב-27 אינץ' אומר להריץ ברזולוציה מוקטנת ממילא, כלומר אתם משלמים על פיקסלים שאתם אחר כך זורקים. אם המחשב הנייד שלכם תומך, קחו דגם עם הזנת חשמל דרך USB-C — אז כבל אחד נושא וידאו, נתונים וטעינה, וטקס החיבור והניתוק היומי הופך לתנועה אחת. ותרו על מסך מעוקל בגודל הזה; עיקול מצדיק את עצמו ב-34 אינץ' ומעלה, לא כאן.",
-      "pros": ["Sharp text with no scaling compromises", "USB-C models reduce the desk to one cable", "Wide, competitive market keeps prices low"],
-      "cons": ["4K at this size is largely wasted", "Cheap panels vary a lot in colour uniformity"]
+      "pros": [
+        "Sharp text with no scaling compromises",
+        "USB-C models reduce the desk to one cable",
+        "Wide, competitive market keeps prices low"
+      ],
+      "cons": [
+        "4K at this size is largely wasted",
+        "Cheap panels vary a lot in colour uniformity"
+      ]
     },
     {
       "name": "Anker PowerConf or Jabra Speak speakerphone",
-      "name_he": "רמקול ועידה Anker PowerConf או Jabra Speak",
       "tag": "Best call quality upgrade",
-      "tag_he": "השדרוג הטוב ביותר לאיכות שיחות",
       "price": "$70–150",
       "search": "Anker PowerConf USB conference speakerphone",
       "image": "a small round fabric-covered conference speakerphone on a desk beside a notebook",
       "body": "Laptop microphones are placed next to the fan and pointed at the ceiling, which is why you sound distant and echoey on every call. A dedicated speakerphone with a directional array and echo cancellation fixes that in one purchase, and unlike a headset it does not clamp your head for six hours. If you are on calls all day, this changes how other people experience you more than any camera upgrade. If you are on two calls a week, wired earbuds with an inline mic already solve most of the problem for almost nothing.",
-      "body_he": "מיקרופונים של מחשבים ניידים ממוקמים ליד המאוורר ומכוונים לתקרה, ובגלל זה אתם נשמעים רחוקים ומהדהדים בכל שיחה. רמקול ועידה ייעודי עם מערך מיקרופונים כיווני וביטול הד מתקן את זה ברכישה אחת, ובניגוד לאוזניות הוא לא לוחץ לכם על הראש שש שעות. אם אתם בשיחות כל היום, זה משנה איך אנשים אחרים חווים אתכם יותר מכל שדרוג מצלמה. אם אתם בשתי שיחות בשבוע, אוזניות חוטיות עם מיקרופון על הכבל כבר פותרות את רוב הבעיה כמעט בחינם.",
-      "pros": ["Removes echo and the hollow laptop-mic sound", "No headset pressure over long days", "Travels well for hotel-room calls"],
-      "cons": ["Overkill if you rarely take calls", "Picks up room noise in a shared space"]
+      "pros": [
+        "Removes echo and the hollow laptop-mic sound",
+        "No headset pressure over long days",
+        "Travels well for hotel-room calls"
+      ],
+      "cons": [
+        "Overkill if you rarely take calls",
+        "Picks up room noise in a shared space"
+      ]
     },
     {
       "name": "A desk lamp with adjustable colour temperature",
-      "name_he": "מנורת שולחן עם טמפרטורת צבע מתכווננת",
       "tag": "Most underrated",
-      "tag_he": "הכי לא מוערך",
       "price": "$40–120",
       "search": "LED desk lamp adjustable color temperature",
       "image": "a minimal articulated desk lamp casting warm light over an open notebook",
       "body": "Working by the glow of a monitor in an otherwise dark room is what makes evenings feel exhausting — the contrast between a bright screen and a dark surround is genuinely tiring for your eyes. A lamp that lights the wall and desk around the screen removes that contrast. Adjustable colour temperature matters because cool light in the morning and warm light after dark suits how your attention actually works. Position it to the side rather than behind you, or you will spend the day looking at its reflection in your own screen.",
-      "body_he": "לעבוד לאור המסך בחדר חשוך זה מה שגורם לערבים להרגיש מתישים — הניגוד בין מסך בהיר לסביבה חשוכה באמת מעייף את העיניים. מנורה שמאירה את הקיר ואת השולחן מסביב למסך מסלקת את הניגוד הזה. טמפרטורת צבע מתכווננת חשובה כי אור קר בבוקר ואור חם אחרי החשכה מתאימים לאיך שהקשב שלכם באמת עובד. מקמו אותה בצד ולא מאחוריכם, אחרת תבלו את היום מול ההשתקפות שלה במסך שלכם.",
-      "pros": ["Reduces the eye strain of screen-in-a-dark-room", "Warm evening light is easier to work under", "Frees up ceiling lighting decisions"],
-      "cons": ["Bad placement creates screen glare", "Cheap LEDs flicker and render colour poorly"]
+      "pros": [
+        "Reduces the eye strain of screen-in-a-dark-room",
+        "Warm evening light is easier to work under",
+        "Frees up ceiling lighting decisions"
+      ],
+      "cons": [
+        "Bad placement creates screen glare",
+        "Cheap LEDs flicker and render colour poorly"
+      ]
     },
     {
       "name": "A laptop stand, or a stack of books",
-      "name_he": "מעמד למחשב נייד, או ערימת ספרים",
       "tag": "Cheapest fix on the page",
-      "tag_he": "התיקון הזול ביותר בעמוד",
       "price": "$0–50",
       "search": "adjustable aluminum laptop stand ergonomic",
       "image": "an aluminium laptop riser holding a laptop at eye level on a tidy desk",
       "body": "A laptop forces an impossible compromise: put the screen at the right height and the keyboard is in the air, put the keyboard at the right height and you are looking down all day. Raising the laptop and adding a separate keyboard and mouse resolves it completely. An aluminium stand is tidy and travels, but books work exactly as well ergonomically and cost nothing — the physics does not care what is holding the screen up. Buy the stand if you value the look or need to carry it; otherwise put the money toward the keyboard, which is the half of this fix that actually costs something.",
-      "body_he": "מחשב נייד כופה פשרה בלתי אפשרית: אם המסך בגובה הנכון המקלדת באוויר, ואם המקלדת בגובה הנכון אתם מסתכלים למטה כל היום. הרמת המחשב והוספת מקלדת ועכבר נפרדים פותרות את זה לגמרי. מעמד אלומיניום מסודר וגם נייד, אבל ספרים עובדים בדיוק אותו דבר מבחינה ארגונומית ולא עולים כלום — לפיזיקה לא אכפת מה מחזיק את המסך למעלה. קנו את המעמד אם חשוב לכם המראה או אם אתם צריכים לסחוב אותו; אחרת תשקיעו את הכסף במקלדת, שהיא החצי של התיקון הזה שבאמת עולה משהו.",
-      "pros": ["Solves laptop neck strain completely", "The free version works just as well", "Improves cooling airflow as a side effect"],
-      "cons": ["Only works with a separate keyboard and mouse", "Another thing to carry if you move around"]
+      "pros": [
+        "Solves laptop neck strain completely",
+        "The free version works just as well",
+        "Improves cooling airflow as a side effect"
+      ],
+      "cons": [
+        "Only works with a separate keyboard and mouse",
+        "Another thing to carry if you move around"
+      ]
     },
     {
       "name": "An anti-fatigue mat (if you have a standing desk)",
-      "name_he": "שטיח עמידה נגד עייפות (אם יש לכם שולחן עמידה)",
       "tag": "Only if you actually stand",
-      "tag_he": "רק אם אתם באמת עומדים",
       "price": "$40–90",
       "search": "anti fatigue standing desk mat",
       "image": "a cushioned black standing mat on a wooden floor beneath a height-adjustable desk",
       "body": "Standing on a hard floor for hours is its own kind of bad, and it is the reason most standing desks quietly become sitting desks within a month. A cushioned mat lets you shift weight and fidget, which is the point — the benefit of standing comes from movement, not from being upright. Buy this only after you have owned a standing desk long enough to know you use it. If you are still deciding, note that the research on standing desks is much more modest than the marketing suggests: alternating positions helps, standing rigidly all day does not.",
-      "body_he": "לעמוד על רצפה קשה במשך שעות זה סוג משלו של גרוע, וזו הסיבה שרוב שולחנות העמידה הופכים בשקט לשולחנות ישיבה תוך חודש. שטיח מרופד מאפשר לכם להעביר משקל ולזוז, וזו כל הנקודה — התועלת בעמידה מגיעה מתנועה ולא מזה שאתם זקופים. קנו את זה רק אחרי שהחזקתם שולחן עמידה מספיק זמן כדי לדעת שאתם משתמשים בו. אם אתם עדיין מתלבטים, שווה לדעת שהמחקר על שולחנות עמידה צנוע בהרבה ממה שהשיווק מרמז: החלפת תנוחות עוזרת, עמידה נוקשה כל היום לא.",
-      "pros": ["Makes standing sessions actually sustainable", "Encourages the shifting that provides the benefit", "Cheap next to the desk it supports"],
-      "cons": ["Pointless without a standing desk", "Gets in the way when you sit back down"]
+      "pros": [
+        "Makes standing sessions actually sustainable",
+        "Encourages the shifting that provides the benefit",
+        "Cheap next to the desk it supports"
+      ],
+      "cons": [
+        "Pointless without a standing desk",
+        "Gets in the way when you sit back down"
+      ]
     },
     {
       "name": "Cable tray and reusable ties",
-      "name_he": "מגש כבלים ורצועות רב-פעמיות",
       "tag": "Small effort, permanent payoff",
-      "tag_he": "מאמץ קטן, תמורה קבועה",
       "price": "$20–45",
       "search": "under desk cable management tray",
       "image": "a tidy under-desk metal cable tray holding neatly bundled cables",
       "body": "This is the least interesting item here and the one people are most glad they did. A tray under the desk lifts the power strip and the loose cable runs off the floor, which means you can vacuum properly, move the desk without unplugging everything, and stop kicking the charger out of your laptop. Use reusable hook-and-loop ties rather than zip ties, because the setup will change and cutting a zip tie every time is how a tidy desk reverts. Half an hour, once, and the problem is gone for years.",
-      "body_he": "זה הפריט הכי פחות מעניין כאן וזה שאנשים הכי שמחים שעשו. מגש מתחת לשולחן מרים את המפצל ואת מהלכי הכבלים מהרצפה, כלומר אפשר לשאוב כמו שצריך, להזיז את השולחן בלי לנתק הכול, ולהפסיק לבעוט את המטען מהמחשב הנייד. השתמשו ברצועות סקוץ' רב-פעמיות ולא באזיקוני פלסטיק, כי העמדה תשתנה וחיתוך אזיקון בכל פעם זו הדרך שבה שולחן מסודר חוזר לקדמותו. חצי שעה, פעם אחת, והבעיה נעלמת לשנים.",
-      "pros": ["Lets you clean under the desk properly", "Move the desk without unplugging everything", "One-off job that lasts for years"],
-      "cons": ["Fitting takes a fiddly half hour", "Clamp-on trays do not suit every desk"]
+      "pros": [
+        "Lets you clean under the desk properly",
+        "Move the desk without unplugging everything",
+        "One-off job that lasts for years"
+      ],
+      "cons": [
+        "Fitting takes a fiddly half hour",
+        "Clamp-on trays do not suit every desk"
+      ]
     },
     {
       "name": "A second-hand office desk, or a solid door on legs",
-      "name_he": "שולחן משרדי יד שנייה, או דלת מלאה על רגליים",
       "tag": "Where not to overspend",
-      "tag_he": "איפה לא כדאי לבזבז",
       "price": "$80–400",
       "search": "used office desk solid wood large",
       "image": "a large plain wooden desk against a pale wall with a chair tucked underneath",
       "body": "The desk is a flat surface at the right height. It does almost nothing that a cheap one cannot, which makes it the easiest place to save money and redirect it to the chair. What actually matters is depth — at least 70cm so the monitor can sit far enough away — and rigidity, because a desk that wobbles when you type is maddening. Second-hand commercial desks are abundant, extremely solid and priced to move because they are awkward to transport. Electric sit-stand frames are the one upgrade worth paying for, and only if you will genuinely use them.",
-      "body_he": "השולחן הוא משטח שטוח בגובה הנכון. הוא כמעט לא עושה שום דבר שזול לא יעשה, ולכן זה המקום הכי קל לחסוך בו ולהעביר את הכסף לכיסא. מה שבאמת חשוב זה עומק — לפחות 70 סנטימטר כדי שהמסך יוכל לשבת מספיק רחוק — ונוקשות, כי שולחן שמתנדנד כשמקלידים עליו מטריף. שולחנות משרדיים יד שנייה נמצאים בשפע, הם מוצקים מאוד ומתומחרים לזוז כי קשה להוביל אותם. שלדות חשמליות לישיבה ועמידה הן השדרוג היחיד ששווה לשלם עליו, ורק אם באמת תשתמשו בהן.",
-      "pros": ["Huge savings versus a designer desk", "Commercial units are extremely rigid", "Money saved goes to the chair, where it matters"],
-      "cons": ["Awkward to collect and transport", "Second-hand tops often have cosmetic marks"]
+      "pros": [
+        "Huge savings versus a designer desk",
+        "Commercial units are extremely rigid",
+        "Money saved goes to the chair, where it matters"
+      ],
+      "cons": [
+        "Awkward to collect and transport",
+        "Second-hand tops often have cosmetic marks"
+      ]
     },
     {
       "name": "A dedicated webcam, only if the laptop lid is closed",
-      "name_he": "מצלמת רשת ייעודית, רק אם מכסה המחשב סגור",
       "tag": "Conditional buy",
-      "tag_he": "קנייה מותנית",
       "price": "$60–160",
       "search": "1080p webcam autofocus USB",
       "image": "a small black webcam clipped to the top edge of a monitor in a bright room",
       "body": "Be honest about whether you need this. Modern laptop cameras are decent, and if your laptop is open in front of you the built-in one is fine. The genuine case is the setup where the laptop is closed in a dock or the screen is on an arm — then you have no camera at eye level, and a clip-on webcam is the only fix. If you do buy, lighting will improve your image far more than sensor resolution: a window or a lamp in front of you beats an expensive camera in a dark room every single time.",
-      "body_he": "תהיו כנים לגבי השאלה אם אתם באמת צריכים את זה. מצלמות של מחשבים ניידים מודרניים סבירות, ואם המחשב פתוח מולכם המצלמה המובנית מספיקה. המקרה האמיתי הוא עמדה שבה המחשב סגור בעגינה או שהמסך על זרוע — אז אין לכם מצלמה בגובה העיניים, ומצלמה נתלית היא הפתרון היחיד. אם אתם כן קונים, תאורה תשפר את התמונה שלכם הרבה יותר מרזולוציית החיישן: חלון או מנורה מולכם מנצחים מצלמה יקרה בחדר חשוך בכל פעם מחדש.",
-      "pros": ["The only fix for a closed-lid or arm-mounted setup", "Puts the camera at eye level", "Better optics than most built-in cameras"],
-      "cons": ["Genuinely unnecessary if your laptop is open", "Lighting matters far more than the camera"]
+      "pros": [
+        "The only fix for a closed-lid or arm-mounted setup",
+        "Puts the camera at eye level",
+        "Better optics than most built-in cameras"
+      ],
+      "cons": [
+        "Genuinely unnecessary if your laptop is open",
+        "Lighting matters far more than the camera"
+      ]
     }
   ],
   "faq": [
     {
       "q": "What is the right order to buy things in?",
-      "a": "Chair, then screen height, then keyboard and mouse, then everything else. That order follows how much each thing affects your body over a working year.",
-      "q_he": "מה הסדר הנכון לקנות בו?",
-      "a_he": "כיסא, אחר כך גובה מסך, אחר כך מקלדת ועכבר, ואז כל השאר. הסדר הזה עוקב אחרי כמה כל דבר משפיע על הגוף שלכם לאורך שנת עבודה."
+      "a": "Chair, then screen height, then keyboard and mouse, then everything else. That order follows how much each thing affects your body over a working year."
     },
     {
       "q": "Are standing desks worth it?",
-      "a": "Alternating between sitting and standing is better than either alone, but the health benefits are far smaller than the marketing implies. If a standing desk is a stretch, a timer that reminds you to get up delivers most of the benefit for free.",
-      "q_he": "האם שולחנות עמידה שווים את זה?",
-      "a_he": "החלפה בין ישיבה לעמידה עדיפה על כל אחת מהן לבד, אבל התועלת הבריאותית קטנה בהרבה ממה שהשיווק מרמז. אם שולחן עמידה הוא מאמץ תקציבי, טיימר שמזכיר לכם לקום נותן את רוב התועלת בחינם."
+      "a": "Alternating between sitting and standing is better than either alone, but the health benefits are far smaller than the marketing implies. If a standing desk is a stretch, a timer that reminds you to get up delivers most of the benefit for free."
     },
     {
       "q": "One big monitor or two smaller ones?",
-      "a": "Two screens if you constantly reference one thing while working on another. One wide screen if you mainly want more room in a single application. Two is usually the more flexible choice for office work.",
-      "q_he": "מסך אחד גדול או שניים קטנים?",
-      "a_he": "שני מסכים אם אתם כל הזמן מסתכלים בדבר אחד תוך כדי עבודה על אחר. מסך רחב אחד אם אתם בעיקר רוצים יותר מקום בתוכנה אחת. שניים בדרך כלל הבחירה הגמישה יותר לעבודה משרדית."
+      "a": "Two screens if you constantly reference one thing while working on another. One wide screen if you mainly want more room in a single application. Two is usually the more flexible choice for office work."
     },
     {
       "q": "Is an expensive chair really worth it if I only work from home two days a week?",
-      "a": "Then buy used rather than new. A refurbished commercial chair at a third of retail is the right answer for part-time use — you get the adjustability without paying for a warranty you will barely consume.",
-      "q_he": "האם כיסא יקר באמת שווה אם אני עובד מהבית רק יומיים בשבוע?",
-      "a_he": "אז תקנו יד שנייה ולא חדש. כיסא מסחרי משופץ בשליש מהמחיר הוא התשובה הנכונה לשימוש חלקי — אתם מקבלים את יכולת הכוונון בלי לשלם על אחריות שכמעט לא תנצלו."
+      "a": "Then buy used rather than new. A refurbished commercial chair at a third of retail is the right answer for part-time use — you get the adjustability without paying for a warranty you will barely consume."
     }
   ]
 }

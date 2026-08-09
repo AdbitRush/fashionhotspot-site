@@ -1,0 +1,172 @@
+{
+  "slug": "coffee",
+  "title": "Die Kaffeeausstattung für zu Hause: Vom ersten bis zum letzten Upgrade",
+  "dek": "Zehn Zubehörteile, die den Kaffee in Ihrer Tasse wirklich verändern – sortiert danach, wie sehr sie ihn für das investierte Geld verbessern.",
+  "category": "Kaffee",
+  "how_we_pick": "Unsere Auswahl basiert auf veröffentlichten Labortests, langfristigen Erfahrungsberichten von Besitzern und spezialisierten Kaffeeforen, abgeglichen mit aktuellen Händlerangeboten. Wir haben nicht jedes hier vorgestellte Produkt selbst getestet. Wenn es in einer Kategorie einen klaren Konsenssieger gibt, sagen wir das auch. Wenn die Wahl wirklich von Ihrem Budget oder Ihrer Küche abhängt, zeigen wir Ihnen die Kompromisse auf, anstatt ein falsches Urteil abzugeben.",
+  "intro": [
+    "Die meisten Leute rüsten ihre Kaffeeausstattung in der völlig falschen Reihenfolge auf. Sie kaufen zuerst die Espressomaschine und wundern sich dann zwei Jahre lang, warum der Espresso nicht annähernd so schmeckt wie im Café um die Ecke. Dabei war die Maschine nie das Problem – sondern alte Supermarktbohnen und eine Schlagmühle.",
+    "Deshalb ist diese Liste nach ihrer Wirkung geordnet: Wie viel besser Ihr Kaffee pro investiertem Geld wird. Die ersten drei Produkte bringen Ihnen mehr als die letzten drei zusammen, und zwei davon kosten unter 40 $. Selbst wenn Sie nur den Anfang dieser Seite lesen, haben Sie schon den nützlichsten Teil mitgenommen.",
+    "Die unten genannten Preise sind ungefähre Marktpreise zum Zeitpunkt der Erstellung dieses Artikels und ändern sich ständig, besonders bei Rabattaktionen. Betrachten Sie sie als groben Rahmen für Ihr Budget, nicht als verbindliches Angebot – prüfen Sie vor dem Kauf immer den aktuellen Preis."
+  ],
+  "products": [
+    {
+      "name": "Baratza Encore ESP",
+      "tag": "Das erste und wichtigste Upgrade",
+      "body": "Wenn Sie nur eine einzige Sache von dieser Seite kaufen, dann eine Mühle mit Mahlwerk. Eine Schlagmühle zertrümmert die Bohnen zu einer Mischung aus Brocken und Staub, was zu einem Kaffee führt, der gleichzeitig bitter und sauer schmeckt – keine Maschine danach kann das wieder gutmachen. Ein Kegelmahlwerk hingegen schneidet die Bohnen auf eine einheitliche Größe, und der Unterschied ist sofort und deutlich schmeckbar. Die Encore ESP ist die Version von Baratzas langlebigem Arbeitstier, die feiner mahlen kann und somit sowohl für Filterkaffee als auch für echten Espresso geeignet ist. Sie ist nicht schnell und nicht leise, aber es ist die Mühle, die Fachgeschäfte seit über einem Jahrzehnt Anfängern empfehlen, und Baratza verkauft auch Jahre nach dem Kauf noch Ersatzteile dafür.",
+      "pros": [
+        "Gleichmäßiges Mahlgut für Filter und Espresso",
+        "Mahlwerke und Ersatzteile sind jahrelang verfügbar",
+        "Einfach zu zerlegen und zu reinigen"
+      ],
+      "cons": [
+        "Laut und langsamer als eine Premium-Mühle",
+        "Das Kunststoffgehäuse wirkt billiger, als der Preis vermuten lässt"
+      ]
+    },
+    {
+      "name": "Frische ganze Bohnen mit Röstdatum",
+      "tag": "Die günstigste echte Verbesserung",
+      "body": "Kaffee ist ein landwirtschaftliches Produkt mit einem kurzen Genussfenster. Die Tüte aus dem Supermarkt, die nur mit einem weit entfernten Haltbarkeitsdatum versehen ist, hat dieses Fenster meist schon um Monate überschritten. Achten Sie auf ein aufgedrucktes Röstdatum und kaufen Sie Bohnen, die innerhalb der letzten drei bis vier Wochen geröstet wurden. Ganze Bohnen behalten ihre Aromen viel länger als vorgemahlener Kaffee, der schon wenige Tage nach dem Öffnen schal schmeckt. Dies ist der einzige Punkt auf der Liste, der fast nichts extra kostet und jede einzelne Tasse, die Sie von nun an zubereiten, verändert – deshalb steht er so weit oben, noch vor Hardware, die zehnmal so viel kostet.",
+      "pros": [
+        "Kostet dasselbe wie die alte Alternative",
+        "Verbessert jede Tasse, unabhängig von der Ausrüstung",
+        "Das Röstdatum verrät, was Sie wirklich kaufen"
+      ],
+      "cons": [
+        "Muss alle paar Wochen nachgekauft werden",
+        "Gute lokale Röstereien gibt es nicht überall"
+      ]
+    },
+    {
+      "name": "Hario V60 dripper and server",
+      "tag": "Bester günstiger Kaffeebereiter",
+      "body": "Der V60 ist die günstigste Methode, um wirklich exzellenten Kaffee zuzubereiten, und es ist der Handfilter, den die meisten Spezialitätencafés verwenden. Die Kegelform und die spiralförmigen Rillen ermöglichen es, den Brühvorgang durch das Aufgießen zu steuern. Das bedeutet, er belohnt Aufmerksamkeit – und bestraft Nachlässigkeit. Man muss also erst lernen, mit ihm umzugehen. Geben Sie sich zwei Wochenenden Zeit. Sobald Sie eine Routine entwickelt haben, liefert er eine klarere, süßere und differenziertere Tasse als jede Filterkaffeemaschine unter ein paar Hundert Dollar, und das ganze Set passt in eine Schublade.",
+      "pros": [
+        "Herausragende Kaffeequalität für den Preis",
+        "Kompakt, nichts kann kaputtgehen",
+        "Filter und Zubehör sind günstig und überall erhältlich"
+      ],
+      "cons": [
+        "Die Technik ist entscheidend – die ersten Tassen werden unbeständig sein",
+        "Brüht nur ein oder zwei Tassen auf einmal, keine ganze Kanne"
+      ]
+    },
+    {
+      "name": "Timemore Black Mirror Basic 2 scale",
+      "tag": "Waage mit dem besten Preis-Leistungs-Verhältnis",
+      "body": "Eine Waage macht aus einer zufällig guten Tasse eine wiederholbar gute Tasse. Kaffee ist ein Verhältnis – Gramm Kaffee zu Gramm Wasser – und das Schätzen nach Augenmaß bringt genug Abweichung mit sich, um die meisten täglichen Schwankungen zu erklären. Die Black Mirror misst auf 0,1 g genau, reagiert schnell genug für das direkte Aufgießen und hat einen integrierten Timer, sodass Sie nicht mitten im Brühvorgang mit Ihrem Handy hantieren müssen. Jede Küchenwaage mit 0,1-g-Anzeige erfüllt den Zweck; diese hier fühlt sich einfach jeden Morgen gut an, was bei etwas, das man täglich benutzt, wichtiger ist als das Datenblatt.",
+      "pros": [
+        "0,1-g-Genauigkeit mit schneller, stabiler Reaktion",
+        "Integrierter Brüh-Timer",
+        "Flach genug, um unter dem Handfilter zu stehen"
+      ],
+      "cons": [
+        "Micro-USB-Ladeanschluss bei einigen Geräten",
+        "Nicht wasserdicht – verschüttete Flüssigkeiten schnell aufwischen"
+      ]
+    },
+    {
+      "name": "Fellow Stagg EKG electric kettle",
+      "tag": "Bester Schwanenhals-Wasserkocher",
+      "body": "Ein Schwanenhals-Ausguss erzeugt einen langsamen, zielgenauen Wasserstrahl, und genau darum geht es beim Pour-Over – man will das Kaffeebett gleichmäßig befeuchten, anstatt ein Loch hineinzusprengen. Eine variable Temperaturregelung ist ebenfalls wichtig: Helle Röstungen entfalten sich nahe dem Siedepunkt, dunkle Röstungen werden dabei bitter. Der Stagg EKG ist das schönste Objekt in dieser Kategorie, mit einem ausbalancierten Griff und einem wirklich präzisen Ausguss. Er ist aber auch teuer für einen Wasserkocher, und ein 40-$-Schwanenhalskessel für den Herd plus ein Thermometer bringen Sie fast genauso weit. Kaufen Sie ihn, weil Sie ihn auf Ihrer Arbeitsplatte haben wollen, nicht weil der Kaffee ihn verlangt.",
+      "pros": [
+        "Präziser, kontrollierbarer Ausguss",
+        "Gradgenaue Temperatureinstellung mit Haltefunktion",
+        "Sieht auf der Arbeitsplatte wirklich gut aus"
+      ],
+      "cons": [
+        "Teuer für das, was er im Grunde tut",
+        "1 Liter Fassungsvermögen ist für eine volle Karaffe knapp bemessen"
+      ]
+    },
+    {
+      "name": "AeroPress Original",
+      "tag": "Ideal für Reisen und kleine Küchen",
+      "body": "Die AeroPress ist nahezu unzerbrechlich, brüht in etwa zwei Minuten und wird gereinigt, indem man den Kaffeesatz einfach in den Müll drückt – deshalb landet sie in so vielen Koffern und Büroschubladen. Die Kombination aus Immersion und Druck macht sie sehr nachsichtig bei ungleichmäßigem Mahlgut. So gelingt selbst mit dem Wasserkocher im Hotel und irgendwelchen Bohnen noch eine anständige Tasse. Sie hat auch eine ungewöhnlich erfinderische Fangemeinde, und es gibt veröffentlichte Rezepte für Jahrzehnte, die man durchprobieren kann, wenn man so etwas mag.",
+      "pros": [
+        "Extrem robust und leicht",
+        "Sehr nachsichtig bei Mahlgrad und Technik",
+        "Schnell gebrüht und noch schneller gereinigt"
+      ],
+      "cons": [
+        "Nur für eine Portion",
+        "Papierfilter sind Verbrauchsmaterial und müssen nachgekauft werden"
+      ]
+    },
+    {
+      "name": "Airscape oder Fellow Atmos Vorratsdose",
+      "tag": "Der beste Schutz für die Bohnen",
+      "body": "Sauerstoff lässt Kaffee alt werden, und eine mit einer Klammer zugerollte Tüte ist voll davon. Diese Dosen funktionieren, indem sie den leeren Raum entfernen – die Airscape mit einem Stempeldeckel, den man nach unten drückt, die Atmos mit einer Drehbewegung, die ein Teilvakuum erzeugt. Beide Ansätze verlängern das Genussfenster merklich und verdoppeln in etwa die Zeit, in der die Bohnen frisch bleiben. Es ist eine kleine, günstige Maßnahme, die das Geld schützt, das Sie gerade für frische Bohnen ausgegeben haben – der einzige Grund, warum sie einen Platz vor aufregenderer Hardware verdient.",
+      "pros": [
+        "Verdoppelt in etwa das Zeitfenster, in dem Bohnen frisch bleiben",
+        "Schützt vor Licht und Luft",
+        "Einmalige Anschaffung, nichts muss ersetzt werden"
+      ],
+      "cons": [
+        "Lohnt sich nur, wenn man frische Bohnen kauft",
+        "Vakuum-Modelle haben bewegliche Teile, die verschleißen können"
+      ]
+    },
+    {
+      "name": "Breville Bambino Plus",
+      "tag": "Beste Espressomaschine für Einsteiger",
+      "body": "Espresso ist das teure und am wenigsten nachsichtige Ende dieses Hobbys, weshalb er hier und nicht an der Spitze steht. Die Bambino Plus verdient ihren Platz, weil sie in etwa drei Sekunden aufheizt, die Temperatur zuverlässig hält und eine automatische Dampflanze besitzt, die auch ohne Übung wirklich guten Milchschaum erzeugt. Zwei ehrliche Warnungen: Die Maschine ist nur die halbe Miete, denn Espresso erfordert einen viel feineren und gleichmäßigeren Mahlgrad als Filterkaffee. Planen Sie also das Budget für eine geeignete Espressomühle mit ein. Und wenn Sie hauptsächlich Kaffee mit Milch trinken, wird eine gute Filterkaffee-Ausrüstung mit einem separaten Milchaufschäumer weitaus weniger kosten und Sie weniger enttäuschen.",
+      "pros": [
+        "Heizt in drei Sekunden auf, hält die Temperatur gut",
+        "Automatische Dampflanze erzeugt zuverlässigen Milchschaum",
+        "Geringer Platzbedarf für eine echte Espressomaschine"
+      ],
+      "cons": [
+        "Benötigt eine espressotaugliche Mühle – ein großer versteckter Kostenfaktor",
+        "Kleiner Wassertank, Kunststoffgehäuse für diesen Preis"
+      ]
+    },
+    {
+      "name": "Bodum Chambord French press",
+      "tag": "Ideal, um eine ganze Kanne zu machen",
+      "body": "Die vollständige Immersion ist die fehlertoleranteste Brühmethode überhaupt: Der Kaffee zieht vier Minuten im Wasser, und kleine Fehler beim Mahlgrad oder der Zeit fallen kaum auf. Außerdem bleiben die Kaffeeöle erhalten, die Papierfilter zurückhalten, was zu einer volleren, runderen Tasse führt – besser für dunkle Röstungen und mit Milch, weniger schmeichelhaft für feine, helle Röstungen. Die Chambord ist nicht ohne Grund der Klassiker, und im Gegensatz zu den meisten Geräten auf dieser Liste macht sie genug Kaffee für mehrere Personen auf einmal. Gießen Sie den Kaffee aber sofort nach dem Herunterdrücken um, sonst extrahiert er weiter und wird bitter.",
+      "pros": [
+        "Man kann fast nichts falsch machen",
+        "Reicht für mehrere Personen auf einmal",
+        "Keine Papierfilter nötig"
+      ],
+      "cons": [
+        "Kaffeesatz in der Tasse – das mag nicht jeder",
+        "Die Glaskanne ist wirklich zerbrechlich"
+      ]
+    },
+    {
+      "name": "Isolierter, keramikbeschichteter Thermobecher",
+      "tag": "Ideal für den Weg zur Arbeit",
+      "body": "Blanker Edelstahl verleiht heißem Kaffee einen leichten metallischen Beigeschmack, der umso deutlicher wird, je länger er darin steht. Eine Keramik- oder Emaillebeschichtung verhindert das vollständig, sodass der letzte Schluck wie der erste schmeckt – und genau darum geht es ja. Achten Sie auf einen wirklich auslaufsicheren Deckel, den man zum Reinigen auseinandernehmen kann, denn die Dichtung ist die typische Schwachstelle. Viele Ketten geben immer noch einen Rabatt, wenn man seinen eigenen Becher mitbringt. Ein guter Becher macht sich also bei täglichem Pendeln oft schon nach wenigen Monaten bezahlt.",
+      "pros": [
+        "Kein metallischer Nachgeschmack",
+        "Hält Kaffee stundenlang heiß",
+        "Bringt oft einen Rabatt beim Nachfüllen"
+      ],
+      "cons": [
+        "Keramikbeschichtungen können abplatzen, wenn man ihn fallen lässt",
+        "Schwerer als ein einfacher Edelstahlbecher"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wenn ich mir nur ein einziges Upgrade leisten kann, welches sollte es sein?",
+      "a": "Immer eine Mühle mit Mahlwerk. Die Gleichmäßigkeit des Mahlguts setzt die Obergrenze für alles, was danach kommt. Eine gute Mühle mit einem billigen Kaffeebereiter schlägt eine teure Maschine mit einer schlechten Mühle, und das mit Abstand."
+    },
+    {
+      "q": "Ist ein teurer Schwanenhals-Wasserkocher wirklich notwendig?",
+      "a": "Für Pour-Over hilft der Schwanenhals-Ausguss wirklich; die Elektronik ist Luxus. Ein Schwanenhalskessel für den Herd und ein billiges Thermometer bringen für ein Viertel des Preises fast das gleiche Ergebnis."
+    },
+    {
+      "q": "Wie lange bleiben Kaffeebohnen wirklich frisch?",
+      "a": "Etwa drei bis vier Wochen nach dem Röstdatum für Filterkaffee, etwas länger für Espresso, wenn sie als ganze Bohne und luftdicht gelagert werden. Gemahlener Kaffee verliert schon nach wenigen Tagen an Aroma."
+    },
+    {
+      "q": "Sollte ich eine Espressomaschine oder eine Pour-Over-Ausrüstung kaufen?",
+      "a": "Wenn Sie schwarzen Kaffee trinken, gewinnt Pour-Over bei den Kosten und der Qualität in der Tasse mit großem Abstand. Kaufen Sie eine Espressomaschine nur, wenn Sie gezielt kleine, starke Espressi und Milchgetränke zubereiten wollen, und planen Sie das Budget für die Mühle als Teil der Maschine ein."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "coffee",
+  "title": "Tu equipo de café en casa: de la primera a la última mejora",
+  "dek": "Diez accesorios que de verdad marcan la diferencia en tu taza, ordenados por cuánto mejoran el café en relación con su precio.",
+  "category": "Café",
+  "how_we_pick": "Nuestras selecciones se basan en pruebas de laboratorio publicadas, reseñas de usuarios a largo plazo y foros especializados en café, todo ello contrastado con los productos disponibles actualmente en las tiendas. No hemos probado personalmente todos los artículos de esta lista. Cuando una categoría tiene un ganador claro por consenso, lo indicamos. Cuando la elección depende realmente de tu presupuesto o de tu cocina, te explicamos las ventajas y desventajas de cada opción en lugar de darte un veredicto artificial.",
+  "intro": [
+    "La mayoría de la gente mejora su equipo de café justo en el orden equivocado. Primero compran la cafetera espresso y luego se pasan dos años preguntándose por qué sus cafés no se parecen en nada a los de la cafetería de la esquina. El problema nunca fue la máquina, sino el café de supermercado ya pasado y un molinillo de cuchillas.",
+    "Por eso, esta lista está ordenada por impacto: cuánto mejora tu café por cada dólar gastado. Los tres primeros artículos mejorarán tus mañanas más que los tres últimos juntos, y dos de ellos cuestan menos de $40. Aunque solo leas el principio de la página, ya te habrás llevado la parte útil.",
+    "Los precios que aparecen a continuación son precios de venta aproximados en el momento de escribir este artículo y cambian constantemente, sobre todo en épocas de rebajas. Tómalos como una referencia aproximada para tu presupuesto, no como un precio final; comprueba siempre el precio actualizado en la tienda antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Baratza Encore ESP",
+      "tag": "La primera mejora que deberías hacer",
+      "body": "Si solo vas a comprar una cosa de esta lista, que sea un molinillo de muelas. Un molinillo de cuchillas machaca los granos y los convierte en una mezcla de trozos grandes y polvo, lo que produce un café amargo y ácido en la misma taza. Ninguna cafetera que uses después puede arreglar eso. En cambio, las muelas cónicas cortan el grano a un tamaño uniforme, y la diferencia es inmediata y evidente. El Encore ESP es la versión del clásico de Baratza, un modelo robusto y duradero, pero con un ajuste más fino en la parte baja de la molienda, por lo que sirve tanto para espresso como para filtro. No es rápido ni silencioso, pero es el molinillo que las tiendas especializadas llevan más de una década recomendando a los principiantes, y Baratza vende piezas de repuesto durante años.",
+      "pros": [
+        "Molienda uniforme tanto para filtro como para espresso",
+        "Muelas y piezas de repuesto disponibles durante años",
+        "Fácil de desmontar y limpiar"
+      ],
+      "cons": [
+        "Ruidoso y más lento que un molinillo de gama alta",
+        "El cuerpo de plástico da una sensación más barata de lo que sugiere su precio"
+      ]
+    },
+    {
+      "name": "Café fresco en grano con fecha de tueste",
+      "tag": "La mejora real más barata",
+      "body": "El café es un producto agrícola con una ventana de frescura muy corta, y esa bolsa del supermercado que solo indica una fecha de caducidad lejana suele llevar meses tostada. Busca una fecha de tueste impresa y compra café que se haya tostado en las últimas tres o cuatro semanas. El grano entero conserva sus aromas mucho más tiempo que el café premolido, que pierde todo su sabor a los pocos días de abrir el paquete. Este es el único artículo de la lista que apenas cuesta más y que cambia cada taza que te prepares de ahora en adelante. Por eso está tan arriba, por encima de aparatos que cuestan diez veces más.",
+      "pros": [
+        "Cuesta lo mismo que la opción de café pasado",
+        "Mejora cada taza, sin importar el equipo que tengas",
+        "La fecha de tueste te dice lo que estás comprando de verdad"
+      ],
+      "cons": [
+        "Hay que reponerlo cada pocas semanas",
+        "No en todas partes hay buenos tostadores locales"
+      ]
+    },
+    {
+      "name": "Hario V60 dripper and server",
+      "tag": "La mejor cafetera barata",
+      "body": "La V60 es la forma más barata de preparar un café realmente excelente, y es la cafetera que te sirven en la mayoría de las cafeterías de especialidad cuando pides un filtro. Su forma de cono y sus estrías en espiral te permiten dirigir la extracción según cómo viertes el agua, lo que significa que recompensa la atención y castiga los descuidos, así que tiene una curva de aprendizaje real. Dale un par de fines de semana. Una vez que tienes una rutina, produce una taza más limpia, dulce y con más matices que cualquier cafetera de goteo de menos de varios cientos de dólares, y todo el equipo cabe en un cajón.",
+      "pros": [
+        "Calidad de taza excepcional para su precio",
+        "Ocupa poco espacio, nada que se pueda romper",
+        "Los filtros y repuestos son baratos y se encuentran en todas partes"
+      ],
+      "cons": [
+        "La técnica importa: las primeras tazas serán irregulares",
+        "Prepara una o dos tazas a la vez, no una jarra entera"
+      ]
+    },
+    {
+      "name": "Timemore Black Mirror Basic 2 scale",
+      "tag": "La báscula con mejor relación calidad-precio",
+      "body": "Una báscula es lo que convierte una taza de suerte en una taza repetible. El café es una proporción (gramos de café por gramos de agua) y medir a ojo con una cuchara introduce suficiente variación como para explicar la mayor parte de la falta de consistencia del día a día. La Black Mirror mide con una precisión de 0.1 g, responde lo bastante rápido como para verter el agua sobre ella y tiene un temporizador integrado para que no tengas que hacer malabares con el móvil a media preparación. Cualquier báscula de cocina con precisión de 0.1 g sirve; esta es simplemente la que da gusto usar cada mañana, algo que importa más que las especificaciones para un objeto que tocas a diario.",
+      "pros": [
+        "Resolución de 0.1 g con una respuesta rápida y estable",
+        "Temporizador de preparación integrado",
+        "Lo bastante fina como para dejarla debajo del gotero"
+      ],
+      "cons": [
+        "Carga por micro-USB en algunas unidades",
+        "No es resistente al agua: limpia los derrames rápidamente"
+      ]
+    },
+    {
+      "name": "Fellow Stagg EKG electric kettle",
+      "tag": "El mejor hervidor de cuello de cisne",
+      "body": "Un hervidor de cuello de cisne te da un chorro lento y controlable, que es la clave en el café de filtro: quieres mojar la cama de café de manera uniforme en lugar de hacerle un agujero en medio. El control de temperatura variable también importa: los tuestes claros se abren cerca del punto de ebullición, mientras que los oscuros se vuelven ásperos a esa temperatura. El Stagg EKG es el objeto más bonito de esta categoría, con un mango contrapesado y un vertido realmente preciso. También es caro para ser un hervidor, y con uno de cuello de cisne de $40 para el fuego y un termómetro consigues casi el mismo resultado. Cómpralo porque lo quieres en tu encimera, no porque el café lo exija.",
+      "pros": [
+        "Vertido preciso y controlable",
+        "Fija y mantiene la temperatura al grado exacto",
+        "Realmente bonito en la encimera"
+      ],
+      "cons": [
+        "Caro para lo que hace en esencia",
+        "Su capacidad de 1 L se queda algo justa para una jarra llena"
+      ]
+    },
+    {
+      "name": "AeroPress Original",
+      "tag": "Ideal para viajes y cocinas pequeñas",
+      "body": "La AeroPress es casi irrompible, prepara el café en unos dos minutos y se limpia expulsando la pastilla de café a la basura, por eso acaba en tantas maletas y cajones de oficina. La inmersión más la presión hacen que perdone mucho la inconsistencia de la molienda, así que es la cafetera que te seguirá dando una taza decente con un hervidor de hotel y los granos que hayas podido encontrar. También tiene una comunidad de usuarios inusualmente creativa, y hay décadas de recetas publicadas para probar si te gusta ese tipo de cosas.",
+      "pros": [
+        "Extremadamente duradera y ligera",
+        "Perdona mucho los errores de molienda y técnica",
+        "Rápida de preparar y más rápida de limpiar"
+      ],
+      "cons": [
+        "Solo para una taza",
+        "Los filtros de papel son un consumible que hay que reponer"
+      ]
+    },
+    {
+      "name": "Airscape or Fellow Atmos storage canister",
+      "tag": "La mejor forma de proteger los granos",
+      "body": "El oxígeno es lo que estropea el café, y una bolsa cerrada con una pinza está llena de él. Estos botes funcionan eliminando el aire del interior: el Airscape con una tapa de émbolo que presionas hacia abajo, el Atmos con un giro que crea un vacío parcial. Cualquiera de los dos métodos te da una ventana de frescura notablemente más larga, duplicando aproximadamente el tiempo que una bolsa de café se mantiene en buen estado. Es una intervención pequeña y barata que protege el dinero que acabas de gastar en granos frescos, y es la única razón por la que se gana un puesto por delante de aparatos más emocionantes.",
+      "pros": [
+        "Duplica aproximadamente el tiempo que los granos se mantienen frescos",
+        "Bloquea tanto la luz como el aire",
+        "Una sola compra, nada que reponer"
+      ],
+      "cons": [
+        "Solo merece la pena si compras café fresco en grano",
+        "Los modelos de vacío tienen piezas móviles que pueden desgastarse"
+      ]
+    },
+    {
+      "name": "Breville Bambino Plus",
+      "tag": "La mejor cafetera espresso para empezar",
+      "body": "El espresso es la parte cara de esta afición y la que menos perdona los errores, por eso está aquí y no al principio de la lista. La Bambino Plus se gana su puesto porque se calienta en unos tres segundos, mantiene bien la temperatura e incluye un vaporizador automático que produce una microespuma realmente buena sin necesidad de práctica. Dos advertencias sinceras: la máquina es solo la mitad del coste, porque el espresso exige una molienda mucho más fina y uniforme que el filtro, así que presupuesta también un molinillo adecuado para espresso. Y si bebes principalmente café con leche, un buen equipo de filtro más un espumador aparte te costará mucho menos y te decepcionará menos.",
+      "pros": [
+        "Se calienta en tres segundos, mantiene bien la temperatura",
+        "El vaporizador automático crea una microespuma consistente",
+        "Ocupa poco espacio para ser una máquina de espresso de verdad"
+      ],
+      "cons": [
+        "Necesita un molinillo para espresso, un gran coste oculto",
+        "Depósito de agua pequeño, carcasa de plástico para este precio"
+      ]
+    },
+    {
+      "name": "Bodum Chambord French press",
+      "tag": "La mejor para preparar una jarra",
+      "body": "La inmersión total es el método de preparación que más errores perdona: el café reposa en el agua durante cuatro minutos, y los pequeños fallos en la molienda o el tiempo apenas se notan. Además, conserva los aceites del café que los filtros de papel atrapan, lo que da una taza con más cuerpo y más redonda, mejor para tuestes oscuros y con leche, y menos favorecedora para tuestes claros y delicados. La Chambord es el modelo clásico por algo, y a diferencia de la mayoría de esta lista, prepara suficiente café para varias personas a la vez. Eso sí, sírvelo en cuanto bajes el émbolo, o seguirá extrayéndose y se volverá amargo.",
+      "pros": [
+        "Es casi imposible que salga mal",
+        "Sirve para varias personas a la vez",
+        "No hay que comprar filtros de papel"
+      ],
+      "cons": [
+        "Deja sedimentos en la taza, y no a todo el mundo le gusta",
+        "La jarra de cristal es realmente frágil"
+      ]
+    },
+    {
+      "name": "Insulated ceramic-lined travel mug",
+      "tag": "La mejor para el día a día",
+      "body": "El acero inoxidable sin recubrimiento le da al café caliente un ligero toque metálico que se nota más cuanto más tiempo pasa. Un revestimiento de cerámica o esmalte lo evita por completo, así que el último sorbo sabe como el primero, que es la gracia de llevarla. Prioriza una tapa que sea de verdad hermética y que puedas desmontar y lavar, porque la junta es por donde suelen estropearse. Muchas cadenas de cafeterías todavía hacen un descuento si llevas tu propia taza, así que una buena taza suele amortizarse en unos pocos meses de uso diario.",
+      "pros": [
+        "Sin regusto metálico",
+        "Mantiene el café caliente durante horas",
+        "A menudo consigues un descuento al rellenarla"
+      ],
+      "cons": [
+        "El revestimiento de cerámica se desconcha si se te cae",
+        "Más pesada que un simple vaso de acero"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Si solo puedo permitirme una mejora, ¿cuál debería ser?",
+      "a": "Un molinillo de muelas, siempre. La uniformidad de la molienda pone el límite a todo lo que viene después: un buen molinillo con una cafetera barata es mejor que una cafetera cara con un mal molinillo, y no hay punto de comparación."
+    },
+    {
+      "q": "¿Es realmente necesario un hervidor caro de cuello de cisne?",
+      "a": "Para el café de filtro, el cuello de cisne ayuda de verdad; la parte electrónica es un lujo. Un hervidor de cuello de cisne para el fuego y un termómetro barato te darán casi el mismo resultado por una cuarta parte del precio."
+    },
+    {
+      "q": "¿Cuánto tiempo se mantiene bueno el café en grano?",
+      "a": "Unas tres o cuatro semanas después de la fecha de tueste para filtro, un poco más para espresso, si se guardan enteros y en un recipiente hermético. El café molido empieza a perder sabor en cuestión de días."
+    },
+    {
+      "q": "¿Debería comprar una máquina de espresso o un equipo para café de filtro?",
+      "a": "Si bebes café solo y largo, el de filtro gana por goleada en coste y calidad en taza. Compra una máquina de espresso solo si lo que quieres específicamente son cafés cortos y bebidas con leche, y presupuesta el molinillo como parte de la máquina."
+    }
+  ]
+}

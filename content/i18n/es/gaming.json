@@ -1,0 +1,172 @@
+{
+  "slug": "gaming",
+  "title": "Mejoras de gaming que cambian la experiencia de juego",
+  "dek": "Clasificadas según la diferencia que de verdad notarás, que no es lo mismo que lo que cuestan.",
+  "category": "Gaming",
+  "how_we_pick": "Clasificamos por diferencia perceptible en lugar de por especificaciones, basándonos en reseñas publicadas con mediciones, pruebas de latencia de entrada e informes de propietarios a largo plazo. No hemos probado personalmente todos los artículos de esta lista. Cuando una especificación ha dejado de ser importante para la mayoría de la gente, lo decimos: preferimos disuadirte de una mejora que venderte un número que no puedes sentir.",
+  "intro": [
+    "El hardware de gaming se vende con cifras que, a partir de cierto punto, dejan de importar. El salto de 60 Hz a 144 Hz es transformador. El salto de 240 Hz a 360 Hz es algo que solo un puñado de personas puede percibir de verdad, y su precio es como si todo el mundo pudiera.",
+    "Por eso, esta lista está ordenada por la diferencia perceptible por cada euro invertido. Los primeros artículos cambian la sensación del juego a los pocos minutos de conectarlos. Los últimos son mejoras reales con un rendimiento decreciente, y te decimos cuáles son.",
+    "Los precios son aproximados en el momento de redactar este artículo, y esta categoría tiene grandes descuentos alrededor de noviembre."
+  ],
+  "products": [
+    {
+      "name": "Un monitor de 1440p y 144 Hz",
+      "tag": "La mejora que sientes al instante",
+      "body": "Si todavía usas una pantalla de 60 Hz, esta es la mayor mejora de percepción disponible en el mundo del gaming, y con diferencia. Todo, desde el movimiento del ratón hasta el de la cámara, se vuelve más fluido de una forma que es evidente en los primeros treinta segundos e imposible de ignorar después. La resolución 1440p en 27 pulgadas es el punto óptimo: más nítido que 1080p sin la enorme exigencia de una tarjeta gráfica para 4K. Asegúrate de que la sincronización adaptativa (adaptive sync) esté activada: es gratis, elimina el 'tearing' (desgarro de la imagen) y un número sorprendente de personas nunca la activa. Por encima de 144 Hz, el rendimiento decrece drásticamente para cualquiera que no juegue a nivel competitivo.",
+      "pros": [
+        "La mejora más notable en el gaming",
+        "1440p es la resolución ideal",
+        "La sincronización adaptativa elimina el 'tearing' gratis"
+      ],
+      "cons": [
+        "Necesita una tarjeta gráfica que realmente pueda mover los fotogramas",
+        "Más allá de 144 Hz, el rendimiento cae en picado"
+      ]
+    },
+    {
+      "name": "Un SSD, si todavía usas un disco duro mecánico",
+      "tag": "La mayor mejora en la calidad de uso",
+      "body": "Esto no aumenta en absoluto tu tasa de fotogramas, y aun así será el cambio que más aprecies en el día a día. Las pantallas de carga pasan de un minuto a unos pocos segundos, la carga tardía de texturas en mundos abiertos ('pop-in') desaparece en gran medida y el ordenador deja de sentirse lento. Además, los juegos modernos se diseñan cada vez más asumiendo un almacenamiento rápido, por lo que algunos ahora cargan recursos de una forma que provoca 'stuttering' (microtirones) en un disco mecánico. Un disco NVMe de 1 TB es el tamaño práctico: los juegos son enormes hoy en día y un disco de 500 GB se llena más rápido de lo que crees.",
+      "pros": [
+        "Los tiempos de carga bajan de minutos a segundos",
+        "Elimina el 'pop-in' de texturas y el 'stuttering'",
+        "Barato para el gran cambio que supone"
+      ],
+      "cons": [
+        "No afecta en nada a la tasa de fotogramas",
+        "Comprueba que tu placa base sea compatible con la generación del disco"
+      ]
+    },
+    {
+      "name": "Unos auriculares de diadema cerrados o cascos con micrófono",
+      "tag": "El audio posicional es una ventaja real",
+      "body": "En los juegos competitivos, oír de dónde viene un sonido es información realmente útil, y un par de auriculares cerrados decentes te lo dan mucho mejor que los altavoces del portátil o del monitor. Que sean cerrados importa por dos motivos: te aíslan de la habitación y evitan que el sonido de los auriculares se cuele en tu micrófono. Aquí va un consejo para ahorrar dinero: unos buenos auriculares más un micrófono de pinza por separado suelen superar a un 'headset' de gaming del mismo precio, porque el presupuesto de los 'headsets' se divide entre el audio y el micrófono, y el sobreprecio por la etiqueta 'gaming' es real. Con cable evitas por completo la latencia y la batería.",
+      "pros": [
+        "El audio posicional es una auténtica ventaja competitiva",
+        "El diseño cerrado evita que el sonido se cuele en el micrófono",
+        "Auriculares más micro por separado superan a un 'headset' del mismo precio"
+      ],
+      "cons": [
+        "La etiqueta 'gaming' conlleva un sobreprecio",
+        "Calientan las orejas en sesiones largas"
+      ]
+    },
+    {
+      "name": "Un ratón ligero con cable",
+      "tag": "El peso importa más que los DPI",
+      "body": "Ignora por completo el número de DPI: cualquier sensor moderno es más preciso que cualquier mano humana, y casi todo el mundo juega a una fracción del máximo de todos modos. Lo que de verdad sientes es el peso y la forma. Pasar de un ratón de 110 g a uno de 60 g cambia de forma inmediata y obvia la rapidez con la que puedes hacer movimientos bruscos y lo cansada que está tu muñeca después de dos horas. La forma tiene que coincidir con tu tipo de agarre: de palma, de garra o con la punta de los dedos son requisitos realmente diferentes, y un ratón que se adapta a uno es incómodo para otro. Con cable es más barato y ligero; los buenos inalámbricos ya no tienen latencia, pero cuestan más.",
+      "pros": [
+        "El peso es la especificación que de verdad se siente",
+        "Con cable es más ligero y más barato",
+        "Todos los sensores modernos son lo bastante precisos"
+      ],
+      "cons": [
+        "La forma debe coincidir con tu tipo de agarre",
+        "El marketing de los DPI es básicamente irrelevante"
+      ]
+    },
+    {
+      "name": "Una alfombrilla de tela grande para el escritorio",
+      "tag": "La mejora real más barata",
+      "body": "Una superficie consistente y de baja fricción hace que la puntería sea más repetible, y si juegas con una sensibilidad baja necesitas mucho más espacio del que da una alfombrilla pequeña: quedarse sin alfombrilla en medio de un giro es un problema real y evitable. Una alfombrilla grande también protege el escritorio y amortigua ligeramente el ruido del teclado. Mejor de tela que de plástico duro por control y comodidad, y con los bordes cosidos porque es por ahí por donde se deshilachan primero las alfombrillas baratas. Cuesta unos veinte dólares y mejora más tu puntería que los últimos treinta dólares que gastarías en un ratón.",
+      "pros": [
+        "Puntería más consistente que con una alfombrilla pequeña y dura",
+        "Protege el escritorio y amortigua el ruido",
+        "Muy barata para la diferencia que supone"
+      ],
+      "cons": [
+        "Las de tela necesitan lavarse de vez en cuando",
+        "Los bordes sin coser se deshilachan rápido"
+      ]
+    },
+    {
+      "name": "Un mando con joysticks de efecto Hall",
+      "tag": "Soluciona el 'drift' de los joysticks de verdad",
+      "body": "El 'drift' de los joysticks es el defecto que acaba con la mayoría de los mandos, y ocurre porque los joysticks convencionales usan contactos físicos que se desgastan. Los joysticks de efecto Hall leen un campo magnético en su lugar, sin que nada se toque, por lo que no desarrollan 'drift' por el uso. Ese único cambio convierte un mando, que es un consumible que reemplazas cada dieciocho meses, en algo que dura. Dado que un joystick con 'drift' hace que un mando sea realmente inutilizable, esta es una de las propuestas de valor más claras de la página. Comprueba que el modelo diga específicamente que es de efecto Hall o TMR, porque muchos mandos de precios similares todavía usan el diseño antiguo.",
+      "pros": [
+        "No desarrolla 'drift' en los joysticks por el uso",
+        "Convierte un consumible en una compra duradera",
+        "A menudo incluye botones traseros reconfigurables"
+      ],
+      "cons": [
+        "Hay que verificar que el modelo realmente use efecto Hall",
+        "La calidad de construcción de los mandos de terceros varía"
+      ]
+    },
+    {
+      "name": "Iluminación indirecta detrás de la pantalla",
+      "tag": "Comodidad barata, no rendimiento",
+      "body": "Una pantalla brillante en una habitación oscura obliga a tus ojos a ajustarse constantemente entre ambas, lo que es una de las principales razones por las que las largas sesiones nocturnas te dejan con dolor de cabeza. Una tira de luz tenue detrás del monitor aumenta el brillo del entorno y elimina ese contraste, y también hace que la imagen se vea mejor al dar a tus ojos una referencia neutra para el negro. Usa una luz cálida, tenue y constante en lugar de una que cambie de color, lo que anula su propósito. Esto mejora la comodidad, no el rendimiento, y cuesta más o menos lo mismo que un juego.",
+      "pros": [
+        "Menos fatiga visual por la noche, y se nota",
+        "Mejora el contraste percibido",
+        "Cuesta más o menos lo mismo que un juego"
+      ],
+      "cons": [
+        "Ningún efecto en el rendimiento",
+        "Los modos que cambian de color anulan su propósito"
+      ]
+    },
+    {
+      "name": "Un reposamuñecas",
+      "tag": "Aburrido, pero tus muñecas te lo agradecerán",
+      "body": "Los teclados mecánicos son altos, y un teclado alto dobla tus muñecas hacia arriba durante todas las horas que juegues. Con los meses, esa extensión es un riesgo real de lesión por esfuerzo repetitivo, y es el tipo de problema que es mucho más fácil de prevenir que de solucionar. Un reposamuñecas que coincida con la altura de tu teclado mantiene la muñeca en una posición más neutra. Es más importante que coincida la altura que comprar el más blando: un reposamuñecas demasiado bajo o demasiado alto solo cambia el ángulo en lugar de eliminarlo. La espuma viscoelástica ('memory foam') es cómoda y se comprime en uno o dos años; los materiales más firmes duran más.",
+      "pros": [
+        "Reduce un riesgo real de lesión por esfuerzo repetitivo",
+        "Barato y no requiere cambiar de hábitos",
+        "Combina de forma natural con un teclado mecánico"
+      ],
+      "cons": [
+        "La altura incorrecta traslada el problema en lugar de solucionarlo",
+        "La espuma se comprime con el tiempo"
+      ]
+    },
+    {
+      "name": "Más RAM, hasta 32 GB",
+      "tag": "Solo si de verdad te quedas corto",
+      "body": "Este está en la lista con una condición. Si tienes 16 GB y juegas mientras tienes un navegador con treinta pestañas, un cliente de chat y un 'stream' abiertos, probablemente estés llegando al límite, y el 'stuttering' que le achacas a tu tarjeta gráfica es en realidad falta de memoria. Pasar a 32 GB lo soluciona por completo. Si tienes 16 GB y cierras todo antes de jugar, más RAM no hará esencialmente nada y es mejor que gastes el dinero en otra cosa. Comprueba primero tu uso real mientras juegas: el administrador de tareas te da la respuesta en diez segundos y te evita comprar una solución para un problema que no tienes.",
+      "pros": [
+        "Elimina el 'stuttering' causado por falta de memoria",
+        "Barata en comparación con una tarjeta gráfica",
+        "Ayuda si haces 'streaming' o multitarea mientras juegas"
+      ],
+      "cons": [
+        "No sirve de nada si no te quedas corto de memoria",
+        "Debe ser del mismo tipo de memoria que tu placa base"
+      ]
+    },
+    {
+      "name": "Una mejora de la tarjeta gráfica",
+      "tag": "Lo último, y solo después del resto",
+      "body": "La tarjeta gráfica es la mejora que todo el mundo busca primero y aquí va la última, porque es, con diferencia, la forma más cara de notar un cambio y a menudo no es lo que te está frenando. Antes de gastar, comprueba qué es lo que te está limitando realmente: si tu procesador está a plena carga mientras la tarjeta no, una tarjeta nueva no cambia nada. Si juegas a 1080p en una pantalla de 60 Hz, una tarjeta más rápida produce fotogramas que tu monitor no puede mostrar. Compra primero el monitor, confirma que la tarjeta es el cuello de botella y luego compra la tarjeta. En ese orden, el dinero cunde mucho más.",
+      "pros": [
+        "La única forma de alcanzar ajustes gráficos realmente más altos",
+        "Mantiene bastante bien su valor de reventa",
+        "Permite usar resoluciones más altas correctamente"
+      ],
+      "cons": [
+        "Con diferencia, la mejora más cara que puedes comprar",
+        "Inútil si tu procesador o monitor es el verdadero límite"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Merece la pena una tasa de refresco superior a 144 Hz?",
+      "a": "Para la mayoría de la gente, no. De 60 a 144 Hz es transformador; de 144 a 240 Hz es una mejora modesta que la mayoría de los jugadores no puede identificar de forma fiable en una prueba a ciegas; más allá de eso, es para jugadores competitivos con los reflejos y las tasas de fotogramas para aprovecharlo."
+    },
+    {
+      "q": "¿Un ratón de gaming caro te hace mejor jugador?",
+      "a": "El peso y la forma afectan de verdad a la comodidad y la consistencia, así que un ratón que se adapte a tu mano ayuda. La cifra de DPI no: todos los sensores actuales superan lo que una mano humana puede aprovechar."
+    },
+    {
+      "q": "¿Con cable o inalámbrico para jugar a nivel competitivo?",
+      "a": "Los buenos inalámbricos ya no tienen latencia y la diferencia ya no es un argumento real. Los de cable siguen siendo más baratos, más ligeros y nunca necesitan cargarse, razón por la cual muchos jugadores competitivos los siguen usando."
+    },
+    {
+      "q": "¿Qué debería mejorar primero si tengo un presupuesto ajustado?",
+      "a": "Un SSD si todavía usas un disco duro mecánico, luego un monitor de 144 Hz y después una alfombrilla de escritorio. Ese orden te da el cambio más notable por cada euro invertido, y nada de ello requiere tocar la tarjeta gráfica."
+    }
+  ]
+}

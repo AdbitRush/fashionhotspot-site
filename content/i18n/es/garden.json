@@ -1,0 +1,173 @@
+{
+  "slug": "garden",
+  "title": "Equipo para jardín y balcón que se gana su sitio en el cobertizo",
+  "dek": "Diez artículos que funcionan tanto en un balcón como en un jardín, clasificados según su impacto real en el crecimiento de las plantas.",
+  "category": "Jardinería",
+  "how_we_pick": "Clasificamos los productos por su efecto en la supervivencia y producción de las plantas, no por lo agradable que sea usar la herramienta. Nos basamos en guías de horticultura, pruebas publicadas e informes de propietarios a largo plazo, y no hemos usado personalmente todos los artículos de esta lista. Cuando la solución es una técnica en lugar de una compra (y en jardinería, a menudo lo es), lo indicamos.",
+  "intro": [
+    "La jardinería tiene un mercado de artilugios enorme, pero la lista de cosas que determinan si una planta vive es muy corta. El agua, la luz, el drenaje y la tierra hacen casi todo el trabajo. Lo demás es comodidad.",
+    "Por eso, esta lista está ordenada según el impacto en los resultados. Los primeros artículos son los que evitan que las plantas se mueran mientras estás fuera o te despistas, que es, con diferencia, la causa más común de fracaso. Las herramientas vienen después.",
+    "Casi todo lo que incluimos aquí funciona tanto en un balcón como en un jardín, porque las macetas tienen las mismas necesidades que los arriates, solo que se secan más rápido. Cuando algo es exclusivamente para jardín, lo especificamos.",
+    "Los precios son aproximados en el momento de redactar este artículo. El equipo de jardinería tiene grandes descuentos al final de la temporada, que es el momento más sensato para comprar cualquier cosa que no sea urgente."
+  ],
+  "products": [
+    {
+      "name": "Un kit de riego por goteo con temporizador",
+      "tag": "Soluciona la causa de muerte número uno",
+      "body": "El riego irregular mata más plantas de maceta que las plagas y las enfermedades juntas, y el patrón es siempre el mismo: todo va bien durante tres semanas, hasta que llega una ola de calor o unas vacaciones y se muere todo. Un temporizador con un sistema de goteo elimina por completo el factor humano, que es de lo que se trata. Además, riega mejor que una regadera: el goteo lento en la raíz llega a todo el cepellón en lugar de escurrirse por el interior de la maceta y salir por debajo, que es lo que ocurre cuando se vierte agua rápidamente. Los kits son modulares y no necesitan fontanería. Comprueba las pilas del temporizador cada primavera.",
+      "pros": [
+        "Elimina la principal causa de muerte de las plantas en maceta",
+        "Riega el cepellón correctamente, no solo la superficie",
+        "Sin fontanería, totalmente modular"
+      ],
+      "cons": [
+        "Las pilas del temporizador se agotan sin avisar: compruébalas cada primavera",
+        "Los goteros se atascan y hay que limpiarlos de vez en cuando"
+      ]
+    },
+    {
+      "name": "Macetas con buen drenaje y el sustrato adecuado",
+      "tag": "Lo básico, aunque poco glamuroso",
+      "body": "Dos errores son responsables de una enorme cantidad de plantas de maceta muertas, y ambos se pueden evitar por casi nada de dinero. El primero es usar un macetero decorativo sin agujero de drenaje, que ahoga las raíces sin que te des cuenta: hazle un agujero o úsalo como cubremacetas con una maceta de plástico dentro. El segundo es llenar las macetas con tierra de jardín, que se compacta hasta formar un bloque denso y sin aire, y no se comporta igual que en el suelo. Usa un sustrato para macetas adecuado. La terracota transpira y se seca más rápido, lo que va bien para las hierbas y las plantas mediterráneas, pero es contraproducente para las que necesitan mucha agua.",
+      "pros": [
+        "Soluciona dos de las causas de fracaso más comunes",
+        "Corregirlo no cuesta casi nada",
+        "La terracota es ideal para hierbas y plantas de clima seco"
+      ],
+      "cons": [
+        "Los maceteros decorativos a menudo no tienen ningún drenaje",
+        "La tierra de jardín se compacta mucho en las macetas"
+      ]
+    },
+    {
+      "name": "Unas tijeras de podar de tipo 'bypass'",
+      "tag": "Cómpralas afiladas, mantenlas afiladas",
+      "body": "Las tijeras de podar 'bypass' cortan como unas tijeras normales, con dos hojas que se cruzan, y dejan un corte limpio que cicatriza. Las tijeras de yunque aplastan el tallo contra una placa plana, lo que daña la madera viva y favorece las enfermedades; úsalas solo para material muerto. Un corte limpio es más importante de lo que la mayoría de los principiantes cree. Compra un modelo cuyas cuchillas se puedan sustituir y afilar en lugar de uno sellado, y límpialas entre una planta y otra si alguna está enferma. Unas tijeras sin afilar no fallan de forma evidente, simplemente lo desgarran todo y le echas la culpa a la planta.",
+      "pros": [
+        "Los cortes limpios cicatrizan; los aplastados atraen enfermedades",
+        "Las cuchillas reemplazables hacen que unas tijeras duren años",
+        "Los modelos cómodos reducen la fatiga de la mano"
+      ],
+      "cons": [
+        "Las de tipo yunque dañan los tallos vivos",
+        "Las cuchillas sin afilar fallan sin que te des cuenta: afílalas"
+      ]
+    },
+    {
+      "name": "Un medidor de humedad, si riegas en exceso",
+      "tag": "Una respuesta barata a una pregunta común",
+      "body": "El exceso de riego mata más plantas de interior que la sequía, porque la tierra empapada asfixia las raíces y los síntomas (hojas caídas y amarillentas) son idénticos a los de la sed, así que la gente riega más y acelera el problema. Una sonda barata mide la humedad a la altura de las raíces en lugar de en la superficie, que es la parte que no se ve y la que importa. Es más una herramienta de aprendizaje que algo permanente: úsala durante una temporada, aprende a reconocer el peso y el tacto adecuados de tus macetas, y dejarás de necesitarla. Meter un dedo dos pulgadas en la tierra hace el mismo trabajo gratis.",
+      "pros": [
+        "Mide a la altura de la raíz, donde importa",
+        "Muy barato y los modelos básicos no necesitan pilas",
+        "Rompe el ciclo de riego excesivo rápidamente"
+      ],
+      "cons": [
+        "Un dedo hace el mismo trabajo gratis",
+        "Los medidores baratos se descalibran y se corroen con el tiempo"
+      ]
+    },
+    {
+      "name": "Una luz de cultivo, para un piso oscuro",
+      "tag": "Solo si la luz es el problema",
+      "body": "Si tus plantas están 'ahiladas' (estiradas, pálidas y buscando la ventana), la luz es el factor limitante y nada de lo que compres ayudará. Un LED de espectro completo soluciona eso directamente, y también hace que la siembra de semillas en invierno sea realmente viable. Comprueba la potencia lumínica real en lugar de los vatios, ya que las cifras de marketing en este sector están inusualmente infladas, y ponle un temporizador de doce a dieciséis horas; más no es mejor y las plantas necesitan un período de oscuridad. Si tus plantas están sanas y compactas, no tienes un problema de luz y es mejor que gastes el dinero en otra cosa.",
+      "pros": [
+        "Soluciona directamente el ahilamiento en habitaciones oscuras",
+        "Hace viable la siembra de semillas en invierno",
+        "Los LED modernos tienen un bajo consumo"
+      ],
+      "cons": [
+        "Las cifras de potencia lumínica suelen estar exageradas",
+        "Inútil si la luz no es tu verdadera limitación"
+      ]
+    },
+    {
+      "name": "Un cubo para compost y un pequeño contenedor o vermicompostador",
+      "tag": "También funciona en un balcón",
+      "body": "El compost es el mejorador de suelo más barato que existe y actualmente estás pagando para que se lleven la materia prima. Un cubo con filtro de carbón puede estar en la encimera sin oler mal, y un pequeño contenedor o un vermicompostador puede procesar el volumen de un hogar sin jardín. Los vermicompostadores, en particular, funcionan en un balcón y producen un fertilizante líquido concentrado como subproducto. Mantén una proporción equilibrada entre residuos verdes de cocina y material marrón como el cartón; casi todas las quejas sobre el mal olor se deben a un exceso de material verde y falta de aire.",
+      "pros": [
+        "Convierte los residuos en el mejor mejorador de suelo que existe",
+        "Los vermicompostadores funcionan en un balcón",
+        "Fertilizante líquido como subproducto gratuito"
+      ],
+      "cons": [
+        "Si huele mal, la proporción de verde y marrón es incorrecta",
+        "Tarda meses en producir el primer compost utilizable"
+      ]
+    },
+    {
+      "name": "Una almohadilla para las rodillas y unos guantes adecuados",
+      "tag": "Determina cuánto tiempo aguantas",
+      "body": "El tiempo que pasas trabajando en el jardín una tarde cualquiera suele depender de tus rodillas y tus manos, no de tu entusiasmo, lo que hace que estos artículos valgan más de lo que parecen. Una almohadilla de espuma gruesa cuesta muy poco y prácticamente duplica el tiempo que puedes trabajar cómodamente. En cuanto a los guantes, el tejido recubierto de nitrilo es la solución intermedia más útil: ofrece suficiente destreza para manipular plántulas y suficiente protección contra las espinas, a diferencia del cuero grueso, que es seguro pero inútil para trabajos finos. Compra dos pares, porque uno siempre estará mojado. Usa guantes para trabajar con tierra en general; en el compost hay bacterias y hongos que es mejor no tocar con las manos desnudas.",
+      "pros": [
+        "Prácticamente duplica el tiempo de trabajo cómodo",
+        "El recubrimiento de nitrilo equilibra el agarre y la protección",
+        "Barato"
+      ],
+      "cons": [
+        "Se necesitan dos pares de guantes para rotar",
+        "El cuero grueso es inútil para trabajos de precisión"
+      ]
+    },
+    {
+      "name": "Una regadera con una alcachofa de agujeros finos",
+      "tag": "La clave está en la alcachofa",
+      "body": "Cualquier recipiente sirve para llevar agua. Lo que realmente compras es la alcachofa, el cabezal perforado que convierte un chorro en lluvia. Sin ella, al regar las plántulas las arrancas del sustrato, y al regar las macetas creas un canal que envía el agua directamente por un lado y hacia el agujero de drenaje, dejando seco la mayor parte del cepellón. Una alcachofa de agujeros finos vierte el agua lo suficientemente lento como para que el sustrato la absorba. Comprueba el equilibrio de la regadera cuando esté llena, ya que una mal equilibrada cansa y te anima a regar menos de lo que pretendías.",
+      "pros": [
+        "Una alcachofa fina es lo que hace que el riego funcione de verdad",
+        "Esencial para las plántulas, que un chorro de agua destrozaría",
+        "Sencillo, no hay nada que se pueda romper"
+      ],
+      "cons": [
+        "Las alcachofas se pierden fácilmente: ten una de repuesto",
+        "Las regaderas mal equilibradas cansan cuando están llenas"
+      ]
+    },
+    {
+      "name": "Control de babosas que no sean los gránulos azules",
+      "tag": "Comprueba la legislación local",
+      "body": "Las babosas pueden acabar con una hilera de plántulas en una noche, y los gránulos de metaldehído tradicionales ya han sido prohibidos o restringidos en varios países por ser dañinos para la fauna y las mascotas; comprueba qué está permitido donde vives antes de comprar nada. Las alternativas que funcionan razonablemente bien son la cinta de cobre alrededor del borde de las macetas, los pellets de lana y los productos a base de fosfato de hierro, que están aprobados para uso ecológico en muchos lugares. Las trampas de cerveza funcionan, pero hay que vaciarlas con más frecuencia de la que nadie espera. Ningún método es infalible; combinar dos es más eficaz que perfeccionar uno solo.",
+      "pros": [
+        "Protege a las plántulas de la pérdida total más rápida",
+        "El fosfato de hierro está aprobado para uso ecológico en muchos lugares",
+        "La cinta de cobre es reutilizable año tras año"
+      ],
+      "cons": [
+        "El metaldehído está prohibido o restringido en muchos países",
+        "Ningún método funciona por sí solo al 100 %"
+      ]
+    },
+    {
+      "name": "Un serrucho de poda plegable",
+      "tag": "Solo para jardín, y más seguro que las tijeras de dos manos",
+      "body": "Este es el único artículo de la lista que es exclusivamente para jardín. Cualquier cosa más gruesa que un pulgar es demasiado para unas tijeras de podar, y forzar unas tijeras de dos manos para cortarlo produce un desgarro en la planta y, a menudo, una herramienta rota. Un serrucho plegable con hoja de corte por tracción corta rápido, cabe en un bolsillo y cuesta menos que las tijeras de dos manos que la gente compra en su lugar. Los dientes de estilo japonés, que cortan al tirar, son notablemente más eficientes que los que cortan al empujar. Pliégalo cada vez que lo dejes en el suelo: un serrucho abierto en el césped es una de las formas más previsibles de hacerse daño en un jardín.",
+      "pros": [
+        "Corta ramas que las tijeras de podar no pueden",
+        "Las hojas de corte por tracción son notablemente más eficientes",
+        "Se pliega hasta el tamaño de un bolsillo"
+      ],
+      "cons": [
+        "Exclusivamente para jardín, no sirve para balcón",
+        "Una hoja abierta en el suelo es un peligro real"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es lo que más a menudo mata a las plantas de maceta?",
+      "a": "El riego irregular, la falta de un agujero de drenaje y el uso de tierra de jardín en lugar de sustrato para macetas. Esas tres causas explican la gran mayoría de los casos, y todas son baratas de solucionar."
+    },
+    {
+      "q": "¿Se puede cultivar algo que merezca la pena en un balcón?",
+      "a": "Sí: las hierbas aromáticas, las hojas para ensalada, los chiles, los tomates y las fresas se dan bien en macetas. Las verdaderas limitaciones son las horas de sol y el viento, no el espacio. Antes de elegir las plantas, cuenta cuántas horas de sol directo recibe realmente el lugar."
+    },
+    {
+      "q": "¿Merece la pena comprar un medidor de humedad?",
+      "a": "Durante una temporada, si tiendes a regar en exceso. Después habrás aprendido a reconocer el peso y el tacto que debe tener una maceta, y meter un dedo dos pulgadas en el sustrato te dice lo mismo gratis."
+    },
+    {
+      "q": "¿Cuál es el mejor momento para comprar equipo de jardinería?",
+      "a": "Al final de la temporada, cuando las tiendas liquidan existencias. Las herramientas, las macetas y los muebles tienen grandes descuentos, y ninguno de ellos se estropea por guardarlos durante el invierno."
+    }
+  ]
+}

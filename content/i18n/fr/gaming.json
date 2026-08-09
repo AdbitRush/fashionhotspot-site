@@ -1,0 +1,172 @@
+{
+  "slug": "gaming",
+  "title": "Les améliorations gaming qui changent vraiment la sensation de jeu",
+  "dek": "Classées selon la différence que vous remarquerez vraiment, et non selon leur prix.",
+  "category": "Gaming",
+  "how_we_pick": "Nous classons les produits selon la différence perceptible plutôt que les spécifications, en nous basant sur des tests publiés basés sur des mesures, des tests de latence d'entrée et des retours de propriétaires sur le long terme. Nous n'avons pas personnellement testé chaque article de cette liste. Lorsqu'une caractéristique technique n'a plus d'importance pour la plupart des gens, nous le disons clairement : nous préférons vous dissuader d'une mise à niveau plutôt que de vous vendre un chiffre que vous ne pouvez pas ressentir.",
+  "intro": [
+    "Le matériel de gaming est vendu sur la base de chiffres qui, au-delà d'un certain seuil, n'ont plus vraiment d'importance. Passer de 60 Hz à 144 Hz est une transformation radicale. Le saut de 240 Hz à 360 Hz est une chose qu'une poignée de personnes peut réellement percevoir, mais son prix est fixé comme si c'était le cas de tout le monde.",
+    "Cette liste est donc classée en fonction de la différence perceptible par euro dépensé. Les premiers articles changent la sensation de jeu dès les premières minutes d'utilisation. Les derniers sont de vraies améliorations, mais avec des rendements honnêtement dégressifs, et nous le précisons.",
+    "Les prix sont approximatifs au moment de la rédaction, et cette catégorie de produits bénéficie de fortes réductions aux alentours de novembre."
+  ],
+  "products": [
+    {
+      "name": "Un écran 1440p 144 Hz",
+      "tag": "L'amélioration que l'on ressent immédiatement",
+      "body": "Si vous utilisez encore un écran 60 Hz, c'est de loin la plus grande amélioration perceptible possible dans le gaming. Du mouvement de la souris au panoramique de la caméra, tout devient plus fluide d'une manière qui saute aux yeux dans les trente premières secondes et dont on ne peut plus se passer ensuite. Le 1440p sur un 27 pouces est le juste milieu idéal pour la résolution : plus net que le 1080p sans exiger la puissance graphique énorme de la 4K. Assurez-vous que la synchronisation adaptative (adaptive sync) est activée : c'est gratuit, ça élimine le déchirement de l'image (tearing), et un nombre surprenant de personnes ne l'activent jamais. Au-delà de 144 Hz, les gains diminuent fortement pour quiconque ne joue pas en compétition.",
+      "pros": [
+        "L'amélioration la plus notable dans le gaming",
+        "Le 1440p est le juste milieu idéal en matière de résolution",
+        "La synchronisation adaptative élimine le déchirement de l'image gratuitement"
+      ],
+      "cons": [
+        "Nécessite une carte graphique capable de suivre la cadence",
+        "Au-delà de 144 Hz, les gains diminuent fortement"
+      ]
+    },
+    {
+      "name": "Un SSD, si vous utilisez encore un disque dur",
+      "tag": "La plus grande amélioration du confort d'utilisation",
+      "body": "Cela n'augmentera pas du tout votre nombre d'images par seconde, et pourtant ce sera le changement que vous apprécierez le plus au quotidien. Les écrans de chargement passent d'une minute à quelques secondes, l'apparition tardive des textures (pop-in) dans les mondes ouverts disparaît en grande partie, et la machine ne donne plus l'impression de ramer. Les jeux modernes sont aussi de plus en plus conçus pour un stockage rapide, si bien que certains chargent désormais leurs données d'une manière qui provoque de vraies saccades sur un disque mécanique. Un disque NVMe de 1 To est la taille la plus pratique : les jeux sont énormes aujourd'hui et un disque de 500 Go se remplit plus vite que prévu.",
+      "pros": [
+        "Les temps de chargement passent de quelques minutes à quelques secondes",
+        "Supprime l'apparition tardive des textures et les saccades",
+        "Peu cher pour le changement que ça apporte"
+      ],
+      "cons": [
+        "N'a aucun effet sur le nombre d'images par seconde",
+        "Vérifiez que votre carte mère est compatible avec la génération du disque"
+      ]
+    },
+    {
+      "name": "Un casque fermé ou des écouteurs avec un micro",
+      "tag": "L'audio positionnel est un réel avantage",
+      "body": "Dans les jeux compétitifs, entendre d'où vient un son est une information réellement exploitable, et un bon casque fermé vous le permet bien mieux que les haut-parleurs d'un ordinateur portable ou d'un écran. L'aspect « fermé » est doublement important : il vous isole de la pièce et empêche le son de vos écouteurs de fuiter dans votre microphone. Voici le conseil qui fait économiser de l'argent : un bon casque audio et un micro-cravate séparé sont souvent meilleurs qu'un casque-micro de gaming au même prix, car le budget d'un casque-micro est réparti entre l'audio et le micro, et la « taxe de marque » sur le matériel étiqueté « gaming » est bien réelle. Le filaire évite complètement la latence et les problèmes de batterie.",
+      "pros": [
+        "L'audio positionnel est un véritable avantage compétitif",
+        "La conception fermée empêche le son de fuiter dans le micro",
+        "Un casque et un micro séparé valent mieux qu'un casque-micro au même prix"
+      ],
+      "cons": [
+        "La marque « gaming » se paie au prix fort",
+        "Tient chaud aux oreilles pendant les longues sessions"
+      ]
+    },
+    {
+      "name": "Une souris filaire légère",
+      "tag": "Le poids compte plus que les DPI",
+      "body": "Ignorez complètement le chiffre des DPI : tous les capteurs modernes sont plus précis que n'importe quelle main humaine, et presque tout le monde joue avec une fraction du maximum de toute façon. Ce que vous ressentez vraiment, c'est le poids et la forme. Passer d'une souris de 110 g à une de 60 g change immédiatement et de manière évidente la rapidité de vos mouvements brusques et la fatigue de votre poignet après deux heures. La forme doit correspondre à votre prise en main : paume (palm), griffe (claw) ou bout des doigts (fingertip) sont des besoins réellement différents, et une souris qui convient à l'un est inconfortable pour l'autre. Le filaire est moins cher et plus léger ; un bon sans-fil est aujourd'hui vraiment sans latence, mais coûte plus cher.",
+      "pros": [
+        "Le poids est la caractéristique que l'on ressent vraiment",
+        "Le filaire est plus léger et moins cher",
+        "Les capteurs modernes sont tous assez précis"
+      ],
+      "cons": [
+        "La forme doit correspondre à votre type de prise en main",
+        "Le marketing autour des DPI n'a quasiment aucun sens"
+      ]
+    },
+    {
+      "name": "Un grand tapis de bureau en tissu",
+      "tag": "L'amélioration réelle la moins chère",
+      "body": "Une surface uniforme à faible friction rend la visée plus régulière, et si vous jouez avec une faible sensibilité, vous avez besoin de bien plus d'espace qu'un petit tapis ne peut en offrir. Se retrouver à court de tapis en plein virage est un problème réel et évitable. Un grand tapis protège également le bureau et atténue légèrement le bruit du clavier. Préférez le tissu au plastique dur pour le contrôle et le confort, et les bords cousus, car c'est là que les tapis bon marché s'effilochent en premier. Ça coûte une vingtaine de dollars et ça fait plus de différence pour votre visée que les trente derniers dollars que vous dépenseriez pour une souris.",
+      "pros": [
+        "Une visée plus régulière qu'avec un petit tapis rigide",
+        "Protège le bureau et atténue le bruit",
+        "Très bon marché pour la différence que ça fait"
+      ],
+      "cons": [
+        "Le tissu nécessite un lavage occasionnel",
+        "Les bords non cousus s'effilochent rapidement"
+      ]
+    },
+    {
+      "name": "Une manette avec des sticks à effet Hall",
+      "tag": "La vraie solution au 'stick drift'",
+      "body": "Le 'stick drift' est le défaut qui met la plupart des manettes hors service. Il se produit parce que les sticks conventionnels utilisent des contacts physiques qui s'usent. Les sticks à effet Hall lisent plutôt un champ magnétique, sans aucun contact, et ne développent donc pas de dérive due à l'usure. Ce simple changement transforme une manette, qui passe d'un consommable à remplacer tous les dix-huit mois à un objet qui dure. Étant donné qu'un stick qui dérive rend une manette totalement inutilisable, c'est l'une des propositions de valeur les plus claires de cette page. Vérifiez que le modèle mentionne bien 'effet Hall' ou 'TMR', car de nombreuses manettes à des prix similaires utilisent encore l'ancienne conception.",
+      "pros": [
+        "Ne développe pas de 'stick drift' dû à l'usure",
+        "Transforme un consommable en un achat durable",
+        "Inclut souvent des boutons arrière reconfigurables"
+      ],
+      "cons": [
+        "Il faut vérifier que le modèle utilise bien l'effet Hall",
+        "La qualité de fabrication des manettes tierces est variable"
+      ]
+    },
+    {
+      "name": "Un éclairage d'appoint derrière l'écran",
+      "tag": "Pour le confort, pas la performance, et à bas prix",
+      "body": "Un écran lumineux dans une pièce sombre force vos yeux à s'adapter constamment entre les deux, ce qui explique en grande partie les maux de tête après de longues sessions nocturnes. Une bande lumineuse tamisée derrière l'écran augmente la luminosité ambiante et supprime ce contraste. Elle améliore aussi la perception de l'image en donnant à vos yeux une référence neutre pour le noir. Utilisez une lumière chaude, faible et stable plutôt qu'une lumière qui change de couleur, ce qui irait à l'encontre du but recherché. Cela améliore le confort, pas la performance, et coûte à peu près le prix d'un jeu.",
+      "pros": [
+        "Une fatigue oculaire nettement réduite la nuit",
+        "Améliore le contraste perçu",
+        "Coûte à peu près le prix d'un jeu"
+      ],
+      "cons": [
+        "Aucun effet sur la performance",
+        "Les modes à changement de couleur vont à l'encontre du but recherché"
+      ]
+    },
+    {
+      "name": "Un repose-poignets",
+      "tag": "Pas très excitant, mais vos poignets vous remercieront",
+      "body": "Les claviers mécaniques sont hauts, et un clavier haut force vos poignets à se plier vers le haut pendant toutes vos heures de jeu. Sur plusieurs mois, cette extension présente un risque réel de troubles musculosquelettiques, et c'est le genre de problème qu'il est beaucoup plus facile de prévenir que de guérir. Un repose-poignets adapté à la hauteur de votre clavier maintient le poignet dans une position plus neutre. Choisissez-le en fonction de la hauteur plutôt que de la souplesse : un support trop bas ou trop haut ne fait que déplacer l'angle au lieu de le supprimer. La mousse à mémoire de forme est confortable mais se tasse en un an ou deux ; les matériaux plus fermes durent plus longtemps.",
+      "pros": [
+        "Réduit un risque réel de troubles musculosquelettiques",
+        "Peu cher et ne demande aucun changement d'habitude",
+        "S'associe naturellement avec un clavier mécanique"
+      ],
+      "cons": [
+        "Une mauvaise hauteur déplace le problème au lieu de le résoudre",
+        "La mousse se tasse avec le temps"
+      ]
+    },
+    {
+      "name": "Plus de RAM, jusqu'à 32 Go",
+      "tag": "Seulement si vous en manquez vraiment",
+      "body": "Cet article est sur la liste, mais sous condition. Si vous avez 16 Go et que vous jouez avec un navigateur ouvert sur trente onglets, un client de chat et un stream, vous atteignez probablement la limite, et les saccades que vous imputez à votre carte graphique sont en fait dues à la pression sur la mémoire. Passer à 32 Go résout complètement ce problème. Si vous avez 16 Go et que vous fermez tout avant de jouer, plus de RAM ne servira quasiment à rien et votre argent sera mieux dépensé ailleurs. Vérifiez d'abord votre utilisation réelle en jeu : le gestionnaire des tâches répond à cette question en dix secondes et vous évitera d'acheter une solution à un problème que vous n'avez pas.",
+      "pros": [
+        "Supprime les saccades causées par la pression sur la mémoire",
+        "Peu cher par rapport à une carte graphique",
+        "Utile si vous streamez ou faites plusieurs choses en même temps en jouant"
+      ],
+      "cons": [
+        "Ne sert à rien si vous n'en manquez pas vraiment",
+        "Doit correspondre au type de mémoire de votre carte mère"
+      ]
+    },
+    {
+      "name": "Une nouvelle carte graphique",
+      "tag": "En dernier, et seulement après le reste",
+      "body": "La carte graphique est l'amélioration à laquelle tout le monde pense en premier, et pourtant elle est à la dernière place ici, car c'est de loin le moyen le plus cher de voir une différence, et souvent, ce n'est pas elle qui vous freine. Avant de dépenser, vérifiez ce qui vous limite réellement : si votre processeur est à pleine charge alors que la carte ne l'est pas, une nouvelle carte ne changera rien. Si vous jouez en 1080p sur un écran 60 Hz, une carte plus rapide produit des images que votre écran ne peut pas afficher. Achetez d'abord l'écran, confirmez que la carte est bien le goulot d'étranglement, puis achetez la carte. Dans cet ordre, votre argent sera bien mieux utilisé.",
+      "pros": [
+        "Le seul moyen d'accéder à des paramètres graphiques vraiment plus élevés",
+        "Conserve assez bien sa valeur à la revente",
+        "Permet de vraiment profiter des résolutions plus élevées"
+      ],
+      "cons": [
+        "De loin la différence la plus chère que vous puissiez acheter",
+        "Inutile si votre processeur ou votre écran est la vraie limite"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Un taux de rafraîchissement supérieur à 144 Hz en vaut-il la peine ?",
+      "a": "Pour la plupart des gens, non. Passer de 60 à 144 Hz est une transformation radicale ; de 144 à 240 Hz, c'est une amélioration modeste que la plupart des joueurs ne peuvent pas identifier de manière fiable dans un test à l'aveugle. Au-delà, c'est pour les joueurs de compétition qui ont les réflexes et le nombre d'images par seconde nécessaires pour en profiter."
+    },
+    {
+      "q": "Une souris de gaming chère rend-elle meilleur ?",
+      "a": "Le poids et la forme affectent réellement le confort et la régularité, donc une souris adaptée à votre main est utile. Le chiffre des DPI, non : tous les capteurs actuels dépassent ce qu'une main humaine peut exploiter."
+    },
+    {
+      "q": "Filaire ou sans-fil pour le jeu compétitif ?",
+      "a": "Un bon sans-fil est aujourd'hui quasiment sans latence, et la différence n'est plus un véritable argument. Le filaire reste moins cher, plus léger et n'a jamais besoin d'être rechargé, c'est pourquoi de nombreux joueurs de compétition continuent de l'utiliser."
+    },
+    {
+      "q": "Que dois-je améliorer en premier avec un budget serré ?",
+      "a": "Un SSD si vous utilisez encore un disque dur, puis un écran 144 Hz, puis un tapis de bureau. Cet ordre vous apportera le changement le plus notable par euro dépensé, et rien de tout cela ne nécessite de toucher à la carte graphique."
+    }
+  ]
+}
