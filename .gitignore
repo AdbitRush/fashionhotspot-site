@@ -1,1 +1,4 @@
 .env.ftp
+
+# any variant, so a stray .bak can never be committed
+.env.ftp*
