@@ -1,29 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en" dir="ltr" id="root-html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>About Us — fashionhotspot</title>
+<meta name="description" content="About Us — fashionhotspot, curated Amazon &amp; AliExpress deals.">
+<link rel="canonical" href="https://fashionhotspot.site/about.html">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="About Us — fashionhotspot">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fashionhotspot.site/about.html">
+<link rel="alternate" hreflang="he" href="https://fashionhotspot.site/about.html?lang=he">
+<link rel="alternate" hreflang="en" href="https://fashionhotspot.site/about.html?lang=en">
+<link rel="alternate" hreflang="es" href="https://fashionhotspot.site/about.html?lang=es">
+<link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/about.html?lang=fr">
+<link rel="alternate" hreflang="de" href="https://fashionhotspot.site/about.html?lang=de">
+<link rel="alternate" hreflang="el" href="https://fashionhotspot.site/about.html?lang=el">
+<link rel="alternate" hreflang="x-default" href="https://fashionhotspot.site/about.html">
+<link rel="icon" href="/icon-192.png" type="image/png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#FF5D5D">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Inter',sans-serif;background:#FFF6EE;color:#3A2A2C;line-height:1.7}.wrap{max-width:820px;margin:0 auto;padding:40px 24px}h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:36px;font-weight:800;color:#3A2230;margin-bottom:20px}h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;font-weight:700;color:#3A2230;margin:32px 0 10px}p,li{margin-bottom:14px;color:#5A3A4A}ul{padding-left:22px}a{color:#FF5D5D}nav{background:rgba(255,246,238,.95);border-bottom:1px solid #F2E2D4;padding:14px 24px;display:flex;align-items:center;gap:14px}.logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:18px;color:#3A2230;text-decoration:none}.logo span{color:#FF5D5D}.nav-links{display:flex;gap:16px;margin-left:auto}.nav-links a{font-size:13px;font-weight:600;color:#7A4A2E;text-decoration:none}footer{text-align:center;padding:28px;color:#A98D7E;font-size:13px;border-top:1px solid #F2E2D4;margin-top:60px}</style>
-</head><body>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;background:#FFF6EE;color:#3A2A2C;line-height:1.7}
+.wrap{max-width:820px;margin:0 auto;padding:40px 24px 20px}
+h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:36px;font-weight:800;color:#3A2230;margin-bottom:20px}
+h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;font-weight:700;color:#3A2230;margin:32px 0 10px}
+p{margin-bottom:14px;color:#5A3A4A}
+a{color:#FF5D5D}
+nav{background:rgba(255,246,238,.97);border-bottom:1px solid #F2E2D4;padding:14px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:18px;color:#3A2230;text-decoration:none}
+.logo span{color:#FF5D5D}
+.nav-links{display:flex;gap:16px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.nav-links a{font-size:13px;font-weight:600;color:#7A4A2E;text-decoration:none}
+.lang-sel{height:32px;padding:0 8px;background:#fff;border:1.5px solid #F2E2D4;border-radius:9px;
+  font-size:13px;font-weight:600;color:#5A3A4A;cursor:pointer;font-family:inherit}
+footer{text-align:center;padding:28px;color:#A98D7E;font-size:13px;border-top:1px solid #F2E2D4;margin-top:50px}
+html[dir="rtl"] .wrap,html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] p{text-align:right}
+@media(max-width:640px){h1{font-size:28px}.wrap{padding:28px 18px 16px}}
+</style>
+</head>
+<body>
 <nav>
-  <a href="index.html" class="logo">fashion<span>hotspot</span></a>
+  <a href="index.html" class="logo lang-link">fashion<span>hotspot</span></a>
   <div class="nav-links">
-    <a href="index.html">Deals</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
+    <a href="index.html"   class="lang-link" data-nav="deals">Deals</a>
+    <a href="about.html"   class="lang-link" data-nav="about">About</a>
+    <a href="contact.html" class="lang-link" data-nav="contact">Contact</a>
+    <a href="privacy.html" class="lang-link" data-nav="privacy">Privacy</a>
+    <select class="lang-sel" id="lang-sel" aria-label="Language" onchange="setLang(this.value)">
+      <option value="he">🇮🇱 עברית</option><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option><option value="el">🇬🇷 Ελληνικά</option>
+    </select>
   </div>
 </nav>
-<div class="wrap">
-<h1>About fashionhotspot</h1>
-<p>fashionhotspot is a curated deals discovery platform for shoppers worldwide. We scan hundreds of deal sources daily to surface the best discounts from Amazon, AliExpress, and more.</p>
+<div class="wrap"><h1 id="pg-h">About fashionhotspot</h1><div id="pg-b">
+<p>fashionhotspot is a curated deals-discovery site. We scan hundreds of deal sources every day and publish only the discounts that are genuinely worth your attention — from Amazon, AliExpress, and selected Israeli retailers.</p>
 <h2>Our Mission</h2>
-<p>We believe everyone deserves to shop smart. Our team monitors prices around the clock — when a deal is genuinely good, you'll find it here first.</p>
+<p>We believe everyone deserves to shop smart. Our system monitors prices around the clock. When a price genuinely drops, it shows up here — and when a "discount" is really just a marked-up list price, it doesn't.</p>
+<h2>How We Choose Deals</h2>
+<p>Every listing is checked for a real, current price and a working product image before it is published. Items whose price cannot be verified are dropped rather than shown with a guessed number.</p>
 <h2>Amazon Prime Days</h2>
-<p>We publish dedicated coverage of Amazon Prime Days — the biggest shopping event of the year — with real-time deal tracking and category highlights.</p>
+<p>We publish dedicated coverage of Amazon Prime Day events with live deal tracking and category highlights.</p>
 <h2>Affiliate Disclosure</h2>
-<p>As an Amazon Associate and AliExpress affiliate partner, we earn from qualifying purchases. This keeps the site free and allows us to keep finding great deals for you.</p>
-</div>
-<footer>fashionhotspot 🛍️ &nbsp;·&nbsp; As an Amazon Associate I earn from qualifying purchases.</footer>
-</body></html>
+<p>fashionhotspot is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon. As an Amazon Associate we earn from qualifying purchases. We are also an AliExpress affiliate partner. This costs you nothing extra and is what keeps the site free.</p>
+<h2>Contact</h2>
+<p><a href="mailto:contact@fashionhotspot.com">contact@fashionhotspot.com</a></p></div></div>
+<footer>fashionhotspot 🛍️ &nbsp;·&nbsp; <span id="f-disc">As an Amazon Associate I earn from qualifying purchases.</span></footer>
+
+<script>
+const PAGE = {"en":{"t":"About Us","h":"About fashionhotspot","b":"\n<p>fashionhotspot is a curated deals-discovery site. We scan hundreds of deal sources every day and publish only the discounts that are genuinely worth your attention — from Amazon, AliExpress, and selected Israeli retailers.</p>\n<h2>Our Mission</h2>\n<p>We believe everyone deserves to shop smart. Our system monitors prices around the clock. When a price genuinely drops, it shows up here — and when a \"discount\" is really just a marked-up list price, it doesn't.</p>\n<h2>How We Choose Deals</h2>\n<p>Every listing is checked for a real, current price and a working product image before it is published. Items whose price cannot be verified are dropped rather than shown with a guessed number.</p>\n<h2>Amazon Prime Days</h2>\n<p>We publish dedicated coverage of Amazon Prime Day events with live deal tracking and category highlights.</p>\n<h2>Affiliate Disclosure</h2>\n<p>fashionhotspot is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon. As an Amazon Associate we earn from qualifying purchases. We are also an AliExpress affiliate partner. This costs you nothing extra and is what keeps the site free.</p>\n<h2>Contact</h2>\n<p><a href=\"mailto:contact@fashionhotspot.com\">contact@fashionhotspot.com</a></p>"},"he":{"t":"אודות","h":"אודות fashionhotspot","b":"\n<p>fashionhotspot היא פלטפורמת גילוי דילים. אנחנו סורקים מאות מקורות מדי יום ומפרסמים רק את ההנחות שבאמת שוות תשומת לב — מ-Amazon, מ-AliExpress ומקמעונאים ישראליים נבחרים.</p>\n<h2>המשימה שלנו</h2>\n<p>אנחנו מאמינים שמגיע לכולם לקנות חכם. המערכת שלנו עוקבת אחרי מחירים מסביב לשעון. כשמחיר באמת יורד — הוא מופיע כאן; וכש\"הנחה\" היא רק מחירון מנופח, היא לא.</p>\n<h2>איך אנחנו בוחרים דילים</h2>\n<p>כל מוצר נבדק שיש לו מחיר אמיתי ועדכני ותמונה תקינה לפני הפרסום. פריטים שלא ניתן לאמת את מחירם — נופלים, ולא מוצגים עם מספר מנוחש.</p>\n<h2>ימי Prime של אמזון</h2>\n<p>אנחנו מפרסמים סיקור ייעודי לאירועי Prime Day עם מעקב דילים חי והדגשים לפי קטגוריה.</p>\n<h2>גילוי נאות</h2>\n<p>fashionhotspot משתתפת בתוכנית השותפים של Amazon Services LLC — תוכנית פרסום שותפים המאפשרת לאתרים להרוויח דמי פרסום באמצעות קישור ל-Amazon. כשותף של Amazon אנחנו מרוויחים עמלה מרכישות מזכות. אנחנו גם שותפים של AliExpress. אין בכך עלות נוספת עבורכם, וזה מה שמאפשר לאתר להישאר חינמי.</p>\n<h2>יצירת קשר</h2>\n<p><a href=\"mailto:contact@fashionhotspot.com\">contact@fashionhotspot.com</a></p>"},"es":{"t":"Acerca de","h":"Acerca de fashionhotspot","b":"\n<p>fashionhotspot es un sitio de descubrimiento de ofertas. Revisamos cientos de fuentes cada día y publicamos solo los descuentos que realmente merecen tu atención: de Amazon, AliExpress y comercios israelíes seleccionados.</p>\n<h2>Nuestra misión</h2>\n<p>Creemos que todos merecen comprar de forma inteligente. Nuestro sistema vigila los precios a todas horas. Cuando un precio baja de verdad, aparece aquí; cuando un \"descuento\" es solo un precio de lista inflado, no.</p>\n<h2>Cómo elegimos las ofertas</h2>\n<p>Cada anuncio se comprueba para confirmar que tiene un precio real y actual y una imagen válida antes de publicarse.</p>\n<h2>Amazon Prime Days</h2>\n<p>Publicamos cobertura dedicada de los eventos Prime Day con seguimiento de ofertas en vivo.</p>\n<h2>Divulgación de afiliados</h2>\n<p>fashionhotspot participa en el Programa de Afiliados de Amazon Services LLC, un programa de publicidad que permite a los sitios ganar comisiones enlazando a Amazon. Como Afiliado de Amazon, ganamos por las compras que califican. También somos socios afiliados de AliExpress. Esto no te cuesta nada extra y es lo que mantiene el sitio gratuito.</p>\n<h2>Contacto</h2>\n<p><a href=\"mailto:contact@fashionhotspot.com\">contact@fashionhotspot.com</a></p>"},"fr":{"t":"À propos","h":"À propos de fashionhotspot","b":"\n<p>fashionhotspot est un site de découverte de bons plans. Nous passons au crible des centaines de sources chaque jour et ne publions que les réductions qui méritent vraiment votre attention : Amazon, AliExpress et une sélection de commerçants israéliens.</p>\n<h2>Notre mission</h2>\n<p>Nous pensons que chacun mérite d'acheter intelligemment. Notre système surveille les prix 24h/24. Quand un prix baisse réellement, il apparaît ici ; quand une « remise » n'est qu'un prix gonflé, non.</p>\n<h2>Comment nous choisissons les offres</h2>\n<p>Chaque annonce est vérifiée — prix réel et actuel, image fonctionnelle — avant publication.</p>\n<h2>Amazon Prime Days</h2>\n<p>Nous publions une couverture dédiée des Prime Day avec un suivi des offres en direct.</p>\n<h2>Divulgation d'affiliation</h2>\n<p>fashionhotspot participe au Programme Partenaires d'Amazon Services LLC, un programme d'affiliation permettant aux sites de percevoir une rémunération grâce aux liens vers Amazon. En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises. Nous sommes également partenaire affilié AliExpress. Cela ne vous coûte rien de plus et permet au site de rester gratuit.</p>\n<h2>Contact</h2>\n<p><a href=\"mailto:contact@fashionhotspot.com\">contact@fashionhotspot.com</a></p>"},"de":{"t":"Über uns","h":"Über fashionhotspot","b":"\n<p>fashionhotspot ist eine kuratierte Deal-Plattform. Wir durchsuchen täglich Hunderte Quellen und veröffentlichen nur die Rabatte, die wirklich Aufmerksamkeit verdienen — von Amazon, AliExpress und ausgewählten israelischen Händlern.</p>\n<h2>Unsere Mission</h2>\n<p>Wir glauben, jeder verdient es, klug einzukaufen. Unser System überwacht Preise rund um die Uhr. Wenn ein Preis wirklich fällt, erscheint er hier; wenn ein „Rabatt\" nur ein aufgeblähter Listenpreis ist, nicht.</p>\n<h2>Wie wir Deals auswählen</h2>\n<p>Jeder Eintrag wird vor der Veröffentlichung auf einen echten, aktuellen Preis und ein funktionierendes Produktbild geprüft.</p>\n<h2>Amazon Prime Days</h2>\n<p>Wir veröffentlichen eigene Berichterstattung zu Prime-Day-Events mit Live-Deal-Tracking.</p>\n<h2>Affiliate-Hinweis</h2>\n<p>fashionhotspot ist Teilnehmer des Amazon Services LLC Partnerprogramms, eines Affiliate-Werbeprogramms, das Websites ermöglicht, durch Verlinkung zu Amazon Werbekostenerstattung zu verdienen. Als Amazon-Partner verdienen wir an qualifizierten Käufen. Wir sind außerdem AliExpress-Affiliate-Partner. Für dich entstehen keine Mehrkosten — so bleibt die Seite kostenlos.</p>\n<h2>Kontakt</h2>\n<p><a href=\"mailto:contact@fashionhotspot.com\">contact@fashionhotspot.com</a></p>"},"el":{"t":"Σχετικά","h":"Σχετικά με το fashionhotspot","b":"\n<p>Το fashionhotspot είναι μια πλατφόρμα ανακάλυψης προσφορών. Σαρώνουμε εκατοντάδες πηγές κάθε μέρα και δημοσιεύουμε μόνο τις εκπτώσεις που πραγματικά αξίζουν την προσοχή σας — από Amazon, AliExpress και επιλεγμένους ισραηλινούς λιανοπωλητές.</p>\n<h2>Η αποστολή μας</h2>\n<p>Πιστεύουμε ότι όλοι αξίζουν να ψωνίζουν έξυπνα. Το σύστημά μας παρακολουθεί τιμές όλο το 24ωρο. Όταν μια τιμή πέφτει πραγματικά, εμφανίζεται εδώ· όταν μια «έκπτωση» είναι απλώς φουσκωμένη τιμή καταλόγου, όχι.</p>\n<h2>Πώς επιλέγουμε προσφορές</h2>\n<p>Κάθε καταχώριση ελέγχεται για πραγματική, τρέχουσα τιμή και έγκυρη εικόνα πριν δημοσιευτεί.</p>\n<h2>Amazon Prime Days</h2>\n<p>Δημοσιεύουμε ειδική κάλυψη των εκδηλώσεων Prime Day με ζωντανή παρακολούθηση προσφορών.</p>\n<h2>Γνωστοποίηση συνεργασίας</h2>\n<p>Το fashionhotspot συμμετέχει στο Πρόγραμμα Συνεργατών της Amazon Services LLC, ένα πρόγραμμα διαφήμισης που επιτρέπει σε ιστότοπους να κερδίζουν αμοιβές συνδέοντας στην Amazon. Ως συνεργάτης της Amazon κερδίζουμε από επιλέξιμες αγορές. Είμαστε επίσης συνεργάτες του AliExpress. Δεν σας κοστίζει τίποτα επιπλέον και έτσι ο ιστότοπος παραμένει δωρεάν.</p>\n<h2>Επικοινωνία</h2>\n<p><a href=\"mailto:contact@fashionhotspot.com\">contact@fashionhotspot.com</a></p>"}};
+const NAV  = {"en":{"deals":"Deals","about":"About","contact":"Contact","privacy":"Privacy","disc":"As an Amazon Associate I earn from qualifying purchases."},"he":{"deals":"דילים","about":"אודות","contact":"צור קשר","privacy":"פרטיות","disc":"כשותף של Amazon אני מרוויח עמלה מרכישות מזכות."},"es":{"deals":"Ofertas","about":"Acerca de","contact":"Contacto","privacy":"Privacidad","disc":"Como Afiliado de Amazon, gano por las compras que califican."},"fr":{"deals":"Offres","about":"À propos","contact":"Contact","privacy":"Confidentialité","disc":"En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."},"de":{"deals":"Deals","about":"Über uns","contact":"Kontakt","privacy":"Datenschutz","disc":"Als Amazon-Partner verdiene ich an qualifizierten Käufen."},"el":{"deals":"Προσφορές","about":"Σχετικά","contact":"Επικοινωνία","privacy":"Απόρρητο","disc":"Ως συνεργάτης της Amazon κερδίζω από επιλέξιμες αγορές."}};
+const SUPPORTED = ["he","en","es","fr","de","el"];
+const RTL_LANGS = ["he"];
+
+function detectLang() {
+  try {
+    const qp = new URLSearchParams(location.search).get('lang');
+    if (qp && SUPPORTED.indexOf(qp) >= 0) return qp;
+    const saved = localStorage.getItem('fhs_lang');
+    if (saved && SUPPORTED.indexOf(saved) >= 0) return saved;
+    const navs = navigator.languages || [navigator.language || 'en'];
+    for (var i = 0; i < navs.length; i++) {
+      const two = String(navs[i]).slice(0, 2).toLowerCase();
+      if (SUPPORTED.indexOf(two) >= 0) return two;
+    }
+  } catch (_) {}
+  return 'en';
+}
+let LANG = detectLang();
+
+function applyLang() {
+  const rtl = RTL_LANGS.indexOf(LANG) >= 0;
+  const root = document.getElementById('root-html');
+  root.setAttribute('lang', LANG);
+  root.setAttribute('dir', rtl ? 'rtl' : 'ltr');
+  const d = PAGE[LANG] || PAGE.en, n = NAV[LANG] || NAV.en;
+  document.title = d.t + ' — fashionhotspot';
+  document.getElementById('pg-h').textContent = d.h;
+  document.getElementById('pg-b').innerHTML = d.b;
+  document.getElementById('f-disc').textContent = n.disc;
+  document.querySelectorAll('[data-nav]').forEach(function (a) {
+    a.textContent = n[a.getAttribute('data-nav')];
+  });
+  // Carry the language across every internal link.
+  document.querySelectorAll('a.lang-link').forEach(function (a) {
+    a.setAttribute('href', a.getAttribute('href').split('?')[0] + '?lang=' + LANG);
+  });
+  document.getElementById('lang-sel').value = LANG;
+}
+function setLang(l) {
+  if (SUPPORTED.indexOf(l) < 0) return;
+  LANG = l;
+  try { localStorage.setItem('fhs_lang', l); } catch (_) {}
+  applyLang();
+}
+applyLang();
+</script>
+</body>
+</html>
