@@ -1,0 +1,204 @@
+{
+  "slug": "air",
+  "category": "Air quality",
+  "title": "Air Purifiers, Humidifiers, and Which Numbers Mean Anything",
+  "dek": "Many devices claim to clean the air, but few actually help with common indoor pollutants. Understanding the numbers separates the useful from the wishful.",
+  "hero_image": "A modern living room with a sleek air purifier running quietly in the corner, a small humidifier on a side table, and a compact air quality monitor displaying numbers on a shelf. The room is tidy and well-lit.",
+  "updated": "2026-08-12",
+  "read_minutes": 6,
+  "intro": [
+    "Indoor air quality is a complicated topic. You cannot see most of the particles, gases, or humidity levels that affect it. This makes it easy for marketers to sell you things that do little. Many products promise cleaner air but lack the fundamental technology or power to make a real difference in a typical home setting. Be sceptical of vague claims and focus on measurable improvements.",
+    "The most useful devices address specific problems. Air purifiers with HEPA filters remove particles like dust, pollen, and pet dander. Humidifiers add moisture to overly dry air, which can help with comfort. Dehumidifiers remove excess moisture, critical for preventing mold. Air quality monitors give you data, so you know what you are actually dealing with before you buy anything."
+  ],
+  "how_we_pick": "We select products based on their underlying technology, established efficacy, and widely available performance data. We prioritize devices that address common indoor air quality issues with proven methods. This guide is built on public knowledge and engineering principles, not hands-on product reviews. We have not tested these products ourselves, nor do we claim to have done so. We focus on what is known about how these categories work.",
+  "products": [
+    {
+      "name": "Coway Airmega 200M",
+      "tag": "Your first air purifier",
+      "price": "$180-250",
+      "search": "Coway Airmega 200M air purifier",
+      "image": "White rectangular air purifier with a minimalist display panel on a light wooden floor, next to a power outlet.",
+      "body": "This purifier is a solid choice for most rooms up to about 360 square feet. It uses a true HEPA filter to capture 99.97% of particles 0.3 microns or larger. This includes pollen, dust, and pet dander. It also has an activated carbon filter for odors. The fan has multiple speeds, with the lowest setting being very quiet. It will not solve every air problem, but it effectively handles airborne particles, which is the primary concern for most people. Look for its CADR rating to understand its actual particle cleaning speed.",
+      "pros": [
+        "Effective at removing common particles",
+        "Quiet at lower fan settings",
+        "Filters last a long time"
+      ],
+      "cons": [
+        "Replacement filters are proprietary and costly",
+        "Takes up noticeable floor space"
+      ]
+    },
+    {
+      "name": "Levoit Core 300S",
+      "tag": "Good air, less money",
+      "price": "$90-120",
+      "search": "Levoit Core 300S air purifier",
+      "image": "Small white cylindrical air purifier with a top control panel on a bedside table, next to a lamp.",
+      "body": "For smaller rooms or if you need multiple purifiers, the Levoit Core 300S is a more budget-friendly option. It also uses a true HEPA filter and an activated carbon layer, targeting particles and some odors. Its smaller size means a lower CADR rating, so it is best suited for bedrooms or small offices, around 219 square feet. It is quieter than larger units and its compact footprint makes it easier to place. This is a practical choice if the Coway is too large or too expensive for your needs, but do not expect it to clean a large open-plan living area effectively.",
+      "pros": [
+        "Compact and easy to place",
+        "Filters are relatively affordable",
+        "Quiet for its size"
+      ],
+      "cons": [
+        "Lower CADR rating, less effective in larger rooms",
+        "Limited odor removal compared to specialized units"
+      ]
+    },
+    {
+      "name": "Temtop M10",
+      "tag": "See what you breathe",
+      "price": "$60-90",
+      "search": "Temtop M10 air quality monitor",
+      "image": "Small handheld black device with a clear digital display showing several numbers, resting on a clean white surface.",
+      "body": "An air quality monitor gives you data, which is more useful than guessing. The Temtop M10 measures PM2.5 (fine particulate matter) and VOCs (volatile organic compounds). It is a portable device, useful for checking different rooms or identifying sources of pollution. While its VOC readings are often indicative rather than lab-precise, they can show you trends or spikes, such as after cooking or using cleaning products. Knowing your PM2.5 levels helps you understand if your air purifier is doing its job or if outside air is affecting you. It is a tool for understanding, not a solution itself.",
+      "pros": [
+        "Measures PM2.5 and VOCs",
+        "Portable and easy to use",
+        "Provides actionable data"
+      ],
+      "cons": [
+        "VOC sensor is for trends, not precise measurement",
+        "Needs regular charging for continuous use"
+      ]
+    },
+    {
+      "name": "Airthings View Plus",
+      "tag": "Know your whole home",
+      "price": "$250-300",
+      "search": "Airthings View Plus air quality monitor",
+      "image": "White square air quality monitor with a fabric-like front, mounted flat on a light grey wall.",
+      "body": "For comprehensive, continuous monitoring, the Airthings View Plus tracks multiple pollutants beyond just PM2.5 and VOCs. It includes carbon dioxide (CO2), humidity, temperature, and crucially, radon. Radon is a naturally occurring radioactive gas that can accumulate in homes and is a serious health risk. Unlike a spot-check device, this monitor provides ongoing data, allowing you to see patterns and long-term averages. It connects to an app for historical data and alerts. The radon sensor needs time to establish an accurate baseline, often weeks, so patience is required. It is an investment in understanding your home's air profile.",
+      "pros": [
+        "Tracks multiple pollutants, including radon and CO2",
+        "Provides continuous data and alerts",
+        "Long battery life for a smart device"
+      ],
+      "cons": [
+        "High initial cost compared to basic monitors",
+        "Radon readings require long-term averaging for accuracy"
+      ]
+    },
+    {
+      "name": "Honeywell HCM-350 Cool Mist Humidifier",
+      "tag": "Combat dry winter air",
+      "price": "$60-90",
+      "search": "Honeywell HCM-350 humidifier",
+      "image": "White rectangular humidifier with a clear blue water tank visible on a dark wooden dresser.",
+      "body": "When the air is too dry, particularly in winter, a humidifier can add comfort. The Honeywell HCM-350 is an evaporative humidifier, which is generally preferred over ultrasonic models. Evaporative humidifiers use a wicking filter to absorb water and a fan to blow air through it, adding invisible moisture to the air. This process traps minerals in the filter, reducing the 'white dust' that ultrasonic models often produce. It is also less likely to over-humidify a room. Regular cleaning and filter replacement are essential to prevent mold and bacteria growth in the water reservoir and wick.",
+      "pros": [
+        "Reduces 'white dust' compared to ultrasonic models",
+        "Less likely to over-humidify",
+        "Relatively quiet operation"
+      ],
+      "cons": [
+        "Requires regular filter replacement",
+        "Needs frequent cleaning to prevent mold"
+      ]
+    },
+    {
+      "name": "Midea MAD20C1ZWS Dehumidifier",
+      "tag": "Remove dampness and mold",
+      "price": "$180-220",
+      "search": "Midea Cube dehumidifier",
+      "image": "Compact white cube-shaped dehumidifier with a top handle, sitting on a grey concrete basement floor.",
+      "body": "Excess humidity can lead to mold, mildew, and a general feeling of dampness, especially in basements or humid climates. A dehumidifier actively removes moisture from the air. The Midea Cube series is known for its efficient performance and relatively quiet operation for its capacity. Its unique design allows it to be more compact when not in use. It can either collect water in a removable bucket or drain continuously via a hose, which is essential if you need it to run for extended periods without attention. This device is for moisture control, not air purification, though it can indirectly reduce mold spores.",
+      "pros": [
+        "Efficiently removes excess moisture",
+        "Can drain continuously via hose",
+        "Relatively quiet for its capacity"
+      ],
+      "cons": [
+        "Uses significant electricity",
+        "Bucket still needs emptying if continuous drain is not used"
+      ]
+    },
+    {
+      "name": "Rabbit Air MinusA2",
+      "tag": "For smells and chemicals",
+      "price": "$400-500",
+      "search": "Rabbit Air MinusA2 air purifier",
+      "image": "Slim, wall-mountable white air purifier with a customizable front panel design, affixed to a light blue wall.",
+      "body": "While most purifiers focus on particles, some excel at odors and volatile organic compounds (VOCs) through advanced activated carbon filtration. The Rabbit Air MinusA2 has a multi-stage filtration system that includes a substantial activated carbon filter. This is important for dealing with cooking smells, pet odors, or chemical off-gassing from new furniture or paint. It is a more expensive unit, but its design allows it to be wall-mounted, saving floor space. It is overkill if you only care about dust, but a strong contender if odors are your primary concern. Filter changes can be more involved than with simpler units.",
+      "pros": [
+        "Excellent at removing odors and VOCs",
+        "Wall-mountable design saves space",
+        "Quiet operation for its capability"
+      ],
+      "cons": [
+        "Significantly more expensive than basic purifiers",
+        "Filter replacement can be a multi-step process"
+      ]
+    },
+    {
+      "name": "Filtrete MPR 1900 Healthy Living Air Filter",
+      "tag": "Better central air filtration",
+      "price": "$15-30",
+      "search": "Filtrete MPR 1900 air filter HVAC",
+      "image": "Cardboard-framed air filter with a fine mesh, leaning against a white air vent grill on a wall.",
+      "body": "Upgrading your HVAC system's air filter can improve overall home air quality. Filters are rated by MERV (Minimum Efficiency Reporting Value) or MPR (Microparticle Performance Rating for Filtrete). An MPR 1900 filter, equivalent to a MERV 13, captures smaller particles like pollen, pet dander, and some bacteria. However, a higher MERV rating means more resistance to airflow. Before installing a high MERV filter, check your HVAC system's manual or consult an HVAC professional. An old or weak system might struggle with a very restrictive filter, potentially causing damage or reducing system efficiency. Replace these filters more frequently than standard ones.",
+      "pros": [
+        "Captures very small airborne particles",
+        "Improves central air quality passively",
+        "Relatively inexpensive upgrade"
+      ],
+      "cons": [
+        "Can restrict airflow in older HVAC systems",
+        "Requires more frequent replacement than lower MERV filters"
+      ]
+    },
+    {
+      "name": "Blueair DustMagnet 5210i",
+      "tag": "Clean air for one person",
+      "price": "$250-300",
+      "search": "Blueair DustMagnet 5210i",
+      "image": "Small, stylish air purifier with a wood-grain top and white fabric sides, resembling a compact side table, on a light rug.",
+      "body": "A personal air purifier is not a substitute for a whole-room unit, but it can be useful in very specific situations, like on a desk or next to a bed. The Blueair DustMagnet 5210i is designed to look like furniture, which helps it blend in. It uses a combination of electrostatic charging and mechanical filtration to capture dust and other particles directly out of the air. It is quiet at low settings and effective for a small, localized area, such as your immediate breathing zone. However, its coverage is limited, and it carries a premium price for its design and features.",
+      "pros": [
+        "Stylish design that blends into decor",
+        "Quiet and effective for personal spaces",
+        "Captures dust well"
+      ],
+      "cons": [
+        "Limited coverage area for the price",
+        "Filters are proprietary and can be expensive"
+      ]
+    },
+    {
+      "name": "Monios-L T8 LED Grow Light",
+      "tag": "Not a purifier, but helps",
+      "price": "$20-40",
+      "search": "Monios-L T8 LED grow light",
+      "image": "Two long LED light strips mounted vertically behind a small potted Ficus plant on a windowsill.",
+      "body": "This is not an air quality device in the traditional sense, but indoor plants can improve the aesthetics and mood of a space. Many people believe plants are effective air purifiers, often referencing old NASA studies. While plants do absorb some CO2 and produce oxygen, the actual air-purifying effect of a few house plants in a typical home is negligible for common pollutants like VOCs or particulate matter. You would need a dense jungle indoors to make a measurable difference. A grow light, like the Monios-L T8 LED, helps keep plants healthy indoors, especially during darker months, allowing you to enjoy their presence without unrealistic expectations of air purification.",
+      "pros": [
+        "Promotes healthy indoor plant growth",
+        "Provides pleasant, warm light",
+        "Low power consumption"
+      ],
+      "cons": [
+        "Provides negligible direct air purification benefits",
+        "Requires strategic placement for plant benefit"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What do CADR, MERV, and PM2.5 numbers mean?",
+      "a": "CADR, or Clean Air Delivery Rate, tells you how quickly an air purifier cleans a room of specific particles (pollen, dust, smoke). Higher numbers mean faster cleaning. MERV, Minimum Efficiency Reporting Value, applies to HVAC filters; higher MERV means the filter traps smaller particles, but can also restrict airflow. PM2.5 refers to particulate matter 2.5 micrometers in diameter or smaller. These are fine particles that can easily enter lungs. Air quality monitors track PM2.5 levels, giving you data on airborne particle pollution in your space."
+    },
+    {
+      "q": "Are 'ionic' or 'ozone' air purifiers effective?",
+      "a": "Generally, no. Be very wary of products that claim to 'ionize' or 'ozonate' the air. Ozone is a lung irritant at levels high enough to clean air effectively. Manufacturers often market these devices with vague claims, but they often produce ozone as a byproduct. While some ionic purifiers can reduce particles, they are typically less effective than HEPA filters and can come with health risks from ozone. For safe and effective particle removal, stick to true HEPA filtration."
+    },
+    {
+      "q": "How often should I change filters?",
+      "a": "It depends on the device, air quality, and usage. For air purifiers, HEPA filters typically last 6-12 months, and carbon pre-filters every 3-6 months. Humidifier wicks need changing every 1-3 months, as they trap minerals and can grow mold. HVAC filters (like MERV 8-13) usually need replacement every 1-3 months. Neglecting filter changes reduces efficiency, can circulate pollutants, or even damage the device. Always check the manufacturer's recommendations and factor filter costs into your budget."
+    },
+    {
+      "q": "Can plants clean my indoor air?",
+      "a": "While plants do absorb carbon dioxide and release oxygen, their ability to clean indoor air of pollutants like volatile organic compounds (VOCs) is very limited in a typical home environment. Research, including some NASA studies, showed plants could remove certain chemicals in sealed chambers. However, the scale of that effect does not translate to a normal room with air circulation. You would need hundreds of plants in a single room to see a measurable reduction in common indoor air pollutants. Buy plants for aesthetics and enjoyment, not as a primary air purification solution."
+    }
+  ]
+}

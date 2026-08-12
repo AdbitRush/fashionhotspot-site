@@ -1,0 +1,171 @@
+{
+  "slug": "audio",
+  "title": "Auriculares, cascos y la especificación que realmente importa",
+  "dek": "Comprar equipo de audio implica cribar mucho marketing. Esto es lo que ofrece calidad de sonido y utilidad sin características innecesarias.",
+  "category": "Audio",
+  "how_we_pick": "Seleccionamos estos productos basándonos en su rendimiento conocido, valor y recepción pública. Esta guía se centra en los casos de uso comunes para el hogar y los desplazamientos, evitando características de nicho o diseños sobreingenierizados. Damos prioridad a los artículos que cumplen consistentemente sus promesas sin un coste excesivo. No hemos realizado pruebas prácticas de estos productos. Nuestras recomendaciones se basan en la investigación de información ampliamente disponible y experiencias de usuario comunes.",
+  "intro": [
+    "El mercado del audio está lleno de términos confusos y marketing agresivo. Cada producto promete 'sonido inmersivo' o 'bajos profundos'. Muchas empresas se centran en características que la mayoría de la gente no necesita, lo que aumenta los precios. Es fácil dejarse atrapar por especificaciones que no se traducen en una mejor experiencia auditiva para el uso diario. Lo que más importa es lo que oyes, no lo que dice la caja.",
+    "Un buen equipo de audio debe mejorar tu vida diaria. Esto significa un sonido claro y equilibrado, comodidad para un uso prolongado y fiabilidad. No pagues extra por códecs oscuros o extensiones marginales del rango de frecuencia. Céntrate en el rendimiento principal y un diseño práctico. Muchas opciones caras ofrecen rendimientos decrecientes. Cíñete a lo que proporciona beneficios tangibles para tus necesidades específicas."
+  ],
+  "products": [
+    {
+      "name": "Sony WH-1000XM4",
+      "tag": "Para silencio sobre la marcha",
+      "body": "Estos auriculares de diadema ofrecen consistentemente una de las mejores cancelaciones activas de ruido disponibles. Son una opción sólida para bloquear el zumbido del avión o el parloteo de la oficina. El perfil de sonido es generalmente equilibrado, aunque algunos oyentes lo encuentran ligeramente cálido, lo que se puede ajustar a través de la aplicación. La comodidad es un punto fuerte, lo que los hace adecuados para largos desplazamientos o sesiones de trabajo prolongadas. La duración de la batería es robusta, ofreciendo típicamente alrededor de 30 horas con ANC activado. Esto los convierte en un compañero fiable sin recargas constantes. El inconveniente de este rendimiento es el precio. Pagas una prima por sus capacidades de cancelación de ruido.",
+      "pros": [
+        "Excelente cancelación activa de ruido",
+        "Cómodos para uso prolongado",
+        "Fiable duración de la batería"
+      ],
+      "cons": [
+        "Precio elevado",
+        "El perfil de sonido se puede ajustar, pero algunos prefieren una respuesta más plana"
+      ]
+    },
+    {
+      "name": "Anker Soundcore Liberty 4 NC",
+      "tag": "Buen sonido, presupuesto modesto",
+      "body": "Para auriculares verdaderamente inalámbricos, los Liberty 4 NC ofrecen una cantidad sorprendente de rendimiento por su coste. La cancelación activa de ruido, aunque no iguala a las opciones de gama alta, es eficaz para reducir el ruido ambiental cotidiano, como el transporte público o cafeterías concurridas. La calidad del sonido es generalmente buena, con una presencia notable de graves que muchos disfrutan. La duración de la batería es sólida, ofreciendo alrededor de 10 horas de los propios auriculares, con la carcasa extendiendo esto significativamente. Son una opción práctica si quieres silenciar las distracciones sin gastar una fortuna. Sin embargo, la calidad de las llamadas puede ser un punto débil en entornos ruidosos, y el ajuste podría no adaptarse perfectamente a todas las formas de oreja.",
+      "pros": [
+        "Cancelación de ruido eficaz por el precio",
+        "Larga duración de la batería para auriculares y carcasa",
+        "Ajuste cómodo para la mayoría"
+      ],
+      "cons": [
+        "ANC no a la altura de las opciones premium",
+        "La calidad de las llamadas puede ser inconsistente"
+      ]
+    },
+    {
+      "name": "Moondrop Chu II",
+      "tag": "Calidad de sonido por poco dinero",
+      "body": "Los monitores intrauditivos con cable Moondrop Chu II son destacados por su pura calidad de sonido a un precio muy bajo. No son inalámbricos, lo que significa que no hay baterías de las que preocuparse ni problemas de emparejamiento Bluetooth. Simplemente los conectas. Su firma sonora es generalmente bien valorada por ser equilibrada y clara, revelando detalles que a menudo se pierden en auriculares de precio similar. Esto los hace excelentes para escuchar de forma concentrada en casa o como una copia de seguridad fiable. El principal inconveniente es su naturaleza con cable; requieren un dispositivo con conector de 3,5 mm o un adaptador. Tampoco están diseñados para uso activo y el cable puede enredarse.",
+      "pros": [
+        "Calidad de sonido excepcional por el precio",
+        "Sin batería que cargar",
+        "Conexión más fiable que la inalámbrica"
+      ],
+      "cons": [
+        "Requiere un conector de auriculares o adaptador",
+        "No es conveniente para uso activo"
+      ]
+    },
+    {
+      "name": "JBL Flip 6",
+      "tag": "Altavoz para viajes o patio",
+      "body": "El JBL Flip 6 es una opción fiable para un altavoz Bluetooth portátil. Ofrece un sonido sorprendentemente potente para su tamaño compacto, capaz de llenar una habitación pequeña o proporcionar música de fondo al aire libre. Su diseño cilíndrico proyecta el sonido en múltiples direcciones, lo que es útil en entornos informales. Una ventaja significativa es su clasificación IP67, lo que significa que es resistente al polvo y al agua, lo que lo hace adecuado para piscinas o talleres. La duración de la batería es decente, generalmente alrededor de 12 horas. Sin embargo, la física dicta que su respuesta de graves es limitada y carece de entrada auxiliar, dependiendo únicamente de Bluetooth. Es práctico, pero no para escuchar de forma crítica.",
+      "pros": [
+        "Potente salida de sonido para su tamaño",
+        "Excelente resistencia al agua y al polvo",
+        "Compacto y fácil de transportar"
+      ],
+      "cons": [
+        "Respuesta de graves limitada debido al tamaño",
+        "Sin entrada auxiliar de 3,5 mm"
+      ]
+    },
+    {
+      "name": "Sonos Era 100",
+      "tag": "Altavoz para habitaciones de casa",
+      "body": "El Sonos Era 100 funciona bien como altavoz dedicado para el hogar, especialmente si planeas construir un sistema de audio multiroom. Produce un sonido claro y rico que desmiente su huella relativamente pequeña, lo que lo hace adecuado para cocinas, dormitorios o salas de estar más pequeñas. La configuración dentro del ecosistema Sonos es generalmente sencilla, y la aplicación proporciona un buen control. Ofrece conectividad Bluetooth y Wi-Fi. El principal inconveniente es el coste; es un producto premium. Además, comprometerse con el ecosistema Sonos significa menos flexibilidad con otras marcas, y su integración con asistentes inteligentes es limitada en comparación con algunas alternativas.",
+      "pros": [
+        "Sonido de alta calidad para un altavoz compacto",
+        "Experiencia de audio multiroom fluida",
+        "Fácil de configurar y usar"
+      ],
+      "cons": [
+        "Requiere compromiso con el ecosistema Sonos",
+        "Caro en comparación con altavoces Bluetooth básicos"
+      ]
+    },
+    {
+      "name": "Sennheiser HD 560S",
+      "tag": "Para escuchar con claridad en casa",
+      "body": "Para escuchar de forma dedicada en un entorno doméstico tranquilo, los auriculares abiertos Sennheiser HD 560S ofrecen un excelente valor. Su diseño abierto permite que el sonido escape, creando un escenario sonoro más amplio y natural que los auriculares cerrados. Esto contribuye a una sensación de amplitud y precisión en el audio. Son conocidos por un sonido neutro y analítico, lo que los hace buenos para la apreciación detallada de la música. La comodidad es típicamente alta, permitiendo largas sesiones de escucha. El principal inconveniente es la falta de aislamiento acústico; dejan entrar el sonido ambiental y el sonido se escapa. No son para uso público y requieren un espacio tranquilo.",
+      "pros": [
+        "Excelente claridad de sonido y escenario sonoro",
+        "Cómodos para sesiones de escucha prolongadas",
+        "Respuesta de frecuencia neutra"
+      ],
+      "cons": [
+        "Sin aislamiento acústico; el sonido se escapa",
+        "Requiere un entorno tranquilo para la mejor experiencia"
+      ]
+    },
+    {
+      "name": "Bose QuietComfort Earbuds II",
+      "tag": "El mejor silencio en auriculares",
+      "body": "Estos auriculares ofrecen una de las cancelaciones activas de ruido más efectivas disponibles en un formato verdaderamente inalámbrico. Si tu prioridad es el silencio en entornos ruidosos, son un fuerte contendiente para desplazamientos o trabajo concentrado. El ajuste es generalmente cómodo y seguro para la mayoría de los usuarios, lo cual es importante para dispositivos intrauditivos. La calidad del sonido es buena, con una reproducción de audio clara. La principal consideración es su precio premium; pagas por esa cancelación de ruido líder en su clase. Aunque son potentes, la duración de la batería no es excepcional en comparación con algunos competidores, lo que significa que podrían necesitar cargas más frecuentes que otras opciones.",
+      "pros": [
+        "Cancelación activa de ruido líder en la industria",
+        "Ajuste cómodo y seguro",
+        "Buena calidad de sonido con voces claras"
+      ],
+      "cons": [
+        "Precio de compra elevado",
+        "La duración de la batería es promedio para auriculares premium"
+      ]
+    },
+    {
+      "name": "Ultimate Ears Boom 3",
+      "tag": "Altavoz para manejo rudo",
+      "body": "El UE Boom 3 está construido para la durabilidad y la aventura. Su diseño cilíndrico proporciona sonido de 360 grados, lo que lo hace ideal para compartir música en grupo al aire libre. Es resistente al agua y al polvo, e incluso flota, lo que añade una capa de tranquilidad si estás cerca del agua. Este altavoz puede soportar golpes y seguir sonando. Si bien el sonido es alto y claro para su tamaño, no es el más matizado para escuchar de forma crítica, y los graves pueden sentirse algo limitados. La base de carga, que añade comodidad, es una compra adicional, lo cual es un inconveniente para un producto ya en este rango de precios.",
+      "pros": [
+        "Construcción robusta y duradera",
+        "Proyección de sonido de 360 grados",
+        "Impermeable y flota"
+      ],
+      "cons": [
+        "El sonido puede ser menos refinado que en algunos competidores",
+        "La base de carga se vende por separado"
+      ]
+    },
+    {
+      "name": "Anker Soundcore Space Q45",
+      "tag": "Cancelación de ruido asequible",
+      "body": "Los auriculares Anker Soundcore Space Q45 ofrecen mucho valor por su precio, especialmente en lo que respecta a la cancelación activa de ruido. Ofrecen un fuerte nivel de reducción de ruido, que es realmente eficaz para sonidos de fondo comunes como el aire acondicionado o el tráfico. La comodidad es buena, con almohadillas suaves y una diadema acolchada, lo que los hace adecuados para largos períodos de uso. La duración de la batería es un punto fuerte importante, superando a menudo las 50 horas con una sola carga con ANC activado. La firma sonora a veces enfatiza los graves, lo que algunos oyentes podrían encontrar un poco demasiado pronunciado. Los materiales de construcción generales se sienten menos premium que los modelos más caros.",
+      "pros": [
+        "Muy buena cancelación activa de ruido por el precio",
+        "Excepcional duración de la batería con una sola carga",
+        "Cómodos para escucha prolongada"
+      ],
+      "cons": [
+        "El perfil de sonido tiende a los graves a veces",
+        "La calidad de construcción se siente menos premium que la de rivales caros"
+      ]
+    },
+    {
+      "name": "Edifier R1280DBs",
+      "tag": "Altavoces para un escritorio",
+      "body": "Los Edifier R1280DBs son una opción práctica para altavoces de escritorio, que ofrecen una buena calidad de sonido sin necesidad de un amplificador separado. Incluyen múltiples opciones de entrada, como Bluetooth, óptica y entradas RCA duales, lo que los hace versátiles para conectar a ordenadores, televisores u otras fuentes de audio. El sonido es generalmente equilibrado para su tamaño y precio, con una respuesta de graves decente. Son una mejora significativa con respecto a los altavoces de monitor integrados típicos. Un inconveniente clave es su necesidad de una toma de corriente y espacio físico; no son portátiles. En habitaciones pequeñas, los graves a veces pueden volverse un poco retumbantes si no se colocan con cuidado.",
+      "pros": [
+        "Buena calidad de sonido para uso en escritorio",
+        "Múltiples opciones de entrada, incluido Bluetooth",
+        "No se necesita amplificador externo"
+      ],
+      "cons": [
+        "No son verdaderamente portátiles; necesitan toma de corriente",
+        "Los graves pueden ser retumbantes en habitaciones pequeñas"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Realmente necesito auriculares con cancelación de ruido?",
+      "a": "La cancelación activa de ruido (ANC) es eficaz para sonidos constantes y de baja frecuencia como el zumbido del motor o el aire acondicionado. Hace menos por ruidos repentinos o voces. Si tu escucha principal es en entornos tranquilos, como una oficina en casa o una biblioteca, es posible que no obtengas mucho de la ANC. Los auriculares cerrados estándar ofrecen cierto aislamiento pasivo sin el coste adicional o la posibilidad de un perfil de sonido ligeramente diferente. Considera tu entorno típico. Pagar más por ANC que apenas usas no es una buena inversión."
+    },
+    {
+      "q": "¿Valen la pena los cables caros para un mejor sonido?",
+      "a": "Para la mayoría de las configuraciones de audio comunes, gastar mucho en cables caros no ofrece ningún beneficio audible. Las señales eléctricas que viajan a través de los cables de altavoz o interconexiones típicos no se ven afectadas de una manera que los humanos puedan percibir, especialmente a distancias cortas. Enfoca tu presupuesto en los altavoces, auriculares o el propio dispositivo fuente. Ahí es donde provienen las mejoras reales en la calidad del sonido. Los cables de alto precio son a menudo una estratagema de marketing. Cíñete a cables razonablemente económicos y bien construidos que se ajusten a tus necesidades de conectividad y durabilidad."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre auriculares abiertos y cerrados?",
+      "a": "Los auriculares cerrados sellan alrededor de tus orejas, proporcionando aislamiento pasivo del ruido y evitando que el sonido se escape. Esto los hace adecuados para espacios públicos o entornos compartidos. Los auriculares abiertos tienen copas perforadas, lo que permite el paso del aire y el sonido. Este diseño típicamente resulta en un escenario sonoro más amplio y natural y puede sentirse menos fatigante durante largos períodos. Sin embargo, no ofrecen aislamiento acústico y dejan entrar y salir el sonido, lo que los hace inadecuados para desplazamientos o uso en la oficina. Elige según tu entorno de escucha."
+    },
+    {
+      "q": "¿Es el audio Bluetooth lo suficientemente bueno para escuchar música?",
+      "a": "Para la mayoría de las personas y la mayoría de las escuchas cotidianas, la calidad del audio Bluetooth es perfectamente adecuada. Los códecs Bluetooth modernos como aptX o LDAC pueden transmitir audio a tasas de bits más altas, minimizando la pérdida perceptible. Si bien teóricamente, una conexión por cable puede ofrecer audio sin comprimir, la diferencia a menudo es indistinguible para la escucha casual, especialmente cuando se tiene en cuenta la calidad de la grabación y el entorno de escucha. Si eres un audiófilo crítico que escucha archivos de alta resolución en una habitación tranquila, el cableado podría ser marginalmente mejor. Para desplazamientos, entrenamientos o música de fondo, la comodidad de Bluetooth generalmente supera cualquier compromiso de audio teórico menor."
+    }
+  ]
+}

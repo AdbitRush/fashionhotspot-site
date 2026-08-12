@@ -1,0 +1,171 @@
+{
+  "slug": "security",
+  "title": "Heimüberwachung ohne Ihr Wohnzimmer aufzugeben",
+  "dek": "Verständnis dessen, was grundlegende Heimüberwachung bietet, ihre tatsächlichen Grenzen und die damit verbundenen Datenschutzrisiken.",
+  "category": "Heimüberwachung",
+  "how_we_pick": "Wir suchten nach weit verbreiteten Heimüberwachungsprodukten, die für ihre Zuverlässigkeit und klare Funktionalität bekannt sind. Dieser Leitfaden konzentriert sich auf Geräte, die ein gutes Gleichgewicht zwischen Funktionen und Preis bieten, wobei ihre Einschränkungen und die damit verbundenen Datenschutzimplikationen berücksichtigt werden. Wir haben insbesondere Produkte berücksichtigt, die Optionen für lokale Datenspeicherung bieten oder transparente Richtlinien für die Datenverarbeitung haben. Dies sind keine Praxistests. Unsere Empfehlungen basieren auf öffentlich zugänglichen Informationen und gängigen Nutzererfahrungen.",
+  "intro": [
+    "Heimüberwachung wird oft als All-Inclusive-Lösung dargestellt, aber sie ist in der Regel darauf ausgelegt, Gelegenheitsdiebe abzuschrecken oder Beweise nach einem Vorfall zu liefern. Sie verhindert selten entschlossene Einbrüche. Die Kernkomponenten sind Kameras, Tür- und Fenstersensoren sowie intelligente Schlösser. Jedes dieser Elemente hat seine eigenen Nachteile, insbesondere in Bezug auf Datenschutz und laufende Kosten. Erwarten Sie nicht, dass ein intelligentes System grundlegende Wachsamkeit oder physische Abschreckungen wie stabile Türen, starke Schlösser und gute Außenbeleuchtung ersetzt.",
+    "Die häufigste Falle bei der Heimüberwachung ist das Abonnementmodell. Viele Geräte bieten ohne monatliche Gebühr nur eingeschränkte Funktionalität und zwingen die Nutzer zu wiederkehrenden Ausgaben. Funktionen wie Cloud-Speicher für Kameraaufnahmen, erweiterte Bewegungserkennung und professionelle Überwachung sind häufig hinter einer Bezahlschranke versteckt. Überlegen Sie, ob die sogenannten „intelligenten“ Funktionen den laufenden Kosten wirklich wert sind oder ob eine einfachere, lokale Lösung angemessener wäre. Ihre Daten, insbesondere Kameraaufnahmen, liegen oft auf den Servern des Unternehmens, was Fragen aufwirft, wer darauf zugreifen kann und wie lange."
+  ],
+  "products": [
+    {
+      "name": "Aqara Contact Sensor P2",
+      "tag": "Erfahren Sie, wann Türen geöffnet werden",
+      "body": "Dieser kleine Sensor erkennt mithilfe eines magnetischen Kontakts, ob eine Tür oder ein Fenster geöffnet oder geschlossen ist, und dient als entscheidende erste Verteidigungslinie. Er ist eine grundlegende Komponente für jede Heimüberwachungsanlage und liefert sofortige Benachrichtigungen, wenn ein Zugangspunkt durchbrochen wird. Das Modell P2 bietet Konnektivität über Zigbee oder Thread und bietet Flexibilität für die Integration in verschiedene Smart-Home-Ökosysteme. Es benötigt einen Aqara Hub oder einen kompatiblen Thread Border Router, um ordnungsgemäß zu funktionieren, was die lokale Verarbeitung von Benachrichtigungen für Statusaktualisierungen ohne ständige Abhängigkeit von externen Cloud-Diensten ermöglicht. Dieser Ansatz minimiert die Daten, die Ihr Heimnetzwerk verlassen. Benachrichtigungen können so konfiguriert werden, dass sie an Ihr Telefon gesendet werden, und der Sensor kann auch andere automatisierte Smart-Home-Aktionen auslösen, wie z. B. das Einschalten bestimmter Lichter oder das Aktivieren einer lokalen Sirene. Dieses Gerät bietet eine einfache, effektive Erkennungsebene für sensible Zugangspunkte und trägt zu einer robusten Sicherheitsstrategie bei.",
+      "pros": [
+        "Zuverlässige Öffnen/Schließen-Erkennung",
+        "Unterstützt lokale Hub-Steuerung",
+        "Lange Akkulaufzeit"
+      ],
+      "cons": [
+        "Benötigt einen kompatiblen Hub",
+        "Beschränkt auf die Erkennung von Zugangspunkten"
+      ]
+    },
+    {
+      "name": "Eufy SoloCam C24",
+      "tag": "Kamera mit lokalem Speicher",
+      "body": "Die Eufy SoloCam C24 ist eine Indoor-Kamera mit 2K-Auflösung, die für die unkomplizierte Überwachung ohne obligatorisches Abonnement konzipiert ist. Ein Hauptmerkmal ist die lokale Speicherfähigkeit über eine microSD-Karte, was bedeutet, dass Ihre Videoaufnahmen in Ihrem Heimnetzwerk gespeichert werden. Dies reduziert die Datenschutzbedenken erheblich, die oft mit Cloud-basierten Speicherdiensten verbunden sind, auf die viele Wettbewerber angewiesen sind und die Sie zu wiederkehrenden monatlichen Gebühren für grundlegende Wiedergabefunktionen zwingen. Die Kamera verfügt über eine robuste Bewegungserkennung und bietet eine Zwei-Wege-Audio-Kommunikation. Sie können den Live-Feed einfach anzeigen und aufgezeichnete Clips direkt über die Eufy-App auf Ihrem Smartphone abrufen. Obwohl dieses spezielle Modell keine Schwenk- und Neigefunktionen hat, bietet seine feste Weitwinkeloptik in der Regel eine ausreichende Abdeckung für die meisten Innenräume. Die Einrichtung ist relativ einfach und die Verbindung erfolgt direkt mit Ihrem Heim-WLAN. Diese Kamera ist eine praktische Option, um ein gewisses Maß an Privatsphäre zu wahren und gleichzeitig die Sicherheit zu erhöhen.",
+      "pros": [
+        "Kein obligatorisches Abonnement",
+        "Lokaler microSD-Kartenspeicher",
+        "2K-Videoauflösung"
+      ],
+      "cons": [
+        "Kein Schwenken/Neigen",
+        "Für einige Funktionen auf Eufy-App und Server angewiesen"
+      ]
+    },
+    {
+      "name": "Eufy Video Doorbell 2K (Wired)",
+      "tag": "Sehen Sie, wer vor der Tür steht",
+      "body": "Diese kabelgebundene Video-Türklingel von Eufy bietet eine 2K-Auflösung und ein weites Sichtfeld, was klare Aufnahmen von Aktivitäten vor Ihrer Haustür liefert. Ein Hauptvorteil, konsistent mit dem Eufy-Ansatz, ist die Betonung des lokalen Speichers. Sie nutzt 4 GB integrierten Speicher, um Aufzeichnungen direkt auf dem Gerät zu speichern, wodurch erzwungene Abonnements zur reinen Wiedergabe Ihrer Videohistorie entfallen. Die Türklingel benötigt eine vorhandene Niederspannungs-Türklingelverdrahtung für die Stromversorgung, was einen kontinuierlichen Betrieb ohne regelmäßige Akkuwechsel oder Aufladungen gewährleistet. Zu den Hauptmerkmalen gehören eine zuverlässige Bewegungserkennung, fortschrittliche Algorithmen zur Personenerkennung zur Reduzierung von Fehlalarmen und Zwei-Wege-Audio, mit dem Sie über Ihr Smartphone aus der Ferne mit Besuchern kommunizieren können. Während Videodaten lokal bleiben, sind die App und bestimmte Benachrichtigungsdienste weiterhin auf die Kommunikation mit den Cloud-Servern von Eufy angewiesen. Diese Konfiguration bietet ein Gleichgewicht zwischen intelligenten Funktionen und einem stärkeren Fokus auf lokale Datenverarbeitung.",
+      "pros": [
+        "Lokaler Videospeicher",
+        "Hohe 2K-Auflösung",
+        "Kein Akku zum Aufladen"
+      ],
+      "cons": [
+        "Benötigt vorhandene Türklingelverdrahtung",
+        "Nicht vollständig von Cloud-Diensten isoliert"
+      ]
+    },
+    {
+      "name": "Schlage Encode Plus",
+      "tag": "Tastaturzugang, HomeKit-Unterstützung",
+      "body": "Das Schlage Encode Plus ist ein intelligentes Deadbolt-Schloss, das mehrere bequeme Möglichkeiten zum Entriegeln Ihrer Tür bietet. Sie können einen herkömmlichen physischen Schlüssel verwenden, eine Touchscreen-Tastatur zur Eingabe von Codes oder Apple HomeKit über NFC mit Ihrer Apple Watch oder Ihrem iPhone nutzen. Dieses Schloss verbindet sich über Standard-WLAN und ermöglicht die Fernsteuerung und Statusprüfung von überall, ohne dass ein zusätzlicher dedizierter Hub erforderlich ist. Für Apple HomeKit-Benutzer unterstützt es auch Thread, was die Reaktionsfähigkeit verbessern und potenziell die Akkulaufzeit verlängern kann. Sie können problemlos temporäre oder wiederkehrende Zugangscodes für Gäste, Familienmitglieder oder Dienstleister erstellen und erhalten Echtzeitbenachrichtigungen, wann immer das Schloss verriegelt oder entriegelt wird. Während der Komfort offensichtlich ist, verbindet sich dieses Gerät direkt mit Ihrem Heimnetzwerk und dem Internet, was bedeutet, dass es das inhärente Risiko von Netzwerkschwachstellen birgt. Eine robuste WLAN-Sicherheit ist entscheidend. Die Akkulaufzeit ist im Allgemeinen gut, erfordert aber einen regelmäßigen Austausch, eine geringfügige Überlegung für die fortschrittliche Zugangskontrolle, die es bietet.",
+      "pros": [
+        "Mehrere Entriegelungsoptionen",
+        "HomeKit- und Thread-Unterstützung",
+        "Fernzugriffskontrolle"
+      ],
+      "cons": [
+        "Benötigt Internetverbindung",
+        "Austausch der Batterie erforderlich"
+      ]
+    },
+    {
+      "name": "Arlo Essential Spotlight Camera",
+      "tag": "Kabellose Außenabdeckung",
+      "body": "Die Arlo Essential Spotlight Camera ist eine kabellose Außenüberwachungskamera, die mit Akku betrieben wird und eine einfache Installation an nahezu jedem Ort auf Ihrem Grundstück ermöglicht. Sie zeichnet 1080p-HD-Videos auf, verfügt über einen integrierten Scheinwerfer für verbesserte Farbnachtsicht und eine integrierte Sirene zur Abschreckung potenzieller Eindringlinge. Während der Komfort ihres kabellosen Designs ein erheblicher Vorteil ist, fördert das Arlo-Ökosystem stark seinen Abonnementdienst. Ohne ein aktives Abonnement erhalten Sie in der Regel Zugriff auf Live-Ansicht, Bewegungswarnungen und Zwei-Wege-Audiofunktionen, aber der Zugriff auf aufgezeichnete Videoverläufe ist oft stark eingeschränkt oder gar nicht verfügbar, abhängig von spezifischen Modellvarianten und aktuellen Arlo-Service-Richtlinien. Das bedeutet, dass Sie möglicherweise nur eine Benachrichtigung über ein Ereignis erhalten und keine verwertbaren Videoaufzeichnungen, es sei denn, Sie entscheiden sich für eine monatliche Gebühr. Die Akkulaufzeit ist im Allgemeinen respektabel, schwankt aber erheblich je nach Aktivitätsniveau und erfordert regelmäßiges Aufladen. Es ist eine fähige Kamera, aber potenzielle Käufer sollten die potenziellen laufenden Abonnementkosten für volle Funktionalität einkalkulieren.",
+      "pros": [
+        "Kabellose Installation",
+        "Integrierter Scheinwerfer und Sirene",
+        "1080p-Videoqualität"
+      ],
+      "cons": [
+        "Eingeschränkte Funktionalität ohne Abonnement",
+        "Akku muss aufgeladen werden"
+      ]
+    },
+    {
+      "name": "Aqara Motion Sensor P1",
+      "tag": "Bewegung zuverlässig erkennen",
+      "body": "Der Aqara Motion Sensor P1 ist ein kompaktes, batteriebetriebenes Gerät, das zur Erkennung menschlicher Bewegung mittels passiver Infrarottechnologie (PIR) entwickelt wurde. Dieser Sensor dient als kritische Komponente für verschiedene Sicherheitsautomatisierungen, wie z. B. das Auslösen von Alarmen, das Starten von Videoaufnahmen auf kompatiblen Kameras oder das automatische Einschalten von Lichtern, wenn Bewegung in einem bestimmten Bereich erkannt wird. Das Modell P1 bietet eine einstellbare Erkennungsempfindlichkeit, mit der Sie seine Reaktionsfähigkeit feinabstimmen können, und ein konfigurierbares Erkennungsintervall, das dazu beiträgt, störende Fehlalarme zu minimieren. Ähnlich wie andere Aqara Zigbee-Geräte benötigt es einen Aqara Hub für den Betrieb. Dieser Hub ermöglicht die lokale Verarbeitung von Automatisierungsregeln, ein erheblicher Zuverlässigkeitsvorteil, da Ihre Sicherheitsautomatisierungen auch dann weiter funktionieren können, wenn Ihre Internetverbindung ausfällt, im Gegensatz zu vielen Cloud-abhängigen Sensoren. Er verfügt über eine bemerkenswert lange Akkulaufzeit, die oft mehrere Jahre vor einem Austausch reicht. Eine sorgfältige Platzierung ist ratsam, um unbeabsichtigte Auslösungen durch Haustiere oder Bewegungen außerhalb des vorgesehenen Überwachungsbereichs zu verhindern.",
+      "pros": [
+        "Einstellbare Empfindlichkeit",
+        "Lokale Automatisierung mit Hub",
+        "Lange Akkulaufzeit"
+      ],
+      "cons": [
+        "Benötigt einen Aqara Hub",
+        "Kann durch Haustiere ausgelöst werden"
+      ]
+    },
+    {
+      "name": "Aqara Hub M2",
+      "tag": "Zentrales Sicherheitsgehirn, Sirene",
+      "body": "Der Aqara Hub M2 dient als zentrales Gehirn für die Zigbee-Geräte von Aqara und verbindet sie mit Ihrem Heimnetzwerk und dem Internet. Wichtiger für die Sicherheit ist, dass er eine leistungsstarke integrierte Sirene enthält, die von angeschlossenen Sensoren wie Türkontakten oder Bewegungsmeldern ausgelöst werden kann. Das bedeutet, Sie erhalten einen akustischen Alarm, ohne ein separates Gerät zu benötigen. Er unterstützt auch IR-Steuerung, wodurch er mit älteren Nicht-Smart-Geräten integriert werden kann. Der Hub ermöglicht die lokale Verarbeitung von Automatisierungen, sodass Ihre Sicherheitsregeln auch bei Internetunterbrechungen funktionieren können, ein entscheidendes Merkmal für die Zuverlässigkeit. Während er lokale Geräte verwaltet, sind die App und der Fernzugriff weiterhin auf die Cloud-Dienste von Aqara angewiesen, was bedeutet, dass Ihre Gerätedaten immer noch übertragen werden. Seine Fähigkeit, Automatisierungen lokal auszuführen, ist jedoch ein wichtiger Vorteil für sofortige Sicherheitsreaktionen.",
+      "pros": [
+        "Integrierte Sirene",
+        "Lokale Automatisierungsverarbeitung",
+        "Verbindet viele Sensoren"
+      ],
+      "cons": [
+        "Benötigt Internet für Fernzugriff",
+        "Ersteinrichtung kann komplex sein"
+      ]
+    },
+    {
+      "name": "SimpliSafe Glassbreak Sensor",
+      "tag": "Zerbrochene Fenster erkennen",
+      "body": "Ein Glasbruchsensor erkennt die spezifischen akustischen Frequenzen, die mit zerbrechendem Glas verbunden sind, und bietet eine deutliche und wichtige Sicherheitsebene, die Standard-Tür- und Fenstersensoren ergänzt. Dieser SimpliSafe-Sensor ist für eine große Reichweite ausgelegt, was oft bedeutet, dass ein einziger Sensor mehrere Fenster in einem Raum effektiv überwachen kann. Er nutzt eine hochentwickelte Audioanalyse, um zwischen dem tatsächlichen Geräusch von zerbrechendem Glas und anderen lauten Geräuschen zu unterscheiden, was darauf abzielt, die Häufigkeit von Fehlalarmen erheblich zu reduzieren. Dieser Sensortyp ist besonders nützlich für die Sicherung von Fenstern, die nicht einfach mit Kontaktsensoren ausgestattet werden können, oder als Abschreckung gegen Eindringversuche durch eingeschlagenes Glas. Er erfordert jedoch ein SimpliSafe-System und dessen proprietäre Basisstation zum Betrieb, was bedeutet, dass er kein eigenständiges Gerät ist und Sie sich auf dieses spezifische Sicherheitsökosystem festlegen. Seine Gesamteffektivität hängt stark von der richtigen Platzierung ab, um sicherzustellen, dass keine signifikanten Hindernisse vorhanden sind, die das Geräusch von zerbrechendem Glas dämpfen könnten.",
+      "pros": [
+        "Große Flächenabdeckung",
+        "Erkennt Eindringen durch eingeschlagenes Glas",
+        "Reduziert Fehlalarme"
+      ],
+      "cons": [
+        "Benötigt SimpliSafe-System",
+        "Platzierung ist entscheidend für die Effektivität"
+      ]
+    },
+    {
+      "name": "TP-Link Kasa Smart Wi-Fi Plug Mini",
+      "tag": "Lichter zur Abschreckung automatisieren",
+      "body": "Der TP-Link Kasa Smart Wi-Fi Plug Mini ermöglicht es Ihnen, jede Standardlampe oder jedes Gerät in ein intelligentes Gerät zu verwandeln, das ferngesteuert oder über Zeitpläne gesteuert werden kann. Obwohl es sich nicht um einen Sicherheitssensor handelt, ist er eine Schlüsselkomponente für die Schaffung effektiver visueller Abschreckung. Die Automatisierung von Lichtern, die sich ein- und ausschalten, wenn Sie nicht zu Hause sind, kann Ihr Haus bewohnt erscheinen lassen, eine einfache, aber wirkungsvolle psychologische Abschreckung gegen opportunistische Einbrecher. Er verbindet sich direkt mit Ihrem WLAN und benötigt keinen separaten Hub. Sie können ihn mit Bewegungssensoren oder Überwachungskameras über Plattformen wie IFTTT oder einige Smart-Home-Ökosysteme integrieren, um Lichter auszulösen, wenn Aktivität erkannt wird. Seine geringe Größe bedeutet, dass er benachbarte Steckdosen nicht blockiert. Seine Wirksamkeit als Sicherheitstool hängt jedoch vollständig von Ihrer vorhandenen Beleuchtung und der durchdachten Einrichtung von Automatisierungen ab.",
+      "pros": [
+        "Kein Hub erforderlich",
+        "Kompaktes Design",
+        "Einfache Automatisierung von Lichtern"
+      ],
+      "cons": [
+        "Benötigt Internet für Fernsteuerung",
+        "Beschränkt auf Ein/Aus-Steuerung"
+      ]
+    },
+    {
+      "name": "Aqara Wireless Mini Switch",
+      "tag": "Programmierbarer Panikknopf",
+      "body": "Der Aqara Wireless Mini Switch ist ein kleiner, batteriebetriebener Knopf, der für verschiedene Smart-Home-Aktionen programmiert werden kann. Im Sicherheitskontext kann er als diskreter Panikknopf dienen. Strategisch platziert, könnte ein einzelner Druck oder ein doppelter Druck sofort eine laute Sirene auslösen (wenn an einen Aqara Hub angeschlossen), dringende Benachrichtigungen an Familienmitglieder senden oder alle Lichter im Haus aktivieren. Dies bietet eine schnelle, physische Möglichkeit, eine Notfallreaktion einzuleiten, ohne ein Telefon suchen oder eine App entsperren zu müssen. Wie andere Aqara Zigbee-Geräte benötigt er einen Aqara Hub zur Funktion und verarbeitet Befehle lokal für eine schnelle Reaktion. Seine geringe Größe bedeutet, dass er leicht versteckt oder griffbereit gehalten werden kann. Seine Nützlichkeit hängt jedoch vollständig davon ab, wie robust Sie seine Aktionen in Ihrem Smart-Home-System konfigurieren.",
+      "pros": [
+        "Diskret und tragbar",
+        "Anpassbare Aktionen",
+        "Lokale Verarbeitung mit Hub"
+      ],
+      "cons": [
+        "Benötigt einen Aqara Hub",
+        "Eingeschränkte Funktionalität ohne Konfiguration"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Brauche ich wirklich ein Abonnement für die Heimüberwachung?",
+      "a": "Viele Heimüberwachungsgeräte, insbesondere Kameras und Video-Türklingeln, sind darauf ausgelegt, Sie zu einem monatlichen Abonnement zu drängen. Während einige Kernfunktionen wie Live-Ansicht und grundlegende Benachrichtigungen kostenlos sein können, sind Dinge wie aufgezeichnete Videoverläufe, erweiterte KI-Erkennung und professionelle Überwachung oft hinter einer Bezahlschranke versteckt. Prüfen Sie vor dem Kauf, welche Funktionen wirklich kostenlos sind. Wenn Sie wiederkehrende Kosten vermeiden möchten, bevorzugen Sie Geräte mit lokalen Speicheroptionen, wie z. B. microSD-Kartensteckplätze oder lokale Hubs. Diese Lösungen können erhebliche Funktionalität ohne eine ewige Rechnung bieten, erfordern aber möglicherweise mehr Eigenverwaltung."
+    },
+    {
+      "q": "Wie viel Sorgen sollte ich mir wegen des Datenschutzes bei Smart-Kameras machen?",
+      "a": "Sie sollten sich bei Smart-Kameras, insbesondere bei denen, die Aufnahmen in der Cloud speichern, ziemlich viele Sorgen um den Datenschutz machen. Ihre Videodaten werden oft auf Server des Unternehmens hochgeladen, wo sie theoretisch von Mitarbeitern, Strafverfolgungsbehörden mit einem Haftbefehl oder sogar von Hackern angegriffen werden könnten. Einige Unternehmen haben bessere Sicherheits- und Datenschutzbilanzen als andere. Um das Risiko zu minimieren, suchen Sie nach Kameras, die lokale Speicheroptionen bieten und Daten sowohl während der Übertragung als auch im Ruhezustand verschlüsseln. Überlegen Sie, ob eine Innenkamera wirklich notwendig ist, und wenn ja, platzieren Sie sie sorgfältig, um unnötige oder sensible Bereiche nicht zu erfassen."
+    },
+    {
+      "q": "Lohnt sich die professionelle Überwachung die zusätzlichen Kosten?",
+      "a": "Professionelle Überwachung bedeutet, dass ein Drittanbieterdienst benachrichtigt wird, wenn Ihr Alarm ausgelöst wird, und dieser dann die Notdienste kontaktiert. Für einige ist diese Beruhigung die monatliche Gebühr wert, besonders wenn Sie häufig reisen oder alleine leben. Es kommt jedoch zu vielen Fehlalarmen, und die Reaktionszeiten können variieren. Für die meisten Menschen ist ein selbstüberwachtes System, das Benachrichtigungen direkt an Ihr Telefon sendet, ausreichend. Sie können dann entscheiden, ob die Polizei oder ein Nachbar kontaktiert werden muss. Lassen Sie sich nicht zur professionellen Überwachung drängen, wenn Sie in der Lage sind, selbst auf Benachrichtigungen zu reagieren. Es ist ein zusätzlicher Komfort, nicht immer eine Notwendigkeit."
+    },
+    {
+      "q": "Können Smart Locks gehackt werden und sind sie sicher?",
+      "a": "Jedes Gerät, das mit dem Internet verbunden ist, birgt ein gewisses Risiko. Smart Locks können theoretisch anfällig für Hacking sein, obwohl ausgeklügelte Angriffe für die meisten Heimanwender selten sind. Häufigere Risiken sind schwache WLAN-Passwörter, verlorene Telefone mit App-Zugriff oder nicht ordnungsgemäß widerrufene gemeinsame Zugangscodes. Um die Sicherheit zu verbessern, verwenden Sie starke, eindeutige Passwörter für Ihr WLAN und Ihre Smart-Home-Konten. Aktivieren Sie die Zwei-Faktor-Authentifizierung, wo immer möglich. Wählen Sie Schlösser von renommierten Marken, die ihre Firmware regelmäßig aktualisieren. Für die meisten Häuser überwiegen die Bequemlichkeit und die Funktionen eines Smart Locks das geringfügig erhöhte Risiko im Vergleich zu herkömmlichen Schlössern, vorausgesetzt, Sie praktizieren gute digitale Sicherheitspraktiken."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "cycling",
+  "category": "Cycling",
+  "title": "Commuting by Bike Through a Bad Winter",
+  "dek": "Equip your bike for daily rides, from securing it to staying dry, avoiding unnecessary purchases.",
+  "hero_image": "A bicycle leaning against a brick wall on a city street, partially obscured by a light rain. A secure U-lock is visible on the frame. A front light is mounted on the handlebars, and a rear light on the seat post. A pannier hangs from the rear rack.",
+  "updated": "2026-08-12",
+  "read_minutes": 5,
+  "intro": [
+    "Cycling to work or for errands seems simple. It is not always. The bike itself is one thing, but the gear you need to make it reliable and practical is another. Many newcomers buy too much, or the wrong things. This guide focuses on the essentials that make daily cycling feasible, even enjoyable, without unnecessary expense or complication. We prioritised items that directly address common commuting problems.",
+    "The trap is convenience. Manufacturers want to sell you a product for every conceivable niche. You do not need most of them. A good bike setup for commuting is often about minimalism and durability. Each item chosen here has a clear purpose and helps avoid common frustrations like flat tires, theft, or arriving at your destination wet. Buy what you need, use it often, and ignore the rest."
+  ],
+  "how_we_pick": "We focused on products known for reliability and function in daily commuting. This is not about the latest gadget or racing performance. Our selections are based on publicly available information, long-term user reports, and an understanding of common failure points in bike equipment. We did not conduct hands-on testing. Our aim is to guide you towards durable, practical items that solve real problems, not just add to your gear pile.",
+  "products": [
+    {
+      "name": "Kryptonite New-U KryptoLok Standard",
+      "tag": "The essential theft deterrent",
+      "price": "$40-70",
+      "search": "Kryptonite KryptoLok Standard U-lock",
+      "image": "A black U-lock with a crossbar, lying on a grey concrete surface.",
+      "body": "This U-lock offers a good balance of security and weight for daily commuting. It uses a hardened steel shackle and a disc-style cylinder, making it resistant to common prying and drilling attacks. While no lock is impenetrable, the KryptoLok Standard provides a strong deterrent against opportunistic thieves in most urban environments. Its compact size makes it easy to carry on a bike frame mount or in a bag. It is a workhorse, not a high-security vault, but it discourages casual theft effectively. Remember to lock both the frame and one wheel.",
+      "pros": [
+        "Very strong for its price",
+        "Common size fits most bike racks",
+        "Frame mount included"
+      ],
+      "cons": [
+        "Still vulnerable to angle grinders",
+        "Adds noticeable weight to the bike"
+      ]
+    },
+    {
+      "name": "Bontrager Ion 200 RT",
+      "tag": "Be seen, day or night",
+      "price": "$40-60",
+      "search": "Bontrager Ion 200 RT front bike light",
+      "image": "A small black rectangular bike light with a clear lens, mounted on a handlebar, seen from the front.",
+      "body": "This compact front light is designed primarily for visibility, not illuminating dark trails. With 200 lumens, it makes you noticeable to drivers during the day and provides enough light to be seen at night in lit urban areas. Its flash patterns are engineered to catch attention. The light recharges via USB, which is convenient, but means remembering another cable. It attaches easily to handlebars with a simple silicone strap. Relying on it to light up unlit paths will be disappointing; its main job is to ensure others see you.",
+      "pros": [
+        "Very bright for its size",
+        "Excellent daytime visibility",
+        "USB rechargeable"
+      ],
+      "cons": [
+        "Limited range for unlit roads",
+        "Battery life can be short on brightest settings"
+      ]
+    },
+    {
+      "name": "Bontrager Flare RT",
+      "tag": "Announce your presence clearly",
+      "price": "$40-60",
+      "search": "Bontrager Flare RT rear bike light",
+      "image": "A small red rectangular bike light mounted on a seat post, seen from the rear.",
+      "body": "The Flare RT is a rear light counterpart to the Ion 200 RT, focusing heavily on rider visibility. It emits a powerful flash that is discernible from a significant distance, even in daylight. This helps drivers judge your position and speed, reducing the risk of rear-end collisions. Like the front light, it is USB rechargeable and uses a simple strap mount. It is small, so it fits most seat posts, but it can be easy to forget to charge due to its size. Its primary function is safety in traffic, not just basic illumination.",
+      "pros": [
+        "Exceptional daytime visibility",
+        "Compact and lightweight",
+        "USB rechargeable"
+      ],
+      "cons": [
+        "Battery life may be insufficient for very long commutes",
+        "Easy to lose if not secured well"
+      ]
+    },
+    {
+      "name": "Lezyne Sport Drive HV",
+      "tag": "Fix a flat, anywhere",
+      "price": "$20-30",
+      "search": "Lezyne Sport Drive HV mini bike pump",
+      "image": "A silver and black compact hand pump held vertically, next to a bicycle tire valve.",
+      "body": "A mini pump is for getting you home after a flat tire, not for topping up pressure daily. The Lezyne Sport Drive HV excels with higher volume tires common on commuter bikes, getting them to rideable pressure relatively quickly. It features a flexible hose that protects the valve stem from damage during vigorous pumping. While it works, reaching optimal tire pressure requires significant effort and time compared to a floor pump. It is a roadside emergency tool, and it performs that role well enough to avoid calling for a ride.",
+      "pros": [
+        "Effective for higher volume tires",
+        "Flexible hose prevents valve damage",
+        "Durable construction"
+      ],
+      "cons": [
+        "Pumping to high pressure is tiring",
+        "Not as efficient as a CO2 inflator"
+      ]
+    },
+    {
+      "name": "Topeak Hexus X",
+      "tag": "On-the-go adjustments",
+      "price": "$25-40",
+      "search": "Topeak Hexus X multi-tool",
+      "image": "A folded multi-tool with various hex keys and screwdrivers extended, resting on a flat workshop bench.",
+      "body": "A good multi-tool addresses most minor mechanical issues that arise during a commute. The Topeak Hexus X includes a comprehensive set of hex wrenches, a Phillips and flathead screwdriver, and often a chain tool. These tools allow for saddle adjustments, tightening loose bolts, or even basic chain repairs. It is compact enough to fit in a saddlebag or backpack. The tools are short, meaning less leverage for really tight bolts, and the chain tool is basic, not for daily use. This tool is for emergencies, not shop-level repairs.",
+      "pros": [
+        "Wide range of tools",
+        "Integrated chain tool",
+        "Compact and portable"
+      ],
+      "cons": [
+        "Short levers limit torque",
+        "Chain tool is basic and fiddly"
+      ]
+    },
+    {
+      "name": "Ortlieb Back-Roller Classic",
+      "tag": "Carry your stuff, rain or shine",
+      "price": "$180-220",
+      "search": "Ortlieb Back-Roller Classic pannier",
+      "image": "A bright yellow waterproof pannier bag with a roll-top closure, hanging from a bicycle rear rack.",
+      "body": "These panniers are the standard for waterproof bike luggage. Made from durable PVC-coated polyester fabric with a roll-top closure, they reliably keep contents dry in heavy rain. The QL2.1 mounting system is secure and easy to attach or detach from a rear rack. This makes them ideal for carrying groceries, work clothes, or a laptop. The simple design means limited internal organisation, often requiring separate smaller bags for small items. They are sold individually or as pairs, and they are an investment, but they last.",
+      "pros": [
+        "Completely waterproof",
+        "Extremely durable material",
+        "Easy to mount and remove"
+      ],
+      "cons": [
+        "Expensive, especially for a pair",
+        "Minimal internal organisation"
+      ]
+    },
+    {
+      "name": "SKS Bluemels Style Fenders",
+      "tag": "Stay cleaner in wet weather",
+      "price": "$50-70",
+      "search": "SKS Bluemels Style mudguards",
+      "image": "A black full-coverage fender mounted over a bicycle front wheel, viewed from the side.",
+      "body": "Full-coverage fenders are often overlooked but significantly improve comfort when riding in wet conditions. The SKS Bluemels Style fenders protect both the rider and the drivetrain from road spray and grime. This means fewer wet streaks up your back and less gunk getting into your bike's moving parts. They require specific mounting points on your bike frame and fork, which not all bikes have. Installation can be fiddly, and they add a bit of weight and can make bike transport slightly less convenient. They are a worthwhile addition for year-round commuters.",
+      "pros": [
+        "Excellent protection from road spray",
+        "Protects bike components",
+        "Durable construction"
+      ],
+      "cons": [
+        "Installation can be complex",
+        "Requires frame mounting points"
+      ]
+    },
+    {
+      "name": "Showers Pass Transit Jacket",
+      "tag": "Stay dry, stay visible",
+      "price": "$180-250",
+      "search": "Showers Pass Transit cycling jacket",
+      "image": "A neon yellow waterproof cycling jacket with reflective elements, draped over a bicycle saddle.",
+      "body": "This jacket is built for serious wet-weather commuting. It uses a waterproof-breathable fabric that keeps rain out while allowing some sweat to escape, preventing you from getting soaked from the inside. The generous reflective elements significantly enhance visibility in low light and adverse weather. Its tailored cut for cycling means better coverage while riding. However, even the most breathable waterproof fabrics will feel clammy during high-exertion rides, especially in warmer temperatures. It is a costly item, but it is one of the more effective ways to stay dry and safe in a downpour.",
+      "pros": [
+        "Fully waterproof and breathable",
+        "High visibility features",
+        "Cycling-specific fit"
+      ],
+      "cons": [
+        "Can feel warm and clammy on climbs",
+        "High price point"
+      ]
+    },
+    {
+      "name": "Park Tool TL-1.2 Tire Lever Set & VP-1 Patch Kit",
+      "tag": "Patch a puncture efficiently",
+      "price": "$10-20",
+      "search": "Park Tool tire lever patch kit",
+      "image": "Two blue plastic tire levers and a small tin of tire patches, laid out next to a deflated bicycle tire.",
+      "body": "Tire levers are essential for removing a tire from its rim to access the inner tube for repair or replacement. The Park Tool TL-1.2 set is durable plastic, designed to be strong enough without scratching rims. A patch kit, like the VP-1, allows you to repair a punctured inner tube, saving the tube and reducing waste. While carrying a spare tube is often quicker for roadside repairs, a patch kit provides a backup or a way to save money on tubes. Patching requires some patience and technique, especially on the side of the road.",
+      "pros": [
+        "Durable and rim-safe levers",
+        "Cost-effective for multiple repairs",
+        "Compact"
+      ],
+      "cons": [
+        "Patching takes time and skill",
+        "A spare tube is often faster"
+      ]
+    },
+    {
+      "name": "Spurcycle Original Bell",
+      "tag": "Announce your presence politely",
+      "price": "$50-70",
+      "search": "Spurcycle Original bike bell",
+      "image": "A small, polished brass bike bell clamped to a black bicycle handlebar, seen from the side.",
+      "body": "A bell is a simple, effective tool for alerting pedestrians and other cyclists to your presence. The Spurcycle Original is known for its clear, resonant, and surprisingly loud chime that carries well without being jarring. Its premium materials and minimalist design appeal to many. Unlike plastic bells, its sound is distinct and commands attention. It is very expensive for a bell, and some might find its sound too subtle in extremely noisy urban environments compared to a harsh horn. However, for most situations, it works well to give a polite warning.",
+      "pros": [
+        "Loud, clear, and pleasing chime",
+        "Durable metal construction",
+        "Compact design"
+      ],
+      "cons": [
+        "Very expensive for a bell",
+        "Might be too quiet in heavy traffic"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I really need two lights, front and rear?",
+      "a": "Yes, for commuting, two lights are important. A front light helps you see the road and makes you visible from the front. A separate rear light ensures you are seen by traffic approaching from behind. Relying on one light, or a weak one, significantly compromises your safety. Modern lights are small, rechargeable, and easy to mount, so there is little reason not to use both. Think of them as essential safety equipment, not optional extras, especially if you ride near traffic or in low light conditions."
+    },
+    {
+      "q": "Is a U-lock always better than a chain lock?",
+      "a": "Not always, but generally for urban commuting, a U-lock like the Kryptonite KryptoLok offers a good blend of security and portability. Chain locks can be very secure, but they are often much heavier and bulkier for the same level of protection. A U-lock secures your frame and one wheel effectively to an immovable object. If you need to secure multiple bikes or awkward objects, a chain might be more versatile, but for single bike security, the U-lock is usually the more practical choice for daily transport."
+    },
+    {
+      "q": "Should I get a bike computer or just use my phone for navigation?",
+      "a": "For most commuters, your phone is sufficient. Many apps provide good navigation and can track your ride data. A dedicated bike computer adds cost and another device to charge. Phone mounts are inexpensive, and most phones are already waterproof enough for light rain. Save your money on a bike computer unless you are training seriously, or frequently ride very long distances where phone battery life becomes a major concern. The phone you already own is often the best solution here."
+    },
+    {
+      "q": "What is the most important item if I can only buy one thing?",
+      "a": "If you can only buy one item beyond the bike itself, it should be a reliable lock. Without a good lock, your bike is vulnerable to theft the moment you leave it unattended. Lights are also critical for safety, but a stolen bike ends your commute entirely. Invest in a solid U-lock first. Then, once your bike is secure, consider front and rear lights to ensure you are seen and can see your path. Prioritise keeping your bike yours."
+    }
+  ]
+}

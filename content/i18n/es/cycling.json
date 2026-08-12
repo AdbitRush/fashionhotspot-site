@@ -1,0 +1,171 @@
+{
+  "slug": "cycling",
+  "title": "Viajar en bici en pleno invierno",
+  "dek": "Equipa tu bicicleta para los trayectos diarios, desde cómo asegurarla hasta cómo mantenerte seco, evitando compras innecesarias.",
+  "category": "Ciclismo",
+  "how_we_pick": "Nos centramos en productos conocidos por su fiabilidad y funcionalidad en los desplazamientos diarios. Esto no trata de los últimos gadgets ni del rendimiento en competición. Nuestras selecciones se basan en información pública, informes de usuarios a largo plazo y un conocimiento de los puntos de fallo comunes en el equipamiento de bicicletas. No realizamos pruebas prácticas. Nuestro objetivo es guiarte hacia artículos duraderos y prácticos que resuelvan problemas reales, no solo que añadan peso a tu equipo.",
+  "intro": [
+    "Ir en bici al trabajo o a hacer recados parece sencillo. No siempre lo es. La bicicleta en sí es una cosa, pero el equipo que necesitas para hacerla fiable y práctica es otra. Muchos novatos compran demasiado, o lo equivocado. Esta guía se centra en lo esencial que hace factible, incluso agradable, el ciclismo diario, sin gastos ni complicaciones innecesarias. Dimos prioridad a los artículos que abordan directamente los problemas comunes de los desplazamientos.",
+    "La trampa es la comodidad. Los fabricantes quieren venderte un producto para cada nicho imaginable. No necesitas la mayoría de ellos. Una buena configuración de bicicleta para desplazamientos suele basarse en el minimalismo y la durabilidad. Cada artículo elegido aquí tiene un propósito claro y ayuda a evitar frustraciones comunes como pinchazos, robos o llegar mojado a tu destino. Compra lo que necesites, úsalo a menudo e ignora el resto."
+  ],
+  "products": [
+    {
+      "name": "Kryptonite New-U KryptoLok Standard",
+      "tag": "El elemento disuasorio esencial contra robos",
+      "body": "Este candado en U ofrece un buen equilibrio entre seguridad y peso para los desplazamientos diarios. Utiliza un grillete de acero endurecido y un cilindro de disco, lo que lo hace resistente a ataques comunes de palanca y taladro. Aunque ningún candado es impenetrable, el KryptoLok Standard proporciona un fuerte elemento disuasorio contra ladrones oportunistas en la mayoría de entornos urbanos. Su tamaño compacto facilita su transporte en un soporte para el cuadro de la bicicleta o en una bolsa. Es una herramienta de trabajo, no una caja fuerte de alta seguridad, pero disuade eficazmente los robos casuales. Recuerda asegurar tanto el cuadro como una rueda.",
+      "pros": [
+        "Muy resistente por su precio",
+        "Tamaño común compatible con la mayoría de portabicicletas",
+        "Incluye soporte para el cuadro"
+      ],
+      "cons": [
+        "Sigue siendo vulnerable a las amoladoras angulares",
+        "Añade un peso notable a la bicicleta"
+      ]
+    },
+    {
+      "name": "Bontrager Ion 200 RT",
+      "tag": "Hazte ver, de día o de noche",
+      "body": "Esta luz delantera compacta está diseñada principalmente para la visibilidad, no para iluminar senderos oscuros. Con 200 lúmenes, te hace visible para los conductores durante el día y proporciona suficiente luz para ser visto por la noche en zonas urbanas iluminadas. Sus patrones de destello están diseñados para llamar la atención. La luz se recarga por USB, lo cual es conveniente, pero significa recordar otro cable. Se acopla fácilmente al manillar con una simple correa de silicona. Confiar en ella para iluminar caminos sin luz será decepcionante; su trabajo principal es asegurarse de que los demás te vean.",
+      "pros": [
+        "Muy brillante para su tamaño",
+        "Excelente visibilidad diurna",
+        "Recargable por USB"
+      ],
+      "cons": [
+        "Alcance limitado para carreteras sin iluminar",
+        "La duración de la batería puede ser corta en los ajustes más brillantes"
+      ]
+    },
+    {
+      "name": "Bontrager Flare RT",
+      "tag": "Anuncia tu presencia claramente",
+      "body": "La Flare RT es la contraparte trasera de la Ion 200 RT, centrada en gran medida en la visibilidad del ciclista. Emite un potente destello que es perceptible desde una distancia considerable, incluso a la luz del día. Esto ayuda a los conductores a juzgar tu posición y velocidad, reduciendo el riesgo de colisiones por alcance. Al igual que la luz delantera, es recargable por USB y utiliza una simple correa de montaje. Es pequeña, por lo que se adapta a la mayoría de tijas de sillín, pero es fácil olvidarse de cargarla debido a su tamaño. Su función principal es la seguridad en el tráfico, no solo la iluminación básica.",
+      "pros": [
+        "Excepcional visibilidad diurna",
+        "Compacta y ligera",
+        "Recargable por USB"
+      ],
+      "cons": [
+        "La duración de la batería puede ser insuficiente para trayectos muy largos",
+        "Fácil de perder si no se asegura bien"
+      ]
+    },
+    {
+      "name": "Lezyne Sport Drive HV",
+      "tag": "Arregla un pinchazo, en cualquier lugar",
+      "body": "Una mini bomba sirve para llevarte a casa después de un pinchazo, no para mantener la presión a diario. La Lezyne Sport Drive HV destaca con neumáticos de mayor volumen comunes en bicicletas urbanas, permitiendo alcanzar una presión de rodaje con relativa rapidez. Cuenta con una manguera flexible que protege la válvula de daños durante el bombeo vigoroso. Aunque funciona, alcanzar la presión óptima de los neumáticos requiere un esfuerzo y tiempo considerables en comparación con una bomba de pie. Es una herramienta de emergencia en carretera, y cumple su función lo suficientemente bien como para evitar tener que pedir que te recojan.",
+      "pros": [
+        "Eficaz para neumáticos de mayor volumen",
+        "Manguera flexible que evita daños en la válvula",
+        "Construcción duradera"
+      ],
+      "cons": [
+        "Bombear a alta presión es agotador",
+        "No es tan eficiente como un inflador de CO2"
+      ]
+    },
+    {
+      "name": "Topeak Hexus X",
+      "tag": "Ajustes sobre la marcha",
+      "body": "Una buena multiherramienta soluciona la mayoría de los problemas mecánicos menores que surgen durante un trayecto. La Topeak Hexus X incluye un conjunto completo de llaves Allen, un destornillador Phillips y plano, y a menudo una tronchacadenas. Estas herramientas permiten ajustar el sillín, apretar tornillos sueltos o incluso realizar reparaciones básicas de la cadena. Es lo suficientemente compacta como para caber en una bolsa de sillín o mochila. Las herramientas son cortas, lo que significa menos palanca para tornillos muy apretados, y la tronchacadenas es básica, no para uso diario. Esta herramienta es para emergencias, no para reparaciones de taller.",
+      "pros": [
+        "Amplia gama de herramientas",
+        "Tronchacadenas integrado",
+        "Compacta y portátil"
+      ],
+      "cons": [
+        "Las palancas cortas limitan el par de apriete",
+        "La tronchacadenas es básica y engorrosa"
+      ]
+    },
+    {
+      "name": "Ortlieb Back-Roller Classic",
+      "tag": "Lleva tus cosas, llueva o truene",
+      "body": "Estas alforjas son el estándar para el equipaje de bicicleta impermeable. Fabricadas con tejido de poliéster duradero recubierto de PVC con cierre enrollable, mantienen el contenido seco de forma fiable en caso de lluvia intensa. El sistema de montaje QL2.1 es seguro y fácil de acoplar o desacoplar de un portabultos trasero. Esto las hace ideales para transportar comestibles, ropa de trabajo o un portátil. El diseño simple significa una organización interna limitada, que a menudo requiere bolsas más pequeñas separadas para objetos pequeños. Se venden individualmente o en pares, y son una inversión, pero duran.",
+      "pros": [
+        "Completamente impermeable",
+        "Material extremadamente duradero",
+        "Fácil de montar y desmontar"
+      ],
+      "cons": [
+        "Caras, especialmente en par",
+        "Organización interna mínima"
+      ]
+    },
+    {
+      "name": "SKS Bluemels Style Fenders",
+      "tag": "Mantente más limpio con tiempo húmedo",
+      "body": "Los guardabarros de cobertura total a menudo se pasan por alto, pero mejoran significativamente la comodidad al circular en condiciones de humedad. Los guardabarros SKS Bluemels Style protegen tanto al ciclista como a la transmisión de las salpicaduras de agua y la suciedad. Esto significa menos rayas mojadas en la espalda y menos mugre en las partes móviles de tu bicicleta. Requieren puntos de montaje específicos en el cuadro y la horquilla de tu bicicleta, que no todas las bicicletas tienen. La instalación puede ser complicada, añaden un poco de peso y pueden hacer que el transporte de la bicicleta sea un poco menos cómodo. Son una adición que vale la pena para los ciclistas que viajan todo el año.",
+      "pros": [
+        "Excelente protección contra salpicaduras de agua",
+        "Protege los componentes de la bicicleta",
+        "Construcción duradera"
+      ],
+      "cons": [
+        "La instalación puede ser compleja",
+        "Requiere puntos de montaje en el cuadro"
+      ]
+    },
+    {
+      "name": "Showers Pass Transit Jacket",
+      "tag": "Mantente seco, mantente visible",
+      "body": "Esta chaqueta está diseñada para desplazamientos serios en condiciones de clima húmedo. Utiliza un tejido impermeable y transpirable que mantiene la lluvia fuera mientras permite que escape algo de sudor, evitando que te empapes desde dentro. Los generosos elementos reflectantes mejoran significativamente la visibilidad con poca luz y en condiciones adversas. Su corte entallado para ciclismo significa una mejor cobertura mientras conduces. Sin embargo, incluso los tejidos impermeables más transpirables se sentirán pegajosos durante paseos de alta exigencia, especialmente en temperaturas más cálidas. Es un artículo costoso, pero es una de las formas más efectivas de mantenerse seco y seguro bajo un aguacero.",
+      "pros": [
+        "Totalmente impermeable y transpirable",
+        "Características de alta visibilidad",
+        "Ajuste específico para ciclismo"
+      ],
+      "cons": [
+        "Puede sentirse cálida y pegajosa en las subidas",
+        "Alto precio"
+      ]
+    },
+    {
+      "name": "Park Tool TL-1.2 Tire Lever Set & VP-1 Patch Kit",
+      "tag": "Repara un pinchazo eficientemente",
+      "body": "Las desmontadoras de neumáticos son esenciales para quitar un neumático de la llanta para acceder a la cámara interior para su reparación o reemplazo. El juego Park Tool TL-1.2 es de plástico duradero, diseñado para ser lo suficientemente resistente sin rayar las llantas. Un kit de parches, como el VP-1, te permite reparar una cámara pinchada, ahorrando la cámara y reduciendo residuos. Aunque llevar una cámara de repuesto suele ser más rápido para reparaciones en carretera, un kit de parches proporciona una copia de seguridad o una forma de ahorrar dinero en cámaras. Parchear requiere algo de paciencia y técnica, especialmente al lado de la carretera.",
+      "pros": [
+        "Desmontadoras duraderas y seguras para llantas",
+        "Económico para múltiples reparaciones",
+        "Compacto"
+      ],
+      "cons": [
+        "Parchear lleva tiempo y habilidad",
+        "Una cámara de repuesto suele ser más rápida"
+      ]
+    },
+    {
+      "name": "Spurcycle Original Bell",
+      "tag": "Anuncia tu presencia educadamente",
+      "body": "Una campana es una herramienta simple y eficaz para alertar a peatones y otros ciclistas de tu presencia. La Spurcycle Original es conocida por su timbre claro, resonante y sorprendentemente fuerte que se oye bien sin ser estridente. Sus materiales de primera calidad y su diseño minimalista atraen a muchos. A diferencia de las campanas de plástico, su sonido es distintivo y llama la atención. Es muy cara para ser una campana, y algunos podrían encontrar su sonido demasiado sutil en entornos urbanos extremadamente ruidosos en comparación con una bocina estridente. Sin embargo, para la mayoría de las situaciones, funciona bien para dar una advertencia educada.",
+      "pros": [
+        "Timbre fuerte, claro y agradable",
+        "Construcción duradera de metal",
+        "Diseño compacto"
+      ],
+      "cons": [
+        "Muy cara para ser una campana",
+        "Podría ser demasiado silenciosa en tráfico denso"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Realmente necesito dos luces, delantera y trasera?",
+      "a": "Sí, para ir en bici al trabajo, dos luces son importantes. Una luz delantera te ayuda a ver la carretera y te hace visible desde el frente. Una luz trasera separada asegura que te vean los vehículos que se aproximan por detrás. Confiar en una sola luz, o en una débil, compromete significativamente tu seguridad. Las luces modernas son pequeñas, recargables y fáciles de montar, por lo que hay pocas razones para no usar ambas. Piénsalas como equipo de seguridad esencial, no como extras opcionales, especialmente si circulas cerca del tráfico o con poca luz."
+    },
+    {
+      "q": "¿Un candado en U es siempre mejor que un candado de cadena?",
+      "a": "No siempre, pero en general para los desplazamientos urbanos, un candado en U como el Kryptonite KryptoLok ofrece una buena combinación de seguridad y portabilidad. Los candados de cadena pueden ser muy seguros, pero a menudo son mucho más pesados y voluminosos para el mismo nivel de protección. Un candado en U asegura eficazmente tu cuadro y una rueda a un objeto inamovible. Si necesitas asegurar varias bicicletas u objetos incómodos, una cadena podría ser más versátil, pero para la seguridad de una sola bicicleta, el candado en U suele ser la opción más práctica para el transporte diario."
+    },
+    {
+      "q": "¿Debería comprar un ciclocomputador o simplemente usar mi teléfono para la navegación?",
+      "a": "Para la mayoría de los ciclistas urbanos, tu teléfono es suficiente. Muchas aplicaciones ofrecen buena navegación y pueden registrar los datos de tu recorrido. Un ciclocomputador dedicado añade coste y otro dispositivo que cargar. Los soportes para teléfono son económicos, y la mayoría de los teléfonos ya son lo suficientemente impermeables para lluvia ligera. Ahorra dinero en un ciclocomputador a menos que estés entrenando en serio, o circules frecuentemente distancias muy largas donde la duración de la batería del teléfono se convierta en una preocupación importante. El teléfono que ya tienes suele ser la mejor solución aquí."
+    },
+    {
+      "q": "¿Cuál es el artículo más importante si solo puedo comprar una cosa?",
+      "a": "Si solo puedes comprar un artículo además de la bicicleta en sí, debería ser un candado fiable. Sin un buen candado, tu bicicleta es vulnerable al robo en el momento en que la dejas desatendida. Las luces también son cruciales para la seguridad, pero una bicicleta robada pone fin por completo a tu desplazamiento. Invierte primero en un candado en U sólido. Luego, una vez que tu bicicleta esté segura, considera luces delanteras y traseras para asegurarte de que te vean y puedas ver tu camino. Prioriza mantener tu bicicleta tuya."
+    }
+  ]
+}

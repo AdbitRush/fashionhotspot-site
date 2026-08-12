@@ -34,6 +34,9 @@ LATIN_TECH = {
     "usb", "hdmi", "gps", "led", "ecg", "rtsp", "gan", "wifi", "wi-fi", "matter",
     "thread", "zigbee", "bluetooth", "mah", "hz", "rgb", "tv", "pc", "ai", "ssd",
     "hdr", "anc", "ip", "nfc", "oled", "lcd", "uv", "spf", "bpa", "led-", "app",
+    # fabric, hardware and spec words that Israelis write in Latin, plus
+    # fragments of product names that appear mid-sentence.
+    "ripstop", "wishbone", "hepa", "dwr", "lumen", "dustbuster",
 }
 
 # English source only. The "_he" siblings that used to be required here moved
@@ -95,6 +98,23 @@ def latin_in_hebrew(text):
             continue
 
         if tok.lower() in LATIN_TECH:
+            continue
+
+        # A RUN of Latin words is a name, not a translation slip. The failure
+        # this check exists to catch is one English word stranded in Hebrew
+        # ("שהשולחן שלך deserves"); a translator does not leave three
+        # consecutive English words behind by accident. Product names and
+        # chemical names are exactly this shape — "bis-aminopropyl diglycol
+        # dimaleate", "Microparticle Performance Rating for Filtrete" — and
+        # each of their words was being reported separately.
+        run_start = m.start()
+        while run_start > 0 and text[run_start - 1] in " -":
+            prev = re.search(r"[A-Za-z][A-Za-z'\-]*$", text[:run_start - 1])
+            if not prev:
+                break
+            run_start = prev.start()
+        run = re.match(r"(?:[A-Za-z][A-Za-z'\-]*[ -]?){2,}", text[run_start:])
+        if run and len(run.group().split()) >= 2:
             continue
         if not tok.islower() or len(tok) < 3:
             continue                      # Anker, MX, AirTag, SE, FE — names
@@ -231,7 +251,13 @@ def main():
                 for k in ("name", "tag", "body"):
                     if not str(tp.get(k, "")).strip():
                         err(f"{tw}.p{i}", f"{k} is empty")
-                    elif lang == "he":
+                    elif lang == "he" and k != "name":
+                        # "name" is a brand and model — "Stanley FatMax AntiVibe
+                        # Claw Hammer" is what it is called in Hebrew too, and
+                        # translate.py is explicitly told to leave it in Latin.
+                        # Demanding Hebrew characters in that field produced 150
+                        # errors against correctly translated guides and buried
+                        # the handful of real ones underneath.
                         check_text(f"{tw}.p{i}.{k}", tp[k], he=True)
             if len(tr.get("faq", [])) != len(faq):
                 err(tw, f"{len(tr.get('faq', []))} FAQ entries, English has {len(faq)}")

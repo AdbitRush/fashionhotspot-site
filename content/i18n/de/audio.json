@@ -1,0 +1,171 @@
+{
+  "slug": "audio",
+  "title": "Kopfhörer, Ohrhörer und die Specs, die wirklich zählen",
+  "dek": "Beim Kauf von Audiogeräten muss man sich durch viel Marketing wühlen. Hier ist, was Klangqualität und Nutzen ohne unnötige Funktionen liefert.",
+  "category": "Audio",
+  "how_we_pick": "Wir haben diese Produkte aufgrund ihrer bekannten Leistung, ihres Werts und ihrer öffentlichen Resonanz ausgewählt. Dieser Leitfaden konzentriert sich auf gängige Anwendungsfälle für zu Hause und unterwegs und vermeidet Nischenfunktionen oder überentwickelte Designs. Wir bevorzugen Artikel, die ohne übermäßige Kosten durchweg ihre Versprechen erfüllen. Wir haben diese Produkte nicht selbst getestet. Unsere Empfehlungen basieren auf Recherchen zu weit verbreiteten Informationen und gängigen Nutzererfahrungen.",
+  "intro": [
+    "Der Audiomarkt ist voller verwirrender Begriffe und aggressiver Werbung. Jedes Produkt verspricht „immersiven Klang“ oder „tiefen Bass“. Viele Unternehmen konzentrieren sich auf Funktionen, die die meisten Leute nicht brauchen, und treiben so die Preise in die Höhe. Es ist leicht, sich von technischen Daten mitreißen zu lassen, die sich nicht in ein besseres Hörerlebnis für den täglichen Gebrauch umsetzen lassen. Was am wichtigsten ist, ist das, was Sie hören, nicht das, was auf der Verpackung steht.",
+    "Gute Audiogeräte sollten Ihr tägliches Leben verbessern. Das bedeutet klaren und ausgewogenen Klang, Komfort bei langem Tragen und Zuverlässigkeit. Zahlen Sie nicht extra für obskure Codecs oder marginale Frequenzbereichserweiterungen. Konzentrieren Sie sich auf Kernleistung und ein praktisches Design. Viele teure Optionen bieten abnehmende Erträge. Bleiben Sie bei dem, was Ihnen für Ihre spezifischen Bedürfnisse spürbare Vorteile bringt."
+  ],
+  "products": [
+    {
+      "name": "Sony WH-1000XM4",
+      "tag": "Für Ruhe unterwegs",
+      "body": "Diese Over-Ear-Kopfhörer bieten durchweg eine der besten aktiven Geräuschunterdrückungen. Sie sind eine solide Wahl, um Flugzeugbrummen oder Bürogespräche auszublenden. Das Klangprofil ist im Allgemeinen ausgewogen, obwohl manche Hörer es als leicht warm empfinden, was über die App angepasst werden kann. Der Tragekomfort ist ein starker Punkt, was sie für lange Pendelstrecken oder ausgedehnte Arbeitssitzungen geeignet macht. Die Akkulaufzeit ist robust und bietet in der Regel etwa 30 Stunden bei aktiver Geräuschunterdrückung. Das macht sie zu einem zuverlässigen Begleiter ohne ständiges Aufladen. Der Nachteil dieser Leistung ist der Preis. Sie zahlen einen Aufschlag für ihre Geräuschunterdrückungsfähigkeiten.",
+      "pros": [
+        "Hervorragende aktive Geräuschunterdrückung",
+        "Bequem für langes Tragen",
+        "Zuverlässige Akkulaufzeit"
+      ],
+      "cons": [
+        "Hoher Preis",
+        "Klangprofil kann angepasst werden, aber manche bevorzugen eine flachere Wiedergabe"
+      ]
+    },
+    {
+      "name": "Anker Soundcore Liberty 4 NC",
+      "tag": "Guter Klang, kleines Budget",
+      "body": "Für wirklich kabellose Ohrhörer bietet der Liberty 4 NC für seinen Preis überraschend viel Leistung. Die aktive Geräuschunterdrückung, obwohl sie nicht mit Top-Optionen mithalten kann, ist effektiv bei der Reduzierung alltäglicher Umgebungsgeräusche wie im öffentlichen Nahverkehr oder in belebten Cafés. Die Klangqualität ist im Allgemeinen gut, mit einer spürbaren Basspräsenz, die viele mögen. Die Akkulaufzeit ist stark und bietet etwa 10 Stunden mit den Ohrhörern selbst, wobei das Ladecase diese erheblich verlängert. Sie sind eine praktische Wahl, wenn Sie Ablenkungen ausblenden möchten, ohne ein Vermögen auszugeben. Allerdings kann die Gesprächsqualität in lauten Umgebungen eine Schwachstelle sein, und die Passform passt möglicherweise nicht perfekt zu jeder Ohrform.",
+      "pros": [
+        "Effektive Geräuschunterdrückung für den Preis",
+        "Lange Akkulaufzeit für Ohrhörer und Ladecase",
+        "Bequeme Passform für die meisten"
+      ],
+      "cons": [
+        "ANC nicht auf dem Niveau von Premium-Optionen",
+        "Gesprächsqualität kann inkonsistent sein"
+      ]
+    },
+    {
+      "name": "Moondrop Chu II",
+      "tag": "Klangqualität für wenig Geld",
+      "body": "Die kabelgebundenen In-Ear-Monitore Moondrop Chu II sind ein herausragendes Produkt für reine Klangqualität zu einem sehr niedrigen Preis. Diese sind nicht kabellos, was bedeutet, dass keine Batterien zu wechseln sind und keine Bluetooth-Kopplungsprobleme auftreten. Sie werden einfach eingesteckt. Ihre Klangsignatur wird im Allgemeinen für ihre Ausgewogenheit und Klarheit geschätzt und deckt Details auf, die bei ähnlich teuren Ohrhörern oft übersehen werden. Das macht sie hervorragend für konzentriertes Hören zu Hause oder als zuverlässigen Ersatz. Der Hauptnachteil ist ihre Kabelgebundenheit; sie benötigen ein Gerät mit 3,5-mm-Klinkenanschluss oder einen Adapter. Sie sind auch nicht für den aktiven Einsatz konzipiert und das Kabel kann sich verheddern.",
+      "pros": [
+        "Außergewöhnliche Klangqualität für den Preis",
+        "Keine Batterie zum Aufladen",
+        "Zuverlässigere Verbindung als kabellos"
+      ],
+      "cons": [
+        "Benötigt Kopfhöreranschluss oder Adapter",
+        "Nicht praktisch für den aktiven Einsatz"
+      ]
+    },
+    {
+      "name": "JBL Flip 6",
+      "tag": "Lautsprecher für Reisen oder die Terrasse",
+      "body": "Der JBL Flip 6 ist eine zuverlässige Wahl für einen tragbaren Bluetooth-Lautsprecher. Er liefert für seine kompakte Größe einen überraschend kräftigen Klang, der einen kleinen Raum füllen oder im Freien Hintergrundmusik liefern kann. Sein zylindrisches Design projiziert den Schall in mehrere Richtungen, was in lockeren Umgebungen nützlich ist. Ein wesentlicher Vorteil ist die IP67-Zertifizierung, was bedeutet, dass er staubdicht und wasserdicht ist und sich somit für Poolpartys oder Werkstätten eignet. Die Akkulaufzeit ist ordentlich, in der Regel etwa 12 Stunden. Allerdings ist die Basswiedergabe physikalisch begrenzt, und es fehlt ein Aux-Eingang, sodass er ausschließlich auf Bluetooth angewiesen ist. Er ist praktisch, aber nichts für kritische Hörer.",
+      "pros": [
+        "Kräftige Schallwiedergabe für seine Größe",
+        "Hervorragende Wasser- und Staubbeständigkeit",
+        "Kompakt und leicht zu transportieren"
+      ],
+      "cons": [
+        "Begrenzte Basswiedergabe aufgrund der Größe",
+        "Kein 3,5-mm-Aux-Eingang"
+      ]
+    },
+    {
+      "name": "Sonos Era 100",
+      "tag": "Lautsprecher für Wohnräume",
+      "body": "Der Sonos Era 100 eignet sich gut als dedizierter Heim-Lautsprecher, besonders wenn Sie ein Multiroom-Audiosystem aufbauen möchten. Er produziert einen klaren, satten Klang, der seine relativ geringe Größe Lügen straft, und ist somit für Küchen, Schlafzimmer oder kleinere Wohnbereiche geeignet. Die Einrichtung im Sonos-Ökosystem ist in der Regel unkompliziert, und die App bietet gute Kontrolle. Er bietet sowohl Bluetooth- als auch WLAN-Konnektivität. Der Hauptkompromiss ist der Preis; es ist ein Premium-Produkt. Darüber hinaus bedeutet die Bindung an das Sonos-Ökosystem weniger Flexibilität mit anderen Marken, und die Integration von Sprachassistenten ist im Vergleich zu einigen Alternativen begrenzt.",
+      "pros": [
+        "Hochwertiger Klang für einen kompakten Lautsprecher",
+        "Nahtloses Multiroom-Audioerlebnis",
+        "Einfach einzurichten und zu bedienen"
+      ],
+      "cons": [
+        "Erfordert Bindung an das Sonos-Ökosystem",
+        "Teuer im Vergleich zu einfachen Bluetooth-Lautsprechern"
+      ]
+    },
+    {
+      "name": "Sennheiser HD 560S",
+      "tag": "Für klares Hören zu Hause",
+      "body": "Für dediziertes Hören in einer ruhigen häuslichen Umgebung bieten die offenen Sennheiser HD 560S Kopfhörer ein ausgezeichnetes Preis-Leistungs-Verhältnis. Ihr offenes Design lässt den Schall entweichen und erzeugt eine breitere, natürlichere Klangbühne als geschlossene Kopfhörer. Dies trägt zu einem Gefühl von Räumlichkeit und Präzision im Audio bei. Sie sind bekannt für einen neutralen und analytischen Klang, was sie gut für die detaillierte Musikanalyse macht. Der Tragekomfort ist in der Regel hoch, was lange Hörsitzungen ermöglicht. Der größte Nachteil ist das Fehlen von Geräuschisolierung; sie lassen Umgebungsgeräusche herein und Schall dringt nach außen. Sie sind nicht für den öffentlichen Gebrauch geeignet und erfordern einen ruhigen Raum.",
+      "pros": [
+        "Hervorragende Klangklarheit und Klangbühne",
+        "Bequem für lange Hörsitzungen",
+        "Neutrale Frequenzwiedergabe"
+      ],
+      "cons": [
+        "Keine Geräuschisolierung; Schall dringt nach außen",
+        "Erfordert eine ruhige Umgebung für das beste Erlebnis"
+      ]
+    },
+    {
+      "name": "Bose QuietComfort Earbuds II",
+      "tag": "Beste Stille in Ohrhörern",
+      "body": "Diese Ohrhörer bieten eine der effektivsten aktiven Geräuschunterdrückungen, die in einem wirklich kabellosen Formfaktor erhältlich sind. Wenn Ihre Priorität Stille in lauten Umgebungen ist, sind sie ein starker Anwärter für Pendler oder konzentriertes Arbeiten. Die Passform ist für die meisten Benutzer im Allgemeinen bequem und sicher, was bei In-Ear-Geräten wichtig ist. Die Klangqualität ist gut, mit klarer Audiowiedergabe. Der wichtigste Punkt ist ihr Premium-Preis; Sie zahlen für diese branchenführende Geräuschunterdrückung. Obwohl stark, ist ihre Akkulaufzeit im Vergleich zu einigen Konkurrenten nicht außergewöhnlich, was bedeutet, dass sie häufiger aufgeladen werden müssen als einige andere Optionen.",
+      "pros": [
+        "Branchenführende aktive Geräuschunterdrückung",
+        "Bequeme und sichere Passform",
+        "Gute Klangqualität mit klaren Stimmen"
+      ],
+      "cons": [
+        "Hoher Kaufpreis",
+        "Akkulaufzeit ist durchschnittlich für Premium-Ohrhörer"
+      ]
+    },
+    {
+      "name": "Ultimate Ears Boom 3",
+      "tag": "Lautsprecher für raue Behandlung",
+      "body": "Der UE Boom 3 ist für Langlebigkeit und Abenteuer gebaut. Sein zylindrisches Design bietet 360-Grad-Klang, was ihn großartig macht, um Musik in Gruppen im Freien zu teilen. Er ist wasser- und staubdicht und schwimmt sogar, was zusätzliche Sicherheit bietet, wenn Sie sich in der Nähe von Wasser befinden. Dieser Lautsprecher kann einiges aushalten und spielt trotzdem weiter. Während der Klang für seine Größe laut und klar ist, ist er für kritische Hörer nicht am nuanciertesten, und der Bass kann sich etwas eingeschränkt anfühlen. Die Ladestation, die Bequemlichkeit bietet, ist ein zusätzlicher Kauf, was ein Nachteil für ein Produkt in dieser Preisklasse ist.",
+      "pros": [
+        "Robuste und langlebige Konstruktion",
+        "360-Grad-Schallprojektion",
+        "Wasserdicht und schwimmfähig"
+      ],
+      "cons": [
+        "Klang kann weniger raffiniert sein als bei einigen Konkurrenten",
+        "Ladestation wird separat verkauft"
+      ]
+    },
+    {
+      "name": "Anker Soundcore Space Q45",
+      "tag": "Erschwingliche Geräuschunterdrückung",
+      "body": "Die Anker Soundcore Space Q45 Kopfhörer bieten viel Wert für ihren Preis, insbesondere in Bezug auf die aktive Geräuschunterdrückung. Sie bieten ein starkes Maß an Geräuschreduzierung, das für gängige Hintergrundgeräusche wie Klimaanlagen oder Verkehr wirklich effektiv ist. Der Tragekomfort ist gut, mit weichen Ohrpolstern und einem gepolsterten Kopfbügel, was sie für lange Tragezeiten geeignet macht. Die Akkulaufzeit ist ein erheblicher Pluspunkt und übertrifft oft 50 Stunden mit einer einzigen Ladung bei aktiviertem ANC. Die Klangsignatur betont manchmal den Bass, was manche Hörer als etwas zu stark empfinden könnten. Die allgemeinen Baumaterialien fühlen sich weniger hochwertig an als bei teureren Modellen.",
+      "pros": [
+        "Sehr gute aktive Geräuschunterdrückung für den Preis",
+        "Außergewöhnliche Akkulaufzeit mit einer einzigen Ladung",
+        "Bequem für längeres Hören"
+      ],
+      "cons": [
+        "Klangprofil tendiert manchmal zum Bass",
+        "Verarbeitungsqualität fühlt sich weniger hochwertig an als bei teuren Konkurrenten"
+      ]
+    },
+    {
+      "name": "Edifier R1280DBs",
+      "tag": "Lautsprecher für den Schreibtisch",
+      "body": "Die Edifier R1280DBs sind eine praktische Wahl für Desktop-Lautsprecher und bieten gute Klangqualität, ohne dass ein separater Verstärker benötigt wird. Sie verfügen über mehrere Eingangsoptionen, darunter Bluetooth, optisch und zwei Cinch-Eingänge, was sie vielseitig für den Anschluss an Computer, Fernseher oder andere Audioquellen macht. Der Klang ist für ihre Größe und ihren Preis im Allgemeinen ausgewogen, mit einer ordentlichen Basswiedergabe. Sie sind eine deutliche Verbesserung gegenüber typischen integrierten Monitorlautsprechern. Ein wesentlicher Nachteil ist, dass sie eine Steckdose und physischen Platz benötigen; sie sind nicht tragbar. In kleineren Räumen kann der Bass manchmal etwas wummernd werden, wenn er nicht sorgfältig positioniert wird.",
+      "pros": [
+        "Gute Klangqualität für den Desktop-Einsatz",
+        "Mehrere Eingangsoptionen, einschließlich Bluetooth",
+        "Kein externer Verstärker erforderlich"
+      ],
+      "cons": [
+        "Nicht wirklich tragbar; benötigt Steckdose",
+        "Bass kann in kleinen Räumen wummernd sein"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Brauche ich wirklich Kopfhörer mit Geräuschunterdrückung?",
+      "a": "Aktive Geräuschunterdrückung (ANC) ist effektiv für konstante, niederfrequente Geräusche wie Motorengeräusche oder Klimaanlagen. Sie wirkt weniger gut bei plötzlichen Geräuschen oder Stimmen. Wenn Sie hauptsächlich in ruhigen Umgebungen hören, z. B. in einem Heimbüro oder einer Bibliothek, werden Sie von ANC möglicherweise nicht viel profitieren. Standardmäßige geschlossene Kopfhörer bieten eine passive Isolierung ohne zusätzliche Kosten oder potenzielle Klangprofiländerungen. Berücksichtigen Sie Ihre typische Umgebung. Mehr für ANC zu bezahlen, das Sie kaum nutzen, ist keine gute Investition."
+    },
+    {
+      "q": "Sind teure Kabel ihr Geld für besseren Klang wert?",
+      "a": "Für die meisten gängigen Audio-Setups bietet die Ausgabe von viel Geld für teure Kabel keinen hörbaren Vorteil. Die elektrischen Signale, die durch typische Lautsprecherkabel oder Verbindungskabel laufen, werden nicht in einer Weise beeinflusst, die Menschen wahrnehmen können, insbesondere über kurze Distanzen. Konzentrieren Sie Ihr Budget auf die Lautsprecher, Kopfhörer oder das Quellgerät selbst. Dort kommen echte Verbesserungen der Klangqualität her. Hochpreisige Kabel sind oft ein Marketing-Gag. Bleiben Sie bei preiswerten, gut konstruierten Kabeln, die Ihren Anforderungen an Konnektivität und Haltbarkeit entsprechen."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen offenen und geschlossenen Kopfhörern?",
+      "a": "Geschlossene Kopfhörer umschließen Ihre Ohren und bieten passive Geräuschisolierung und verhindern, dass Schall nach außen dringt. Das macht sie für öffentliche Plätze oder gemeinsam genutzte Umgebungen geeignet. Offene Kopfhörer haben perforierte Ohrmuscheln, durch die Luft und Schall dringen können. Dieses Design führt typischerweise zu einer breiteren, natürlicheren Klangbühne und kann sich über lange Zeiträume weniger ermüdend anfühlen. Sie bieten jedoch keine Geräuschisolierung und lassen Schall herein und heraus, was sie für Pendler oder Büronutzung ungeeignet macht. Wählen Sie basierend auf Ihrer Hörumgebung."
+    },
+    {
+      "q": "Ist Bluetooth-Audio gut genug zum Musikhören?",
+      "a": "Für die meisten Menschen und die meisten alltäglichen Hörgewohnheiten ist die Audioqualität über Bluetooth vollkommen ausreichend. Moderne Bluetooth-Codecs wie aptX oder LDAC können Audio mit höheren Bitraten übertragen und so wahrnehmbare Verluste minimieren. Theoretisch kann eine kabelgebundene Verbindung unkomprimiertes Audio bieten, aber der Unterschied ist für gelegentliches Hören oft ununterscheidbar, insbesondere wenn die Qualität der Aufnahme und die Hörumgebung berücksichtigt werden. Wenn Sie ein kritischer Audiophiler sind, der hochauflösende Dateien in einem ruhigen Raum hört, ist kabelgebunden möglicherweise geringfügig besser. Für Pendler, Workouts oder Hintergrundmusik überwiegt die Bequemlichkeit von Bluetooth normalerweise jeden geringfügigen theoretischen Audio-Kompromiss."
+    }
+  ]
+}
