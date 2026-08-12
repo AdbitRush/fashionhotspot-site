@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" id="root-html">
 <head>
+<script>(function(){try{var t=localStorage.getItem('fh-theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;}catch(e){}})();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>fashionhotspot — Best Amazon &amp; AliExpress Deals</title>
@@ -43,6 +44,30 @@
   --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#2BE4B4; --violet:#8B5CF6;
   --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
 }
+/* ── Light theme ──────────────────────────────────────────────────────────
+   The homepage shipped dark-only while every other page on the site is light
+   and carries a toggle, so following a link off the front page changed the
+   whole look. These values are the same cream/coral palette tools/theme.py
+   uses for the guides, so the two halves of the site finally match.
+
+   The accents are re-mixed, not reused: #FFC23C amber and #2BE4B4 mint are
+   comfortable on near-black and close to unreadable on cream. */
+:root[data-theme="light"]{
+  --bg:#FFF6EE; --bg2:#FFFFFF;
+  --card:rgba(255,255,255,.94); --glass:rgba(46,31,38,.04);
+  --border:rgba(46,31,38,.10); --border-2:rgba(46,31,38,.18);
+  --ink:#2E1F26; --ink2:#5A4550; --ink3:#8C7580;
+  --coral:#E14B4B; --peach:#E8734F; --amber:#B77A00; --mint:#0F9B78; --violet:#7C3AED;
+  --hero-grid:rgba(58,34,48,.07); --hero-grid2:rgba(255,120,90,.12);
+}
+html{color-scheme:dark light}
+#theme-btn{flex:0 0 auto;width:38px;height:38px;border-radius:999px;cursor:pointer;
+  background:var(--glass);border:1px solid var(--border-2);color:var(--ink2);
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;transition:border-color .15s,color .15s}
+#theme-btn:hover{border-color:var(--coral);color:var(--coral)}
+:root[data-theme="light"] .nav-guides{color:var(--ink2)}
+
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -139,9 +164,13 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .sec-title{font-weight:700;font-size:clamp(24px,3.4vw,36px);letter-spacing:-.03em;color:var(--ink);margin-bottom:6px}
 .sec-sub{color:var(--ink3);font-size:15px;margin-bottom:12px}
 #stage3d-wrap{position:relative;height:440px;perspective:1500px;margin-top:8px}
-#stage3d{position:absolute;inset:0;transform-style:preserve-3d;animation:stagespin 42s linear infinite}
-#stage3d-wrap:hover #stage3d{animation-play-state:paused}
-@keyframes stagespin{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
+#stage3d{position:absolute;inset:0;transform-style:preserve-3d;will-change:transform}
+/* pan-y hands vertical gestures to the page up front, so flicking past the
+   section never waits on our drag handler. Horizontal is ours. */
+#stage3d-wrap{touch-action:pan-y;cursor:grab}
+#stage3d-wrap.dragging{cursor:grabbing}
+#stage3d-wrap.dragging .car-item{pointer-events:none}
+}
 .car-item{position:absolute;top:50%;left:50%;width:220px;margin:-160px 0 0 -110px;height:320px;border-radius:20px;overflow:hidden;background:#171028;border:1px solid var(--border-2);box-shadow:0 24px 60px rgba(0,0,0,.55);display:flex;flex-direction:column;transition:border-color .2s}
 .car-item:hover{border-color:var(--amber)}
 .car-item .ci-img{height:190px;background:#FFFDF8;overflow:hidden;position:relative}
@@ -311,14 +340,14 @@ html[lang="he"] h1,html[lang="he"] h2{line-height:1.25}
         <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#2A1208" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
       </span>
       <span class="logo-name">fashion<b>hotspot.</b></span>
-    </a>
+    </a><a href="posts.html" class="nav-guides" style="flex:0 0 auto;font-size:13.5px;font-weight:700;color:var(--ink2);text-decoration:none;padding:8px 14px;border:1px solid var(--border-2);border-radius:999px;white-space:nowrap">Buying Guides</a>
     <form onsubmit="return false" class="searchbox">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#7E6F98" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
       <input id="search-input" type="text" data-i18n-ph="search_ph" placeholder="What are you looking for today?" oninput="onSearch(this.value)">
     </form>
     <select class="lang-sel" id="lang-sel" aria-label="Language" onchange="setLang(this.value)">
       <option value="he">🇮🇱 עברית</option><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option><option value="el">🇬🇷 Ελληνικά</option>
-    </select>
+    </select><button id="theme-btn" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark">☀️</button>
     <a href="#deals" class="hdr-cta" data-i18n="todays_deals">🔥 Today's Deals</a>
   </nav>
 </header>
@@ -504,7 +533,7 @@ html[lang="he"] h1,html[lang="he"] h2{line-height:1.25}
   <span data-i18n="f_disc">We have applied to the Amazon Associates Program. We are not an Amazon Associate yet and earn nothing from Amazon links today.</span>
   <div style="margin-top:6px;font-size:11px;opacity:.6;" data-i18n="f_thanks">Your purchase helps us keep finding great deals 🙏</div>
   <div style="margin-top:12px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
-    <a href="about.html" class="lang-link" data-i18n="f_about">About</a>
+    <a href="posts.html" style="color:inherit">Buying Guides</a>&nbsp;·&nbsp;<a href="about.html" class="lang-link" data-i18n="f_about">About</a>
     <a href="contact.html" class="lang-link" data-i18n="f_contact">Contact</a>
     <a href="privacy.html" class="lang-link" data-i18n="f_privacy">Privacy Policy</a>
   </div>
@@ -892,7 +921,82 @@ function showToast(msg) {
       + '<div class="ci-price">~₪' + Math.round(x.d.price * RATE).toLocaleString('he-IL') + '</div></div>'
       + '</a>';
   }).join('');
-  if (REDUCED) stage.style.animation = 'none';
+  // ── Rotation, owned by JS so it can be dragged ──────────────────────────
+  // Same speed as the CSS animation it replaces: 360deg / 42s.
+  var angle = 0, autoSpin = !REDUCED, last = 0, DPS = 360 / 42;
+  var wrap = document.getElementById('stage3d-wrap');
+
+  function apply(){ stage.style.transform = 'rotateY(' + angle + 'deg)'; }
+
+  function frame(ts){
+    // last=0 on the first call would treat the entire page lifetime as elapsed
+    // and jump the carousel by thousands of degrees before anyone touched it.
+    if (!last) last = ts;
+    if (autoSpin && !dragging) angle = (angle + (ts - last) / 1000 * DPS) % 360;
+    last = ts;
+    apply();
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // ── Drag: mouse, pen and touch through one Pointer Events path ──────────
+  var dragging = false, claimed = false, startX = 0, startY = 0, startAngle = 0;
+  var lastX = 0, lastT = 0, velocity = 0;
+
+  wrap.addEventListener('pointerdown', function(e){
+    if (e.button && e.button !== 0) return;
+    dragging = true; claimed = false;
+    startX = lastX = e.clientX; startY = e.clientY;
+    startAngle = angle; velocity = 0; lastT = performance.now();
+  });
+
+  wrap.addEventListener('pointermove', function(e){
+    if (!dragging) return;
+    var dx = e.clientX - startX, dy = e.clientY - startY;
+    // Decide once per gesture who owns it. A mostly-vertical swipe is the page
+    // scrolling and we must not fight it; once we let go we stay out until the
+    // finger lifts.
+    if (!claimed) {
+      if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return;
+      if (Math.abs(dy) > Math.abs(dx)) { dragging = false; return; }
+      claimed = true;
+      wrap.classList.add('dragging');
+      try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
+    }
+    var now = performance.now();
+    if (now > lastT) velocity = (e.clientX - lastX) / (now - lastT);
+    lastX = e.clientX; lastT = now;
+    angle = (startAngle + dx * 0.45) % 360;   // px -> degrees
+    apply();
+  });
+
+  function release(e){
+    if (!dragging && !claimed) return;
+    if (claimed) {
+      wrap.classList.remove('dragging');
+      try { wrap.releasePointerCapture(e.pointerId); } catch (err) {}
+      // Carry the throw for a moment, then hand back to auto-spin.
+      var v = velocity * 0.45 * 1000;     // deg per second
+      // A flick sampled 1ms apart divides by almost nothing; cap the throw at
+      // two turns a second so a fast swipe spins fast, not absurdly.
+      v = Math.max(-720, Math.min(720, v));
+      var t0 = performance.now();
+      (function glide(){
+        var dt = performance.now() - t0;
+        if (dt > 700 || Math.abs(v) < 6) return;
+        angle = (angle + v / 60) % 360; v *= 0.94; apply();
+        requestAnimationFrame(glide);
+      })();
+    }
+    dragging = false; claimed = false;
+  }
+  wrap.addEventListener('pointerup', release);
+  wrap.addEventListener('pointercancel', release);
+
+  // Hover still pauses on machines that have a pointer; touch devices simply
+  // never fire these.
+  wrap.addEventListener('mouseenter', function(){ if (!REDUCED) autoSpin = false; });
+  wrap.addEventListener('mouseleave', function(){ if (!REDUCED) autoSpin = true; });
 })();
 
 // ─── Savings by category bars ──────────────────────────────────────────────────
@@ -1022,5 +1126,6 @@ document.addEventListener('DOMContentLoaded', function() {
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyLang);
 else applyLang();
 </script>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('fh-theme',n);}catch(e){}var b=document.getElementById('theme-btn');if(b)b.textContent=(n==='dark')?'🌙':'☀️';}(function(){var b=document.getElementById('theme-btn');if(b)b.textContent=(document.documentElement.dataset.theme==='dark')?'🌙':'☀️';})();</script>
 </body>
 </html>
