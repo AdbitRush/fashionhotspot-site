@@ -20,5 +20,7 @@
     "israel": true
   },
   "aliexpress_off_reason": "Off while the Amazon Associates application is under review — a page that leads with a competing marketplace on every product is a needless reason to be rejected. Turn back on once approved.",
-  "last_changed": "2026-08-09"
+  "last_changed": "2026-08-09",
+  "amazon_associate_status": "pending",
+  "amazon_associate_note": "Flip to 'approved' the day the Amazon acceptance email arrives. Until then every page in all six languages says the application is pending and that nothing is earned from Amazon links, because claiming membership you do not have is a false statement on the very site Amazon reads while reviewing you."
 }

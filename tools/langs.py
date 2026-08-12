@@ -179,30 +179,57 @@ AUTHOR = {
 }
 
 # Networks named in the disclosure, per language.
+#
+# ── Why there are two Amazon wordings ────────────────────────────────────────
+# "As an Amazon Associate we earn from qualifying purchases" is the sentence
+# Amazon REQUIRES you to display — once you are actually an Associate. Saying it
+# before approval is a false statement about a commercial relationship, on a
+# site Amazon reads while deciding whether to approve you. It is the wrong claim
+# to be making at exactly the moment it is most likely to be checked.
+#
+# So the Amazon line has two states, driven by `amazon_associate_status` in
+# site-config.json:
+#
+#   "pending"  (default) — says the application is in, and that nothing is
+#                          earned from Amazon links yet. True today.
+#   "approved"           — the official required sentence. Flip the config value
+#                          the day the acceptance email arrives; every page and
+#                          all six languages follow from this one file.
+#
+# The price/availability tail is unrelated to membership — Amazon requires it
+# next to any price you display, regardless — so it stays in both states.
 NETWORKS = {
     "en": {"amazon": "Amazon Associate", "aliexpress": "AliExpress affiliate",
            "tpl": "As an {} we earn from qualifying purchases.", "join": " and an ",
+           "amazon_pending": "We have applied to the Amazon Associates Program. "
+                             "We are not an Amazon Associate yet and earn nothing "
+                             "from Amazon links today.",
            "tail": " Prices and availability are accurate as of the date of "
                    "publication and may change."},
     "he": {"amazon": "שותפים של אמזון", "aliexpress": "שותפים של עליאקספרס",
            "tpl": "כ{} אנחנו מרוויחים עמלה מרכישות מזכות.", "join": " ו",
+           "amazon_pending": "הגשנו בקשה להצטרף לתוכנית השותפים של אמזון. איננו שותפים של אמזון עדיין, ואיננו מרוויחים דבר מקישורים לאמזון בשלב זה.",
            "tail": " המחירים והזמינות נכונים לזמן הפרסום ועשויים להשתנות."},
     "es": {"amazon": "Afiliados de Amazon", "aliexpress": "afiliados de AliExpress",
            "tpl": "Como {}, ganamos por las compras que cumplen los requisitos.",
+           "amazon_pending": "Hemos solicitado unirnos al Programa de Afiliados de Amazon. Todavía no somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon.",
            "join": " y ",
            "tail": " Los precios y la disponibilidad son correctos en la fecha de "
                    "publicación y pueden cambiar."},
     "fr": {"amazon": "Partenaire Amazon", "aliexpress": "affilié AliExpress",
            "tpl": "En tant que {}, nous percevons une commission sur les achats éligibles.",
+           "amazon_pending": "Nous avons déposé une candidature au Programme Partenaires d'Amazon. Nous ne sommes pas encore Partenaire Amazon et ne percevons rien sur les liens Amazon à ce jour.",
            "join": " et ",
            "tail": " Les prix et la disponibilité sont exacts à la date de "
                    "publication et peuvent changer."},
     "de": {"amazon": "Amazon-Partner", "aliexpress": "AliExpress-Affiliate",
            "tpl": "Als {} verdienen wir an qualifizierten Käufen.", "join": " und ",
+           "amazon_pending": "Wir haben uns für das Amazon-Partnerprogramm beworben. Wir sind noch kein Amazon-Partner und verdienen derzeit nichts an Amazon-Links.",
            "tail": " Preise und Verfügbarkeit entsprechen dem Stand der "
                    "Veröffentlichung und können sich ändern."},
     "el": {"amazon": "Συνεργάτες της Amazon", "aliexpress": "συνεργάτες της AliExpress",
            "tpl": "Ως {}, κερδίζουμε από επιλέξιμες αγορές.", "join": " και ",
+           "amazon_pending": "Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon.",
            "tail": " Οι τιμές και η διαθεσιμότητα ισχύουν κατά την ημερομηνία "
                    "δημοσίευσης και ενδέχεται να αλλάξουν."},
 }
@@ -234,9 +261,40 @@ def fmt_date(iso, lang):
     return f"{d} {month} {y}"
 
 
+def amazon_status():
+    """'pending' or 'approved', from site-config.json. Defaults to pending.
+
+    Defaulting to pending is deliberate: the failure mode of guessing wrong in
+    that direction is understating a relationship, which costs nothing. Guessing
+    wrong the other way puts a false claim of Amazon membership on a public page.
+    """
+    import json
+    import pathlib
+    try:
+        cfg = json.loads((pathlib.Path(__file__).resolve().parent.parent
+                          / "site-config.json").read_text(encoding="utf-8"))
+        return "approved" if cfg.get("amazon_associate_status") == "approved" else "pending"
+    except Exception:
+        return "pending"
+
+
 def disclosure(lang, show_amazon=True, show_ali=True, short=False):
     n = NETWORKS.get(lang, NETWORKS[DEFAULT])
-    names = [n[k] for k, on in (("amazon", show_amazon), ("aliexpress", show_ali)) if on]
+    approved = amazon_status() == "approved"
+
+    # Until Amazon approves, the Associate sentence cannot be used at all — not
+    # even in the "as an X and a Y" combined form, because the combined form
+    # still asserts membership. The application notice is emitted as its own
+    # sentence and any other network keeps its normal wording.
+    if show_amazon and not approved:
+        parts = [n["amazon_pending"]]
+        if show_ali:
+            parts.append(n["tpl"].format(n["aliexpress"]))
+        base = " ".join(parts)
+        return base if short else base + n["tail"]
+
+    names = [n[k] for k, on in (("amazon", show_amazon and approved),
+                                ("aliexpress", show_ali)) if on]
     if not names:
         return ""
     base = n["tpl"].format(n["join"].join(names))

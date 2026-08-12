@@ -216,6 +216,41 @@ def main():
             err(w, f"~{total} English words — below the 800 bar")
         print(f"{w:14} {len(prods):2} products  ~{total:4} en words")
 
+    # ── Amazon membership claims ─────────────────────────────────────────────
+    # The site shipped "As an Amazon Associate we earn from qualifying
+    # purchases" on all 146 pages in six languages while the application was
+    # still under review. That is a false statement about a commercial
+    # relationship, sitting on the exact site Amazon reads to decide whether to
+    # approve you. It is easy to reintroduce by hand-editing one page, so it is
+    # checked rather than remembered.
+    claims = [
+        "as an amazon associate",
+        "participant in the amazon services",
+        "afiliado de amazon, gan",
+        "amazon-partner verdien",
+        "partenaire amazon, je réalise",
+        "partenaire amazon, nous réalis",
+        "συνεργάτης της amazon κερδ",
+        "כשותפים של אמזון",
+    ]
+    approved = False
+    try:
+        cfg = json.loads((ROOT / "site-config.json").read_text(encoding="utf-8"))
+        approved = cfg.get("amazon_associate_status") == "approved"
+    except Exception:
+        pass
+    if not approved:
+        pages = list(ROOT.glob("*.html"))
+        for d in ("he", "es", "fr", "de", "el"):
+            pages += list((ROOT / d).glob("*.html"))
+        for page in pages:
+            low = page.read_text(encoding="utf-8", errors="replace").lower()
+            for c in claims:
+                if c in low:
+                    err(page.name, f'claims Amazon membership ("{c}") while '
+                                   f'site-config.json says the application is pending')
+                    break
+
     print()
     for x in warnings:
         print("WARN ", x)
