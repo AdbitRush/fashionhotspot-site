@@ -187,9 +187,13 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .sec-title{font-weight:700;font-size:clamp(24px,3.4vw,36px);letter-spacing:-.03em;color:var(--ink);margin-bottom:6px}
 .sec-sub{color:var(--ink3);font-size:15px;margin-bottom:12px}
 #stage3d-wrap{position:relative;height:440px;perspective:1500px;margin-top:8px}
-#stage3d{position:absolute;inset:0;transform-style:preserve-3d;animation:stagespin 42s linear infinite}
-#stage3d-wrap:hover #stage3d{animation-play-state:paused}
-@keyframes stagespin{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
+#stage3d{position:absolute;inset:0;transform-style:preserve-3d;will-change:transform}
+/* pan-y hands vertical gestures to the page up front, so flicking past the
+   section never waits on our drag handler. Horizontal is ours. */
+#stage3d-wrap{touch-action:pan-y;cursor:grab}
+#stage3d-wrap.dragging{cursor:grabbing}
+#stage3d-wrap.dragging .car-item{pointer-events:none}
+}
 .car-item{position:absolute;top:50%;left:50%;width:220px;margin:-160px 0 0 -110px;height:320px;border-radius:20px;overflow:hidden;background:var(--solid);border:1px solid var(--border-2);box-shadow:var(--sh);display:flex;flex-direction:column;transition:border-color .2s}
 .car-item:hover{border-color:var(--amber)}
 .car-item .ci-img{height:190px;background:var(--imgbg);overflow:hidden;position:relative}
@@ -940,7 +944,82 @@ function showToast(msg) {
       + '<div class="ci-price">~₪' + Math.round(x.d.price * RATE).toLocaleString('he-IL') + '</div></div>'
       + '</a>';
   }).join('');
-  if (REDUCED) stage.style.animation = 'none';
+  // ── Rotation, owned by JS so it can be dragged ──────────────────────────
+  // Same speed as the CSS animation it replaces: 360deg / 42s.
+  var angle = 0, autoSpin = !REDUCED, last = 0, DPS = 360 / 42;
+  var wrap = document.getElementById('stage3d-wrap');
+
+  function apply(){ stage.style.transform = 'rotateY(' + angle + 'deg)'; }
+
+  function frame(ts){
+    // last=0 on the first call would treat the entire page lifetime as elapsed
+    // and jump the carousel by thousands of degrees before anyone touched it.
+    if (!last) last = ts;
+    if (autoSpin && !dragging) angle = (angle + (ts - last) / 1000 * DPS) % 360;
+    last = ts;
+    apply();
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // ── Drag: mouse, pen and touch through one Pointer Events path ──────────
+  var dragging = false, claimed = false, startX = 0, startY = 0, startAngle = 0;
+  var lastX = 0, lastT = 0, velocity = 0;
+
+  wrap.addEventListener('pointerdown', function(e){
+    if (e.button && e.button !== 0) return;
+    dragging = true; claimed = false;
+    startX = lastX = e.clientX; startY = e.clientY;
+    startAngle = angle; velocity = 0; lastT = performance.now();
+  });
+
+  wrap.addEventListener('pointermove', function(e){
+    if (!dragging) return;
+    var dx = e.clientX - startX, dy = e.clientY - startY;
+    // Decide once per gesture who owns it. A mostly-vertical swipe is the page
+    // scrolling and we must not fight it; once we let go we stay out until the
+    // finger lifts.
+    if (!claimed) {
+      if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return;
+      if (Math.abs(dy) > Math.abs(dx)) { dragging = false; return; }
+      claimed = true;
+      wrap.classList.add('dragging');
+      try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
+    }
+    var now = performance.now();
+    if (now > lastT) velocity = (e.clientX - lastX) / (now - lastT);
+    lastX = e.clientX; lastT = now;
+    angle = (startAngle + dx * 0.45) % 360;   // px -> degrees
+    apply();
+  });
+
+  function release(e){
+    if (!dragging && !claimed) return;
+    if (claimed) {
+      wrap.classList.remove('dragging');
+      try { wrap.releasePointerCapture(e.pointerId); } catch (err) {}
+      // Carry the throw for a moment, then hand back to auto-spin.
+      var v = velocity * 0.45 * 1000;     // deg per second
+      // A flick sampled 1ms apart divides by almost nothing; cap the throw at
+      // two turns a second so a fast swipe spins fast, not absurdly.
+      v = Math.max(-720, Math.min(720, v));
+      var t0 = performance.now();
+      (function glide(){
+        var dt = performance.now() - t0;
+        if (dt > 700 || Math.abs(v) < 6) return;
+        angle = (angle + v / 60) % 360; v *= 0.94; apply();
+        requestAnimationFrame(glide);
+      })();
+    }
+    dragging = false; claimed = false;
+  }
+  wrap.addEventListener('pointerup', release);
+  wrap.addEventListener('pointercancel', release);
+
+  // Hover still pauses on machines that have a pointer; touch devices simply
+  // never fire these.
+  wrap.addEventListener('mouseenter', function(){ if (!REDUCED) autoSpin = false; });
+  wrap.addEventListener('mouseleave', function(){ if (!REDUCED) autoSpin = true; });
 })();
 
 // ─── Savings by category bars ──────────────────────────────────────────────────
