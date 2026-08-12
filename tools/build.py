@@ -12,12 +12,13 @@ back to English per field rather than rendering blanks.
 Output: post-<slug>.html and posts.html at the root for English, and the same
 under <lang>/ for the rest, plus sitemap.xml covering all of them.
 """
-import argparse, html, json, sys
+import argparse, html, json, re, sys
 from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from theme import CSS, FONTS, RTL_FONT                      # noqa: E402
+from theme import (CSS, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
+                   THEME_SCRIPT)
 from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, FONT_LINKS,  # noqa: E402
                    t, fmt_date, disclosure)
 from i18n_schema import CONTENT, load_translation, merge     # noqa: E402
@@ -80,7 +81,7 @@ def nav(lang, current):
         for h, x in items)
     return (f'<div class="nav"><div class="nav-in">'
             f'<a class="logo" href="{e(r)}index.html">fashion<span>hotspot</span></a>'
-            f'<nav class="nav-links">{links}</nav></div></div>')
+            f'<nav class="nav-links">{links}</nav>{THEME_TOGGLE}</div></div>')
 
 
 def lang_switcher(lang, page):
@@ -131,6 +132,7 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+{THEME_BOOT}
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{e(canonical)}">
@@ -148,6 +150,7 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
 </head>
 <body>
 {body}
+{THEME_SCRIPT}
 </body>
 </html>
 """
@@ -236,23 +239,82 @@ def render_guide(g, lang):
                       og_image=f"{SITE}/images/hero-{slug}.jpg")
 
 
+def price_offer(raw):
+    """Turn a human price string into an Offer, or None if it is not a price.
+
+    Prices here are written as ranges for a reason — we do not hold live pricing
+    and Amazon's changes hourly — so the honest schema type is AggregateOffer
+    with lowPrice/highPrice, not Offer with a single invented number. Strings
+    that carry no digits at all ("varies by size") get no offer rather than a
+    guessed one.
+    """
+    if not raw:
+        return None
+    nums = [int(n) for n in re.findall(r"\d+", str(raw))]
+    if not nums:
+        return None
+    lo, hi = min(nums), max(nums)
+    offer = {"@type": "AggregateOffer", "priceCurrency": "USD",
+             "lowPrice": lo, "highPrice": hi,
+             "availability": "https://schema.org/InStock"}
+    if lo == hi:
+        offer = {"@type": "Offer", "priceCurrency": "USD", "price": lo,
+                 "availability": "https://schema.org/InStock"}
+    return offer
+
+
 def json_ld(g, lang, canon):
+    # Every product becomes a real Product node rather than a bare ListItem.
+    # A ListItem with a name and a URL tells a search engine nothing it could
+    # not read off the page; Product + AggregateOffer is what makes a roundup
+    # eligible for price and availability treatment in results.
+    #
+    # Deliberately absent: aggregateRating and Review. The advice everywhere is
+    # to add star ratings because they lift click-through, but this site does
+    # not test products — lint.py actively fails any copy claiming it does — and
+    # inventing ratings would be both a lie and a Google structured-data
+    # violation for self-serving reviews. If real testing ever happens, add them
+    # then.
+    items = []
+    for i, p in enumerate(g["products"], 1):
+        node = {"@type": "Product", "name": p["name"],
+                "description": p.get("tag") or p.get("body", "")[:160],
+                "url": f"{canon}#p{i}"}
+        offer = price_offer(p.get("price"))
+        if offer:
+            node["offers"] = offer
+        items.append({"@type": "ListItem", "position": i, "item": node})
+
     blocks = [{
         "@context": "https://schema.org", "@type": "Article",
         "headline": g["title"], "description": g["dek"],
         "datePublished": g["updated"], "dateModified": g["updated"],
         "inLanguage": lang,
         "author": {"@type": "Organization", "name": AUTHOR.get(lang, AUTHOR[DEFAULT])},
-        "publisher": {"@type": "Organization", "name": BRAND},
+        # Google will not show Article rich results without publisher.logo.
+        "publisher": {"@type": "Organization", "name": BRAND,
+                      "url": SITE,
+                      "logo": {"@type": "ImageObject",
+                               "url": f"{SITE}/icon-512.png",
+                               "width": 512, "height": 512}},
         "image": f"{SITE}/images/hero-{g['slug']}.jpg",
         "mainEntityOfPage": canon,
     }, {
         "@context": "https://schema.org", "@type": "ItemList",
         "itemListOrder": "https://schema.org/ItemListOrderDescending",
         "numberOfItems": len(g["products"]),
-        "itemListElement": [{"@type": "ListItem", "position": i, "name": p["name"],
-                             "url": f"{canon}#p{i}"}
-                            for i, p in enumerate(g["products"], 1)],
+        "itemListElement": items,
+    }, {
+        # The crumbs were on the page visually but not in structured data, so
+        # search results showed a bare URL where a path could have been.
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": t(lang, "home"),
+             "item": f"{SITE}/{LANGS[lang]['path']}"},
+            {"@type": "ListItem", "position": 2, "name": t(lang, "guides"),
+             "item": f"{SITE}/{LANGS[lang]['path']}posts.html"},
+            {"@type": "ListItem", "position": 3, "name": g["title"], "item": canon},
+        ],
     }]
     if g.get("faq"):
         blocks.append({

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" id="root-html">
 <head>
+<script>(function(){try{var t=localStorage.getItem("fh-theme");if(!t)t=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";document.documentElement.dataset.theme=t;}catch(e){}})();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>fashionhotspot — Best Amazon &amp; AliExpress Deals</title>
@@ -35,14 +36,61 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"fashionhotspot","url":"https://fashionhotspot.site/","description":"Hand-picked deals from Amazon & AliExpress.","publisher":{"@type":"Organization","name":"fashionhotspot","url":"https://fashionhotspot.site/"}}</script>
 <style>
 /* ═══ DEPTH — immersive 3D commerce ═══ */
-:root{
-  --bg:#0B0714; --bg2:#140D24;
-  --card:rgba(24,16,40,.82); --glass:rgba(255,255,255,.045);
-  --border:rgba(255,255,255,.09); --border-2:rgba(255,255,255,.16);
-  --ink:#F6F1FC; --ink2:#B7A9CC; --ink3:#7E6F98;
-  --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#2BE4B4; --violet:#8B5CF6;
-  --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
+/* ── Themes ───────────────────────────────────────────────────────────────
+   Dark is the default because it is what this page has always been. Light is
+   an override, tuned to the SAME cream/coral palette the guides and the legal
+   pages already use (tools/theme.py) — before this, clicking a guide from the
+   homepage threw you from near-black to cream with no warning, which read as
+   two different sites.
+
+   The accents are re-mixed rather than reused. #FFC23C amber and #2BE4B4 mint
+   sit on near-black very happily and are close to unreadable on cream, so the
+   light theme darkens them. --grad is deliberately shared: it lives on coral
+   buttons whose own background does not change, and #2A1208 stays the text
+   colour on it in both themes for the same reason. */
+:root, :root[data-theme="dark"]{
+      --bg:#0B0714; --bg2:#140D24;
+      --card:rgba(24,16,40,.82); --glass:rgba(255,255,255,.045);
+      --border:rgba(255,255,255,.09); --border-2:rgba(255,255,255,.16);
+      --ink:#F6F1FC; --ink2:#B7A9CC; --ink3:#7E6F98;
+      --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#2BE4B4; --violet:#8B5CF6;
+      --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
+      /* decorations that assume a dark backdrop */
+      --dots:rgba(255,255,255,.5); --dots-2:rgba(255,255,255,.3);
+      --glare:rgba(255,255,255,.16); --solid:var(--solid); --imgbg:#FFFDF8;
+      --sheen:rgba(255,255,255,.5);
+      --floor-a:rgba(0,0,0,.8); --floor-b:rgba(0,0,0,.4);
+      --tint:rgba(255,255,255,.05); --sh:0 18px 40px rgba(0,0,0,.4);
+      --sh-lg:0 30px 70px rgba(0,0,0,.6); --footer-bg:rgba(0,0,0,.35);
 }
+:root[data-theme="light"]{
+      --bg:#FFF6EE; --bg2:#FFFFFF;
+      --card:rgba(255,255,255,.92); --glass:rgba(46,31,38,.035);
+      --border:rgba(46,31,38,.10); --border-2:rgba(46,31,38,.18);
+      --ink:#2E1F26; --ink2:#5A4550; --ink3:#8C7580;
+      --coral:#E14B4B; --peach:#E8734F; --amber:#B77A00; --mint:#0F9B78; --violet:#7C3AED;
+      --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
+      --dots:rgba(46,31,38,.30); --dots-2:rgba(46,31,38,.18);
+      --glare:rgba(46,31,38,.08); --solid:#FFFFFF; --imgbg:#FFFDF8;
+      --sheen:rgba(255,255,255,.85);
+      --floor-a:rgba(46,31,38,.10); --floor-b:rgba(46,31,38,.04);
+      /* On cream, a 5%-white tint is literally invisible and a 40%-black
+         shadow is a smudge. Both flip sign and drop in strength. */
+      --tint:rgba(46,31,38,.05); --sh:0 10px 26px rgba(58,34,48,.10);
+      --sh-lg:0 20px 48px rgba(58,34,48,.16); --footer-bg:rgba(46,31,38,.04);
+}
+html{color-scheme:dark light}
+:root[data-theme="light"] body{background:var(--bg);color:var(--ink)}
+/* The toggle, matched to the existing .lang-sel pill in the top bar. */
+.themetog{flex:0 0 auto;width:38px;height:38px;border-radius:999px;cursor:pointer;
+  background:var(--glass);border:1px solid var(--border-2);color:var(--ink2);
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;transition:border-color .15s,color .15s,background .15s}
+.themetog:hover{border-color:var(--coral);color:var(--coral)}
+.themetog .tt-moon{display:none}
+:root[data-theme="dark"] .themetog .tt-sun{display:none}
+:root[data-theme="dark"] .themetog .tt-moon{display:inline}
+
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -59,8 +107,8 @@ body::before{content:'';position:fixed;inset:-20%;z-index:0;pointer-events:none;
 @keyframes aurora{0%{transform:translate(0,0) rotate(0) scale(1)}50%{transform:translate(3%,-2%) rotate(3deg) scale(1.07)}100%{transform:translate(-3%,2%) rotate(-3deg) scale(1.02)}}
 body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
   background-image:
-    radial-gradient(1.3px 1.3px at 24px 42px, rgba(255,255,255,.5), transparent 55%),
-    radial-gradient(1px 1px at 130px 96px, rgba(255,255,255,.3), transparent 55%),
+    radial-gradient(1.3px 1.3px at 24px 42px, var(--dots), transparent 55%),
+    radial-gradient(1px 1px at 130px 96px, var(--dots-2), transparent 55%),
     radial-gradient(1.7px 1.7px at 210px 30px, rgba(255,194,160,.4), transparent 55%),
     radial-gradient(1.2px 1.2px at 76px 168px, rgba(200,180,255,.35), transparent 55%);
   background-size:250px 250px;animation:stars 160s linear infinite}
@@ -92,7 +140,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .hero-floor{position:absolute;left:-10%;right:-10%;bottom:-46%;height:70%;pointer-events:none;z-index:0;
   background:linear-gradient(rgba(255,120,90,.16) 1.5px,transparent 1.5px),linear-gradient(90deg,rgba(255,120,90,.16) 1.5px,transparent 1.5px);
   background-size:56px 56px;transform:perspective(600px) rotateX(62deg);
-  -webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.8),transparent 78%);mask-image:linear-gradient(to top,rgba(0,0,0,.8),transparent 78%);
+  -webkit-mask-image:linear-gradient(to top,var(--floor-a),transparent 78%);mask-image:linear-gradient(to top,var(--floor-a),transparent 78%);
   animation:floorscroll 14s linear infinite}
 @keyframes floorscroll{to{background-position:0 56px,56px 0}}
 .hero-badge{display:inline-flex;align-items:center;gap:9px;background:var(--glass);border:1px solid var(--border-2);backdrop-filter:blur(10px);border-radius:999px;padding:8px 18px;margin-bottom:26px}
@@ -125,7 +173,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 @keyframes floaty{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-22px) rotate(8deg)}}
 
 /* ── Ticker ── */
-.ticker{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:rgba(255,255,255,.03);overflow:hidden;padding:12px 0;z-index:2}
+.ticker{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--tint);overflow:hidden;padding:12px 0;z-index:2}
 .ticker-track{display:flex;gap:38px;width:max-content;animation:marquee 40s linear infinite}
 .ticker:hover .ticker-track{animation-play-state:paused}
 @keyframes marquee{to{transform:translateX(-50%)}}
@@ -142,9 +190,9 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 #stage3d{position:absolute;inset:0;transform-style:preserve-3d;animation:stagespin 42s linear infinite}
 #stage3d-wrap:hover #stage3d{animation-play-state:paused}
 @keyframes stagespin{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
-.car-item{position:absolute;top:50%;left:50%;width:220px;margin:-160px 0 0 -110px;height:320px;border-radius:20px;overflow:hidden;background:#171028;border:1px solid var(--border-2);box-shadow:0 24px 60px rgba(0,0,0,.55);display:flex;flex-direction:column;transition:border-color .2s}
+.car-item{position:absolute;top:50%;left:50%;width:220px;margin:-160px 0 0 -110px;height:320px;border-radius:20px;overflow:hidden;background:var(--solid);border:1px solid var(--border-2);box-shadow:var(--sh);display:flex;flex-direction:column;transition:border-color .2s}
 .car-item:hover{border-color:var(--amber)}
-.car-item .ci-img{height:190px;background:#FFFDF8;overflow:hidden;position:relative}
+.car-item .ci-img{height:190px;background:var(--imgbg);overflow:hidden;position:relative}
 .car-item .ci-img img{width:100%;height:100%;object-fit:cover}
 .car-item .ci-pct{position:absolute;top:10px;left:10px;background:var(--grad);color:#2A1208;font-weight:900;font-size:14px;border-radius:999px;padding:4px 12px;box-shadow:0 4px 16px rgba(255,93,93,.5)}
 .car-item .ci-body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1;text-align:left}
@@ -159,13 +207,13 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 
 /* 3D tilt cards */
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:22px;perspective:1600px}
-.card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:22px;overflow:hidden;backdrop-filter:blur(14px);box-shadow:0 10px 30px rgba(0,0,0,.4);transform-style:preserve-3d;will-change:transform;transition:box-shadow .3s,border-color .3s}
-.card:hover{box-shadow:0 30px 70px rgba(0,0,0,.6),0 0 40px rgba(255,110,80,.12);border-color:var(--border-2)}
-.card .glare{position:absolute;inset:0;z-index:5;pointer-events:none;opacity:0;transition:opacity .25s;background:radial-gradient(420px circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.16),transparent 46%)}
+.card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:22px;overflow:hidden;backdrop-filter:blur(14px);box-shadow:var(--sh);transform-style:preserve-3d;will-change:transform;transition:box-shadow .3s,border-color .3s}
+.card:hover{box-shadow:var(--sh-lg),0 0 40px rgba(255,110,80,.12);border-color:var(--border-2)}
+.card .glare{position:absolute;inset:0;z-index:5;pointer-events:none;opacity:0;transition:opacity .25s;background:radial-gradient(420px circle at var(--gx,50%) var(--gy,50%),var(--glare),transparent 46%)}
 .card:hover .glare{opacity:1}
 .rv{opacity:0;transform:translateY(28px) rotateX(7deg)}
 .rv.in{opacity:1;transform:none;transition:opacity .6s cubic-bezier(.16,1,.3,1),transform .6s cubic-bezier(.16,1,.3,1)}
-.card-img{position:relative;height:212px;background:#FFFDF8;overflow:hidden}
+.card-img{position:relative;height:212px;background:var(--imgbg);overflow:hidden}
 .card-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.16,1,.3,1)}
 .card:hover .card-img img{transform:scale(1.09)}
 .badge{position:absolute;top:12px;right:12px;font-size:11px;font-weight:700;padding:5px 11px;border-radius:999px;color:#fff;z-index:2}
@@ -180,7 +228,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .card-usd{font-size:11px;color:var(--ink3);margin-top:-4px}
 .stars{color:var(--amber);font-size:13px;letter-spacing:1px}
 .buy-btn{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;height:47px;background:var(--grad);background-size:200% auto;color:#2A1208;font-weight:800;font-size:14px;border-radius:14px;margin-top:4px;overflow:hidden;transition:transform .15s,box-shadow .2s}
-.buy-btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);transition:left .5s}
+.buy-btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,var(--sheen),transparent);transform:skewX(-20deg);transition:left .5s}
 .buy-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,110,80,.45)}
 .buy-btn:hover::after{left:130%}
 #no-results{grid-column:1/-1;text-align:center;padding:70px 20px;color:var(--ink3);font-size:1rem;line-height:2;display:none}
@@ -190,10 +238,10 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 
 /* ── Savings visualization ── */
 .viz{max-width:1280px;margin:0 auto;padding:30px 24px 64px}
-.viz-panel{background:var(--card);border:1px solid var(--border);border-radius:24px;backdrop-filter:blur(14px);padding:30px 32px;box-shadow:0 14px 40px rgba(0,0,0,.4)}
+.viz-panel{background:var(--card);border:1px solid var(--border);border-radius:24px;backdrop-filter:blur(14px);padding:30px 32px;box-shadow:var(--sh)}
 .viz-row{display:grid;grid-template-columns:150px 1fr 86px;align-items:center;gap:14px;margin-bottom:13px}
 .viz-lbl{font-size:13.5px;font-weight:700;color:var(--ink2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.viz-track{height:14px;border-radius:999px;background:rgba(255,255,255,.06);overflow:hidden}
+.viz-track{height:14px;border-radius:999px;background:var(--tint);overflow:hidden}
 .viz-fill{height:100%;width:0;border-radius:999px;background:linear-gradient(90deg,#FF5D5D,#FF8E72);box-shadow:0 0 14px rgba(255,110,80,.4);transition:width 1.1s cubic-bezier(.16,1,.3,1)}
 .viz-val{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;color:var(--ink);font-variant-numeric:tabular-nums}
 
@@ -205,14 +253,14 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .tkt-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.9,.3,1)}
 .tkt:hover .tkt-inner{transform:rotateY(180deg)}
 .tkt-f,.tkt-b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;padding:16px 20px;border:1.5px dashed rgba(255,194,60,.5)}
-.tkt-f{background:rgba(255,255,255,.05)}
+.tkt-f{background:var(--tint)}
 .tkt-b{background:var(--grad);transform:rotateY(180deg);border:none;align-items:center;justify-content:center}
 .tkt-code{font-size:18px;font-weight:800;color:var(--amber);font-family:monospace;letter-spacing:2px}
 .tkt-desc{font-size:13px;color:var(--ink2)}
 .tkt-b span{color:#2A1208;font-weight:800;font-size:15px}
 
 /* ── Footer ── */
-footer{background:rgba(0,0,0,.35);border-top:1px solid var(--border);color:var(--ink3);text-align:center;padding:32px 16px;font-size:13px}
+footer{background:var(--footer-bg);border-top:1px solid var(--border);color:var(--ink3);text-align:center;padding:32px 16px;font-size:13px}
 footer .f-logo{margin-bottom:8px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;color:var(--ink2)}
 footer a{color:var(--ink3);font-size:12px;transition:color .15s}
 footer a:hover{color:var(--peach)}
@@ -222,17 +270,17 @@ footer a:hover{color:var(--peach)}
 #find-fab:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 14px 40px rgba(255,93,93,.65)}
 #find-overlay{display:none;position:fixed;inset:0;background:rgba(5,3,12,.7);z-index:1000;backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:16px}
 #find-overlay.open{display:flex}
-#find-modal{background:#161028;border:1px solid var(--border-2);border-radius:24px;width:100%;max-width:720px;max-height:90vh;display:flex;flex-direction:column;box-shadow:0 40px 100px rgba(0,0,0,.7),0 0 60px rgba(139,92,246,.15);overflow:hidden}
+#find-modal{background:var(--solid);border:1px solid var(--border-2);border-radius:24px;width:100%;max-width:720px;max-height:90vh;display:flex;flex-direction:column;box-shadow:var(--sh),0 0 60px rgba(139,92,246,.15);overflow:hidden}
 #find-modal-head{padding:24px 24px 16px;border-bottom:1px solid var(--border);position:relative}
 #find-modal-title{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;color:var(--ink);margin-bottom:12px}
-#find-q{width:100%;border:1.5px solid var(--border-2);background:rgba(255,255,255,.04);border-radius:14px;padding:13px 18px;font-size:16px;font-family:'Inter',sans-serif;color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s}
+#find-q{width:100%;border:1.5px solid var(--border-2);background:var(--tint);border-radius:14px;padding:13px 18px;font-size:16px;font-family:'Inter',sans-serif;color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s}
 #find-q::placeholder{color:var(--ink3)}
 #find-q:focus{border-color:var(--coral);box-shadow:0 0 0 4px rgba(255,93,93,.15)}
 #find-modal-body{overflow-y:auto;padding:20px 24px;flex:1}
 #find-results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
-.find-card{border:1px solid var(--border);border-radius:16px;overflow:hidden;background:rgba(255,255,255,.04);display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
+.find-card{border:1px solid var(--border);border-radius:16px;overflow:hidden;background:var(--tint);display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
 .find-card:hover{transform:translateY(-3px);border-color:var(--border-2)}
-.find-card-img{height:140px;background:#FFFDF8;overflow:hidden}
+.find-card-img{height:140px;background:var(--imgbg);overflow:hidden}
 .find-card-img img{width:100%;height:100%;object-fit:cover}
 .find-card-body{padding:10px 12px 12px;flex:1;display:flex;flex-direction:column;gap:6px}
 .find-card-title{font-size:13px;font-weight:600;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4}
@@ -243,7 +291,7 @@ footer a:hover{color:var(--peach)}
 #find-wa-link{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;font-weight:700;font-size:14px;padding:10px 22px;border-radius:12px;border:none;cursor:pointer}
 #find-close{position:absolute;top:16px;right:20px;background:none;border:none;font-size:22px;color:var(--ink3);cursor:pointer;line-height:1}
 
-#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120px);background:#171028;border:1px solid var(--border-2);color:var(--ink);padding:11px 26px;border-radius:50px;font-weight:600;font-size:14px;transition:transform .3s;z-index:9999;pointer-events:none;box-shadow:0 14px 40px rgba(0,0,0,.5)}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120px);background:var(--solid);border:1px solid var(--border-2);color:var(--ink);padding:11px 26px;border-radius:50px;font-weight:600;font-size:14px;transition:transform .3s;z-index:9999;pointer-events:none;box-shadow:var(--sh)}
 
 .fade{animation:fadeup .3s ease}
 @keyframes fadeup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -296,7 +344,7 @@ html[lang="he"] h1,html[lang="he"] h2{line-height:1.25}
 .lang-sel{height:34px;padding:0 8px;background:var(--glass);border:1px solid var(--border);
   border-radius:10px;font-size:13px;font-weight:600;color:var(--ink);cursor:pointer;
   font-family:inherit;flex:0 0 auto}
-.lang-sel option{background:#181028;color:#F6F1FC}
+.lang-sel option{background:var(--solid);color:#F6F1FC}
 @media(max-width:640px){.lang-sel{height:30px;font-size:12px}}
 </style>
 </head>
@@ -318,7 +366,7 @@ html[lang="he"] h1,html[lang="he"] h2{line-height:1.25}
     </form>
     <select class="lang-sel" id="lang-sel" aria-label="Language" onchange="setLang(this.value)">
       <option value="he">🇮🇱 עברית</option><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option><option value="el">🇬🇷 Ελληνικά</option>
-    </select>
+    </select><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button>
     <a href="#deals" class="hdr-cta" data-i18n="todays_deals">🔥 Today's Deals</a>
   </nav>
 </header>
@@ -1022,5 +1070,6 @@ document.addEventListener('DOMContentLoaded', function() {
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyLang);
 else applyLang();
 </script>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}</script>
 </body>
 </html>

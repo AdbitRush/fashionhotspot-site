@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" id="root-html">
 <head>
+<script>(function(){try{var t=localStorage.getItem("fh-theme");if(!t)t=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";document.documentElement.dataset.theme=t;}catch(e){}})();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Contact — fashionhotspot</title>
@@ -22,21 +23,43 @@
 <meta name="theme-color" content="#FF5D5D">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+/* Tokens + both themes. These pages had no custom properties at all — every
+   colour was a literal — so the toggle had nothing to switch. Light keeps the
+   exact values that were already here; dark matches tools/theme.py so the
+   legal pages and the guides are the same site in either mode. */
+:root, :root[data-theme="light"]{
+  --bg:#FFF6EE; --ink:#3A2A2C; --head:#3A2230; --body:#5A3A4A;
+  --link:#E14B4B; --line:#F2E2D4; --nav-bg:rgba(255,246,238,.97); --muted:#8C7580;
+}
+:root[data-theme="dark"]{
+  --bg:#171019; --ink:#F6EFEA; --head:#F6EFEA; --body:#C9B8C0;
+  --link:#FF8B8B; --line:#332430; --nav-bg:rgba(23,16,25,.97); --muted:#9A8792;
+}
+html{color-scheme:light dark}
+.themetog{margin-inline-start:auto;flex:0 0 auto;width:34px;height:34px;border-radius:999px;
+  cursor:pointer;background:transparent;border:1px solid var(--line);color:var(--body);
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;justify-content:center;
+  transition:border-color .15s,color .15s}
+.themetog:hover{border-color:var(--link);color:var(--link)}
+.themetog .tt-moon{display:none}
+:root[data-theme="dark"] .themetog .tt-sun{display:none}
+:root[data-theme="dark"] .themetog .tt-moon{display:inline}
+
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Inter',system-ui,sans-serif;background:#FFF6EE;color:#3A2A2C;line-height:1.7}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
 .wrap{max-width:820px;margin:0 auto;padding:40px 24px 20px}
-h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:36px;font-weight:800;color:#3A2230;margin-bottom:20px}
-h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;font-weight:700;color:#3A2230;margin:32px 0 10px}
-p{margin-bottom:14px;color:#5A3A4A}
-a{color:#FF5D5D}
-nav{background:rgba(255,246,238,.97);border-bottom:1px solid #F2E2D4;padding:14px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:18px;color:#3A2230;text-decoration:none}
-.logo span{color:#FF5D5D}
+h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:36px;font-weight:800;color:var(--head);margin-bottom:20px}
+h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;font-weight:700;color:var(--head);margin:32px 0 10px}
+p{margin-bottom:14px;color:var(--body)}
+a{color:var(--link)}
+nav{background:var(--nav-bg);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:18px;color:var(--head);text-decoration:none}
+.logo span{color:var(--link)}
 .nav-links{display:flex;gap:16px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
 .nav-links a{font-size:13px;font-weight:600;color:#7A4A2E;text-decoration:none}
-.lang-sel{height:32px;padding:0 8px;background:#fff;border:1.5px solid #F2E2D4;border-radius:9px;
-  font-size:13px;font-weight:600;color:#5A3A4A;cursor:pointer;font-family:inherit}
-footer{text-align:center;padding:28px;color:#A98D7E;font-size:13px;border-top:1px solid #F2E2D4;margin-top:50px}
+.lang-sel{height:32px;padding:0 8px;background:#fff;border:1.5px solid var(--line);border-radius:9px;
+  font-size:13px;font-weight:600;color:var(--body);cursor:pointer;font-family:inherit}
+footer{text-align:center;padding:28px;color:#A98D7E;font-size:13px;border-top:1px solid var(--line);margin-top:50px}
 html[dir="rtl"] .wrap,html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] p{text-align:right}
 @media(max-width:640px){h1{font-size:28px}.wrap{padding:28px 18px 16px}}
 </style>
@@ -53,7 +76,7 @@ html[dir="rtl"] .wrap,html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] p{te
       <option value="he">🇮🇱 עברית</option><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option><option value="el">🇬🇷 Ελληνικά</option>
     </select>
   </div>
-</nav>
+<button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></nav>
 <div class="wrap"><h1 id="pg-h">Contact Us</h1><div id="pg-b">
 <p>Have a deal tip, found a broken link, or want to work with us? We read everything.</p>
 <h2>Email</h2>
@@ -115,5 +138,6 @@ function setLang(l) {
 }
 applyLang();
 </script>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}</script>
 </body>
 </html>
