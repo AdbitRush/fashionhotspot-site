@@ -36,11 +36,13 @@ LATIN_TECH = {
     "hdr", "anc", "ip", "nfc", "oled", "lcd", "uv", "spf", "bpa", "led-", "app",
 }
 
-REQUIRED_TOP = ["slug", "category", "title", "title_he", "dek", "dek_he",
-                "hero_image", "updated", "intro", "intro_he", "how_we_pick",
-                "how_we_pick_he", "products", "faq"]
-REQUIRED_PROD = ["name", "name_he", "tag", "tag_he", "price", "search",
-                 "image", "body", "body_he", "pros", "cons"]
+# English source only. The "_he" siblings that used to be required here moved
+# out to content/i18n/he/<slug>.json when the site went to six languages, and
+# are validated per-language further down.
+REQUIRED_TOP = ["slug", "category", "title", "dek", "hero_image", "updated",
+                "intro", "how_we_pick", "products", "faq"]
+REQUIRED_PROD = ["name", "tag", "price", "search", "image", "body",
+                 "pros", "cons"]
 
 # Claims we must not make: we have not tested these products.
 BANNED = [
@@ -167,14 +169,8 @@ def main():
         for k in ("title", "dek", "how_we_pick"):
             if k in g:
                 check_text(f"{w}.{k}", g[k])
-            if k + "_he" in g:
-                check_text(f"{w}.{k}_he", g[k + "_he"], he=True)
         for i, p in enumerate(g.get("intro", [])):
             check_text(f"{w}.intro[{i}]", p)
-        for i, p in enumerate(g.get("intro_he", [])):
-            check_text(f"{w}.intro_he[{i}]", p, he=True)
-        if len(g.get("intro", [])) != len(g.get("intro_he", [])):
-            err(w, "intro and intro_he have different paragraph counts")
 
         prods = g.get("products", [])
         if len(prods) != 10:
@@ -187,10 +183,6 @@ def main():
             for k in ("tag", "body"):
                 if k in p:
                     check_text(f"{pw}.{k}", p[k])
-                if k + "_he" in p:
-                    check_text(f"{pw}.{k}_he", p[k + "_he"], he=True)
-            if "name_he" in p:
-                check_text(f"{pw}.name_he", p["name_he"], he=True)
             wc = len(p.get("body", "").split())
             if wc < 85:
                 err(pw, f"body only {wc} words — thin content risk")
@@ -207,7 +199,46 @@ def main():
         for i, q in enumerate(faq, 1):
             for k in ("q", "a"):
                 check_text(f"{w}.faq{i}.{k}", q.get(k, ""))
-                check_text(f"{w}.faq{i}.{k}_he", q.get(k + "_he", ""), he=True)
+
+        # Translations live in content/i18n/<lang>/<slug>.json, one file per
+        # language. This used to look for "title_he" / "body_he" keys sitting
+        # inline in the English file, which is the schema from before the split
+        # — so it reported 860 errors against 20 fully-translated guides and
+        # buried every real finding underneath. A check that is wrong 860 times
+        # is not a check.
+        for lang in ("he", "es", "fr", "de", "el"):
+            tf = ROOT / "content" / "i18n" / lang / f"{f.stem}.json"
+            if not tf.exists():
+                err(w, f"no {lang} translation at content/i18n/{lang}/{f.stem}.json")
+                continue
+            try:
+                tr = json.loads(tf.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as ex:
+                err(f"{w}[{lang}]", f"invalid JSON: {ex}")
+                continue
+            tw = f"{w}[{lang}]"
+            for k in ("title", "dek", "how_we_pick"):
+                if not str(tr.get(k, "")).strip():
+                    err(tw, f"{k} is empty")
+                elif lang == "he":
+                    check_text(f"{tw}.{k}", tr[k], he=True)
+            if len(tr.get("intro", [])) != len(g.get("intro", [])):
+                err(tw, f"intro has {len(tr.get('intro', []))} paragraphs, "
+                        f"English has {len(g.get('intro', []))}")
+            if len(tr.get("products", [])) != len(prods):
+                err(tw, f"{len(tr.get('products', []))} products, English has {len(prods)}")
+            for i, tp in enumerate(tr.get("products", []), 1):
+                for k in ("name", "tag", "body"):
+                    if not str(tp.get(k, "")).strip():
+                        err(f"{tw}.p{i}", f"{k} is empty")
+                    elif lang == "he":
+                        check_text(f"{tw}.p{i}.{k}", tp[k], he=True)
+            if len(tr.get("faq", [])) != len(faq):
+                err(tw, f"{len(tr.get('faq', []))} FAQ entries, English has {len(faq)}")
+            for i, tq in enumerate(tr.get("faq", []), 1):
+                for k in ("q", "a"):
+                    if not str(tq.get(k, "")).strip():
+                        err(f"{tw}.faq{i}", f"{k} is empty")
 
         total = (sum(len(p.get("body", "").split()) for p in prods)
                  + sum(len(x.split()) for x in g.get("intro", []))
