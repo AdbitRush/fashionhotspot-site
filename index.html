@@ -909,6 +909,11 @@ function render() {
   pushHash();
   initTilt();
   observeReveals();
+
+  // Keep the showcase ring in step with the grid below it. Guarded because
+  // render() also runs during initial setup, before the carousel IIFE further
+  // down the file has had a chance to define this.
+  if (typeof window.refreshCarousel === 'function') window.refreshCarousel();
 }
 
 // ─── 3D tilt + glare on cards ──────────────────────────────────────────────────
@@ -1057,30 +1062,59 @@ function showToast(msg) {
 (function(){
   const stage = document.getElementById('stage3d');
   const wrap = document.getElementById('stage3d-wrap');
-  const candidates = DEALS.map(d => ({ d, disc: discOf(d) }))
-    .filter(x => x.disc >= 15 && x.d.image)
-    .sort((a,b) => b.disc - a.disc).slice(0, 30);
-  if (candidates.length < 4) { document.getElementById('showcase').style.display = 'none'; return; }
-  
-  // הסר כפילויות — לפי לינק, ואם אין לינק לפי כותרת+תמונה
-  const seen = new Set();
-  const unique = [];
-  for (const x of candidates) {
-    const link = (x.d.link || x.d.finalLink || '').split('?')[0].trim();
-    const key = link || ((x.d.title || '') + '|' + (x.d.image || ''));
-    if (key && !seen.has(key)) { seen.add(key); unique.push(x); }
-  }
-  const items = unique.slice(0, 9);
-  if (items.length < 4) { document.getElementById('showcase').style.display = 'none'; return; }
-  
-  const n = items.length;
+  // The carousel follows the filters. It used to be built once from the whole
+  // DEALS array, so picking "Amazon" narrowed the grid below while the ring
+  // kept spinning AliExpress products — the page contradicted itself.
+  //
+  // rebuild() takes a list and re-renders. render() calls refreshCarousel()
+  // after every filter, category, search or sort change, so the ring always
+  // shows the deepest discounts *within what you are looking at*.
+  const showcase = document.getElementById('showcase');
   const radius = Math.min(360, Math.max(230, window.innerWidth * 0.30));  // .showcase clips, so the ring may exceed the viewport — a 150 floor collapsed it
+  let items = [];
+  let n = 0;
   let currentAngle = 0;
   let isDragging = false;
   let isHover = false;
   let startX = 0, startY = 0, startAngle = 0;
   let idleTimer = null;
-  
+
+  function pick(src) {
+    const cands = (src || []).map(d => ({ d, disc: discOf(d) }))
+      .filter(x => x.disc >= 15 && x.d.image)
+      .sort((a, b) => b.disc - a.disc).slice(0, 30);
+    // De-dupe by link, falling back to title+image when a link is missing.
+    const seen = new Set();
+    const unique = [];
+    for (const x of cands) {
+      const link = (x.d.link || x.d.finalLink || '').split('?')[0].trim();
+      const key = link || ((x.d.title || '') + '|' + (x.d.image || ''));
+      if (key && !seen.has(key)) { seen.add(key); unique.push(x); }
+    }
+    return unique.slice(0, 9);
+  }
+
+  function rebuild(src) {
+    items = pick(src);
+    // Under four the ring looks broken rather than sparse, so hide the whole
+    // section. It must be un-hidden again when a wider filter brings items
+    // back — the original code could only ever hide it, because it ran once.
+    if (items.length < 4) { showcase.style.display = 'none'; n = 0; return; }
+    showcase.style.display = '';
+    n = items.length;
+    currentAngle = 0;
+    render3d();
+    rotate(0, false);
+  }
+
+  // Exposed so render() can call it. Falls back to the full list if the filter
+  // helper is not available for any reason, which keeps the ring populated
+  // rather than empty.
+  window.refreshCarousel = function () {
+    rebuild(typeof getFiltered === 'function' ? getFiltered() : DEALS);
+  };
+
+  function render3d() {
   stage.innerHTML = items.map(function(x, i){
     const ang = Math.round(i * (360 / n));
     return '<a class="car-item" data-index="' + i + '" style="transform:rotateY(' + ang + 'deg) translateZ(' + radius + 'px)"'
@@ -1091,6 +1125,10 @@ function showToast(msg) {
       + '<div class="ci-price">~₪' + Math.round(x.d.price * RATE).toLocaleString('he-IL') + '</div></div>'
       + '</a>';
   }).join('');
+  }
+
+  rebuild(DEALS);
+
   
   // חיצים לניווט
   const arrows = document.createElement('div');
