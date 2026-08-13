@@ -134,6 +134,28 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .tick-item b{color:var(--amber)}
 .tick-item .pct{background:var(--grad);color:#2A1208;font-weight:900;border-radius:8px;padding:2px 9px;font-size:12px;line-height:1.45;line-height:1.45}
 
+/* ── Buying guides strip ── */
+#guides{max-width:1280px;margin:0 auto;padding:56px 24px 8px;text-align:center}
+.g-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:18px;margin-top:26px;text-align:start}
+/* Literal easing, not var(--ease). The generated homepage defines that token
+   but the site repo's index.html does not, and an undefined token makes the
+   whole transition declaration invalid rather than falling back. */
+.g-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1),border-color .25s,box-shadow .25s}
+.g-card:hover{transform:translateY(-4px);border-color:var(--border-2);box-shadow:0 18px 44px rgba(0,0,0,.28)}
+.g-card .g-img{height:132px;background:var(--glass);overflow:hidden}
+.g-card .g-img img{width:100%;height:100%;object-fit:cover;display:block}
+.g-card .g-body{padding:13px 15px 16px;display:flex;flex-direction:column;gap:7px;flex:1}
+.g-card .g-title{font-size:14.5px;font-weight:600;line-height:1.38;color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.g-card .g-meta{font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3);margin-top:auto}
+.g-all{display:inline-block;margin-top:26px;background:var(--grad);color:#2A1208;font-weight:800;font-size:14.5px;text-decoration:none;padding:13px 28px;border-radius:12px;box-shadow:0 8px 24px rgba(255,110,80,.32)}
+.g-all:hover{transform:translateY(-2px)}
+@media(max-width:640px){
+  #guides{padding:40px 18px 4px}
+  .g-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:13px}
+  .g-card .g-img{height:100px}
+  .g-card .g-title{font-size:13px;-webkit-line-clamp:3}
+}
+
 /* ── 3D showcase carousel ── */
 .showcase{max-width:1280px;margin:0 auto;padding:var(--sec-y) 24px var(--sec-y);text-align:center}
 .sec-kicker{font-size:12px;line-height:1.45;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--coral);margin-bottom:8px}
@@ -452,6 +474,72 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   <h2 class="sec-title" data-i18n="sc_title">Today's deepest discounts, in orbit</h2>
   <div class="sec-sub" data-i18n="sc_sub">Hover to pause · click any card to grab it</div>
   <div id="stage3d-wrap"><div id="stage3d"></div></div>
+</section>
+
+<!-- BUYING GUIDES -->
+<section id="guides">
+  <div class="sec-kicker">Buying guides</div>
+  <h2 class="sec-title">What is actually worth buying</h2>
+  <div class="sec-sub">Written by us, not scraped — what we picked, why, and the trade-off you accept with each one.</div>
+  <div class="g-grid">
+      <a class="g-card" href="post-tech.html">
+        <div class="g-img"><img src="images/hero-tech.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">Ten Gadgets That Earn Their Place on Your Desk</div>
+          <div class="g-meta">10 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-coffee.html">
+        <div class="g-img"><img src="images/hero-coffee.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">The Home Coffee Setup, From First Upgrade to Last</div>
+          <div class="g-meta">9 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-kitchen.html">
+        <div class="g-img"><img src="images/hero-kitchen.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">Kitchen Tools That Survive the Drawer Cull</div>
+          <div class="g-meta">9 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-smart-home.html">
+        <div class="g-img"><img src="images/hero-smart-home.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">The Smart Home Parts That Are Actually Worth Wiring In</div>
+          <div class="g-meta">10 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-sleep.html">
+        <div class="g-img"><img src="images/hero-sleep.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">What Actually Helps You Sleep, and What Just Measures It</div>
+          <div class="g-meta">8 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-home-office.html">
+        <div class="g-img"><img src="images/hero-home-office.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">Fixing the Desk You Sit At for Forty Hours a Week</div>
+          <div class="g-meta">10 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-travel.html">
+        <div class="g-img"><img src="images/hero-travel.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">Travel Gear That Earns Its Weight</div>
+          <div class="g-meta">9 min read</div>
+        </div>
+      </a>
+      <a class="g-card" href="post-fitness.html">
+        <div class="g-img"><img src="images/hero-fitness.jpg" alt="" loading="lazy" width="232" height="132"></div>
+        <div class="g-body">
+          <div class="g-title">Home Gym Kit for People Who Will Actually Use It</div>
+          <div class="g-meta">9 min read</div>
+        </div>
+      </a>
+  </div>
+  <a class="g-all" href="posts.html">Read all 35 guides &rarr;</a>
 </section>
 
 <!-- DEALS SECTION -->
