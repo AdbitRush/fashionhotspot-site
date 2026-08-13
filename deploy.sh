@@ -31,7 +31,17 @@ fi
 FTP_PATH="${FTP_PATH:-}"
 
 # Never publish these, whatever else changes.
-EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|deploy\.sh|README\.md|.*\.bak$|.*\.py$)'
+#
+# .md is excluded as a class, not file by file. This listed README.md alone,
+# so HANDOFF.md and GROWTH.md were uploaded and served: HANDOFF.md answered on
+# https://fashionhotspot.site/HANDOFF.md with the deploy setup and a note that
+# an FTP password had leaked. Naming individual files means every new doc is
+# public until someone notices it. The rule is now "no .md reaches the host",
+# which needs no maintenance.
+#
+# .sh likewise — deploy.sh was named explicitly while any other script in the
+# repo root would have shipped.
+EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$)'
 
 mapfile -t FILES < <(
   find . -type f \
