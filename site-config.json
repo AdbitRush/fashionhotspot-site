@@ -19,6 +19,30 @@
     "aliexpress": false,
     "israel": true
   },
+
+  "_feed_comment": [
+    "`feed` governs the HOMEPAGE grid. `affiliates` above governs the GUIDES.",
+    "They are separate on purpose — wiring them together once deleted 815 deals",
+    "from the homepage as a side effect of a guides-only change.",
+    "",
+    "amazon is false here until the Associates application is approved. Not",
+    "because Amazon deals are unwelcome — they are the point — but because a",
+    "compliant Amazon card cannot show a price, a rating or a photo without",
+    "PA-API, and PA-API only exists after approval. A grid of 482 pictureless,",
+    "priceless cards is a worse first impression than a grid of 831 deals that",
+    "all have both. Amazon still has a home in the 35 buying guides, which is",
+    "the part of the site that actually gets read during review.",
+    "",
+    "THE DAY THE ACCEPTANCE EMAIL ARRIVES: flip this to true, add the",
+    "AMAZON_PAAPI_* keys, rebuild. The gates in build-static.js open on their",
+    "own and the ~417 verified Amazon images already sitting in archive.json",
+    "come straight back. See HANDOFF.md, 'After acceptance'."
+  ],
+  "feed": {
+    "amazon": false,
+    "aliexpress": true,
+    "israel": true
+  },
   "aliexpress_off_reason": "Off since 2026-08-09 on the reasoning that a page leading with a competing marketplace on every product is a needless reason to be refused. NOTE 2026-08-14: that was written as though an application were under review. None has been submitted, so this is currently switched off against a review that is not happening — turning AliExpress links off in the guides costs real commission for no present benefit. Decide deliberately: leave off until the day you apply, or turn back on with 'python tools/site_toggle.py aliexpress on'.",
   "last_changed": "2026-08-09",
   "amazon_associate_status": "not_applied",
