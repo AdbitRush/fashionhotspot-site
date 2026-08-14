@@ -19,8 +19,8 @@
     "aliexpress": false,
     "israel": true
   },
-  "aliexpress_off_reason": "Off while the Amazon Associates application is under review — a page that leads with a competing marketplace on every product is a needless reason to be rejected. Turn back on once approved.",
+  "aliexpress_off_reason": "Off since 2026-08-09 on the reasoning that a page leading with a competing marketplace on every product is a needless reason to be refused. NOTE 2026-08-14: that was written as though an application were under review. None has been submitted, so this is currently switched off against a review that is not happening — turning AliExpress links off in the guides costs real commission for no present benefit. Decide deliberately: leave off until the day you apply, or turn back on with 'python tools/site_toggle.py aliexpress on'.",
   "last_changed": "2026-08-09",
-  "amazon_associate_status": "pending",
-  "amazon_associate_note": "Flip to 'approved' the day the Amazon acceptance email arrives. Until then every page in all six languages says the application is pending and that nothing is earned from Amazon links, because claiming membership you do not have is a false statement on the very site Amazon reads while reviewing you."
+  "amazon_associate_status": "not_applied",
+  "amazon_associate_note": "not_applied -> pending on the day the application is actually submitted -> approved the day the acceptance email arrives. This read 'pending' from 2026-08-09 to 2026-08-14 while nothing had been submitted, and the site said so out loud in all six languages: the footer read 'We have applied to the Amazon Associates Program.' Claiming an application you have not made is the same kind of false statement as claiming a membership you do not hold, on the very site Amazon reads when you do apply. The copy now says only what is true either way — not an Associate, nothing earned from Amazon links."
 }
