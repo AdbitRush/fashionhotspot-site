@@ -32,6 +32,7 @@
      a lightness that passes on a light surface. Accents keep their original
      values for borders, glows and fills, where contrast rules don't apply. */
   --price:#2E1F26; --amber-ink:#976700; --accent-ink:#C62F1C;
+  --footer-bg:rgba(0,0,0,.04);
   --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#15B5A0; --violet:#8B5CF6;
   --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
   --hero-grid:rgba(58,34,48,.07);
@@ -43,6 +44,7 @@ html.dark{
   --border:rgba(255,255,255,.09); --border-2:rgba(255,255,255,.16);
   --ink:#F6F1FC; --ink2:#B7A9CC; --ink3:#988CAC;
   --price:#FFC23C; --amber-ink:#FFC23C; --accent-ink:#FF5D5D;
+  --footer-bg:rgba(0,0,0,.35);
   --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#2BE4B4; --violet:#8B5CF6;
   --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
   --hero-grid:rgba(255,120,90,.16);
@@ -241,7 +243,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .tkt-b span{color:#2A1208;font-weight:800;font-size:16px;line-height:1.6}
 
 /* ── Footer ── */
-footer{background:rgba(0,0,0,.35);border-top:1px solid var(--border);color:var(--ink3);text-align:center;padding:var(--s5) 16px var(--s4);font-size:14px;line-height:1.5}
+footer{background:var(--footer-bg);border-top:1px solid var(--border);color:var(--ink3);text-align:center;padding:var(--s5) 16px var(--s4);font-size:14px;line-height:1.5}
 footer .f-logo{margin-bottom:8px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;line-height:1.6;color:var(--ink2)}
 footer a{color:var(--ink3);font-size:12px;line-height:1.45;transition:color var(--t-fast) var(--ease)}
 footer a:hover{color:var(--peach)}
