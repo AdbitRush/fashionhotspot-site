@@ -961,6 +961,12 @@ function render() {
   document.querySelectorAll('.per-btn').forEach(b => {
     const active = parseInt(b.dataset.per) === (state.per || PAGE_SIZE);
     b.className = 'pill per-btn' + (active ? ' active-dark' : '');
+    // Set the active colour here rather than leaning on .pill.active-dark.
+    // The other three pill rows resolve that rule to #2A1208; this row did not
+    // — it kept .pill's --ink2 and --glass while still taking the gradient, so
+    // the selected number sat at 2.90:1. .cat-btn already assigns its colour
+    // inline for the same reason. #2A1208 is the ink the gradient is built for.
+    b.style.color = active ? '#2A1208' : '';
   });
 
   pushHash();
