@@ -943,6 +943,14 @@ function render() {
   document.querySelectorAll('.plat-btn').forEach(b => {
     const active = b.dataset.plat === state.platform || (!state.platform && b.dataset.plat === 'all');
     b.className = 'pill plat-btn' + (active ? ' active-dark' : '');
+    // A chip that filters to nothing is worse than a missing chip: the whole
+    // complaint about empty categories was a filter that led to a blank grid.
+    // The category row already hides itself below a threshold; platforms now do
+    // the same, so the Amazon chip disappears while the feed excludes Amazon
+    // and reappears by itself the day it is switched back on.
+    const p = b.dataset.plat;
+    const n = p === 'all' ? DEALS.length : DEALS.filter(d => d.platform === p).length;
+    b.style.display = n === 0 ? 'none' : '';
   });
   document.querySelectorAll('.cat-btn').forEach(b => {
     const c = b.dataset.cat;
