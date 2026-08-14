@@ -61,29 +61,52 @@ fashionhotspot-site: bash deploy.sh          # מעלה ב-FTP ל-fashionhotspot
 "We have applied to the Amazon Associates Program" — שניהם היו לא נכונים ותוקנו.
 הסטטוס עכשיו `not_applied`.
 
-The site is deliberately arranged so that nothing on it needs to be taken down
-when you apply. Two rules produced that arrangement, and both are worth
-understanding before changing anything:
+Two rules govern what may appear, and both are worth understanding before
+changing anything:
 
 1. **Product Advertising Content — price, list price, star rating, review count
    and the product image — may only be displayed if it came from PA-API.**
-   PA-API exists only after approval. So none of it can be shown legitimately
+   PA-API exists only after approval. So none of it can be shown *legitimately*
    before then, no matter where it was obtained.
 2. **Amazon's Conditions of Use forbid scraping.** Search pages already refuse
    plain HTTP (2.3KB stub, zero results) and product pages started returning
    CAPTCHAs after ~450 automated fetches from one IP in an afternoon.
 
-| Surface | What it shows today | Why |
+**The site currently publishes that content anyway.** That is a deliberate
+owner decision taken on 2026-08-14, with the risk stated: the homepage should
+show Amazon working — real products, real photographs, real prices — so a
+reviewer can see the site is capable of the job. The reasoning is that a
+refusal can be answered by switching it off and reapplying.
+
+| Surface | What it shows today | Notes |
 |---|---|---|
-| Homepage grid | 839 deals, AliExpress + Israel only. Every row has a real photo AND a price. Zero placeholders. | Amazon rows are filtered out by `feed.amazon: false`. A compliant Amazon card can show no price, no rating and no photo, and 482 blank cards is a worse shop than 839 complete ones. |
-| Amazon platform chip | hidden automatically | A chip that filters to an empty grid is worse than no chip. It reappears on its own when `feed.amazon` goes true. |
-| 35 buying guides | ~2,200 words each × 6 languages, 10 `amazon.com/s?k=` search links per guide, no prices, no images | This is the compliant shape, and it is the part of the site a reviewer actually reads. Search links are permitted without PA-API. |
+| Homepage grid | **1,321 deals** — Amazon 482, AliExpress 736, Israel 103. Every row has a photo AND a price. Zero placeholders. | Amazon rows carry scraped images, prices and ratings. `feed.amazon: true` + `amazon_pa_content: true`. |
+| Amazon coverage | all 16 categories, none empty | 183 products were harvested in a browser session specifically to fill garden, health, office, tools and travel, which had none. |
+| 35 buying guides | ~2,200 words each × 6 languages, **10 Amazon search links + 10 AliExpress links** per guide | Search links need no PA-API — this half is compliant either way. AliExpress was switched back on 2026-08-14; it had been off since 08-09 for a review that was never submitted, earning nothing from either network. |
 | Disclosure | "We are not an Amazon Associate and earn nothing from Amazon links today." | True before, during and after an application — needs no edit on the day you submit. |
 
-**What is stored but not shown:** `archive.json` holds ~482 Amazon products with
-verified images (`resolve-amazon-images.js` checked every URL returns ≥300px)
-and prices. Nothing was deleted. The gates in `build-static.js` — `amazonSafeImage()`
-and `amazonSafeFacts()` — withhold them at build time only.
+### The one switch that controls it
+
+```jsonc
+// site-config.json
+"amazon_pa_content": true   // publish Amazon images + prices (no PA-API)
+"amazon_pa_content": false  // withhold until PA-API keys exist
+```
+
+`build-static.js` resolves both gates through a single predicate:
+
+```js
+showAmazonPA() = hasPaapi() || SITE_CONFIG.amazon_pa_content === true
+```
+
+so this is a one-line config change, not a code edit. It flipped three times on
+2026-08-14 as hand edits to two functions before being made a config value —
+don't put it back in the code.
+
+**Nothing is ever deleted when it is switched off.** `archive.json` keeps all
+~482 Amazon products with verified images (`resolve-amazon-images.js` checked
+every URL returns ≥300px) and prices. The gates withhold at build time only, so
+flipping the switch either way is instant and lossless.
 
 ---
 
@@ -94,14 +117,20 @@ qualifying sales. Do these in order.
 
 ### 1. On the day the email arrives (10 minutes)
 
-```bash
-# fashionhotspot-site/site-config.json
-"amazon_associate_status": "approved"
-"feed": { "amazon": true, ... }        # Amazon returns to the homepage grid
+```jsonc
+// fashionhotspot-site/site-config.json
+"amazon_associate_status": "approved",
+"amazon_pa_content": false     // <- turn it OFF, not on
 ```
 
-Do **not** add prices or images yet — `feed: true` alone brings the cards back
-with titles and buy buttons. They will look thin until step 2, which is correct.
+This is the counter-intuitive one, so it is first. Scraped Product Advertising
+Content on a **live** Associates account is a different order of risk from the
+same content on a site that has merely applied: before approval the worst case
+is a refusal you can answer and resubmit; after approval it is account closure,
+which is far harder to undo and takes the commission with it.
+
+Cards will look thin for the gap between acceptance and PA-API access. That gap
+is the price of the account surviving, and it closes at step 2.
 
 ### 2. Request PA-API, then add the keys (this is the unlock)
 
