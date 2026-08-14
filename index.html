@@ -13,6 +13,22 @@
 <meta property="og:title" content="fashionhotspot — Daily deals from Amazon and AliExpress">
 <meta property="og:description" content="Daily curated deals from Amazon and AliExpress. Save more every day.">
 <meta property="og:type" content="website">
+<link rel="canonical" href="https://fashionhotspot.site/">
+<!-- Structured data. WebSite + Organization only.
+     Deliberately NOT Product/Offer: the Amazon prices on this page are a
+     scrape-time snapshot, and Offer schema would hand those same numbers to
+     Google to index and show in results. Publishing them on the page is the
+     owner's decision; syndicating them into search results is a separate and
+     larger thing, and stale prices in a rich result are worse than none.
+     Add Offer schema when PA-API supplies live prices, not before.
+     There is also no hreflang here on purpose: the homepage switches language
+     client-side at a single URL, so there are no alternates to point at.
+     /he/ returns 403 and /he/index.html 404 — only the guides have per-language
+     URLs, and those already carry hreflang. -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://fashionhotspot.site/#website","url":"https://fashionhotspot.site/","name":"fashionhotspot","inLanguage":["en","he","es","fr","de","el"],"publisher":{"@id":"https://fashionhotspot.site/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://fashionhotspot.site/#q={search_term_string}"},"query-input":"required name=search_term_string"}},
+{"@type":"Organization","@id":"https://fashionhotspot.site/#org","name":"fashionhotspot","url":"https://fashionhotspot.site/","logo":{"@type":"ImageObject","url":"https://fashionhotspot.site/icon-512.png","width":512,"height":512},"email":"fashionhotspotsite@gmail.com"}
+]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
