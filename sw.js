@@ -19,7 +19,7 @@
 // Images, CSS and JS are still cached, because those are content-addressed
 // enough that a stale copy is harmless and the offline win is real.
 
-const VERSION = '2026-08-13a';
+const VERSION = '2026-08-14a';
 const CACHE = `fhs-static-${VERSION}`;
 
 self.addEventListener('install', () => self.skipWaiting());
