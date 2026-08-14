@@ -60,4 +60,10 @@
     AddType application/manifest+json .webmanifest
 </IfModule>
 
-ErrorDocument 404 /index.html
+# A missing page served the full 1.4 MB homepage as its error body. The status
+# code was always correct — Apache preserves the 404 through ErrorDocument, so
+# this was never a soft-404 and nothing bad was being indexed — but every dead
+# link, every stale bookmark and every bot probing for /wp-login.php cost a
+# megabyte and a half of transfer, and a visitor got the shop with no
+# explanation of what went wrong. 404.html is ~1.6 KB and says so.
+ErrorDocument 404 /404.html

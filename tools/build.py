@@ -52,7 +52,49 @@ def amazon(term):
     return f"https://www.amazon.com/s?k={quote_plus(term)}&tag={AMZ_TAG}"
 
 
+def load_ali_links():
+    """Pre-generated tracked AliExpress links, keyed by search term.
+
+    Built by whatsapp-deals-bot/gen-aliexpress-guide-links.js, which calls
+    aliexpress.affiliate.link.generate once per term and writes the resulting
+    s.click.aliexpress.com URLs here. Generation is a separate step because it
+    needs the API credentials from that repo's .env, which this one does not
+    have and should not.
+
+    Re-run it after adding or renaming a `search` value in content/*.json:
+        node gen-aliexpress-guide-links.js
+    """
+    # data/, NOT content/ — build.py globs content/*.json expecting guide
+    # documents and dies with KeyError: 'slug' on anything else in there.
+    f = ROOT / "data" / "aliexpress-links.json"
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+ALI_LINKS = load_ali_links()
+
+
 def aliexpress(term):
+    """A monetized AliExpress link for a search term.
+
+    This used to return a bare /wholesale?SearchText= URL with no tracking of
+    any kind, while amazon() directly above appended &tag=. Turning AliExpress
+    on in the guides therefore added 350 links across 210 pages that sent
+    AliExpress free traffic and earned nothing.
+
+    Note the URL shape: affiliate.link.generate rejects /wholesale?SearchText=
+    with 405 "The result is empty" but accepts /w/wholesale-<slug>.html, which
+    is why the generator asks for that form.
+
+    A missing entry falls back to the untracked URL — a working link that earns
+    nothing is better than a dead one — so check the count after a rebuild if
+    you have just edited content/*.json.
+    """
+    tracked = ALI_LINKS.get(term)
+    if tracked:
+        return tracked
     from urllib.parse import quote_plus
     return f"https://www.aliexpress.com/wholesale?SearchText={quote_plus(term)}"
 
@@ -233,7 +275,25 @@ def render_guide(g, lang):
             + f'<p class="disc">{e(disclosure(lang, SHOW_AMZ, SHOW_ALI))}</p>'
             + "</div></div>" + footer(lang, page))
 
-    return page_shell(lang, f'{g["title"]} — {BRAND}', g["dek"], body,
+    # <title> and <h1> are deliberately different. The h1 keeps the editorial
+    # headline ("Travel Gear That Earns Its Weight"); the title tag targets what
+    # people actually type ("Best Travel Gear 2026..."). Nobody searches a
+    # magazine headline, and a page whose title matches no query is invisible
+    # however well it is written.
+    #
+    # seo_title is English-only for now. Translations fall back to the editorial
+    # title, which is correct behaviour, not a gap to paper over — a machine
+    # translation of an English keyword phrase does not match what a Hebrew or
+    # Spanish speaker types. Those need their own keyword research.
+    # English only. The merge fills untranslated fields from the English doc, so
+    # without the lang check every Hebrew, Spanish, French, German and Greek
+    # page got an English keyword title above a translated h1 — worse than the
+    # editorial title, because it matches no query in any language AND looks
+    # broken. Give the other languages their own seo_title when someone has
+    # done keyword research for them; until then the translated title is right.
+    head_title = (g.get("seo_title") if lang == "en" else None) or g["title"]
+
+    return page_shell(lang, f'{head_title} — {BRAND}', g["dek"], body,
                       canonical=canon,
                       extra_head=json_ld(g, lang, canon) + alternates(page),
                       og_image=f"{SITE}/images/hero-{slug}.jpg")
