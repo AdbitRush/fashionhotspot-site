@@ -197,6 +197,14 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .car-item .ci-body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1;text-align:left}
 .car-item .ci-title{font-size:12px;line-height:1.45;line-height:1.45;font-weight:600;color:#B7A9CC;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .car-item .ci-price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;line-height:1.4;line-height:1.4;color:var(--amber);margin-top:auto}
+/* The ring never looked round: every card drew at identical brightness and
+   size, so nine cards on a circle read as nine flat cards sliding sideways.
+   Two cues fix it — .orbit-floor draws the circle the cards sit on (a real
+   element, sized to the JS radius, laid flat by rotateX inside the existing
+   1500px perspective), and shade() below dims and blurs each card by how far
+   round the back it currently is. */
+.orbit-floor{position:absolute;left:50%;top:58%;transform:translate(-50%,-50%) rotateX(74deg);border-radius:50%;border:1px solid rgba(255,255,255,.10);box-shadow:inset 0 0 70px rgba(255,110,80,.10);pointer-events:none}
+.car-item{will-change:opacity,filter}
 
 /* ── Deals section ── */
 #deals{max-width:1280px;margin:0 auto;padding:var(--sec-y) 24px var(--sec-y)}
@@ -1241,6 +1249,14 @@ function showToast(msg) {
 
   
   // חיצים לניווט
+  // Sized from radius so the ellipse always matches where the cards sit.
+  // Inserted before #stage3d so it paints behind the cards.
+  const floor = document.createElement('div');
+  floor.className = 'orbit-floor';
+  floor.style.width = (radius * 2) + 'px';
+  floor.style.height = (radius * 2) + 'px';
+  wrap.insertBefore(floor, stage);
+
   const arrows = document.createElement('div');
   arrows.className = 'orbit-arrows';
   arrows.innerHTML = '<button class="orbit-arrow orbit-prev" type="button" onclick="orbitPrev()">‹</button><button class="orbit-arrow orbit-next" type="button" onclick="orbitNext()">›</button>';
@@ -1250,6 +1266,27 @@ function showToast(msg) {
     currentAngle = angle;
     stage.style.transition = smooth ? 'transform 0.55s cubic-bezier(.2,.8,.2,1)' : 'none';
     stage.style.transform = 'rotateY(' + angle + 'deg)';
+    shade(angle);
+  }
+
+  // Depth cue. a is how far round the ring a card currently is: 0 at the
+  // front, +/-180 directly behind. Cards at the back also face away from the
+  // viewer, which renders their contents mirrored — dimming them hard makes
+  // that unreadable rather than distracting.
+  function shade(angle) {
+    if (!n) return;
+    const step = 360 / n;
+    for (let i = 0; i < n; i++) {
+      const el = stage.children[i];
+      if (!el) continue;
+      let a = (i * step + angle) % 360;
+      if (a > 180) a -= 360;
+      if (a < -180) a += 360;
+      const t = Math.abs(a) / 180;
+      el.style.opacity = (1 - t * 0.62).toFixed(3);
+      el.style.filter = 'brightness(' + (1 - t * 0.5).toFixed(3) + ') blur(' + (t * 1.6).toFixed(2) + 'px)';
+      el.style.zIndex = String(Math.round(100 - t * 100));
+    }
   }
   
   function snap() {
