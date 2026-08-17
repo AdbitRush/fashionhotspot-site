@@ -1173,9 +1173,18 @@ function showToast(msg) {
   let idleTimer = null;
 
   function pick(src) {
+    // Pool is wider than the ring, then sampled — the ring used to take the top
+    // 9 by discount from a pool of 30, which is deterministic, so a returning
+    // visitor saw the same nine products every single time and the site looked
+    // dead even while the catalogue changed underneath it.
+    //
+    // Quality is unchanged: every candidate still needs >=15% off and a real
+    // image, and the pool is still ordered by discount before sampling, so
+    // these are deep discounts — just a different nine of them each visit.
+    const POOL = 40;
     const cands = (src || []).map(d => ({ d, disc: discOf(d) }))
       .filter(x => x.disc >= 15 && x.d.image)
-      .sort((a, b) => b.disc - a.disc).slice(0, 30);
+      .sort((a, b) => b.disc - a.disc).slice(0, POOL);
     // De-dupe by link, falling back to title+image when a link is missing.
     const seen = new Set();
     const unique = [];
@@ -1183,6 +1192,14 @@ function showToast(msg) {
       const link = (x.d.link || x.d.finalLink || '').split('?')[0].trim();
       const key = link || ((x.d.title || '') + '|' + (x.d.image || ''));
       if (key && !seen.has(key)) { seen.add(key); unique.push(x); }
+    }
+    // Fisher-Yates on a copy. Falls back to the plain top-9 when the pool is
+    // too small to be worth shuffling, so a thin category still shows its best.
+    if (unique.length > 9) {
+      for (let i = unique.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [unique[i], unique[j]] = [unique[j], unique[i]];
+      }
     }
     return unique.slice(0, 9);
   }
