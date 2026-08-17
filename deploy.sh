@@ -41,7 +41,14 @@ FTP_PATH="${FTP_PATH:-}"
 #
 # .sh likewise — deploy.sh was named explicitly while any other script in the
 # repo root would have shipped.
-EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$)'
+# PW.txt was sitting in this directory holding live credentials, and nothing
+# here excluded it — deploy.sh walks the whole tree, so the next deploy would
+# have published it at https://fashionhotspot.site/PW.txt for anyone to fetch.
+# Same class of mistake as HANDOFF.md being served, which is why .md is here.
+#
+# NOT a blanket *.txt rule: robots.txt has to ship. Credential-shaped names
+# only.
+EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$)'
 
 mapfile -t FILES < <(
   find . -type f \

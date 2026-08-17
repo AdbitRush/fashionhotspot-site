@@ -2,3 +2,13 @@
 
 # any variant, so a stray .bak can never be committed
 .env.ftp*
+
+# Credential notes kept in the working tree. PW.txt sat here untracked and
+# un-ignored on 2026-08-17, meaning the next `git add -A` would have committed
+# it to a repo that is pushed to GitHub. Ignore the file and its obvious
+# variants rather than relying on nobody running that command.
+PW.txt
+PW*.txt
+*password*.txt
+*credentials*.txt
+*creds*.txt
