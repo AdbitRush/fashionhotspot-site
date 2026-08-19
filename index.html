@@ -66,19 +66,32 @@ if(localStorage.getItem('fh-design')==='list')document.documentElement.setAttrib
   --save:#0B7A38; --save-soft:#E8F5EC; --rule:#EADFD4; --page:#FFFFFF;
   /* The header is dark in BOTH themes, so the dark-surface green is the right
      one there even in light mode: #0B7A38 on the header is 1.77:1, #3DD68C is
-     5.14:1. Anything sitting on the header takes this, not --save. */
-  --save-hdr:#3DD68C;
+     5.14:1. Anything sitting on the header takes this, not --save.
+     Now that the light-theme header is white, the light green is correct
+     there; --save-hdr survives so the dark theme can differ. */
+  --save-hdr:#0B7A38;
   /* Header tokens. These were REFERENCED by #lang-sel, #cur-sel and #theme-btn
      and never defined anywhere, so each was invalid at computed-value time:
      the fills fell back to transparent and the text survived only by
      inheriting the header's own colour. Defining them makes the header
-     themeable rather than accidental. */
-  --hdr-bg:rgba(11,7,20,.75); --hdr-fill:rgba(255,255,255,.10);
-  --hdr-line:rgba(255,255,255,.22); --hdr-ink:#F6F1FC; --hdr-ink2:#C9C2D2;
-  --hdr-ph:#C9C2D2;
+     themeable rather than accidental.
+
+     LIGHT VALUES, and that is deliberate for BOTH designs. The header used to
+     be a dark charcoal band in the light theme, which is the "top is dark and
+     hard to read" the owner reported twice. It was first fixed only inside
+     the list design, so the default view still showed the dark bar — the fix
+     was real and simply not reaching the page he was looking at. A light page
+     deserves a light header in either design; dark theme keeps a dark one
+     below, where it belongs. */
+  --hdr-bg:#FFFFFF; --hdr-fill:#FFFFFF;
+  --hdr-line:#D6CABE; --hdr-ink:#2E1F26; --hdr-ink2:#5A4550;
+  --hdr-ph:#6B5560;
   --footer-bg:rgba(0,0,0,.04);
   --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#15B5A0; --violet:#8B5CF6;
   --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
+  /* Same hues as --grad, taken down to lightnesses that pass as TEXT on a
+     white surface. For gradient-clipped type only; --grad stays for fills. */
+  --grad-ink:linear-gradient(120deg,#C62F1C,#C24A1E 45%,#976700 90%);
   --hero-grid:rgba(58,34,48,.07);
   --hero-grid2:rgba(255,120,90,.12);
 }
@@ -97,6 +110,9 @@ html.dark{
   --footer-bg:rgba(0,0,0,.35);
   --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#2BE4B4; --violet:#8B5CF6;
   --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
+  /* On a dark surface the bright hues ARE the readable ones, so dark mode
+     keeps the original. Only the light theme needs the darkened variant. */
+  --grad-ink:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
   --hero-grid:rgba(255,120,90,.16);
   --hero-grid2:rgba(255,120,90,.16);
 }
@@ -135,7 +151,11 @@ header{position:sticky;top:0;z-index:60;color:var(--hdr-ink);background:var(--hd
 nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .logo-orb{width:40px;height:40px;border-radius:13px;background:var(--grad);background-size:200% 200%;animation:gradmove 8s ease infinite;display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(255,110,90,.55),inset 0 1px 0 rgba(255,255,255,.4)}
 .logo-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;line-height:1.25;letter-spacing:-.02em;color:inherit}
-.logo-name b{background:var(--grad);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradmove 8s ease infinite}
+/* The wordmark keeps its gradient but takes the TEXT-SAFE one. --grad ends at
+   amber #FFC23C, which is 1.61:1 on the now-white header — the "spot" half of
+   "fashionhotspot" would have faded out. --grad-ink is the same three hues
+   dropped to a lightness that reads on white. */
+.logo-name b{background:var(--grad-ink);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradmove 8s ease infinite}
 .searchbox{display:flex;align-items:center;gap:8px;flex:1 1 auto;max-width:480px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);border-radius:14px;padding:8px 14px;transition:border-color var(--t) var(--ease),box-shadow var(--t) var(--ease)}
 .searchbox:focus-within{border-color:var(--coral);box-shadow:0 0 0 4px rgba(255,93,93,.18),0 0 24px rgba(255,93,93,.15)}
 #search-input{flex:1;border:none;outline:none;font-size:16px;line-height:1.6;font-family:'Inter',sans-serif;color:inherit;background:transparent;min-width:0}
@@ -308,13 +328,9 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
    header shares the page's surface, the page's own --ink and --save are the
    correct colours on it, which is what the earlier dark header was fighting.
    Dark theme keeps a dark header below — there it is correct. */
-html[data-design="list"]{
-  --hdr-bg:#FFFFFF; --hdr-fill:#FFFFFF; --hdr-line:#D6CABE;
-  --hdr-ink:#2E1F26; --hdr-ink2:#5A4550;
-  /* 6.0:1 on white. The old #C9C2D2 was 1.5:1 there. */
-  --hdr-ph:#6B5560;
-  --save-hdr:#0B7A38;
-}
+/* The light-header tokens moved to :root — the header is now bright in BOTH
+   designs, not only this one. Defining them again here would be duplication
+   waiting to drift. Dark theme still differs, so that block stays. */
 html.dark[data-design="list"]{
   --hdr-bg:#120C1F; --hdr-fill:rgba(255,255,255,.06); --hdr-line:rgba(255,255,255,.16);
   --hdr-ink:#F6F1FC; --hdr-ink2:#B7A9CC; --hdr-ph:#9C90AE; --save-hdr:#3DD68C;
