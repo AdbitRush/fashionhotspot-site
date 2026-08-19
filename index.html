@@ -213,8 +213,13 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .car-item .ci-img img{width:100%;height:100%;object-fit:cover}
 .car-item .ci-pct{position:absolute;top:10px;left:10px;background:var(--grad);color:#2A1208;font-weight:900;font-size:14px;line-height:1.5;border-radius:999px;padding:4px 12px;box-shadow:0 4px 16px rgba(255,93,93,.5);direction:ltr;unicode-bidi:isolate}
 .car-item .ci-body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1;text-align:left}
-.car-item .ci-title{font-size:12px;line-height:1.45;line-height:1.45;font-weight:600;color:#B7A9CC;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.car-item .ci-price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;line-height:1.4;line-height:1.4;color:var(--amber);margin-top:auto}
+/* These two were the same bug as #toast and the card price: colours picked for
+   the dark theme, left literal, and unreadable once .car-item took a white
+   surface in light mode. Measured before the fix: the price was --amber
+   #FFC23C on white at 1.61:1, the title a hardcoded #B7A9CC at 2.20:1. Both
+   now come from the elevated-surface pair, 15.67:1 and 8.74:1. */
+.car-item .ci-title{font-size:12px;line-height:1.45;line-height:1.45;font-weight:600;color:var(--on-elev-2);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.car-item .ci-price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;line-height:1.4;line-height:1.4;color:var(--price);margin-top:auto}
 /* The ring never looked round: every card drew at identical brightness and
    size, so nine cards on a circle read as nine flat cards sliding sideways.
    Two cues fix it — .orbit-floor draws the circle the cards sit on (a real
@@ -354,6 +359,78 @@ html[data-design="list"] .buy-btn:hover{
   html[data-design="list"] .card-price{font-size:20px}
   html[data-design="list"] .buy-btn{width:100%;justify-content:center}
 }
+
+/* ── Hero, in list mode ────────────────────────────────────────────────────
+   The hero was the loudest thing on the page: gradient-filled headline on a
+   loop, a pulsing gradient CTA, a gradient floor, and a product photo whose
+   own dark backdrop painted a hard black blob against the cream. DealNews has
+   no hero image at all — the deals start immediately. */
+html[data-design="list"] .hero h1 .shine{
+  background:none;-webkit-text-fill-color:var(--ink);color:var(--ink);animation:none}
+html[data-design="list"] .hero-floor,
+html[data-design="list"] .hero-visual{display:none}
+html[data-design="list"] .hero-inner{padding:44px 24px 28px}
+html[data-design="list"] .hero-badge .dot{background:var(--save);box-shadow:none;animation:none}
+html[data-design="list"] .cta-main{
+  background:var(--save);background-image:none;color:#fff;animation:none;
+  border-radius:8px;font-weight:800}
+html[data-design="list"] .cta-main:hover{transform:none;filter:brightness(1.08)}
+html[data-design="list"] .cta-ghost{
+  border-radius:8px;backdrop-filter:none;background:transparent;
+  border-color:var(--rule)}
+html[data-design="list"] .cta-ghost:hover{transform:none;border-color:var(--save);color:var(--save)}
+html[data-design="list"] .stat3d{
+  background:none;border:0;border-left:3px solid var(--save);border-radius:0;
+  backdrop-filter:none;padding:2px 0 2px 14px;transform:none!important}
+html[data-design="list"] .stat3d:hover{transform:none!important}
+
+/* Section kickers were accent red; in a design with one accent they are not
+   the accent. */
+html[data-design="list"] .sec-kicker{color:var(--ink3)}
+html[data-design="list"] .ticker .pct{
+  background:var(--save-soft);color:var(--save);font-weight:800;border-radius:4px}
+html[data-design="list"] .tick-item b{color:var(--save)}
+
+/* ── Carousel, in list mode ────────────────────────────────────────────────
+   The 3D orbit is the least list-like thing here: side cards are blurred and
+   dimmed to unreadability by shade(), which is a lot of motion spent on
+   products nobody can read. It becomes a plain horizontal rail that scrolls
+   and snaps.
+
+   The orbit's transform, filter and opacity are written INLINE by JS on every
+   frame, so each override needs !important — a stylesheet rule alone loses to
+   an inline style. */
+html[data-design="list"] #stage3d-wrap{height:auto;perspective:none;margin-top:4px}
+html[data-design="list"] #stage3d{
+  position:static;display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;
+  transform-style:flat;transform:none!important;padding:4px 2px 14px;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+html[data-design="list"] .car-item{
+  position:static;margin:0;flex:0 0 172px;height:auto;border-radius:10px;
+  transform:none!important;filter:none!important;opacity:1!important;
+  box-shadow:none;border:1px solid var(--rule);scroll-snap-align:start}
+html[data-design="list"] .car-item .ci-img{height:132px;background:#fff}
+html[data-design="list"] .car-item .ci-img img{object-fit:contain;padding:8px}
+html[data-design="list"] .car-item .ci-price{color:var(--save)}
+html[data-design="list"] .car-item .ci-pct{
+  background:var(--save-soft);color:var(--save);box-shadow:none;font-weight:800}
+html[data-design="list"] .orbit-floor{display:none}
+html[data-design="list"] .orbit-arrow{
+  background:var(--page);border-color:var(--rule);color:var(--ink)}
+html[data-design="list"] .orbit-arrow:hover{border-color:var(--save);color:var(--save);transform:none}
+
+/* The two floating gradients. Not strictly hero or carousel, but they sit on
+   top of both and a gradient pill glowing over a calm list is the one thing
+   that gives the old design away. The header itself stays dark — DealNews and
+   Slickdeals both use a dark header, so that part was already right. */
+html[data-design="list"] .hdr-cta{
+  background:var(--save);background-image:none;color:#fff;animation:none;
+  box-shadow:none;border-radius:8px}
+html[data-design="list"] .hdr-cta:hover{transform:none;filter:brightness(1.08)}
+html[data-design="list"] #find-fab{
+  background:var(--save);background-image:none;color:#fff;animation:none;
+  box-shadow:0 6px 20px rgba(0,0,0,.18);border-radius:10px}
+html[data-design="list"] #find-fab:hover{transform:none;box-shadow:0 8px 26px rgba(0,0,0,.24)}
 
 /* The switch itself. */
 #design-btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 14px;
