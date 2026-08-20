@@ -328,9 +328,14 @@ nav{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:ce
 
 /* floating 3D cubes */
 .cube-wrap{position:absolute;pointer-events:none;z-index:1;transform-style:preserve-3d}
-.hero-visual{position:absolute;top:50%;right:3%;width:min(44vw,470px);transform:translateY(-50%);pointer-events:none;z-index:1;transition:translate var(--t) var(--ease-out);-webkit-mask-image:radial-gradient(ellipse 62% 62% at 50% 48%,#000 55%,transparent 78%);mask-image:radial-gradient(ellipse 62% 62% at 50% 48%,#000 55%,transparent 78%)}
-.hero-visual img{width:100%;height:auto;display:block}
-html.dark .hero-visual img{mix-blend-mode:lighten}
+.hero-visual{position:absolute;top:50%;right:2%;width:min(46vw,520px);height:min(46vw,520px);transform:translateY(-50%);pointer-events:none;z-index:1;transition:translate var(--t) var(--ease-out)}
+.floater{position:absolute;margin:0;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--border);box-shadow:0 30px 70px rgba(60,40,30,.16);animation:drift 8s ease-in-out infinite}
+html.dark .floater{box-shadow:0 30px 70px rgba(0,0,0,.6)}
+.floater img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.floater figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 12px;border-top:1px solid var(--border)}
+.fl-price{font-size:13px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.fl-off{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:10px;font-weight:600;color:var(--accent-ink)}
+@keyframes drift{0%,100%{transform:translate3d(0,0,0) rotate(0)}50%{transform:translate3d(0,-22px,0) rotate(1.6deg)}}
 @media(max-width:980px){.hero-visual{display:none}}
 @media(prefers-reduced-motion:reduce){.hero-visual{transition:none}}
 .cube{position:relative;transform-style:preserve-3d;animation:cubespin 22s linear infinite}
@@ -995,8 +1000,8 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   <div class="hero-floor"></div>
 
   <!-- hero visual (mouse parallax) -->
-  <div class="hero-visual" data-depth="14">
-    <img src="images/hero-home.webp" alt="" width="760" height="760" decoding="async" fetchpriority="high">
+  <div class="hero-visual" data-depth="14" aria-hidden="true">
+    <figure class="floater" style="left:2%;top:4%;width:168px;animation-duration:7.5s;animation-delay:0s"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S89ef794504ae456eba9169b0a39060c5S.jpg" alt="" loading="eager" decoding="async" width="168" height="168" onerror="this.closest('figure').remove()"><figcaption><span class="fl-price">$5.78</span><span class="fl-off">-67%</span></figcaption></figure><figure class="floater" style="left:46%;top:0%;width:200px;animation-duration:9s;animation-delay:0.8s"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S4bd2a5990c7442eea53d08b94f1825eev.jpg" alt="" loading="eager" decoding="async" width="200" height="200" onerror="this.closest('figure').remove()"><figcaption><span class="fl-price">$23.74</span><span class="fl-off">-53%</span></figcaption></figure><figure class="floater" style="left:10%;top:42%;width:226px;animation-duration:8.2s;animation-delay:1.6s"><img src="https://ae-pic-a1.aliexpress-media.com/kf/Se7e6d69136c84ddf965c68979e365522W.png" alt="" loading="lazy" decoding="async" width="226" height="226" onerror="this.closest('figure').remove()"><figcaption><span class="fl-price">$5.95</span><span class="fl-off">-57%</span></figcaption></figure><figure class="floater" style="left:55%;top:44%;width:172px;animation-duration:6.8s;animation-delay:0.4s"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S8f687c29c19e4e2ba24aca681f11af42F.png" alt="" loading="lazy" decoding="async" width="172" height="172" onerror="this.closest('figure').remove()"><figcaption><span class="fl-price">$10.44</span><span class="fl-off">-56%</span></figcaption></figure><figure class="floater" style="left:32%;top:74%;width:150px;animation-duration:10s;animation-delay:2.2s"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S5a9eb814cc494120abd57404fe20ca2b6.jpg" alt="" loading="lazy" decoding="async" width="150" height="150" onerror="this.closest('figure').remove()"><figcaption><span class="fl-price">$43.74</span><span class="fl-off">-5%</span></figcaption></figure>
   </div>
 
   <div class="hero-inner">
