@@ -3,30 +3,34 @@
 <head>
 <script>(function(){try{var t=localStorage.getItem("fh-theme");if(!t)t=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";document.documentElement.dataset.theme=t;}catch(e){}})();</script><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Terms of Service — fashionhotspot</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
-/* Tokens + both themes. These pages had no custom properties at all — every
-   colour was a literal — so the toggle had nothing to switch. Light keeps the
-   exact values that were already here; dark matches tools/theme.py so the
-   legal pages and the guides are the same site in either mode. */
-:root, :root[data-theme="light"]{
-  --bg:#FFF6EE; --ink:#3A2A2C; --head:#3A2230; --body:#5A3A4A;
-  --link:#E14B4B; --line:#F2E2D4; --nav-bg:rgba(255,246,238,.97); --muted:#8C7580;
-}
-:root[data-theme="dark"]{
-  --bg:#171019; --ink:#F6EFEA; --head:#F6EFEA; --body:#C9B8C0;
-  --link:#FF8B8B; --line:#332430; --nav-bg:rgba(23,16,25,.97); --muted:#9A8792;
-}
-html{color-scheme:light dark}
-.themetog{margin-inline-start:auto;flex:0 0 auto;width:34px;height:34px;border-radius:999px;
-  cursor:pointer;background:transparent;border:1px solid var(--line);color:var(--body);
-  font-size:15px;line-height:1;display:inline-flex;align-items:center;justify-content:center;
-  transition:border-color .15s,color .15s}
-.themetog:hover{border-color:var(--link);color:var(--link)}
-.themetog .tt-moon{display:none}
-:root[data-theme="dark"] .themetog .tt-sun{display:none}
-:root[data-theme="dark"] .themetog .tt-moon{display:inline}
-*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}.wrap{max-width:820px;margin:0 auto;padding:40px 24px}h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:36px;font-weight:800;color:var(--head);margin-bottom:20px}h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;font-weight:700;color:var(--head);margin:32px 0 10px}p,li{margin-bottom:14px;color:var(--body)}ul{padding-left:22px}a{color:var(--link)}nav{background:rgba(255,246,238,.95);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;align-items:center;gap:14px}.logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:18px;color:var(--head);text-decoration:none}.logo span{color:var(--link)}.nav-links{display:flex;gap:16px;margin-left:auto}.nav-links a{font-size:13px;font-weight:600;color:#7A4A2E;text-decoration:none}footer{text-align:center;padding:28px;color:#A98D7E;font-size:13px;border-top:1px solid var(--line);margin-top:60px}</style>
+/* Same tokens as the homepage and the guides — these three pages were the last
+   surface still on the old cream/coral shell, which is what made them read as
+   a different site once the makeover landed. */
+:root,:root[data-theme='light']{--bg:oklch(0.945 0.019 80);--surface:oklch(0.978 0.014 82);--ink:oklch(0.21 0.014 55);--head:oklch(0.21 0.014 55);--body:oklch(0.44 0.014 65);--link:oklch(0.45 0.18 25);--accent:oklch(0.55 0.2 25);--line:rgba(0,0,0,.08);--line-2:rgba(0,0,0,.13);--nav-bg:rgba(246,238,228,.9);--muted:oklch(0.52 0.014 68);--foot:oklch(0.925 0.022 78)}
+:root[data-theme='dark']{--bg:#141013;--surface:#1E181C;--ink:#F7F1EC;--head:#F7F1EC;--body:#CBBFB8;--link:oklch(0.82 0.16 25);--accent:oklch(0.72 0.2 25);--line:rgba(255,255,255,.09);--line-2:rgba(255,255,255,.15);--nav-bg:rgba(20,16,19,.9);--muted:#9C8E88;--foot:#0E0B0D}
+html{color-scheme:light dark;-webkit-text-size-adjust:100%}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Archivo,system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--ink);line-height:1.68;font-size:17px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:56px 28px 20px}
+h1{font-weight:900;font-size:clamp(34px,5.2vw,58px);letter-spacing:-.05em;line-height:.94;color:var(--head);margin-bottom:22px;text-wrap:balance}
+h2{font-weight:900;font-size:clamp(22px,2.6vw,28px);letter-spacing:-.035em;line-height:1.06;color:var(--head);margin:44px 0 14px}
+p,li{margin-bottom:16px;color:var(--body);text-wrap:pretty}
+ul{padding-inline-start:22px}
+a{color:var(--link)}
+nav{position:sticky;top:0;z-index:90;background:var(--nav-bg);backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line);padding:13px 28px;display:flex;align-items:center;gap:20px}
+.logo{font-weight:900;font-size:19px;letter-spacing:-.045em;color:var(--head);text-decoration:none;white-space:nowrap}
+.logo span{color:var(--accent)}
+.nav-links{display:flex;gap:22px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.nav-links a{font-size:13.5px;font-weight:600;color:var(--body);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+.nav-links a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+#theme-btn{margin-inline-start:2px;flex:0 0 auto;width:34px;height:34px;border-radius:999px;cursor:pointer;background:transparent;border:1px solid var(--line-2);color:var(--body);font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center}
+#theme-btn:hover{border-color:var(--accent);color:var(--accent)}
+footer{text-align:center;padding:34px 28px;color:var(--muted);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-family:'JetBrains Mono',ui-monospace,monospace;border-top:1px solid var(--line);margin-top:60px;background:var(--foot)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:36px 18px 20px}nav{padding:10px 18px;gap:12px}.nav-links{gap:14px}}
+@media(pointer:coarse){.nav-links a{min-height:44px;display:inline-flex;align-items:center}#theme-btn{width:44px;height:44px}}
+</style>
 </head><body>
 <nav>
   <a href="index.html" class="logo">fashion<span>hotspot</span></a>

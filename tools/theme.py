@@ -107,7 +107,7 @@ CSS = """
   --bg:oklch(0.945 0.019 80); --surface:oklch(0.978 0.014 82);
   --ink:oklch(0.21 0.014 55); --ink-2:oklch(0.44 0.014 65); --ink-3:oklch(0.52 0.014 68);
   --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.13);
-  --accent:oklch(0.6 0.21 25); --accent-ink:oklch(0.45 0.18 25);
+  --accent:oklch(0.55 0.2 25); --accent-ink:oklch(0.45 0.18 25);
   --deep:oklch(0.21 0.014 55);
   --shadow:0 1px 2px rgba(60,40,30,.05),0 10px 30px rgba(60,40,30,.07);
   --card-hover:0 26px 60px rgba(60,40,30,.13);
