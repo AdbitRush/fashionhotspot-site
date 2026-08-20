@@ -41,17 +41,21 @@ if(localStorage.getItem('fh-design')==='list')document.documentElement.setAttrib
 /* ═══ DEPTH — immersive 3D commerce ═══ */
 :root{
   
-  --bg:#FFF6EE; --bg2:#FBEFE3;
+  /* Neutrals carry a plum bias rather than the old peach one. They were warm
+     cream because the accent was coral; against berry that same cream reads as
+     a leftover from a different palette. Same job, hue rotated to sit under
+     the new accent. */
+  --bg:#FDF7FA; --bg2:#F7EDF3;
   --card:#ffffff; --glass:rgba(58,34,48,.045);
-  --border:#F0DFD2; --border-2:#E6D2C2;
-  --ink:#2E1F26; --ink2:#5A4550; --ink3:#6B5560;
+  --border:#F1E2EB; --border-2:#E4D0DE;
+  --ink:#2A1A24; --ink2:#5C4553; --ink3:#6E5566;
   /* Text-safe accents. The coral/amber/mint accents below were chosen for
      the dark theme this design started as, and were carried unchanged into
      the light theme — amber #FFC23C on a white card is 1.61:1, which is why
      the price was unreadable outdoors. These are the same hues taken down to
      a lightness that passes on a light surface. Accents keep their original
      values for borders, glows and fills, where contrast rules don't apply. */
-  --price:#2E1F26; --amber-ink:#976700; --accent-ink:#C62F1C;
+  --price:#2A1A24; --amber-ink:#8A6210; --accent-ink:#A8104C;
   /* Elevated chrome — the toast, the find modal and the carousel tiles.
      These three had their background hardcoded to the dark theme's #171028 /
      #161028 while their TEXT came from a theme token, so in light mode they
@@ -59,11 +63,11 @@ if(localStorage.getItem('fh-design')==='list')document.documentElement.setAttrib
      it: literally background:#171028 with color:var(--ink), and --ink is
      #2E1F26 here — 1.15:1, invisible. Any new raised surface must take BOTH
      halves from this pair, never a literal. */
-  --elev:#FFFFFF; --elev-2:#FFFBF7; --on-elev:#2E1F26; --on-elev-2:#5A4550;
+  --elev:#FFFFFF; --elev-2:#FFFBFD; --on-elev:#2A1A24; --on-elev-2:#5C4553;
   /* Savings green, for the list design. Red reads as alarm; green reads as
      money saved, which is what both Slickdeals and DealNews use for the one
      figure that matters. 4.8:1 on white, 4.6:1 on this cream. */
-  --save:#0B7A38; --save-soft:#E8F5EC; --rule:#EADFD4; --page:#FFFFFF;
+  --save:#0B7A38; --save-soft:#E8F5EC; --rule:#EEDDE8; --page:#FFFFFF;
   /* The header is dark in BOTH themes, so the dark-surface green is the right
      one there even in light mode: #0B7A38 on the header is 1.77:1, #3DD68C is
      5.14:1. Anything sitting on the header takes this, not --save.
@@ -83,38 +87,74 @@ if(localStorage.getItem('fh-design')==='list')document.documentElement.setAttrib
      was real and simply not reaching the page he was looking at. A light page
      deserves a light header in either design; dark theme keeps a dark one
      below, where it belongs. */
-  --hdr-bg:#FFFFFF; --hdr-fill:#FFFFFF;
-  --hdr-line:#D6CABE; --hdr-ink:#2E1F26; --hdr-ink2:#5A4550;
-  --hdr-ph:#6B5560;
+  --hdr-bg:#FFFFFF; --hdr-fill:#FBF7F9;
+  --hdr-line:#EAD9E2; --hdr-ink:#2A1A24; --hdr-ink2:#6B4F5E;
+  --hdr-ph:#8A6E7B;
+  /* The utility rail — language, currency, view, theme, and the affiliate
+     notice. It sits ABOVE the nav and one step deeper in tone, which is what
+     makes the header read as two strata instead of one crowded row. It must
+     stay LIGHT in the light theme: a dark top bar is the single thing the
+     owner has reported twice. The shine here comes from tint and the gradient
+     hairline below, never from darkening this band. */
+  --hdr-rail-bg:#FBF2F6; --hdr-rail-ink:#6B4F5E; --hdr-rail-line:#F0DDE7;
+  --hdr-accent:#C2185B;
   --footer-bg:rgba(0,0,0,.04);
-  --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#15B5A0; --violet:#8B5CF6;
-  --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
-  /* Same hues as --grad, taken down to lightnesses that pass as TEXT on a
-     white surface. For gradient-clipped type only; --grad stays for fills. */
-  --grad-ink:linear-gradient(120deg,#C62F1C,#C24A1E 45%,#976700 90%);
-  --hero-grid:rgba(58,34,48,.07);
-  --hero-grid2:rgba(255,120,90,.12);
+  /* ── Jewel palette ──────────────────────────────────────────────────────
+     Was coral/peach/amber: a beachy sunset that read as generic and, being
+     pale, forced every gradient surface to carry dark-brown text. This is
+     berry / magenta / plum — a fashion palette rather than a summer one, and
+     dark enough that white is the ink on all of it. Gold is deliberately NOT
+     in the gradient: it stays a separate accent, used sparingly, so it still
+     reads as a highlight instead of turning the gradient muddy.
+     --save green is untouched. It is semantic (money saved), not the accent. */
+  --coral:#C2185B; --peach:#9E1B6B; --amber:#B07D18; --mint:#15B5A0; --violet:#6D1B67;
+  --berry:#C2185B; --orchid:#9E1B6B; --plum:#6D1B67; --gold:#B07D18; --rose:#E8639A;
+  /* Every surface painted with --grad takes --on-grad as its ink, the same
+     both-halves-together rule --elev/--on-elev follows above. White measures
+     5.9:1 at the berry end and 10.5:1 at the plum end, so there is no point
+     along the ramp where it drops below AA. */
+  --on-grad:#FFFFFF;
+  --grad:linear-gradient(120deg,#C2185B,#9E1B6B 50%,#6D1B67 100%);
+  /* --grad is now dark enough to read as TEXT on white by itself, so the
+     text-safe variant is simply the same ramp. Kept as its own token because
+     the dark theme still needs to differ. */
+  --grad-ink:linear-gradient(120deg,#C2185B,#9E1B6B 50%,#6D1B67 100%);
+  --hero-grid:rgba(42,26,36,.07);
+  --hero-grid2:rgba(194,24,91,.10);
 }
 html.dark{
-  --bg:#0B0714; --bg2:#140D24;
+  --bg:#0D0711; --bg2:#170D1D;
   --card:rgba(24,16,40,.82); --glass:rgba(255,255,255,.045);
   --border:rgba(255,255,255,.09); --border-2:rgba(255,255,255,.16);
   --ink:#F6F1FC; --ink2:#B7A9CC; --ink3:#988CAC;
-  --price:#FFC23C; --amber-ink:#FFC23C; --accent-ink:#FF5D5D;
+  --price:#F2C45A; --amber-ink:#F2C45A; --accent-ink:#FF74A8;
   --elev:#171028; --elev-2:#161028; --on-elev:#F6F1FC; --on-elev-2:#B7A9CC;
   --save:#3DD68C; --save-soft:rgba(61,214,140,.12); --rule:rgba(255,255,255,.10); --page:#0B0714;
   --save-hdr:#3DD68C;
-  --hdr-bg:rgba(11,7,20,.75); --hdr-fill:rgba(255,255,255,.10);
-  --hdr-line:rgba(255,255,255,.22); --hdr-ink:#F6F1FC; --hdr-ink2:#C9C2D2;
-  --hdr-ph:#C9C2D2;
+  --hdr-bg:rgba(13,7,17,.90); --hdr-fill:rgba(255,255,255,.06);
+  --hdr-line:rgba(255,255,255,.15); --hdr-ink:#F8F1F5; --hdr-ink2:#CBB6C4;
+  --hdr-ph:#A98FA0;
+  /* Deeper than the nav, which on a dark ground means a BLACK overlay. The
+     first version used the same white overlay as the light theme and the rail
+     came out lighter than the nav below it — the utility strip ended up the
+     brightest thing on the page, which is the opposite of its job. "One step
+     deeper" has to be read as a direction, not as a fixed colour. */
+  --hdr-rail-bg:rgba(0,0,0,.34); --hdr-rail-ink:#BCA6B6;
+  --hdr-rail-line:rgba(255,255,255,.09);
+  --hdr-accent:#FF74A8;
   --footer-bg:rgba(0,0,0,.35);
-  --coral:#FF5D5D; --peach:#FF8E72; --amber:#FFC23C; --mint:#2BE4B4; --violet:#8B5CF6;
-  --grad:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
-  /* On a dark surface the bright hues ARE the readable ones, so dark mode
-     keeps the original. Only the light theme needs the darkened variant. */
-  --grad-ink:linear-gradient(120deg,#FF5D5D,#FF8E72 45%,#FFC23C 90%);
-  --hero-grid:rgba(255,120,90,.16);
-  --hero-grid2:rgba(255,120,90,.16);
+  /* Same jewel family lifted for a dark ground: on #0B0714 the deep berry of
+     the light theme is nearly invisible, so the accents move up in lightness
+     while keeping the hue. The gradient stays dark enough for white ink. */
+  --coral:#FF74A8; --peach:#D4569E; --amber:#F2C45A; --mint:#2BE4B4; --violet:#B98CF0;
+  --berry:#FF74A8; --orchid:#D4569E; --plum:#8E2DA8; --gold:#F2C45A; --rose:#FF9DC2;
+  --on-grad:#FFFFFF;
+  --grad:linear-gradient(120deg,#C2185B,#9E1B6B 50%,#6D1B67 100%);
+  /* Clipped TEXT on a dark page needs the bright end of the family, not the
+     fill ramp — the fill is dark by design so white can sit on it. */
+  --grad-ink:linear-gradient(120deg,#FF74A8,#D4569E 50%,#B98CF0 100%);
+  --hero-grid:rgba(255,116,168,.15);
+  --hero-grid2:rgba(255,116,168,.15);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -138,17 +178,85 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
     radial-gradient(1.2px 1.2px at 76px 168px, rgba(200,180,255,.35), transparent 55%);
   background-size:250px 250px;animation:stars 160s linear infinite}
 @keyframes stars{to{background-position:-1250px 620px}}
-header,section,footer,#pager,.ticker,.annc{position:relative;z-index:1}
+header,section,footer,#pager,.ticker{position:relative;z-index:1}
 
 h1,h2,h3{font-family:'Space Grotesk','Inter',sans-serif}
 
-/* ── Announcement bar ── */
-.annc{background:var(--grad);background-size:220% auto;animation:gradmove 8s ease infinite;color:#2A1208;font-size:12px;line-height:1.45;line-height:1.45;font-weight:700;letter-spacing:.02em;text-align:center;padding:9px 16px;z-index:2}
 @keyframes gradmove{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
 
-/* ── Header ── */
-header{position:sticky;top:0;z-index:60;color:var(--hdr-ink);background:var(--hdr-bg);backdrop-filter:saturate(160%) blur(18px);border-bottom:1px solid var(--hdr-line)}
-nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+/* ── Header ─────────────────────────────────────────────────────────────────
+   Two strata. The utility rail carries the settings and the disclosure; the
+   nav carries the four things a shopper came for. The 2px gradient hairline
+   at the bottom is the header's one piece of colour — everything above it
+   stays quiet so the rail and the nav read as one object, not two bars. */
+header{position:sticky;top:0;z-index:60;color:var(--hdr-ink);background:var(--hdr-bg);
+  backdrop-filter:saturate(160%) blur(18px);border-bottom:none;
+  box-shadow:0 1px 0 var(--hdr-line),0 6px 24px -12px rgba(42,26,36,.18)}
+header::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;
+  background:var(--grad);background-size:220% auto;animation:gradmove 9s ease infinite;
+  opacity:.9;pointer-events:none}
+
+/* Utility rail */
+/* Collapsing the rail is done with grid-template-rows 1fr->0fr, not max-height.
+   max-height was tried first and would not animate here at all: the computed
+   value simply stayed at its open figure while the class was on, so the rail
+   never moved. The grid technique animates to the row's REAL height rather
+   than to a guessed ceiling, which is also why it does not need a magic 140px
+   that the two-row mobile rail would have outgrown.
+   border-bottom-color has to go with it — a border sits outside the content
+   box, so a collapsed row alone would leave a stray hairline. */
+/* grid-template-columns:minmax(0,1fr) is not decoration. An implicit grid
+   column is auto-sized, which means max-content — so once the rail's control
+   row went nowrap for scrolling, the column sized itself to the 359px the
+   controls wanted and overflowed the 345px viewport. Same family of trap as
+   min-width:0 on a flex item, and it needs both fixes, not either one. */
+.util{display:grid;grid-template-rows:1fr;grid-template-columns:minmax(0,1fr);
+  background:var(--hdr-rail-bg);border-bottom:1px solid var(--hdr-rail-line);
+  transition:grid-template-rows var(--t) var(--ease),opacity var(--t) var(--ease),
+             border-bottom-color var(--t) var(--ease)}
+/* min-height:0 lets the row collapse; min-width:0 stops the item itself from
+   refusing to go below the min-content width of the nowrap control row. A grid
+   item's automatic minimum applies on BOTH axes, and capping the column above
+   does nothing while the item inside can still overflow it. */
+.util>.util-in{overflow:hidden;min-height:0;min-width:0}
+header.stuck .util{grid-template-rows:0fr;opacity:0;border-bottom-color:transparent}
+@media(prefers-reduced-motion:reduce){.util{transition:none}}
+/* width:100% is load-bearing. This is a GRID item, and margin:0 auto on a
+   grid item opts it out of stretch and sizes it to its content instead — so
+   with the nowrap control row it rendered 359px wide inside a 345px column and
+   hung off the edge. An explicit width puts it back on the column; max-width
+   and the auto margins still do the centring on wide screens.
+   No min-height here on purpose either: the controls are ~30px inside 10px of
+   padding, and a min-height would fight the 0fr collapse above. */
+.util-in{width:100%;max-width:1280px;margin:0 auto;padding:0 24px;
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.util-note{flex:1 1 260px;min-width:0;color:var(--hdr-rail-ink);
+  font-size:11.5px;line-height:1.5;font-weight:600;letter-spacing:.01em;
+  padding:7px 0;margin:0}
+.util-ctl{display:flex;align-items:center;gap:7px;margin-inline-start:auto;
+  padding:5px 0;flex-wrap:wrap}
+.util-sep{width:1px;height:18px;background:var(--hdr-rail-line);flex:0 0 auto}
+/* One shared look for both selects and the icon button, so a new control in
+   this rail cannot drift the way the four inline-styled ones did. */
+.hdr-sel,.hdr-icon,#design-btn{height:30px;border-radius:8px;
+  background:var(--hdr-fill);border:1px solid var(--hdr-line);color:var(--hdr-ink);
+  font-family:inherit;font-size:12.5px;line-height:1.4;font-weight:700;cursor:pointer;
+  transition:border-color var(--t-fast) var(--ease),color var(--t-fast) var(--ease),
+             background var(--t-fast) var(--ease)}
+.hdr-sel{padding:0 8px;max-width:132px}
+.hdr-sel:hover,#design-btn:hover,.hdr-icon:hover{border-color:var(--hdr-accent);color:var(--hdr-accent)}
+.hdr-icon{width:30px;display:flex;align-items:center;justify-content:center;font-size:15px}
+.hdr-sel:focus-visible,.hdr-icon:focus-visible,#design-btn:focus-visible,
+.hdr-link:focus-visible,.hdr-cta:focus-visible,.brand:focus-visible{
+  outline:2px solid var(--hdr-accent);outline-offset:2px}
+
+/* Main nav */
+nav{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;flex:0 0 auto;text-decoration:none;color:inherit}
+.nav-end{display:flex;align-items:center;gap:12px;margin-inline-start:auto;flex:0 0 auto}
+.hdr-link{font-weight:700;font-size:14px;line-height:1.5;color:var(--hdr-ink2);
+  text-decoration:none;white-space:nowrap;transition:color var(--t-fast) var(--ease)}
+.hdr-link:hover{color:var(--hdr-accent)}
 .logo-orb{width:40px;height:40px;border-radius:13px;background:var(--grad);background-size:200% 200%;animation:gradmove 8s ease infinite;display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(255,110,90,.55),inset 0 1px 0 rgba(255,255,255,.4)}
 .logo-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;line-height:1.25;letter-spacing:-.02em;color:inherit}
 /* The wordmark keeps its gradient but takes the TEXT-SAFE one. --grad ends at
@@ -156,14 +264,60 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
    "fashionhotspot" would have faded out. --grad-ink is the same three hues
    dropped to a lightness that reads on white. */
 .logo-name b{background:var(--grad-ink);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradmove 8s ease infinite}
-.searchbox{display:flex;align-items:center;gap:8px;flex:1 1 auto;max-width:480px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);border-radius:14px;padding:8px 14px;transition:border-color var(--t) var(--ease),box-shadow var(--t) var(--ease)}
-.searchbox:focus-within{border-color:var(--coral);box-shadow:0 0 0 4px rgba(255,93,93,.18),0 0 24px rgba(255,93,93,.15)}
+.searchbox{display:flex;align-items:center;gap:9px;flex:1 1 320px;max-width:520px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);border-radius:12px;padding:9px 15px;transition:border-color var(--t) var(--ease),box-shadow var(--t) var(--ease),background var(--t) var(--ease)}
+.searchbox:hover{border-color:var(--hdr-ink2)}
+.searchbox:focus-within{border-color:var(--hdr-accent);background:var(--hdr-bg);box-shadow:0 0 0 3px color-mix(in srgb,var(--hdr-accent) 20%,transparent)}
 #search-input{flex:1;border:none;outline:none;font-size:16px;line-height:1.6;font-family:'Inter',sans-serif;color:inherit;background:transparent;min-width:0}
 /* Was a hardcoded #C9C2D2, which is a pale grey chosen for the dark header.
    On a white header that is 1.5:1 — the placeholder disappears. */
 #search-input::placeholder{color:var(--hdr-ph)}
-.hdr-cta{display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 18px;background:var(--grad);background-size:200% auto;animation:gradmove 7s ease infinite;color:#2A1208;font-weight:800;font-size:14px;line-height:1.5;border-radius:12px;box-shadow:0 8px 24px rgba(255,93,93,.4);transition:transform var(--t-fast) var(--ease)}
-.hdr-cta:hover{transform:translateY(-2px)}
+.hdr-cta{display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 20px;background:var(--grad);background-size:200% auto;animation:gradmove 7s ease infinite;color:var(--on-grad);font-weight:800;font-size:14px;line-height:1.5;border-radius:11px;text-decoration:none;box-shadow:0 6px 18px -6px color-mix(in srgb,var(--berry) 65%,transparent);transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
+.hdr-cta:hover{transform:translateY(-1px);box-shadow:0 10px 24px -8px color-mix(in srgb,var(--berry) 75%,transparent)}
+
+/* Header, narrow. The rail keeps its controls on one line and drops the
+   disclosure below them — the notice is the one thing here nobody taps, so it
+   is what gives up the row. Controls go to 36px: this is a settings strip, not
+   the primary interaction, and forcing 44px here rebuilds the stack of bars
+   the two-tier layout exists to remove. The search box takes the full width on
+   its own line, which is the one control on this header that IS primary. */
+@media(max-width:760px){
+  .util-in{padding:0 16px;gap:6px}
+  .util-note{order:2;flex:1 1 100%;font-size:11px;padding:0 0 7px}
+  .util-ctl{order:1;flex:1 1 100%;margin-inline-start:0;padding:6px 0 0;gap:6px;
+    /* Four controls total ~333px inside a 313px row at 360px, so one of them
+       wrapped onto a line of its own. Scroll the row instead of stacking it —
+       the same call #plat-bar and #cat-bar already make further down, for the
+       same reason: wrapping costs a whole row, scrolling costs nothing. */
+    flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    /* min-width:0 is what actually makes the scroll work. A flex item defaults
+       to min-width:auto, so with nowrap content this row refused to shrink
+       below its 327px of controls, pushed .util-in to 359px inside a 345px
+       viewport, and the whole PAGE scrolled sideways instead of just this row. */
+    min-width:0;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .util-ctl::-webkit-scrollbar{display:none}
+  .util-ctl>*{flex:0 0 auto}
+  .hdr-sel,.hdr-icon,#design-btn{height:34px}
+  .hdr-icon{width:34px}
+  .hdr-sel{max-width:112px}
+
+  /* Row one is the logo and the one action; the search box takes row two on
+     its own. The logo comes down to 17px so those two actually fit side by
+     side — at 22px they did not, and the CTA dropped onto an orphan row. */
+  nav{padding:11px 16px;gap:10px}
+  .brand{gap:8px}
+  .logo-orb{width:34px;height:34px;border-radius:11px}
+  .logo-name{font-size:17px}
+  .nav-end{order:1;gap:8px}
+  .searchbox{order:3;flex:1 0 100%;max-width:none;padding:8px 13px}
+  .hdr-cta{height:36px;padding:0 13px;font-size:12.5px}
+}
+/* Guides goes below 560px. It is secondary, and it still appears twice on the
+   page — above the guides grid and in the footer — so nothing becomes
+   unreachable; keeping it here is what pushed the CTA off the row. */
+@media(max-width:560px){
+  .hdr-link{display:none}
+}
 
 /* ── HERO ── */
 .hero{position:relative;overflow:hidden;perspective:1200px}
@@ -182,7 +336,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .hero h1 .shine{background:var(--grad);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradmove 7s ease infinite}
 .hero p{font-size:18px;line-height:1.4;line-height:1.65;color:var(--ink2);max-width:540px;margin:0 0 34px;font-weight:500}
 .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px}
-.cta-main{display:inline-flex;align-items:center;gap:9px;height:54px;padding:0 32px;background:var(--grad);background-size:200% auto;animation:gradmove 6s ease infinite,ctapulse 3s ease-in-out infinite;color:#2A1208;font-weight:800;font-size:16px;line-height:1.6;border-radius:15px;transition:transform var(--t-fast) var(--ease)}
+.cta-main{display:inline-flex;align-items:center;gap:9px;height:54px;padding:0 32px;background:var(--grad);background-size:200% auto;animation:gradmove 6s ease infinite,ctapulse 3s ease-in-out infinite;color:var(--on-grad);font-weight:800;font-size:16px;line-height:1.6;border-radius:15px;transition:transform var(--t-fast) var(--ease)}
 .cta-main:hover{transform:translateY(-3px) scale(1.02)}
 @keyframes ctapulse{0%,100%{box-shadow:0 12px 32px rgba(255,93,93,.45)}50%{box-shadow:0 16px 44px rgba(255,140,80,.7),0 0 30px rgba(255,194,60,.3)}}
 .cta-ghost{display:inline-flex;align-items:center;gap:8px;height:54px;padding:0 26px;background:var(--glass);border:1.5px solid var(--border-2);color:var(--ink);font-weight:700;font-size:16px;line-height:1.6;border-radius:15px;backdrop-filter:blur(8px);transition:transform var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
@@ -214,7 +368,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 @keyframes marquee{to{transform:translateX(-50%)}}
 .tick-item{display:inline-flex;align-items:center;gap:9px;font-size:14px;line-height:1.5;line-height:1.5;font-weight:700;color:var(--ink2);white-space:nowrap}
 .tick-item b{color:var(--amber-ink)}
-.tick-item .pct{background:var(--grad);color:#2A1208;font-weight:900;border-radius:8px;padding:2px 9px;font-size:12px;line-height:1.45;line-height:1.45;direction:ltr;unicode-bidi:isolate}
+.tick-item .pct{background:var(--grad);color:var(--on-grad);font-weight:900;border-radius:8px;padding:2px 9px;font-size:12px;line-height:1.45;line-height:1.45;direction:ltr;unicode-bidi:isolate}
 
 /* ── Buying guides strip ── */
 #guides{max-width:1280px;margin:0 auto;padding:56px 24px 8px;text-align:center}
@@ -229,7 +383,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .g-card .g-body{padding:13px 15px 16px;display:flex;flex-direction:column;gap:7px;flex:1}
 .g-card .g-title{font-size:14.5px;font-weight:600;line-height:1.38;color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .g-card .g-meta{font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3);margin-top:auto}
-.g-all{display:inline-block;margin-top:26px;background:var(--grad);color:#2A1208;font-weight:800;font-size:14.5px;text-decoration:none;padding:13px 28px;border-radius:12px;box-shadow:0 8px 24px rgba(255,110,80,.32)}
+.g-all{display:inline-block;margin-top:26px;background:var(--grad);color:var(--on-grad);font-weight:800;font-size:14.5px;text-decoration:none;padding:13px 28px;border-radius:12px;box-shadow:0 8px 24px rgba(255,110,80,.32)}
 .g-all:hover{transform:translateY(-2px)}
 @media(max-width:640px){
   #guides{padding:40px 18px 4px}
@@ -249,7 +403,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .car-item:hover{border-color:var(--amber)}
 .car-item .ci-img{height:150px;background:#FFFDF8;overflow:hidden;position:relative}
 .car-item .ci-img img{width:100%;height:100%;object-fit:cover}
-.car-item .ci-pct{position:absolute;top:10px;left:10px;background:var(--grad);color:#2A1208;font-weight:900;font-size:14px;line-height:1.5;border-radius:999px;padding:4px 12px;box-shadow:0 4px 16px rgba(255,93,93,.5);direction:ltr;unicode-bidi:isolate}
+.car-item .ci-pct{position:absolute;top:10px;left:10px;background:var(--grad);color:var(--on-grad);font-weight:900;font-size:14px;line-height:1.5;border-radius:999px;padding:4px 12px;box-shadow:0 4px 16px rgba(255,93,93,.5);direction:ltr;unicode-bidi:isolate}
 .car-item .ci-body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1;text-align:left}
 /* These two were the same bug as #toast and the card price: colours picked for
    the dark theme, left literal, and unreadable once .car-item took a white
@@ -271,7 +425,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 #deals{max-width:1280px;margin:0 auto;padding:var(--sec-y) 24px var(--sec-y)}
 .pill{display:inline-flex;align-items:center;height:35px;padding:0 16px;border-radius:999px;font-size:14px;line-height:1.5;font-weight:700;border:1.5px solid var(--border);color:var(--ink2);cursor:pointer;background:var(--glass);transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),background-color var(--t-fast) var(--ease),color var(--t-fast) var(--ease);backdrop-filter:blur(6px)}
 .pill:hover{transform:translateY(-2px);border-color:var(--border-2);color:var(--ink)}
-.pill.active-dark{background:var(--grad);border-color:transparent;color:#2A1208;box-shadow:0 6px 20px rgba(255,110,80,.35)}
+.pill.active-dark{background:var(--grad);border-color:transparent;color:var(--on-grad);box-shadow:0 6px 20px rgba(255,110,80,.35)}
 
 /* 3D tilt cards */
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:22px;perspective:1600px}
@@ -295,7 +449,7 @@ nav{max-width:1280px;margin:0 auto;padding:13px 24px;display:flex;align-items:ce
 .card-orig{font-size:14px;line-height:1.5;color:var(--ink3);text-decoration:line-through;direction:ltr;unicode-bidi:isolate}
 .card-usd{font-size:11px;line-height:1.4;color:var(--ink3);margin-top:-4px}
 .stars{color:var(--amber-ink);font-size:14px;line-height:1.5;letter-spacing:1px}
-.buy-btn{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;height:47px;background:var(--grad);background-size:200% auto;color:#2A1208;font-weight:800;font-size:14px;line-height:1.5;border-radius:14px;margin-top:4px;overflow:hidden;transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
+.buy-btn{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;height:47px;background:var(--grad);background-size:200% auto;color:var(--on-grad);font-weight:800;font-size:14px;line-height:1.5;border-radius:14px;margin-top:4px;overflow:hidden;transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
 .buy-btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);transition:left var(--t-slow) var(--ease)}
 .buy-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,110,80,.45)}
 .buy-btn:hover::after{left:130%}
@@ -335,13 +489,22 @@ html.dark[data-design="list"]{
   --hdr-bg:#120C1F; --hdr-fill:rgba(255,255,255,.06); --hdr-line:rgba(255,255,255,.16);
   --hdr-ink:#F6F1FC; --hdr-ink2:#B7A9CC; --hdr-ph:#9C90AE; --save-hdr:#3DD68C;
 }
+/* This design is green, so the rail's berry tint and the berry hover/focus
+   accent both have to follow it — a pink strip above green chrome is the same
+   half-a-pair mistake the --hdr-* tokens exist to prevent, just in reverse. */
+html[data-design="list"]{
+  --hdr-rail-bg:#F4F8F5; --hdr-rail-line:#E2EBE5; --hdr-rail-ink:#4A5750;
+  --hdr-fill:#F7FAF8; --hdr-line:#E2EBE5; --hdr-ink:#222B26; --hdr-ink2:#4A5750;
+  --hdr-ph:#6E7C75; --hdr-accent:var(--save-hdr)}
+html.dark[data-design="list"]{--hdr-rail-bg:rgba(0,0,0,.34);--hdr-rail-ink:#A9B6AE}
 html[data-design="list"] header{backdrop-filter:none}
-/* A legal disclosure does not need an animated gradient. Quiet strip, and the
-   sparkle emoji go — they were decorating a compliance notice. */
-html[data-design="list"] .annc{
-  background:var(--save-soft);background-image:none;animation:none;
-  color:var(--ink2);font-weight:600;font-size:0}
-html[data-design="list"] .annc span{font-size:12px}
+/* The list design is the calm one, so the header loses its two moving parts:
+   the gradient hairline stops animating and goes flat green, matching the rest
+   of this design's chrome. The disclosure needed no special casing any more —
+   it is plain rail text now rather than a gradient band with an emoji on each
+   end, which is what the old .annc override existed to undo. */
+html[data-design="list"] header::after{
+  background:var(--save);background-image:none;animation:none;opacity:1;height:2px}
 /* The logo mark and wordmark are the last two gradients in the chrome. */
 html[data-design="list"] .logo-orb{
   background:var(--save);background-image:none;animation:none;box-shadow:none}
@@ -539,20 +702,13 @@ html[data-design="list"] #find-fab{
   box-shadow:0 6px 20px rgba(0,0,0,.18);border-radius:10px}
 html[data-design="list"] #find-fab:hover{transform:none;box-shadow:0 8px 26px rgba(0,0,0,.24)}
 
-/* The switch itself.
-   It lives in the HEADER, which is dark in BOTH themes — that is why the
-   header has its own --hdr-* token set and every other control up there uses
-   it. The first version of this button took --ink and --glass from the page
-   instead, which put near-black text on the dark header at 1.63:1: invisible,
-   and reported as "the top is gray, difficult to read". The list-mode green
-   was worse at 1.77:1.
-   Same failure as #toast this morning — one half of a pair taken from the
-   wrong place. On the header, use --hdr-* and --save-hdr, never --ink/--save. */
-#design-btn{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 14px;
-  border-radius:10px;border:1.5px solid var(--hdr-line);background:var(--hdr-fill);
-  color:var(--hdr-ink);font-weight:700;font-size:14px;cursor:pointer;white-space:nowrap;
-  transition:border-color var(--t-fast) var(--ease),color var(--t-fast) var(--ease)}
-#design-btn:hover{border-color:var(--save-hdr);color:var(--save-hdr)}
+/* The design switch. It now shares .hdr-sel/.hdr-icon's box above, so only the
+   parts unique to it live here.
+   Still the standing rule for anything in this header: it has its own --hdr-*
+   token set, and a control that reaches for --ink or --save instead lands at
+   1.63:1. That happened to this very button once, and was reported as "the top
+   is gray, difficult to read". On the header, use --hdr-* and --hdr-accent. */
+#design-btn{display:inline-flex;align-items:center;gap:6px;padding:0 12px;white-space:nowrap}
 html[data-design="list"] #design-btn{border-color:var(--save-hdr);color:var(--save-hdr)}
 #pager{max-width:1280px;margin:var(--s5) auto;padding:0 24px;display:flex;justify-content:center;gap:12px}
 .pg-btn{display:inline-flex;align-items:center;height:46px;padding:0 24px;background:var(--glass);border:1.5px solid var(--border-2);color:var(--ink);font-weight:700;font-size:14px;line-height:1.5;border-radius:13px;transition:transform var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
@@ -578,12 +734,12 @@ html[data-design="list"] #design-btn{border-color:var(--save-hdr);color:var(--sa
 .tkt-f{background:var(--glass)}
 .tkt-b{background:var(--grad);transform:rotateY(180deg);border:none;align-items:center;justify-content:center}
 .cp-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
-.cp-link{display:inline-flex;align-items:center;gap:9px;height:52px;padding:0 22px;border-radius:14px;background:var(--grad);color:#2A1208;font-weight:800;font-size:15px;line-height:1.5;text-decoration:none;box-shadow:0 8px 24px rgba(255,110,80,.32);transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
+.cp-link{display:inline-flex;align-items:center;gap:9px;height:52px;padding:0 22px;border-radius:14px;background:var(--grad);color:var(--on-grad);font-weight:800;font-size:15px;line-height:1.5;text-decoration:none;box-shadow:0 8px 24px rgba(255,110,80,.32);transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
 .cp-link:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(255,110,80,.45)}
 .cp-note{margin-top:14px;color:var(--ink3);font-size:14px;line-height:1.6}
 .tkt-code{font-size:18px;line-height:1.4;font-weight:800;color:var(--amber-ink);font-family:monospace;letter-spacing:2px;direction:ltr;unicode-bidi:isolate}
 .tkt-desc{font-size:14px;line-height:1.5;color:var(--ink2)}
-.tkt-b span{color:#2A1208;font-weight:800;font-size:16px;line-height:1.6}
+.tkt-b span{color:var(--on-grad);font-weight:800;font-size:16px;line-height:1.6}
 
 /* ── Footer ── */
 footer{background:var(--footer-bg);border-top:1px solid var(--border);color:var(--ink3);text-align:center;padding:var(--s5) 16px var(--s4);font-size:14px;line-height:1.5}
@@ -592,7 +748,7 @@ footer a{color:var(--ink3);font-size:12px;line-height:1.45;transition:color var(
 footer a:hover{color:var(--peach)}
 
 /* ── FAB + Find modal ── */
-#find-fab{position:fixed;bottom:28px;right:24px;z-index:900;display:flex;align-items:center;gap:9px;background:var(--grad);background-size:200% auto;animation:gradmove 7s ease infinite;color:#2A1208;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;line-height:1.6;padding:0 22px;height:54px;border-radius:999px;border:none;box-shadow:0 8px 30px rgba(255,93,93,.5);transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease)}
+#find-fab{position:fixed;bottom:28px;right:24px;z-index:900;display:flex;align-items:center;gap:9px;background:var(--grad);background-size:200% auto;animation:gradmove 7s ease infinite;color:var(--on-grad);font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;line-height:1.6;padding:0 22px;height:54px;border-radius:999px;border:none;box-shadow:0 8px 30px rgba(255,93,93,.5);transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease)}
 #find-fab:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 14px 40px rgba(255,93,93,.65)}
 #find-overlay{display:none;position:fixed;inset:0;background:rgba(5,3,12,.7);z-index:1000;backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:16px}
 #find-overlay.open{display:flex}
@@ -611,7 +767,7 @@ footer a:hover{color:var(--peach)}
 .find-card-body{padding:10px 12px 12px;flex:1;display:flex;flex-direction:column;gap:6px}
 .find-card-title{font-size:14px;line-height:1.5;font-weight:600;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4}
 .find-card-price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;line-height:1.6;color:var(--price);direction:ltr;unicode-bidi:isolate}
-.find-card-btn{display:flex;align-items:center;justify-content:center;height:34px;background:var(--grad);color:#2A1208;font-weight:800;font-size:12px;line-height:1.45;border-radius:10px;margin-top:auto}
+.find-card-btn{display:flex;align-items:center;justify-content:center;height:34px;background:var(--grad);color:var(--on-grad);font-weight:800;font-size:12px;line-height:1.45;border-radius:10px;margin-top:auto}
 #find-wa-section{margin-top:20px;padding:18px;background:rgba(43,228,180,.08);border:1.5px solid rgba(43,228,180,.4);border-radius:16px;text-align:center}
 #find-wa-section p{font-size:14px;line-height:1.5;color:var(--ink2);margin-bottom:12px;line-height:1.5}
 #find-wa-link{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;font-weight:700;font-size:14px;line-height:1.5;padding:10px 22px;border-radius:12px;border:none;cursor:pointer}
@@ -626,7 +782,7 @@ footer a:hover{color:var(--peach)}
 /* ── Orbit arrows ── */
 .orbit-arrows{position:absolute;top:50%;left:0;right:0;z-index:10;pointer-events:none;display:flex;justify-content:space-between;padding:0 20px;transform:translateY(-50%)}
 .orbit-arrow{width:44px;height:44px;border-radius:50%;background:var(--glass);border:1.5px solid var(--border);color:var(--ink);font-size:22px;line-height:1.25;line-height:1.25;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;pointer-events:auto;transition:transform var(--t) var(--ease),box-shadow var(--t) var(--ease),border-color var(--t) var(--ease),background-color var(--t) var(--ease),color var(--t) var(--ease);backdrop-filter:blur(8px)}
-.orbit-arrow:hover{background:var(--grad);border-color:transparent;color:#2A1208;transform:scale(1.1)}
+.orbit-arrow:hover{background:var(--grad);border-color:transparent;color:var(--on-grad);transform:scale(1.1)}
 #stage3d{transition:none;will-change:transform}
 #stage3d-wrap{cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
 #stage3d-wrap:active{cursor:grabbing}
@@ -738,7 +894,6 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   #search-input{height:44px}
   .searchbar{min-height:44px}
   nav a{min-height:44px;display:inline-flex;align-items:center}
-  #lang-sel,#theme-btn{height:44px;min-width:44px}
   .orbit-arrow{width:44px;height:44px}
 }
 
@@ -748,10 +903,10 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
 #sort-bar{flex-wrap:wrap}
 
 @media(max-width:768px){
-  /* These two carry height:36px inline, which outranks any stylesheet rule.
-     Overriding an inline style is the case !important exists for. */
-  #lang-sel{height:44px!important}
-  #theme-btn{width:44px!important;height:44px!important}
+  /* The !important pair that used to live here existed only to beat
+     height:36px set inline on #lang-sel and #theme-btn. Those inline styles
+     are gone — the controls are classed now — so the overrides beat nothing
+     and are dropped. The rail's own tap sizing is set with the rail, below. */
   /* Real navigation, and they were 17px tall — block anchors with no padding. */
   footer a{min-height:44px;display:inline-flex;align-items:center;padding:0 6px}
   .buy-btn{min-height:44px}
@@ -787,36 +942,52 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
 </head>
 <body>
 
-<div class="annc">✨ <span data-i18n="annc">All links are affiliate links · not an Amazon Associate yet — nothing earned from Amazon links</span> ✨</div>
-
 <header>
+  <!-- Utility rail. The language, currency, view and theme controls used to be
+       wedged into the nav between the CTA and the edge, which put four rarely
+       touched settings at the same visual weight as the search box and the
+       primary action. They belong on their own strip above it — the pattern
+       every large retailer uses — leaving the nav to carry only the four
+       things a shopper actually came for. The affiliate notice lives here too
+       rather than in a band of its own; it is a disclosure, not an
+       announcement, and it costs a whole row when it gets one. -->
+  <div class="util">
+    <div class="util-in">
+      <p class="util-note"><span data-i18n="annc">All links are affiliate links · not an Amazon Associate yet — nothing earned from Amazon links</span></p>
+      <div class="util-ctl">
+        <!-- These carry no inline style any more. Every one of them used to
+             repeat the same eight declarations inline, which is also how the
+             light-theme contrast bug got in: an inline color:var(--ink) on a
+             bar that is not the page. Classes below, header tokens only. -->
+        <select id="lang-sel" class="hdr-sel" onchange="setLang(this.value)" aria-label="Language" data-i18n-aria="lang_label">
+          <option value="he">🇮🇱 עברית</option><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option><option value="el">🇬🇷 Ελληνικά</option>
+        </select>
+        <select id="cur-sel" class="hdr-sel" onchange="setCur(this.value)" aria-label="Currency" data-i18n-aria="cur_label">
+          <option value="ILS">₪ ILS</option><option value="USD">$ USD</option><option value="EUR">€ EUR</option>
+        </select>
+        <span class="util-sep" aria-hidden="true"></span>
+        <button id="design-btn" onclick="toggleDesign()" title="Switch between the two designs"><span id="design-btn-txt">List view</span></button>
+        <button id="theme-btn" class="hdr-icon" onclick="toggleTheme()" title="Toggle light/dark" data-i18n-title="theme_label">☀️</button>
+      </div>
+    </div>
+  </div>
+
   <nav>
-    <a href="/" style="display:flex;align-items:center;gap:11px;flex:0 0 auto;">
+    <a href="/" class="brand">
       <span class="logo-orb">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#2A1208" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--on-grad)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
       </span>
       <span class="logo-name">fashion<b>hotspot.</b></span>
     </a>
     <form onsubmit="return false" class="searchbox">
-      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--hdr-ink2)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--hdr-ph)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
       <input id="search-input" type="text" data-i18n-ph="search_ph" placeholder="What are you looking for today?" oninput="onSearch(this.value)">
     </form>
-    <a href="posts.html" data-lhref="posts.html" data-i18n="nav_guides" style="font-weight:800;font-size:14px;line-height:1.5;color:inherit;text-decoration:none;white-space:nowrap;margin-inline-end:10px;">📚 Guides</a>
-    <a href="#deals" class="hdr-cta" data-i18n="todays_deals">🔥 Today's Deals</a>
-    <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
-      <!-- The header is dark in both themes, so these three take the header ink
-           tokens, not --ink. They used to carry color:var(--ink) inline, which
-           in the light theme is near-black on a near-black bar: 1.59:1, the
-           unreadable "black words" the owner reported. Fixed at the source
-           rather than with !important further down. -->
-      <select id="lang-sel" onchange="setLang(this.value)" aria-label="Language" data-i18n-aria="lang_label" style="height:36px;padding:0 10px;border-radius:10px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);color:var(--hdr-ink);font-size:14px;line-height:1.5;font-weight:700;cursor:pointer;transition:.15s;max-width:130px">
-        <option value="he">🇮🇱 עברית</option><option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option><option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option><option value="el">🇬🇷 Ελληνικά</option>
-      </select>
-      <select id="cur-sel" onchange="setCur(this.value)" aria-label="Currency" data-i18n-aria="cur_label" style="height:36px;padding:0 8px;border-radius:10px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);color:var(--hdr-ink);font-size:14px;line-height:1.5;font-weight:700;cursor:pointer;transition:.15s">
-        <option value="ILS">₪ ILS</option><option value="USD">$ USD</option><option value="EUR">€ EUR</option>
-      </select>
-      <button id="design-btn" onclick="toggleDesign()" title="Switch between the two designs"><span id="design-btn-txt">List view</span></button>
-      <button id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark" data-i18n-title="theme_label" style="width:36px;height:36px;border-radius:10px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);color:var(--hdr-ink);font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.15s">☀️</button>
+    <!-- margin-inline-start, not margin-left: this header renders RTL in
+         Hebrew, where margin-left:auto pushed the group the wrong way. -->
+    <div class="nav-end">
+      <a href="posts.html" class="hdr-link" data-lhref="posts.html" data-i18n="nav_guides">📚 Guides</a>
+      <a href="#deals" class="hdr-cta" data-i18n="todays_deals">🔥 Today's Deals</a>
     </div>
   </nav>
 </header>
@@ -1493,7 +1664,7 @@ function render() {
     // — it kept .pill's --ink2 and --glass while still taking the gradient, so
     // the selected number sat at 2.90:1. .cat-btn already assigns its colour
     // inline for the same reason. #2A1208 is the ink the gradient is built for.
-    b.style.color = active ? '#2A1208' : '';
+    b.style.color = active ? 'var(--on-grad)' : '';
   });
 
   pushHash();
@@ -1983,6 +2154,33 @@ document.addEventListener('DOMContentLoaded', function() {
     if (e.target === this) closeFindModal();
   });
 });
+
+/* Shed the utility rail once you start browsing.
+   The header is sticky, and at 115px it was eating a sixth of a phone screen
+   for the whole scroll. Language, currency, view and theme are arrival
+   settings — nobody changes currency halfway down 1,400 deals — so the rail
+   collapses past the fold and the 74px nav, which holds the search box, stays.
+
+   This was first written as a 1px sentinel plus IntersectionObserver, to match
+   the idiom the reveal animations already use. That observer never fired on
+   this page — not even the initial callback — so it silently did nothing. A
+   passive scroll listener, rAF-throttled so it costs one class check per
+   frame at most, is both simpler and actually works. */
+(function () {
+  var header = document.querySelector('header');
+  if (!header) return;
+  var ticking = false;
+  function apply() {
+    ticking = false;
+    header.classList.toggle('stuck', window.scrollY > 120);
+  }
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(apply);
+  }, { passive: true });
+  apply();
+})();
 </script>
 
 <!-- Find a Deal FAB -->
