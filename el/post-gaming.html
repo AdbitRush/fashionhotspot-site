@@ -15,47 +15,42 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+/* ---------- tokens ---------- */
 :root, :root[data-theme="light"]{
-  --bg:#FFF6EE; --surface:#fff; --ink:#2E1F26; --ink-2:#5A4550; --ink-3:#8C7580;
-  --line:#F0DFD2; --line-2:#E6D2C2; --accent:#E14B4B; --accent-ink:#B02F2F;
-  --deep:#3A2230; --shadow:0 1px 2px rgba(58,34,48,.04),0 8px 24px rgba(58,34,48,.06);
-  --nav-bg:rgba(255,246,238,.88);
-  --pro:#3E8E64; --con:#C4593F; --chip:#FDECEC; --note-bg:#FFFBF6;
-  --on-deep:#fff; --card-hover:0 4px 10px rgba(58,34,48,.07),0 16px 34px rgba(58,34,48,.10);
-  --radius:16px; --maxw:760px;
+  --bg:oklch(0.945 0.019 80); --surface:oklch(0.978 0.014 82);
+  --ink:oklch(0.21 0.014 55); --ink-2:oklch(0.44 0.014 65); --ink-3:oklch(0.52 0.014 68);
+  --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.13);
+  --accent:oklch(0.6 0.21 25); --accent-ink:oklch(0.45 0.18 25);
+  --deep:oklch(0.21 0.014 55);
+  --shadow:0 1px 2px rgba(60,40,30,.05),0 10px 30px rgba(60,40,30,.07);
+  --card-hover:0 26px 60px rgba(60,40,30,.13);
+  --nav-bg:rgba(246,238,228,.9);
+  --pro:#2F7D55; --con:#B04A2E; --chip:oklch(0.915 0.045 42); --note-bg:oklch(0.965 0.016 81);
+  --on-accent:oklch(0.985 0.012 84); --on-deep:oklch(0.985 0.012 84);
+  --radius:22px; --maxw:760px; --navh:60px;
 }
-/* Dark is a re-mix of the same palette, not an inversion. The coral had to be
-   lightened (#E14B4B -> #FF6B6B): the original passes contrast on cream and
-   fails it on near-black, and an accent you cannot read is worse than no
-   accent. Surfaces stay slightly lifted from the background so cards keep the
-   edge they have in light mode without needing borders. */
+/* Dark is a re-mix of the same palette, not an inversion. The red has to be
+   lightened to stay legible on near-black, and surfaces stay lifted from the
+   background so cards keep the edge they have in light mode without borders. */
 :root[data-theme="dark"]{
-  --bg:#171019; --surface:#1F1620; --ink:#F6EFEA; --ink-2:#C9B8C0; --ink-3:#9A8792;
-  --line:#332430; --line-2:#412E3A; --accent:#FF6B6B; --accent-ink:#FF8B8B;
-  --deep:#F6EFEA; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-  --nav-bg:rgba(23,16,25,.88);
-  /* Pro/con marks lightened to stay legible on a dark surface; the light-mode
-     values fail contrast here. --on-deep flips because --deep itself flips. */
-  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1C1419;
-  --on-deep:#171019; --card-hover:0 4px 10px rgba(0,0,0,.45),0 16px 34px rgba(0,0,0,.4);
+  --bg:#141013; --surface:#1E181C; --ink:#F7F1EC; --ink-2:#CBBFB8; --ink-3:#9C8E88;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
+  --accent:oklch(0.72 0.2 25); --accent-ink:oklch(0.82 0.16 25);
+  --deep:#F7F1EC;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  --card-hover:0 26px 60px rgba(0,0,0,.5);
+  --nav-bg:rgba(20,16,19,.9);
+  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1B1519;
+  --on-accent:#170a0b; --on-deep:#141013;
 }
-html{color-scheme:light dark}
+html{color-scheme:light dark;-webkit-text-size-adjust:100%}
 :root[data-theme="dark"] img{filter:brightness(.94)}
-/* The toggle */
-.themetog{margin-inline-start:14px;background:transparent;border:1px solid var(--line-2);
-  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
-  font-size:15px;line-height:1;display:inline-flex;align-items:center;
-  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
-.themetog:hover{border-color:var(--accent);color:var(--accent)}
-.themetog .tt-moon{display:none}
-:root[data-theme="dark"] .themetog .tt-sun{display:none}
-:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);
-  color:var(--ink);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
+body{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;overflow-x:clip}
 /* height:auto is load-bearing. The width/height attributes on every <img> are
    there to reserve layout space and stop the page jumping as images load, but
    they map to presentational CSS height — which pins the element at its
@@ -63,144 +58,292 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:va
    hero and card images render at 630px tall regardless of column width. */
 img{max-width:100%;display:block;height:auto}
 a{color:var(--accent-ink)}
+::selection{background:var(--accent);color:var(--on-accent)}
+
+/* Every kicker, meta line and label in the design is mono, uppercase and
+   widely tracked. One class, so the RTL and Greek overrides at the bottom have
+   a single thing to reach for. */
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;font-weight:600;
+  color:var(--ink-3);font-variant-numeric:tabular-nums}
+.mono a{color:inherit;text-decoration:none}
 
 /* ---------- chrome ---------- */
-.nav{position:sticky;top:0;z-index:50;background:var(--nav-bg);
-  backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
-.nav-in{max-width:1080px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;gap:20px}
-.logo{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:19px;color:var(--deep);
-  text-decoration:none;letter-spacing:-.01em;white-space:nowrap}
+.nav{position:sticky;top:0;z-index:90;background:var(--nav-bg);
+  backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1280px;margin:0 auto;padding:13px 28px;display:flex;
+  align-items:center;gap:20px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.logo{font-weight:900;font-size:19px;color:var(--ink);letter-spacing:-.045em;
+  text-decoration:none;white-space:nowrap}
 .logo span{color:var(--accent)}
-.nav-links{display:flex;gap:20px;margin-inline-start:auto;flex-wrap:wrap}
-.nav-links a{font-size:14px;font-weight:600;color:var(--ink-2);text-decoration:none;
+.navkick{color:var(--accent-ink);white-space:nowrap}
+.nav-links{display:flex;gap:24px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.nav-links a{font-size:13.5px;font-weight:600;color:var(--ink-2);text-decoration:none;
   padding:4px 0;border-bottom:2px solid transparent}
-.nav-links a:hover{color:var(--accent-ink)}
-.nav-links a[aria-current]{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.themetog{margin-inline-start:2px;background:transparent;border:1px solid var(--line-2);
+  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
+.themetog:hover{border-color:var(--accent-ink);color:var(--accent-ink)}
+.themetog .tt-moon{display:none}
+:root[data-theme="dark"] .themetog .tt-sun{display:none}
+:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
-.wide{max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.wide{max-width:1280px;margin:0 auto;padding:0 28px}
+
+/* ---------- index: masthead ---------- */
+.masthead{padding:78px 0 44px;border-bottom:1px solid var(--line)}
+.masthead h1{max-width:15ch}
+.masthead .dek{max-width:560px}
+
+h1{font-size:clamp(42px,6.4vw,96px);line-height:.88;letter-spacing:-.05em;
+  font-weight:900;color:var(--ink);text-wrap:balance}
+.dek{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2);margin-top:22px;
+  line-height:1.5;text-wrap:pretty}
+.eyebrow{margin-bottom:18px;letter-spacing:.22em;color:var(--accent-ink)}
+
+/* ---------- index: featured + side list ---------- */
+.feat{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;
+  align-items:start;padding:52px 0 4px}
+.feat-main{text-decoration:none;color:inherit;display:block}
+.feat-main img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
+.feat-meta{display:flex;gap:12px;align-items:center;margin:22px 0 12px;flex-wrap:wrap}
+.pill{padding:6px 11px;border-radius:999px;background:var(--chip);
+  color:var(--accent-ink);font-weight:600}
+.feat-main h2{font-size:clamp(28px,3.2vw,44px);line-height:.99;letter-spacing:-.04em;
+  font-weight:900;margin:0 0 14px;max-width:22ch;color:var(--ink)}
+.feat-main p{font-size:17px;line-height:1.55;color:var(--ink-2);max-width:60ch;
+  text-wrap:pretty}
+.sidelist{display:flex;flex-direction:column;gap:10px}
+.sidelist>.mono{letter-spacing:.2em;padding-bottom:6px}
+.sideitem{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;
+  padding:15px 16px;border-radius:16px;background:var(--surface);
+  border:1px solid var(--line);text-decoration:none;color:inherit;
+  transition:transform .25s ease,border-color .25s ease}
+.sideitem:hover{transform:translateX(4px);border-color:var(--accent)}
+[dir=rtl] .sideitem:hover{transform:translateX(-4px)}
+.sidenum{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:15px;
+  color:var(--accent-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.sideitem b{font-size:15px;font-weight:700;line-height:1.28;letter-spacing:-.015em;
+  display:block;color:var(--ink)}
+.sideitem .mono{margin-top:7px;letter-spacing:.1em}
+
+/* ---------- index: filters ---------- */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.chip{font-size:13px;font-weight:700;letter-spacing:-.01em;padding:9px 16px;
+  border-radius:999px;cursor:pointer;background:var(--surface);color:var(--ink-2);
+  border:1px solid var(--line-2);font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent-ink);color:var(--on-accent);
+  border-color:var(--accent-ink)}
+.count{margin-inline-start:auto;letter-spacing:.1em}
+
+/* ---------- index: grid ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:22px;margin:30px 0 10px}
+.gcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  text-decoration:none;color:inherit;
+  transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+.gcard:hover{transform:translateY(-6px);box-shadow:var(--card-hover)}
+.gcard[hidden]{display:none}
+.gcard-media{position:relative}
+.gcard-media img{width:100%;aspect-ratio:5/3;object-fit:cover}
+.gcard-cat{position:absolute;top:12px;inset-inline-start:12px;padding:6px 10px;
+  border-radius:999px;background:var(--nav-bg);backdrop-filter:blur(6px);
+  color:var(--ink-2);font-size:9.5px;letter-spacing:.12em}
+.gcard-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.gcard h3{font-size:19px;font-weight:800;line-height:1.18;letter-spacing:-.028em;
+  color:var(--ink)}
+.gcard .sum{font-size:14px;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
+.gcard-foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;
+  justify-content:space-between;gap:10px;border-top:1px solid var(--line);
+  letter-spacing:.1em}
+.gcard-foot .go{color:var(--accent-ink)}
+
+/* ---------- article: progress ---------- */
+.progtrack{position:sticky;top:var(--navh);z-index:80;height:3px;background:var(--line)}
+.progbar{height:100%;width:0;background:var(--accent);transition:width .1s linear}
 
 /* ---------- article head ---------- */
-.crumbs{font-size:13px;color:var(--ink-3);padding:22px 0 0}
-.crumbs a{color:var(--ink-3);text-decoration:none}
-.crumbs a:hover{color:var(--accent-ink);text-decoration:underline}
-.kicker{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--accent);margin:26px 0 12px}
-h1{font-family:Fraunces,Georgia,serif;font-size:clamp(31px,5.2vw,46px);font-weight:700;
-  line-height:1.14;letter-spacing:-.02em;color:var(--deep)}
-.dek{font-size:clamp(17px,2.4vw,20px);color:var(--ink-2);margin-top:16px;line-height:1.55}
-.byline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:22px;
-  padding-bottom:24px;font-size:13.5px;color:var(--ink-3)}
+.crumbs{padding:26px 0 0;letter-spacing:.1em}
+.crumbs a:hover{color:var(--accent-ink)}
+.kicker{display:block;color:var(--accent-ink);letter-spacing:.18em;margin:26px 0 16px}
+.wrap h1{font-size:clamp(34px,5.2vw,62px);line-height:.94;letter-spacing:-.045em}
+.byline{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px;
+  padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  letter-spacing:.08em}
+.byline .av{width:30px;height:30px;border-radius:50%;background:var(--chip);
+  border:1px solid var(--line-2);flex:0 0 auto}
 .byline b{color:var(--ink-2);font-weight:600}
+.byline .end{margin-inline-start:auto}
 .dot{opacity:.45}
-.hero{margin:8px 0 30px;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
-.hero img{width:100%;aspect-ratio:1200/630;object-fit:cover}
+/* The design runs the lead image wider than the column it sits under. */
+.hero{margin:30px auto;max-width:1080px;padding:0 28px}
+.hero img{width:100%;aspect-ratio:21/9;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
 
 /* ---------- body copy ---------- */
-.body p{margin:0 0 20px;color:var(--ink-2)}
+.body{font-size:17.5px}
+.body p{margin:0 0 22px;color:var(--ink-2);line-height:1.68;text-wrap:pretty}
 .body p.lead{font-size:19px;color:var(--ink)}
-h2{font-family:Fraunces,Georgia,serif;font-size:27px;font-weight:700;color:var(--deep);
-  letter-spacing:-.01em;margin:44px 0 14px;line-height:1.25}
-h3{font-family:Fraunces,Georgia,serif;font-size:21px;font-weight:700;color:var(--deep);margin:0}
+h2{font-size:clamp(26px,3vw,34px);font-weight:900;color:var(--ink);
+  letter-spacing:-.035em;margin:48px 0 16px;line-height:1.05}
+h3{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.03em;
+  line-height:1.15;margin:0}
 
-.note{background:var(--note-bg);border:1px solid var(--line);border-inline-start:3px solid var(--accent);
-  border-radius:12px;padding:16px 18px;margin:26px 0;font-size:15px;color:var(--ink-2)}
-.note b{color:var(--deep)}
+/* The takeaway block. Body text is the number-one pick and its tag — both read
+   straight off the guide's own data, so this cannot drift from the list below
+   it the way a hand-written summary would. */
+.short{padding:26px 28px;border-radius:20px;background:var(--chip);
+  border:1px solid color-mix(in oklab,var(--accent) 25%,transparent);margin:30px 0 40px}
+.short .mono{color:var(--accent-ink);letter-spacing:.18em;margin-bottom:12px}
+.short .lead-pick{font-size:20px;line-height:1.35;font-weight:800;
+  letter-spacing:-.025em;color:var(--ink);text-wrap:pretty}
+.short .lead-tag{margin-top:8px;color:var(--accent-ink);letter-spacing:.12em}
+
+.note{background:var(--note-bg);border:1px solid var(--line);
+  border-inline-start:3px solid var(--accent);border-radius:14px;padding:16px 18px;
+  margin:26px 0;font-size:15px;color:var(--ink-2)}
+.note b{color:var(--ink)}
 
 /* ---------- comparison table ---------- */
 .tablewrap{overflow-x:auto;margin:22px 0 8px;border:1px solid var(--line);
-  border-radius:14px;background:var(--surface)}
+  border-radius:16px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
-th,td{text-align:start;padding:12px 14px;border-bottom:1px solid var(--line)}
-th{background:var(--note-bg);font-weight:700;color:var(--deep);font-size:12.5px;
-  text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+th,td{text-align:start;padding:13px 15px;border-bottom:1px solid var(--line)}
+th{background:var(--note-bg);font-weight:700;color:var(--ink);font-size:11px;
+  text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 tbody tr:last-child td{border-bottom:0}
 td a{font-weight:600;text-decoration:none}
 td a:hover{text-decoration:underline}
-.rank{color:var(--ink-3);font-variant-numeric:tabular-nums;width:1%}
+.rank{color:var(--accent-ink);font-variant-numeric:tabular-nums;width:1%;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 
-/* ---------- product card ---------- */
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-  overflow:hidden;margin:26px 0;box-shadow:var(--shadow);scroll-margin-top:72px}
-.card-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-bottom:1px solid var(--line)}
-.card-in{padding:22px}
-.card-top{display:flex;gap:14px;align-items:flex-start}
-.num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--deep);color:var(--on-deep);
-  font-family:Fraunces,Georgia,serif;font-weight:700;font-size:16px;
-  display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
-.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.05em;
-  text-transform:uppercase;color:var(--accent-ink);background:var(--chip);
-  padding:4px 10px;border-radius:99px;margin-bottom:8px}
-.price{font-size:14px;font-weight:600;color:var(--ink-3);margin-top:4px}
-.card p{margin:14px 0 0;color:var(--ink-2);font-size:16px}
+/* ---------- a pick ---------- */
+/* The design puts a small square thumbnail beside the text rather than a full
+   bleed image above it. With ten picks on a page that is the difference between
+   a list you can scan and ten screens of scrolling. */
+.card{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:28px 0;
+  border-top:1px solid var(--line);scroll-margin-top:88px}
+.card-img{width:150px;aspect-ratio:1;object-fit:cover;border-radius:16px;
+  border:1px solid var(--line);background:var(--surface)}
+.card-in{min-width:0}
+.badge{display:block;color:var(--accent-ink);letter-spacing:.16em;margin-bottom:9px}
+.card h3{margin-bottom:10px}
+.card p{margin:0 0 14px;color:var(--ink-2);font-size:16px;line-height:1.6;
+  text-wrap:pretty}
+.priceline{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.price{font-size:21px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.tradeoff{letter-spacing:.06em;text-transform:none;font-size:11px;color:var(--ink-3)}
+.tradeoff b{font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.num{display:none}
+.tag{display:none}
 .pc{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-top:18px;
   padding-top:16px;border-top:1px solid var(--line)}
-.pc h4{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--ink-3);margin-bottom:7px}
+.pc h4{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:7px;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 .pc ul{list-style:none;font-size:14.5px;color:var(--ink-2)}
 .pc li{position:relative;padding-inline-start:17px;margin-bottom:5px;line-height:1.5}
 .pc li::before{position:absolute;inset-inline-start:0;font-weight:700}
 .pros li::before{content:"+";color:var(--pro)}
 .cons li::before{content:"–";color:var(--con)}
 .buys{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
-.btn{text-decoration:none;font-size:14px;font-weight:700;padding:11px 18px;
-  border-radius:10px;display:inline-block;transition:transform .1s,filter .1s}
-.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
-.btn-a{background:var(--accent);color:#fff}
-.btn-b{background:var(--surface);color:var(--ink);border:1.5px solid var(--line-2)}
+.btn{text-decoration:none;font-size:14px;font-weight:700;padding:12px 20px;
+  border-radius:999px;display:inline-block;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn-a{background:var(--accent-ink);color:var(--on-accent)}
+.btn-b{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
 
 /* ---------- faq ---------- */
 .faq{border-top:1px solid var(--line);margin-top:12px}
 .faq details{border-bottom:1px solid var(--line)}
-.faq summary{cursor:pointer;list-style:none;padding:17px 30px 17px 0;position:relative;
-  font-weight:600;color:var(--deep);font-size:16.5px}
+.faq summary{cursor:pointer;list-style:none;padding:18px 30px 18px 0;position:relative;
+  font-weight:700;color:var(--ink);font-size:16.5px;letter-spacing:-.015em}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:15px;
-  font-size:21px;font-weight:400;color:var(--accent);line-height:1}
+.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:16px;
+  font-size:21px;font-weight:400;color:var(--accent-ink);line-height:1}
 .faq details[open] summary::after{content:"–"}
 .faq p{padding:0 0 18px;color:var(--ink-2);font-size:15.5px;margin:0}
 
-/* ---------- guide index cards ---------- */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;margin:30px 0 10px}
-.gcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
-  border-radius:var(--radius);overflow:hidden;text-decoration:none;color:inherit;
-  box-shadow:var(--shadow);transition:transform .14s,box-shadow .14s}
-.gcard:hover{transform:translateY(-3px);box-shadow:var(--card-hover)}
-.gcard img{width:100%;aspect-ratio:1200/630;object-fit:cover}
-.gcard-in{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
-.gcard h3{font-size:19px;line-height:1.3;margin:8px 0 0}
-.gcard .sum{font-size:14.5px;color:var(--ink-2);margin-top:9px;flex:1}
-.gcard .meta{font-size:12.5px;color:var(--ink-3);margin-top:14px}
+/* ---------- closer ---------- */
+.closer{margin-top:46px;padding:34px 30px;border-radius:22px;
+  border:1px dashed var(--line-2);text-align:center}
+.closer h2{font-size:clamp(22px,3vw,28px);margin:0 0 10px;letter-spacing:-.03em}
+.closer p{font-size:16px;color:var(--ink-2);margin:0 0 22px}
+.closer .btn{padding:15px 28px;font-size:15px;font-weight:800;
+  background:var(--deep);color:var(--on-deep)}
 
 /* ---------- footer ---------- */
 .disc{font-size:13.5px;color:var(--ink-3);border-top:1px solid var(--line);
   padding-top:18px;margin-top:46px}
-footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 22px;
+footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 28px;
   text-align:center;color:var(--ink-3);font-size:13.5px;background:var(--note-bg)}
 footer nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
 footer a{color:var(--ink-2);text-decoration:none;font-weight:600}
 footer a:hover{color:var(--accent-ink)}
 .langsw{margin-top:12px;font-size:13px}
 
+/* ---------- responsive ---------- */
+@media(max-width:900px){
+  .feat{grid-template-columns:1fr;gap:34px}
+  .masthead{padding:52px 0 34px}
+}
 @media(max-width:600px){
   body{font-size:16px}
-  .pc{grid-template-columns:1fr;gap:14px}
-  .card-in{padding:18px}
-  .nav-in{padding:10px 16px;gap:12px}
+  .wrap,.wide,.hero{padding-inline:18px}
+  .nav-in{padding:10px 18px;gap:12px}
   .nav-links{gap:14px}
   .nav-links a{font-size:13px}
+  .navkick{display:none}
+  /* The thumbnail column collapses rather than shrinking to a stamp. */
+  .card{grid-template-columns:1fr;gap:16px;padding:24px 0}
+  .card-img{width:100%;aspect-ratio:16/10}
+  .pc{grid-template-columns:1fr;gap:14px}
+  .hero img{aspect-ratio:16/10}
+  .count{margin-inline-start:0;width:100%;padding-top:8px}
+}
+/* The chips are the one genuinely new tap target the redesign adds, and at the
+   design's 9px padding they land at 34px — under the 44px minimum. Scoped to
+   coarse pointers so the mouse version keeps the tighter proportions the design
+   draws, and applied by min-height rather than padding so the label stays
+   vertically centred either way. */
+@media(pointer:coarse){
+  .chip{min-height:44px;padding-inline:18px}
+  .nav-links a{min-height:44px;display:inline-flex;align-items:center}
+  .themetog{width:44px;height:44px}
+  .sideitem{padding:18px 16px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
-/* ---------- rtl ---------- */
-[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{
-  font-family:"Heebo","Assistant",Inter,system-ui,sans-serif}
-[dir=rtl] .num{font-family:inherit}
-</style><style>body,h1,h2,h3,.logo{font-family:'Noto Sans',Inter,system-ui,sans-serif}</style>
+/* ---------- rtl / non-latin ---------- */
+/* Archivo and JetBrains Mono have no Hebrew, and wide tracking on Hebrew is
+   unreadable rather than merely wrong. Hebrew keeps Heebo everywhere and drops
+   the mono treatment, so the design's rhythm survives without the typography
+   that cannot cross the script. */
+[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,
+[dir=rtl] .chip,[dir=rtl] .mono,[dir=rtl] .sidenum,[dir=rtl] .rank,
+[dir=rtl] th,[dir=rtl] .pc h4{
+  font-family:"Heebo","Assistant",system-ui,sans-serif}
+[dir=rtl] .mono,[dir=rtl] th,[dir=rtl] .pc h4{letter-spacing:.02em;font-size:11.5px}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] .feat-main h2{letter-spacing:-.01em;line-height:1.1}
+/* A number with no Hebrew beside it still flips inside dir=rtl — "35 -> 35"
+   is fine but "10 min" and "-58%" are not. Isolate every numeric run. */
+[dir=rtl] .sidenum,[dir=rtl] .rank,[dir=rtl] .price,[dir=rtl] .count,
+[dir=rtl] .byline .end,[dir=rtl] time{unicode-bidi:isolate}
+</style><style>body,h1,h2,h3,.logo,.chip,.mono,.sidenum,.rank,th,.pc h4{font-family:'Noto Sans',system-ui,sans-serif}.mono,th,.pc h4{letter-spacing:.08em}</style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού", "description": "Κατατάσσονται με βάση το πόση διαφορά θα παρατηρήσετε στην πράξη, που δεν είναι το ίδιο με το πόσο κοστίζουν.", "datePublished": "2026-08-08", "dateModified": "2026-08-08", "inLanguage": "el", "author": {"@type": "Organization", "name": "Η σύνταξη του fashionhotspot"}, "publisher": {"@type": "Organization", "name": "fashionhotspot", "url": "https://fashionhotspot.site", "logo": {"@type": "ImageObject", "url": "https://fashionhotspot.site/icon-512.png", "width": 512, "height": 512}}, "image": "https://fashionhotspot.site/images/hero-gaming.jpg", "mainEntityOfPage": "https://fashionhotspot.site/el/post-gaming.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListOrderDescending", "numberOfItems": 10, "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Μια οθόνη 1440p 144Hz", "description": "Η αναβάθμιση που νιώθεις αμέσως", "url": "https://fashionhotspot.site/el/post-gaming.html#p1", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 220, "highPrice": 400, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Ένας SSD, αν έχετε ακόμα σκληρό δίσκο", "description": "Η μεγαλύτερη βελτίωση στην ποιότητα ζωής", "url": "https://fashionhotspot.site/el/post-gaming.html#p2", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 60, "highPrice": 150, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο", "description": "Ο ήχος θέσης είναι πραγματικό πλεονέκτημα", "url": "https://fashionhotspot.site/el/post-gaming.html#p3", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 70, "highPrice": 200, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 4, "item": {"@type": "Product", "name": "Ένα ελαφρύ ενσύρματο ποντίκι", "description": "Το βάρος μετράει περισσότερο από το DPI", "url": "https://fashionhotspot.site/el/post-gaming.html#p4", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 40, "highPrice": 90, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 5, "item": {"@type": "Product", "name": "Ένα μεγάλο υφασμάτινο desk mat", "description": "Η φθηνότερη πραγματική βελτίωση", "url": "https://fashionhotspot.site/el/post-gaming.html#p5", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 20, "highPrice": 40, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 6, "item": {"@type": "Product", "name": "Ένα χειριστήριο με μοχλούς hall-effect", "description": "Λύνει το stick drift σωστά", "url": "https://fashionhotspot.site/el/post-gaming.html#p6", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 50, "highPrice": 120, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 7, "item": {"@type": "Product", "name": "Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη", "description": "Φθηνή άνεση, όχι απόδοση", "url": "https://fashionhotspot.site/el/post-gaming.html#p7", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 15, "highPrice": 40, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 8, "item": {"@type": "Product", "name": "Ένα στήριγμα καρπού (wrist rest)", "description": "Βαρετό, αλλά οι καρποί σας θα σας ευχαριστούν", "url": "https://fashionhotspot.site/el/post-gaming.html#p8", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 15, "highPrice": 35, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 9, "item": {"@type": "Product", "name": "Περισσότερη RAM, στα 32GB", "description": "Μόνο αν πραγματικά δεν σας φτάνει", "url": "https://fashionhotspot.site/el/post-gaming.html#p9", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 60, "highPrice": 120, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 10, "item": {"@type": "Product", "name": "Αναβάθμιση κάρτας γραφικών", "description": "Τελευταία, και μόνο μετά τα υπόλοιπα", "url": "https://fashionhotspot.site/el/post-gaming.html#p10", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 300, "highPrice": 1200, "availability": "https://schema.org/InStock"}}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Αρχική", "item": "https://fashionhotspot.site/el/"}, {"@type": "ListItem", "position": 2, "name": "Οδηγοί", "item": "https://fashionhotspot.site/el/posts.html"}, {"@type": "ListItem", "position": 3, "name": "Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού", "item": "https://fashionhotspot.site/el/post-gaming.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Αξίζει ο υψηλότερος ρυθμός ανανέωσης πάνω από τα 144Hz;", "acceptedAnswer": {"@type": "Answer", "text": "Για τους περισσότερους, όχι. Η μετάβαση από 60 σε 144Hz είναι μεταμορφωτική· από 144 σε 240Hz είναι μια μέτρια βελτίωση που οι περισσότεροι παίκτες δεν μπορούν να αναγνωρίσουν αξιόπιστα σε τυφλή δοκιμή· πέρα από αυτό είναι για ανταγωνιστικούς παίκτες με τα αντανακλαστικά και τα frame rates για να το χρησιμοποιήσουν."}}, {"@type": "Question", "name": "Ένα ακριβό gaming ποντίκι σε κάνει καλύτερο;", "acceptedAnswer": {"@type": "Answer", "text": "Το βάρος και το σχήμα επηρεάζουν πραγματικά την άνεση και τη συνέπεια, οπότε ένα ποντίκι που ταιριάζει στο χέρι σας βοηθάει. Ο αριθμός DPI όχι — κάθε σύγχρονος αισθητήρας ξεπερνά αυτό που μπορεί να εκμεταλλευτεί ένα ανθρώπινο χέρι."}}, {"@type": "Question", "name": "Ενσύρματο ή ασύρματο για ανταγωνιστικό παιχνίδι;", "acceptedAnswer": {"@type": "Answer", "text": "Τα καλά ασύρματα είναι πλέον ουσιαστικά χωρίς καθυστέρηση (latency-free) και η διαφορά δεν αποτελεί πλέον πραγματικό επιχείρημα. Τα ενσύρματα είναι ακόμα φθηνότερα, ελαφρύτερα και δεν χρειάζονται ποτέ φόρτιση, γι' αυτό και πολλοί ανταγωνιστικοί παίκτες παραμένουν σε αυτά."}}, {"@type": "Question", "name": "Τι πρέπει να αναβαθμίσω πρώτα με περιορισμένο προϋπολογισμό;", "acceptedAnswer": {"@type": "Answer", "text": "Έναν SSD αν έχετε ακόμα σκληρό δίσκο, μετά μια οθόνη 144Hz, και μετά ένα desk mat. Αυτή η σειρά αγοράζει την πιο αισθητή αλλαγή ανά σέκελ, και τίποτα από αυτά δεν απαιτεί να πειράξετε την κάρτα γραφικών."}}]}</script><link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-gaming.html"><link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-gaming.html"><link rel="alternate" hreflang="es" href="https://fashionhotspot.site/es/post-gaming.html"><link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/fr/post-gaming.html"><link rel="alternate" hreflang="de" href="https://fashionhotspot.site/de/post-gaming.html"><link rel="alternate" hreflang="el" href="https://fashionhotspot.site/el/post-gaming.html"><link rel="alternate" hreflang="x-default" href="https://fashionhotspot.site/post-gaming.html">
 </head>
 <body>
-<div class="nav"><div class="nav-in"><a class="logo" href="../index.html">fashion<span>hotspot</span></a><nav class="nav-links"><a href="../index.html">Προσφορές</a><a href="posts.html">Οδηγοί</a><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="wrap"><div class="crumbs"><a href="../index.html">Αρχική</a> › <a href="posts.html">Οδηγοί</a> › Gaming</div><div class="kicker">Gaming · Οδηγός αγοράς</div><h1>Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού</h1><p class="dek">Κατατάσσονται με βάση το πόση διαφορά θα παρατηρήσετε στην πράξη, που δεν είναι το ίδιο με το πόσο κοστίζουν.</p><div class="byline"><b>Η σύνταξη του fashionhotspot</b><span class="dot">·</span><span>Ενημερώθηκε <time datetime="2026-08-08">8 Αυγούστου 2026</time></span><span class="dot">·</span><span>9 λεπτά ανάγνωσης</span><span class="dot">·</span><span>10 προϊόντα</span></div><div class="hero"><img src="../images/hero-gaming.jpg" alt="Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού" width="1600" height="840" fetchpriority="high"></div><div class="body"><p class="lead">Το hardware για gaming πωλείται με βάση νούμερα που ως επί το πλείστον παύουν να έχουν σημασία πάνω από ένα ορισμένο σημείο. Το άλμα από τα 60Hz στα 144Hz είναι μεταμορφωτικό. Το άλμα από τα 240Hz στα 360Hz είναι κάτι που μια χούφτα άνθρωποι μπορούν πραγματικά να αντιληφθούν, και τιμολογείται σαν να μπορούν όλοι.</p><p>Έτσι, αυτή η λίστα είναι ταξινομημένη με βάση την αισθητή διαφορά ανά σέκελ. Τα πρώτα λίγα προϊόντα αλλάζουν την αίσθηση του παιχνιδιού μέσα σε λίγα λεπτά από τη σύνδεσή τους. Τα τελευταία είναι πραγματικές αναβαθμίσεις με ειλικρινά φθίνουσες αποδόσεις, και λέμε ποιο είναι ποιο.</p><p>Οι τιμές είναι κατά προσέγγιση κατά τη στιγμή της συγγραφής, και αυτή η κατηγορία έχει μεγάλες εκπτώσεις γύρω στον Νοέμβριο.</p><div class="note"><b>Γνωστοποίηση.</b> Οι σύνδεσμοι σε αυτή τη σελίδα είναι συνδεδεμένοι. Αν αγοράσετε μέσω κάποιου, ενδέχεται να λάβουμε προμήθεια χωρίς επιπλέον κόστος για εσάς. Δεν επηρεάζει το τι μπαίνει στη λίστα ούτε τη σειρά της.</div><h2>Πώς επιλέξαμε</h2><p>Κατατάσσουμε με βάση την αισθητή διαφορά και όχι τα τεχνικά χαρακτηριστικά, αντλώντας στοιχεία από δημοσιευμένες κριτικές που βασίζονται σε μετρήσεις, δοκιμές καθυστέρησης εισόδου (input-latency) και μακροχρόνιες αναφορές κατόχων. Δεν έχουμε δοκιμάσει προσωπικά κάθε προϊόν εδώ. Όπου ένα χαρακτηριστικό έχει πάψει να έχει σημασία για τους περισσότερους, το λέμε — προτιμούμε να σας αποτρέψουμε από μια αναβάθμιση παρά να σας πουλήσουμε ένα νούμερο που δεν μπορείτε να νιώσετε.</p><h2>Με μια ματιά</h2><div class="tablewrap"><table><thead><tr><th>#</th><th>Προϊόν</th><th>Ιδανικό για</th><th>Ενδεικτική τιμή</th></tr></thead><tbody><tr><td class="rank">1</td><td><a href="#p1">Μια οθόνη 1440p 144Hz</a></td><td>Η αναβάθμιση που νιώθεις αμέσως</td><td>$220–400</td></tr><tr><td class="rank">2</td><td><a href="#p2">Ένας SSD, αν έχετε ακόμα σκληρό δίσκο</a></td><td>Η μεγαλύτερη βελτίωση στην ποιότητα ζωής</td><td>$60–150</td></tr><tr><td class="rank">3</td><td><a href="#p3">Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο</a></td><td>Ο ήχος θέσης είναι πραγματικό πλεονέκτημα</td><td>$70–200</td></tr><tr><td class="rank">4</td><td><a href="#p4">Ένα ελαφρύ ενσύρματο ποντίκι</a></td><td>Το βάρος μετράει περισσότερο από το DPI</td><td>$40–90</td></tr><tr><td class="rank">5</td><td><a href="#p5">Ένα μεγάλο υφασμάτινο desk mat</a></td><td>Η φθηνότερη πραγματική βελτίωση</td><td>$20–40</td></tr><tr><td class="rank">6</td><td><a href="#p6">Ένα χειριστήριο με μοχλούς hall-effect</a></td><td>Λύνει το stick drift σωστά</td><td>$50–120</td></tr><tr><td class="rank">7</td><td><a href="#p7">Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη</a></td><td>Φθηνή άνεση, όχι απόδοση</td><td>$15–40</td></tr><tr><td class="rank">8</td><td><a href="#p8">Ένα στήριγμα καρπού (wrist rest)</a></td><td>Βαρετό, αλλά οι καρποί σας θα σας ευχαριστούν</td><td>$15–35</td></tr><tr><td class="rank">9</td><td><a href="#p9">Περισσότερη RAM, στα 32GB</a></td><td>Μόνο αν πραγματικά δεν σας φτάνει</td><td>$60–120</td></tr><tr><td class="rank">10</td><td><a href="#p10">Αναβάθμιση κάρτας γραφικών</a></td><td>Τελευταία, και μόνο μετά τα υπόλοιπα</td><td>$300–1200</td></tr></tbody></table></div><p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">Οι τιμές είναι ενδεικτικές κατά τη συγγραφή και αλλάζουν συχνά.</p><h2>Οι επιλογές</h2><article class="card" id="p1"><img class="card-img" src="../images/gaming-01.jpg" alt="Μια οθόνη 1440p 144Hz" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">1</div><div style="flex:1"><span class="tag">Η αναβάθμιση που νιώθεις αμέσως</span><h3>Μια οθόνη 1440p 144Hz</h3><div class="price">$220–400</div></div></div><p>Αν εξακολουθείτε να έχετε οθόνη 60Hz, αυτή είναι η μοναδική μεγαλύτερη αισθητή αναβάθμιση που υπάρχει στο gaming, και μάλιστα με διαφορά. Τα πάντα, από την κίνηση του ποντικιού μέχρι την πανοραμική κίνηση της κάμερας, γίνονται πιο ομαλά με τρόπο που είναι προφανής στα πρώτα τριάντα δευτερόλεπτα και αδύνατο να τον αγνοήσεις μετά. Η ανάλυση 1440p στις 27 ίντσες είναι το ιδανικό σημείο: πιο ευκρινής από 1080p χωρίς την τεράστια απαίτηση σε κάρτα γραφικών του 4K. Βεβαιωθείτε ότι το adaptive sync είναι ενεργοποιημένο — είναι δωρεάν, εξαλείφει το «σχίσιμο» της εικόνας (tearing), και ένας εκπληκτικός αριθμός ανθρώπων δεν το ενεργοποιεί ποτέ. Πάνω από τα 144Hz οι αποδόσεις μειώνονται απότομα για όποιον δεν παίζει ανταγωνιστικά.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Η πιο αισθητή αναβάθμιση στο gaming</li><li>Η ανάλυση 1440p είναι το ιδανικό σημείο</li><li>Το Adaptive sync εξαλείφει το tearing δωρεάν</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Χρειάζεται κάρτα που μπορεί όντως να αποδώσει τα καρέ</li><li>Πάνω από τα 144Hz οι αποδόσεις πέφτουν απότομα</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=27+inch+1440p+144Hz+gaming+monitor+IPS&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4m130Kj">AliExpress</a></div></div></article><article class="card" id="p2"><img class="card-img" src="../images/gaming-02.jpg" alt="Ένας SSD, αν έχετε ακόμα σκληρό δίσκο" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">2</div><div style="flex:1"><span class="tag">Η μεγαλύτερη βελτίωση στην ποιότητα ζωής</span><h3>Ένας SSD, αν έχετε ακόμα σκληρό δίσκο</h3><div class="price">$60–150</div></div></div><p>Αυτό δεν αυξάνει καθόλου το frame rate σας, αλλά και πάλι θα είναι η αλλαγή που θα εκτιμήσετε περισσότερο στην καθημερινότητά σας. Οι οθόνες φόρτωσης μειώνονται από ένα λεπτό σε λίγα δευτερόλεπτα, το pop-in των υφών σε ανοιχτούς κόσμους εξαφανίζεται σε μεγάλο βαθμό, και ο υπολογιστής παύει να δίνει την αίσθηση ότι «διστάζει». Τα σύγχρονα παιχνίδια επίσης κατασκευάζονται όλο και περισσότερο με την προϋπόθεση γρήγορης αποθήκευσης, οπότε ορισμένα πλέον κάνουν stream τα δεδομένα με τρόπο που πραγματικά «κολλάει» σε έναν μηχανικό δίσκο. Ένας δίσκος NVMe 1TB είναι το πρακτικό μέγεθος — τα παιχνίδια είναι τεράστια πλέον και ένας δίσκος 500GB γεμίζει γρηγορότερα από ό,τι περιμένετε.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Οι χρόνοι φόρτωσης πέφτουν από λεπτά σε δευτερόλεπτα</li><li>Εξαλείφει το pop-in των υφών και το «κόλλημα» (stutter)</li><li>Φθηνός για το πόσο μεγάλη διαφορά κάνει</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Δεν κάνει τίποτα για το frame rate</li><li>Ελέγξτε αν η μητρική σας υποστηρίζει τη γενιά του δίσκου</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=1TB+NVMe+SSD+gen4&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4EhBsVD">AliExpress</a></div></div></article><article class="card" id="p3"><img class="card-img" src="../images/gaming-03.jpg" alt="Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">3</div><div style="flex:1"><span class="tag">Ο ήχος θέσης είναι πραγματικό πλεονέκτημα</span><h3>Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο</h3><div class="price">$70–200</div></div></div><p>Στα ανταγωνιστικά παιχνίδια, το να ακούς από πού προήλθε ένας ήχος είναι μια πραγματικά αξιοποιήσιμη πληροφορία, και ένα αξιοπρεπές ζευγάρι κλειστού τύπου σου το δίνει αυτό πολύ καλύτερα από τα ηχεία του laptop ή της οθόνης. Ο κλειστός τύπος έχει διπλή σημασία: σε απομονώνει από τον χώρο και εμποδίζει τον ήχο από τα ακουστικά σου να περνάει στο μικρόφωνό σου. Εδώ είναι η συμβουλή που εξοικονομεί χρήματα — ένα ζευγάρι καλά ακουστικά συν ένα ξεχωριστό μικρόφωνο clip-on συνήθως κερδίζει ένα gaming headset ίδιας τιμής, επειδή ο προϋπολογισμός των headset μοιράζεται μεταξύ ήχου και μικροφώνου, και ο «φόρος της μάρκας» στο hardware με την ετικέτα gaming είναι υπαρκτός. Τα ενσύρματα αποφεύγουν εντελώς την καθυστέρηση και την μπαταρία.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Ο ήχος θέσης είναι ένα γνήσιο ανταγωνιστικό πλεονέκτημα</li><li>Ο κλειστός τύπος σταματά τη διαρροή ήχου στο μικρόφωνο</li><li>Ακουστικά συν ξεχωριστό μικρόφωνο κερδίζουν ένα headset ίδιας τιμής</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Η επωνυμία «gaming» συνεπάγεται υψηλότερη τιμή</li><li>Ζεσταίνουν τα αυτιά σε πολύωρες συνεδρίες</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=closed+back+gaming+headset+wired&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c457Irt9">AliExpress</a></div></div></article><article class="card" id="p4"><img class="card-img" src="../images/gaming-04.jpg" alt="Ένα ελαφρύ ενσύρματο ποντίκι" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">4</div><div style="flex:1"><span class="tag">Το βάρος μετράει περισσότερο από το DPI</span><h3>Ένα ελαφρύ ενσύρματο ποντίκι</h3><div class="price">$40–90</div></div></div><p>Αγνοήστε εντελώς τον αριθμό DPI — κάθε σύγχρονος αισθητήρας είναι πιο ακριβής από οποιοδήποτε ανθρώπινο χέρι, και σχεδόν όλοι παίζουν ούτως ή άλλως σε ένα κλάσμα του μέγιστου. Αυτό που πραγματικά αισθάνεστε είναι το βάρος και το σχήμα. Η μετάβαση από ένα ποντίκι 110g σε ένα 60g αλλάζει το πόσο γρήγορα μπορείτε να κάνετε απότομες κινήσεις και πόσο κουράζεται ο καρπός σας μετά από δύο ώρες, άμεσα και εμφανώς. Το σχήμα πρέπει να ταιριάζει με το κράτημά σας: το κράτημα με την παλάμη (palm), τη «δαγκάνα» (claw) ή τις άκρες των δακτύλων (fingertip) είναι πραγματικά διαφορετικές απαιτήσεις, και ένα ποντίκι που ταιριάζει στο ένα είναι άβολο για το άλλο. Τα ενσύρματα είναι φθηνότερα και ελαφρύτερα· τα καλά ασύρματα είναι πλέον πραγματικά χωρίς καθυστέρηση, αλλά κοστίζουν περισσότερο.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Το βάρος είναι το χαρακτηριστικό που πραγματικά αισθάνεστε</li><li>Τα ενσύρματα είναι ελαφρύτερα και φθηνότερα</li><li>Οι σύγχρονοι αισθητήρες είναι όλοι αρκετά ακριβείς</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Το σχήμα πρέπει να ταιριάζει με το στυλ κρατήματός σας</li><li>Το μάρκετινγκ του DPI είναι ουσιαστικά ανούσιο</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=lightweight+gaming+mouse+60g+wired&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4K4cjPD">AliExpress</a></div></div></article><article class="card" id="p5"><img class="card-img" src="../images/gaming-05.jpg" alt="Ένα μεγάλο υφασμάτινο desk mat" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">5</div><div style="flex:1"><span class="tag">Η φθηνότερη πραγματική βελτίωση</span><h3>Ένα μεγάλο υφασμάτινο desk mat</h3><div class="price">$20–40</div></div></div><p>Μια σταθερή επιφάνεια χαμηλής τριβής κάνει τη σκόπευση πιο επαναλήψιμη, και αν παίζετε με χαμηλή ευαισθησία χρειάζεστε πολύ περισσότερο χώρο από ό,τι δίνει ένα μικρό pad — το να ξεμείνετε από mat στη μέση μιας στροφής είναι ένα πραγματικό και αποφεύξιμο πρόβλημα. Ένα μεγάλο mat προστατεύει επίσης το γραφείο και μειώνει ελαφρώς τον θόρυβο του πληκτρολογίου. Προτιμήστε ύφασμα αντί για σκληρό πλαστικό για έλεγχο και άνεση, και ραμμένες άκρες επειδή εκεί είναι που τα φθηνά mat ξεφτίζουν πρώτα. Κοστίζει περίπου είκοσι δολάρια και κάνει μεγαλύτερη διαφορά στη σκόπευσή σας από τα τελευταία τριάντα δολάρια που θα ξοδεύατε σε ένα ποντίκι.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Πιο σταθερή σκόπευση από ένα μικρό σκληρό pad</li><li>Προστατεύει το γραφείο και μειώνει τον θόρυβο</li><li>Πολύ φθηνό για τη διαφορά που κάνει</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Το ύφασμα χρειάζεται περιστασιακό πλύσιμο</li><li>Οι άκρες χωρίς ραφή ξεφτίζουν γρήγορα</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=large+cloth+gaming+mouse+mat+desk+pad&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3ydPxEX">AliExpress</a></div></div></article><article class="card" id="p6"><img class="card-img" src="../images/gaming-06.jpg" alt="Ένα χειριστήριο με μοχλούς hall-effect" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">6</div><div style="flex:1"><span class="tag">Λύνει το stick drift σωστά</span><h3>Ένα χειριστήριο με μοχλούς hall-effect</h3><div class="price">$50–120</div></div></div><p>Το stick drift είναι το ελάττωμα που «σκοτώνει» τα περισσότερα χειριστήρια, και συμβαίνει επειδή οι συμβατικοί μοχλοί χρησιμοποιούν φυσικές επαφές που φθείρονται. Οι μοχλοί hall-effect διαβάζουν ένα μαγνητικό πεδίο αντ&#x27; αυτού, χωρίς τίποτα να ακουμπά, οπότε δεν αναπτύσσουν drift λόγω φθοράς. Αυτή η μία και μόνη αλλαγή μετατρέπει ένα χειριστήριο από αναλώσιμο που αντικαθιστάτε κάθε δεκαοκτώ μήνες σε κάτι που διαρκεί. Δεδομένου ότι ένας μοχλός με drift καθιστά ένα χειριστήριο πραγματικά άχρηστο, αυτή είναι μία από τις πιο ξεκάθαρες προτάσεις αξίας σε αυτή τη σελίδα. Ελέγξτε ότι το μοντέλο αναφέρει όντως hall effect ή TMR, επειδή πολλά χειριστήρια σε παρόμοιες τιμές εξακολουθούν να χρησιμοποιούν τον παλιό σχεδιασμό.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Δεν αναπτύσσει stick drift λόγω φθοράς</li><li>Μετατρέπει ένα αναλώσιμο σε μια αγορά που διαρκεί</li><li>Συχνά περιλαμβάνει επαναπρογραμματιζόμενα πίσω κουμπιά</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Πρέπει να επαληθεύσετε ότι το μοντέλο χρησιμοποιεί όντως hall effect</li><li>Η ποιότητα κατασκευής των χειριστηρίων τρίτων κατασκευαστών ποικίλλει</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=hall+effect+controller+no+stick+drift&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3WxGPvN">AliExpress</a></div></div></article><article class="card" id="p7"><img class="card-img" src="../images/gaming-07.jpg" alt="Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">7</div><div style="flex:1"><span class="tag">Φθηνή άνεση, όχι απόδοση</span><h3>Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη</h3><div class="price">$15–40</div></div></div><p>Μια φωτεινή οθόνη σε ένα σκοτεινό δωμάτιο αναγκάζει τα μάτια σας να προσαρμόζονται συνεχώς μεταξύ των δύο, κάτι που αποτελεί μεγάλο μέρος του λόγου για τον οποίο οι πολύωρες νυχτερινές συνεδρίες σας αφήνουν με πονοκέφαλο. Μια ταινία χαμηλού φωτισμού πίσω από την οθόνη αυξάνει τη φωτεινότητα του περιβάλλοντος χώρου και αφαιρεί αυτή την αντίθεση, ενώ κάνει και την εικόνα να φαίνεται καλύτερη δίνοντας στα μάτια σας ένα ουδέτερο σημείο αναφοράς για το μαύρο. Χρησιμοποιήστε ένα ζεστό, χαμηλό, σταθερό φως αντί για ένα που αλλάζει χρώματα, το οποίο αναιρεί τον σκοπό. Αυτό αλλάζει την άνεση και όχι την απόδοση, και κοστίζει περίπου όσο ένα παιχνίδι.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Αισθητά λιγότερη καταπόνηση των ματιών τη νύχτα</li><li>Βελτιώνει την αντιληπτή αντίθεση</li><li>Κοστίζει περίπου όσο ένα παιχνίδι</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Καμία επίδραση στην απόδοση</li><li>Οι λειτουργίες εναλλαγής χρωμάτων αναιρούν τον σκοπό</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=USB+bias+lighting+LED+strip+monitor+back&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4aI14S3">AliExpress</a></div></div></article><article class="card" id="p8"><img class="card-img" src="../images/gaming-08.jpg" alt="Ένα στήριγμα καρπού (wrist rest)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">8</div><div style="flex:1"><span class="tag">Βαρετό, αλλά οι καρποί σας θα σας ευχαριστούν</span><h3>Ένα στήριγμα καρπού (wrist rest)</h3><div class="price">$15–35</div></div></div><p>Τα μηχανικά πληκτρολόγια είναι ψηλά, και ένα ψηλό πληκτρολόγιο λυγίζει τους καρπούς σας προς τα πάνω για όσες ώρες παίζετε. Με την πάροδο των μηνών, αυτή η έκταση αποτελεί πραγματικό κίνδυνο τραυματισμού από επαναλαμβανόμενη καταπόνηση, και είναι το είδος του προβλήματος που είναι πολύ πιο εύκολο να προληφθεί παρά να θεραπευτεί. Ένα στήριγμα που ταιριάζει με το ύψος του πληκτρολογίου σας κρατά τον καρπό πιο κοντά σε ουδέτερη θέση. Ταιριάξτε το ύψος αντί να αγοράσετε το πιο μαλακό — ένα στήριγμα που είναι πολύ χαμηλό ή πολύ ψηλό απλώς μετατοπίζει τη γωνία αντί να την εξαλείφει. Ο αφρός μνήμης (memory foam) είναι άνετος και συμπιέζεται μέσα σε ένα ή δύο χρόνια· τα πιο σκληρά υλικά διαρκούν περισσότερο.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Μειώνει έναν πραγματικό κίνδυνο τραυματισμού από επαναλαμβανόμενη καταπόνηση</li><li>Φθηνό και δεν απαιτεί αλλαγή συνηθειών</li><li>Συνδυάζεται φυσικά με ένα μηχανικό πληκτρολόγιο</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Το λάθος ύψος μετατοπίζει το πρόβλημα αντί να το λύνει</li><li>Ο αφρός συμπιέζεται με την πάροδο του χρόνου</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=keyboard+wrist+rest+memory+foam&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3QDpskX">AliExpress</a></div></div></article><article class="card" id="p9"><img class="card-img" src="../images/gaming-09.jpg" alt="Περισσότερη RAM, στα 32GB" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">9</div><div style="flex:1"><span class="tag">Μόνο αν πραγματικά δεν σας φτάνει</span><h3>Περισσότερη RAM, στα 32GB</h3><div class="price">$60–120</div></div></div><p>Αυτό βρίσκεται στη λίστα με έναν όρο. Αν έχετε 16GB και παίζετε ενώ τρέχετε έναν browser με τριάντα καρτέλες, ένα πρόγραμμα chat και ένα stream, πιθανότατα φτάνετε στο όριο και το «κόλλημα» (stutter) που ρίχνετε στην κάρτα γραφικών σας είναι στην πραγματικότητα πίεση στη μνήμη. Η μετάβαση στα 32GB το διορθώνει αυτό εντελώς. Αν έχετε 16GB και κλείνετε τα πάντα πριν παίξετε, η περισσότερη RAM δεν θα κάνει ουσιαστικά τίποτα και τα χρήματα πρέπει να πάνε αλλού. Ελέγξτε την πραγματική σας χρήση κατά τη διάρκεια του gaming πρώτα — ο διαχειριστής εργασιών (task manager) απαντά σε αυτό σε δέκα δευτερόλεπτα, και σας εμποδίζει να αγοράσετε μια λύση για ένα πρόβλημα που δεν έχετε.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Εξαλείφει το «κόλλημα» που προκαλείται από την πίεση στη μνήμη</li><li>Φθηνή σε σχέση με μια κάρτα γραφικών</li><li>Βοηθά αν κάνετε stream ή multitasking ενώ παίζετε</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Δεν κάνει τίποτα αν δεν σας λείπει πραγματικά</li><li>Πρέπει να ταιριάζει με τον τύπο μνήμης της μητρικής σας</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=32GB+DDR5+desktop+RAM+kit&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3Gg6gsJ">AliExpress</a></div></div></article><article class="card" id="p10"><img class="card-img" src="../images/gaming-10.jpg" alt="Αναβάθμιση κάρτας γραφικών" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">10</div><div style="flex:1"><span class="tag">Τελευταία, και μόνο μετά τα υπόλοιπα</span><h3>Αναβάθμιση κάρτας γραφικών</h3><div class="price">$300–1200</div></div></div><p>Η κάρτα γραφικών είναι η αναβάθμιση που όλοι επιλέγουν πρώτα και εδώ ανήκει τελευταία, επειδή είναι μακράν ο πιο ακριβός τρόπος για να αγοράσετε μια διαφορά και συχνά δεν είναι αυτό που σας περιορίζει. Πριν ξοδέψετε, ελέγξτε τι είναι αυτό που σας περιορίζει πραγματικά: αν ο επεξεργαστής σας είναι σε πλήρες φορτίο ενώ η κάρτα δεν είναι, μια νέα κάρτα δεν αλλάζει τίποτα. Αν παίζετε σε 1080p σε οθόνη 60Hz, μια ταχύτερη κάρτα παράγει καρέ που η οθόνη σας δεν μπορεί να δείξει. Αγοράστε πρώτα την οθόνη, επιβεβαιώστε ότι η κάρτα είναι το bottleneck, και μετά αγοράστε την κάρτα — με αυτή τη σειρά, τα χρήματα πιάνουν πολύ καλύτερο τόπο.</p><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Ο μόνος δρόμος για πραγματικά υψηλότερες ρυθμίσεις</li><li>Διατηρεί την αξία μεταπώλησης αρκετά καλά</li><li>Επιτρέπει σωστά τις υψηλότερες αναλύσεις</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Μακράν η πιο ακριβή διαφορά που μπορείτε να αγοράσετε</li><li>Ανούσια αν ο επεξεργαστής ή η οθόνη σας είναι το πραγματικό όριο</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=graphics+card+1440p+gaming&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4NQxqkn">AliExpress</a></div></div></article><h2>Συχνές ερωτήσεις</h2><div class="faq"><details><summary>Αξίζει ο υψηλότερος ρυθμός ανανέωσης πάνω από τα 144Hz;</summary><p>Για τους περισσότερους, όχι. Η μετάβαση από 60 σε 144Hz είναι μεταμορφωτική· από 144 σε 240Hz είναι μια μέτρια βελτίωση που οι περισσότεροι παίκτες δεν μπορούν να αναγνωρίσουν αξιόπιστα σε τυφλή δοκιμή· πέρα από αυτό είναι για ανταγωνιστικούς παίκτες με τα αντανακλαστικά και τα frame rates για να το χρησιμοποιήσουν.</p></details><details><summary>Ένα ακριβό gaming ποντίκι σε κάνει καλύτερο;</summary><p>Το βάρος και το σχήμα επηρεάζουν πραγματικά την άνεση και τη συνέπεια, οπότε ένα ποντίκι που ταιριάζει στο χέρι σας βοηθάει. Ο αριθμός DPI όχι — κάθε σύγχρονος αισθητήρας ξεπερνά αυτό που μπορεί να εκμεταλλευτεί ένα ανθρώπινο χέρι.</p></details><details><summary>Ενσύρματο ή ασύρματο για ανταγωνιστικό παιχνίδι;</summary><p>Τα καλά ασύρματα είναι πλέον ουσιαστικά χωρίς καθυστέρηση (latency-free) και η διαφορά δεν αποτελεί πλέον πραγματικό επιχείρημα. Τα ενσύρματα είναι ακόμα φθηνότερα, ελαφρύτερα και δεν χρειάζονται ποτέ φόρτιση, γι&#x27; αυτό και πολλοί ανταγωνιστικοί παίκτες παραμένουν σε αυτά.</p></details><details><summary>Τι πρέπει να αναβαθμίσω πρώτα με περιορισμένο προϋπολογισμό;</summary><p>Έναν SSD αν έχετε ακόμα σκληρό δίσκο, μετά μια οθόνη 144Hz, και μετά ένα desk mat. Αυτή η σειρά αγοράζει την πιο αισθητή αλλαγή ανά σέκελ, και τίποτα από αυτά δεν απαιτεί να πειράξετε την κάρτα γραφικών.</p></details></div><p style="margin-top:34px"><a href="posts.html">← Όλοι οι οδηγοί</a></p><p class="disc">Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές. Οι τιμές και η διαθεσιμότητα ισχύουν κατά την ημερομηνία δημοσίευσης και ενδέχεται να αλλάξουν.</p></div></div><footer><nav><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a><a href="../privacy.html">Απόρρητο</a><a href="../terms.html">Όροι</a><a href="posts.html">Οδηγοί</a></nav><p>Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές. Δεν σας κοστίζει ποτέ περισσότερο.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../post-gaming.html" hreflang="en">English</a> · <a href="../he/post-gaming.html" hreflang="he">עברית</a> · <a href="../es/post-gaming.html" hreflang="es">Español</a> · <a href="../fr/post-gaming.html" hreflang="fr">Français</a> · <a href="../de/post-gaming.html" hreflang="de">Deutsch</a></div></footer>
-<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script>
+<div class="nav"><div class="nav-in"><a class="brand" href="../index.html"><span class="logo">fashion<span>hotspot</span></span><span class="mono navkick" aria-hidden="true">/ οδηγοί</span></a><nav class="nav-links"><a href="../index.html">Προσφορές</a><a href="posts.html">Οδηγοί</a><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="progtrack"><div class="progbar" id="prog"></div></div><div class="wrap"><div class="crumbs mono"><a href="../index.html">Αρχική</a> › <a href="posts.html">Οδηγοί</a> › Gaming</div><span class="kicker mono">Gaming · 9 λεπτά ανάγνωσης · Ενημερώθηκε <time datetime="2026-08-08">8 Αυγούστου 2026</time></span><h1>Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού</h1><p class="dek">Κατατάσσονται με βάση το πόση διαφορά θα παρατηρήσετε στην πράξη, που δεν είναι το ίδιο με το πόσο κοστίζουν.</p><div class="byline mono"><span class="av" aria-hidden="true"></span><b>Η σύνταξη του fashionhotspot</b><span class="end">10 προϊόντα</span></div></div><div class="hero"><img src="../images/hero-gaming.jpg" alt="Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού" width="1600" height="840" fetchpriority="high"></div><div class="wrap"><div class="body"><p class="lead">Το hardware για gaming πωλείται με βάση νούμερα που ως επί το πλείστον παύουν να έχουν σημασία πάνω από ένα ορισμένο σημείο. Το άλμα από τα 60Hz στα 144Hz είναι μεταμορφωτικό. Το άλμα από τα 240Hz στα 360Hz είναι κάτι που μια χούφτα άνθρωποι μπορούν πραγματικά να αντιληφθούν, και τιμολογείται σαν να μπορούν όλοι.</p><p>Έτσι, αυτή η λίστα είναι ταξινομημένη με βάση την αισθητή διαφορά ανά σέκελ. Τα πρώτα λίγα προϊόντα αλλάζουν την αίσθηση του παιχνιδιού μέσα σε λίγα λεπτά από τη σύνδεσή τους. Τα τελευταία είναι πραγματικές αναβαθμίσεις με ειλικρινά φθίνουσες αποδόσεις, και λέμε ποιο είναι ποιο.</p><p>Οι τιμές είναι κατά προσέγγιση κατά τη στιγμή της συγγραφής, και αυτή η κατηγορία έχει μεγάλες εκπτώσεις γύρω στον Νοέμβριο.</p><div class="short"><div class="mono">Με λίγα λόγια</div><div class="lead-pick">Μια οθόνη 1440p 144Hz</div><div class="lead-tag mono">Η αναβάθμιση που νιώθεις αμέσως</div></div><div class="note"><b>Γνωστοποίηση.</b> Οι σύνδεσμοι σε αυτή τη σελίδα είναι συνδεδεμένοι. Αν αγοράσετε μέσω κάποιου, ενδέχεται να λάβουμε προμήθεια χωρίς επιπλέον κόστος για εσάς. Δεν επηρεάζει το τι μπαίνει στη λίστα ούτε τη σειρά της.</div><h2>Πώς επιλέξαμε</h2><p>Κατατάσσουμε με βάση την αισθητή διαφορά και όχι τα τεχνικά χαρακτηριστικά, αντλώντας στοιχεία από δημοσιευμένες κριτικές που βασίζονται σε μετρήσεις, δοκιμές καθυστέρησης εισόδου (input-latency) και μακροχρόνιες αναφορές κατόχων. Δεν έχουμε δοκιμάσει προσωπικά κάθε προϊόν εδώ. Όπου ένα χαρακτηριστικό έχει πάψει να έχει σημασία για τους περισσότερους, το λέμε — προτιμούμε να σας αποτρέψουμε από μια αναβάθμιση παρά να σας πουλήσουμε ένα νούμερο που δεν μπορείτε να νιώσετε.</p><h2>Με μια ματιά</h2><div class="tablewrap"><table><thead><tr><th>#</th><th>Προϊόν</th><th>Ιδανικό για</th><th>Ενδεικτική τιμή</th></tr></thead><tbody><tr><td class="rank">1</td><td><a href="#p1">Μια οθόνη 1440p 144Hz</a></td><td>Η αναβάθμιση που νιώθεις αμέσως</td><td>$220–400</td></tr><tr><td class="rank">2</td><td><a href="#p2">Ένας SSD, αν έχετε ακόμα σκληρό δίσκο</a></td><td>Η μεγαλύτερη βελτίωση στην ποιότητα ζωής</td><td>$60–150</td></tr><tr><td class="rank">3</td><td><a href="#p3">Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο</a></td><td>Ο ήχος θέσης είναι πραγματικό πλεονέκτημα</td><td>$70–200</td></tr><tr><td class="rank">4</td><td><a href="#p4">Ένα ελαφρύ ενσύρματο ποντίκι</a></td><td>Το βάρος μετράει περισσότερο από το DPI</td><td>$40–90</td></tr><tr><td class="rank">5</td><td><a href="#p5">Ένα μεγάλο υφασμάτινο desk mat</a></td><td>Η φθηνότερη πραγματική βελτίωση</td><td>$20–40</td></tr><tr><td class="rank">6</td><td><a href="#p6">Ένα χειριστήριο με μοχλούς hall-effect</a></td><td>Λύνει το stick drift σωστά</td><td>$50–120</td></tr><tr><td class="rank">7</td><td><a href="#p7">Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη</a></td><td>Φθηνή άνεση, όχι απόδοση</td><td>$15–40</td></tr><tr><td class="rank">8</td><td><a href="#p8">Ένα στήριγμα καρπού (wrist rest)</a></td><td>Βαρετό, αλλά οι καρποί σας θα σας ευχαριστούν</td><td>$15–35</td></tr><tr><td class="rank">9</td><td><a href="#p9">Περισσότερη RAM, στα 32GB</a></td><td>Μόνο αν πραγματικά δεν σας φτάνει</td><td>$60–120</td></tr><tr><td class="rank">10</td><td><a href="#p10">Αναβάθμιση κάρτας γραφικών</a></td><td>Τελευταία, και μόνο μετά τα υπόλοιπα</td><td>$300–1200</td></tr></tbody></table></div><p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">Οι τιμές είναι ενδεικτικές κατά τη συγγραφή και αλλάζουν συχνά.</p><h2>Οι επιλογές</h2><article class="card" id="p1"><img class="card-img" src="../images/gaming-01.jpg" alt="Μια οθόνη 1440p 144Hz" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">01 · Η αναβάθμιση που νιώθεις αμέσως</span><h3>Μια οθόνη 1440p 144Hz</h3><p>Αν εξακολουθείτε να έχετε οθόνη 60Hz, αυτή είναι η μοναδική μεγαλύτερη αισθητή αναβάθμιση που υπάρχει στο gaming, και μάλιστα με διαφορά. Τα πάντα, από την κίνηση του ποντικιού μέχρι την πανοραμική κίνηση της κάμερας, γίνονται πιο ομαλά με τρόπο που είναι προφανής στα πρώτα τριάντα δευτερόλεπτα και αδύνατο να τον αγνοήσεις μετά. Η ανάλυση 1440p στις 27 ίντσες είναι το ιδανικό σημείο: πιο ευκρινής από 1080p χωρίς την τεράστια απαίτηση σε κάρτα γραφικών του 4K. Βεβαιωθείτε ότι το adaptive sync είναι ενεργοποιημένο — είναι δωρεάν, εξαλείφει το «σχίσιμο» της εικόνας (tearing), και ένας εκπληκτικός αριθμός ανθρώπων δεν το ενεργοποιεί ποτέ. Πάνω από τα 144Hz οι αποδόσεις μειώνονται απότομα για όποιον δεν παίζει ανταγωνιστικά.</p><div class="priceline"><span class="price">$220–400</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Χρειάζεται κάρτα που μπορεί όντως να αποδώσει τα καρέ</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Η πιο αισθητή αναβάθμιση στο gaming</li><li>Η ανάλυση 1440p είναι το ιδανικό σημείο</li><li>Το Adaptive sync εξαλείφει το tearing δωρεάν</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Χρειάζεται κάρτα που μπορεί όντως να αποδώσει τα καρέ</li><li>Πάνω από τα 144Hz οι αποδόσεις πέφτουν απότομα</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=27+inch+1440p+144Hz+gaming+monitor+IPS&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4m130Kj">AliExpress</a></div></div></article><article class="card" id="p2"><img class="card-img" src="../images/gaming-02.jpg" alt="Ένας SSD, αν έχετε ακόμα σκληρό δίσκο" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">02 · Η μεγαλύτερη βελτίωση στην ποιότητα ζωής</span><h3>Ένας SSD, αν έχετε ακόμα σκληρό δίσκο</h3><p>Αυτό δεν αυξάνει καθόλου το frame rate σας, αλλά και πάλι θα είναι η αλλαγή που θα εκτιμήσετε περισσότερο στην καθημερινότητά σας. Οι οθόνες φόρτωσης μειώνονται από ένα λεπτό σε λίγα δευτερόλεπτα, το pop-in των υφών σε ανοιχτούς κόσμους εξαφανίζεται σε μεγάλο βαθμό, και ο υπολογιστής παύει να δίνει την αίσθηση ότι «διστάζει». Τα σύγχρονα παιχνίδια επίσης κατασκευάζονται όλο και περισσότερο με την προϋπόθεση γρήγορης αποθήκευσης, οπότε ορισμένα πλέον κάνουν stream τα δεδομένα με τρόπο που πραγματικά «κολλάει» σε έναν μηχανικό δίσκο. Ένας δίσκος NVMe 1TB είναι το πρακτικό μέγεθος — τα παιχνίδια είναι τεράστια πλέον και ένας δίσκος 500GB γεμίζει γρηγορότερα από ό,τι περιμένετε.</p><div class="priceline"><span class="price">$60–150</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Δεν κάνει τίποτα για το frame rate</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Οι χρόνοι φόρτωσης πέφτουν από λεπτά σε δευτερόλεπτα</li><li>Εξαλείφει το pop-in των υφών και το «κόλλημα» (stutter)</li><li>Φθηνός για το πόσο μεγάλη διαφορά κάνει</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Δεν κάνει τίποτα για το frame rate</li><li>Ελέγξτε αν η μητρική σας υποστηρίζει τη γενιά του δίσκου</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=1TB+NVMe+SSD+gen4&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4EhBsVD">AliExpress</a></div></div></article><article class="card" id="p3"><img class="card-img" src="../images/gaming-03.jpg" alt="Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">03 · Ο ήχος θέσης είναι πραγματικό πλεονέκτημα</span><h3>Ένα headset κλειστού τύπου ή ακουστικά με μικρόφωνο</h3><p>Στα ανταγωνιστικά παιχνίδια, το να ακούς από πού προήλθε ένας ήχος είναι μια πραγματικά αξιοποιήσιμη πληροφορία, και ένα αξιοπρεπές ζευγάρι κλειστού τύπου σου το δίνει αυτό πολύ καλύτερα από τα ηχεία του laptop ή της οθόνης. Ο κλειστός τύπος έχει διπλή σημασία: σε απομονώνει από τον χώρο και εμποδίζει τον ήχο από τα ακουστικά σου να περνάει στο μικρόφωνό σου. Εδώ είναι η συμβουλή που εξοικονομεί χρήματα — ένα ζευγάρι καλά ακουστικά συν ένα ξεχωριστό μικρόφωνο clip-on συνήθως κερδίζει ένα gaming headset ίδιας τιμής, επειδή ο προϋπολογισμός των headset μοιράζεται μεταξύ ήχου και μικροφώνου, και ο «φόρος της μάρκας» στο hardware με την ετικέτα gaming είναι υπαρκτός. Τα ενσύρματα αποφεύγουν εντελώς την καθυστέρηση και την μπαταρία.</p><div class="priceline"><span class="price">$70–200</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Η επωνυμία «gaming» συνεπάγεται υψηλότερη τιμή</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Ο ήχος θέσης είναι ένα γνήσιο ανταγωνιστικό πλεονέκτημα</li><li>Ο κλειστός τύπος σταματά τη διαρροή ήχου στο μικρόφωνο</li><li>Ακουστικά συν ξεχωριστό μικρόφωνο κερδίζουν ένα headset ίδιας τιμής</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Η επωνυμία «gaming» συνεπάγεται υψηλότερη τιμή</li><li>Ζεσταίνουν τα αυτιά σε πολύωρες συνεδρίες</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=closed+back+gaming+headset+wired&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c457Irt9">AliExpress</a></div></div></article><article class="card" id="p4"><img class="card-img" src="../images/gaming-04.jpg" alt="Ένα ελαφρύ ενσύρματο ποντίκι" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">04 · Το βάρος μετράει περισσότερο από το DPI</span><h3>Ένα ελαφρύ ενσύρματο ποντίκι</h3><p>Αγνοήστε εντελώς τον αριθμό DPI — κάθε σύγχρονος αισθητήρας είναι πιο ακριβής από οποιοδήποτε ανθρώπινο χέρι, και σχεδόν όλοι παίζουν ούτως ή άλλως σε ένα κλάσμα του μέγιστου. Αυτό που πραγματικά αισθάνεστε είναι το βάρος και το σχήμα. Η μετάβαση από ένα ποντίκι 110g σε ένα 60g αλλάζει το πόσο γρήγορα μπορείτε να κάνετε απότομες κινήσεις και πόσο κουράζεται ο καρπός σας μετά από δύο ώρες, άμεσα και εμφανώς. Το σχήμα πρέπει να ταιριάζει με το κράτημά σας: το κράτημα με την παλάμη (palm), τη «δαγκάνα» (claw) ή τις άκρες των δακτύλων (fingertip) είναι πραγματικά διαφορετικές απαιτήσεις, και ένα ποντίκι που ταιριάζει στο ένα είναι άβολο για το άλλο. Τα ενσύρματα είναι φθηνότερα και ελαφρύτερα· τα καλά ασύρματα είναι πλέον πραγματικά χωρίς καθυστέρηση, αλλά κοστίζουν περισσότερο.</p><div class="priceline"><span class="price">$40–90</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Το σχήμα πρέπει να ταιριάζει με το στυλ κρατήματός σας</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Το βάρος είναι το χαρακτηριστικό που πραγματικά αισθάνεστε</li><li>Τα ενσύρματα είναι ελαφρύτερα και φθηνότερα</li><li>Οι σύγχρονοι αισθητήρες είναι όλοι αρκετά ακριβείς</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Το σχήμα πρέπει να ταιριάζει με το στυλ κρατήματός σας</li><li>Το μάρκετινγκ του DPI είναι ουσιαστικά ανούσιο</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=lightweight+gaming+mouse+60g+wired&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4K4cjPD">AliExpress</a></div></div></article><article class="card" id="p5"><img class="card-img" src="../images/gaming-05.jpg" alt="Ένα μεγάλο υφασμάτινο desk mat" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">05 · Η φθηνότερη πραγματική βελτίωση</span><h3>Ένα μεγάλο υφασμάτινο desk mat</h3><p>Μια σταθερή επιφάνεια χαμηλής τριβής κάνει τη σκόπευση πιο επαναλήψιμη, και αν παίζετε με χαμηλή ευαισθησία χρειάζεστε πολύ περισσότερο χώρο από ό,τι δίνει ένα μικρό pad — το να ξεμείνετε από mat στη μέση μιας στροφής είναι ένα πραγματικό και αποφεύξιμο πρόβλημα. Ένα μεγάλο mat προστατεύει επίσης το γραφείο και μειώνει ελαφρώς τον θόρυβο του πληκτρολογίου. Προτιμήστε ύφασμα αντί για σκληρό πλαστικό για έλεγχο και άνεση, και ραμμένες άκρες επειδή εκεί είναι που τα φθηνά mat ξεφτίζουν πρώτα. Κοστίζει περίπου είκοσι δολάρια και κάνει μεγαλύτερη διαφορά στη σκόπευσή σας από τα τελευταία τριάντα δολάρια που θα ξοδεύατε σε ένα ποντίκι.</p><div class="priceline"><span class="price">$20–40</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Το ύφασμα χρειάζεται περιστασιακό πλύσιμο</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Πιο σταθερή σκόπευση από ένα μικρό σκληρό pad</li><li>Προστατεύει το γραφείο και μειώνει τον θόρυβο</li><li>Πολύ φθηνό για τη διαφορά που κάνει</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Το ύφασμα χρειάζεται περιστασιακό πλύσιμο</li><li>Οι άκρες χωρίς ραφή ξεφτίζουν γρήγορα</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=large+cloth+gaming+mouse+mat+desk+pad&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3ydPxEX">AliExpress</a></div></div></article><article class="card" id="p6"><img class="card-img" src="../images/gaming-06.jpg" alt="Ένα χειριστήριο με μοχλούς hall-effect" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">06 · Λύνει το stick drift σωστά</span><h3>Ένα χειριστήριο με μοχλούς hall-effect</h3><p>Το stick drift είναι το ελάττωμα που «σκοτώνει» τα περισσότερα χειριστήρια, και συμβαίνει επειδή οι συμβατικοί μοχλοί χρησιμοποιούν φυσικές επαφές που φθείρονται. Οι μοχλοί hall-effect διαβάζουν ένα μαγνητικό πεδίο αντ&#x27; αυτού, χωρίς τίποτα να ακουμπά, οπότε δεν αναπτύσσουν drift λόγω φθοράς. Αυτή η μία και μόνη αλλαγή μετατρέπει ένα χειριστήριο από αναλώσιμο που αντικαθιστάτε κάθε δεκαοκτώ μήνες σε κάτι που διαρκεί. Δεδομένου ότι ένας μοχλός με drift καθιστά ένα χειριστήριο πραγματικά άχρηστο, αυτή είναι μία από τις πιο ξεκάθαρες προτάσεις αξίας σε αυτή τη σελίδα. Ελέγξτε ότι το μοντέλο αναφέρει όντως hall effect ή TMR, επειδή πολλά χειριστήρια σε παρόμοιες τιμές εξακολουθούν να χρησιμοποιούν τον παλιό σχεδιασμό.</p><div class="priceline"><span class="price">$50–120</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Πρέπει να επαληθεύσετε ότι το μοντέλο χρησιμοποιεί όντως hall effect</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Δεν αναπτύσσει stick drift λόγω φθοράς</li><li>Μετατρέπει ένα αναλώσιμο σε μια αγορά που διαρκεί</li><li>Συχνά περιλαμβάνει επαναπρογραμματιζόμενα πίσω κουμπιά</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Πρέπει να επαληθεύσετε ότι το μοντέλο χρησιμοποιεί όντως hall effect</li><li>Η ποιότητα κατασκευής των χειριστηρίων τρίτων κατασκευαστών ποικίλλει</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=hall+effect+controller+no+stick+drift&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3WxGPvN">AliExpress</a></div></div></article><article class="card" id="p7"><img class="card-img" src="../images/gaming-07.jpg" alt="Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">07 · Φθηνή άνεση, όχι απόδοση</span><h3>Περιμετρικός φωτισμός (bias lighting) πίσω από την οθόνη</h3><p>Μια φωτεινή οθόνη σε ένα σκοτεινό δωμάτιο αναγκάζει τα μάτια σας να προσαρμόζονται συνεχώς μεταξύ των δύο, κάτι που αποτελεί μεγάλο μέρος του λόγου για τον οποίο οι πολύωρες νυχτερινές συνεδρίες σας αφήνουν με πονοκέφαλο. Μια ταινία χαμηλού φωτισμού πίσω από την οθόνη αυξάνει τη φωτεινότητα του περιβάλλοντος χώρου και αφαιρεί αυτή την αντίθεση, ενώ κάνει και την εικόνα να φαίνεται καλύτερη δίνοντας στα μάτια σας ένα ουδέτερο σημείο αναφοράς για το μαύρο. Χρησιμοποιήστε ένα ζεστό, χαμηλό, σταθερό φως αντί για ένα που αλλάζει χρώματα, το οποίο αναιρεί τον σκοπό. Αυτό αλλάζει την άνεση και όχι την απόδοση, και κοστίζει περίπου όσο ένα παιχνίδι.</p><div class="priceline"><span class="price">$15–40</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Καμία επίδραση στην απόδοση</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Αισθητά λιγότερη καταπόνηση των ματιών τη νύχτα</li><li>Βελτιώνει την αντιληπτή αντίθεση</li><li>Κοστίζει περίπου όσο ένα παιχνίδι</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Καμία επίδραση στην απόδοση</li><li>Οι λειτουργίες εναλλαγής χρωμάτων αναιρούν τον σκοπό</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=USB+bias+lighting+LED+strip+monitor+back&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4aI14S3">AliExpress</a></div></div></article><article class="card" id="p8"><img class="card-img" src="../images/gaming-08.jpg" alt="Ένα στήριγμα καρπού (wrist rest)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">08 · Βαρετό, αλλά οι καρποί σας θα σας ευχαριστούν</span><h3>Ένα στήριγμα καρπού (wrist rest)</h3><p>Τα μηχανικά πληκτρολόγια είναι ψηλά, και ένα ψηλό πληκτρολόγιο λυγίζει τους καρπούς σας προς τα πάνω για όσες ώρες παίζετε. Με την πάροδο των μηνών, αυτή η έκταση αποτελεί πραγματικό κίνδυνο τραυματισμού από επαναλαμβανόμενη καταπόνηση, και είναι το είδος του προβλήματος που είναι πολύ πιο εύκολο να προληφθεί παρά να θεραπευτεί. Ένα στήριγμα που ταιριάζει με το ύψος του πληκτρολογίου σας κρατά τον καρπό πιο κοντά σε ουδέτερη θέση. Ταιριάξτε το ύψος αντί να αγοράσετε το πιο μαλακό — ένα στήριγμα που είναι πολύ χαμηλό ή πολύ ψηλό απλώς μετατοπίζει τη γωνία αντί να την εξαλείφει. Ο αφρός μνήμης (memory foam) είναι άνετος και συμπιέζεται μέσα σε ένα ή δύο χρόνια· τα πιο σκληρά υλικά διαρκούν περισσότερο.</p><div class="priceline"><span class="price">$15–35</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Το λάθος ύψος μετατοπίζει το πρόβλημα αντί να το λύνει</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Μειώνει έναν πραγματικό κίνδυνο τραυματισμού από επαναλαμβανόμενη καταπόνηση</li><li>Φθηνό και δεν απαιτεί αλλαγή συνηθειών</li><li>Συνδυάζεται φυσικά με ένα μηχανικό πληκτρολόγιο</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Το λάθος ύψος μετατοπίζει το πρόβλημα αντί να το λύνει</li><li>Ο αφρός συμπιέζεται με την πάροδο του χρόνου</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=keyboard+wrist+rest+memory+foam&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3QDpskX">AliExpress</a></div></div></article><article class="card" id="p9"><img class="card-img" src="../images/gaming-09.jpg" alt="Περισσότερη RAM, στα 32GB" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">09 · Μόνο αν πραγματικά δεν σας φτάνει</span><h3>Περισσότερη RAM, στα 32GB</h3><p>Αυτό βρίσκεται στη λίστα με έναν όρο. Αν έχετε 16GB και παίζετε ενώ τρέχετε έναν browser με τριάντα καρτέλες, ένα πρόγραμμα chat και ένα stream, πιθανότατα φτάνετε στο όριο και το «κόλλημα» (stutter) που ρίχνετε στην κάρτα γραφικών σας είναι στην πραγματικότητα πίεση στη μνήμη. Η μετάβαση στα 32GB το διορθώνει αυτό εντελώς. Αν έχετε 16GB και κλείνετε τα πάντα πριν παίξετε, η περισσότερη RAM δεν θα κάνει ουσιαστικά τίποτα και τα χρήματα πρέπει να πάνε αλλού. Ελέγξτε την πραγματική σας χρήση κατά τη διάρκεια του gaming πρώτα — ο διαχειριστής εργασιών (task manager) απαντά σε αυτό σε δέκα δευτερόλεπτα, και σας εμποδίζει να αγοράσετε μια λύση για ένα πρόβλημα που δεν έχετε.</p><div class="priceline"><span class="price">$60–120</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Δεν κάνει τίποτα αν δεν σας λείπει πραγματικά</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Εξαλείφει το «κόλλημα» που προκαλείται από την πίεση στη μνήμη</li><li>Φθηνή σε σχέση με μια κάρτα γραφικών</li><li>Βοηθά αν κάνετε stream ή multitasking ενώ παίζετε</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Δεν κάνει τίποτα αν δεν σας λείπει πραγματικά</li><li>Πρέπει να ταιριάζει με τον τύπο μνήμης της μητρικής σας</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=32GB+DDR5+desktop+RAM+kit&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3Gg6gsJ">AliExpress</a></div></div></article><article class="card" id="p10"><img class="card-img" src="../images/gaming-10.jpg" alt="Αναβάθμιση κάρτας γραφικών" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">10 · Τελευταία, και μόνο μετά τα υπόλοιπα</span><h3>Αναβάθμιση κάρτας γραφικών</h3><p>Η κάρτα γραφικών είναι η αναβάθμιση που όλοι επιλέγουν πρώτα και εδώ ανήκει τελευταία, επειδή είναι μακράν ο πιο ακριβός τρόπος για να αγοράσετε μια διαφορά και συχνά δεν είναι αυτό που σας περιορίζει. Πριν ξοδέψετε, ελέγξτε τι είναι αυτό που σας περιορίζει πραγματικά: αν ο επεξεργαστής σας είναι σε πλήρες φορτίο ενώ η κάρτα δεν είναι, μια νέα κάρτα δεν αλλάζει τίποτα. Αν παίζετε σε 1080p σε οθόνη 60Hz, μια ταχύτερη κάρτα παράγει καρέ που η οθόνη σας δεν μπορεί να δείξει. Αγοράστε πρώτα την οθόνη, επιβεβαιώστε ότι η κάρτα είναι το bottleneck, και μετά αγοράστε την κάρτα — με αυτή τη σειρά, τα χρήματα πιάνουν πολύ καλύτερο τόπο.</p><div class="priceline"><span class="price">$300–1200</span><span class="tradeoff mono"><b>Ο συμβιβασμός:</b> Μακράν η πιο ακριβή διαφορά που μπορείτε να αγοράσετε</span></div><div class="pc"><div class="pros"><h4>Γιατί είναι εδώ</h4><ul><li>Ο μόνος δρόμος για πραγματικά υψηλότερες ρυθμίσεις</li><li>Διατηρεί την αξία μεταπώλησης αρκετά καλά</li><li>Επιτρέπει σωστά τις υψηλότερες αναλύσεις</li></ul></div><div class="cons"><h4>Αξίζει να ξέρετε</h4><ul><li>Μακράν η πιο ακριβή διαφορά που μπορείτε να αγοράσετε</li><li>Ανούσια αν ο επεξεργαστής ή η οθόνη σας είναι το πραγματικό όριο</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=graphics+card+1440p+gaming&amp;tag=fashionhots0f-20">Δείτε την τιμή στο Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4NQxqkn">AliExpress</a></div></div></article><h2>Συχνές ερωτήσεις</h2><div class="faq"><details><summary>Αξίζει ο υψηλότερος ρυθμός ανανέωσης πάνω από τα 144Hz;</summary><p>Για τους περισσότερους, όχι. Η μετάβαση από 60 σε 144Hz είναι μεταμορφωτική· από 144 σε 240Hz είναι μια μέτρια βελτίωση που οι περισσότεροι παίκτες δεν μπορούν να αναγνωρίσουν αξιόπιστα σε τυφλή δοκιμή· πέρα από αυτό είναι για ανταγωνιστικούς παίκτες με τα αντανακλαστικά και τα frame rates για να το χρησιμοποιήσουν.</p></details><details><summary>Ένα ακριβό gaming ποντίκι σε κάνει καλύτερο;</summary><p>Το βάρος και το σχήμα επηρεάζουν πραγματικά την άνεση και τη συνέπεια, οπότε ένα ποντίκι που ταιριάζει στο χέρι σας βοηθάει. Ο αριθμός DPI όχι — κάθε σύγχρονος αισθητήρας ξεπερνά αυτό που μπορεί να εκμεταλλευτεί ένα ανθρώπινο χέρι.</p></details><details><summary>Ενσύρματο ή ασύρματο για ανταγωνιστικό παιχνίδι;</summary><p>Τα καλά ασύρματα είναι πλέον ουσιαστικά χωρίς καθυστέρηση (latency-free) και η διαφορά δεν αποτελεί πλέον πραγματικό επιχείρημα. Τα ενσύρματα είναι ακόμα φθηνότερα, ελαφρύτερα και δεν χρειάζονται ποτέ φόρτιση, γι&#x27; αυτό και πολλοί ανταγωνιστικοί παίκτες παραμένουν σε αυτά.</p></details><details><summary>Τι πρέπει να αναβαθμίσω πρώτα με περιορισμένο προϋπολογισμό;</summary><p>Έναν SSD αν έχετε ακόμα σκληρό δίσκο, μετά μια οθόνη 144Hz, και μετά ένα desk mat. Αυτή η σειρά αγοράζει την πιο αισθητή αλλαγή ανά σέκελ, και τίποτα από αυτά δεν απαιτεί να πειράξετε την κάρτα γραφικών.</p></details></div><div class="closer"><h2>Οι προσφορές σήμερα</h2><p>Δείτε τι είναι σε έκπτωση αυτή τη στιγμή.</p><a class="btn" href="../index.html">Προσφορές →</a></div><p class="mono" style="margin-top:34px"><a href="posts.html">← Όλοι οι οδηγοί</a></p><p class="disc">Δεν είμαστε Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές. Οι τιμές και η διαθεσιμότητα ισχύουν κατά την ημερομηνία δημοσίευσης και ενδέχεται να αλλάξουν.</p></div></div><footer><nav><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a><a href="../privacy.html">Απόρρητο</a><a href="../terms.html">Όροι</a><a href="posts.html">Οδηγοί</a></nav><p>Δεν είμαστε Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές. Δεν σας κοστίζει ποτέ περισσότερο.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../post-gaming.html" hreflang="en">English</a> · <a href="../he/post-gaming.html" hreflang="he">עברית</a> · <a href="../es/post-gaming.html" hreflang="es">Español</a> · <a href="../fr/post-gaming.html" hreflang="fr">Français</a> · <a href="../de/post-gaming.html" hreflang="de">Deutsch</a></div></footer>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script><script>(function(){var b=document.getElementById("prog");if(!b)return;var f=function(){var h=document.documentElement.scrollHeight-innerHeight;b.style.width=(h>0?Math.min(100,scrollY/h*100):0)+"%";};addEventListener("scroll",f,{passive:true});addEventListener("resize",f);f();})();</script>
 </body>
 </html>

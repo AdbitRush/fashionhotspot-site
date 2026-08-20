@@ -172,6 +172,70 @@ UI = {
     },
 }
 
+# ── Strings added by the 2026-08-20 guides redesign ──────────────────────────
+# Kept in a separate table and merged in, rather than inserted into six blocks
+# above, so that a later design change can be reviewed — or reverted — as one
+# diff instead of six interleaved ones.
+#
+# Every label here describes something the page can actually prove:
+#   `latest` / `recently_updated` sort by the guide's own `updated` date. The
+#   design called this slot "most read this month", which would need analytics
+#   the site does not collect, so it would have been a number we made up.
+#   `tradeoff` labels the first entry of a pick's existing `cons` list. It is
+#   not a new claim, it is a name for one we already publish.
+UI_EXTRA = {
+    "en": {"latest": "Latest guide", "recently_updated": "Recently updated",
+           "all": "All", "showing": "{n} showing", "read_guide": "Read",
+           "short_version": "The short version", "tradeoff": "Trade-off",
+           "closer_title": "Today's deals",
+           "closer_body": "See what is discounted right now.",
+           "grp_home": "Home", "grp_kitchen": "Kitchen", "grp_tech": "Tech",
+           "grp_health": "Health", "grp_beauty": "Beauty",
+           "grp_family": "Family", "grp_outdoors": "Outdoors"},
+    "he": {"latest": "המדריך האחרון", "recently_updated": "עודכנו לאחרונה",
+           "all": "הכול", "showing": "{n} מוצגים", "read_guide": "לקריאה",
+           "short_version": "בקצרה", "tradeoff": "על מה מוותרים",
+           "closer_title": "הדילים של היום",
+           "closer_body": "ראו מה מוזל עכשיו.",
+           "grp_home": "בית", "grp_kitchen": "מטבח", "grp_tech": "טכנולוגיה",
+           "grp_health": "בריאות", "grp_beauty": "טיפוח",
+           "grp_family": "משפחה", "grp_outdoors": "בחוץ"},
+    "es": {"latest": "Guía más reciente", "recently_updated": "Actualizadas hace poco",
+           "all": "Todas", "showing": "{n} visibles", "read_guide": "Leer",
+           "short_version": "En resumen", "tradeoff": "Lo que aceptas",
+           "closer_title": "Ofertas de hoy",
+           "closer_body": "Mira qué está rebajado ahora mismo.",
+           "grp_home": "Hogar", "grp_kitchen": "Cocina", "grp_tech": "Tecnología",
+           "grp_health": "Salud", "grp_beauty": "Belleza",
+           "grp_family": "Familia", "grp_outdoors": "Aire libre"},
+    "fr": {"latest": "Dernier guide", "recently_updated": "Mis à jour récemment",
+           "all": "Tous", "showing": "{n} affichés", "read_guide": "Lire",
+           "short_version": "En bref", "tradeoff": "Le compromis",
+           "closer_title": "Les offres du jour",
+           "closer_body": "Voyez ce qui est en promotion en ce moment.",
+           "grp_home": "Maison", "grp_kitchen": "Cuisine", "grp_tech": "Tech",
+           "grp_health": "Santé", "grp_beauty": "Beauté",
+           "grp_family": "Famille", "grp_outdoors": "Plein air"},
+    "de": {"latest": "Neuester Ratgeber", "recently_updated": "Kürzlich aktualisiert",
+           "all": "Alle", "showing": "{n} sichtbar", "read_guide": "Lesen",
+           "short_version": "Kurz gesagt", "tradeoff": "Der Kompromiss",
+           "closer_title": "Angebote heute",
+           "closer_body": "Sieh, was gerade reduziert ist.",
+           "grp_home": "Zuhause", "grp_kitchen": "Küche", "grp_tech": "Technik",
+           "grp_health": "Gesundheit", "grp_beauty": "Beauty",
+           "grp_family": "Familie", "grp_outdoors": "Draußen"},
+    "el": {"latest": "Πιο πρόσφατος οδηγός", "recently_updated": "Ενημερώθηκαν πρόσφατα",
+           "all": "Όλα", "showing": "{n} εμφανίζονται", "read_guide": "Διαβάστε",
+           "short_version": "Με λίγα λόγια", "tradeoff": "Ο συμβιβασμός",
+           "closer_title": "Οι προσφορές σήμερα",
+           "closer_body": "Δείτε τι είναι σε έκπτωση αυτή τη στιγμή.",
+           "grp_home": "Σπίτι", "grp_kitchen": "Κουζίνα", "grp_tech": "Τεχνολογία",
+           "grp_health": "Υγεία", "grp_beauty": "Ομορφιά",
+           "grp_family": "Οικογένεια", "grp_outdoors": "Έξω"},
+}
+for _code, _extra in UI_EXTRA.items():
+    UI[_code].update(_extra)
+
 AUTHOR = {
     "en": "The fashionhotspot editors", "he": "מערכת fashionhotspot",
     "es": "La redacción de fashionhotspot", "fr": "La rédaction de fashionhotspot",
@@ -199,35 +263,41 @@ AUTHOR = {
 # The price/availability tail is unrelated to membership — Amazon requires it
 # next to any price you display, regardless — so it stays in both states.
 NETWORKS = {
-    "en": {"amazon": "Amazon Associate", "aliexpress": "AliExpress affiliate",
+    "en": {"amazon_none": "We are not an Amazon Associate and earn nothing from Amazon links today.",
+           "amazon": "Amazon Associate", "aliexpress": "AliExpress affiliate",
            "tpl": "As an {} we earn from qualifying purchases.", "join": " and an ",
            "amazon_pending": "We have applied to the Amazon Associates Program. "
                              "We are not an Amazon Associate yet and earn nothing "
                              "from Amazon links today.",
            "tail": " Prices and availability are accurate as of the date of "
                    "publication and may change."},
-    "he": {"amazon": "שותפים של אמזון", "aliexpress": "שותפים של עליאקספרס",
+    "he": {"amazon_none": "איננו שותפים של אמזון ואיננו מרוויחים דבר מקישורים לאמזון.",
+           "amazon": "שותפים של אמזון", "aliexpress": "שותפים של עליאקספרס",
            "tpl": "כ{} אנחנו מרוויחים עמלה מרכישות מזכות.", "join": " ו",
            "amazon_pending": "הגשנו בקשה להצטרף לתוכנית השותפים של אמזון. איננו שותפים של אמזון עדיין, ואיננו מרוויחים דבר מקישורים לאמזון בשלב זה.",
            "tail": " המחירים והזמינות נכונים לזמן הפרסום ועשויים להשתנות."},
-    "es": {"amazon": "Afiliados de Amazon", "aliexpress": "afiliados de AliExpress",
+    "es": {"amazon_none": "No somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon.",
+           "amazon": "Afiliados de Amazon", "aliexpress": "afiliados de AliExpress",
            "tpl": "Como {}, ganamos por las compras que cumplen los requisitos.",
            "amazon_pending": "Hemos solicitado unirnos al Programa de Afiliados de Amazon. Todavía no somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon.",
            "join": " y ",
            "tail": " Los precios y la disponibilidad son correctos en la fecha de "
                    "publicación y pueden cambiar."},
-    "fr": {"amazon": "Partenaire Amazon", "aliexpress": "affilié AliExpress",
+    "fr": {"amazon_none": "Nous ne sommes pas Partenaire Amazon et ne percevons rien sur les liens Amazon.",
+           "amazon": "Partenaire Amazon", "aliexpress": "affilié AliExpress",
            "tpl": "En tant que {}, nous percevons une commission sur les achats éligibles.",
            "amazon_pending": "Nous avons déposé une candidature au Programme Partenaires d'Amazon. Nous ne sommes pas encore Partenaire Amazon et ne percevons rien sur les liens Amazon à ce jour.",
            "join": " et ",
            "tail": " Les prix et la disponibilité sont exacts à la date de "
                    "publication et peuvent changer."},
-    "de": {"amazon": "Amazon-Partner", "aliexpress": "AliExpress-Affiliate",
+    "de": {"amazon_none": "Wir sind kein Amazon-Partner und verdienen nichts an Amazon-Links.",
+           "amazon": "Amazon-Partner", "aliexpress": "AliExpress-Affiliate",
            "tpl": "Als {} verdienen wir an qualifizierten Käufen.", "join": " und ",
            "amazon_pending": "Wir haben uns für das Amazon-Partnerprogramm beworben. Wir sind noch kein Amazon-Partner und verdienen derzeit nichts an Amazon-Links.",
            "tail": " Preise und Verfügbarkeit entsprechen dem Stand der "
                    "Veröffentlichung und können sich ändern."},
-    "el": {"amazon": "Συνεργάτες της Amazon", "aliexpress": "συνεργάτες της AliExpress",
+    "el": {"amazon_none": "Δεν είμαστε Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon.",
+           "amazon": "Συνεργάτες της Amazon", "aliexpress": "συνεργάτες της AliExpress",
            "tpl": "Ως {}, κερδίζουμε από επιλέξιμες αγορές.", "join": " και ",
            "amazon_pending": "Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon.",
            "tail": " Οι τιμές και η διαθεσιμότητα ισχύουν κατά την ημερομηνία "
@@ -262,32 +332,42 @@ def fmt_date(iso, lang):
 
 
 def amazon_status():
-    """'pending' or 'approved', from site-config.json. Defaults to pending.
+    """'not_applied' | 'pending' | 'approved', from site-config.json.
 
-    Defaulting to pending is deliberate: the failure mode of guessing wrong in
-    that direction is understating a relationship, which costs nothing. Guessing
-    wrong the other way puts a false claim of Amazon membership on a public page.
+    Three states, not two. The earlier version returned "pending" for anything
+    that was not "approved", which meant `not_applied` in the config still
+    printed "We have applied to the Amazon Associates Program" on every guide
+    page in all six languages. That is the same false claim HANDOFF.md records
+    being removed from the homepage on 2026-08-14; the guides were built from a
+    different table and never got the fix.
+
+    Unknown values fall back to not_applied. Guessing in that direction
+    understates a relationship, which costs nothing. Guessing the other way puts
+    a false claim of Amazon membership on a public page — on the very site
+    Amazon reads when you do eventually apply.
     """
     import json
     import pathlib
     try:
         cfg = json.loads((pathlib.Path(__file__).resolve().parent.parent
                           / "site-config.json").read_text(encoding="utf-8"))
-        return "approved" if cfg.get("amazon_associate_status") == "approved" else "pending"
+        v = cfg.get("amazon_associate_status")
+        return v if v in ("not_applied", "pending", "approved") else "not_applied"
     except Exception:
-        return "pending"
+        return "not_applied"
 
 
 def disclosure(lang, show_amazon=True, show_ali=True, short=False):
     n = NETWORKS.get(lang, NETWORKS[DEFAULT])
-    approved = amazon_status() == "approved"
+    status = amazon_status()
+    approved = status == "approved"
 
     # Until Amazon approves, the Associate sentence cannot be used at all — not
     # even in the "as an X and a Y" combined form, because the combined form
     # still asserts membership. The application notice is emitted as its own
     # sentence and any other network keeps its normal wording.
     if show_amazon and not approved:
-        parts = [n["amazon_pending"]]
+        parts = [n["amazon_pending"] if status == "pending" else n["amazon_none"]]
         if show_ali:
             parts.append(n["tpl"].format(n["aliexpress"]))
         base = " ".join(parts)

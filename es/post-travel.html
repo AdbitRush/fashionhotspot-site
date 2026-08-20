@@ -15,47 +15,42 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
+/* ---------- tokens ---------- */
 :root, :root[data-theme="light"]{
-  --bg:#FFF6EE; --surface:#fff; --ink:#2E1F26; --ink-2:#5A4550; --ink-3:#8C7580;
-  --line:#F0DFD2; --line-2:#E6D2C2; --accent:#E14B4B; --accent-ink:#B02F2F;
-  --deep:#3A2230; --shadow:0 1px 2px rgba(58,34,48,.04),0 8px 24px rgba(58,34,48,.06);
-  --nav-bg:rgba(255,246,238,.88);
-  --pro:#3E8E64; --con:#C4593F; --chip:#FDECEC; --note-bg:#FFFBF6;
-  --on-deep:#fff; --card-hover:0 4px 10px rgba(58,34,48,.07),0 16px 34px rgba(58,34,48,.10);
-  --radius:16px; --maxw:760px;
+  --bg:oklch(0.945 0.019 80); --surface:oklch(0.978 0.014 82);
+  --ink:oklch(0.21 0.014 55); --ink-2:oklch(0.44 0.014 65); --ink-3:oklch(0.52 0.014 68);
+  --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.13);
+  --accent:oklch(0.6 0.21 25); --accent-ink:oklch(0.45 0.18 25);
+  --deep:oklch(0.21 0.014 55);
+  --shadow:0 1px 2px rgba(60,40,30,.05),0 10px 30px rgba(60,40,30,.07);
+  --card-hover:0 26px 60px rgba(60,40,30,.13);
+  --nav-bg:rgba(246,238,228,.9);
+  --pro:#2F7D55; --con:#B04A2E; --chip:oklch(0.915 0.045 42); --note-bg:oklch(0.965 0.016 81);
+  --on-accent:oklch(0.985 0.012 84); --on-deep:oklch(0.985 0.012 84);
+  --radius:22px; --maxw:760px; --navh:60px;
 }
-/* Dark is a re-mix of the same palette, not an inversion. The coral had to be
-   lightened (#E14B4B -> #FF6B6B): the original passes contrast on cream and
-   fails it on near-black, and an accent you cannot read is worse than no
-   accent. Surfaces stay slightly lifted from the background so cards keep the
-   edge they have in light mode without needing borders. */
+/* Dark is a re-mix of the same palette, not an inversion. The red has to be
+   lightened to stay legible on near-black, and surfaces stay lifted from the
+   background so cards keep the edge they have in light mode without borders. */
 :root[data-theme="dark"]{
-  --bg:#171019; --surface:#1F1620; --ink:#F6EFEA; --ink-2:#C9B8C0; --ink-3:#9A8792;
-  --line:#332430; --line-2:#412E3A; --accent:#FF6B6B; --accent-ink:#FF8B8B;
-  --deep:#F6EFEA; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-  --nav-bg:rgba(23,16,25,.88);
-  /* Pro/con marks lightened to stay legible on a dark surface; the light-mode
-     values fail contrast here. --on-deep flips because --deep itself flips. */
-  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1C1419;
-  --on-deep:#171019; --card-hover:0 4px 10px rgba(0,0,0,.45),0 16px 34px rgba(0,0,0,.4);
+  --bg:#141013; --surface:#1E181C; --ink:#F7F1EC; --ink-2:#CBBFB8; --ink-3:#9C8E88;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
+  --accent:oklch(0.72 0.2 25); --accent-ink:oklch(0.82 0.16 25);
+  --deep:#F7F1EC;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  --card-hover:0 26px 60px rgba(0,0,0,.5);
+  --nav-bg:rgba(20,16,19,.9);
+  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1B1519;
+  --on-accent:#170a0b; --on-deep:#141013;
 }
-html{color-scheme:light dark}
+html{color-scheme:light dark;-webkit-text-size-adjust:100%}
 :root[data-theme="dark"] img{filter:brightness(.94)}
-/* The toggle */
-.themetog{margin-inline-start:14px;background:transparent;border:1px solid var(--line-2);
-  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
-  font-size:15px;line-height:1;display:inline-flex;align-items:center;
-  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
-.themetog:hover{border-color:var(--accent);color:var(--accent)}
-.themetog .tt-moon{display:none}
-:root[data-theme="dark"] .themetog .tt-sun{display:none}
-:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);
-  color:var(--ink);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
+body{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;overflow-x:clip}
 /* height:auto is load-bearing. The width/height attributes on every <img> are
    there to reserve layout space and stop the page jumping as images load, but
    they map to presentational CSS height — which pins the element at its
@@ -63,144 +58,292 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:va
    hero and card images render at 630px tall regardless of column width. */
 img{max-width:100%;display:block;height:auto}
 a{color:var(--accent-ink)}
+::selection{background:var(--accent);color:var(--on-accent)}
+
+/* Every kicker, meta line and label in the design is mono, uppercase and
+   widely tracked. One class, so the RTL and Greek overrides at the bottom have
+   a single thing to reach for. */
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;font-weight:600;
+  color:var(--ink-3);font-variant-numeric:tabular-nums}
+.mono a{color:inherit;text-decoration:none}
 
 /* ---------- chrome ---------- */
-.nav{position:sticky;top:0;z-index:50;background:var(--nav-bg);
-  backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
-.nav-in{max-width:1080px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;gap:20px}
-.logo{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:19px;color:var(--deep);
-  text-decoration:none;letter-spacing:-.01em;white-space:nowrap}
+.nav{position:sticky;top:0;z-index:90;background:var(--nav-bg);
+  backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1280px;margin:0 auto;padding:13px 28px;display:flex;
+  align-items:center;gap:20px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.logo{font-weight:900;font-size:19px;color:var(--ink);letter-spacing:-.045em;
+  text-decoration:none;white-space:nowrap}
 .logo span{color:var(--accent)}
-.nav-links{display:flex;gap:20px;margin-inline-start:auto;flex-wrap:wrap}
-.nav-links a{font-size:14px;font-weight:600;color:var(--ink-2);text-decoration:none;
+.navkick{color:var(--accent-ink);white-space:nowrap}
+.nav-links{display:flex;gap:24px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.nav-links a{font-size:13.5px;font-weight:600;color:var(--ink-2);text-decoration:none;
   padding:4px 0;border-bottom:2px solid transparent}
-.nav-links a:hover{color:var(--accent-ink)}
-.nav-links a[aria-current]{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.themetog{margin-inline-start:2px;background:transparent;border:1px solid var(--line-2);
+  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
+.themetog:hover{border-color:var(--accent-ink);color:var(--accent-ink)}
+.themetog .tt-moon{display:none}
+:root[data-theme="dark"] .themetog .tt-sun{display:none}
+:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
-.wide{max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.wide{max-width:1280px;margin:0 auto;padding:0 28px}
+
+/* ---------- index: masthead ---------- */
+.masthead{padding:78px 0 44px;border-bottom:1px solid var(--line)}
+.masthead h1{max-width:15ch}
+.masthead .dek{max-width:560px}
+
+h1{font-size:clamp(42px,6.4vw,96px);line-height:.88;letter-spacing:-.05em;
+  font-weight:900;color:var(--ink);text-wrap:balance}
+.dek{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2);margin-top:22px;
+  line-height:1.5;text-wrap:pretty}
+.eyebrow{margin-bottom:18px;letter-spacing:.22em;color:var(--accent-ink)}
+
+/* ---------- index: featured + side list ---------- */
+.feat{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;
+  align-items:start;padding:52px 0 4px}
+.feat-main{text-decoration:none;color:inherit;display:block}
+.feat-main img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
+.feat-meta{display:flex;gap:12px;align-items:center;margin:22px 0 12px;flex-wrap:wrap}
+.pill{padding:6px 11px;border-radius:999px;background:var(--chip);
+  color:var(--accent-ink);font-weight:600}
+.feat-main h2{font-size:clamp(28px,3.2vw,44px);line-height:.99;letter-spacing:-.04em;
+  font-weight:900;margin:0 0 14px;max-width:22ch;color:var(--ink)}
+.feat-main p{font-size:17px;line-height:1.55;color:var(--ink-2);max-width:60ch;
+  text-wrap:pretty}
+.sidelist{display:flex;flex-direction:column;gap:10px}
+.sidelist>.mono{letter-spacing:.2em;padding-bottom:6px}
+.sideitem{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;
+  padding:15px 16px;border-radius:16px;background:var(--surface);
+  border:1px solid var(--line);text-decoration:none;color:inherit;
+  transition:transform .25s ease,border-color .25s ease}
+.sideitem:hover{transform:translateX(4px);border-color:var(--accent)}
+[dir=rtl] .sideitem:hover{transform:translateX(-4px)}
+.sidenum{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:15px;
+  color:var(--accent-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.sideitem b{font-size:15px;font-weight:700;line-height:1.28;letter-spacing:-.015em;
+  display:block;color:var(--ink)}
+.sideitem .mono{margin-top:7px;letter-spacing:.1em}
+
+/* ---------- index: filters ---------- */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.chip{font-size:13px;font-weight:700;letter-spacing:-.01em;padding:9px 16px;
+  border-radius:999px;cursor:pointer;background:var(--surface);color:var(--ink-2);
+  border:1px solid var(--line-2);font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent-ink);color:var(--on-accent);
+  border-color:var(--accent-ink)}
+.count{margin-inline-start:auto;letter-spacing:.1em}
+
+/* ---------- index: grid ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:22px;margin:30px 0 10px}
+.gcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  text-decoration:none;color:inherit;
+  transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+.gcard:hover{transform:translateY(-6px);box-shadow:var(--card-hover)}
+.gcard[hidden]{display:none}
+.gcard-media{position:relative}
+.gcard-media img{width:100%;aspect-ratio:5/3;object-fit:cover}
+.gcard-cat{position:absolute;top:12px;inset-inline-start:12px;padding:6px 10px;
+  border-radius:999px;background:var(--nav-bg);backdrop-filter:blur(6px);
+  color:var(--ink-2);font-size:9.5px;letter-spacing:.12em}
+.gcard-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.gcard h3{font-size:19px;font-weight:800;line-height:1.18;letter-spacing:-.028em;
+  color:var(--ink)}
+.gcard .sum{font-size:14px;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
+.gcard-foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;
+  justify-content:space-between;gap:10px;border-top:1px solid var(--line);
+  letter-spacing:.1em}
+.gcard-foot .go{color:var(--accent-ink)}
+
+/* ---------- article: progress ---------- */
+.progtrack{position:sticky;top:var(--navh);z-index:80;height:3px;background:var(--line)}
+.progbar{height:100%;width:0;background:var(--accent);transition:width .1s linear}
 
 /* ---------- article head ---------- */
-.crumbs{font-size:13px;color:var(--ink-3);padding:22px 0 0}
-.crumbs a{color:var(--ink-3);text-decoration:none}
-.crumbs a:hover{color:var(--accent-ink);text-decoration:underline}
-.kicker{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--accent);margin:26px 0 12px}
-h1{font-family:Fraunces,Georgia,serif;font-size:clamp(31px,5.2vw,46px);font-weight:700;
-  line-height:1.14;letter-spacing:-.02em;color:var(--deep)}
-.dek{font-size:clamp(17px,2.4vw,20px);color:var(--ink-2);margin-top:16px;line-height:1.55}
-.byline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:22px;
-  padding-bottom:24px;font-size:13.5px;color:var(--ink-3)}
+.crumbs{padding:26px 0 0;letter-spacing:.1em}
+.crumbs a:hover{color:var(--accent-ink)}
+.kicker{display:block;color:var(--accent-ink);letter-spacing:.18em;margin:26px 0 16px}
+.wrap h1{font-size:clamp(34px,5.2vw,62px);line-height:.94;letter-spacing:-.045em}
+.byline{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px;
+  padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  letter-spacing:.08em}
+.byline .av{width:30px;height:30px;border-radius:50%;background:var(--chip);
+  border:1px solid var(--line-2);flex:0 0 auto}
 .byline b{color:var(--ink-2);font-weight:600}
+.byline .end{margin-inline-start:auto}
 .dot{opacity:.45}
-.hero{margin:8px 0 30px;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
-.hero img{width:100%;aspect-ratio:1200/630;object-fit:cover}
+/* The design runs the lead image wider than the column it sits under. */
+.hero{margin:30px auto;max-width:1080px;padding:0 28px}
+.hero img{width:100%;aspect-ratio:21/9;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
 
 /* ---------- body copy ---------- */
-.body p{margin:0 0 20px;color:var(--ink-2)}
+.body{font-size:17.5px}
+.body p{margin:0 0 22px;color:var(--ink-2);line-height:1.68;text-wrap:pretty}
 .body p.lead{font-size:19px;color:var(--ink)}
-h2{font-family:Fraunces,Georgia,serif;font-size:27px;font-weight:700;color:var(--deep);
-  letter-spacing:-.01em;margin:44px 0 14px;line-height:1.25}
-h3{font-family:Fraunces,Georgia,serif;font-size:21px;font-weight:700;color:var(--deep);margin:0}
+h2{font-size:clamp(26px,3vw,34px);font-weight:900;color:var(--ink);
+  letter-spacing:-.035em;margin:48px 0 16px;line-height:1.05}
+h3{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.03em;
+  line-height:1.15;margin:0}
 
-.note{background:var(--note-bg);border:1px solid var(--line);border-inline-start:3px solid var(--accent);
-  border-radius:12px;padding:16px 18px;margin:26px 0;font-size:15px;color:var(--ink-2)}
-.note b{color:var(--deep)}
+/* The takeaway block. Body text is the number-one pick and its tag — both read
+   straight off the guide's own data, so this cannot drift from the list below
+   it the way a hand-written summary would. */
+.short{padding:26px 28px;border-radius:20px;background:var(--chip);
+  border:1px solid color-mix(in oklab,var(--accent) 25%,transparent);margin:30px 0 40px}
+.short .mono{color:var(--accent-ink);letter-spacing:.18em;margin-bottom:12px}
+.short .lead-pick{font-size:20px;line-height:1.35;font-weight:800;
+  letter-spacing:-.025em;color:var(--ink);text-wrap:pretty}
+.short .lead-tag{margin-top:8px;color:var(--accent-ink);letter-spacing:.12em}
+
+.note{background:var(--note-bg);border:1px solid var(--line);
+  border-inline-start:3px solid var(--accent);border-radius:14px;padding:16px 18px;
+  margin:26px 0;font-size:15px;color:var(--ink-2)}
+.note b{color:var(--ink)}
 
 /* ---------- comparison table ---------- */
 .tablewrap{overflow-x:auto;margin:22px 0 8px;border:1px solid var(--line);
-  border-radius:14px;background:var(--surface)}
+  border-radius:16px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
-th,td{text-align:start;padding:12px 14px;border-bottom:1px solid var(--line)}
-th{background:var(--note-bg);font-weight:700;color:var(--deep);font-size:12.5px;
-  text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+th,td{text-align:start;padding:13px 15px;border-bottom:1px solid var(--line)}
+th{background:var(--note-bg);font-weight:700;color:var(--ink);font-size:11px;
+  text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 tbody tr:last-child td{border-bottom:0}
 td a{font-weight:600;text-decoration:none}
 td a:hover{text-decoration:underline}
-.rank{color:var(--ink-3);font-variant-numeric:tabular-nums;width:1%}
+.rank{color:var(--accent-ink);font-variant-numeric:tabular-nums;width:1%;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 
-/* ---------- product card ---------- */
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-  overflow:hidden;margin:26px 0;box-shadow:var(--shadow);scroll-margin-top:72px}
-.card-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-bottom:1px solid var(--line)}
-.card-in{padding:22px}
-.card-top{display:flex;gap:14px;align-items:flex-start}
-.num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--deep);color:var(--on-deep);
-  font-family:Fraunces,Georgia,serif;font-weight:700;font-size:16px;
-  display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
-.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.05em;
-  text-transform:uppercase;color:var(--accent-ink);background:var(--chip);
-  padding:4px 10px;border-radius:99px;margin-bottom:8px}
-.price{font-size:14px;font-weight:600;color:var(--ink-3);margin-top:4px}
-.card p{margin:14px 0 0;color:var(--ink-2);font-size:16px}
+/* ---------- a pick ---------- */
+/* The design puts a small square thumbnail beside the text rather than a full
+   bleed image above it. With ten picks on a page that is the difference between
+   a list you can scan and ten screens of scrolling. */
+.card{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:28px 0;
+  border-top:1px solid var(--line);scroll-margin-top:88px}
+.card-img{width:150px;aspect-ratio:1;object-fit:cover;border-radius:16px;
+  border:1px solid var(--line);background:var(--surface)}
+.card-in{min-width:0}
+.badge{display:block;color:var(--accent-ink);letter-spacing:.16em;margin-bottom:9px}
+.card h3{margin-bottom:10px}
+.card p{margin:0 0 14px;color:var(--ink-2);font-size:16px;line-height:1.6;
+  text-wrap:pretty}
+.priceline{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.price{font-size:21px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.tradeoff{letter-spacing:.06em;text-transform:none;font-size:11px;color:var(--ink-3)}
+.tradeoff b{font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.num{display:none}
+.tag{display:none}
 .pc{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-top:18px;
   padding-top:16px;border-top:1px solid var(--line)}
-.pc h4{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--ink-3);margin-bottom:7px}
+.pc h4{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:7px;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 .pc ul{list-style:none;font-size:14.5px;color:var(--ink-2)}
 .pc li{position:relative;padding-inline-start:17px;margin-bottom:5px;line-height:1.5}
 .pc li::before{position:absolute;inset-inline-start:0;font-weight:700}
 .pros li::before{content:"+";color:var(--pro)}
 .cons li::before{content:"–";color:var(--con)}
 .buys{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
-.btn{text-decoration:none;font-size:14px;font-weight:700;padding:11px 18px;
-  border-radius:10px;display:inline-block;transition:transform .1s,filter .1s}
-.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
-.btn-a{background:var(--accent);color:#fff}
-.btn-b{background:var(--surface);color:var(--ink);border:1.5px solid var(--line-2)}
+.btn{text-decoration:none;font-size:14px;font-weight:700;padding:12px 20px;
+  border-radius:999px;display:inline-block;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn-a{background:var(--accent-ink);color:var(--on-accent)}
+.btn-b{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
 
 /* ---------- faq ---------- */
 .faq{border-top:1px solid var(--line);margin-top:12px}
 .faq details{border-bottom:1px solid var(--line)}
-.faq summary{cursor:pointer;list-style:none;padding:17px 30px 17px 0;position:relative;
-  font-weight:600;color:var(--deep);font-size:16.5px}
+.faq summary{cursor:pointer;list-style:none;padding:18px 30px 18px 0;position:relative;
+  font-weight:700;color:var(--ink);font-size:16.5px;letter-spacing:-.015em}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:15px;
-  font-size:21px;font-weight:400;color:var(--accent);line-height:1}
+.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:16px;
+  font-size:21px;font-weight:400;color:var(--accent-ink);line-height:1}
 .faq details[open] summary::after{content:"–"}
 .faq p{padding:0 0 18px;color:var(--ink-2);font-size:15.5px;margin:0}
 
-/* ---------- guide index cards ---------- */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;margin:30px 0 10px}
-.gcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
-  border-radius:var(--radius);overflow:hidden;text-decoration:none;color:inherit;
-  box-shadow:var(--shadow);transition:transform .14s,box-shadow .14s}
-.gcard:hover{transform:translateY(-3px);box-shadow:var(--card-hover)}
-.gcard img{width:100%;aspect-ratio:1200/630;object-fit:cover}
-.gcard-in{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
-.gcard h3{font-size:19px;line-height:1.3;margin:8px 0 0}
-.gcard .sum{font-size:14.5px;color:var(--ink-2);margin-top:9px;flex:1}
-.gcard .meta{font-size:12.5px;color:var(--ink-3);margin-top:14px}
+/* ---------- closer ---------- */
+.closer{margin-top:46px;padding:34px 30px;border-radius:22px;
+  border:1px dashed var(--line-2);text-align:center}
+.closer h2{font-size:clamp(22px,3vw,28px);margin:0 0 10px;letter-spacing:-.03em}
+.closer p{font-size:16px;color:var(--ink-2);margin:0 0 22px}
+.closer .btn{padding:15px 28px;font-size:15px;font-weight:800;
+  background:var(--deep);color:var(--on-deep)}
 
 /* ---------- footer ---------- */
 .disc{font-size:13.5px;color:var(--ink-3);border-top:1px solid var(--line);
   padding-top:18px;margin-top:46px}
-footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 22px;
+footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 28px;
   text-align:center;color:var(--ink-3);font-size:13.5px;background:var(--note-bg)}
 footer nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
 footer a{color:var(--ink-2);text-decoration:none;font-weight:600}
 footer a:hover{color:var(--accent-ink)}
 .langsw{margin-top:12px;font-size:13px}
 
+/* ---------- responsive ---------- */
+@media(max-width:900px){
+  .feat{grid-template-columns:1fr;gap:34px}
+  .masthead{padding:52px 0 34px}
+}
 @media(max-width:600px){
   body{font-size:16px}
-  .pc{grid-template-columns:1fr;gap:14px}
-  .card-in{padding:18px}
-  .nav-in{padding:10px 16px;gap:12px}
+  .wrap,.wide,.hero{padding-inline:18px}
+  .nav-in{padding:10px 18px;gap:12px}
   .nav-links{gap:14px}
   .nav-links a{font-size:13px}
+  .navkick{display:none}
+  /* The thumbnail column collapses rather than shrinking to a stamp. */
+  .card{grid-template-columns:1fr;gap:16px;padding:24px 0}
+  .card-img{width:100%;aspect-ratio:16/10}
+  .pc{grid-template-columns:1fr;gap:14px}
+  .hero img{aspect-ratio:16/10}
+  .count{margin-inline-start:0;width:100%;padding-top:8px}
+}
+/* The chips are the one genuinely new tap target the redesign adds, and at the
+   design's 9px padding they land at 34px — under the 44px minimum. Scoped to
+   coarse pointers so the mouse version keeps the tighter proportions the design
+   draws, and applied by min-height rather than padding so the label stays
+   vertically centred either way. */
+@media(pointer:coarse){
+  .chip{min-height:44px;padding-inline:18px}
+  .nav-links a{min-height:44px;display:inline-flex;align-items:center}
+  .themetog{width:44px;height:44px}
+  .sideitem{padding:18px 16px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
-/* ---------- rtl ---------- */
-[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{
-  font-family:"Heebo","Assistant",Inter,system-ui,sans-serif}
-[dir=rtl] .num{font-family:inherit}
+/* ---------- rtl / non-latin ---------- */
+/* Archivo and JetBrains Mono have no Hebrew, and wide tracking on Hebrew is
+   unreadable rather than merely wrong. Hebrew keeps Heebo everywhere and drops
+   the mono treatment, so the design's rhythm survives without the typography
+   that cannot cross the script. */
+[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,
+[dir=rtl] .chip,[dir=rtl] .mono,[dir=rtl] .sidenum,[dir=rtl] .rank,
+[dir=rtl] th,[dir=rtl] .pc h4{
+  font-family:"Heebo","Assistant",system-ui,sans-serif}
+[dir=rtl] .mono,[dir=rtl] th,[dir=rtl] .pc h4{letter-spacing:.02em;font-size:11.5px}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] .feat-main h2{letter-spacing:-.01em;line-height:1.1}
+/* A number with no Hebrew beside it still flips inside dir=rtl — "35 -> 35"
+   is fine but "10 min" and "-58%" are not. Isolate every numeric run. */
+[dir=rtl] .sidenum,[dir=rtl] .rank,[dir=rtl] .price,[dir=rtl] .count,
+[dir=rtl] .byline .end,[dir=rtl] time{unicode-bidi:isolate}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Accesorios de viaje que valen lo que pesan", "description": "Todo lo que metes en la maleta tiene un coste. Estos diez artículos lo compensan, y te decimos cuáles de los más populares no lo hacen.", "datePublished": "2026-08-08", "dateModified": "2026-08-08", "inLanguage": "es", "author": {"@type": "Organization", "name": "La redacción de fashionhotspot"}, "publisher": {"@type": "Organization", "name": "fashionhotspot", "url": "https://fashionhotspot.site", "logo": {"@type": "ImageObject", "url": "https://fashionhotspot.site/icon-512.png", "width": 512, "height": 512}}, "image": "https://fashionhotspot.site/images/hero-travel.jpg", "mainEntityOfPage": "https://fashionhotspot.site/es/post-travel.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListOrderDescending", "numberOfItems": 10, "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Organizadores de equipaje", "description": "Cambian tu forma de hacer la maleta", "url": "https://fashionhotspot.site/es/post-travel.html#p1", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 25, "highPrice": 50, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Una mochila de 40L o un bolso de cabina blando como equipaje de mano", "description": "La maleta que se salta la recogida de equipajes", "url": "https://fashionhotspot.site/es/post-travel.html#p2", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 100, "highPrice": 250, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "Un adaptador de viaje universal con USB-C PD", "description": "Compra uno bueno, no tres malos", "url": "https://fashionhotspot.site/es/post-travel.html#p3", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 30, "highPrice": 60, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 4, "item": {"@type": "Product", "name": "Auriculares de botón con cancelación de ruido", "description": "Lo mejor para vuelos largos", "url": "https://fashionhotspot.site/es/post-travel.html#p4", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 120, "highPrice": 300, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 5, "item": {"@type": "Product", "name": "Una batería externa fina de menos de 100Wh", "description": "Consulta la normativa de la aerolínea", "url": "https://fashionhotspot.site/es/post-travel.html#p5", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 30, "highPrice": 60, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 6, "item": {"@type": "Product", "name": "Una botella de agua rellenable que se pliega o se aplana", "description": "Se amortiza en una semana", "url": "https://fashionhotspot.site/es/post-travel.html#p6", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 20, "highPrice": 40, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 7, "item": {"@type": "Product", "name": "Un botiquín compacto de primeros auxilios y medicamentos", "description": "El que esperas no tener que usar", "url": "https://fashionhotspot.site/es/post-travel.html#p7", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 20, "highPrice": 45, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 8, "item": {"@type": "Product", "name": "Una bolsa estanca o una bolsa de plástico resistente", "description": "El seguro más barato que puedes meter en la maleta", "url": "https://fashionhotspot.site/es/post-travel.html#p8", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 0, "highPrice": 20, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 9, "item": {"@type": "Product", "name": "Una almohada de cuello, pero del tipo correcto", "description": "La mayoría se equivoca con esto", "url": "https://fashionhotspot.site/es/post-travel.html#p9", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 30, "highPrice": 70, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 10, "item": {"@type": "Product", "name": "Una eSIM en lugar del roaming", "description": "El mayor ahorro de esta página", "url": "https://fashionhotspot.site/es/post-travel.html#p10", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 5, "highPrice": 25, "availability": "https://schema.org/InStock"}}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://fashionhotspot.site/es/"}, {"@type": "ListItem", "position": 2, "name": "Guías", "item": "https://fashionhotspot.site/es/posts.html"}, {"@type": "ListItem", "position": 3, "name": "Accesorios de viaje que valen lo que pesan", "item": "https://fashionhotspot.site/es/post-travel.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cuál es el producto de viaje más sobrevalorado?", "acceptedAnswer": {"@type": "Answer", "text": "La almohada de cuello hinchable en forma de herradura, seguida de las básculas de equipaje y las versiones de viaje de productos que podrías simplemente rellenar en un bote pequeño. Los tres se compran con mucha más frecuencia de la que se usan."}}, {"@type": "Question", "name": "¿Puedo llevar una batería externa en un avión?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, en tu equipaje de mano; nunca en el facturado. Por lo general, las de menos de 100Wh están permitidas sin necesidad de aprobación, lo que cubre prácticamente todas las baterías del tamaño de un móvil. Algunas aerolíneas ahora restringen su uso o carga durante el vuelo, así que consúltalo con tu compañía."}}, {"@type": "Question", "name": "¿Son mejores los organizadores de compresión que los normales?", "acceptedAnswer": {"@type": "Answer", "text": "Para prendas blandas y voluminosas como jerséis y chaquetas, sí, notablemente. Para camisas y pantalones la ganancia es pequeña y se arrugan más, así que un juego mixto suele ser la mejor solución."}}, {"@type": "Question", "name": "¿Solo equipaje de mano o facturar maleta?", "acceptedAnswer": {"@type": "Answer", "text": "Solo equipaje de mano para viajes de hasta unos diez días si estás dispuesto a hacer la colada una vez. Factura una maleta para viajes en invierno, si llevas equipo especializado o cuando la tarifa es baja y prefieres no complicarte."}}]}</script><link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-travel.html"><link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-travel.html"><link rel="alternate" hreflang="es" href="https://fashionhotspot.site/es/post-travel.html"><link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/fr/post-travel.html"><link rel="alternate" hreflang="de" href="https://fashionhotspot.site/de/post-travel.html"><link rel="alternate" hreflang="el" href="https://fashionhotspot.site/el/post-travel.html"><link rel="alternate" hreflang="x-default" href="https://fashionhotspot.site/post-travel.html">
 </head>
 <body>
-<div class="nav"><div class="nav-in"><a class="logo" href="../index.html">fashion<span>hotspot</span></a><nav class="nav-links"><a href="../index.html">Ofertas</a><a href="posts.html">Guías</a><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="wrap"><div class="crumbs"><a href="../index.html">Inicio</a> › <a href="posts.html">Guías</a> › Viajes</div><div class="kicker">Viajes · Guía de compra</div><h1>Accesorios de viaje que valen lo que pesan</h1><p class="dek">Todo lo que metes en la maleta tiene un coste. Estos diez artículos lo compensan, y te decimos cuáles de los más populares no lo hacen.</p><div class="byline"><b>La redacción de fashionhotspot</b><span class="dot">·</span><span>Actualizado <time datetime="2026-08-08">8 agosto 2026</time></span><span class="dot">·</span><span>9 min de lectura</span><span class="dot">·</span><span>10 productos</span></div><div class="hero"><img src="../images/hero-travel.jpg" alt="Accesorios de viaje que valen lo que pesan" width="1600" height="840" fetchpriority="high"></div><div class="body"><p class="lead">Cada artículo que metes en la maleta tiene un coste, que se paga en peso, en espacio y en el pequeño peaje de tener una cosa más que controlar. La mayoría de los artilugios de viaje no superan esa prueba: solucionan un problema que tienes una vez al año y los cargas las otras cincuenta y una semanas.</p><p>Los artículos que te mostramos a continuación sí la superan. Varios son aburridos. Un par son cosas que ya tienes en una versión peor, y uno de ellos es una bolsa de plástico, que sabemos que no es una recomendación muy emocionante, pero resulta que es la correcta.</p><p>Los precios son aproximados en el momento de la publicación, y el equipaje en particular suele tener grandes descuentos con frecuencia; pagar el precio completo por una maleta es casi un error.</p><div class="note"><b>Aviso.</b> Los enlaces de esta página son de afiliados. Si compras a través de uno podemos ganar una comisión sin coste adicional para ti. No influye en qué entra en esta lista ni en su orden.</div><h2>Cómo lo elegimos</h2><p>Evaluamos el equipaje de viaje en función de su peso, su resistencia al trato de las aerolíneas y en cuántos viajes al año se gana realmente un sitio. Nos basamos en pruebas publicadas, en opiniones de usuarios a largo plazo y en la normativa de las aerolíneas vigente en el momento de escribir este artículo, y no hemos viajado personalmente con todos los artículos de esta lista. Cuando la opción más popular es la equivocada, lo decimos y explicamos por qué, en lugar de omitirla sin más.</p><h2>De un vistazo</h2><div class="tablewrap"><table><thead><tr><th>#</th><th>Producto</th><th>Ideal para</th><th>Precio aprox.</th></tr></thead><tbody><tr><td class="rank">1</td><td><a href="#p1">Organizadores de equipaje</a></td><td>Cambian tu forma de hacer la maleta</td><td>$25–50 for a set</td></tr><tr><td class="rank">2</td><td><a href="#p2">Una mochila de 40L o un bolso de cabina blando como equipaje de mano</a></td><td>La maleta que se salta la recogida de equipajes</td><td>$100–250</td></tr><tr><td class="rank">3</td><td><a href="#p3">Un adaptador de viaje universal con USB-C PD</a></td><td>Compra uno bueno, no tres malos</td><td>$30–60</td></tr><tr><td class="rank">4</td><td><a href="#p4">Auriculares de botón con cancelación de ruido</a></td><td>Lo mejor para vuelos largos</td><td>$120–300</td></tr><tr><td class="rank">5</td><td><a href="#p5">Una batería externa fina de menos de 100Wh</a></td><td>Consulta la normativa de la aerolínea</td><td>$30–60</td></tr><tr><td class="rank">6</td><td><a href="#p6">Una botella de agua rellenable que se pliega o se aplana</a></td><td>Se amortiza en una semana</td><td>$20–40</td></tr><tr><td class="rank">7</td><td><a href="#p7">Un botiquín compacto de primeros auxilios y medicamentos</a></td><td>El que esperas no tener que usar</td><td>$20–45</td></tr><tr><td class="rank">8</td><td><a href="#p8">Una bolsa estanca o una bolsa de plástico resistente</a></td><td>El seguro más barato que puedes meter en la maleta</td><td>$0–20</td></tr><tr><td class="rank">9</td><td><a href="#p9">Una almohada de cuello, pero del tipo correcto</a></td><td>La mayoría se equivoca con esto</td><td>$30–70</td></tr><tr><td class="rank">10</td><td><a href="#p10">Una eSIM en lugar del roaming</a></td><td>El mayor ahorro de esta página</td><td>$5–25 per trip</td></tr></tbody></table></div><p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">Los precios son aproximados en el momento de escribir y cambian a menudo.</p><h2>Las recomendaciones</h2><article class="card" id="p1"><img class="card-img" src="../images/travel-01.jpg" alt="Organizadores de equipaje" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">1</div><div style="flex:1"><span class="tag">Cambian tu forma de hacer la maleta</span><h3>Organizadores de equipaje</h3><div class="price">$25–50 for a set</div></div></div><p>En realidad, los organizadores no ahorran espacio; los de compresión ahorran un poco, y el resto se limita a contener cosas. Lo que cambian es la experiencia de vivir con lo puesto. La ropa se mantiene ordenada durante todo el viaje en lugar de acabar hecha un montón a la primera de cambio, puedes encontrar una camisa sin deshacer toda la maleta y volver a empacar te lleva dos minutos en vez de veinte. En un viaje con varias paradas, la diferencia es enorme. Compra unos pocos organizadores grandes en lugar de muchos pequeños y usa uno como bolsa para la ropa sucia.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Mantienen la maleta organizada durante todo el viaje</li><li>Hacer la maleta de nuevo es cosa de dos minutos</li><li>Uno de ellos sirve como bolsa para la ropa sucia</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Ahorran menos espacio de lo que anuncian</li><li>Añaden un poco de peso extra</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=packing+cubes+set+compression+travel&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c32kafAX">AliExpress</a></div></div></article><article class="card" id="p2"><img class="card-img" src="../images/travel-02.jpg" alt="Una mochila de 40L o un bolso de cabina blando como equipaje de mano" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">2</div><div style="flex:1"><span class="tag">La maleta que se salta la recogida de equipajes</span><h3>Una mochila de 40L o un bolso de cabina blando como equipaje de mano</h3><div class="price">$100–250</div></div></div><p>Viajar solo con equipaje de mano elimina las dos peores partes de volar: esperar en la cinta de equipajes y la posibilidad de que tu maleta haya acabado en otro país. Una mochila de 40L tipo *clamshell*, que se abre completamente como una maleta, es el formato que debes buscar, porque las mochilas de carga superior te obligan a sacar todo para llegar al fondo. Comprueba las dimensiones permitidas por tu aerolínea antes de comprar, y vuelve a comprobarlas si vuelas con aerolíneas de bajo coste, que tienen límites más pequeños y mucho más entusiasmo en hacerlos cumplir. La contrapartida es clara: llevarás el peso en la espalda en lugar de arrastrarlo.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Sin recogida de equipaje, sin maletas perdidas</li><li>La apertura tipo *clamshell* funciona como una maleta</li><li>Cumple los límites de las aerolíneas de bajo coste si tiene el tamaño adecuado</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Llevas el peso a la espalda en lugar de arrastrarlo</li><li>Los límites de tamaño de cabina varían según la aerolínea: compruébalo antes</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=40L+carry+on+travel+backpack+clamshell&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4DrIIiT">AliExpress</a></div></div></article><article class="card" id="p3"><img class="card-img" src="../images/travel-03.jpg" alt="Un adaptador de viaje universal con USB-C PD" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">3</div><div style="flex:1"><span class="tag">Compra uno bueno, no tres malos</span><h3>Un adaptador de viaje universal con USB-C PD</h3><div class="price">$30–60</div></div></div><p>Los adaptadores baratos que venden en los aeropuertos son los que se calientan, pierden el contacto en cuanto mueves el cable y a veces fallan de formas en las que preferirías no pensar mientras duermes en un hotel. Uno bueno tiene fusibles adecuados, sujeta el enchufe con firmeza y —la parte que de verdad importa ahora— incluye carga USB-C Power Delivery de 30W o más, para que cargue un portátil directamente y reemplace por completo un segundo cargador. Ojo, casi ninguno de estos convierte el voltaje; solo cambian la forma del enchufe. Comprueba que tu secador de pelo o tu afeitadora sean de doble voltaje antes de usarlos con uno.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>También reemplaza el cargador de tu portátil</li><li>Fusibles seguros y un agarre firme del enchufe</li><li>Un solo aparato sirve para casi todo el mundo</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>No convierte el voltaje, solo la forma del enchufe</li><li>Es voluminoso para llevarlo en un bolso de día pequeño</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=universal+travel+adapter+USB-C+power+delivery&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3RLx3Hz">AliExpress</a></div></div></article><article class="card" id="p4"><img class="card-img" src="../images/travel-04.jpg" alt="Auriculares de botón con cancelación de ruido" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">4</div><div style="flex:1"><span class="tag">Lo mejor para vuelos largos</span><h3>Auriculares de botón con cancelación de ruido</h3><div class="price">$120–300</div></div></div><p>En un vuelo largo, cancelar el zumbido de los motores es la diferencia entre llegar cansado y llegar destrozado, porque el ruido constante de baja frecuencia es realmente agotador, incluso si no eres consciente de ello. Para viajar, los auriculares de botón ganan a los de diadema: caben en un bolsillo, funcionan si te apoyas de lado en el asiento del avión y la diadema no se pelea con la almohada de cuello. Los de diadema cancelan un poco mejor el ruido y tienen más batería, así que si los vas a usar principalmente para volar y duermes erguido, son una alternativa razonable. Lleva unos con cable de repuesto para los sistemas de entretenimiento antiguos de los aviones.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Reduce la fatiga del ruido de los motores</li><li>Caben en el bolsillo y funcionan si te apoyas de lado</li><li>No estorban si usas una almohada de cuello</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Menos cancelación y batería que los de diadema</li><li>Es fácil perder uno: son muy pequeños</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=noise+cancelling+wireless+earbuds+travel&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3NehATl">AliExpress</a></div></div></article><article class="card" id="p5"><img class="card-img" src="../images/travel-05.jpg" alt="Una batería externa fina de menos de 100Wh" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">5</div><div style="flex:1"><span class="tag">Consulta la normativa de la aerolínea</span><h3>Una batería externa fina de menos de 100Wh</h3><div class="price">$30–60</div></div></div><p>Una batería de 10.000mAh es el punto ideal para viajar: da para unas dos cargas de móvil, es lo bastante fina para sujetarla junto al teléfono y está holgadamente dentro de los límites de las aerolíneas. La norma que debes conocer es que las baterías de litio tienen que ir en el equipaje de mano, nunca en el facturado, y las de más de 100Wh suelen necesitar la aprobación de la aerolínea. Casi todas las baterías de 10.000mAh rondan los 37Wh, así que no hay problema, pero una grande para portátil podría no cumplirlo. Varias aerolíneas también han endurecido las normas sobre su uso o carga durante el vuelo; consúltalo con tu compañía antes de viajar.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Unas dos cargas de móvil en un tamaño de bolsillo</li><li>Holgadamente dentro de los límites de las aerolíneas</li><li>Baratas y fáciles de encontrar</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Debe ir en el equipaje de mano, nunca en el facturado</li><li>Las normas de uso en vuelo son más estrictas: compruébalo antes</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=slim+10000mAh+power+bank+USB-C+airline+safe&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3HSC01t">AliExpress</a></div></div></article><article class="card" id="p6"><img class="card-img" src="../images/travel-06.jpg" alt="Una botella de agua rellenable que se pliega o se aplana" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">6</div><div style="flex:1"><span class="tag">Se amortiza en una semana</span><h3>Una botella de agua rellenable que se pliega o se aplana</h3><div class="price">$20–40</div></div></div><p>Los precios del agua en los aeropuertos son el ejemplo más claro de lo que es un mercado cautivo, y una botella que pasas vacía por el control de seguridad y rellenas al otro lado te lo ahorra por completo en cada viaje que hagas. Una plegable resuelve el problema de que una botella rígida ocupa espacio en la maleta cuando está vacía: se enrolla hasta ocupar lo que un puño. Las advertencias reales: el agua del grifo no es potable en todas partes, así que infórmate sobre tu destino en lugar de darlo por hecho, y las botellas blandas son más difíciles de limpiar bien, lo que importa si metes algo que no sea agua.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Evita por completo los precios del agua en los aeropuertos</li><li>Se enrolla hasta el tamaño de un puño cuando está vacía</li><li>Barata y útil en absolutamente todos los viajes</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>El agua del grifo no es potable en todas partes</li><li>Las botellas blandas son más difíciles de limpiar a fondo</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=collapsible+travel+water+bottle+BPA+free&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c2RH1wkR">AliExpress</a></div></div></article><article class="card" id="p7"><img class="card-img" src="../images/travel-07.jpg" alt="Un botiquín compacto de primeros auxilios y medicamentos" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">7</div><div style="flex:1"><span class="tag">El que esperas no tener que usar</span><h3>Un botiquín compacto de primeros auxilios y medicamentos</h3><div class="price">$20–45</div></div></div><p>Comprar paracetamol a las 2 de la madrugada en un país cuyo idioma no hablas y con un envase que no reconoces es una experiencia realmente miserable, y es totalmente evitable con un neceser que pesa doscientos gramos. Solo por los apósitos para ampollas ya merece la pena en cualquier viaje que implique caminar. Lleva los medicamentos con receta en su envase original etiquetado y en tu equipaje de mano, y comprueba la normativa de tu destino antes de viajar: algunos medicamentos comunes, incluidos ciertos analgésicos y remedios para el resfriado, están restringidos o prohibidos en determinados países.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Solo por los apósitos para ampollas ya merece la pena llevarlo</li><li>Evita tener que apañártelas en una farmacia extranjera por la noche</li><li>Muy ligero para todo lo que incluye</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Algunos medicamentos están restringidos en ciertos países</li><li>Hay que revisarlo y reponerlo entre viaje y viaje</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=compact+travel+first+aid+kit&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c42HrJOP">AliExpress</a></div></div></article><article class="card" id="p8"><img class="card-img" src="../images/travel-08.jpg" alt="Una bolsa estanca o una bolsa de plástico resistente" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">8</div><div style="flex:1"><span class="tag">El seguro más barato que puedes meter en la maleta</span><h3>Una bolsa estanca o una bolsa de plástico resistente</h3><div class="price">$0–20</div></div></div><p>Sabemos que no es una recomendación apasionante. Está en la lista porque un simple bote de champú que gotea, un chaparrón inesperado o un trayecto en barco con salpicaduras pueden arruinarte los aparatos electrónicos, los documentos y toda la ropa que llevas. Una bolsa estanca con cierre enrollable no pesa casi nada y elimina por completo esa categoría de imprevistos que te arruinan el viaje. Una bolsa resistente con cierre hermético hace el ochenta por ciento del mismo trabajo por cero euros, por eso el precio empieza en cero y no te juzgaremos si eliges esa opción.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Protege documentos y aparatos electrónicos por completo</li><li>No pesa casi nada</li><li>La versión gratuita funciona casi igual de bien</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Realmente aburrido</li><li>Los cierres enrollables hay que cerrarlos bien para que sean estancos</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=waterproof+dry+bag+10L+roll+top&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4niO8IT">AliExpress</a></div></div></article><article class="card" id="p9"><img class="card-img" src="../images/travel-09.jpg" alt="Una almohada de cuello, pero del tipo correcto" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">9</div><div style="flex:1"><span class="tag">La mayoría se equivoca con esto</span><h3>Una almohada de cuello, pero del tipo correcto</h3><div class="price">$30–70</div></div></div><p>La herradura hinchable que venden en todos los aeropuertos es prácticamente inútil, porque el problema en un avión no es que la cabeza se te caiga hacia atrás (el asiento ya lo impide), es que se te caiga hacia los lados. Por eso, las almohadas que funcionan son las firmes que llenan el hueco entre el hombro y la mandíbula, o los diseños envolventes que sujetan la barbilla. La espuma viscoelástica es más voluminosa de transportar que la hinchable, y esa es la verdadera contrapartida. Si solo haces vuelos cortos, olvídate de esto y apoya un jersey doblado contra la ventanilla.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>El diseño adecuado de verdad ayuda a dormir erguido</li><li>La espuma firme evita que la cabeza se caiga hacia los lados</li><li>También es útil en trenes y autobuses</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>La típica herradura hinchable apenas funciona</li><li>Es voluminosa para lo que hace</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=travel+neck+pillow+memory+foam+support&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3f2ptWX">AliExpress</a></div></div></article><article class="card" id="p10"><img class="card-img" src="../images/travel-10.jpg" alt="Una eSIM en lugar del roaming" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">10</div><div style="flex:1"><span class="tag">El mayor ahorro de esta página</span><h3>Una eSIM en lugar del roaming</h3><div class="price">$5–25 per trip</div></div></div><p>Esto no es un producto físico, y precisamente por eso está aquí: sustituye el engorro de comprar una SIM local al llegar y el negocio, mucho peor, de pagar las tarifas de *roaming* de tu operador. Compras un plan de datos por internet antes de volar, lo instalas en unos dos minutos y aterrizas ya conectado. Dos cosas que debes comprobar primero: que tu móvil sea compatible con eSIM, como la mayoría de los modelos de los últimos años, y que no esté bloqueado por el operador. Mantén tu SIM normal activa para llamadas y mensajes, y usa la eSIM solo para los datos.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Una fracción del coste del *roaming*</li><li>Conectado en el momento en que aterrizas</li><li>Nada físico que llevar o perder</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Necesitas un móvil libre y compatible con eSIM</li><li>Solo datos: mantienes tu número habitual para las llamadas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=travel+eSIM+data+plan+international&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4VXQ6P9">AliExpress</a></div></div></article><h2>Preguntas frecuentes</h2><div class="faq"><details><summary>¿Cuál es el producto de viaje más sobrevalorado?</summary><p>La almohada de cuello hinchable en forma de herradura, seguida de las básculas de equipaje y las versiones de viaje de productos que podrías simplemente rellenar en un bote pequeño. Los tres se compran con mucha más frecuencia de la que se usan.</p></details><details><summary>¿Puedo llevar una batería externa en un avión?</summary><p>Sí, en tu equipaje de mano; nunca en el facturado. Por lo general, las de menos de 100Wh están permitidas sin necesidad de aprobación, lo que cubre prácticamente todas las baterías del tamaño de un móvil. Algunas aerolíneas ahora restringen su uso o carga durante el vuelo, así que consúltalo con tu compañía.</p></details><details><summary>¿Son mejores los organizadores de compresión que los normales?</summary><p>Para prendas blandas y voluminosas como jerséis y chaquetas, sí, notablemente. Para camisas y pantalones la ganancia es pequeña y se arrugan más, así que un juego mixto suele ser la mejor solución.</p></details><details><summary>¿Solo equipaje de mano o facturar maleta?</summary><p>Solo equipaje de mano para viajes de hasta unos diez días si estás dispuesto a hacer la colada una vez. Factura una maleta para viajes en invierno, si llevas equipo especializado o cuando la tarifa es baja y prefieres no complicarte.</p></details></div><p style="margin-top:34px"><a href="posts.html">← Todas las guías</a></p><p class="disc">Hemos solicitado unirnos al Programa de Afiliados de Amazon. Todavía no somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Los precios y la disponibilidad son correctos en la fecha de publicación y pueden cambiar.</p></div></div><footer><nav><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a><a href="../privacy.html">Privacidad</a><a href="../terms.html">Términos</a><a href="posts.html">Guías</a></nav><p>Hemos solicitado unirnos al Programa de Afiliados de Amazon. Todavía no somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Nunca te cuesta más.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../post-travel.html" hreflang="en">English</a> · <a href="../he/post-travel.html" hreflang="he">עברית</a> · <a href="../fr/post-travel.html" hreflang="fr">Français</a> · <a href="../de/post-travel.html" hreflang="de">Deutsch</a> · <a href="../el/post-travel.html" hreflang="el">Ελληνικά</a></div></footer>
-<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script>
+<div class="nav"><div class="nav-in"><a class="brand" href="../index.html"><span class="logo">fashion<span>hotspot</span></span><span class="mono navkick" aria-hidden="true">/ guías</span></a><nav class="nav-links"><a href="../index.html">Ofertas</a><a href="posts.html">Guías</a><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="progtrack"><div class="progbar" id="prog"></div></div><div class="wrap"><div class="crumbs mono"><a href="../index.html">Inicio</a> › <a href="posts.html">Guías</a> › Viajes</div><span class="kicker mono">Viajes · 9 min de lectura · Actualizado <time datetime="2026-08-08">8 agosto 2026</time></span><h1>Accesorios de viaje que valen lo que pesan</h1><p class="dek">Todo lo que metes en la maleta tiene un coste. Estos diez artículos lo compensan, y te decimos cuáles de los más populares no lo hacen.</p><div class="byline mono"><span class="av" aria-hidden="true"></span><b>La redacción de fashionhotspot</b><span class="end">10 productos</span></div></div><div class="hero"><img src="../images/hero-travel.jpg" alt="Accesorios de viaje que valen lo que pesan" width="1600" height="840" fetchpriority="high"></div><div class="wrap"><div class="body"><p class="lead">Cada artículo que metes en la maleta tiene un coste, que se paga en peso, en espacio y en el pequeño peaje de tener una cosa más que controlar. La mayoría de los artilugios de viaje no superan esa prueba: solucionan un problema que tienes una vez al año y los cargas las otras cincuenta y una semanas.</p><p>Los artículos que te mostramos a continuación sí la superan. Varios son aburridos. Un par son cosas que ya tienes en una versión peor, y uno de ellos es una bolsa de plástico, que sabemos que no es una recomendación muy emocionante, pero resulta que es la correcta.</p><p>Los precios son aproximados en el momento de la publicación, y el equipaje en particular suele tener grandes descuentos con frecuencia; pagar el precio completo por una maleta es casi un error.</p><div class="short"><div class="mono">En resumen</div><div class="lead-pick">Organizadores de equipaje</div><div class="lead-tag mono">Cambian tu forma de hacer la maleta</div></div><div class="note"><b>Aviso.</b> Los enlaces de esta página son de afiliados. Si compras a través de uno podemos ganar una comisión sin coste adicional para ti. No influye en qué entra en esta lista ni en su orden.</div><h2>Cómo lo elegimos</h2><p>Evaluamos el equipaje de viaje en función de su peso, su resistencia al trato de las aerolíneas y en cuántos viajes al año se gana realmente un sitio. Nos basamos en pruebas publicadas, en opiniones de usuarios a largo plazo y en la normativa de las aerolíneas vigente en el momento de escribir este artículo, y no hemos viajado personalmente con todos los artículos de esta lista. Cuando la opción más popular es la equivocada, lo decimos y explicamos por qué, en lugar de omitirla sin más.</p><h2>De un vistazo</h2><div class="tablewrap"><table><thead><tr><th>#</th><th>Producto</th><th>Ideal para</th><th>Precio aprox.</th></tr></thead><tbody><tr><td class="rank">1</td><td><a href="#p1">Organizadores de equipaje</a></td><td>Cambian tu forma de hacer la maleta</td><td>$25–50 for a set</td></tr><tr><td class="rank">2</td><td><a href="#p2">Una mochila de 40L o un bolso de cabina blando como equipaje de mano</a></td><td>La maleta que se salta la recogida de equipajes</td><td>$100–250</td></tr><tr><td class="rank">3</td><td><a href="#p3">Un adaptador de viaje universal con USB-C PD</a></td><td>Compra uno bueno, no tres malos</td><td>$30–60</td></tr><tr><td class="rank">4</td><td><a href="#p4">Auriculares de botón con cancelación de ruido</a></td><td>Lo mejor para vuelos largos</td><td>$120–300</td></tr><tr><td class="rank">5</td><td><a href="#p5">Una batería externa fina de menos de 100Wh</a></td><td>Consulta la normativa de la aerolínea</td><td>$30–60</td></tr><tr><td class="rank">6</td><td><a href="#p6">Una botella de agua rellenable que se pliega o se aplana</a></td><td>Se amortiza en una semana</td><td>$20–40</td></tr><tr><td class="rank">7</td><td><a href="#p7">Un botiquín compacto de primeros auxilios y medicamentos</a></td><td>El que esperas no tener que usar</td><td>$20–45</td></tr><tr><td class="rank">8</td><td><a href="#p8">Una bolsa estanca o una bolsa de plástico resistente</a></td><td>El seguro más barato que puedes meter en la maleta</td><td>$0–20</td></tr><tr><td class="rank">9</td><td><a href="#p9">Una almohada de cuello, pero del tipo correcto</a></td><td>La mayoría se equivoca con esto</td><td>$30–70</td></tr><tr><td class="rank">10</td><td><a href="#p10">Una eSIM en lugar del roaming</a></td><td>El mayor ahorro de esta página</td><td>$5–25 per trip</td></tr></tbody></table></div><p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">Los precios son aproximados en el momento de escribir y cambian a menudo.</p><h2>Las recomendaciones</h2><article class="card" id="p1"><img class="card-img" src="../images/travel-01.jpg" alt="Organizadores de equipaje" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">01 · Cambian tu forma de hacer la maleta</span><h3>Organizadores de equipaje</h3><p>En realidad, los organizadores no ahorran espacio; los de compresión ahorran un poco, y el resto se limita a contener cosas. Lo que cambian es la experiencia de vivir con lo puesto. La ropa se mantiene ordenada durante todo el viaje en lugar de acabar hecha un montón a la primera de cambio, puedes encontrar una camisa sin deshacer toda la maleta y volver a empacar te lleva dos minutos en vez de veinte. En un viaje con varias paradas, la diferencia es enorme. Compra unos pocos organizadores grandes en lugar de muchos pequeños y usa uno como bolsa para la ropa sucia.</p><div class="priceline"><span class="price">$25–50 for a set</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Ahorran menos espacio de lo que anuncian</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Mantienen la maleta organizada durante todo el viaje</li><li>Hacer la maleta de nuevo es cosa de dos minutos</li><li>Uno de ellos sirve como bolsa para la ropa sucia</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Ahorran menos espacio de lo que anuncian</li><li>Añaden un poco de peso extra</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=packing+cubes+set+compression+travel&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c32kafAX">AliExpress</a></div></div></article><article class="card" id="p2"><img class="card-img" src="../images/travel-02.jpg" alt="Una mochila de 40L o un bolso de cabina blando como equipaje de mano" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">02 · La maleta que se salta la recogida de equipajes</span><h3>Una mochila de 40L o un bolso de cabina blando como equipaje de mano</h3><p>Viajar solo con equipaje de mano elimina las dos peores partes de volar: esperar en la cinta de equipajes y la posibilidad de que tu maleta haya acabado en otro país. Una mochila de 40L tipo *clamshell*, que se abre completamente como una maleta, es el formato que debes buscar, porque las mochilas de carga superior te obligan a sacar todo para llegar al fondo. Comprueba las dimensiones permitidas por tu aerolínea antes de comprar, y vuelve a comprobarlas si vuelas con aerolíneas de bajo coste, que tienen límites más pequeños y mucho más entusiasmo en hacerlos cumplir. La contrapartida es clara: llevarás el peso en la espalda en lugar de arrastrarlo.</p><div class="priceline"><span class="price">$100–250</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Llevas el peso a la espalda en lugar de arrastrarlo</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Sin recogida de equipaje, sin maletas perdidas</li><li>La apertura tipo *clamshell* funciona como una maleta</li><li>Cumple los límites de las aerolíneas de bajo coste si tiene el tamaño adecuado</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Llevas el peso a la espalda en lugar de arrastrarlo</li><li>Los límites de tamaño de cabina varían según la aerolínea: compruébalo antes</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=40L+carry+on+travel+backpack+clamshell&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4DrIIiT">AliExpress</a></div></div></article><article class="card" id="p3"><img class="card-img" src="../images/travel-03.jpg" alt="Un adaptador de viaje universal con USB-C PD" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">03 · Compra uno bueno, no tres malos</span><h3>Un adaptador de viaje universal con USB-C PD</h3><p>Los adaptadores baratos que venden en los aeropuertos son los que se calientan, pierden el contacto en cuanto mueves el cable y a veces fallan de formas en las que preferirías no pensar mientras duermes en un hotel. Uno bueno tiene fusibles adecuados, sujeta el enchufe con firmeza y —la parte que de verdad importa ahora— incluye carga USB-C Power Delivery de 30W o más, para que cargue un portátil directamente y reemplace por completo un segundo cargador. Ojo, casi ninguno de estos convierte el voltaje; solo cambian la forma del enchufe. Comprueba que tu secador de pelo o tu afeitadora sean de doble voltaje antes de usarlos con uno.</p><div class="priceline"><span class="price">$30–60</span><span class="tradeoff mono"><b>Lo que aceptas:</b> No convierte el voltaje, solo la forma del enchufe</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>También reemplaza el cargador de tu portátil</li><li>Fusibles seguros y un agarre firme del enchufe</li><li>Un solo aparato sirve para casi todo el mundo</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>No convierte el voltaje, solo la forma del enchufe</li><li>Es voluminoso para llevarlo en un bolso de día pequeño</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=universal+travel+adapter+USB-C+power+delivery&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3RLx3Hz">AliExpress</a></div></div></article><article class="card" id="p4"><img class="card-img" src="../images/travel-04.jpg" alt="Auriculares de botón con cancelación de ruido" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">04 · Lo mejor para vuelos largos</span><h3>Auriculares de botón con cancelación de ruido</h3><p>En un vuelo largo, cancelar el zumbido de los motores es la diferencia entre llegar cansado y llegar destrozado, porque el ruido constante de baja frecuencia es realmente agotador, incluso si no eres consciente de ello. Para viajar, los auriculares de botón ganan a los de diadema: caben en un bolsillo, funcionan si te apoyas de lado en el asiento del avión y la diadema no se pelea con la almohada de cuello. Los de diadema cancelan un poco mejor el ruido y tienen más batería, así que si los vas a usar principalmente para volar y duermes erguido, son una alternativa razonable. Lleva unos con cable de repuesto para los sistemas de entretenimiento antiguos de los aviones.</p><div class="priceline"><span class="price">$120–300</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Menos cancelación y batería que los de diadema</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Reduce la fatiga del ruido de los motores</li><li>Caben en el bolsillo y funcionan si te apoyas de lado</li><li>No estorban si usas una almohada de cuello</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Menos cancelación y batería que los de diadema</li><li>Es fácil perder uno: son muy pequeños</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=noise+cancelling+wireless+earbuds+travel&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3NehATl">AliExpress</a></div></div></article><article class="card" id="p5"><img class="card-img" src="../images/travel-05.jpg" alt="Una batería externa fina de menos de 100Wh" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">05 · Consulta la normativa de la aerolínea</span><h3>Una batería externa fina de menos de 100Wh</h3><p>Una batería de 10.000mAh es el punto ideal para viajar: da para unas dos cargas de móvil, es lo bastante fina para sujetarla junto al teléfono y está holgadamente dentro de los límites de las aerolíneas. La norma que debes conocer es que las baterías de litio tienen que ir en el equipaje de mano, nunca en el facturado, y las de más de 100Wh suelen necesitar la aprobación de la aerolínea. Casi todas las baterías de 10.000mAh rondan los 37Wh, así que no hay problema, pero una grande para portátil podría no cumplirlo. Varias aerolíneas también han endurecido las normas sobre su uso o carga durante el vuelo; consúltalo con tu compañía antes de viajar.</p><div class="priceline"><span class="price">$30–60</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Debe ir en el equipaje de mano, nunca en el facturado</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Unas dos cargas de móvil en un tamaño de bolsillo</li><li>Holgadamente dentro de los límites de las aerolíneas</li><li>Baratas y fáciles de encontrar</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Debe ir en el equipaje de mano, nunca en el facturado</li><li>Las normas de uso en vuelo son más estrictas: compruébalo antes</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=slim+10000mAh+power+bank+USB-C+airline+safe&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3HSC01t">AliExpress</a></div></div></article><article class="card" id="p6"><img class="card-img" src="../images/travel-06.jpg" alt="Una botella de agua rellenable que se pliega o se aplana" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">06 · Se amortiza en una semana</span><h3>Una botella de agua rellenable que se pliega o se aplana</h3><p>Los precios del agua en los aeropuertos son el ejemplo más claro de lo que es un mercado cautivo, y una botella que pasas vacía por el control de seguridad y rellenas al otro lado te lo ahorra por completo en cada viaje que hagas. Una plegable resuelve el problema de que una botella rígida ocupa espacio en la maleta cuando está vacía: se enrolla hasta ocupar lo que un puño. Las advertencias reales: el agua del grifo no es potable en todas partes, así que infórmate sobre tu destino en lugar de darlo por hecho, y las botellas blandas son más difíciles de limpiar bien, lo que importa si metes algo que no sea agua.</p><div class="priceline"><span class="price">$20–40</span><span class="tradeoff mono"><b>Lo que aceptas:</b> El agua del grifo no es potable en todas partes</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Evita por completo los precios del agua en los aeropuertos</li><li>Se enrolla hasta el tamaño de un puño cuando está vacía</li><li>Barata y útil en absolutamente todos los viajes</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>El agua del grifo no es potable en todas partes</li><li>Las botellas blandas son más difíciles de limpiar a fondo</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=collapsible+travel+water+bottle+BPA+free&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c2RH1wkR">AliExpress</a></div></div></article><article class="card" id="p7"><img class="card-img" src="../images/travel-07.jpg" alt="Un botiquín compacto de primeros auxilios y medicamentos" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">07 · El que esperas no tener que usar</span><h3>Un botiquín compacto de primeros auxilios y medicamentos</h3><p>Comprar paracetamol a las 2 de la madrugada en un país cuyo idioma no hablas y con un envase que no reconoces es una experiencia realmente miserable, y es totalmente evitable con un neceser que pesa doscientos gramos. Solo por los apósitos para ampollas ya merece la pena en cualquier viaje que implique caminar. Lleva los medicamentos con receta en su envase original etiquetado y en tu equipaje de mano, y comprueba la normativa de tu destino antes de viajar: algunos medicamentos comunes, incluidos ciertos analgésicos y remedios para el resfriado, están restringidos o prohibidos en determinados países.</p><div class="priceline"><span class="price">$20–45</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Algunos medicamentos están restringidos en ciertos países</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Solo por los apósitos para ampollas ya merece la pena llevarlo</li><li>Evita tener que apañártelas en una farmacia extranjera por la noche</li><li>Muy ligero para todo lo que incluye</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Algunos medicamentos están restringidos en ciertos países</li><li>Hay que revisarlo y reponerlo entre viaje y viaje</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=compact+travel+first+aid+kit&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c42HrJOP">AliExpress</a></div></div></article><article class="card" id="p8"><img class="card-img" src="../images/travel-08.jpg" alt="Una bolsa estanca o una bolsa de plástico resistente" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">08 · El seguro más barato que puedes meter en la maleta</span><h3>Una bolsa estanca o una bolsa de plástico resistente</h3><p>Sabemos que no es una recomendación apasionante. Está en la lista porque un simple bote de champú que gotea, un chaparrón inesperado o un trayecto en barco con salpicaduras pueden arruinarte los aparatos electrónicos, los documentos y toda la ropa que llevas. Una bolsa estanca con cierre enrollable no pesa casi nada y elimina por completo esa categoría de imprevistos que te arruinan el viaje. Una bolsa resistente con cierre hermético hace el ochenta por ciento del mismo trabajo por cero euros, por eso el precio empieza en cero y no te juzgaremos si eliges esa opción.</p><div class="priceline"><span class="price">$0–20</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Realmente aburrido</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Protege documentos y aparatos electrónicos por completo</li><li>No pesa casi nada</li><li>La versión gratuita funciona casi igual de bien</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Realmente aburrido</li><li>Los cierres enrollables hay que cerrarlos bien para que sean estancos</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=waterproof+dry+bag+10L+roll+top&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4niO8IT">AliExpress</a></div></div></article><article class="card" id="p9"><img class="card-img" src="../images/travel-09.jpg" alt="Una almohada de cuello, pero del tipo correcto" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">09 · La mayoría se equivoca con esto</span><h3>Una almohada de cuello, pero del tipo correcto</h3><p>La herradura hinchable que venden en todos los aeropuertos es prácticamente inútil, porque el problema en un avión no es que la cabeza se te caiga hacia atrás (el asiento ya lo impide), es que se te caiga hacia los lados. Por eso, las almohadas que funcionan son las firmes que llenan el hueco entre el hombro y la mandíbula, o los diseños envolventes que sujetan la barbilla. La espuma viscoelástica es más voluminosa de transportar que la hinchable, y esa es la verdadera contrapartida. Si solo haces vuelos cortos, olvídate de esto y apoya un jersey doblado contra la ventanilla.</p><div class="priceline"><span class="price">$30–70</span><span class="tradeoff mono"><b>Lo que aceptas:</b> La típica herradura hinchable apenas funciona</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>El diseño adecuado de verdad ayuda a dormir erguido</li><li>La espuma firme evita que la cabeza se caiga hacia los lados</li><li>También es útil en trenes y autobuses</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>La típica herradura hinchable apenas funciona</li><li>Es voluminosa para lo que hace</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=travel+neck+pillow+memory+foam+support&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3f2ptWX">AliExpress</a></div></div></article><article class="card" id="p10"><img class="card-img" src="../images/travel-10.jpg" alt="Una eSIM en lugar del roaming" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">10 · El mayor ahorro de esta página</span><h3>Una eSIM en lugar del roaming</h3><p>Esto no es un producto físico, y precisamente por eso está aquí: sustituye el engorro de comprar una SIM local al llegar y el negocio, mucho peor, de pagar las tarifas de *roaming* de tu operador. Compras un plan de datos por internet antes de volar, lo instalas en unos dos minutos y aterrizas ya conectado. Dos cosas que debes comprobar primero: que tu móvil sea compatible con eSIM, como la mayoría de los modelos de los últimos años, y que no esté bloqueado por el operador. Mantén tu SIM normal activa para llamadas y mensajes, y usa la eSIM solo para los datos.</p><div class="priceline"><span class="price">$5–25 per trip</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Necesitas un móvil libre y compatible con eSIM</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Una fracción del coste del *roaming*</li><li>Conectado en el momento en que aterrizas</li><li>Nada físico que llevar o perder</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Necesitas un móvil libre y compatible con eSIM</li><li>Solo datos: mantienes tu número habitual para las llamadas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=travel+eSIM+data+plan+international&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4VXQ6P9">AliExpress</a></div></div></article><h2>Preguntas frecuentes</h2><div class="faq"><details><summary>¿Cuál es el producto de viaje más sobrevalorado?</summary><p>La almohada de cuello hinchable en forma de herradura, seguida de las básculas de equipaje y las versiones de viaje de productos que podrías simplemente rellenar en un bote pequeño. Los tres se compran con mucha más frecuencia de la que se usan.</p></details><details><summary>¿Puedo llevar una batería externa en un avión?</summary><p>Sí, en tu equipaje de mano; nunca en el facturado. Por lo general, las de menos de 100Wh están permitidas sin necesidad de aprobación, lo que cubre prácticamente todas las baterías del tamaño de un móvil. Algunas aerolíneas ahora restringen su uso o carga durante el vuelo, así que consúltalo con tu compañía.</p></details><details><summary>¿Son mejores los organizadores de compresión que los normales?</summary><p>Para prendas blandas y voluminosas como jerséis y chaquetas, sí, notablemente. Para camisas y pantalones la ganancia es pequeña y se arrugan más, así que un juego mixto suele ser la mejor solución.</p></details><details><summary>¿Solo equipaje de mano o facturar maleta?</summary><p>Solo equipaje de mano para viajes de hasta unos diez días si estás dispuesto a hacer la colada una vez. Factura una maleta para viajes en invierno, si llevas equipo especializado o cuando la tarifa es baja y prefieres no complicarte.</p></details></div><div class="closer"><h2>Ofertas de hoy</h2><p>Mira qué está rebajado ahora mismo.</p><a class="btn" href="../index.html">Ofertas →</a></div><p class="mono" style="margin-top:34px"><a href="posts.html">← Todas las guías</a></p><p class="disc">No somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Los precios y la disponibilidad son correctos en la fecha de publicación y pueden cambiar.</p></div></div><footer><nav><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a><a href="../privacy.html">Privacidad</a><a href="../terms.html">Términos</a><a href="posts.html">Guías</a></nav><p>No somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Nunca te cuesta más.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../post-travel.html" hreflang="en">English</a> · <a href="../he/post-travel.html" hreflang="he">עברית</a> · <a href="../fr/post-travel.html" hreflang="fr">Français</a> · <a href="../de/post-travel.html" hreflang="de">Deutsch</a> · <a href="../el/post-travel.html" hreflang="el">Ελληνικά</a></div></footer>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script><script>(function(){var b=document.getElementById("prog");if(!b)return;var f=function(){var h=document.documentElement.scrollHeight-innerHeight;b.style.width=(h>0?Math.min(100,scrollY/h*100):0)+"%";};addEventListener("scroll",f,{passive:true});addEventListener("resize",f);f();})();</script>
 </body>
 </html>

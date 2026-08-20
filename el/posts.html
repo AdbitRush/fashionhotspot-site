@@ -11,51 +11,46 @@
 <meta property="og:title" content="Τι αξίζει πραγματικά να αγοράσετε — fashionhotspot">
 <meta property="og:description" content="Αναλυτικοί οδηγοί για εξοπλισμό που αξίζει — τι επιλέξαμε, γιατί, και τι συμβιβασμό δέχεστε σε κάθε περίπτωση.">
 <meta property="og:url" content="https://fashionhotspot.site/el/posts.html">
-<meta property="og:site_name" content="fashionhotspot"><meta property="og:image" content="https://fashionhotspot.site/images/hero-tech.jpg">
+<meta property="og:site_name" content="fashionhotspot"><meta property="og:image" content="https://fashionhotspot.site/images/hero-air.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+/* ---------- tokens ---------- */
 :root, :root[data-theme="light"]{
-  --bg:#FFF6EE; --surface:#fff; --ink:#2E1F26; --ink-2:#5A4550; --ink-3:#8C7580;
-  --line:#F0DFD2; --line-2:#E6D2C2; --accent:#E14B4B; --accent-ink:#B02F2F;
-  --deep:#3A2230; --shadow:0 1px 2px rgba(58,34,48,.04),0 8px 24px rgba(58,34,48,.06);
-  --nav-bg:rgba(255,246,238,.88);
-  --pro:#3E8E64; --con:#C4593F; --chip:#FDECEC; --note-bg:#FFFBF6;
-  --on-deep:#fff; --card-hover:0 4px 10px rgba(58,34,48,.07),0 16px 34px rgba(58,34,48,.10);
-  --radius:16px; --maxw:760px;
+  --bg:oklch(0.945 0.019 80); --surface:oklch(0.978 0.014 82);
+  --ink:oklch(0.21 0.014 55); --ink-2:oklch(0.44 0.014 65); --ink-3:oklch(0.52 0.014 68);
+  --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.13);
+  --accent:oklch(0.6 0.21 25); --accent-ink:oklch(0.45 0.18 25);
+  --deep:oklch(0.21 0.014 55);
+  --shadow:0 1px 2px rgba(60,40,30,.05),0 10px 30px rgba(60,40,30,.07);
+  --card-hover:0 26px 60px rgba(60,40,30,.13);
+  --nav-bg:rgba(246,238,228,.9);
+  --pro:#2F7D55; --con:#B04A2E; --chip:oklch(0.915 0.045 42); --note-bg:oklch(0.965 0.016 81);
+  --on-accent:oklch(0.985 0.012 84); --on-deep:oklch(0.985 0.012 84);
+  --radius:22px; --maxw:760px; --navh:60px;
 }
-/* Dark is a re-mix of the same palette, not an inversion. The coral had to be
-   lightened (#E14B4B -> #FF6B6B): the original passes contrast on cream and
-   fails it on near-black, and an accent you cannot read is worse than no
-   accent. Surfaces stay slightly lifted from the background so cards keep the
-   edge they have in light mode without needing borders. */
+/* Dark is a re-mix of the same palette, not an inversion. The red has to be
+   lightened to stay legible on near-black, and surfaces stay lifted from the
+   background so cards keep the edge they have in light mode without borders. */
 :root[data-theme="dark"]{
-  --bg:#171019; --surface:#1F1620; --ink:#F6EFEA; --ink-2:#C9B8C0; --ink-3:#9A8792;
-  --line:#332430; --line-2:#412E3A; --accent:#FF6B6B; --accent-ink:#FF8B8B;
-  --deep:#F6EFEA; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-  --nav-bg:rgba(23,16,25,.88);
-  /* Pro/con marks lightened to stay legible on a dark surface; the light-mode
-     values fail contrast here. --on-deep flips because --deep itself flips. */
-  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1C1419;
-  --on-deep:#171019; --card-hover:0 4px 10px rgba(0,0,0,.45),0 16px 34px rgba(0,0,0,.4);
+  --bg:#141013; --surface:#1E181C; --ink:#F7F1EC; --ink-2:#CBBFB8; --ink-3:#9C8E88;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
+  --accent:oklch(0.72 0.2 25); --accent-ink:oklch(0.82 0.16 25);
+  --deep:#F7F1EC;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  --card-hover:0 26px 60px rgba(0,0,0,.5);
+  --nav-bg:rgba(20,16,19,.9);
+  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1B1519;
+  --on-accent:#170a0b; --on-deep:#141013;
 }
-html{color-scheme:light dark}
+html{color-scheme:light dark;-webkit-text-size-adjust:100%}
 :root[data-theme="dark"] img{filter:brightness(.94)}
-/* The toggle */
-.themetog{margin-inline-start:14px;background:transparent;border:1px solid var(--line-2);
-  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
-  font-size:15px;line-height:1;display:inline-flex;align-items:center;
-  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
-.themetog:hover{border-color:var(--accent);color:var(--accent)}
-.themetog .tt-moon{display:none}
-:root[data-theme="dark"] .themetog .tt-sun{display:none}
-:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);
-  color:var(--ink);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
+body{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;overflow-x:clip}
 /* height:auto is load-bearing. The width/height attributes on every <img> are
    there to reserve layout space and stop the page jumping as images load, but
    they map to presentational CSS height — which pins the element at its
@@ -63,144 +58,292 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:va
    hero and card images render at 630px tall regardless of column width. */
 img{max-width:100%;display:block;height:auto}
 a{color:var(--accent-ink)}
+::selection{background:var(--accent);color:var(--on-accent)}
+
+/* Every kicker, meta line and label in the design is mono, uppercase and
+   widely tracked. One class, so the RTL and Greek overrides at the bottom have
+   a single thing to reach for. */
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;font-weight:600;
+  color:var(--ink-3);font-variant-numeric:tabular-nums}
+.mono a{color:inherit;text-decoration:none}
 
 /* ---------- chrome ---------- */
-.nav{position:sticky;top:0;z-index:50;background:var(--nav-bg);
-  backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
-.nav-in{max-width:1080px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;gap:20px}
-.logo{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:19px;color:var(--deep);
-  text-decoration:none;letter-spacing:-.01em;white-space:nowrap}
+.nav{position:sticky;top:0;z-index:90;background:var(--nav-bg);
+  backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1280px;margin:0 auto;padding:13px 28px;display:flex;
+  align-items:center;gap:20px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.logo{font-weight:900;font-size:19px;color:var(--ink);letter-spacing:-.045em;
+  text-decoration:none;white-space:nowrap}
 .logo span{color:var(--accent)}
-.nav-links{display:flex;gap:20px;margin-inline-start:auto;flex-wrap:wrap}
-.nav-links a{font-size:14px;font-weight:600;color:var(--ink-2);text-decoration:none;
+.navkick{color:var(--accent-ink);white-space:nowrap}
+.nav-links{display:flex;gap:24px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.nav-links a{font-size:13.5px;font-weight:600;color:var(--ink-2);text-decoration:none;
   padding:4px 0;border-bottom:2px solid transparent}
-.nav-links a:hover{color:var(--accent-ink)}
-.nav-links a[aria-current]{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.themetog{margin-inline-start:2px;background:transparent;border:1px solid var(--line-2);
+  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
+.themetog:hover{border-color:var(--accent-ink);color:var(--accent-ink)}
+.themetog .tt-moon{display:none}
+:root[data-theme="dark"] .themetog .tt-sun{display:none}
+:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
-.wide{max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.wide{max-width:1280px;margin:0 auto;padding:0 28px}
+
+/* ---------- index: masthead ---------- */
+.masthead{padding:78px 0 44px;border-bottom:1px solid var(--line)}
+.masthead h1{max-width:15ch}
+.masthead .dek{max-width:560px}
+
+h1{font-size:clamp(42px,6.4vw,96px);line-height:.88;letter-spacing:-.05em;
+  font-weight:900;color:var(--ink);text-wrap:balance}
+.dek{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2);margin-top:22px;
+  line-height:1.5;text-wrap:pretty}
+.eyebrow{margin-bottom:18px;letter-spacing:.22em;color:var(--accent-ink)}
+
+/* ---------- index: featured + side list ---------- */
+.feat{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;
+  align-items:start;padding:52px 0 4px}
+.feat-main{text-decoration:none;color:inherit;display:block}
+.feat-main img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
+.feat-meta{display:flex;gap:12px;align-items:center;margin:22px 0 12px;flex-wrap:wrap}
+.pill{padding:6px 11px;border-radius:999px;background:var(--chip);
+  color:var(--accent-ink);font-weight:600}
+.feat-main h2{font-size:clamp(28px,3.2vw,44px);line-height:.99;letter-spacing:-.04em;
+  font-weight:900;margin:0 0 14px;max-width:22ch;color:var(--ink)}
+.feat-main p{font-size:17px;line-height:1.55;color:var(--ink-2);max-width:60ch;
+  text-wrap:pretty}
+.sidelist{display:flex;flex-direction:column;gap:10px}
+.sidelist>.mono{letter-spacing:.2em;padding-bottom:6px}
+.sideitem{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;
+  padding:15px 16px;border-radius:16px;background:var(--surface);
+  border:1px solid var(--line);text-decoration:none;color:inherit;
+  transition:transform .25s ease,border-color .25s ease}
+.sideitem:hover{transform:translateX(4px);border-color:var(--accent)}
+[dir=rtl] .sideitem:hover{transform:translateX(-4px)}
+.sidenum{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:15px;
+  color:var(--accent-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.sideitem b{font-size:15px;font-weight:700;line-height:1.28;letter-spacing:-.015em;
+  display:block;color:var(--ink)}
+.sideitem .mono{margin-top:7px;letter-spacing:.1em}
+
+/* ---------- index: filters ---------- */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.chip{font-size:13px;font-weight:700;letter-spacing:-.01em;padding:9px 16px;
+  border-radius:999px;cursor:pointer;background:var(--surface);color:var(--ink-2);
+  border:1px solid var(--line-2);font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent-ink);color:var(--on-accent);
+  border-color:var(--accent-ink)}
+.count{margin-inline-start:auto;letter-spacing:.1em}
+
+/* ---------- index: grid ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:22px;margin:30px 0 10px}
+.gcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  text-decoration:none;color:inherit;
+  transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+.gcard:hover{transform:translateY(-6px);box-shadow:var(--card-hover)}
+.gcard[hidden]{display:none}
+.gcard-media{position:relative}
+.gcard-media img{width:100%;aspect-ratio:5/3;object-fit:cover}
+.gcard-cat{position:absolute;top:12px;inset-inline-start:12px;padding:6px 10px;
+  border-radius:999px;background:var(--nav-bg);backdrop-filter:blur(6px);
+  color:var(--ink-2);font-size:9.5px;letter-spacing:.12em}
+.gcard-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.gcard h3{font-size:19px;font-weight:800;line-height:1.18;letter-spacing:-.028em;
+  color:var(--ink)}
+.gcard .sum{font-size:14px;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
+.gcard-foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;
+  justify-content:space-between;gap:10px;border-top:1px solid var(--line);
+  letter-spacing:.1em}
+.gcard-foot .go{color:var(--accent-ink)}
+
+/* ---------- article: progress ---------- */
+.progtrack{position:sticky;top:var(--navh);z-index:80;height:3px;background:var(--line)}
+.progbar{height:100%;width:0;background:var(--accent);transition:width .1s linear}
 
 /* ---------- article head ---------- */
-.crumbs{font-size:13px;color:var(--ink-3);padding:22px 0 0}
-.crumbs a{color:var(--ink-3);text-decoration:none}
-.crumbs a:hover{color:var(--accent-ink);text-decoration:underline}
-.kicker{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--accent);margin:26px 0 12px}
-h1{font-family:Fraunces,Georgia,serif;font-size:clamp(31px,5.2vw,46px);font-weight:700;
-  line-height:1.14;letter-spacing:-.02em;color:var(--deep)}
-.dek{font-size:clamp(17px,2.4vw,20px);color:var(--ink-2);margin-top:16px;line-height:1.55}
-.byline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:22px;
-  padding-bottom:24px;font-size:13.5px;color:var(--ink-3)}
+.crumbs{padding:26px 0 0;letter-spacing:.1em}
+.crumbs a:hover{color:var(--accent-ink)}
+.kicker{display:block;color:var(--accent-ink);letter-spacing:.18em;margin:26px 0 16px}
+.wrap h1{font-size:clamp(34px,5.2vw,62px);line-height:.94;letter-spacing:-.045em}
+.byline{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px;
+  padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  letter-spacing:.08em}
+.byline .av{width:30px;height:30px;border-radius:50%;background:var(--chip);
+  border:1px solid var(--line-2);flex:0 0 auto}
 .byline b{color:var(--ink-2);font-weight:600}
+.byline .end{margin-inline-start:auto}
 .dot{opacity:.45}
-.hero{margin:8px 0 30px;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
-.hero img{width:100%;aspect-ratio:1200/630;object-fit:cover}
+/* The design runs the lead image wider than the column it sits under. */
+.hero{margin:30px auto;max-width:1080px;padding:0 28px}
+.hero img{width:100%;aspect-ratio:21/9;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
 
 /* ---------- body copy ---------- */
-.body p{margin:0 0 20px;color:var(--ink-2)}
+.body{font-size:17.5px}
+.body p{margin:0 0 22px;color:var(--ink-2);line-height:1.68;text-wrap:pretty}
 .body p.lead{font-size:19px;color:var(--ink)}
-h2{font-family:Fraunces,Georgia,serif;font-size:27px;font-weight:700;color:var(--deep);
-  letter-spacing:-.01em;margin:44px 0 14px;line-height:1.25}
-h3{font-family:Fraunces,Georgia,serif;font-size:21px;font-weight:700;color:var(--deep);margin:0}
+h2{font-size:clamp(26px,3vw,34px);font-weight:900;color:var(--ink);
+  letter-spacing:-.035em;margin:48px 0 16px;line-height:1.05}
+h3{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.03em;
+  line-height:1.15;margin:0}
 
-.note{background:var(--note-bg);border:1px solid var(--line);border-inline-start:3px solid var(--accent);
-  border-radius:12px;padding:16px 18px;margin:26px 0;font-size:15px;color:var(--ink-2)}
-.note b{color:var(--deep)}
+/* The takeaway block. Body text is the number-one pick and its tag — both read
+   straight off the guide's own data, so this cannot drift from the list below
+   it the way a hand-written summary would. */
+.short{padding:26px 28px;border-radius:20px;background:var(--chip);
+  border:1px solid color-mix(in oklab,var(--accent) 25%,transparent);margin:30px 0 40px}
+.short .mono{color:var(--accent-ink);letter-spacing:.18em;margin-bottom:12px}
+.short .lead-pick{font-size:20px;line-height:1.35;font-weight:800;
+  letter-spacing:-.025em;color:var(--ink);text-wrap:pretty}
+.short .lead-tag{margin-top:8px;color:var(--accent-ink);letter-spacing:.12em}
+
+.note{background:var(--note-bg);border:1px solid var(--line);
+  border-inline-start:3px solid var(--accent);border-radius:14px;padding:16px 18px;
+  margin:26px 0;font-size:15px;color:var(--ink-2)}
+.note b{color:var(--ink)}
 
 /* ---------- comparison table ---------- */
 .tablewrap{overflow-x:auto;margin:22px 0 8px;border:1px solid var(--line);
-  border-radius:14px;background:var(--surface)}
+  border-radius:16px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
-th,td{text-align:start;padding:12px 14px;border-bottom:1px solid var(--line)}
-th{background:var(--note-bg);font-weight:700;color:var(--deep);font-size:12.5px;
-  text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+th,td{text-align:start;padding:13px 15px;border-bottom:1px solid var(--line)}
+th{background:var(--note-bg);font-weight:700;color:var(--ink);font-size:11px;
+  text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 tbody tr:last-child td{border-bottom:0}
 td a{font-weight:600;text-decoration:none}
 td a:hover{text-decoration:underline}
-.rank{color:var(--ink-3);font-variant-numeric:tabular-nums;width:1%}
+.rank{color:var(--accent-ink);font-variant-numeric:tabular-nums;width:1%;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 
-/* ---------- product card ---------- */
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-  overflow:hidden;margin:26px 0;box-shadow:var(--shadow);scroll-margin-top:72px}
-.card-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-bottom:1px solid var(--line)}
-.card-in{padding:22px}
-.card-top{display:flex;gap:14px;align-items:flex-start}
-.num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--deep);color:var(--on-deep);
-  font-family:Fraunces,Georgia,serif;font-weight:700;font-size:16px;
-  display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
-.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.05em;
-  text-transform:uppercase;color:var(--accent-ink);background:var(--chip);
-  padding:4px 10px;border-radius:99px;margin-bottom:8px}
-.price{font-size:14px;font-weight:600;color:var(--ink-3);margin-top:4px}
-.card p{margin:14px 0 0;color:var(--ink-2);font-size:16px}
+/* ---------- a pick ---------- */
+/* The design puts a small square thumbnail beside the text rather than a full
+   bleed image above it. With ten picks on a page that is the difference between
+   a list you can scan and ten screens of scrolling. */
+.card{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:28px 0;
+  border-top:1px solid var(--line);scroll-margin-top:88px}
+.card-img{width:150px;aspect-ratio:1;object-fit:cover;border-radius:16px;
+  border:1px solid var(--line);background:var(--surface)}
+.card-in{min-width:0}
+.badge{display:block;color:var(--accent-ink);letter-spacing:.16em;margin-bottom:9px}
+.card h3{margin-bottom:10px}
+.card p{margin:0 0 14px;color:var(--ink-2);font-size:16px;line-height:1.6;
+  text-wrap:pretty}
+.priceline{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.price{font-size:21px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.tradeoff{letter-spacing:.06em;text-transform:none;font-size:11px;color:var(--ink-3)}
+.tradeoff b{font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.num{display:none}
+.tag{display:none}
 .pc{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-top:18px;
   padding-top:16px;border-top:1px solid var(--line)}
-.pc h4{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--ink-3);margin-bottom:7px}
+.pc h4{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:7px;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 .pc ul{list-style:none;font-size:14.5px;color:var(--ink-2)}
 .pc li{position:relative;padding-inline-start:17px;margin-bottom:5px;line-height:1.5}
 .pc li::before{position:absolute;inset-inline-start:0;font-weight:700}
 .pros li::before{content:"+";color:var(--pro)}
 .cons li::before{content:"–";color:var(--con)}
 .buys{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
-.btn{text-decoration:none;font-size:14px;font-weight:700;padding:11px 18px;
-  border-radius:10px;display:inline-block;transition:transform .1s,filter .1s}
-.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
-.btn-a{background:var(--accent);color:#fff}
-.btn-b{background:var(--surface);color:var(--ink);border:1.5px solid var(--line-2)}
+.btn{text-decoration:none;font-size:14px;font-weight:700;padding:12px 20px;
+  border-radius:999px;display:inline-block;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn-a{background:var(--accent-ink);color:var(--on-accent)}
+.btn-b{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
 
 /* ---------- faq ---------- */
 .faq{border-top:1px solid var(--line);margin-top:12px}
 .faq details{border-bottom:1px solid var(--line)}
-.faq summary{cursor:pointer;list-style:none;padding:17px 30px 17px 0;position:relative;
-  font-weight:600;color:var(--deep);font-size:16.5px}
+.faq summary{cursor:pointer;list-style:none;padding:18px 30px 18px 0;position:relative;
+  font-weight:700;color:var(--ink);font-size:16.5px;letter-spacing:-.015em}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:15px;
-  font-size:21px;font-weight:400;color:var(--accent);line-height:1}
+.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:16px;
+  font-size:21px;font-weight:400;color:var(--accent-ink);line-height:1}
 .faq details[open] summary::after{content:"–"}
 .faq p{padding:0 0 18px;color:var(--ink-2);font-size:15.5px;margin:0}
 
-/* ---------- guide index cards ---------- */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;margin:30px 0 10px}
-.gcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
-  border-radius:var(--radius);overflow:hidden;text-decoration:none;color:inherit;
-  box-shadow:var(--shadow);transition:transform .14s,box-shadow .14s}
-.gcard:hover{transform:translateY(-3px);box-shadow:var(--card-hover)}
-.gcard img{width:100%;aspect-ratio:1200/630;object-fit:cover}
-.gcard-in{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
-.gcard h3{font-size:19px;line-height:1.3;margin:8px 0 0}
-.gcard .sum{font-size:14.5px;color:var(--ink-2);margin-top:9px;flex:1}
-.gcard .meta{font-size:12.5px;color:var(--ink-3);margin-top:14px}
+/* ---------- closer ---------- */
+.closer{margin-top:46px;padding:34px 30px;border-radius:22px;
+  border:1px dashed var(--line-2);text-align:center}
+.closer h2{font-size:clamp(22px,3vw,28px);margin:0 0 10px;letter-spacing:-.03em}
+.closer p{font-size:16px;color:var(--ink-2);margin:0 0 22px}
+.closer .btn{padding:15px 28px;font-size:15px;font-weight:800;
+  background:var(--deep);color:var(--on-deep)}
 
 /* ---------- footer ---------- */
 .disc{font-size:13.5px;color:var(--ink-3);border-top:1px solid var(--line);
   padding-top:18px;margin-top:46px}
-footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 22px;
+footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 28px;
   text-align:center;color:var(--ink-3);font-size:13.5px;background:var(--note-bg)}
 footer nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
 footer a{color:var(--ink-2);text-decoration:none;font-weight:600}
 footer a:hover{color:var(--accent-ink)}
 .langsw{margin-top:12px;font-size:13px}
 
+/* ---------- responsive ---------- */
+@media(max-width:900px){
+  .feat{grid-template-columns:1fr;gap:34px}
+  .masthead{padding:52px 0 34px}
+}
 @media(max-width:600px){
   body{font-size:16px}
-  .pc{grid-template-columns:1fr;gap:14px}
-  .card-in{padding:18px}
-  .nav-in{padding:10px 16px;gap:12px}
+  .wrap,.wide,.hero{padding-inline:18px}
+  .nav-in{padding:10px 18px;gap:12px}
   .nav-links{gap:14px}
   .nav-links a{font-size:13px}
+  .navkick{display:none}
+  /* The thumbnail column collapses rather than shrinking to a stamp. */
+  .card{grid-template-columns:1fr;gap:16px;padding:24px 0}
+  .card-img{width:100%;aspect-ratio:16/10}
+  .pc{grid-template-columns:1fr;gap:14px}
+  .hero img{aspect-ratio:16/10}
+  .count{margin-inline-start:0;width:100%;padding-top:8px}
+}
+/* The chips are the one genuinely new tap target the redesign adds, and at the
+   design's 9px padding they land at 34px — under the 44px minimum. Scoped to
+   coarse pointers so the mouse version keeps the tighter proportions the design
+   draws, and applied by min-height rather than padding so the label stays
+   vertically centred either way. */
+@media(pointer:coarse){
+  .chip{min-height:44px;padding-inline:18px}
+  .nav-links a{min-height:44px;display:inline-flex;align-items:center}
+  .themetog{width:44px;height:44px}
+  .sideitem{padding:18px 16px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
-/* ---------- rtl ---------- */
-[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{
-  font-family:"Heebo","Assistant",Inter,system-ui,sans-serif}
-[dir=rtl] .num{font-family:inherit}
-</style><style>body,h1,h2,h3,.logo{font-family:'Noto Sans',Inter,system-ui,sans-serif}</style>
+/* ---------- rtl / non-latin ---------- */
+/* Archivo and JetBrains Mono have no Hebrew, and wide tracking on Hebrew is
+   unreadable rather than merely wrong. Hebrew keeps Heebo everywhere and drops
+   the mono treatment, so the design's rhythm survives without the typography
+   that cannot cross the script. */
+[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,
+[dir=rtl] .chip,[dir=rtl] .mono,[dir=rtl] .sidenum,[dir=rtl] .rank,
+[dir=rtl] th,[dir=rtl] .pc h4{
+  font-family:"Heebo","Assistant",system-ui,sans-serif}
+[dir=rtl] .mono,[dir=rtl] th,[dir=rtl] .pc h4{letter-spacing:.02em;font-size:11.5px}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] .feat-main h2{letter-spacing:-.01em;line-height:1.1}
+/* A number with no Hebrew beside it still flips inside dir=rtl — "35 -> 35"
+   is fine but "10 min" and "-58%" are not. Isolate every numeric run. */
+[dir=rtl] .sidenum,[dir=rtl] .rank,[dir=rtl] .price,[dir=rtl] .count,
+[dir=rtl] .byline .end,[dir=rtl] time{unicode-bidi:isolate}
+</style><style>body,h1,h2,h3,.logo,.chip,.mono,.sidenum,.rank,th,.pc h4{font-family:'Noto Sans',system-ui,sans-serif}.mono,th,.pc h4{letter-spacing:.08em}</style>
 <link rel="alternate" hreflang="en" href="https://fashionhotspot.site/posts.html"><link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/posts.html"><link rel="alternate" hreflang="es" href="https://fashionhotspot.site/es/posts.html"><link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/fr/posts.html"><link rel="alternate" hreflang="de" href="https://fashionhotspot.site/de/posts.html"><link rel="alternate" hreflang="el" href="https://fashionhotspot.site/el/posts.html"><link rel="alternate" hreflang="x-default" href="https://fashionhotspot.site/posts.html">
 </head>
 <body>
-<div class="nav"><div class="nav-in"><a class="logo" href="../index.html">fashion<span>hotspot</span></a><nav class="nav-links"><a href="../index.html">Προσφορές</a><a href="posts.html" aria-current="page">Οδηγοί</a><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="wide"><div class="kicker" style="margin-top:34px">Οδηγοί</div><h1>Τι αξίζει πραγματικά να αγοράσετε</h1><p class="dek" style="max-width:640px">Αναλυτικοί οδηγοί για εξοπλισμό που αξίζει — τι επιλέξαμε, γιατί, και τι συμβιβασμό δέχεστε σε κάθε περίπτωση.</p><div class="grid"><a class="gcard" href="post-tech.html"><img src="../images/hero-tech.jpg" alt="Δέκα Gadget που Αξίζουν μια Θέση στο Γραφείο σας" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ηλεκτρονικά</span><h3>Δέκα Gadget που Αξίζουν μια Θέση στο Γραφείο σας</h3><p class="sum">Όχι οι πιο εντυπωσιακές κυκλοφορίες της χρονιάς — αλλά αυτές που οι άνθρωποι χρησιμοποιούν ακόμα έξι μήνες αφότου πέρασε ο αρχικός ενθουσιασμός.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-smart-home.html"><img src="../images/hero-smart-home.jpg" alt="Τα εξαρτήματα του έξυπνου σπιτιού που αξίζει όντως να εγκαταστήσετε" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Έξυπνο σπίτι</span><h3>Τα εξαρτήματα του έξυπνου σπιτιού που αξίζει όντως να εγκαταστήσετε</h3><p class="sum">Τα περισσότερα προϊόντα έξυπνου σπιτιού λύνουν ένα πρόβλημα που δεν είχατε. Αυτά τα δέκα λύνουν πραγματικά προβλήματα — και λέμε ξεκάθαρα ποια θα παραλείπαμε.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-kitchen.html"><img src="../images/hero-kitchen.jpg" alt="Εργαλεία Κουζίνας που Επιβιώνουν στο Ξεκαθάρισμα του Συρταριού" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Κουζίνα</span><h3>Εργαλεία Κουζίνας που Επιβιώνουν στο Ξεκαθάρισμα του Συρταριού</h3><p class="sum">Κάθε κουζίνα έχει ένα συρτάρι με γκάτζετ που χρησιμοποιήθηκαν δύο φορές όλες κι όλες. Αυτά εδώ είναι εκείνα που θα βρίσκονται ακόμα σε πρώτο πλάνο μετά από πέντε χρόνια.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-coffee.html"><img src="../images/hero-coffee.jpg" alt="Ο εξοπλισμός καφέ για το σπίτι, από την πρώτη μέχρι την τελευταία αναβάθμιση" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Καφές</span><h3>Ο εξοπλισμός καφέ για το σπίτι, από την πρώτη μέχρι την τελευταία αναβάθμιση</h3><p class="sum">Δέκα κομμάτια εξοπλισμού που πραγματικά αλλάζουν το αποτέλεσμα στο φλιτζάνι σας, ταξινομημένα με βάση το πόσο μεγάλη διαφορά κάνει το καθένα για τα λεφτά του.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-home-office.html"><img src="../images/hero-home-office.jpg" alt="Φτιάξτε σωστά το γραφείο όπου δουλεύετε σαράντα ώρες την εβδομάδα" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Γραφείο στο σπίτι</span><h3>Φτιάξτε σωστά το γραφείο όπου δουλεύετε σαράντα ώρες την εβδομάδα</h3><p class="sum">Επενδύστε εκεί όπου το σώμα σας έρχεται σε επαφή με τον εξοπλισμό. Όλα τα υπόλοιπα σε αυτή τη σελίδα είναι προαιρετικά, και εμείς ξεκαθαρίζουμε τι ισχύει για το καθένα.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-fitness.html"><img src="../images/hero-fitness.jpg" alt="Εξοπλισμός γυμναστηρίου για το σπίτι για ανθρώπους που θα τον χρησιμοποιήσουν όντως" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Γυμναστική</span><h3>Εξοπλισμός γυμναστηρίου για το σπίτι για ανθρώπους που θα τον χρησιμοποιήσουν όντως</h3><p class="sum">Σε σειρά με βάση την πιθανότητα κάθε κομμάτι να χρησιμοποιείται ακόμα και του χρόνου, και όχι με βάση το πόσο ωραίο δείχνει σε ένα γκαράζ.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-travel.html"><img src="../images/hero-travel.jpg" alt="Εξοπλισμός Ταξιδιού που Αξίζει το Βάρος του" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ταξίδια</span><h3>Εξοπλισμός Ταξιδιού που Αξίζει το Βάρος του</h3><p class="sum">Κάθε αντικείμενο στην τσάντα σας έχει ένα κόστος μεταφοράς. Αυτά τα δέκα το αξίζουν — και αναφέρουμε τα δημοφιλή είδη που δεν το αξίζουν.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-pets.html"><img src="../images/hero-pets.jpg" alt="Εξοπλισμός για κατοικίδια που αξίζει να αγοράσετε και αυτός που απλώς πιάνει χώρο" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Κατοικίδια</span><h3>Εξοπλισμός για κατοικίδια που αξίζει να αγοράσετε και αυτός που απλώς πιάνει χώρο</h3><p class="sum">Δέκα πράγματα που βελτιώνουν τη ζωή του ζώου, όχι απλώς τις φωτογραφίες του. Σε σειρά με βάση το πόσο μεγάλη διαφορά κάνουν στην πράξη.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-photography.html"><img src="../images/hero-photography.jpg" alt="Αξεσουάρ φωτογραφικής μηχανής που βελτιώνουν τις φωτογραφίες, όχι μόνο την τσάντα" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Φωτογραφία</span><h3>Αξεσουάρ φωτογραφικής μηχανής που βελτιώνουν τις φωτογραφίες, όχι μόνο την τσάντα</h3><p class="sum">Ο φωτισμός και η σταθερότητα αλλάζουν τις φωτογραφίες. Ο περισσότερος εξοπλισμός αλλάζει απλώς την εμφάνιση. Εδώ είναι η ειλικρινής αλήθεια.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-gaming.html"><img src="../images/hero-gaming.jpg" alt="Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Gaming</span><h3>Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού</h3><p class="sum">Κατατάσσονται με βάση το πόση διαφορά θα παρατηρήσετε στην πράξη, που δεν είναι το ίδιο με το πόσο κοστίζουν.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-outdoor.html"><img src="../images/hero-outdoor.jpg" alt="Εξοπλισμός κάμπινγκ που αντέχει στην κακοκαιρία, όχι μόνο για τις φωτογραφίες" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Υπαίθριες δραστηριότητες</span><h3>Εξοπλισμός κάμπινγκ που αντέχει στην κακοκαιρία, όχι μόνο για τις φωτογραφίες</h3><p class="sum">Δέκα αντικείμενα, καταταγμένα με βάση το τι συμβαίνει όταν η νύχτα είναι πιο κρύα ή υγρή από την πρόβλεψη.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-beauty.html"><img src="../images/hero-beauty.jpg" alt="Εργαλεία ομορφιάς που κάνουν δουλειά και αυτά που ως επί το πλείστον δεν κάνουν" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ομορφιά</span><h3>Εργαλεία ομορφιάς που κάνουν δουλειά και αυτά που ως επί το πλείστον δεν κάνουν</h3><p class="sum">Μια σκεπτικιστική ματιά στις συσκευές για το σπίτι που αγοράζουν όλοι — τι υποστηρίζουν τα στοιχεία, τι όχι, και τι μπορεί να κάνει μια πετσέτα δωρεάν.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-phone.html"><img src="../images/hero-phone.jpg" alt="Αξεσουάρ κινητού που θα χρησιμοποιείτε ακόμα και μετά από έναν χρόνο" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Κινητό</span><h3>Αξεσουάρ κινητού που θα χρησιμοποιείτε ακόμα και μετά από έναν χρόνο</h3><p class="sum">Δέκα προσθήκες που αντέχουν στην καθημερινή χρήση, συν εκείνες που είναι δημοφιλείς αλλά δεν θα αγοράζαμε ξανά.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-kids.html"><img src="../images/hero-kids.jpg" alt="Παιδικά πράγματα που αντέχουν στα χέρια των παιδιών" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Παιδικά</span><h3>Παιδικά πράγματα που αντέχουν στα χέρια των παιδιών</h3><p class="sum">Δέκα αγορές που οι γονείς συνεχίζουν να προτείνουν χρόνια μετά, και εκείνες οι δημοφιλείς που καταλήγουν στο πατάρι μέχρι τον Μάρτιο.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-health.html"><img src="../images/hero-health.jpg" alt="Gadget Υγείας: Ποια μετρούν κάτι πραγματικό" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Υγεία</span><h3>Gadget Υγείας: Ποια μετρούν κάτι πραγματικό</h3><p class="sum">Μια σκεπτικιστική ματιά στις οικιακές συσκευές υγείας — ποιες παράγουν αριθμούς βάσει των οποίων μπορείτε να δράσετε και ποιες παράγουν αριθμούς που απλώς φαίνονται ακριβείς.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-storage.html"><img src="../images/hero-storage.jpg" alt="Λύσεις αποθήκευσης που λύνουν το πρόβλημα, αντί να το κρύβουν" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Οργάνωση σπιτιού</span><h3>Λύσεις αποθήκευσης που λύνουν το πρόβλημα, αντί να το κρύβουν</h3><p class="sum">Δέκα προϊόντα που δημιουργούν πραγματικά χώρο, και μια ειλικρινής επισήμανση για εκείνα που απλώς κάνουν την ακαταστασία να φαίνεται πιο τακτοποιημένη.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-car.html"><img src="../images/hero-car.jpg" alt="Αξεσουάρ αυτοκινήτου που αξίζει να έχετε στο πορτμπαγκάζ" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Αυτοκίνητο</span><h3>Αξεσουάρ αυτοκινήτου που αξίζει να έχετε στο πορτμπαγκάζ</h3><p class="sum">Δέκα πράγματα σε κατάταξη με βάση το τι σας γλιτώνουν στη χειρότερη μέρα, όχι στην καλύτερη.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-garden.html"><img src="../images/hero-garden.jpg" alt="Εξοπλισμός για Κήπο και Μπαλκόνι που Αξίζει τον Χώρο του στην Αποθήκη" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Κήπος</span><h3>Εξοπλισμός για Κήπο και Μπαλκόνι που Αξίζει τον Χώρο του στην Αποθήκη</h3><p class="sum">Δέκα πράγματα που είναι εξίσου χρήσιμα στο μπαλκόνι και στον κήπο, σε κατάταξη ανάλογα με το πόσο πραγματικά επηρεάζουν την καλλιέργειά σας.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-fashion.html"><img src="../images/hero-fashion.jpg" alt="Αξεσουάρ που κάνουν όλα τα άλλα να δείχνουν καλύτερα" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Μόδα</span><h3>Αξεσουάρ που κάνουν όλα τα άλλα να δείχνουν καλύτερα</h3><p class="sum">Δέκα κομμάτια που αναβαθμίζουν ένα συνηθισμένο ντύσιμο, επιλεγμένα με βάση την αντοχή τους στον χρόνο και όχι τις τρέχουσες τάσεις.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-back-to-school.html"><img src="../images/hero-back-to-school.jpg" alt="Σχολικά είδη που αντέχουν και μετά τον Οκτώβριο" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Επιστροφή στα θρανία</span><h3>Σχολικά είδη που αντέχουν και μετά τον Οκτώβριο</h3><p class="sum">Δέκα πράγματα που επιλέξαμε με κριτήριο το αν επιβιώνουν έναν ολόκληρο χρόνο σε μια σχολική τσάντα, και εκείνα για τα οποία δεν αξίζει να ξοδέψετε ούτε ευρώ.</p><div class="meta">8 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-air.html"><img src="../images/hero-air.jpg" alt="Συσκευές καθαρισμού αέρα, υγραντήρες και τι σημαίνουν οι αριθμοί" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ποιότητα αέρα</span><h3>Συσκευές καθαρισμού αέρα, υγραντήρες και τι σημαίνουν οι αριθμοί</h3><p class="sum">Πολλές συσκευές ισχυρίζονται ότι καθαρίζουν τον αέρα, αλλά λίγες βοηθούν πραγματικά με τους κοινούς εσωτερικούς ρύπους. Η κατανόηση των αριθμών ξεχωρίζει τα χρήσιμα από τα ευσεβή.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-audio.html"><img src="../images/hero-audio.jpg" alt="Ακουστικά, ψείρες και οι προδιαγραφές που έχουν πραγματικά σημασία" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ήχος</span><h3>Ακουστικά, ψείρες και οι προδιαγραφές που έχουν πραγματικά σημασία</h3><p class="sum">Η αγορά εξοπλισμού ήχου σημαίνει ότι πρέπει να ξεχωρίσεις πολλές διαφημίσεις. Εδώ είναι ό,τι προσφέρει ποιότητα ήχου και χρηστικότητα χωρίς περιττά χαρακτηριστικά.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-baby.html"><img src="../images/hero-baby.jpg" alt="Βασικό κιτ για τα πρώτα δύο χρόνια, χωρίς πανικό" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Βρεφικά</span><h3>Βασικό κιτ για τα πρώτα δύο χρόνια, χωρίς πανικό</h3><p class="sum">Αυτός ο οδηγός εστιάζει σε πρακτικά, ανθεκτικά βρεφικά είδη, διαχωρίζοντας τα χρήσιμα εργαλεία από τις εφήμερες καινοτομίες.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-bathroom.html"><img src="../images/hero-bathroom.jpg" alt="Επισκευές μπάνιου που δεν θα προκαλέσουν αντιδράσεις στον ιδιοκτήτη" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Μπάνιο</span><h3>Επισκευές μπάνιου που δεν θα προκαλέσουν αντιδράσεις στον ιδιοκτήτη</h3><p class="sum">Πρακτικές αναβαθμίσεις και επισκευές μπάνιου για ενοικιαστές και ιδιοκτήτες, με έμφαση στη χρηστικότητα έναντι των τάσεων.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-cleaning.html"><img src="../images/hero-cleaning.jpg" alt="Σετ Καθαρισμού που Υπερνικά τα Ράφια με Gadgets" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Καθαρισμός</span><h3>Σετ Καθαρισμού που Υπερνικά τα Ράφια με Gadgets</h3><p class="sum">Πολλά gadgets καθαρισμού είναι σπατάλη χρημάτων. Δείτε τι πραγματικά βοηθά στη διατήρηση ενός καθαρού σπιτιού χωρίς υπερβολικές δαπάνες για διαφημιστικό θόρυβο.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-cycling.html"><img src="../images/hero-cycling.jpg" alt="Μετακίνηση με ποδήλατο τον χειμώνα" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ποδηλασία</span><h3>Μετακίνηση με ποδήλατο τον χειμώνα</h3><p class="sum">Εξοπλιστείτε για καθημερινές διαδρομές, από την ασφάλεια μέχρι την προστασία από τη βροχή, αποφεύγοντας περιττές αγορές.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-grilling.html"><img src="../images/hero-grilling.jpg" alt="Εργαλεία για μπάρμπεκιου που αντέχουν παραπάνω από ένα καλοκαίρι" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ψήσιμο</span><h3>Εργαλεία για μπάρμπεκιου που αντέχουν παραπάνω από ένα καλοκαίρι</h3><p class="sum">Το καλό ψήσιμο βασίζεται σε αξιόπιστα εργαλεία και σωστή κατανόηση της θερμότητας, όχι σε διαφημιστικές υπερβολές ή περιττά gadgets.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-haircare.html"><img src="../images/hero-haircare.jpg" alt="Θερμότητα, Μαλλιά και η Ζημιά που Μπορείς Πραγματικά να Αποφύγεις" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Περιποίηση Μαλλιών</span><h3>Θερμότητα, Μαλλιά και η Ζημιά που Μπορείς Πραγματικά να Αποφύγεις</h3><p class="sum">Πολλά προϊόντα περιποίησης μαλλιών υπόσχονται πολλά. Εμείς ξεχωρίζουμε τα εργαλεία και την προστασία που αξίζει να εξετάσεις, και αυτά που μπορείς να αφήσεις στην άκρη.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-laundry.html"><img src="../images/hero-laundry.jpg" alt="Εξοπλισμός για τα Ρούχα που Παρατείνει τη Ζωή τους" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Laundry</span><h3>Εξοπλισμός για τα Ρούχα που Παρατείνει τη Ζωή τους</h3><p class="sum">Για να διαρκέσουν τα ρούχα περισσότερο, χρειάζεται κάτι παραπάνω από απλό πλύσιμο. Απαιτείται η συνειδητή επιλογή στον τρόπο στεγνώματος, περιποίησης και αποθήκευσής τους.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-lighting.html"><img src="../images/hero-lighting.jpg" alt="Πώς να κάνετε το νοικιασμένο δωμάτιό σας να μην μοιάζει με γραφείο" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Φωτισμός</span><h3>Πώς να κάνετε το νοικιασμένο δωμάτιό σας να μην μοιάζει με γραφείο</h3><p class="sum">Ο καλός φωτισμός αλλάζει έναν χώρο περισσότερο από την μπογιά. Βρήκαμε λάμπες και λαμπτήρες που κάνουν τη δουλειά, χωρίς να κάνουν το δωμάτιό σας να μοιάζει με αποστειρωμένη αίθουσα αναμονής.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-running.html"><img src="../images/hero-running.jpg" alt="Εξοπλισμός για τρέξιμο στη βροχή" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Running</span><h3>Εξοπλισμός για τρέξιμο στη βροχή</h3><p class="sum">Εξοπλιστείτε για τρέξιμο σε εξωτερικούς χώρους με είδη που αντέχουν, αποδίδουν αξιόπιστα και δικαιολογούν το κόστος τους.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-security.html"><img src="../images/hero-security.jpg" alt="Ασφάλεια σπιτιού χωρίς να παραδώσετε το σαλόνι σας" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ασφάλεια σπιτιού</span><h3>Ασφάλεια σπιτιού χωρίς να παραδώσετε το σαλόνι σας</h3><p class="sum">Κατανοώντας τι προσφέρει η βασική ασφάλεια σπιτιού, τα πραγματικά της όρια και το κόστος για την ιδιωτικότητα.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-skincare.html"><img src="../images/hero-skincare.jpg" alt="Τα τέσσερα συστατικά με αποδείξεις και οι συσκευές χωρίς" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Skincare</span><h3>Τα τέσσερα συστατικά με αποδείξεις και οι συσκευές χωρίς</h3><p class="sum">Τα περισσότερα προϊόντα περιποίησης είναι ακριβές κρέμες που κάνουν ελάχιστα. Εδώ είναι τα συστατικά και οι απλές ρουτίνες που κάνουν πραγματική διαφορά.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-sleep.html"><img src="../images/hero-sleep.jpg" alt="Τι βοηθάει πραγματικά στον ύπνο και τι απλώς τον μετράει" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Ύπνος</span><h3>Τι βοηθάει πραγματικά στον ύπνο και τι απλώς τον μετράει</h3><p class="sum">Ο καλύτερος ύπνος έχει να κάνει με το περιβάλλον και τις συνήθειες, όχι με ακριβά γκάτζετ. Δείτε τι δουλεύει και τι να αγνοήσετε.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a><a class="gcard" href="post-tools.html"><img src="../images/hero-tools.jpg" alt="Το σετ εργαλείων που καλύπτει εννέα στις δέκα δουλειές του σπιτιού" width="1600" height="840" loading="lazy" decoding="async"><div class="gcard-in"><span class="tag">Εργαλεία DIY</span><h3>Το σετ εργαλείων που καλύπτει εννέα στις δέκα δουλειές του σπιτιού</h3><p class="sum">Ένα μικρό σετ αξιόπιστων εργαλείων καλύπτει τις περισσότερες οικιακές εργασίες. Αποφύγετε τα περιττά gadgets μέχρι να καταλάβετε ότι τα χρειάζεστε.</p><div class="meta">12 Αυγούστου 2026 · 10 προϊόντα</div></div></a></div><p class="disc" style="max-width:760px">Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές.</p></div><footer><nav><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a><a href="../privacy.html">Απόρρητο</a><a href="../terms.html">Όροι</a><a href="posts.html">Οδηγοί</a></nav><p>Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές. Δεν σας κοστίζει ποτέ περισσότερο.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../posts.html" hreflang="en">English</a> · <a href="../he/posts.html" hreflang="he">עברית</a> · <a href="../es/posts.html" hreflang="es">Español</a> · <a href="../fr/posts.html" hreflang="fr">Français</a> · <a href="../de/posts.html" hreflang="de">Deutsch</a></div></footer>
-<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script>
+<div class="nav"><div class="nav-in"><a class="brand" href="../index.html"><span class="logo">fashion<span>hotspot</span></span><span class="mono navkick" aria-hidden="true">/ οδηγοί</span></a><nav class="nav-links"><a href="../index.html">Προσφορές</a><a href="posts.html" aria-current="page">Οδηγοί</a><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="wide"><div class="masthead"><div class="mono eyebrow">35 · Οδηγοί</div><h1>Τι αξίζει πραγματικά να αγοράσετε</h1><p class="dek">Αναλυτικοί οδηγοί για εξοπλισμό που αξίζει — τι επιλέξαμε, γιατί, και τι συμβιβασμό δέχεστε σε κάθε περίπτωση.</p></div><div class="feat"><a class="feat-main" href="post-air.html"><img src="../images/hero-air.jpg" alt="Συσκευές καθαρισμού αέρα, υγραντήρες και τι σημαίνουν οι αριθμοί" width="1600" height="840" fetchpriority="high" decoding="async"><div class="feat-meta mono"><span class="pill">Πιο πρόσφατος οδηγός</span><span>Ποιότητα αέρα · 6 λεπτά ανάγνωσης</span></div><h2>Συσκευές καθαρισμού αέρα, υγραντήρες και τι σημαίνουν οι αριθμοί</h2><p>Πολλές συσκευές ισχυρίζονται ότι καθαρίζουν τον αέρα, αλλά λίγες βοηθούν πραγματικά με τους κοινούς εσωτερικούς ρύπους. Η κατανόηση των αριθμών ξεχωρίζει τα χρήσιμα από τα ευσεβή.</p></a><div class="sidelist"><div class="mono">Ενημερώθηκαν πρόσφατα</div><a class="sideitem" href="post-audio.html"><span class="sidenum">01</span><span><b>Ακουστικά, ψείρες και οι προδιαγραφές που έχουν πραγματικά σημασία</b><span class="mono">Ήχος · 6 λεπτά ανάγνωσης</span></span></a><a class="sideitem" href="post-baby.html"><span class="sidenum">02</span><span><b>Βασικό κιτ για τα πρώτα δύο χρόνια, χωρίς πανικό</b><span class="mono">Βρεφικά · 5 λεπτά ανάγνωσης</span></span></a><a class="sideitem" href="post-bathroom.html"><span class="sidenum">03</span><span><b>Επισκευές μπάνιου που δεν θα προκαλέσουν αντιδράσεις στον ιδιοκτήτη</b><span class="mono">Μπάνιο · 7 λεπτά ανάγνωσης</span></span></a><a class="sideitem" href="post-cleaning.html"><span class="sidenum">04</span><span><b>Σετ Καθαρισμού που Υπερνικά τα Ράφια με Gadgets</b><span class="mono">Καθαρισμός · 5 λεπτά ανάγνωσης</span></span></a><a class="sideitem" href="post-cycling.html"><span class="sidenum">05</span><span><b>Μετακίνηση με ποδήλατο τον χειμώνα</b><span class="mono">Ποδηλασία · 5 λεπτά ανάγνωσης</span></span></a></div></div><div class="filters" id="filters"><button type="button" class="chip" data-cat="" aria-pressed="true">Όλα</button><button type="button" class="chip" data-cat="grp_home" aria-pressed="false">Σπίτι</button><button type="button" class="chip" data-cat="grp_kitchen" aria-pressed="false">Κουζίνα</button><button type="button" class="chip" data-cat="grp_tech" aria-pressed="false">Τεχνολογία</button><button type="button" class="chip" data-cat="grp_health" aria-pressed="false">Υγεία</button><button type="button" class="chip" data-cat="grp_beauty" aria-pressed="false">Ομορφιά</button><button type="button" class="chip" data-cat="grp_family" aria-pressed="false">Οικογένεια</button><button type="button" class="chip" data-cat="grp_outdoors" aria-pressed="false">Έξω</button><span class="mono count" id="shown" data-tpl="{n} εμφανίζονται">35 εμφανίζονται</span></div><div class="grid"><a class="gcard" href="post-tech.html" data-cat="grp_tech"><div class="gcard-media"><img src="../images/hero-tech.jpg" alt="Δέκα Gadget που Αξίζουν μια Θέση στο Γραφείο σας" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ηλεκτρονικά</span></div><div class="gcard-in"><h3>Δέκα Gadget που Αξίζουν μια Θέση στο Γραφείο σας</h3><p class="sum">Όχι οι πιο εντυπωσιακές κυκλοφορίες της χρονιάς — αλλά αυτές που οι άνθρωποι χρησιμοποιούν ακόμα έξι μήνες αφότου πέρασε ο αρχικός ενθουσιασμός.</p><div class="mono gcard-foot"><span>10 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-smart-home.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-smart-home.jpg" alt="Τα εξαρτήματα του έξυπνου σπιτιού που αξίζει όντως να εγκαταστήσετε" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Έξυπνο σπίτι</span></div><div class="gcard-in"><h3>Τα εξαρτήματα του έξυπνου σπιτιού που αξίζει όντως να εγκαταστήσετε</h3><p class="sum">Τα περισσότερα προϊόντα έξυπνου σπιτιού λύνουν ένα πρόβλημα που δεν είχατε. Αυτά τα δέκα λύνουν πραγματικά προβλήματα — και λέμε ξεκάθαρα ποια θα παραλείπαμε.</p><div class="mono gcard-foot"><span>10 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-kitchen.html" data-cat="grp_kitchen"><div class="gcard-media"><img src="../images/hero-kitchen.jpg" alt="Εργαλεία Κουζίνας που Επιβιώνουν στο Ξεκαθάρισμα του Συρταριού" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Κουζίνα</span></div><div class="gcard-in"><h3>Εργαλεία Κουζίνας που Επιβιώνουν στο Ξεκαθάρισμα του Συρταριού</h3><p class="sum">Κάθε κουζίνα έχει ένα συρτάρι με γκάτζετ που χρησιμοποιήθηκαν δύο φορές όλες κι όλες. Αυτά εδώ είναι εκείνα που θα βρίσκονται ακόμα σε πρώτο πλάνο μετά από πέντε χρόνια.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-coffee.html" data-cat="grp_kitchen"><div class="gcard-media"><img src="../images/hero-coffee.jpg" alt="Ο εξοπλισμός καφέ για το σπίτι, από την πρώτη μέχρι την τελευταία αναβάθμιση" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Καφές</span></div><div class="gcard-in"><h3>Ο εξοπλισμός καφέ για το σπίτι, από την πρώτη μέχρι την τελευταία αναβάθμιση</h3><p class="sum">Δέκα κομμάτια εξοπλισμού που πραγματικά αλλάζουν το αποτέλεσμα στο φλιτζάνι σας, ταξινομημένα με βάση το πόσο μεγάλη διαφορά κάνει το καθένα για τα λεφτά του.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-home-office.html" data-cat="grp_tech"><div class="gcard-media"><img src="../images/hero-home-office.jpg" alt="Φτιάξτε σωστά το γραφείο όπου δουλεύετε σαράντα ώρες την εβδομάδα" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Γραφείο στο σπίτι</span></div><div class="gcard-in"><h3>Φτιάξτε σωστά το γραφείο όπου δουλεύετε σαράντα ώρες την εβδομάδα</h3><p class="sum">Επενδύστε εκεί όπου το σώμα σας έρχεται σε επαφή με τον εξοπλισμό. Όλα τα υπόλοιπα σε αυτή τη σελίδα είναι προαιρετικά, και εμείς ξεκαθαρίζουμε τι ισχύει για το καθένα.</p><div class="mono gcard-foot"><span>10 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-fitness.html" data-cat="grp_health"><div class="gcard-media"><img src="../images/hero-fitness.jpg" alt="Εξοπλισμός γυμναστηρίου για το σπίτι για ανθρώπους που θα τον χρησιμοποιήσουν όντως" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Γυμναστική</span></div><div class="gcard-in"><h3>Εξοπλισμός γυμναστηρίου για το σπίτι για ανθρώπους που θα τον χρησιμοποιήσουν όντως</h3><p class="sum">Σε σειρά με βάση την πιθανότητα κάθε κομμάτι να χρησιμοποιείται ακόμα και του χρόνου, και όχι με βάση το πόσο ωραίο δείχνει σε ένα γκαράζ.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-travel.html" data-cat="grp_outdoors"><div class="gcard-media"><img src="../images/hero-travel.jpg" alt="Εξοπλισμός Ταξιδιού που Αξίζει το Βάρος του" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ταξίδια</span></div><div class="gcard-in"><h3>Εξοπλισμός Ταξιδιού που Αξίζει το Βάρος του</h3><p class="sum">Κάθε αντικείμενο στην τσάντα σας έχει ένα κόστος μεταφοράς. Αυτά τα δέκα το αξίζουν — και αναφέρουμε τα δημοφιλή είδη που δεν το αξίζουν.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-pets.html" data-cat="grp_family"><div class="gcard-media"><img src="../images/hero-pets.jpg" alt="Εξοπλισμός για κατοικίδια που αξίζει να αγοράσετε και αυτός που απλώς πιάνει χώρο" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Κατοικίδια</span></div><div class="gcard-in"><h3>Εξοπλισμός για κατοικίδια που αξίζει να αγοράσετε και αυτός που απλώς πιάνει χώρο</h3><p class="sum">Δέκα πράγματα που βελτιώνουν τη ζωή του ζώου, όχι απλώς τις φωτογραφίες του. Σε σειρά με βάση το πόσο μεγάλη διαφορά κάνουν στην πράξη.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-photography.html" data-cat="grp_tech"><div class="gcard-media"><img src="../images/hero-photography.jpg" alt="Αξεσουάρ φωτογραφικής μηχανής που βελτιώνουν τις φωτογραφίες, όχι μόνο την τσάντα" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Φωτογραφία</span></div><div class="gcard-in"><h3>Αξεσουάρ φωτογραφικής μηχανής που βελτιώνουν τις φωτογραφίες, όχι μόνο την τσάντα</h3><p class="sum">Ο φωτισμός και η σταθερότητα αλλάζουν τις φωτογραφίες. Ο περισσότερος εξοπλισμός αλλάζει απλώς την εμφάνιση. Εδώ είναι η ειλικρινής αλήθεια.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-gaming.html" data-cat="grp_tech"><div class="gcard-media"><img src="../images/hero-gaming.jpg" alt="Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Gaming</span></div><div class="gcard-in"><h3>Αναβαθμίσεις Gaming που αλλάζουν την αίσθηση του παιχνιδιού</h3><p class="sum">Κατατάσσονται με βάση το πόση διαφορά θα παρατηρήσετε στην πράξη, που δεν είναι το ίδιο με το πόσο κοστίζουν.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-outdoor.html" data-cat="grp_outdoors"><div class="gcard-media"><img src="../images/hero-outdoor.jpg" alt="Εξοπλισμός κάμπινγκ που αντέχει στην κακοκαιρία, όχι μόνο για τις φωτογραφίες" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Υπαίθριες δραστηριότητες</span></div><div class="gcard-in"><h3>Εξοπλισμός κάμπινγκ που αντέχει στην κακοκαιρία, όχι μόνο για τις φωτογραφίες</h3><p class="sum">Δέκα αντικείμενα, καταταγμένα με βάση το τι συμβαίνει όταν η νύχτα είναι πιο κρύα ή υγρή από την πρόβλεψη.</p><div class="mono gcard-foot"><span>10 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-beauty.html" data-cat="grp_beauty"><div class="gcard-media"><img src="../images/hero-beauty.jpg" alt="Εργαλεία ομορφιάς που κάνουν δουλειά και αυτά που ως επί το πλείστον δεν κάνουν" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ομορφιά</span></div><div class="gcard-in"><h3>Εργαλεία ομορφιάς που κάνουν δουλειά και αυτά που ως επί το πλείστον δεν κάνουν</h3><p class="sum">Μια σκεπτικιστική ματιά στις συσκευές για το σπίτι που αγοράζουν όλοι — τι υποστηρίζουν τα στοιχεία, τι όχι, και τι μπορεί να κάνει μια πετσέτα δωρεάν.</p><div class="mono gcard-foot"><span>10 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-phone.html" data-cat="grp_tech"><div class="gcard-media"><img src="../images/hero-phone.jpg" alt="Αξεσουάρ κινητού που θα χρησιμοποιείτε ακόμα και μετά από έναν χρόνο" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Κινητό</span></div><div class="gcard-in"><h3>Αξεσουάρ κινητού που θα χρησιμοποιείτε ακόμα και μετά από έναν χρόνο</h3><p class="sum">Δέκα προσθήκες που αντέχουν στην καθημερινή χρήση, συν εκείνες που είναι δημοφιλείς αλλά δεν θα αγοράζαμε ξανά.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-kids.html" data-cat="grp_family"><div class="gcard-media"><img src="../images/hero-kids.jpg" alt="Παιδικά πράγματα που αντέχουν στα χέρια των παιδιών" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Παιδικά</span></div><div class="gcard-in"><h3>Παιδικά πράγματα που αντέχουν στα χέρια των παιδιών</h3><p class="sum">Δέκα αγορές που οι γονείς συνεχίζουν να προτείνουν χρόνια μετά, και εκείνες οι δημοφιλείς που καταλήγουν στο πατάρι μέχρι τον Μάρτιο.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-health.html" data-cat="grp_health"><div class="gcard-media"><img src="../images/hero-health.jpg" alt="Gadget Υγείας: Ποια μετρούν κάτι πραγματικό" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Υγεία</span></div><div class="gcard-in"><h3>Gadget Υγείας: Ποια μετρούν κάτι πραγματικό</h3><p class="sum">Μια σκεπτικιστική ματιά στις οικιακές συσκευές υγείας — ποιες παράγουν αριθμούς βάσει των οποίων μπορείτε να δράσετε και ποιες παράγουν αριθμούς που απλώς φαίνονται ακριβείς.</p><div class="mono gcard-foot"><span>10 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-storage.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-storage.jpg" alt="Λύσεις αποθήκευσης που λύνουν το πρόβλημα, αντί να το κρύβουν" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Οργάνωση σπιτιού</span></div><div class="gcard-in"><h3>Λύσεις αποθήκευσης που λύνουν το πρόβλημα, αντί να το κρύβουν</h3><p class="sum">Δέκα προϊόντα που δημιουργούν πραγματικά χώρο, και μια ειλικρινής επισήμανση για εκείνα που απλώς κάνουν την ακαταστασία να φαίνεται πιο τακτοποιημένη.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-car.html" data-cat="grp_outdoors"><div class="gcard-media"><img src="../images/hero-car.jpg" alt="Αξεσουάρ αυτοκινήτου που αξίζει να έχετε στο πορτμπαγκάζ" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Αυτοκίνητο</span></div><div class="gcard-in"><h3>Αξεσουάρ αυτοκινήτου που αξίζει να έχετε στο πορτμπαγκάζ</h3><p class="sum">Δέκα πράγματα σε κατάταξη με βάση το τι σας γλιτώνουν στη χειρότερη μέρα, όχι στην καλύτερη.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-garden.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-garden.jpg" alt="Εξοπλισμός για Κήπο και Μπαλκόνι που Αξίζει τον Χώρο του στην Αποθήκη" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Κήπος</span></div><div class="gcard-in"><h3>Εξοπλισμός για Κήπο και Μπαλκόνι που Αξίζει τον Χώρο του στην Αποθήκη</h3><p class="sum">Δέκα πράγματα που είναι εξίσου χρήσιμα στο μπαλκόνι και στον κήπο, σε κατάταξη ανάλογα με το πόσο πραγματικά επηρεάζουν την καλλιέργειά σας.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-fashion.html" data-cat="grp_beauty"><div class="gcard-media"><img src="../images/hero-fashion.jpg" alt="Αξεσουάρ που κάνουν όλα τα άλλα να δείχνουν καλύτερα" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Μόδα</span></div><div class="gcard-in"><h3>Αξεσουάρ που κάνουν όλα τα άλλα να δείχνουν καλύτερα</h3><p class="sum">Δέκα κομμάτια που αναβαθμίζουν ένα συνηθισμένο ντύσιμο, επιλεγμένα με βάση την αντοχή τους στον χρόνο και όχι τις τρέχουσες τάσεις.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-back-to-school.html" data-cat="grp_family"><div class="gcard-media"><img src="../images/hero-back-to-school.jpg" alt="Σχολικά είδη που αντέχουν και μετά τον Οκτώβριο" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Επιστροφή στα θρανία</span></div><div class="gcard-in"><h3>Σχολικά είδη που αντέχουν και μετά τον Οκτώβριο</h3><p class="sum">Δέκα πράγματα που επιλέξαμε με κριτήριο το αν επιβιώνουν έναν ολόκληρο χρόνο σε μια σχολική τσάντα, και εκείνα για τα οποία δεν αξίζει να ξοδέψετε ούτε ευρώ.</p><div class="mono gcard-foot"><span>9 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-air.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-air.jpg" alt="Συσκευές καθαρισμού αέρα, υγραντήρες και τι σημαίνουν οι αριθμοί" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ποιότητα αέρα</span></div><div class="gcard-in"><h3>Συσκευές καθαρισμού αέρα, υγραντήρες και τι σημαίνουν οι αριθμοί</h3><p class="sum">Πολλές συσκευές ισχυρίζονται ότι καθαρίζουν τον αέρα, αλλά λίγες βοηθούν πραγματικά με τους κοινούς εσωτερικούς ρύπους. Η κατανόηση των αριθμών ξεχωρίζει τα χρήσιμα από τα ευσεβή.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-audio.html" data-cat="grp_tech"><div class="gcard-media"><img src="../images/hero-audio.jpg" alt="Ακουστικά, ψείρες και οι προδιαγραφές που έχουν πραγματικά σημασία" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ήχος</span></div><div class="gcard-in"><h3>Ακουστικά, ψείρες και οι προδιαγραφές που έχουν πραγματικά σημασία</h3><p class="sum">Η αγορά εξοπλισμού ήχου σημαίνει ότι πρέπει να ξεχωρίσεις πολλές διαφημίσεις. Εδώ είναι ό,τι προσφέρει ποιότητα ήχου και χρηστικότητα χωρίς περιττά χαρακτηριστικά.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-baby.html" data-cat="grp_family"><div class="gcard-media"><img src="../images/hero-baby.jpg" alt="Βασικό κιτ για τα πρώτα δύο χρόνια, χωρίς πανικό" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Βρεφικά</span></div><div class="gcard-in"><h3>Βασικό κιτ για τα πρώτα δύο χρόνια, χωρίς πανικό</h3><p class="sum">Αυτός ο οδηγός εστιάζει σε πρακτικά, ανθεκτικά βρεφικά είδη, διαχωρίζοντας τα χρήσιμα εργαλεία από τις εφήμερες καινοτομίες.</p><div class="mono gcard-foot"><span>5 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-bathroom.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-bathroom.jpg" alt="Επισκευές μπάνιου που δεν θα προκαλέσουν αντιδράσεις στον ιδιοκτήτη" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Μπάνιο</span></div><div class="gcard-in"><h3>Επισκευές μπάνιου που δεν θα προκαλέσουν αντιδράσεις στον ιδιοκτήτη</h3><p class="sum">Πρακτικές αναβαθμίσεις και επισκευές μπάνιου για ενοικιαστές και ιδιοκτήτες, με έμφαση στη χρηστικότητα έναντι των τάσεων.</p><div class="mono gcard-foot"><span>7 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-cleaning.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-cleaning.jpg" alt="Σετ Καθαρισμού που Υπερνικά τα Ράφια με Gadgets" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Καθαρισμός</span></div><div class="gcard-in"><h3>Σετ Καθαρισμού που Υπερνικά τα Ράφια με Gadgets</h3><p class="sum">Πολλά gadgets καθαρισμού είναι σπατάλη χρημάτων. Δείτε τι πραγματικά βοηθά στη διατήρηση ενός καθαρού σπιτιού χωρίς υπερβολικές δαπάνες για διαφημιστικό θόρυβο.</p><div class="mono gcard-foot"><span>5 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-cycling.html" data-cat="grp_outdoors"><div class="gcard-media"><img src="../images/hero-cycling.jpg" alt="Μετακίνηση με ποδήλατο τον χειμώνα" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ποδηλασία</span></div><div class="gcard-in"><h3>Μετακίνηση με ποδήλατο τον χειμώνα</h3><p class="sum">Εξοπλιστείτε για καθημερινές διαδρομές, από την ασφάλεια μέχρι την προστασία από τη βροχή, αποφεύγοντας περιττές αγορές.</p><div class="mono gcard-foot"><span>5 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-grilling.html" data-cat="grp_kitchen"><div class="gcard-media"><img src="../images/hero-grilling.jpg" alt="Εργαλεία για μπάρμπεκιου που αντέχουν παραπάνω από ένα καλοκαίρι" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ψήσιμο</span></div><div class="gcard-in"><h3>Εργαλεία για μπάρμπεκιου που αντέχουν παραπάνω από ένα καλοκαίρι</h3><p class="sum">Το καλό ψήσιμο βασίζεται σε αξιόπιστα εργαλεία και σωστή κατανόηση της θερμότητας, όχι σε διαφημιστικές υπερβολές ή περιττά gadgets.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-haircare.html" data-cat="grp_beauty"><div class="gcard-media"><img src="../images/hero-haircare.jpg" alt="Θερμότητα, Μαλλιά και η Ζημιά που Μπορείς Πραγματικά να Αποφύγεις" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Περιποίηση Μαλλιών</span></div><div class="gcard-in"><h3>Θερμότητα, Μαλλιά και η Ζημιά που Μπορείς Πραγματικά να Αποφύγεις</h3><p class="sum">Πολλά προϊόντα περιποίησης μαλλιών υπόσχονται πολλά. Εμείς ξεχωρίζουμε τα εργαλεία και την προστασία που αξίζει να εξετάσεις, και αυτά που μπορείς να αφήσεις στην άκρη.</p><div class="mono gcard-foot"><span>8 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-laundry.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-laundry.jpg" alt="Εξοπλισμός για τα Ρούχα που Παρατείνει τη Ζωή τους" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Laundry</span></div><div class="gcard-in"><h3>Εξοπλισμός για τα Ρούχα που Παρατείνει τη Ζωή τους</h3><p class="sum">Για να διαρκέσουν τα ρούχα περισσότερο, χρειάζεται κάτι παραπάνω από απλό πλύσιμο. Απαιτείται η συνειδητή επιλογή στον τρόπο στεγνώματος, περιποίησης και αποθήκευσής τους.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-lighting.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-lighting.jpg" alt="Πώς να κάνετε το νοικιασμένο δωμάτιό σας να μην μοιάζει με γραφείο" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Φωτισμός</span></div><div class="gcard-in"><h3>Πώς να κάνετε το νοικιασμένο δωμάτιό σας να μην μοιάζει με γραφείο</h3><p class="sum">Ο καλός φωτισμός αλλάζει έναν χώρο περισσότερο από την μπογιά. Βρήκαμε λάμπες και λαμπτήρες που κάνουν τη δουλειά, χωρίς να κάνουν το δωμάτιό σας να μοιάζει με αποστειρωμένη αίθουσα αναμονής.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-running.html" data-cat="grp_health"><div class="gcard-media"><img src="../images/hero-running.jpg" alt="Εξοπλισμός για τρέξιμο στη βροχή" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Running</span></div><div class="gcard-in"><h3>Εξοπλισμός για τρέξιμο στη βροχή</h3><p class="sum">Εξοπλιστείτε για τρέξιμο σε εξωτερικούς χώρους με είδη που αντέχουν, αποδίδουν αξιόπιστα και δικαιολογούν το κόστος τους.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-security.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-security.jpg" alt="Ασφάλεια σπιτιού χωρίς να παραδώσετε το σαλόνι σας" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ασφάλεια σπιτιού</span></div><div class="gcard-in"><h3>Ασφάλεια σπιτιού χωρίς να παραδώσετε το σαλόνι σας</h3><p class="sum">Κατανοώντας τι προσφέρει η βασική ασφάλεια σπιτιού, τα πραγματικά της όρια και το κόστος για την ιδιωτικότητα.</p><div class="mono gcard-foot"><span>8 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-skincare.html" data-cat="grp_beauty"><div class="gcard-media"><img src="../images/hero-skincare.jpg" alt="Τα τέσσερα συστατικά με αποδείξεις και οι συσκευές χωρίς" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Skincare</span></div><div class="gcard-in"><h3>Τα τέσσερα συστατικά με αποδείξεις και οι συσκευές χωρίς</h3><p class="sum">Τα περισσότερα προϊόντα περιποίησης είναι ακριβές κρέμες που κάνουν ελάχιστα. Εδώ είναι τα συστατικά και οι απλές ρουτίνες που κάνουν πραγματική διαφορά.</p><div class="mono gcard-foot"><span>6 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-sleep.html" data-cat="grp_health"><div class="gcard-media"><img src="../images/hero-sleep.jpg" alt="Τι βοηθάει πραγματικά στον ύπνο και τι απλώς τον μετράει" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Ύπνος</span></div><div class="gcard-in"><h3>Τι βοηθάει πραγματικά στον ύπνο και τι απλώς τον μετράει</h3><p class="sum">Ο καλύτερος ύπνος έχει να κάνει με το περιβάλλον και τις συνήθειες, όχι με ακριβά γκάτζετ. Δείτε τι δουλεύει και τι να αγνοήσετε.</p><div class="mono gcard-foot"><span>8 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a><a class="gcard" href="post-tools.html" data-cat="grp_home"><div class="gcard-media"><img src="../images/hero-tools.jpg" alt="Το σετ εργαλείων που καλύπτει εννέα στις δέκα δουλειές του σπιτιού" width="1600" height="840" loading="lazy" decoding="async"><span class="mono gcard-cat">Εργαλεία DIY</span></div><div class="gcard-in"><h3>Το σετ εργαλείων που καλύπτει εννέα στις δέκα δουλειές του σπιτιού</h3><p class="sum">Ένα μικρό σετ αξιόπιστων εργαλείων καλύπτει τις περισσότερες οικιακές εργασίες. Αποφύγετε τα περιττά gadgets μέχρι να καταλάβετε ότι τα χρειάζεστε.</p><div class="mono gcard-foot"><span>5 λεπτά ανάγνωσης · 10 προϊόντα</span><span class="go">Διαβάστε ↗</span></div></div></a></div><p class="disc" style="max-width:760px">Δεν είμαστε Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές.</p></div><footer><nav><a href="../about.html">Σχετικά</a><a href="../contact.html">Επικοινωνία</a><a href="../privacy.html">Απόρρητο</a><a href="../terms.html">Όροι</a><a href="posts.html">Οδηγοί</a></nav><p>Δεν είμαστε Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon. Ως συνεργάτες της AliExpress, κερδίζουμε από επιλέξιμες αγορές. Δεν σας κοστίζει ποτέ περισσότερο.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../posts.html" hreflang="en">English</a> · <a href="../he/posts.html" hreflang="he">עברית</a> · <a href="../es/posts.html" hreflang="es">Español</a> · <a href="../fr/posts.html" hreflang="fr">Français</a> · <a href="../de/posts.html" hreflang="de">Deutsch</a></div></footer>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script><script>(function(){var bar=document.getElementById("filters");if(!bar)return;var cards=[].slice.call(document.querySelectorAll(".gcard")),out=document.getElementById("shown"),tpl=out?out.dataset.tpl:"";bar.addEventListener("click",function(ev){var b=ev.target.closest(".chip");if(!b)return;var c=b.dataset.cat,n=0;[].forEach.call(bar.querySelectorAll(".chip"),function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});cards.forEach(function(el){var hit=!c||el.dataset.cat===c;el.hidden=!hit;if(hit)n++;});if(out)out.textContent=tpl.replace("{n}",n);});})();</script>
 </body>
 </html>

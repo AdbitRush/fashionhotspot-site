@@ -15,47 +15,42 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
+/* ---------- tokens ---------- */
 :root, :root[data-theme="light"]{
-  --bg:#FFF6EE; --surface:#fff; --ink:#2E1F26; --ink-2:#5A4550; --ink-3:#8C7580;
-  --line:#F0DFD2; --line-2:#E6D2C2; --accent:#E14B4B; --accent-ink:#B02F2F;
-  --deep:#3A2230; --shadow:0 1px 2px rgba(58,34,48,.04),0 8px 24px rgba(58,34,48,.06);
-  --nav-bg:rgba(255,246,238,.88);
-  --pro:#3E8E64; --con:#C4593F; --chip:#FDECEC; --note-bg:#FFFBF6;
-  --on-deep:#fff; --card-hover:0 4px 10px rgba(58,34,48,.07),0 16px 34px rgba(58,34,48,.10);
-  --radius:16px; --maxw:760px;
+  --bg:oklch(0.945 0.019 80); --surface:oklch(0.978 0.014 82);
+  --ink:oklch(0.21 0.014 55); --ink-2:oklch(0.44 0.014 65); --ink-3:oklch(0.52 0.014 68);
+  --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.13);
+  --accent:oklch(0.6 0.21 25); --accent-ink:oklch(0.45 0.18 25);
+  --deep:oklch(0.21 0.014 55);
+  --shadow:0 1px 2px rgba(60,40,30,.05),0 10px 30px rgba(60,40,30,.07);
+  --card-hover:0 26px 60px rgba(60,40,30,.13);
+  --nav-bg:rgba(246,238,228,.9);
+  --pro:#2F7D55; --con:#B04A2E; --chip:oklch(0.915 0.045 42); --note-bg:oklch(0.965 0.016 81);
+  --on-accent:oklch(0.985 0.012 84); --on-deep:oklch(0.985 0.012 84);
+  --radius:22px; --maxw:760px; --navh:60px;
 }
-/* Dark is a re-mix of the same palette, not an inversion. The coral had to be
-   lightened (#E14B4B -> #FF6B6B): the original passes contrast on cream and
-   fails it on near-black, and an accent you cannot read is worse than no
-   accent. Surfaces stay slightly lifted from the background so cards keep the
-   edge they have in light mode without needing borders. */
+/* Dark is a re-mix of the same palette, not an inversion. The red has to be
+   lightened to stay legible on near-black, and surfaces stay lifted from the
+   background so cards keep the edge they have in light mode without borders. */
 :root[data-theme="dark"]{
-  --bg:#171019; --surface:#1F1620; --ink:#F6EFEA; --ink-2:#C9B8C0; --ink-3:#9A8792;
-  --line:#332430; --line-2:#412E3A; --accent:#FF6B6B; --accent-ink:#FF8B8B;
-  --deep:#F6EFEA; --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-  --nav-bg:rgba(23,16,25,.88);
-  /* Pro/con marks lightened to stay legible on a dark surface; the light-mode
-     values fail contrast here. --on-deep flips because --deep itself flips. */
-  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1C1419;
-  --on-deep:#171019; --card-hover:0 4px 10px rgba(0,0,0,.45),0 16px 34px rgba(0,0,0,.4);
+  --bg:#141013; --surface:#1E181C; --ink:#F7F1EC; --ink-2:#CBBFB8; --ink-3:#9C8E88;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
+  --accent:oklch(0.72 0.2 25); --accent-ink:oklch(0.82 0.16 25);
+  --deep:#F7F1EC;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  --card-hover:0 26px 60px rgba(0,0,0,.5);
+  --nav-bg:rgba(20,16,19,.9);
+  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1B1519;
+  --on-accent:#170a0b; --on-deep:#141013;
 }
-html{color-scheme:light dark}
+html{color-scheme:light dark;-webkit-text-size-adjust:100%}
 :root[data-theme="dark"] img{filter:brightness(.94)}
-/* The toggle */
-.themetog{margin-inline-start:14px;background:transparent;border:1px solid var(--line-2);
-  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
-  font-size:15px;line-height:1;display:inline-flex;align-items:center;
-  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
-.themetog:hover{border-color:var(--accent);color:var(--accent)}
-.themetog .tt-moon{display:none}
-:root[data-theme="dark"] .themetog .tt-sun{display:none}
-:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);
-  color:var(--ink);line-height:1.7;font-size:17px;-webkit-font-smoothing:antialiased}
+body{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;overflow-x:clip}
 /* height:auto is load-bearing. The width/height attributes on every <img> are
    there to reserve layout space and stop the page jumping as images load, but
    they map to presentational CSS height — which pins the element at its
@@ -63,144 +58,292 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:va
    hero and card images render at 630px tall regardless of column width. */
 img{max-width:100%;display:block;height:auto}
 a{color:var(--accent-ink)}
+::selection{background:var(--accent);color:var(--on-accent)}
+
+/* Every kicker, meta line and label in the design is mono, uppercase and
+   widely tracked. One class, so the RTL and Greek overrides at the bottom have
+   a single thing to reach for. */
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;font-weight:600;
+  color:var(--ink-3);font-variant-numeric:tabular-nums}
+.mono a{color:inherit;text-decoration:none}
 
 /* ---------- chrome ---------- */
-.nav{position:sticky;top:0;z-index:50;background:var(--nav-bg);
-  backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
-.nav-in{max-width:1080px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;gap:20px}
-.logo{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:19px;color:var(--deep);
-  text-decoration:none;letter-spacing:-.01em;white-space:nowrap}
+.nav{position:sticky;top:0;z-index:90;background:var(--nav-bg);
+  backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1280px;margin:0 auto;padding:13px 28px;display:flex;
+  align-items:center;gap:20px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.logo{font-weight:900;font-size:19px;color:var(--ink);letter-spacing:-.045em;
+  text-decoration:none;white-space:nowrap}
 .logo span{color:var(--accent)}
-.nav-links{display:flex;gap:20px;margin-inline-start:auto;flex-wrap:wrap}
-.nav-links a{font-size:14px;font-weight:600;color:var(--ink-2);text-decoration:none;
+.navkick{color:var(--accent-ink);white-space:nowrap}
+.nav-links{display:flex;gap:24px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.nav-links a{font-size:13.5px;font-weight:600;color:var(--ink-2);text-decoration:none;
   padding:4px 0;border-bottom:2px solid transparent}
-.nav-links a:hover{color:var(--accent-ink)}
-.nav-links a[aria-current]{color:var(--accent-ink);border-bottom-color:var(--accent)}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.themetog{margin-inline-start:2px;background:transparent;border:1px solid var(--line-2);
+  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
+.themetog:hover{border-color:var(--accent-ink);color:var(--accent-ink)}
+.themetog .tt-moon{display:none}
+:root[data-theme="dark"] .themetog .tt-sun{display:none}
+:root[data-theme="dark"] .themetog .tt-moon{display:inline}
 
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
-.wide{max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.wide{max-width:1280px;margin:0 auto;padding:0 28px}
+
+/* ---------- index: masthead ---------- */
+.masthead{padding:78px 0 44px;border-bottom:1px solid var(--line)}
+.masthead h1{max-width:15ch}
+.masthead .dek{max-width:560px}
+
+h1{font-size:clamp(42px,6.4vw,96px);line-height:.88;letter-spacing:-.05em;
+  font-weight:900;color:var(--ink);text-wrap:balance}
+.dek{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2);margin-top:22px;
+  line-height:1.5;text-wrap:pretty}
+.eyebrow{margin-bottom:18px;letter-spacing:.22em;color:var(--accent-ink)}
+
+/* ---------- index: featured + side list ---------- */
+.feat{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;
+  align-items:start;padding:52px 0 4px}
+.feat-main{text-decoration:none;color:inherit;display:block}
+.feat-main img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
+.feat-meta{display:flex;gap:12px;align-items:center;margin:22px 0 12px;flex-wrap:wrap}
+.pill{padding:6px 11px;border-radius:999px;background:var(--chip);
+  color:var(--accent-ink);font-weight:600}
+.feat-main h2{font-size:clamp(28px,3.2vw,44px);line-height:.99;letter-spacing:-.04em;
+  font-weight:900;margin:0 0 14px;max-width:22ch;color:var(--ink)}
+.feat-main p{font-size:17px;line-height:1.55;color:var(--ink-2);max-width:60ch;
+  text-wrap:pretty}
+.sidelist{display:flex;flex-direction:column;gap:10px}
+.sidelist>.mono{letter-spacing:.2em;padding-bottom:6px}
+.sideitem{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;
+  padding:15px 16px;border-radius:16px;background:var(--surface);
+  border:1px solid var(--line);text-decoration:none;color:inherit;
+  transition:transform .25s ease,border-color .25s ease}
+.sideitem:hover{transform:translateX(4px);border-color:var(--accent)}
+[dir=rtl] .sideitem:hover{transform:translateX(-4px)}
+.sidenum{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:15px;
+  color:var(--accent-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.sideitem b{font-size:15px;font-weight:700;line-height:1.28;letter-spacing:-.015em;
+  display:block;color:var(--ink)}
+.sideitem .mono{margin-top:7px;letter-spacing:.1em}
+
+/* ---------- index: filters ---------- */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.chip{font-size:13px;font-weight:700;letter-spacing:-.01em;padding:9px 16px;
+  border-radius:999px;cursor:pointer;background:var(--surface);color:var(--ink-2);
+  border:1px solid var(--line-2);font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent-ink);color:var(--on-accent);
+  border-color:var(--accent-ink)}
+.count{margin-inline-start:auto;letter-spacing:.1em}
+
+/* ---------- index: grid ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:22px;margin:30px 0 10px}
+.gcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  text-decoration:none;color:inherit;
+  transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+.gcard:hover{transform:translateY(-6px);box-shadow:var(--card-hover)}
+.gcard[hidden]{display:none}
+.gcard-media{position:relative}
+.gcard-media img{width:100%;aspect-ratio:5/3;object-fit:cover}
+.gcard-cat{position:absolute;top:12px;inset-inline-start:12px;padding:6px 10px;
+  border-radius:999px;background:var(--nav-bg);backdrop-filter:blur(6px);
+  color:var(--ink-2);font-size:9.5px;letter-spacing:.12em}
+.gcard-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.gcard h3{font-size:19px;font-weight:800;line-height:1.18;letter-spacing:-.028em;
+  color:var(--ink)}
+.gcard .sum{font-size:14px;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
+.gcard-foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;
+  justify-content:space-between;gap:10px;border-top:1px solid var(--line);
+  letter-spacing:.1em}
+.gcard-foot .go{color:var(--accent-ink)}
+
+/* ---------- article: progress ---------- */
+.progtrack{position:sticky;top:var(--navh);z-index:80;height:3px;background:var(--line)}
+.progbar{height:100%;width:0;background:var(--accent);transition:width .1s linear}
 
 /* ---------- article head ---------- */
-.crumbs{font-size:13px;color:var(--ink-3);padding:22px 0 0}
-.crumbs a{color:var(--ink-3);text-decoration:none}
-.crumbs a:hover{color:var(--accent-ink);text-decoration:underline}
-.kicker{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--accent);margin:26px 0 12px}
-h1{font-family:Fraunces,Georgia,serif;font-size:clamp(31px,5.2vw,46px);font-weight:700;
-  line-height:1.14;letter-spacing:-.02em;color:var(--deep)}
-.dek{font-size:clamp(17px,2.4vw,20px);color:var(--ink-2);margin-top:16px;line-height:1.55}
-.byline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:22px;
-  padding-bottom:24px;font-size:13.5px;color:var(--ink-3)}
+.crumbs{padding:26px 0 0;letter-spacing:.1em}
+.crumbs a:hover{color:var(--accent-ink)}
+.kicker{display:block;color:var(--accent-ink);letter-spacing:.18em;margin:26px 0 16px}
+.wrap h1{font-size:clamp(34px,5.2vw,62px);line-height:.94;letter-spacing:-.045em}
+.byline{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px;
+  padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  letter-spacing:.08em}
+.byline .av{width:30px;height:30px;border-radius:50%;background:var(--chip);
+  border:1px solid var(--line-2);flex:0 0 auto}
 .byline b{color:var(--ink-2);font-weight:600}
+.byline .end{margin-inline-start:auto}
 .dot{opacity:.45}
-.hero{margin:8px 0 30px;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
-.hero img{width:100%;aspect-ratio:1200/630;object-fit:cover}
+/* The design runs the lead image wider than the column it sits under. */
+.hero{margin:30px auto;max-width:1080px;padding:0 28px}
+.hero img{width:100%;aspect-ratio:21/9;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
 
 /* ---------- body copy ---------- */
-.body p{margin:0 0 20px;color:var(--ink-2)}
+.body{font-size:17.5px}
+.body p{margin:0 0 22px;color:var(--ink-2);line-height:1.68;text-wrap:pretty}
 .body p.lead{font-size:19px;color:var(--ink)}
-h2{font-family:Fraunces,Georgia,serif;font-size:27px;font-weight:700;color:var(--deep);
-  letter-spacing:-.01em;margin:44px 0 14px;line-height:1.25}
-h3{font-family:Fraunces,Georgia,serif;font-size:21px;font-weight:700;color:var(--deep);margin:0}
+h2{font-size:clamp(26px,3vw,34px);font-weight:900;color:var(--ink);
+  letter-spacing:-.035em;margin:48px 0 16px;line-height:1.05}
+h3{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.03em;
+  line-height:1.15;margin:0}
 
-.note{background:var(--note-bg);border:1px solid var(--line);border-inline-start:3px solid var(--accent);
-  border-radius:12px;padding:16px 18px;margin:26px 0;font-size:15px;color:var(--ink-2)}
-.note b{color:var(--deep)}
+/* The takeaway block. Body text is the number-one pick and its tag — both read
+   straight off the guide's own data, so this cannot drift from the list below
+   it the way a hand-written summary would. */
+.short{padding:26px 28px;border-radius:20px;background:var(--chip);
+  border:1px solid color-mix(in oklab,var(--accent) 25%,transparent);margin:30px 0 40px}
+.short .mono{color:var(--accent-ink);letter-spacing:.18em;margin-bottom:12px}
+.short .lead-pick{font-size:20px;line-height:1.35;font-weight:800;
+  letter-spacing:-.025em;color:var(--ink);text-wrap:pretty}
+.short .lead-tag{margin-top:8px;color:var(--accent-ink);letter-spacing:.12em}
+
+.note{background:var(--note-bg);border:1px solid var(--line);
+  border-inline-start:3px solid var(--accent);border-radius:14px;padding:16px 18px;
+  margin:26px 0;font-size:15px;color:var(--ink-2)}
+.note b{color:var(--ink)}
 
 /* ---------- comparison table ---------- */
 .tablewrap{overflow-x:auto;margin:22px 0 8px;border:1px solid var(--line);
-  border-radius:14px;background:var(--surface)}
+  border-radius:16px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
-th,td{text-align:start;padding:12px 14px;border-bottom:1px solid var(--line)}
-th{background:var(--note-bg);font-weight:700;color:var(--deep);font-size:12.5px;
-  text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+th,td{text-align:start;padding:13px 15px;border-bottom:1px solid var(--line)}
+th{background:var(--note-bg);font-weight:700;color:var(--ink);font-size:11px;
+  text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 tbody tr:last-child td{border-bottom:0}
 td a{font-weight:600;text-decoration:none}
 td a:hover{text-decoration:underline}
-.rank{color:var(--ink-3);font-variant-numeric:tabular-nums;width:1%}
+.rank{color:var(--accent-ink);font-variant-numeric:tabular-nums;width:1%;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 
-/* ---------- product card ---------- */
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-  overflow:hidden;margin:26px 0;box-shadow:var(--shadow);scroll-margin-top:72px}
-.card-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-bottom:1px solid var(--line)}
-.card-in{padding:22px}
-.card-top{display:flex;gap:14px;align-items:flex-start}
-.num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--deep);color:var(--on-deep);
-  font-family:Fraunces,Georgia,serif;font-weight:700;font-size:16px;
-  display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
-.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.05em;
-  text-transform:uppercase;color:var(--accent-ink);background:var(--chip);
-  padding:4px 10px;border-radius:99px;margin-bottom:8px}
-.price{font-size:14px;font-weight:600;color:var(--ink-3);margin-top:4px}
-.card p{margin:14px 0 0;color:var(--ink-2);font-size:16px}
+/* ---------- a pick ---------- */
+/* The design puts a small square thumbnail beside the text rather than a full
+   bleed image above it. With ten picks on a page that is the difference between
+   a list you can scan and ten screens of scrolling. */
+.card{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:28px 0;
+  border-top:1px solid var(--line);scroll-margin-top:88px}
+.card-img{width:150px;aspect-ratio:1;object-fit:cover;border-radius:16px;
+  border:1px solid var(--line);background:var(--surface)}
+.card-in{min-width:0}
+.badge{display:block;color:var(--accent-ink);letter-spacing:.16em;margin-bottom:9px}
+.card h3{margin-bottom:10px}
+.card p{margin:0 0 14px;color:var(--ink-2);font-size:16px;line-height:1.6;
+  text-wrap:pretty}
+.priceline{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.price{font-size:21px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.tradeoff{letter-spacing:.06em;text-transform:none;font-size:11px;color:var(--ink-3)}
+.tradeoff b{font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.num{display:none}
+.tag{display:none}
 .pc{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-top:18px;
   padding-top:16px;border-top:1px solid var(--line)}
-.pc h4{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--ink-3);margin-bottom:7px}
+.pc h4{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:7px;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
 .pc ul{list-style:none;font-size:14.5px;color:var(--ink-2)}
 .pc li{position:relative;padding-inline-start:17px;margin-bottom:5px;line-height:1.5}
 .pc li::before{position:absolute;inset-inline-start:0;font-weight:700}
 .pros li::before{content:"+";color:var(--pro)}
 .cons li::before{content:"–";color:var(--con)}
 .buys{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
-.btn{text-decoration:none;font-size:14px;font-weight:700;padding:11px 18px;
-  border-radius:10px;display:inline-block;transition:transform .1s,filter .1s}
-.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
-.btn-a{background:var(--accent);color:#fff}
-.btn-b{background:var(--surface);color:var(--ink);border:1.5px solid var(--line-2)}
+.btn{text-decoration:none;font-size:14px;font-weight:700;padding:12px 20px;
+  border-radius:999px;display:inline-block;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn-a{background:var(--accent-ink);color:var(--on-accent)}
+.btn-b{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
 
 /* ---------- faq ---------- */
 .faq{border-top:1px solid var(--line);margin-top:12px}
 .faq details{border-bottom:1px solid var(--line)}
-.faq summary{cursor:pointer;list-style:none;padding:17px 30px 17px 0;position:relative;
-  font-weight:600;color:var(--deep);font-size:16.5px}
+.faq summary{cursor:pointer;list-style:none;padding:18px 30px 18px 0;position:relative;
+  font-weight:700;color:var(--ink);font-size:16.5px;letter-spacing:-.015em}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:15px;
-  font-size:21px;font-weight:400;color:var(--accent);line-height:1}
+.faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:16px;
+  font-size:21px;font-weight:400;color:var(--accent-ink);line-height:1}
 .faq details[open] summary::after{content:"–"}
 .faq p{padding:0 0 18px;color:var(--ink-2);font-size:15.5px;margin:0}
 
-/* ---------- guide index cards ---------- */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;margin:30px 0 10px}
-.gcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
-  border-radius:var(--radius);overflow:hidden;text-decoration:none;color:inherit;
-  box-shadow:var(--shadow);transition:transform .14s,box-shadow .14s}
-.gcard:hover{transform:translateY(-3px);box-shadow:var(--card-hover)}
-.gcard img{width:100%;aspect-ratio:1200/630;object-fit:cover}
-.gcard-in{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
-.gcard h3{font-size:19px;line-height:1.3;margin:8px 0 0}
-.gcard .sum{font-size:14.5px;color:var(--ink-2);margin-top:9px;flex:1}
-.gcard .meta{font-size:12.5px;color:var(--ink-3);margin-top:14px}
+/* ---------- closer ---------- */
+.closer{margin-top:46px;padding:34px 30px;border-radius:22px;
+  border:1px dashed var(--line-2);text-align:center}
+.closer h2{font-size:clamp(22px,3vw,28px);margin:0 0 10px;letter-spacing:-.03em}
+.closer p{font-size:16px;color:var(--ink-2);margin:0 0 22px}
+.closer .btn{padding:15px 28px;font-size:15px;font-weight:800;
+  background:var(--deep);color:var(--on-deep)}
 
 /* ---------- footer ---------- */
 .disc{font-size:13.5px;color:var(--ink-3);border-top:1px solid var(--line);
   padding-top:18px;margin-top:46px}
-footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 22px;
+footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 28px;
   text-align:center;color:var(--ink-3);font-size:13.5px;background:var(--note-bg)}
 footer nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
 footer a{color:var(--ink-2);text-decoration:none;font-weight:600}
 footer a:hover{color:var(--accent-ink)}
 .langsw{margin-top:12px;font-size:13px}
 
+/* ---------- responsive ---------- */
+@media(max-width:900px){
+  .feat{grid-template-columns:1fr;gap:34px}
+  .masthead{padding:52px 0 34px}
+}
 @media(max-width:600px){
   body{font-size:16px}
-  .pc{grid-template-columns:1fr;gap:14px}
-  .card-in{padding:18px}
-  .nav-in{padding:10px 16px;gap:12px}
+  .wrap,.wide,.hero{padding-inline:18px}
+  .nav-in{padding:10px 18px;gap:12px}
   .nav-links{gap:14px}
   .nav-links a{font-size:13px}
+  .navkick{display:none}
+  /* The thumbnail column collapses rather than shrinking to a stamp. */
+  .card{grid-template-columns:1fr;gap:16px;padding:24px 0}
+  .card-img{width:100%;aspect-ratio:16/10}
+  .pc{grid-template-columns:1fr;gap:14px}
+  .hero img{aspect-ratio:16/10}
+  .count{margin-inline-start:0;width:100%;padding-top:8px}
+}
+/* The chips are the one genuinely new tap target the redesign adds, and at the
+   design's 9px padding they land at 34px — under the 44px minimum. Scoped to
+   coarse pointers so the mouse version keeps the tighter proportions the design
+   draws, and applied by min-height rather than padding so the label stays
+   vertically centred either way. */
+@media(pointer:coarse){
+  .chip{min-height:44px;padding-inline:18px}
+  .nav-links a{min-height:44px;display:inline-flex;align-items:center}
+  .themetog{width:44px;height:44px}
+  .sideitem{padding:18px 16px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
-/* ---------- rtl ---------- */
-[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{
-  font-family:"Heebo","Assistant",Inter,system-ui,sans-serif}
-[dir=rtl] .num{font-family:inherit}
+/* ---------- rtl / non-latin ---------- */
+/* Archivo and JetBrains Mono have no Hebrew, and wide tracking on Hebrew is
+   unreadable rather than merely wrong. Hebrew keeps Heebo everywhere and drops
+   the mono treatment, so the design's rhythm survives without the typography
+   that cannot cross the script. */
+[dir=rtl] body,[dir=rtl] .logo,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,
+[dir=rtl] .chip,[dir=rtl] .mono,[dir=rtl] .sidenum,[dir=rtl] .rank,
+[dir=rtl] th,[dir=rtl] .pc h4{
+  font-family:"Heebo","Assistant",system-ui,sans-serif}
+[dir=rtl] .mono,[dir=rtl] th,[dir=rtl] .pc h4{letter-spacing:.02em;font-size:11.5px}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] .feat-main h2{letter-spacing:-.01em;line-height:1.1}
+/* A number with no Hebrew beside it still flips inside dir=rtl — "35 -> 35"
+   is fine but "10 min" and "-58%" are not. Isolate every numeric run. */
+[dir=rtl] .sidenum,[dir=rtl] .rank,[dir=rtl] .price,[dir=rtl] .count,
+[dir=rtl] .byline .end,[dir=rtl] time{unicode-bidi:isolate}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Diez gadgets que se ganan un sitio en tu escritorio", "description": "No son los lanzamientos más espectaculares del año, sino los que la gente sigue usando seis meses después de que se pasara la novedad.", "datePublished": "2026-08-08", "dateModified": "2026-08-08", "inLanguage": "es", "author": {"@type": "Organization", "name": "La redacción de fashionhotspot"}, "publisher": {"@type": "Organization", "name": "fashionhotspot", "url": "https://fashionhotspot.site", "logo": {"@type": "ImageObject", "url": "https://fashionhotspot.site/icon-512.png", "width": 512, "height": 512}}, "image": "https://fashionhotspot.site/images/hero-tech.jpg", "mainEntityOfPage": "https://fashionhotspot.site/es/post-tech.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListOrder": "https://schema.org/ItemListOrderDescending", "numberOfItems": 10, "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Anker 737 Power Bank (24,000mAh, 140W)", "description": "El más útil de la lista", "url": "https://fashionhotspot.site/es/post-tech.html#p1", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 100, "highPrice": 140, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Sony WH-1000XM6", "description": "La mejor cancelación de ruido", "url": "https://fashionhotspot.site/es/post-tech.html#p2", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 350, "highPrice": 430, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "Anker 555 USB-C hub (8-in-1)", "description": "El apaño para el portátil moderno", "url": "https://fashionhotspot.site/es/post-tech.html#p3", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 50, "highPrice": 75, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 4, "item": {"@type": "Product", "name": "Apple Watch SE (3rd gen) or Galaxy Watch FE", "description": "El smartwatch con mejor relación calidad-precio", "url": "https://fashionhotspot.site/es/post-tech.html#p4", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 220, "highPrice": 280, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 5, "item": {"@type": "Product", "name": "Keychron K2 HE (or any hot-swappable board)", "description": "La mejor mejora para tu teclado", "url": "https://fashionhotspot.site/es/post-tech.html#p5", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 90, "highPrice": 190, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 6, "item": {"@type": "Product", "name": "Logitech MX Master 4", "description": "El mejor ratón para jornadas largas", "url": "https://fashionhotspot.site/es/post-tech.html#p6", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 95, "highPrice": 120, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 7, "item": {"@type": "Product", "name": "Kindle Paperwhite (2024 or later)", "description": "El mejor dispositivo para una sola cosa", "url": "https://fashionhotspot.site/es/post-tech.html#p7", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 145, "highPrice": 180, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 8, "item": {"@type": "Product", "name": "Anker Nano 3-port 65W GaN charger", "description": "La mejor pequeña mejora", "url": "https://fashionhotspot.site/es/post-tech.html#p8", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 35, "highPrice": 50, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 9, "item": {"@type": "Product", "name": "Xreal Air 2 display glasses", "description": "El más interesante, y el que tiene más peros", "url": "https://fashionhotspot.site/es/post-tech.html#p9", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 350, "highPrice": 450, "availability": "https://schema.org/InStock"}}}, {"@type": "ListItem", "position": 10, "item": {"@type": "Product", "name": "Tile or AirTag item trackers (4-pack)", "description": "La tranquilidad más barata", "url": "https://fashionhotspot.site/es/post-tech.html#p10", "offers": {"@type": "AggregateOffer", "priceCurrency": "USD", "lowPrice": 70, "highPrice": 100, "availability": "https://schema.org/InStock"}}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://fashionhotspot.site/es/"}, {"@type": "ListItem", "position": 2, "name": "Guías", "item": "https://fashionhotspot.site/es/posts.html"}, {"@type": "ListItem", "position": 3, "name": "Diez gadgets que se ganan un sitio en tu escritorio", "item": "https://fashionhotspot.site/es/post-tech.html"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Merece la pena comprar el modelo de gama alta del año pasado?", "acceptedAnswer": {"@type": "Answer", "text": "Normalmente sí, para móviles, relojes y auriculares. Las mejoras de un año para otro en estas categorías son pequeñas, y el modelo del año pasado suele venderse por un 25–40% menos a los pocos meses de un nuevo lanzamiento."}}, {"@type": "Question", "name": "¿Son realmente malas las versiones baratas y sin marca?", "acceptedAnswer": {"@type": "Answer", "text": "Para accesorios pasivos como cables y soportes, a menudo están bien. Para cualquier cosa que lleve batería o suministre energía, la marca importa: ahí es donde merece la pena pagar por las certificaciones de seguridad, el diseño térmico y una garantía honesta."}}, {"@type": "Question", "name": "Si trabajo todo el día con un portátil, ¿qué debería comprar primero?", "acceptedAnswer": {"@type": "Answer", "text": "Un hub y un cargador en condiciones, y después un teclado y un ratón externos. Esas cuatro cosas mejoran tu postura y reducen las molestias diarias más que cualquier dispositivo caro de esta lista."}}, {"@type": "Question", "name": "¿Necesito también el cable USB-C más nuevo?", "acceptedAnswer": {"@type": "Answer", "text": "Para cargar, casi cualquier cable moderno sirve. Para transferir datos rápidamente o conectar un monitor, los cables baratos fallan de verdad; comprueba que el cable especifique su potencia y velocidad de datos en lugar de darlo por hecho."}}]}</script><link rel="alternate" hreflang="en" href="https://fashionhotspot.site/post-tech.html"><link rel="alternate" hreflang="he" href="https://fashionhotspot.site/he/post-tech.html"><link rel="alternate" hreflang="es" href="https://fashionhotspot.site/es/post-tech.html"><link rel="alternate" hreflang="fr" href="https://fashionhotspot.site/fr/post-tech.html"><link rel="alternate" hreflang="de" href="https://fashionhotspot.site/de/post-tech.html"><link rel="alternate" hreflang="el" href="https://fashionhotspot.site/el/post-tech.html"><link rel="alternate" hreflang="x-default" href="https://fashionhotspot.site/post-tech.html">
 </head>
 <body>
-<div class="nav"><div class="nav-in"><a class="logo" href="../index.html">fashion<span>hotspot</span></a><nav class="nav-links"><a href="../index.html">Ofertas</a><a href="posts.html">Guías</a><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="wrap"><div class="crumbs"><a href="../index.html">Inicio</a> › <a href="posts.html">Guías</a> › Electrónica</div><div class="kicker">Electrónica · Guía de compra</div><h1>Diez gadgets que se ganan un sitio en tu escritorio</h1><p class="dek">No son los lanzamientos más espectaculares del año, sino los que la gente sigue usando seis meses después de que se pasara la novedad.</p><div class="byline"><b>La redacción de fashionhotspot</b><span class="dot">·</span><span>Actualizado <time datetime="2026-08-08">8 agosto 2026</time></span><span class="dot">·</span><span>10 min de lectura</span><span class="dot">·</span><span>10 productos</span></div><div class="hero"><img src="../images/hero-tech.jpg" alt="Diez gadgets que se ganan un sitio en tu escritorio" width="1600" height="840" fetchpriority="high"></div><div class="body"><p class="lead">El gadget más recomendado rara vez es el que más se usa. Las reseñas se escriben la primera semana, cuando todo es emocionante y todavía no se ha roto nada. Lo que importa es si el cacharro sigue en tu escritorio en marzo.</p><p>Por eso, el filtro para esta lista fue deliberadamente aburrido: ¿resuelve un problema que de verdad tienes a diario y sigue funcionando? Faltan algunas categorías obvias porque, actualmente, nada de lo que ofrecen justifica su precio, y preferimos dejar un hueco que rellenar la lista por rellenar.</p><p>Los precios son aproximados en el momento de escribir este artículo y varían mucho durante las rebajas. Úsalos como referencia para tu presupuesto y luego comprueba el precio actualizado en la tienda.</p><div class="note"><b>Aviso.</b> Los enlaces de esta página son de afiliados. Si compras a través de uno podemos ganar una comisión sin coste adicional para ti. No influye en qué entra en esta lista ni en su orden.</div><h2>Cómo lo elegimos</h2><p>Damos más peso a los análisis basados en mediciones publicadas, a las opiniones de usuarios a largo plazo y al historial de garantías y reparaciones que a la cobertura del día de lanzamiento. No hemos probado personalmente cada artículo. Cuando un producto es el líder claro de su categoría, lo nombramos; cuando la respuesta honesta es que depende de tu móvil, tus oídos o tu escritorio, te explicamos cuál es la contrapartida en lugar de inventarnos un ganador.</p><h2>De un vistazo</h2><div class="tablewrap"><table><thead><tr><th>#</th><th>Producto</th><th>Ideal para</th><th>Precio aprox.</th></tr></thead><tbody><tr><td class="rank">1</td><td><a href="#p1">Anker 737 Power Bank (24,000mAh, 140W)</a></td><td>El más útil de la lista</td><td>$100–140</td></tr><tr><td class="rank">2</td><td><a href="#p2">Sony WH-1000XM6</a></td><td>La mejor cancelación de ruido</td><td>$350–430</td></tr><tr><td class="rank">3</td><td><a href="#p3">Anker 555 USB-C hub (8-in-1)</a></td><td>El apaño para el portátil moderno</td><td>$50–75</td></tr><tr><td class="rank">4</td><td><a href="#p4">Apple Watch SE (3rd gen) or Galaxy Watch FE</a></td><td>El smartwatch con mejor relación calidad-precio</td><td>$220–280</td></tr><tr><td class="rank">5</td><td><a href="#p5">Keychron K2 HE (or any hot-swappable board)</a></td><td>La mejor mejora para tu teclado</td><td>$90–190</td></tr><tr><td class="rank">6</td><td><a href="#p6">Logitech MX Master 4</a></td><td>El mejor ratón para jornadas largas</td><td>$95–120</td></tr><tr><td class="rank">7</td><td><a href="#p7">Kindle Paperwhite (2024 or later)</a></td><td>El mejor dispositivo para una sola cosa</td><td>$145–180</td></tr><tr><td class="rank">8</td><td><a href="#p8">Anker Nano 3-port 65W GaN charger</a></td><td>La mejor pequeña mejora</td><td>$35–50</td></tr><tr><td class="rank">9</td><td><a href="#p9">Xreal Air 2 display glasses</a></td><td>El más interesante, y el que tiene más peros</td><td>$350–450</td></tr><tr><td class="rank">10</td><td><a href="#p10">Tile or AirTag item trackers (4-pack)</a></td><td>La tranquilidad más barata</td><td>$70–100</td></tr></tbody></table></div><p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">Los precios son aproximados en el momento de escribir y cambian a menudo.</p><h2>Las recomendaciones</h2><article class="card" id="p1"><img class="card-img" src="../images/tech-01.jpg" alt="Anker 737 Power Bank (24,000mAh, 140W)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">1</div><div style="flex:1"><span class="tag">El más útil de la lista</span><h3>Anker 737 Power Bank (24,000mAh, 140W)</h3><div class="price">$100–140</div></div></div><p>La mayoría de las baterías externas se venden por su capacidad, que es el dato menos interesante. Lo que importa es la potencia de salida: con 140 W, esta carga un portátil casi a toda velocidad, no con el goteo que te da una batería normal, así que de verdad sustituye a tu cargador en un viaje en lugar de solo retrasar que te quedes sin batería. La pequeña pantalla que muestra los vatios reales y la carga restante parece una pijada, pero resulta ser la función que más usas. Es pesada y no es barata, y si solo la vas a usar para recargar el móvil, deberías comprar algo que ocupe la tercera parte y cueste la cuarta.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Carga un portátil casi a máxima velocidad</li><li>La pantalla de vatios en tiempo real es realmente informativa</li><li>Un solo ladrillo para el móvil, la tableta y el portátil</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Pesada: la notas en la mochila todo el día</li><li>Excesiva y cara si solo cargas el móvil</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Anker+737+power+bank+24000mAh+140W&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3zNsBRZ">AliExpress</a></div></div></article><article class="card" id="p2"><img class="card-img" src="../images/tech-02.jpg" alt="Sony WH-1000XM6" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">2</div><div style="flex:1"><span class="tag">La mejor cancelación de ruido</span><h3>Sony WH-1000XM6</h3><div class="price">$350–430</div></div></div><p>La cancelación de ruido es una de esas raras funciones que cambia cómo se siente un espacio, no solo cómo suena. En un avión o en una oficina diáfana, el efecto es casi como cambiarse de habitación. La línea de Sony lleva años liderando esta categoría por la potencia de su cancelación y por el software que la acompaña: un emparejamiento multipunto que de verdad funciona y modos adaptativos que desactivan la cancelación cuando hablas. La contrapartida frente a Bose es la comodidad: los Sony suenan mejor y cancelan un poco más, pero los Bose son más cómodos de llevar durante seis horas seguidas. Si usas gafas, pruébate ambos antes de decidirte.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Cancelación líder en su categoría</li><li>Emparejamiento multipunto que funciona de forma fiable</li><li>Batería de larga duración con carga rápida</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Caros y rara vez tienen descuento</li><li>Menos cómodos que los Bose en sesiones muy largas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Sony+WH-1000XM6+noise+cancelling+headphones&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c2QfIa0f">AliExpress</a></div></div></article><article class="card" id="p3"><img class="card-img" src="../images/tech-03.jpg" alt="Anker 555 USB-C hub (8-in-1)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">3</div><div style="flex:1"><span class="tag">El apaño para el portátil moderno</span><h3>Anker 555 USB-C hub (8-in-1)</h3><div class="price">$50–75</div></div></div><p>Los portátiles pierden puertos más rápido de lo que nosotros dejamos de usar los accesorios que los necesitan, y un hub es el apaño poco glamuroso. Fíjate en tres cosas: HDMI a 4K y 60 Hz en lugar de 30, que permita la carga del portátil (pass-through) para que el hub lo alimente mientras funciona, y una carcasa de aluminio, porque los de plástico se calientan y reducen su rendimiento. Este de Anker tiene las tres. La categoría está llena de aparatos casi idénticos de marcas desconocidas por la mitad de precio; suelen ir bien hasta el día en que la salida HDMI empieza a parpadear y no tienes una garantía a la que recurrir.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>HDMI 4K a 60 Hz, no los habituales 30 Hz</li><li>Permite la carga del portátil (pass-through)</li><li>La carcasa de aluminio se mantiene fría bajo carga</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Los clones más baratos parecen idénticos sobre el papel</li><li>Otro cacharro más que llevar encima</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Anker+555+USB-C+hub+8+in+1&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c35mH4kX">AliExpress</a></div></div></article><article class="card" id="p4"><img class="card-img" src="../images/tech-04.jpg" alt="Apple Watch SE (3rd gen) or Galaxy Watch FE" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">4</div><div style="flex:1"><span class="tag">El smartwatch con mejor relación calidad-precio</span><h3>Apple Watch SE (3rd gen) or Galaxy Watch FE</h3><div class="price">$220–280</div></div></div><p>Los relojes de gama alta añaden una pantalla más brillante, sensores de salud más avanzados y una caja de titanio. Los modelos económicos mantienen las funciones que la gente usa a diario: notificaciones, seguimiento de entrenamientos, sueño y pagos sin contacto. A menos que necesites específicamente mediciones de oxígeno en sangre o un electrocardiograma, la diferencia es mucho menor de lo que sugiere el precio. La verdadera limitación es el ecosistema: un Apple Watch no sirve para nada con un móvil Android y un Galaxy Watch pierde la mayor parte de su valor si no se usa con un Samsung, así que esta decisión ya estaba prácticamente tomada cuando compraste el móvil.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Mantiene las funciones que la gente usa a diario</li><li>Mucho más baratos que los de gama alta</li><li>Buen soporte de software durante varios años</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Atado al ecosistema de tu móvil</li><li>Sin electrocardiograma ni sensores avanzados</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Apple+Watch+SE+3rd+generation+GPS&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3xrLQ39">AliExpress</a></div></div></article><article class="card" id="p5"><img class="card-img" src="../images/tech-05.jpg" alt="Keychron K2 HE (or any hot-swappable board)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">5</div><div style="flex:1"><span class="tag">La mejor mejora para tu teclado</span><h3>Keychron K2 HE (or any hot-swappable board)</h3><div class="price">$90–190</div></div></div><p>Si te ganas la vida escribiendo, el teclado es la herramienta que más tocas, y uno mecánico es una verdadera mejora ergonómica y táctil frente al recorrido plano de un portátil. La característica específica en la que debes insistir son los zócalos &#x27;hot-swap&#x27;: te permiten cambiar los interruptores (switches) sin soldar, lo que significa que una sola compra puede volverse más ligera, pesada, silenciosa o ruidosa más adelante, a medida que descubres lo que te gusta. Compra interruptores silenciosos si compartes habitación o atiendes llamadas: el traqueteo estereotípico es una elección, no una obligación, y es la forma más rápida de molestar a todos los que te rodean.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>El &#x27;hot-swap&#x27; permite que un solo teclado cambie con el tiempo</li><li>Gran mejora en comodidad frente a los teclados de portátil</li><li>Inalámbrico y con cable en el mismo teclado</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Ruidoso, a menos que elijas interruptores silenciosos a propósito</li><li>Alto, puede que necesites un reposamuñecas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Keychron+K2+hot+swappable+mechanical+keyboard&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4FsNwRH">AliExpress</a></div></div></article><article class="card" id="p6"><img class="card-img" src="../images/tech-06.jpg" alt="Logitech MX Master 4" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">6</div><div style="flex:1"><span class="tag">El mejor ratón para jornadas largas</span><h3>Logitech MX Master 4</h3><div class="price">$95–120</div></div></div><p>La línea MX Master ha sido la recomendación por defecto para trabajar en un escritorio durante años, y la razón es su forma más que su sensor: sostiene la mano en lugar de exigir que la agarres, y eso es lo que tu muñeca nota después de ocho horas. La rueda de desplazamiento horizontal es esa función que no sabías que querías hasta que editas una hoja de cálculo ancha o una línea de tiempo de vídeo. Es un ratón grande, hecho para manos de medianas a grandes y un agarre de palma; si tienes las manos pequeñas o usas un agarre de garra, este modelo en concreto te resultará incómodo, y el MX Anywhere, más pequeño, es mejor compra.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Realmente cómodo durante jornadas de trabajo completas</li><li>El desplazamiento horizontal justifica su existencia</li><li>Se empareja con tres dispositivos y cambia al instante</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Demasiado grande para manos pequeñas o agarre de garra</li><li>Pesado para llevarlo de un sitio a otro</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Logitech+MX+Master+4+wireless+mouse&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3AMG0uB">AliExpress</a></div></div></article><article class="card" id="p7"><img class="card-img" src="../images/tech-07.jpg" alt="Kindle Paperwhite (2024 or later)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">7</div><div style="flex:1"><span class="tag">El mejor dispositivo para una sola cosa</span><h3>Kindle Paperwhite (2024 or later)</h3><div class="price">$145–180</div></div></div><p>El argumento a favor de un lector de libros electrónicos no es que haga más que tu móvil, sino que hace muchísimo menos. Sin notificaciones, sin navegador, sin aplicaciones que reclamen tu atención, solo texto en una pantalla que puedes leer a pleno sol y en la oscuridad. La resistencia al agua importa más de lo que parece en la ficha técnica, porque convierte el baño y la playa en lugares de lectura. Compra la versión sin anuncios; el descuento por tener publicidad en la pantalla de bloqueo es pequeño y vas a mirar esa pantalla miles de veces.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Se puede leer a pleno sol</li><li>La batería se mide en semanas</li><li>Resistente al agua, así que va a más sitios que una tableta</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Atado a la tienda de Amazon para una experiencia más sencilla</li><li>El refresco lento de pantalla lo hace malo para cualquier cosa que no sea leer</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Kindle+Paperwhite+2024+e-reader&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4e2qO1p">AliExpress</a></div></div></article><article class="card" id="p8"><img class="card-img" src="../images/tech-08.jpg" alt="Anker Nano 3-port 65W GaN charger" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">8</div><div style="flex:1"><span class="tag">La mejor pequeña mejora</span><h3>Anker Nano 3-port 65W GaN charger</h3><div class="price">$35–50</div></div></div><p>El nitruro de galio ha hecho que los cargadores tengan aproximadamente la mitad del tamaño con la misma potencia, razón por la cual el ladrillo que venía con tu portátil ahora parece absurdo. Un solo cargador GaN de 65 W con tres puertos alimenta un portátil, un móvil y unos auriculares desde un único enchufe, por lo que viajar significa llevar un enchufe y un cable de repuesto en lugar de una bolsa de ladrillos. Es el artículo más barato de la lista y uno de los dos o tres que más reduce las molestias del día a día, lo que es una buena definición de algo que merece la pena.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Sustituye tres cargadores por uno</li><li>Clavijas plegables, realmente de bolsillo</li><li>Barato para la cantidad de molestias que quita</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>65 W no son suficientes para portátiles gaming de alto consumo</li><li>La potencia se reparte y disminuye cuando se usan todos los puertos</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Anker+Nano+65W+GaN+charger+3+port&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3nLT8hp">AliExpress</a></div></div></article><article class="card" id="p9"><img class="card-img" src="../images/tech-09.jpg" alt="Xreal Air 2 display glasses" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">9</div><div style="flex:1"><span class="tag">El más interesante, y el que tiene más peros</span><h3>Xreal Air 2 display glasses</h3><div class="price">$350–450</div></div></div><p>Estas gafas ponen una gran pantalla virtual delante de ti desde un dispositivo del tamaño de unas gafas de sol, lo que es realmente útil en un avión o en la habitación de un hotel donde es imposible tener un monitor. El texto es lo suficientemente nítido para trabajar de verdad, y conectarlas a un portátil o a un móvil por USB-C es un auténtico &#x27;plug-and-play&#x27;. Ahora, los peros, porque son importantes: el campo de visión es más estrecho de lo que sugieren las imágenes de marketing, aprietan en la nariz después de una o dos horas y das el cante si las llevas en público. Cómpralas si viajas constantemente y trabajas sobre la marcha. Si no, un segundo monitor cuesta la décima parte.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Una pantalla grande en cualquier sitio, desde un dispositivo de bolsillo</li><li>Suficientemente nítido para trabajar con texto de verdad</li><li>Funciona con un solo cable USB-C</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Campo de visión más estrecho de lo que promete el marketing</li><li>Incómodas después de una o dos horas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Xreal+Air+2+AR+display+glasses&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3eIvoOL">AliExpress</a></div></div></article><article class="card" id="p10"><img class="card-img" src="../images/tech-10.jpg" alt="Tile or AirTag item trackers (4-pack)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><div class="card-top"><div class="num">10</div><div style="flex:1"><span class="tag">La tranquilidad más barata</span><h3>Tile or AirTag item trackers (4-pack)</h3><div class="price">$70–100</div></div></div><p>Un localizador en la mochila, la cartera y las llaves cuesta menos que reponer cualquiera de esas cosas una sola vez. Lo que hace que funcionen no es el localizador en sí, sino la red: cada móvil cercano del ecosistema informa discretamente de la ubicación de una etiqueta, por lo que la cobertura en una ciudad es casi total. Esa es también la razón para elegir el que corresponda a tu móvil: los AirTags son excelentes en un iPhone y prácticamente inútiles en Android, y Tile es la opción más neutral. Vale la pena saberlo antes de comprar: están diseñados para encontrar tus propias cosas, y ambas compañías ahora incluyen alertas antiacoso que notifican a una persona si una etiqueta desconocida viaja con ella.</p><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>La red de búsqueda hace que la cobertura urbana sea casi total</li><li>La pila reemplazable dura aproximadamente un año</li><li>Más barato que reponer lo que pierdes</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Efectivamente atado al ecosistema de un móvil</li><li>Inútiles en zonas con pocos móviles cerca</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Apple+AirTag+4+pack+item+tracker&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3J6TNWX">AliExpress</a></div></div></article><h2>Preguntas frecuentes</h2><div class="faq"><details><summary>¿Merece la pena comprar el modelo de gama alta del año pasado?</summary><p>Normalmente sí, para móviles, relojes y auriculares. Las mejoras de un año para otro en estas categorías son pequeñas, y el modelo del año pasado suele venderse por un 25–40% menos a los pocos meses de un nuevo lanzamiento.</p></details><details><summary>¿Son realmente malas las versiones baratas y sin marca?</summary><p>Para accesorios pasivos como cables y soportes, a menudo están bien. Para cualquier cosa que lleve batería o suministre energía, la marca importa: ahí es donde merece la pena pagar por las certificaciones de seguridad, el diseño térmico y una garantía honesta.</p></details><details><summary>Si trabajo todo el día con un portátil, ¿qué debería comprar primero?</summary><p>Un hub y un cargador en condiciones, y después un teclado y un ratón externos. Esas cuatro cosas mejoran tu postura y reducen las molestias diarias más que cualquier dispositivo caro de esta lista.</p></details><details><summary>¿Necesito también el cable USB-C más nuevo?</summary><p>Para cargar, casi cualquier cable moderno sirve. Para transferir datos rápidamente o conectar un monitor, los cables baratos fallan de verdad; comprueba que el cable especifique su potencia y velocidad de datos en lugar de darlo por hecho.</p></details></div><p style="margin-top:34px"><a href="posts.html">← Todas las guías</a></p><p class="disc">Hemos solicitado unirnos al Programa de Afiliados de Amazon. Todavía no somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Los precios y la disponibilidad son correctos en la fecha de publicación y pueden cambiar.</p></div></div><footer><nav><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a><a href="../privacy.html">Privacidad</a><a href="../terms.html">Términos</a><a href="posts.html">Guías</a></nav><p>Hemos solicitado unirnos al Programa de Afiliados de Amazon. Todavía no somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Nunca te cuesta más.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../post-tech.html" hreflang="en">English</a> · <a href="../he/post-tech.html" hreflang="he">עברית</a> · <a href="../fr/post-tech.html" hreflang="fr">Français</a> · <a href="../de/post-tech.html" hreflang="de">Deutsch</a> · <a href="../el/post-tech.html" hreflang="el">Ελληνικά</a></div></footer>
-<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script>
+<div class="nav"><div class="nav-in"><a class="brand" href="../index.html"><span class="logo">fashion<span>hotspot</span></span><span class="mono navkick" aria-hidden="true">/ guías</span></a><nav class="nav-links"><a href="../index.html">Ofertas</a><a href="posts.html">Guías</a><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a></nav><button class="themetog" type="button" onclick="fhToggleTheme()" aria-label="Switch between light and dark" title="Light / dark"><span class="tt-sun">☀</span><span class="tt-moon">☾</span></button></div></div><div class="progtrack"><div class="progbar" id="prog"></div></div><div class="wrap"><div class="crumbs mono"><a href="../index.html">Inicio</a> › <a href="posts.html">Guías</a> › Electrónica</div><span class="kicker mono">Electrónica · 10 min de lectura · Actualizado <time datetime="2026-08-08">8 agosto 2026</time></span><h1>Diez gadgets que se ganan un sitio en tu escritorio</h1><p class="dek">No son los lanzamientos más espectaculares del año, sino los que la gente sigue usando seis meses después de que se pasara la novedad.</p><div class="byline mono"><span class="av" aria-hidden="true"></span><b>La redacción de fashionhotspot</b><span class="end">10 productos</span></div></div><div class="hero"><img src="../images/hero-tech.jpg" alt="Diez gadgets que se ganan un sitio en tu escritorio" width="1600" height="840" fetchpriority="high"></div><div class="wrap"><div class="body"><p class="lead">El gadget más recomendado rara vez es el que más se usa. Las reseñas se escriben la primera semana, cuando todo es emocionante y todavía no se ha roto nada. Lo que importa es si el cacharro sigue en tu escritorio en marzo.</p><p>Por eso, el filtro para esta lista fue deliberadamente aburrido: ¿resuelve un problema que de verdad tienes a diario y sigue funcionando? Faltan algunas categorías obvias porque, actualmente, nada de lo que ofrecen justifica su precio, y preferimos dejar un hueco que rellenar la lista por rellenar.</p><p>Los precios son aproximados en el momento de escribir este artículo y varían mucho durante las rebajas. Úsalos como referencia para tu presupuesto y luego comprueba el precio actualizado en la tienda.</p><div class="short"><div class="mono">En resumen</div><div class="lead-pick">Anker 737 Power Bank (24,000mAh, 140W)</div><div class="lead-tag mono">El más útil de la lista</div></div><div class="note"><b>Aviso.</b> Los enlaces de esta página son de afiliados. Si compras a través de uno podemos ganar una comisión sin coste adicional para ti. No influye en qué entra en esta lista ni en su orden.</div><h2>Cómo lo elegimos</h2><p>Damos más peso a los análisis basados en mediciones publicadas, a las opiniones de usuarios a largo plazo y al historial de garantías y reparaciones que a la cobertura del día de lanzamiento. No hemos probado personalmente cada artículo. Cuando un producto es el líder claro de su categoría, lo nombramos; cuando la respuesta honesta es que depende de tu móvil, tus oídos o tu escritorio, te explicamos cuál es la contrapartida en lugar de inventarnos un ganador.</p><h2>De un vistazo</h2><div class="tablewrap"><table><thead><tr><th>#</th><th>Producto</th><th>Ideal para</th><th>Precio aprox.</th></tr></thead><tbody><tr><td class="rank">1</td><td><a href="#p1">Anker 737 Power Bank (24,000mAh, 140W)</a></td><td>El más útil de la lista</td><td>$100–140</td></tr><tr><td class="rank">2</td><td><a href="#p2">Sony WH-1000XM6</a></td><td>La mejor cancelación de ruido</td><td>$350–430</td></tr><tr><td class="rank">3</td><td><a href="#p3">Anker 555 USB-C hub (8-in-1)</a></td><td>El apaño para el portátil moderno</td><td>$50–75</td></tr><tr><td class="rank">4</td><td><a href="#p4">Apple Watch SE (3rd gen) or Galaxy Watch FE</a></td><td>El smartwatch con mejor relación calidad-precio</td><td>$220–280</td></tr><tr><td class="rank">5</td><td><a href="#p5">Keychron K2 HE (or any hot-swappable board)</a></td><td>La mejor mejora para tu teclado</td><td>$90–190</td></tr><tr><td class="rank">6</td><td><a href="#p6">Logitech MX Master 4</a></td><td>El mejor ratón para jornadas largas</td><td>$95–120</td></tr><tr><td class="rank">7</td><td><a href="#p7">Kindle Paperwhite (2024 or later)</a></td><td>El mejor dispositivo para una sola cosa</td><td>$145–180</td></tr><tr><td class="rank">8</td><td><a href="#p8">Anker Nano 3-port 65W GaN charger</a></td><td>La mejor pequeña mejora</td><td>$35–50</td></tr><tr><td class="rank">9</td><td><a href="#p9">Xreal Air 2 display glasses</a></td><td>El más interesante, y el que tiene más peros</td><td>$350–450</td></tr><tr><td class="rank">10</td><td><a href="#p10">Tile or AirTag item trackers (4-pack)</a></td><td>La tranquilidad más barata</td><td>$70–100</td></tr></tbody></table></div><p style="font-size:13.5px;color:var(--ink-3);margin-top:10px">Los precios son aproximados en el momento de escribir y cambian a menudo.</p><h2>Las recomendaciones</h2><article class="card" id="p1"><img class="card-img" src="../images/tech-01.jpg" alt="Anker 737 Power Bank (24,000mAh, 140W)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">01 · El más útil de la lista</span><h3>Anker 737 Power Bank (24,000mAh, 140W)</h3><p>La mayoría de las baterías externas se venden por su capacidad, que es el dato menos interesante. Lo que importa es la potencia de salida: con 140 W, esta carga un portátil casi a toda velocidad, no con el goteo que te da una batería normal, así que de verdad sustituye a tu cargador en un viaje en lugar de solo retrasar que te quedes sin batería. La pequeña pantalla que muestra los vatios reales y la carga restante parece una pijada, pero resulta ser la función que más usas. Es pesada y no es barata, y si solo la vas a usar para recargar el móvil, deberías comprar algo que ocupe la tercera parte y cueste la cuarta.</p><div class="priceline"><span class="price">$100–140</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Pesada: la notas en la mochila todo el día</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Carga un portátil casi a máxima velocidad</li><li>La pantalla de vatios en tiempo real es realmente informativa</li><li>Un solo ladrillo para el móvil, la tableta y el portátil</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Pesada: la notas en la mochila todo el día</li><li>Excesiva y cara si solo cargas el móvil</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Anker+737+power+bank+24000mAh+140W&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3zNsBRZ">AliExpress</a></div></div></article><article class="card" id="p2"><img class="card-img" src="../images/tech-02.jpg" alt="Sony WH-1000XM6" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">02 · La mejor cancelación de ruido</span><h3>Sony WH-1000XM6</h3><p>La cancelación de ruido es una de esas raras funciones que cambia cómo se siente un espacio, no solo cómo suena. En un avión o en una oficina diáfana, el efecto es casi como cambiarse de habitación. La línea de Sony lleva años liderando esta categoría por la potencia de su cancelación y por el software que la acompaña: un emparejamiento multipunto que de verdad funciona y modos adaptativos que desactivan la cancelación cuando hablas. La contrapartida frente a Bose es la comodidad: los Sony suenan mejor y cancelan un poco más, pero los Bose son más cómodos de llevar durante seis horas seguidas. Si usas gafas, pruébate ambos antes de decidirte.</p><div class="priceline"><span class="price">$350–430</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Caros y rara vez tienen descuento</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Cancelación líder en su categoría</li><li>Emparejamiento multipunto que funciona de forma fiable</li><li>Batería de larga duración con carga rápida</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Caros y rara vez tienen descuento</li><li>Menos cómodos que los Bose en sesiones muy largas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Sony+WH-1000XM6+noise+cancelling+headphones&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c2QfIa0f">AliExpress</a></div></div></article><article class="card" id="p3"><img class="card-img" src="../images/tech-03.jpg" alt="Anker 555 USB-C hub (8-in-1)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">03 · El apaño para el portátil moderno</span><h3>Anker 555 USB-C hub (8-in-1)</h3><p>Los portátiles pierden puertos más rápido de lo que nosotros dejamos de usar los accesorios que los necesitan, y un hub es el apaño poco glamuroso. Fíjate en tres cosas: HDMI a 4K y 60 Hz en lugar de 30, que permita la carga del portátil (pass-through) para que el hub lo alimente mientras funciona, y una carcasa de aluminio, porque los de plástico se calientan y reducen su rendimiento. Este de Anker tiene las tres. La categoría está llena de aparatos casi idénticos de marcas desconocidas por la mitad de precio; suelen ir bien hasta el día en que la salida HDMI empieza a parpadear y no tienes una garantía a la que recurrir.</p><div class="priceline"><span class="price">$50–75</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Los clones más baratos parecen idénticos sobre el papel</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>HDMI 4K a 60 Hz, no los habituales 30 Hz</li><li>Permite la carga del portátil (pass-through)</li><li>La carcasa de aluminio se mantiene fría bajo carga</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Los clones más baratos parecen idénticos sobre el papel</li><li>Otro cacharro más que llevar encima</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Anker+555+USB-C+hub+8+in+1&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c35mH4kX">AliExpress</a></div></div></article><article class="card" id="p4"><img class="card-img" src="../images/tech-04.jpg" alt="Apple Watch SE (3rd gen) or Galaxy Watch FE" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">04 · El smartwatch con mejor relación calidad-precio</span><h3>Apple Watch SE (3rd gen) or Galaxy Watch FE</h3><p>Los relojes de gama alta añaden una pantalla más brillante, sensores de salud más avanzados y una caja de titanio. Los modelos económicos mantienen las funciones que la gente usa a diario: notificaciones, seguimiento de entrenamientos, sueño y pagos sin contacto. A menos que necesites específicamente mediciones de oxígeno en sangre o un electrocardiograma, la diferencia es mucho menor de lo que sugiere el precio. La verdadera limitación es el ecosistema: un Apple Watch no sirve para nada con un móvil Android y un Galaxy Watch pierde la mayor parte de su valor si no se usa con un Samsung, así que esta decisión ya estaba prácticamente tomada cuando compraste el móvil.</p><div class="priceline"><span class="price">$220–280</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Atado al ecosistema de tu móvil</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Mantiene las funciones que la gente usa a diario</li><li>Mucho más baratos que los de gama alta</li><li>Buen soporte de software durante varios años</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Atado al ecosistema de tu móvil</li><li>Sin electrocardiograma ni sensores avanzados</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Apple+Watch+SE+3rd+generation+GPS&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3xrLQ39">AliExpress</a></div></div></article><article class="card" id="p5"><img class="card-img" src="../images/tech-05.jpg" alt="Keychron K2 HE (or any hot-swappable board)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">05 · La mejor mejora para tu teclado</span><h3>Keychron K2 HE (or any hot-swappable board)</h3><p>Si te ganas la vida escribiendo, el teclado es la herramienta que más tocas, y uno mecánico es una verdadera mejora ergonómica y táctil frente al recorrido plano de un portátil. La característica específica en la que debes insistir son los zócalos &#x27;hot-swap&#x27;: te permiten cambiar los interruptores (switches) sin soldar, lo que significa que una sola compra puede volverse más ligera, pesada, silenciosa o ruidosa más adelante, a medida que descubres lo que te gusta. Compra interruptores silenciosos si compartes habitación o atiendes llamadas: el traqueteo estereotípico es una elección, no una obligación, y es la forma más rápida de molestar a todos los que te rodean.</p><div class="priceline"><span class="price">$90–190</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Ruidoso, a menos que elijas interruptores silenciosos a propósito</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>El &#x27;hot-swap&#x27; permite que un solo teclado cambie con el tiempo</li><li>Gran mejora en comodidad frente a los teclados de portátil</li><li>Inalámbrico y con cable en el mismo teclado</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Ruidoso, a menos que elijas interruptores silenciosos a propósito</li><li>Alto, puede que necesites un reposamuñecas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Keychron+K2+hot+swappable+mechanical+keyboard&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4FsNwRH">AliExpress</a></div></div></article><article class="card" id="p6"><img class="card-img" src="../images/tech-06.jpg" alt="Logitech MX Master 4" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">06 · El mejor ratón para jornadas largas</span><h3>Logitech MX Master 4</h3><p>La línea MX Master ha sido la recomendación por defecto para trabajar en un escritorio durante años, y la razón es su forma más que su sensor: sostiene la mano en lugar de exigir que la agarres, y eso es lo que tu muñeca nota después de ocho horas. La rueda de desplazamiento horizontal es esa función que no sabías que querías hasta que editas una hoja de cálculo ancha o una línea de tiempo de vídeo. Es un ratón grande, hecho para manos de medianas a grandes y un agarre de palma; si tienes las manos pequeñas o usas un agarre de garra, este modelo en concreto te resultará incómodo, y el MX Anywhere, más pequeño, es mejor compra.</p><div class="priceline"><span class="price">$95–120</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Demasiado grande para manos pequeñas o agarre de garra</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Realmente cómodo durante jornadas de trabajo completas</li><li>El desplazamiento horizontal justifica su existencia</li><li>Se empareja con tres dispositivos y cambia al instante</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Demasiado grande para manos pequeñas o agarre de garra</li><li>Pesado para llevarlo de un sitio a otro</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Logitech+MX+Master+4+wireless+mouse&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3AMG0uB">AliExpress</a></div></div></article><article class="card" id="p7"><img class="card-img" src="../images/tech-07.jpg" alt="Kindle Paperwhite (2024 or later)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">07 · El mejor dispositivo para una sola cosa</span><h3>Kindle Paperwhite (2024 or later)</h3><p>El argumento a favor de un lector de libros electrónicos no es que haga más que tu móvil, sino que hace muchísimo menos. Sin notificaciones, sin navegador, sin aplicaciones que reclamen tu atención, solo texto en una pantalla que puedes leer a pleno sol y en la oscuridad. La resistencia al agua importa más de lo que parece en la ficha técnica, porque convierte el baño y la playa en lugares de lectura. Compra la versión sin anuncios; el descuento por tener publicidad en la pantalla de bloqueo es pequeño y vas a mirar esa pantalla miles de veces.</p><div class="priceline"><span class="price">$145–180</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Atado a la tienda de Amazon para una experiencia más sencilla</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Se puede leer a pleno sol</li><li>La batería se mide en semanas</li><li>Resistente al agua, así que va a más sitios que una tableta</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Atado a la tienda de Amazon para una experiencia más sencilla</li><li>El refresco lento de pantalla lo hace malo para cualquier cosa que no sea leer</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Kindle+Paperwhite+2024+e-reader&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c4e2qO1p">AliExpress</a></div></div></article><article class="card" id="p8"><img class="card-img" src="../images/tech-08.jpg" alt="Anker Nano 3-port 65W GaN charger" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">08 · La mejor pequeña mejora</span><h3>Anker Nano 3-port 65W GaN charger</h3><p>El nitruro de galio ha hecho que los cargadores tengan aproximadamente la mitad del tamaño con la misma potencia, razón por la cual el ladrillo que venía con tu portátil ahora parece absurdo. Un solo cargador GaN de 65 W con tres puertos alimenta un portátil, un móvil y unos auriculares desde un único enchufe, por lo que viajar significa llevar un enchufe y un cable de repuesto en lugar de una bolsa de ladrillos. Es el artículo más barato de la lista y uno de los dos o tres que más reduce las molestias del día a día, lo que es una buena definición de algo que merece la pena.</p><div class="priceline"><span class="price">$35–50</span><span class="tradeoff mono"><b>Lo que aceptas:</b> 65 W no son suficientes para portátiles gaming de alto consumo</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Sustituye tres cargadores por uno</li><li>Clavijas plegables, realmente de bolsillo</li><li>Barato para la cantidad de molestias que quita</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>65 W no son suficientes para portátiles gaming de alto consumo</li><li>La potencia se reparte y disminuye cuando se usan todos los puertos</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Anker+Nano+65W+GaN+charger+3+port&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3nLT8hp">AliExpress</a></div></div></article><article class="card" id="p9"><img class="card-img" src="../images/tech-09.jpg" alt="Xreal Air 2 display glasses" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">09 · El más interesante, y el que tiene más peros</span><h3>Xreal Air 2 display glasses</h3><p>Estas gafas ponen una gran pantalla virtual delante de ti desde un dispositivo del tamaño de unas gafas de sol, lo que es realmente útil en un avión o en la habitación de un hotel donde es imposible tener un monitor. El texto es lo suficientemente nítido para trabajar de verdad, y conectarlas a un portátil o a un móvil por USB-C es un auténtico &#x27;plug-and-play&#x27;. Ahora, los peros, porque son importantes: el campo de visión es más estrecho de lo que sugieren las imágenes de marketing, aprietan en la nariz después de una o dos horas y das el cante si las llevas en público. Cómpralas si viajas constantemente y trabajas sobre la marcha. Si no, un segundo monitor cuesta la décima parte.</p><div class="priceline"><span class="price">$350–450</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Campo de visión más estrecho de lo que promete el marketing</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>Una pantalla grande en cualquier sitio, desde un dispositivo de bolsillo</li><li>Suficientemente nítido para trabajar con texto de verdad</li><li>Funciona con un solo cable USB-C</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Campo de visión más estrecho de lo que promete el marketing</li><li>Incómodas después de una o dos horas</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Xreal+Air+2+AR+display+glasses&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3eIvoOL">AliExpress</a></div></div></article><article class="card" id="p10"><img class="card-img" src="../images/tech-10.jpg" alt="Tile or AirTag item trackers (4-pack)" width="1200" height="750" loading="lazy" decoding="async"><div class="card-in"><span class="badge mono">10 · La tranquilidad más barata</span><h3>Tile or AirTag item trackers (4-pack)</h3><p>Un localizador en la mochila, la cartera y las llaves cuesta menos que reponer cualquiera de esas cosas una sola vez. Lo que hace que funcionen no es el localizador en sí, sino la red: cada móvil cercano del ecosistema informa discretamente de la ubicación de una etiqueta, por lo que la cobertura en una ciudad es casi total. Esa es también la razón para elegir el que corresponda a tu móvil: los AirTags son excelentes en un iPhone y prácticamente inútiles en Android, y Tile es la opción más neutral. Vale la pena saberlo antes de comprar: están diseñados para encontrar tus propias cosas, y ambas compañías ahora incluyen alertas antiacoso que notifican a una persona si una etiqueta desconocida viaja con ella.</p><div class="priceline"><span class="price">$70–100</span><span class="tradeoff mono"><b>Lo que aceptas:</b> Efectivamente atado al ecosistema de un móvil</span></div><div class="pc"><div class="pros"><h4>Por qué está aquí</h4><ul><li>La red de búsqueda hace que la cobertura urbana sea casi total</li><li>La pila reemplazable dura aproximadamente un año</li><li>Más barato que reponer lo que pierdes</li></ul></div><div class="cons"><h4>Conviene saber</h4><ul><li>Efectivamente atado al ecosistema de un móvil</li><li>Inútiles en zonas con pocos móviles cerca</li></ul></div></div><div class="buys"><a class="btn btn-a" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.com/s?k=Apple+AirTag+4+pack+item+tracker&amp;tag=fashionhots0f-20">Ver precio en Amazon</a><a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" href="https://s.click.aliexpress.com/e/_c3J6TNWX">AliExpress</a></div></div></article><h2>Preguntas frecuentes</h2><div class="faq"><details><summary>¿Merece la pena comprar el modelo de gama alta del año pasado?</summary><p>Normalmente sí, para móviles, relojes y auriculares. Las mejoras de un año para otro en estas categorías son pequeñas, y el modelo del año pasado suele venderse por un 25–40% menos a los pocos meses de un nuevo lanzamiento.</p></details><details><summary>¿Son realmente malas las versiones baratas y sin marca?</summary><p>Para accesorios pasivos como cables y soportes, a menudo están bien. Para cualquier cosa que lleve batería o suministre energía, la marca importa: ahí es donde merece la pena pagar por las certificaciones de seguridad, el diseño térmico y una garantía honesta.</p></details><details><summary>Si trabajo todo el día con un portátil, ¿qué debería comprar primero?</summary><p>Un hub y un cargador en condiciones, y después un teclado y un ratón externos. Esas cuatro cosas mejoran tu postura y reducen las molestias diarias más que cualquier dispositivo caro de esta lista.</p></details><details><summary>¿Necesito también el cable USB-C más nuevo?</summary><p>Para cargar, casi cualquier cable moderno sirve. Para transferir datos rápidamente o conectar un monitor, los cables baratos fallan de verdad; comprueba que el cable especifique su potencia y velocidad de datos en lugar de darlo por hecho.</p></details></div><div class="closer"><h2>Ofertas de hoy</h2><p>Mira qué está rebajado ahora mismo.</p><a class="btn" href="../index.html">Ofertas →</a></div><p class="mono" style="margin-top:34px"><a href="posts.html">← Todas las guías</a></p><p class="disc">No somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Los precios y la disponibilidad son correctos en la fecha de publicación y pueden cambiar.</p></div></div><footer><nav><a href="../about.html">Quiénes somos</a><a href="../contact.html">Contacto</a><a href="../privacy.html">Privacidad</a><a href="../terms.html">Términos</a><a href="posts.html">Guías</a></nav><p>No somos Afiliados de Amazon y hoy no ganamos nada con los enlaces a Amazon. Como afiliados de AliExpress, ganamos por las compras que cumplen los requisitos. Nunca te cuesta más.</p><p style="margin-top:10px">© 2026 fashionhotspot</p><div class="langsw"><a href="../post-tech.html" hreflang="en">English</a> · <a href="../he/post-tech.html" hreflang="he">עברית</a> · <a href="../fr/post-tech.html" hreflang="fr">Français</a> · <a href="../de/post-tech.html" hreflang="de">Deutsch</a> · <a href="../el/post-tech.html" hreflang="el">Ελληνικά</a></div></footer>
+<script>function fhToggleTheme(){var d=document.documentElement,n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;try{localStorage.setItem("fh-theme",n);}catch(e){}}try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",function(ev){if(!localStorage.getItem("fh-theme"))document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script><script>(function(){var b=document.getElementById("prog");if(!b)return;var f=function(){var h=document.documentElement.scrollHeight-innerHeight;b.style.width=(h>0?Math.min(100,scrollY/h*100):0)+"%";};addEventListener("scroll",f,{passive:true});addEventListener("resize",f);f();})();</script>
 </body>
 </html>

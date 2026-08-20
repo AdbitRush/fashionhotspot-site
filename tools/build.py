@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from theme import (CSS, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
-                   THEME_SCRIPT)
+                   THEME_SCRIPT, GUIDE_SCRIPT, INDEX_SCRIPT)
 from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, FONT_LINKS,  # noqa: E402
                    t, fmt_date, disclosure)
 from i18n_schema import CONTENT, load_translation, merge     # noqa: E402
@@ -32,6 +32,30 @@ ORDER = ["tech", "smart-home", "kitchen", "coffee", "home-office", "fitness",
          "travel", "pets", "photography", "gaming", "outdoor", "beauty",
          "phone", "kids", "health", "storage", "car", "garden", "fashion",
          "back-to-school"]
+
+# Filter groups for the guides index.
+#
+# `category` in the content JSON is one per guide — 35 guides, 35 distinct
+# categories — so filtering on it gives 35 chips that each narrow the page to a
+# single card. That is a slow way to click a link, not a filter. These are the
+# coarse buckets the chip row actually uses; the specific category still shows
+# on every card, so nothing is hidden by the grouping.
+#
+# Keyed by slug rather than by category label so the mapping survives
+# translation: the chips carry the key in data-cat and only the visible text is
+# localised. A slug missing from here falls into "home", which is wrong-ish but
+# visible, rather than vanishing from every filter.
+GROUPS = {
+    "grp_home": ["air", "bathroom", "cleaning", "garden", "laundry", "lighting",
+                 "security", "smart-home", "storage", "tools"],
+    "grp_kitchen": ["coffee", "grilling", "kitchen"],
+    "grp_tech": ["audio", "gaming", "home-office", "phone", "photography", "tech"],
+    "grp_health": ["fitness", "health", "running", "sleep"],
+    "grp_beauty": ["beauty", "fashion", "haircare", "skincare"],
+    "grp_family": ["baby", "back-to-school", "kids", "pets"],
+    "grp_outdoors": ["car", "cycling", "outdoor", "travel"],
+}
+GROUP_OF = {slug: key for key, slugs in GROUPS.items() for slug in slugs}
 
 e = lambda s: html.escape(str(s), quote=True)
 
@@ -121,8 +145,14 @@ def nav(lang, current):
     links = "".join(
         f'<a href="{e(h)}"{" aria-current=\"page\"" if h.endswith(current) else ""}>{e(x)}</a>'
         for h, x in items)
+    # The "/ guides" kicker beside the wordmark says which half of the site you
+    # are in. It is decoration next to a link that already says the same thing,
+    # so it is aria-hidden rather than read out twice, and it drops on mobile.
     return (f'<div class="nav"><div class="nav-in">'
-            f'<a class="logo" href="{e(r)}index.html">fashion<span>hotspot</span></a>'
+            f'<a class="brand" href="{e(r)}index.html">'
+            f'<span class="logo">fashion<span>hotspot</span></span>'
+            f'<span class="mono navkick" aria-hidden="true">/ {e(t(lang, "guides")).lower()}</span>'
+            f'</a>'
             f'<nav class="nav-links">{links}</nav>{THEME_TOGGLE}</div></div>')
 
 
@@ -158,7 +188,8 @@ def alternates(page):
     return out + f'<link rel="alternate" hreflang="x-default" href="{url(DEFAULT, page)}">'
 
 
-def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=None):
+def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=None,
+               body_end=""):
     cfg = LANGS[lang]
     rtl = cfg["dir"] == "rtl"
     fonts = FONTS + (RTL_FONT if rtl else "")
@@ -167,8 +198,13 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
     extra_css = ""
     if cfg["font"] == "Noto Sans":
-        extra_css = ("<style>body,h1,h2,h3,.logo{font-family:'Noto Sans',"
-                     "Inter,system-ui,sans-serif}</style>")
+        # Archivo is Latin-only, so Greek would fall through to a system font and
+        # lose the 900 weight the whole design rests on. The mono classes are in
+        # this list for the same reason — JetBrains Mono does cover Greek, but
+        # mixing it with Noto Sans headings looked like two unrelated pages.
+        extra_css = ("<style>body,h1,h2,h3,.logo,.chip,.mono,.sidenum,.rank,th,"
+                     ".pc h4{font-family:'Noto Sans',system-ui,sans-serif}"
+                     ".mono,th,.pc h4{letter-spacing:.08em}</style>")
     return f"""<!DOCTYPE html>
 <html lang="{lang}" dir="{cfg['dir']}">
 <head>
@@ -192,7 +228,7 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
 </head>
 <body>
 {body}
-{THEME_SCRIPT}
+{THEME_SCRIPT}{body_end}
 </body>
 </html>
 """
@@ -208,19 +244,32 @@ def render_guide(g, lang):
     canon = url(lang, page)
     products = g["products"]
 
-    crumb = (f'<div class="crumbs"><a href="{r}index.html">{e(t(lang, "home"))}</a> › '
+    crumb = (f'<div class="crumbs mono"><a href="{r}index.html">{e(t(lang, "home"))}</a> › '
              f'<a href="posts.html">{e(t(lang, "guides"))}</a> › {e(g["category"])}</div>')
-    byline = (f'<div class="byline"><b>{e(AUTHOR.get(lang, AUTHOR[DEFAULT]))}</b>'
-              f'<span class="dot">·</span><span>{e(t(lang, "updated"))} '
-              f'<time datetime="{e(g["updated"])}">{e(fmt_date(g["updated"], lang))}</time></span>'
-              f'<span class="dot">·</span>'
-              f'<span>{g.get("read_minutes", 9)} {e(t(lang, "min_read"))}</span>'
-              f'<span class="dot">·</span>'
-              f'<span>{len(products)} {e(t(lang, "picks"))}</span></div>')
-    head = (f'{crumb}<div class="kicker">{e(g["category"])} · {e(t(lang, "buying_guide"))}</div>'
-            f'<h1>{e(g["title"])}</h1><p class="dek">{e(g["dek"])}</p>{byline}')
+    # Category, length and freshness all live in the kicker now; the byline row
+    # underneath the dek carries only who wrote it and how many picks there are.
+    kicker = (f'<span class="kicker mono">{e(g["category"])} · '
+              f'{g.get("read_minutes", 9)} {e(t(lang, "min_read"))} · '
+              f'{e(t(lang, "updated"))} '
+              f'<time datetime="{e(g["updated"])}">{e(fmt_date(g["updated"], lang))}</time>'
+              f'</span>')
+    byline = (f'<div class="byline mono"><span class="av" aria-hidden="true"></span>'
+              f'<b>{e(AUTHOR.get(lang, AUTHOR[DEFAULT]))}</b>'
+              f'<span class="end">{len(products)} {e(t(lang, "picks"))}</span></div>')
+    head = (f'{crumb}{kicker}<h1>{e(g["title"])}</h1>'
+            f'<p class="dek">{e(g["dek"])}</p>{byline}')
+    # The lead image breaks out of the 760px reading column — it is the one
+    # element on the page the design lets run to 1080px.
     hero = (f'<div class="hero"><img src="{r}images/hero-{slug}.jpg" '
             f'alt="{e(g["title"])}" width="1600" height="840" fetchpriority="high"></div>')
+    # "The short version" is the number-one pick and its own tag, read straight
+    # off the guide data. It is a pointer into the list below, not a separate
+    # editorial claim that could go stale when the list is regenerated.
+    short = ""
+    if products:
+        short = (f'<div class="short"><div class="mono">{e(t(lang, "short_version"))}</div>'
+                 f'<div class="lead-pick">{e(products[0]["name"])}</div>'
+                 f'<div class="lead-tag mono">{e(products[0]["tag"])}</div></div>')
 
     intro = "".join(f'<p{" class=\"lead\"" if i == 0 else ""}>{e(p)}</p>'
                     for i, p in enumerate(g["intro"]))
@@ -250,14 +299,23 @@ def render_guide(g, lang):
         if SHOW_ALI:
             buys += (f'<a class="btn btn-b" rel="nofollow sponsored noopener" target="_blank" '
                      f'href="{e(aliexpress(p["search"]))}">AliExpress</a>')
+        # The trade-off line is the first "con" promoted onto the price row,
+        # which is where a reader deciding on price actually looks. It is the
+        # same sentence that appears in the list below — surfaced, not invented.
+        # A pick with no cons recorded simply gets no line rather than a blank
+        # label, because "Trade-off:" followed by nothing reads as an omission.
+        cons_list = p.get("cons", [])
+        trade = (f'<span class="tradeoff mono"><b>{e(t(lang, "tradeoff"))}:</b> '
+                 f'{e(cons_list[0])}</span>' if cons_list else "")
         cards.append(
             f'<article class="card" id="p{i}">'
             f'<img class="card-img" src="{r}images/{slug}-{i:02d}.jpg" alt="{e(p["name"])}" '
             f'width="1200" height="750" loading="lazy" decoding="async">'
-            f'<div class="card-in"><div class="card-top"><div class="num">{i}</div>'
-            f'<div style="flex:1"><span class="tag">{e(p["tag"])}</span>'
-            f'<h3>{e(p["name"])}</h3><div class="price">{e(p["price"])}</div></div></div>'
+            f'<div class="card-in">'
+            f'<span class="badge mono">{i:02d} · {e(p["tag"])}</span>'
+            f'<h3>{e(p["name"])}</h3>'
             f'<p>{e(p["body"])}</p>'
+            f'<div class="priceline"><span class="price">{e(p["price"])}</span>{trade}</div>'
             f'<div class="pc"><div class="pros"><h4>{e(t(lang, "why_here"))}</h4><ul>{pros}</ul></div>'
             f'<div class="cons"><h4>{e(t(lang, "worth_knowing"))}</h4><ul>{cons}</ul></div></div>'
             f'<div class="buys">{buys}</div></div></article>')
@@ -268,10 +326,21 @@ def render_guide(g, lang):
     faq = (f'<h2>{e(t(lang, "faq"))}</h2><div class="faq">{faq_items}</div>'
            if faq_items else "")
 
-    body = (nav(lang, page) + '<div class="wrap">' + head + hero
-            + '<div class="body">' + intro + note + how + table
-            + f'<h2>{e(t(lang, "the_picks"))}</h2>' + "".join(cards) + faq
-            + f'<p style="margin-top:34px"><a href="posts.html">← {e(t(lang, "all_guides"))}</a></p>'
+    # The closer sends the reader to the deals feed, which is the one thing the
+    # site can promise here. The design's original wording offered to message
+    # people when a product on the page hit a low — the guides carry no price
+    # tracking and no signup, so that button would not have done what it said.
+    closer = (f'<div class="closer"><h2>{e(t(lang, "closer_title"))}</h2>'
+              f'<p>{e(t(lang, "closer_body"))}</p>'
+              f'<a class="btn" href="{r}index.html">{e(t(lang, "deals"))} →</a></div>')
+
+    prog = '<div class="progtrack"><div class="progbar" id="prog"></div></div>'
+
+    body = (nav(lang, page) + prog + '<div class="wrap">' + head + '</div>' + hero
+            + '<div class="wrap"><div class="body">' + intro + short + note + how + table
+            + f'<h2>{e(t(lang, "the_picks"))}</h2>' + "".join(cards) + faq + closer
+            + f'<p class="mono" style="margin-top:34px">'
+              f'<a href="posts.html">← {e(t(lang, "all_guides"))}</a></p>'
             + f'<p class="disc">{e(disclosure(lang, SHOW_AMZ, SHOW_ALI))}</p>'
             + "</div></div>" + footer(lang, page))
 
@@ -296,7 +365,8 @@ def render_guide(g, lang):
     return page_shell(lang, f'{head_title} — {BRAND}', g["dek"], body,
                       canonical=canon,
                       extra_head=json_ld(g, lang, canon) + alternates(page),
-                      og_image=f"{SITE}/images/hero-{slug}.jpg")
+                      og_image=f"{SITE}/images/hero-{slug}.jpg",
+                      body_end=GUIDE_SCRIPT)
 
 
 def price_offer(raw):
@@ -390,20 +460,77 @@ def json_ld(g, lang, canon):
 
 def render_index(guides, lang):
     r = rel_root(lang)
+    n = len(guides)
+
+    # ── masthead ──────────────────────────────────────────────────────────
+    # The eyebrow states the two things the index can support: how many guides
+    # there are, and that every one of them names its trade-offs. The design's
+    # line here was "written by us · never scraped", which is a claim about how
+    # the copy is produced and not one this pipeline can stand behind.
+    masthead = (f'<div class="masthead">'
+                f'<div class="mono eyebrow">{n} · {e(t(lang, "guides"))}</div>'
+                f'<h1>{e(t(lang, "index_title"))}</h1>'
+                f'<p class="dek">{e(t(lang, "index_dek"))}</p></div>')
+
+    # ── featured + recently updated ───────────────────────────────────────
+    # "Latest" and the numbered side list both sort on the guide's own `updated`
+    # field. The design labelled this slot "most read this month"; that needs
+    # analytics the site does not collect, so the ordering would have been
+    # decorative and the label untrue.
+    by_date = sorted(guides, key=lambda x: x.get("updated", ""), reverse=True)
+    lead, rest = by_date[0], by_date[1:6]
+    side = "".join(
+        f'<a class="sideitem" href="post-{g["slug"]}.html">'
+        f'<span class="sidenum">{i:02d}</span><span><b>{e(g["title"])}</b>'
+        f'<span class="mono">{e(g["category"])} · {g.get("read_minutes", 9)} '
+        f'{e(t(lang, "min_read"))}</span></span></a>'
+        for i, g in enumerate(rest, 1))
+    feat = (f'<div class="feat">'
+            f'<a class="feat-main" href="post-{lead["slug"]}.html">'
+            f'<img src="{r}images/hero-{lead["slug"]}.jpg" alt="{e(lead["title"])}" '
+            f'width="1600" height="840" fetchpriority="high" decoding="async">'
+            f'<div class="feat-meta mono"><span class="pill">{e(t(lang, "latest"))}</span>'
+            f'<span>{e(lead["category"])} · {lead.get("read_minutes", 9)} '
+            f'{e(t(lang, "min_read"))}</span></div>'
+            f'<h2>{e(lead["title"])}</h2><p>{e(lead["dek"])}</p></a>'
+            f'<div class="sidelist"><div class="mono">'
+            f'{e(t(lang, "recently_updated"))}</div>{side}</div></div>')
+
+    # ── filter chips ──────────────────────────────────────────────────────
+    # Categories in the order the guides are already sorted in, deduped. The
+    # chips are <button>s inside the document, not links, because filtering
+    # never changes the URL — every card stays in the HTML for crawlers.
+    present = [k for k in GROUPS
+               if any(GROUP_OF.get(g["slug"], "grp_home") == k for g in guides)]
+    chips = (f'<button type="button" class="chip" data-cat="" aria-pressed="true">'
+             f'{e(t(lang, "all"))}</button>')
+    chips += "".join(
+        f'<button type="button" class="chip" data-cat="{k}" aria-pressed="false">'
+        f'{e(t(lang, k))}</button>' for k in present)
+    tpl = t(lang, "showing")
+    filters = (f'<div class="filters" id="filters">{chips}'
+               f'<span class="mono count" id="shown" data-tpl="{e(tpl)}">'
+               f'{e(tpl.replace("{n}", str(n)))}</span></div>')
+
+    # ── grid ──────────────────────────────────────────────────────────────
     cards = []
     for g in guides:
         cards.append(
-            f'<a class="gcard" href="post-{g["slug"]}.html">'
+            f'<a class="gcard" href="post-{g["slug"]}.html" '
+            f'data-cat="{GROUP_OF.get(g["slug"], "grp_home")}">'
+            f'<div class="gcard-media">'
             f'<img src="{r}images/hero-{g["slug"]}.jpg" alt="{e(g["title"])}" '
             f'width="1600" height="840" loading="lazy" decoding="async">'
-            f'<div class="gcard-in"><span class="tag">{e(g["category"])}</span>'
+            f'<span class="mono gcard-cat">{e(g["category"])}</span></div>'
+            f'<div class="gcard-in">'
             f'<h3>{e(g["title"])}</h3><p class="sum">{e(g["dek"])}</p>'
-            f'<div class="meta">{e(fmt_date(g["updated"], lang))} · '
-            f'{len(g["products"])} {e(t(lang, "picks"))}</div></div></a>')
+            f'<div class="mono gcard-foot">'
+            f'<span>{g.get("read_minutes", 9)} {e(t(lang, "min_read"))} · '
+            f'{len(g["products"])} {e(t(lang, "picks"))}</span>'
+            f'<span class="go">{e(t(lang, "read_guide"))} ↗</span></div></div></a>')
+
     body = (nav(lang, "posts.html") + '<div class="wide">'
-            + f'<div class="kicker" style="margin-top:34px">{e(t(lang, "guides"))}</div>'
-            + f'<h1>{e(t(lang, "index_title"))}</h1>'
-            + f'<p class="dek" style="max-width:640px">{e(t(lang, "index_dek"))}</p>'
+            + masthead + feat + filters
             + f'<div class="grid">{"".join(cards)}</div>'
             + f'<p class="disc" style="max-width:760px">'
               f'{e(disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True))}</p></div>'
@@ -411,7 +538,8 @@ def render_index(guides, lang):
     return page_shell(lang, f'{t(lang, "index_title")} — {BRAND}', t(lang, "index_dek"),
                       body, canonical=url(lang, "posts.html"),
                       extra_head=alternates("posts.html"),
-                      og_image=f"{SITE}/images/hero-{guides[0]['slug']}.jpg" if guides else None)
+                      og_image=f"{SITE}/images/hero-{lead['slug']}.jpg" if guides else None,
+                      body_end=INDEX_SCRIPT)
 
 
 def render_sitemap(guides):
