@@ -134,7 +134,14 @@ $params = [
     'target_currency' => 'USD',
     'target_language' => $lang,
     'ship_to_country' => 'IL',
-    'sort'            => 'LAST_VOLUME_DESC',
+    // NO 'sort' PARAMETER, deliberately. The nightly deal fetch uses
+    // LAST_VOLUME_DESC because it is building a discovery feed and units sold
+    // is a decent proxy for "actually good". That is the wrong ranking for a
+    // SEARCH: it sorts by popularity across a loose keyword match, so someone
+    // asking for "gaming chair" got a high-volume car seat pad, and a Hebrew
+    // search for a water filter returned a sensory squeeze toy. Leaving sort
+    // unset lets the API rank by relevance, which is what a person typing a
+    // specific product wants.
     'min_sale_price'  => '300',    // cents — see header
     'max_sale_price'  => '30000',
 ];
@@ -209,6 +216,73 @@ foreach ($products as $p) {
     ];
     if (count($out) >= 9) { break; }
 }
+
+// ── relevance ranking ───────────────────────────────────────────────────────
+// The API matches loosely and, worse, ranks ACCESSORIES FOR a thing as if they
+// were the thing. Measured on the live endpoint:
+//   "coffee machine"  -> a pump cleaning tool and a drip tray replacement
+//   "running shoes"   -> roller skates
+//   "baby stroller"   -> a white noise machine
+// A word filter cannot fix that, because "Nespresso Coffee Machine Drip Tray"
+// contains both query words. So score and sort instead of filtering:
+//
+//   + every query word found in the title
+//   + a large bonus when ALL of them are (roller skates lack "running")
+//   - accessory markers, but only when the visitor did not ask for one.
+//     Someone searching "phone case" should still get cases.
+$ql    = mb_strtolower($q, 'UTF-8');
+$stop  = ['the','and','for','with','a','an','of','to','in','my','best','cheap'];
+$words = preg_split('/[\s,]+/u', $ql, -1, PREG_SPLIT_NO_EMPTY);
+$words = array_values(array_filter($words, static function ($w) use ($stop) {
+    return mb_strlen($w, 'UTF-8') >= 3 && !in_array($w, $stop, true);
+}));
+
+// Every entry must be UNAMBIGUOUSLY an accessory, because the guard below only
+// skips it when the visitor typed it themselves. A bare 'bag' would wreck a
+// search for "backpack" (the title says "Travel Bag Backpack"), so the list
+// uses two-word forms wherever the single word is a product in its own right.
+// Added after measuring: a mosquito net ranked first for "infant pushchair
+// buggy", and a mat BAG first for "pilates exercise mat".
+$ACCESSORY = ['replacement','compatible','spare','accessor','keycap','decal',
+              'sticker','protector','protective','repair','refill','cartridge',
+              'drip tray','cleaning','adapter','bracket','mosquito',
+              'mount for','parts for','cover for','case for','fit for',
+              'suitable for','storage bag','carry bag','carrying case','mat bag',
+              'dust cover','net for','sleeve for','strap for','stand for',
+              'holder for','cushion for','organizer for','keycaps','phone case'];
+
+if ($words) {
+    $scored = [];
+    foreach ($out as $row) {
+        $t = mb_strtolower($row['title'], 'UTF-8');
+        $found = 0;
+        foreach ($words as $w) { if (mb_strpos($t, $w) !== false) { $found++; } }
+        if ($found === 0) { continue; }          // nothing in common at all
+        $score = $found * 10;
+        if ($found === count($words)) { $score += 20; }
+        foreach ($ACCESSORY as $a) {
+            if (mb_strpos($t, $a) !== false && mb_strpos($ql, $a) === false) { $score -= 32; }
+        }
+        // "X for Y" is the accessory shape even when no keyword above appears.
+        // The real accessory tell is not the word "for" - it is "for <Brand>":
+        // "for Garmin", "for Samsung S25", "for CHANA Changan". Keying on bare
+        // "for" was both too broad (it fires on "Warm Bed for Large Dogs", a
+        // genuine product) and too narrow, because it was disabled whenever the
+        // QUERY contained "for" - so a search for "phone holder for bike"
+        // switched the protection off and returned phone cases. A capital after
+        // "for" is checked on the ORIGINAL-CASE title and needs no query guard.
+        if (preg_match('/\bfor\s+[A-Z0-9]/u', $row['title'])) { $score -= 25; }
+        $row['_score'] = $score;
+        $scored[] = $row;
+    }
+    if (count($scored) >= 3) {
+        usort($scored, static function ($a, $b) { return $b['_score'] <=> $a['_score']; });
+        $out = $scored;
+    }
+}
+// Internal ranking signal — not something a browser needs to see.
+foreach ($out as $i => $row) { unset($out[$i]['_score']); }
+$out = array_values($out);
 
 $payload = json_encode([
     'ok'      => true,
