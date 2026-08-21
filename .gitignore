@@ -12,3 +12,8 @@ PW*.txt
 *password*.txt
 *credentials*.txt
 *creds*.txt
+
+# Live-search credentials. Holds the AliExpress app secret; this repo is public
+# and deploy.sh walks the whole tree, so committing it would put the secret in
+# git history AND on a public host. See api/config.example.php.
+api/config.php
