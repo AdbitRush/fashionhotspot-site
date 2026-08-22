@@ -14,6 +14,28 @@
     "not require exclusivity, so these are kept by default — turn them off with",
     "!site israel off if you want the homepage to be Amazon and nothing else."
   ],
+  "_whatsapp_comment": [
+    "Where the site's 'Request via WhatsApp' button points.",
+    "",
+    "This was a phone number hardcoded inside site-template.js, and it was the",
+    "WRONG number — visitors were told it is not on WhatsApp. Correcting it",
+    "meant editing a 2,500-line template literal, so it stayed broken.",
+    "",
+    "contact_number : digits only, no + and no spaces. Empty hides the button.",
+    "group_invite   : a https://chat.whatsapp.com/... link. Get it in WhatsApp:",
+    "                 open the group -> Group info -> Invite via link -> Copy.",
+    "                 Anything that is not a chat.whatsapp.com URL is ignored",
+    "                 with a warning rather than published as a dead link.",
+    "group_name     : shown beside the group button, e.g. 'Find My Deal'.",
+    "",
+    "Any key may be left empty; that button simply does not render. Both empty",
+    "means no WhatsApp section at all, which is better than a link to nowhere."
+  ],
+  "whatsapp": {
+    "contact_number": "972559884354",
+    "group_invite": "",
+    "group_name": "findmydealaw"
+  },
   "affiliates": {
     "amazon": true,
     "aliexpress": true,
