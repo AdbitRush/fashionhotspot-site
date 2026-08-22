@@ -82,6 +82,42 @@ $lang = strtoupper(preg_replace('/[^a-zA-Z]/', '', (string)($_GET['lang'] ?? 'EN
 $allowedLangs = ['EN', 'HE', 'ES', 'FR', 'DE', 'EL'];
 if (!in_array($lang, $allowedLangs, true)) { $lang = 'EN'; }
 
+// ── content gate ────────────────────────────────────────────────────────────
+// Two checks, because they fail differently. The QUERY is checked so we never
+// send an adult search upstream at all; the TITLES are checked because a clean
+// query can still surface something explicit — "toy" and "massage" both do it.
+//
+// Whole-word matching with an allowlist checked first. Substring matching would
+// block "analysis" for containing a slur and "grape" for containing another,
+// and without the allowlist a breast pump and a cocktail shaker are refused.
+// See api/blocklist.php.
+$BL = @include __DIR__ . '/blocklist.php';
+$BLOCK = is_array($BL) && isset($BL['block']) ? $BL['block'] : [];
+$ALLOW = is_array($BL) && isset($BL['allow']) ? $BL['allow'] : [];
+
+function fh_is_blocked(string $text, array $block, array $allow): bool {
+    $t = ' ' . preg_replace('/[^\p{L}\p{N}]+/u', ' ', mb_strtolower($text, 'UTF-8')) . ' ';
+    // Allowlist first: a phrase that is a real product wins over any word
+    // inside it. Removing it before matching means "breast pump" cannot be
+    // caught by "breast".
+    foreach ($allow as $ok) {
+        $t = str_replace(' ' . $ok . ' ', ' ', $t);
+        $t = str_replace($ok, ' ', $t);
+    }
+    foreach ($block as $bad) {
+        if (mb_strpos($t, ' ' . $bad . ' ') !== false) { return true; }
+    }
+    return false;
+}
+
+if (fh_is_blocked($q, $BLOCK, $ALLOW)) {
+    // Answer normally rather than erroring: the front end shows "nothing
+    // found", which is the right experience and gives nothing away.
+    echo json_encode(['ok' => true, 'query' => $q, 'results' => [],
+                      'reason' => 'blocked'], JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
 // -- query translation -------------------------------------------------------
 // AliExpress does not keyword-match Hebrew or Greek. Measured on the live
 // endpoint: "coffee machine" typed in Hebrew returned a sleep mask, and the
@@ -147,7 +183,7 @@ if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
 // changes. Without it a code fix is invisible for up to the TTL on every query
 // anyone has already run — which made three separate fixes look like they had
 // not worked, because the endpoint kept serving pre-fix answers.
-const CACHE_VERSION = 10;
+const CACHE_VERSION = 11;
 $cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
 // 90 seconds. The cache exists to stop a burst costing a burst of API calls —
@@ -291,6 +327,8 @@ foreach ($products as $p) {
     $link  = (string)($p['promotion_link'] ?? '');
     $title = trim((string)($p['product_title'] ?? ''));
     if ($price <= 0 || $link === '' || $title === '') { continue; }
+    // A clean query can still surface something explicit.
+    if (fh_is_blocked($title, $BLOCK, $ALLOW)) { continue; }
 
     // Recompute rather than trusting the API's `discount` string, and drop the
     // ones the site already refuses to publish elsewhere: an "original price"
