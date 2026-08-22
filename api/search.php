@@ -96,7 +96,11 @@ if (!in_array($lang, $allowedLangs, true)) { $lang = 'EN'; }
 // deals site. An unknown word passes through untouched and the relevance filter
 // still protects the result.
 $TERMS = [
-    'מכונת קפה'=>'coffee machine','קפה'=>'coffee','מכונה'=>'machine','קומקום'=>'kettle',
+    'מכונת קפה'=>'coffee machine','מכונת אספרסו'=>'espresso machine',
+    'אספרסו'=>'espresso','קפה'=>'coffee','מכונת'=>'machine','מכונה'=>'machine',
+    'קומקום'=>'kettle','אלחוטי'=>'wireless','אלחוטיות'=>'wireless','חשמלי'=>'electric',
+    'נייד'=>'portable','קטן'=>'small','גדול'=>'large','גיימינג'=>'gaming',
+    'משרדי'=>'office','עור'=>'leather','טובה'=>'',
     'מיקסר'=>'mixer','בלנדר'=>'blender','סיר'=>'pot','מחבת'=>'pan','צלחות'=>'plates',
     'סכינים'=>'knives','טוסטר'=>'toaster','מיקרוגל'=>'microwave','מקרר'=>'fridge',
     'אוזניות גיימינג'=>'gaming headset','אוזניות'=>'earbuds','אוזניה'=>'earphone',
@@ -143,7 +147,7 @@ if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
 // changes. Without it a code fix is invisible for up to the TTL on every query
 // anyone has already run — which made three separate fixes look like they had
 // not worked, because the endpoint kept serving pre-fix answers.
-const CACHE_VERSION = 3;
+const CACHE_VERSION = 8;
 $cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
 $CACHE_TTL = 1800; // 30 minutes
@@ -188,7 +192,28 @@ $params = [
     'page_size'       => '12',
     'tracking_id'     => $TID,
     'target_currency' => 'USD',
-    'target_language' => $lang,
+    // Titles come back in the language we SEARCHED in, not the reader's.
+    //
+    // These have to agree or the relevance filter cannot work: with English
+    // keywords and Hebrew titles, no English word appears in any title, every
+    // row scores zero and the reader gets an empty page. Measured: lang=he
+    // returned 0 of 12 rows the API had supplied, for both English and
+    // translated queries.
+    //
+    // The trade-off is deliberate. A Hebrew reader whose query was translated
+    // sees English product titles — but sees the RIGHT products. AliExpress's
+    // Hebrew titles are machine-translated anyway, and a relevant product with
+    // an English name beats an empty result or an eye mask.
+    // One rule: titles come back in the SCRIPT WE SEARCHED IN. Latin keywords
+    // get English titles; Hebrew or Greek keywords get that language. The filter
+    // and the titles then always speak the same language, which is the condition
+    // it needs to work at all.
+    //
+    // Keying this off "did we translate?" left one hole: an English query with
+    // the interface set to Hebrew was sent untranslated, so titles came back in
+    // Hebrew and every English word scored zero — a Hebrew reader typing an
+    // English product name got nothing.
+    'target_language' => (preg_match('/[^\x{0000}-\x{024F}]/u', $qSearch) ? $lang : 'EN'),
     'ship_to_country' => 'IL',
     // NO 'sort' PARAMETER, deliberately. The nightly deal fetch uses
     // LAST_VOLUME_DESC because it is building a discovery feed and units sold
@@ -236,6 +261,7 @@ if (!is_array($rr) || (int)($rr['resp_code'] ?? 0) !== 200) {
     exit;
 }
 $products = $rr['result']['products']['product'] ?? [];
+$rawCount = is_array($products) ? count($products) : 0;
 if (!is_array($products)) { $products = []; }
 
 // ── normalise ───────────────────────────────────────────────────────────────
@@ -286,19 +312,32 @@ foreach ($products as $p) {
 //   + a large bonus when ALL of them are (roller skates lack "running")
 //   - accessory markers, but only when the visitor did not ask for one.
 //     Someone searching "phone case" should still get cases.
-$ql    = mb_strtolower($qSearch, 'UTF-8');   // the SENT query - see translation
+// Score against BOTH the original query and the translated one.
+//
+// These two fixes collided. The query is translated to English before it is
+// sent, but target_language keeps the TITLES in the reader's language — so with
+// lang=he the filter was matching English words against Hebrew titles, every
+// row scored zero, and a Hebrew reader got an empty result for every search.
+// Measured: lang=he returned 0 for both "coffee machine" and "מכונת קפה", while
+// lang=en returned 9 for the same queries.
+//
+// Taking the union means a Hebrew title matches on "קפה" and an English title
+// matches on "coffee", and a row has to match neither to be dropped.
 $stop  = ['the','and','for','with','a','an','of','to','in','my','best','cheap'];
-$words = preg_split('/[\s,]+/u', $ql, -1, PREG_SPLIT_NO_EMPTY);
-$words = array_values(array_filter($words, static function ($w) use ($stop) {
-    return mb_strlen($w, 'UTF-8') >= 3 && !in_array($w, $stop, true);
-}));
+$words = [];
+foreach ([$q, $qSearch] as $src) {
+    foreach (preg_split('/[\s,]+/u', mb_strtolower($src, 'UTF-8'), -1, PREG_SPLIT_NO_EMPTY) as $w) {
+        if (mb_strlen($w, 'UTF-8') >= 3 && !in_array($w, $stop, true)) {
+            $words[] = $w;
+        }
+    }
+}
+$words = array_values(array_unique($words));
+// The accessory guard checks "did the visitor ask for this?", so it has to see
+// both forms too — someone typing the Hebrew for "phone case" should still get
+// cases, not have them penalised.
+$ql = mb_strtolower($q . ' ' . $qSearch, 'UTF-8');
 
-// Every entry must be UNAMBIGUOUSLY an accessory, because the guard below only
-// skips it when the visitor typed it themselves. A bare 'bag' would wreck a
-// search for "backpack" (the title says "Travel Bag Backpack"), so the list
-// uses two-word forms wherever the single word is a product in its own right.
-// Added after measuring: a mosquito net ranked first for "infant pushchair
-// buggy", and a mat BAG first for "pilates exercise mat".
 $ACCESSORY = ['replacement','compatible','spare','accessor','keycap','decal',
               'sticker','protector','protective','repair','refill','cartridge',
               'drip tray','cleaning','adapter','bracket','mosquito',
@@ -315,7 +354,11 @@ if ($words) {
         foreach ($words as $w) { if (mb_strpos($t, $w) !== false) { $found++; } }
         if ($found === 0) { continue; }          // nothing in common at all
         $score = $found * 10;
-        if ($found === count($words)) { $score += 20; }
+        // A title cannot contain both the Hebrew and the English form, so
+        // requiring every word would make the bonus unreachable whenever a
+        // translation happened. Half the union counts as a full match.
+        $need = ($qSearch !== $q) ? max(1, (int)ceil(count($words) / 2)) : count($words);
+        if ($found >= $need) { $score += 20; }
         foreach ($ACCESSORY as $a) {
             if (mb_strpos($t, $a) !== false && mb_strpos($ql, $a) === false) { $score -= 32; }
         }
@@ -346,7 +389,29 @@ if ($words) {
     // front end already handles an empty result properly — it shows the
     // catalogue message and the WhatsApp link.
     usort($scored, static function ($a, $b) { return $b['_score'] <=> $a['_score']; });
-    $out = $scored;
+
+    // CROSS-LANGUAGE ESCAPE HATCH, and it is narrow on purpose.
+    //
+    // The filter compares the words of the query against the words of the
+    // title. That only works when both are in the same language. Across
+    // languages it cannot tell a coffee machine from a shirt, so it rejects
+    // everything and the reader gets an empty page — measured: Spanish
+    // "cafetera" returned 12 rows from the API and kept 0, because the titles
+    // came back in English.
+    //
+    // So: when the interface is NOT English and strict filtering removed
+    // everything, defer to the API's own ranking rather than showing nothing.
+    // We cannot verify relevance across a language boundary, and the source's
+    // best guess beats a blank result.
+    //
+    // English keeps the strict behaviour with no fallback, because there the
+    // filter CAN judge — and that is the path where "coffee machine" was
+    // returning a shirt.
+    if (!$scored && $rawCount > 0 && strtolower($lang) !== 'en') {
+        $out = array_slice($out, 0, 9);
+    } else {
+        $out = $scored;
+    }
 }
 // Internal ranking signal — not something a browser needs to see.
 foreach ($out as $i => $row) { unset($out[$i]['_score']); }
@@ -356,6 +421,7 @@ $payload = json_encode([
     'ok'      => true,
     'query'   => $q,
     'searched_as' => ($qSearch !== $q ? $qSearch : null),
+    'raw_count' => $rawCount,   // rows the API gave us, before our ranking
     'source'  => 'aliexpress',
     'live'    => true,
     'results' => $out,
