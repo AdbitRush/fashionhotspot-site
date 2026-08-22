@@ -82,13 +82,69 @@ $lang = strtoupper(preg_replace('/[^a-zA-Z]/', '', (string)($_GET['lang'] ?? 'EN
 $allowedLangs = ['EN', 'HE', 'ES', 'FR', 'DE', 'EL'];
 if (!in_array($lang, $allowedLangs, true)) { $lang = 'EN'; }
 
+// -- query translation -------------------------------------------------------
+// AliExpress does not keyword-match Hebrew or Greek. Measured on the live
+// endpoint: "coffee machine" typed in Hebrew returned a sleep mask, and the
+// Greek for "coffee maker" returned an anime makeup bag. The API ignores the
+// terms and returns something arbitrary. target_language only translates the
+// TITLES that come back; it does nothing for the search itself.
+//
+// So the query is translated to English before it is sent, while
+// target_language stays set to the reader's language so titles still come back
+// in Hebrew or Greek. A plain lookup table, not a model: costs nothing, adds no
+// latency, cannot invent a word, and covers what people actually type into a
+// deals site. An unknown word passes through untouched and the relevance filter
+// still protects the result.
+$TERMS = [
+    'מכונת קפה'=>'coffee machine','קפה'=>'coffee','מכונה'=>'machine','קומקום'=>'kettle',
+    'מיקסר'=>'mixer','בלנדר'=>'blender','סיר'=>'pot','מחבת'=>'pan','צלחות'=>'plates',
+    'סכינים'=>'knives','טוסטר'=>'toaster','מיקרוגל'=>'microwave','מקרר'=>'fridge',
+    'אוזניות גיימינג'=>'gaming headset','אוזניות'=>'earbuds','אוזניה'=>'earphone',
+    'בלוטות'=>'bluetooth','רמקול'=>'speaker','מטען'=>'charger','כבל'=>'cable',
+    'מקלדת'=>'keyboard','עכבר'=>'mouse','מסך'=>'monitor','מצלמה'=>'camera',
+    'טלפון'=>'phone','שעון חכם'=>'smart watch','שעון יד'=>'wristwatch','שעון'=>'watch',
+    'מחשב'=>'computer','נייד'=>'laptop','סוללה'=>'power bank','נורה'=>'bulb',
+    'מנורה'=>'lamp','מקרן'=>'projector',
+    'שואב אבק'=>'vacuum cleaner','שואב'=>'vacuum','מאוורר'=>'fan','מזגן'=>'air conditioner',
+    'כיסא'=>'chair','כסא'=>'chair','שולחן'=>'desk','מזרן'=>'mattress','כרית'=>'pillow',
+    'שמיכה'=>'blanket','וילון'=>'curtain','שטיח'=>'rug','מדף'=>'shelf','ארון'=>'cabinet',
+    'נעלי ריצה'=>'running shoes','נעליים'=>'shoes','חולצה'=>'shirt','מכנסיים'=>'trousers',
+    'מעיל'=>'jacket','תיק'=>'bag','ארנק'=>'wallet','משקפיים'=>'glasses',
+    'מברשת שיניים'=>'toothbrush','מייבש שיער'=>'hair dryer','מכונת גילוח'=>'shaver',
+    'צעצוע'=>'toy','כלב'=>'dog','חתול'=>'cat','אופניים'=>'bicycle','קורקינט'=>'scooter',
+    'רכב'=>'car','כלים'=>'tools','מקדחה'=>'drill','משחק'=>'game','ילדים'=>'kids',
+    'καφετιέρα'=>'coffee maker','ακουστικά'=>'headphones','πληκτρολόγιο'=>'keyboard',
+    'φορτιστής'=>'charger','καρέκλα'=>'chair','παπούτσια'=>'shoes','ρολόι'=>'watch',
+];
+$qSearch = $q;
+if (preg_match('/[\x{0590}-\x{05FF}\x{0370}-\x{03FF}]/u', $q)) {
+    $t = ' ' . $q . ' ';
+    // Longest key first, so a two-word term wins over its parts.
+    $keys = array_keys($TERMS);
+    usort($keys, static fn($a, $b) => mb_strlen($b, 'UTF-8') <=> mb_strlen($a, 'UTF-8'));
+    foreach ($keys as $src) {
+        $t = str_replace($src, ' ' . $TERMS[$src] . ' ', $t);
+    }
+    $t = trim(preg_replace('/\s+/u', ' ', $t));
+    // Only swap it in if something was actually translated. An untouched
+    // Hebrew string is no better sent than the original.
+    if ($t !== '' && $t !== $q && preg_match('/[a-z]/i', $t)) {
+        $qSearch = $t;
+    }
+}
+
 // ── cache ───────────────────────────────────────────────────────────────────
 // Two people searching "air fryer" a minute apart should cost one API call.
 // sys_get_temp_dir() rather than a directory under the web root, so cache files
 // are never fetchable — the same reasoning that keeps config.php out of reach.
 $cacheDir = sys_get_temp_dir() . '/fh-search';
 if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
-$cacheKey  = sha1(mb_strtolower($q, 'UTF-8') . '|' . $lang);
+// Bump CACHE_VERSION whenever ranking, translation or the response shape
+// changes. Without it a code fix is invisible for up to the TTL on every query
+// anyone has already run — which made three separate fixes look like they had
+// not worked, because the endpoint kept serving pre-fix answers.
+const CACHE_VERSION = 3;
+$cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
 $CACHE_TTL = 1800; // 30 minutes
 
@@ -127,7 +183,7 @@ $params = [
     'timestamp'       => gmdate('Y-m-d H:i:s'),
     'sign_method'     => 'sha256',
     'v'               => '2.0',
-    'keywords'        => $q,
+    'keywords'        => $qSearch,
     'page_no'         => '1',
     'page_size'       => '12',
     'tracking_id'     => $TID,
@@ -230,7 +286,7 @@ foreach ($products as $p) {
 //   + a large bonus when ALL of them are (roller skates lack "running")
 //   - accessory markers, but only when the visitor did not ask for one.
 //     Someone searching "phone case" should still get cases.
-$ql    = mb_strtolower($q, 'UTF-8');
+$ql    = mb_strtolower($qSearch, 'UTF-8');   // the SENT query - see translation
 $stop  = ['the','and','for','with','a','an','of','to','in','my','best','cheap'];
 $words = preg_split('/[\s,]+/u', $ql, -1, PREG_SPLIT_NO_EMPTY);
 $words = array_values(array_filter($words, static function ($w) use ($stop) {
@@ -275,10 +331,22 @@ if ($words) {
         $row['_score'] = $score;
         $scored[] = $row;
     }
-    if (count($scored) >= 3) {
-        usort($scored, static function ($a, $b) { return $b['_score'] <=> $a['_score']; });
-        $out = $scored;
-    }
+    // Always use the scored list, even when it is short or empty.
+    //
+    // This previously kept the UNFILTERED results whenever fewer than three
+    // survived — "a short list of loosely-related products beats an empty one".
+    // That reasoning was wrong, and it defeated the filter at exactly the moment
+    // the results were worst. Measured on the live endpoint: a Hebrew search for
+    // "מכונת קפה" (coffee machine) returned a sleep mask, and the Greek
+    // "καφετιέρα" returned an anime makeup bag — AliExpress keyword-matches
+    // Hebrew and Greek poorly, every row scored zero, and the fallback then
+    // published the junk it had just rejected.
+    //
+    // Nothing found is a true answer; a shirt for "coffee machine" is not. The
+    // front end already handles an empty result properly — it shows the
+    // catalogue message and the WhatsApp link.
+    usort($scored, static function ($a, $b) { return $b['_score'] <=> $a['_score']; });
+    $out = $scored;
 }
 // Internal ranking signal — not something a browser needs to see.
 foreach ($out as $i => $row) { unset($out[$i]['_score']); }
@@ -287,6 +355,7 @@ $out = array_values($out);
 $payload = json_encode([
     'ok'      => true,
     'query'   => $q,
+    'searched_as' => ($qSearch !== $q ? $qSearch : null),
     'source'  => 'aliexpress',
     'live'    => true,
     'results' => $out,
