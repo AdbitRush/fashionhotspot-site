@@ -82,6 +82,55 @@ $lang = strtoupper(preg_replace('/[^a-zA-Z]/', '', (string)($_GET['lang'] ?? 'EN
 $allowedLangs = ['EN', 'HE', 'ES', 'FR', 'DE', 'EL'];
 if (!in_array($lang, $allowedLangs, true)) { $lang = 'EN'; }
 
+// ── search log ──────────────────────────────────────────────────────────────
+// What people look for and do not find is the most useful signal this site
+// produces: it is a shopping list, written by the visitors, of deals worth
+// sourcing. Kept so those can be filled later.
+//
+// DELIBERATELY ANONYMOUS. No IP, no user agent, no session, no timestamp per
+// visitor — only the term, how many times it has been asked, how many results
+// it returned last time, and when it was last seen. There is no way to tie a
+// row back to a person, which is the right default for something that records
+// what people type. The rate limiter keeps IPs, but separately and only for 60
+// seconds.
+//
+// Written under the web root so the owner can read it, and .htaccess denies it
+// over HTTP — see the deny rule this ships with.
+function fh_log_search(string $q, int $found, string $lang): void {
+    $file = __DIR__ . '/searches.json';
+    $fp = @fopen($file, 'c+');
+    if (!$fp) { return; }
+    // Locked, because two visitors searching at once would otherwise each read
+    // the file, add their own row, and write back — losing one of them.
+    if (!flock($fp, LOCK_EX)) { fclose($fp); return; }
+    $raw = stream_get_contents($fp);
+    $db = json_decode($raw ?: '[]', true);
+    if (!is_array($db)) { $db = []; }
+    $key = mb_strtolower(trim($q), 'UTF-8');
+    if (isset($db[$key])) {
+        $db[$key]['n'] = (int)$db[$key]['n'] + 1;
+        $db[$key]['found'] = $found;
+        $db[$key]['last'] = gmdate('Y-m-d');
+        if (!in_array($lang, $db[$key]['langs'] ?? [], true)) { $db[$key]['langs'][] = $lang; }
+    } else {
+        $db[$key] = ['q' => trim($q), 'n' => 1, 'found' => $found,
+                     'first' => gmdate('Y-m-d'), 'last' => gmdate('Y-m-d'),
+                     'langs' => [$lang]];
+    }
+    // Cap it. An unbounded file that every search appends to is a slow leak,
+    // and the tail is single-hit typos nobody will ever source.
+    if (count($db) > 4000) {
+        uasort($db, static fn($a, $b) => ($b['n'] <=> $a['n']) ?: strcmp($b['last'], $a['last']));
+        $db = array_slice($db, 0, 3000, true);
+    }
+    ftruncate($fp, 0);
+    rewind($fp);
+    fwrite($fp, json_encode($db, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+    fflush($fp);
+    flock($fp, LOCK_UN);
+    fclose($fp);
+}
+
 // ── content gate ────────────────────────────────────────────────────────────
 // Two checks, because they fail differently. The QUERY is checked so we never
 // send an adult search upstream at all; the TITLES are checked because a clean
@@ -188,7 +237,7 @@ if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
 // changes. Without it a code fix is invisible for up to the TTL on every query
 // anyone has already run — which made three separate fixes look like they had
 // not worked, because the endpoint kept serving pre-fix answers.
-const CACHE_VERSION = 13;
+const CACHE_VERSION = 15;
 $cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
 // 90 seconds. The cache exists to stop a burst costing a burst of API calls —
@@ -481,6 +530,11 @@ if ($words) {
 // Internal ranking signal — not something a browser needs to see.
 foreach ($out as $i => $row) { unset($out[$i]['_score']); }
 $out = array_values($out);
+
+// Logged with the count the VISITOR saw, not the count the API returned — a
+// term that came back with 12 rows and showed 0 after filtering is exactly the
+// kind of gap worth sourcing, and recording 12 would hide it.
+fh_log_search($q, count($out), strtolower($lang));
 
 $payload = json_encode([
     'ok'      => true,

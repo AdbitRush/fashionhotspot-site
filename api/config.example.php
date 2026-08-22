@@ -33,4 +33,10 @@ return [
     'ALIEXPRESS_APP_KEY'    => 'PASTE_APP_KEY_HERE',
     'ALIEXPRESS_APP_SECRET' => 'PASTE_APP_SECRET_HERE',
     'ALIEXPRESS_TRACKING_ID' => 'PASTE_TRACKING_ID_HERE',
+
+    // Guards api/searches.php — the list of what visitors searched for.
+    // Pick a long random string. If this is left empty that page refuses
+    // outright rather than defaulting to open, because the failure mode of a
+    // missing token has to be "nobody gets in".
+    'ADMIN_TOKEN' => '',
 ];

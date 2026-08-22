@@ -1,24 +1,20 @@
-<?php
-/**
- * .htaccess — URL rewriting for clean API paths
- */
-header('Content-Type: text/plain');
-?>
-RewriteEngine On
-
-# Serve static files directly
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
-
-# API routing
-RewriteRule ^api/deals/amazon/?$ api/index.php?path=deals/amazon [QSA,L]
-RewriteRule ^api/deals/aliexpress/?$ api/index.php?path=deals/aliexpress [QSA,L]
-RewriteRule ^api/deals/?$ api/index.php?path=deals [QSA,L]
-RewriteRule ^api/health/?$ api/index.php?path=health [QSA,L]
-RewriteRule ^api/search/?$ api/index.php?action=search [QSA,L]
-RewriteRule ^api/latest/?$ api/index.php?action=latest [QSA,L]
-RewriteRule ^api/contact/?$ api/contact.php [QSA,L]
-
-# Everything else → index.html (SPA fallback)
-RewriteRule ^(.*)$ index.html [L]
+# Deny direct HTTP access to data and credentials in this directory.
+#
+# searches.json records what visitors type; config.php holds the AliExpress
+# app secret. Neither is meant to be fetchable. PHP files are executed rather
+# than served, so config.php is already safe, but the rule is explicit because
+# a server misconfiguration that stops executing PHP would otherwise publish
+# the secret as plain text.
+#
+# The previous contents of this file opened with <?php - Apache reads .htaccess
+# literally, so those lines were invalid directives and the rewrite rules below
+# them never applied.
+<FilesMatch "\.(json|log|bak)$">
+    Require all denied
+</FilesMatch>
+<Files "config.php">
+    Require all denied
+</Files>
+<Files "blocklist.php">
+    Require all denied
+</Files>
