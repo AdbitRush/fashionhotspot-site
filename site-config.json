@@ -28,13 +28,22 @@
     "                 with a warning rather than published as a dead link.",
     "group_name     : shown beside the group button, e.g. 'Find My Deal'.",
     "",
+    "deals_group_invite / deals_group_name : the MAIN publishing group. A",
+    "                 different job from group_invite above — that one answers",
+    "                 'find me this', this one is a subscription to the daily",
+    "                 feed. It gets its own section between the coupons and the",
+    "                 footer rather than living inside a modal a visitor only",
+    "                 sees after a search has already failed.",
+    "",
     "Any key may be left empty; that button simply does not render. Both empty",
     "means no WhatsApp section at all, which is better than a link to nowhere."
   ],
   "whatsapp": {
     "contact_number": "972559884354",
     "group_invite": "",
-    "group_name": "findmydealaw"
+    "group_name": "findmydealaw",
+    "deals_group_invite": "",
+    "deals_group_name": ""
   },
   "affiliates": {
     "amazon": true,
