@@ -138,7 +138,7 @@ if (preg_match('/[\x{0590}-\x{05FF}\x{0370}-\x{03FF}]/u', $q)) {
 }
 
 // ── cache ───────────────────────────────────────────────────────────────────
-// Two people searching "air fryer" a minute apart should cost one API call.
+// Two people searching "air fryer" seconds apart should cost one API call.
 // sys_get_temp_dir() rather than a directory under the web root, so cache files
 // are never fetchable — the same reasoning that keeps config.php out of reach.
 $cacheDir = sys_get_temp_dir() . '/fh-search';
@@ -147,10 +147,17 @@ if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
 // changes. Without it a code fix is invisible for up to the TTL on every query
 // anyone has already run — which made three separate fixes look like they had
 // not worked, because the endpoint kept serving pre-fix answers.
-const CACHE_VERSION = 8;
+const CACHE_VERSION = 10;
 $cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
-$CACHE_TTL = 1800; // 30 minutes
+// 90 seconds. The cache exists to stop a burst costing a burst of API calls —
+// a debounced keystroke run, a double-click, two people typing the same
+// trending term. All of that happens inside a minute or two. Thirty minutes
+// bought nothing extra and cost the thing the feature is for: a SEARCH is
+// expected to be current, prices and stock move, and a shopper who retries
+// after seeing a bad result got the same bad result served back for half an
+// hour. It also hid three code fixes in a row during development.
+$CACHE_TTL = 90;
 
 if (is_file($cacheFile) && (time() - filemtime($cacheFile)) < $CACHE_TTL) {
     $hit = file_get_contents($cacheFile);
@@ -204,16 +211,26 @@ $params = [
     // sees English product titles — but sees the RIGHT products. AliExpress's
     // Hebrew titles are machine-translated anyway, and a relevant product with
     // an English name beats an empty result or an eye mask.
-    // One rule: titles come back in the SCRIPT WE SEARCHED IN. Latin keywords
-    // get English titles; Hebrew or Greek keywords get that language. The filter
-    // and the titles then always speak the same language, which is the condition
-    // it needs to work at all.
+    // Titles come back in the language of the WORDS WE ACTUALLY SENT, so the
+    // relevance filter and the titles always speak the same language. That is
+    // the condition the filter needs; every "why is this empty" and every
+    // "why is this a beach chair" traced back to breaking it.
     //
-    // Keying this off "did we translate?" left one hole: an English query with
-    // the interface set to Hebrew was sent untranslated, so titles came back in
-    // Hebrew and every English word scored zero — a Hebrew reader typing an
-    // English product name got nothing.
-    'target_language' => (preg_match('/[^\x{0000}-\x{024F}]/u', $qSearch) ? $lang : 'EN'),
+    //   translated He/El -> English   we sent English words  -> EN titles
+    //   Latin query on a  -> English   the visitor typed Latin -> EN titles
+    //     He/El interface
+    //   anything else                 we sent the visitor's own
+    //                                 words -> titles in their language
+    //
+    // The last case is what fixes Spanish and French: asking for EN titles
+    // while the filter holds "cafetera" meant nothing could ever match, the
+    // cross-language hatch opened, and a beach chair came back for a coffee
+    // maker. Asking for Spanish titles lets the filter do its job.
+    'target_language' => (
+        ($qSearch !== $q || (!preg_match('/[^\x{0000}-\x{007F}]/u', $qSearch)
+                             && in_array(strtolower($lang), ['he', 'el'], true)))
+        ? 'EN' : $lang
+    ),
     'ship_to_country' => 'IL',
     // NO 'sort' PARAMETER, deliberately. The nightly deal fetch uses
     // LAST_VOLUME_DESC because it is building a discovery feed and units sold
