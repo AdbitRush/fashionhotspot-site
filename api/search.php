@@ -132,6 +132,11 @@ if (fh_is_blocked($q, $BLOCK, $ALLOW)) {
 // deals site. An unknown word passes through untouched and the relevance filter
 // still protects the result.
 $TERMS = [
+    'מכונת קרח'=>'ice maker','קרח'=>'ice','מקפיא'=>'freezer','גריל'=>'grill',
+    'מיחם'=>'urn','מסננת'=>'strainer','קרשים'=>'boards','סכין'=>'knife',
+    'תנור'=>'oven','כיריים'=>'stove','שואב רובוטי'=>'robot vacuum',
+    'מדיח'=>'dishwasher','מכונת כביסה'=>'washing machine','מייבש'=>'dryer',
+    'טלוויזיה'=>'tv','מסך מחשב'=>'monitor','דיסק'=>'ssd','זיכרון'=>'memory card',
     'מכונת קפה'=>'coffee machine','מכונת אספרסו'=>'espresso machine',
     'אספרסו'=>'espresso','קפה'=>'coffee','מכונת'=>'machine','מכונה'=>'machine',
     'קומקום'=>'kettle','אלחוטי'=>'wireless','אלחוטיות'=>'wireless','חשמלי'=>'electric',
@@ -183,7 +188,7 @@ if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
 // changes. Without it a code fix is invisible for up to the TTL on every query
 // anyone has already run — which made three separate fixes look like they had
 // not worked, because the endpoint kept serving pre-fix answers.
-const CACHE_VERSION = 11;
+const CACHE_VERSION = 13;
 $cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
 // 90 seconds. The cache exists to stop a burst costing a burst of API calls —
@@ -223,6 +228,16 @@ if (count($hits) >= 20) {
 $hits[] = $now;
 @file_put_contents($rlFile, json_encode(array_values($hits)), LOCK_EX);
 
+// Which language the TITLES should come back in - see the note at
+// target_language below. Computed here because it has to run before the
+// request array is built.
+$sentLang = 'EN';
+if ($qSearch === $q) {
+    if (preg_match('/[\x{0590}-\x{05FF}]/u', $qSearch))       { $sentLang = 'HE'; }
+    elseif (preg_match('/[\x{0370}-\x{03FF}]/u', $qSearch))   { $sentLang = 'EL'; }
+    elseif (!in_array(strtolower($lang), ['he', 'el'], true)) { $sentLang = $lang; }
+}
+
 // ── request ─────────────────────────────────────────────────────────────────
 $params = [
     'app_key'         => $KEY,
@@ -247,26 +262,21 @@ $params = [
     // sees English product titles — but sees the RIGHT products. AliExpress's
     // Hebrew titles are machine-translated anyway, and a relevant product with
     // an English name beats an empty result or an eye mask.
-    // Titles come back in the language of the WORDS WE ACTUALLY SENT, so the
-    // relevance filter and the titles always speak the same language. That is
-    // the condition the filter needs; every "why is this empty" and every
-    // "why is this a beach chair" traced back to breaking it.
+    // Titles come back in the language of the WORDS WE ACTUALLY SENT, decided
+    // by the SCRIPT of those words — not by the interface language.
     //
-    //   translated He/El -> English   we sent English words  -> EN titles
-    //   Latin query on a  -> English   the visitor typed Latin -> EN titles
-    //     He/El interface
-    //   anything else                 we sent the visitor's own
-    //                                 words -> titles in their language
+    // Keying it off the interface was wrong in both directions. Hebrew typed on
+    // an English interface asked for English titles and then hunted for a
+    // Hebrew word in them: "קרח" returned 9 results on the Hebrew site and 0 on
+    // the English one, off the same 12 rows from the API. A visitor does not
+    // change the site language before typing in their own.
     //
-    // The last case is what fixes Spanish and French: asking for EN titles
-    // while the filter holds "cafetera" meant nothing could ever match, the
-    // cross-language hatch opened, and a beach chair came back for a coffee
-    // maker. Asking for Spanish titles lets the filter do its job.
-    'target_language' => (
-        ($qSearch !== $q || (!preg_match('/[^\x{0000}-\x{007F}]/u', $qSearch)
-                             && in_array(strtolower($lang), ['he', 'el'], true)))
-        ? 'EN' : $lang
-    ),
+    //   we translated it   -> we sent English   -> EN
+    //   Hebrew characters  -> we sent Hebrew    -> HE
+    //   Greek characters   -> we sent Greek     -> EL
+    //   Latin characters   -> EN, unless the interface is another Latin
+    //                         language, in which case that one
+    'target_language' => $sentLang,
     'ship_to_country' => 'IL',
     // NO 'sort' PARAMETER, deliberately. The nightly deal fetch uses
     // LAST_VOLUME_DESC because it is building a discovery feed and units sold
