@@ -43,7 +43,12 @@ header('X-Content-Type-Options: nosniff');
 // Same-origin only. This endpoint spends an API quota that belongs to this
 // site, so there is no reason for another origin to be able to call it.
 header('Access-Control-Allow-Origin: https://fashionhotspot.site');
-header('Cache-Control: public, max-age=300');
+// no-store, not max-age. The server already caches for 90s; a browser cache on
+// top of it meant a visitor kept seeing a result for FIVE MINUTES after the
+// ranking had changed — the endpoint returned ice moulds while the page still
+// showed the jade jewellery it had cached. Two caches with different lifetimes
+// over the same data is a bug generator, and the outer one bought nothing.
+header('Cache-Control: no-store, max-age=0');
 
 // ── config ──────────────────────────────────────────────────────────────────
 // config.php is gitignored and returns an array. If it is missing the endpoint
