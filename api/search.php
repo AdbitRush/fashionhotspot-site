@@ -186,7 +186,7 @@ if (fh_is_blocked($q, $BLOCK, $ALLOW)) {
 // deals site. An unknown word passes through untouched and the relevance filter
 // still protects the result.
 $TERMS = [
-    'מכונת קרח'=>'ice maker','קרח'=>'ice cube','מקפיא'=>'freezer','גריל'=>'grill',
+    'מכונת קרח'=>'ice maker','קרח'=>'ice cube tray','מקפיא'=>'freezer','גריל'=>'grill',
     'מיחם'=>'urn','מסננת'=>'strainer','קרשים'=>'boards','סכין'=>'knife',
     'תנור'=>'oven','כיריים'=>'stove','שואב רובוטי'=>'robot vacuum',
     'מדיח'=>'dishwasher','מכונת כביסה'=>'washing machine','מייבש'=>'dryer',
@@ -242,7 +242,7 @@ if (!is_dir($cacheDir)) { @mkdir($cacheDir, 0700, true); }
 // changes. Without it a code fix is invisible for up to the TTL on every query
 // anyone has already run — which made three separate fixes look like they had
 // not worked, because the endpoint kept serving pre-fix answers.
-const CACHE_VERSION = 16;
+const CACHE_VERSION = 17;
 $cacheKey  = sha1(CACHE_VERSION . '|' . mb_strtolower($q, 'UTF-8') . '|' . $lang);
 $cacheFile = $cacheDir . '/' . $cacheKey . '.json';
 // 90 seconds. The cache exists to stop a burst costing a burst of API calls —
