@@ -236,6 +236,48 @@ UI_EXTRA = {
 for _code, _extra in UI_EXTRA.items():
     UI[_code].update(_extra)
 
+# Strings added 2026-08-25 for the two internal-linking changes: a "read next"
+# row at the foot of every guide, and a real landing page at each language root
+# (/he/, /es/, ... previously answered 403 Forbidden, because the folders held
+# guides but no index).
+#
+# A separate table rather than more keys inside UI_EXTRA: that dict is already
+# long enough that adding to it by hand invites a mismatched brace, and keeping
+# a dated block together makes it obvious later what arrived with what.
+UI_GROWTH = {
+    "en": {"read_next": "Read next", "related_same": "More in {grp}",
+           "home_title": "Buying guides in English",
+           "home_intro": "Independent picks, with the trade-offs stated plainly.",
+           "browse_all": "Browse all guides"},
+    "he": {"read_next": "המשיכו לקרוא", "related_same": "עוד ב{grp}",
+           "home_title": "מדריכי קנייה בעברית",
+           "home_intro": "המלצות עצמאיות, כולל מה בדיוק מוותרים.",
+           "browse_all": "לכל המדריכים"},
+    "es": {"read_next": "Sigue leyendo", "related_same": "Más en {grp}",
+           "home_title": "Guías de compra en español",
+           "home_intro": "Recomendaciones independientes, con sus contrapartidas.",
+           "browse_all": "Ver todas las guías"},
+    "fr": {"read_next": "À lire ensuite", "related_same": "Plus dans {grp}",
+           "home_title": "Guides d'achat en français",
+           "home_intro": "Des choix indépendants, compromis annoncés.",
+           "browse_all": "Voir tous les guides"},
+    "de": {"read_next": "Weiterlesen", "related_same": "Mehr in {grp}",
+           "home_title": "Kaufratgeber auf Deutsch",
+           "home_intro": "Unabhängige Empfehlungen, samt ihren Kompromissen.",
+           "browse_all": "Alle Ratgeber ansehen"},
+    "el": {"read_next": "Διαβάστε στη συνέχεια", "related_same": "Περισσότερα σε {grp}",
+           "home_title": "Οδηγοί αγοράς στα ελληνικά",
+           "home_intro": "Ανεξάρτητες επιλογές, με τους συμβιβασμούς δηλωμένους.",
+           "browse_all": "Δείτε όλους τους οδηγούς"},
+}
+# Fail loudly rather than shipping an English label into a Hebrew page. t()
+# falls back to English by design for a missing key, which is right for a key
+# somebody forgot — but a whole language missing from a new table is a mistake
+# worth catching at build time.
+assert set(UI_GROWTH) == set(UI), f"UI_GROWTH is missing {set(UI) - set(UI_GROWTH)}"
+for _code, _extra in UI_GROWTH.items():
+    UI[_code].update(_extra)
+
 AUTHOR = {
     "en": "The fashionhotspot editors", "he": "מערכת fashionhotspot",
     "es": "La redacción de fashionhotspot", "fr": "La rédaction de fashionhotspot",

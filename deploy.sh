@@ -48,7 +48,16 @@ FTP_PATH="${FTP_PATH:-}"
 #
 # NOT a blanket *.txt rule: robots.txt has to ship. Credential-shaped names
 # only.
-EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$)'
+#
+# api/*.json is excluded because the HOST owns those files, not this repo.
+# searches.json, subscribers.json and stats.json are written by PHP at runtime
+# and accumulate real visitor data. This script walks the tree and uploads what
+# it finds, so a local copy of any of them — downloaded once to look at, or
+# created by a local test — would overwrite the live file on the next deploy and
+# destroy every record since the file was made. There is no undo: FTP PUT is not
+# a merge. Excluding the pattern means that mistake is not available.
+# site-config.json is NOT under api/ and still ships; it is build configuration.
+EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$|api/.*\.json$)'
 
 mapfile -t FILES < <(
   find . -type f \

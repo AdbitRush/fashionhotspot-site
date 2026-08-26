@@ -204,6 +204,26 @@ h1{font-size:clamp(42px,6.4vw,96px);line-height:.88;letter-spacing:-.05em;
   font-weight:900;margin:0 0 14px;max-width:22ch;color:var(--ink)}
 .feat-main p{font-size:17px;line-height:1.55;color:var(--ink-2);max-width:60ch;
   text-wrap:pretty}
+/* ── Read next ─────────────────────────────────────────────────────────────
+   The row at the foot of every guide that links to related guides. Before it
+   existed no guide linked to any other, so a reader who finished one had
+   nowhere to go and a crawler saw 221 unconnected pages. Sits above the deals
+   CTA: another guide is a smaller ask than leaving for a shop. */
+.related{margin-top:44px;padding-top:26px;border-top:1px solid var(--line)}
+.relhead{letter-spacing:.18em;color:var(--ink-3);margin-bottom:16px}
+.relgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.relcard{display:flex;flex-direction:column;border-radius:16px;overflow:hidden;
+  background:var(--surface);border:1px solid var(--line);text-decoration:none;
+  color:inherit;transition:transform .25s ease,border-color .25s ease}
+.relcard:hover{transform:translateY(-3px);border-color:var(--accent)}
+.relcard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.relcard-in{display:flex;flex-direction:column;gap:6px;padding:13px 15px 15px}
+.relcard-in b{font-size:15px;font-weight:700;line-height:1.3;letter-spacing:-.015em;
+  color:var(--ink)}
+.relcard-in .mono{font-size:11px;letter-spacing:.1em;color:var(--ink-3)}
+[dir=rtl] .relhead,[dir=rtl] .relcard-in .mono{letter-spacing:.03em}
+@media (prefers-reduced-motion:reduce){.relcard,.relcard:hover{transition:none;transform:none}}
+
 .sidelist{display:flex;flex-direction:column;gap:10px}
 .sidelist>.mono{letter-spacing:.2em;padding-bottom:6px}
 .sideitem{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;

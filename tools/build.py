@@ -237,7 +237,7 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
 # --------------------------------------------------------------------------
 # a guide
 # --------------------------------------------------------------------------
-def render_guide(g, lang):
+def render_guide(g, lang, siblings=()):
     slug = g["slug"]
     r = rel_root(lang)
     page = f"post-{slug}.html"
@@ -338,7 +338,8 @@ def render_guide(g, lang):
 
     body = (nav(lang, page) + prog + '<div class="wrap">' + head + '</div>' + hero
             + '<div class="wrap"><div class="body">' + intro + short + note + how + table
-            + f'<h2>{e(t(lang, "the_picks"))}</h2>' + "".join(cards) + faq + closer
+            + f'<h2>{e(t(lang, "the_picks"))}</h2>' + "".join(cards) + faq
+            + related_guides(g, siblings, lang) + closer
             + f'<p class="mono" style="margin-top:34px">'
               f'<a href="posts.html">← {e(t(lang, "all_guides"))}</a></p>'
             + f'<p class="disc">{e(disclosure(lang, SHOW_AMZ, SHOW_ALI))}</p>'
@@ -458,6 +459,100 @@ def json_ld(g, lang, canon):
         for b in blocks)
 
 
+def related_guides(g, siblings, lang, limit=3):
+    """Guides to read next, drawn from the same GROUPS bucket.
+
+    Until this existed there were ZERO links from one guide to another across
+    221 pages. Two things follow from that. A reader who finishes a guide has
+    nowhere to go except away, and search engines see 221 orphans instead of a
+    connected set of pages that are visibly about related subjects — internal
+    links are how a site tells a crawler which of its pages belong together.
+
+    `siblings` arrives already translated into `lang`, so the titles here are in
+    the same language as the page they sit on. Passing the English list would
+    put English headlines under a Hebrew guide.
+
+    Same bucket first, since that is a real relationship rather than a guess.
+    If the bucket is thin the row is topped up with the most recently updated
+    other guides, because a short row of genuinely related pages plus a couple
+    of good ones beats padding it with something arbitrary — and beats printing
+    a heading above one link.
+    """
+    slug = g["slug"]
+    grp = GROUP_OF.get(slug)
+    pool = [x for x in siblings
+            if x["slug"] != slug and GROUP_OF.get(x["slug"]) == grp] if grp else []
+    pool.sort(key=lambda x: x.get("updated", ""), reverse=True)
+
+    if len(pool) < limit:
+        seen = {x["slug"] for x in pool} | {slug}
+        extra = sorted((x for x in siblings if x["slug"] not in seen),
+                       key=lambda x: x.get("updated", ""), reverse=True)
+        pool += extra[: limit - len(pool)]
+
+    picks = pool[:limit]
+    if len(picks) < 2:          # not worth a heading
+        return ""
+
+    label = t(lang, grp) if grp else t(lang, "guides")
+    head = t(lang, "related_same").replace("{grp}", label)
+    r = rel_root(lang)
+    items = "".join(
+        f'<a class="relcard" href="post-{x["slug"]}.html">'
+        f'<img src="{r}images/hero-{x["slug"]}.jpg" alt="" '
+        f'width="1600" height="840" loading="lazy" decoding="async">'
+        f'<span class="relcard-in"><b>{e(x["title"])}</b>'
+        f'<span class="mono">{x.get("read_minutes", 9)} {e(t(lang, "min_read"))} · '
+        f'{len(x["products"])} {e(t(lang, "picks"))}</span></span></a>'
+        for x in picks)
+    return (f'<div class="related"><div class="mono relhead">{e(t(lang, "read_next"))}'
+            f' · {e(head)}</div><div class="relgrid">{items}</div></div>')
+
+
+def render_lang_home(guides, lang):
+    """A landing page at a language folder root: /he/, /es/, /fr/, /de/, /el/.
+
+    Those five URLs answered 403 Forbidden. The folders held guide pages but no
+    index, so the server refused to list the directory — a Hebrew reader who
+    typed the folder, or followed a shortened link to it, got an error page. It
+    also meant each language had no single entry point to link to or submit.
+
+    Deliberately a thin page: a heading, a line, and a link straight into that
+    language's guide index, which is the page that actually does the work. A
+    second full grid here would compete with posts.html for the same queries.
+    """
+    r = rel_root(lang)
+    n = len(guides)
+    by_date = sorted(guides, key=lambda x: x.get("updated", ""), reverse=True)[:6]
+    items = "".join(
+        f'<a class="sideitem" href="post-{g["slug"]}.html">'
+        f'<span class="sidenum">{i:02d}</span><span><b>{e(g["title"])}</b>'
+        f'<span class="mono">{e(g["category"])} · {g.get("read_minutes", 9)} '
+        f'{e(t(lang, "min_read"))}</span></span></a>'
+        for i, g in enumerate(by_date, 1))
+
+    body = (nav(lang, "index.html") + '<div class="wide">'
+            + f'<div class="masthead"><div class="mono eyebrow">{n} · '
+              f'{e(t(lang, "guides"))}</div>'
+              f'<h1>{e(t(lang, "home_title"))}</h1>'
+              f'<p class="dek">{e(t(lang, "home_intro"))}</p></div>'
+            + f'<p class="mono" style="margin:0 0 26px">'
+              f'<a class="btn" href="posts.html">{e(t(lang, "browse_all"))} →</a></p>'
+            + f'<div class="sidelist"><div class="mono">'
+              f'{e(t(lang, "recently_updated"))}</div>{items}</div>'
+            + f'<p class="disc" style="max-width:760px;margin-top:30px">'
+              f'{e(disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True))}</p></div>'
+            + footer(lang, "index.html"))
+
+    # canonical points at THIS page, and the alternates list the same folder
+    # root in every other language — not posts.html, which is a different page.
+    return page_shell(lang, f'{t(lang, "home_title")} — {BRAND}',
+                      t(lang, "home_intro"), body,
+                      canonical=url(lang, "index.html"),
+                      extra_head=alternates("index.html"),
+                      og_image=f"{SITE}/images/hero-{by_date[0]['slug']}.jpg" if by_date else None)
+
+
 def render_index(guides, lang):
     r = rel_root(lang)
     n = len(guides)
@@ -562,6 +657,12 @@ def render_sitemap(guides):
     for p, pri in (("about.html", "0.5"), ("contact.html", "0.4"),
                    ("privacy.html", "0.3"), ("terms.html", "0.3")):
         out.append(entry(f"{SITE}/{p}", pri, "monthly"))
+    # Language landing pages: /he/, /es/, /fr/, /de/, /el/. These answered 403
+    # until 2026-08-25 and so were never listed here. English is excluded
+    # because the site root is already listed above — it is the same URL.
+    for lang in LANGS:
+        if LANGS[lang]["path"]:
+            out.append(entry(url(lang, "index.html"), "0.7", "weekly", "index.html"))
     for lang in LANGS:
         pri = "0.9" if lang == DEFAULT else "0.7"
         out.append(entry(url(lang, "posts.html"), pri, "weekly", "posts.html"))
@@ -597,21 +698,38 @@ def main():
     langs = args.lang or list(LANGS)
 
     written = 0
+    homes = 0
     for lang in langs:
         out_dir = ROOT / LANGS[lang]["path"] if LANGS[lang]["path"] else ROOT
         out_dir.mkdir(parents=True, exist_ok=True)
-        for g in targets:
-            merged = merge(g, load_translation(lang, g["slug"])) if lang != DEFAULT else g
-            (out_dir / f"post-{g['slug']}.html").write_text(
-                render_guide(merged, lang), encoding="utf-8")
-            written += 1
+
+        # Translate every guide once, up front. The guide pages need the whole
+        # set — not just their own translation — because the "read next" row
+        # prints sibling TITLES and they have to be in this page's language.
         idx = [merge(g, load_translation(lang, g["slug"])) if lang != DEFAULT else g
                for g in ordered]
+        by_slug = {x["slug"]: x for x in idx}
+
+        for g in targets:
+            merged = by_slug.get(g["slug"]) or (
+                merge(g, load_translation(lang, g["slug"])) if lang != DEFAULT else g)
+            (out_dir / f"post-{g['slug']}.html").write_text(
+                render_guide(merged, lang, idx), encoding="utf-8")
+            written += 1
+
         (out_dir / "posts.html").write_text(render_index(idx, lang), encoding="utf-8")
+
+        # A landing page at the language folder root. English lives at the site
+        # root, where index.html is the deals homepage built by the other repo —
+        # writing one here would overwrite it.
+        if LANGS[lang]["path"]:
+            (out_dir / "index.html").write_text(render_lang_home(idx, lang), encoding="utf-8")
+            homes += 1
 
     (ROOT / "sitemap.xml").write_text(render_sitemap(ordered), encoding="utf-8")
     print(f"{written} guide pages across {len(langs)} languages "
-          f"({', '.join(langs)}), plus {len(langs)} index pages and sitemap.xml")
+          f"({', '.join(langs)}), plus {len(langs)} index pages, "
+          f"{homes} language home pages and sitemap.xml")
 
 
 if __name__ == "__main__":

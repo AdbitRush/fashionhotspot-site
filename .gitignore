@@ -17,3 +17,10 @@ PW*.txt
 # and deploy.sh walks the whole tree, so committing it would put the secret in
 # git history AND on a public host. See api/config.example.php.
 api/config.php
+
+# Runtime data written by the PHP endpoints on the live host — what visitors
+# searched for, who subscribed, and the view/click counters. The host owns these
+# files; this repo must never carry a copy. A committed copy would both publish
+# subscriber addresses to a public repo and, via deploy.sh, overwrite the live
+# file with a stale one. deploy.sh excludes the same pattern.
+api/*.json
