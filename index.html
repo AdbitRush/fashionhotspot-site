@@ -385,7 +385,7 @@ html.dark .floater{box-shadow:0 30px 70px rgba(0,0,0,.6)}
 
 /* ── Ticker ── */
 .ticker{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);overflow:hidden;padding:15px 0;z-index:2;font-size:12px;letter-spacing:.06em}
-.ticker-track{display:flex;gap:38px;width:max-content;animation:marquee 40s linear infinite}
+.ticker-track{display:flex;gap:38px;width:max-content;animation:marquee 110s linear infinite}
 .ticker:hover .ticker-track{animation-play-state:paused}
 @keyframes marquee{to{transform:translateX(-50%)}}
 .tick-item{display:inline-flex;align-items:center;gap:9px;font-size:14px;line-height:1.5;line-height:1.5;font-weight:700;color:var(--ink2);white-space:nowrap}
@@ -1194,11 +1194,9 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
       </a>
       <button class="cta-ghost" onclick="openFindModal()" data-i18n="cta_find">🔍 Find a specific deal</button>
     </div>
-    <div class="hero-stats">
-      <div class="stat3d"><div class="v"><span class="cnt" data-count="1626">0</span>+</div><div class="k" data-i18n="st_live">Live deals</div></div>
-      <div class="stat3d"><div class="v"><span class="cnt" data-count="24">0</span>h</div><div class="k" data-i18n="st_checks">Rebuilt nightly</div></div>
-      <div class="stat3d"><div class="v"><span class="cnt" data-count="4">0</span></div><div class="k" data-i18n="st_coupons">Coupon codes</div></div>
-      <div class="stat3d"><div class="v"><span class="cnt" data-count="0">0</span></div><div class="k" data-i18n="st_verified">Categories</div></div>
+    <!-- hero stats row removed 2026-09-06: four counters, one of which
+         ("Categories") had always rendered 0 because no deal record carries a
+         category field. The hero says the same thing in words already. -->
     </div>
   </div>
 </section>
@@ -1207,12 +1205,11 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
 <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker-track"></div></div>
 
 <!-- 3D SHOWCASE -->
-<section class="showcase" id="showcase">
-  <div class="sec-kicker" data-i18n="sc_kicker">Hall of Fame</div>
-  <h2 class="sec-title" data-i18n="sc_title">Today's deepest discounts, in orbit</h2>
-  <div class="sec-sub" data-i18n="sc_sub">Hover to pause · click any card to grab it</div>
-  <div id="stage3d-wrap"><div id="stage3d"></div></div>
-</section>
+<!-- The "in orbit" showcase was removed 2026-09-06. It rotated the same deals
+     the grid below already lists, and it was the third moving thing on the page
+     after the hero cards and the ticker. Its CSS (.orbit-*, #stage3d) is left in
+     place, unused, so putting it back means restoring this section and the
+     carousel IIFE that drove it. -->
 
 <!-- BUYING GUIDES -->
 <!-- Every guide is published in all six languages at /he/post-tech.html and so
@@ -2271,208 +2268,10 @@ function showToast(msg) {
   track.innerHTML = half + '<span style="color:var(--ink3)">✦</span>' + half; // duplicate for seamless loop
 })();
 
-// ─── 3D showcase carousel ──────────────────────────────────────────────────────
-(function(){
-  const stage = document.getElementById('stage3d');
-  const wrap = document.getElementById('stage3d-wrap');
-  // The carousel follows the filters. It used to be built once from the whole
-  // DEALS array, so picking "Amazon" narrowed the grid below while the ring
-  // kept spinning AliExpress products — the page contradicted itself.
-  //
-  // rebuild() takes a list and re-renders. render() calls refreshCarousel()
-  // after every filter, category, search or sort change, so the ring always
-  // shows the deepest discounts *within what you are looking at*.
-  const showcase = document.getElementById('showcase');
-  const radius = Math.min(360, Math.max(230, window.innerWidth * 0.30));  // .showcase clips, so the ring may exceed the viewport — a 150 floor collapsed it
-  let items = [];
-  let n = 0;
-  let currentAngle = 0;
-  let isDragging = false;
-  let isHover = false;
-  let startX = 0, startY = 0, startAngle = 0;
-  let idleTimer = null;
-
-  function pick(src) {
-    // Pool is wider than the ring, then sampled — the ring used to take the top
-    // 9 by discount from a pool of 30, which is deterministic, so a returning
-    // visitor saw the same nine products every single time and the site looked
-    // dead even while the catalogue changed underneath it.
-    //
-    // Quality is unchanged: every candidate still needs >=15% off and a real
-    // image, and the pool is still ordered by discount before sampling, so
-    // these are deep discounts — just a different nine of them each visit.
-    const POOL = 40;
-    const cands = (src || []).map(d => ({ d, disc: discOf(d) }))
-      .filter(x => x.disc >= 15 && x.d.image)
-      .sort((a, b) => b.disc - a.disc).slice(0, POOL);
-    // De-dupe by link, falling back to title+image when a link is missing.
-    const seen = new Set();
-    const unique = [];
-    for (const x of cands) {
-      const link = (x.d.link || x.d.finalLink || '').split('?')[0].trim();
-      const key = link || ((x.d.title || '') + '|' + (x.d.image || ''));
-      if (key && !seen.has(key)) { seen.add(key); unique.push(x); }
-    }
-    // Fisher-Yates on a copy. Falls back to the plain top-9 when the pool is
-    // too small to be worth shuffling, so a thin category still shows its best.
-    if (unique.length > 9) {
-      for (let i = unique.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [unique[i], unique[j]] = [unique[j], unique[i]];
-      }
-    }
-    return unique.slice(0, 9);
-  }
-
-  function rebuild(src) {
-    items = pick(src);
-    // Under four the ring looks broken rather than sparse, so hide the whole
-    // section. It must be un-hidden again when a wider filter brings items
-    // back — the original code could only ever hide it, because it ran once.
-    if (items.length < 4) { showcase.style.display = 'none'; n = 0; return; }
-    showcase.style.display = '';
-    n = items.length;
-    currentAngle = 0;
-    render3d();
-    rotate(0, false);
-  }
-
-  // Exposed so render() can call it. Falls back to the full list if the filter
-  // helper is not available for any reason, which keeps the ring populated
-  // rather than empty.
-  window.refreshCarousel = function () {
-    rebuild(typeof getFiltered === 'function' ? getFiltered() : DEALS);
-  };
-
-  function render3d() {
-  stage.innerHTML = items.map(function(x, i){
-    const ang = Math.round(i * (360 / n));
-    return '<a class="car-item" data-index="' + i + '" style="transform:rotateY(' + ang + 'deg) translateZ(' + radius + 'px)"'
-      + ' href="' + x.d.link + '" target="_blank" rel="nofollow noopener sponsored">'
-      + '<div class="ci-img"><img src="' + (x.d.image || IMG_FALLBACK) + '" alt="" loading="lazy" onerror="this.src=IMG_FALLBACK;this.onerror=null">'
-      + '<span class="ci-pct">-' + x.disc + '%</span></div>'
-      + '<div class="ci-body"><div class="ci-title">' + x.d.title + '</div>'
-      + '<div class="ci-price">' + money(x.d.price, true) + '</div></div>'
-      + '</a>';
-  }).join('');
-  }
-
-  rebuild(DEALS);
-
-  
-  // חיצים לניווט
-  // Sized from radius so the ellipse always matches where the cards sit.
-  // Inserted before #stage3d so it paints behind the cards.
-  const floor = document.createElement('div');
-  floor.className = 'orbit-floor';
-  floor.style.width = (radius * 2) + 'px';
-  floor.style.height = (radius * 2) + 'px';
-  wrap.insertBefore(floor, stage);
-
-  const arrows = document.createElement('div');
-  arrows.className = 'orbit-arrows';
-  // data-i18n-aria (not just a one-off aria-label set here) so a later
-  // language switch — which re-scans [data-i18n-aria] in applyLang() — keeps
-  // these current instead of freezing at whatever language built the ring.
-  arrows.innerHTML = '<button class="orbit-arrow orbit-prev" type="button" onclick="orbitPrev()" aria-label="' + T('orbit_prev') + '" data-i18n-aria="orbit_prev">‹</button>'
-                    + '<button class="orbit-arrow orbit-next" type="button" onclick="orbitNext()" aria-label="' + T('orbit_next') + '" data-i18n-aria="orbit_next">›</button>';
-  wrap.appendChild(arrows);
-  
-  function rotate(angle, smooth) {
-    currentAngle = angle;
-    stage.style.transition = smooth ? 'transform 0.55s cubic-bezier(.2,.8,.2,1)' : 'none';
-    stage.style.transform = 'rotateY(' + angle + 'deg)';
-    shade(angle);
-  }
-
-  // Depth cue. a is how far round the ring a card currently is: 0 at the
-  // front, +/-180 directly behind. Cards at the back also face away from the
-  // viewer, which renders their contents mirrored — dimming them hard makes
-  // that unreadable rather than distracting.
-  function shade(angle) {
-    if (!n) return;
-    const step = 360 / n;
-    for (let i = 0; i < n; i++) {
-      const el = stage.children[i];
-      if (!el) continue;
-      let a = (i * step + angle) % 360;
-      if (a > 180) a -= 360;
-      if (a < -180) a += 360;
-      const t = Math.abs(a) / 180;
-      el.style.opacity = (1 - t * 0.62).toFixed(3);
-      el.style.filter = 'brightness(' + (1 - t * 0.5).toFixed(3) + ') blur(' + (t * 1.6).toFixed(2) + 'px)';
-      el.style.zIndex = String(Math.round(100 - t * 100));
-    }
-  }
-  
-  function snap() {
-    const step = 360 / n;
-    rotate(Math.round(currentAngle / step) * step, true);
-  }
-  
-  window.orbitNext = function() { rotate(currentAngle - (360 / n), true); };
-  window.orbitPrev = function() { rotate(currentAngle + (360 / n), true); };
-  
-  // סיבוב איטי אוטומטי כשאין אינטראקציה (לא בזמן גרירה / ריחוף)
-  function startIdle() {
-    stopIdle();
-    if (REDUCED) return;
-    idleTimer = setInterval(function() {
-      if (isDragging || isHover) return;
-      currentAngle += 0.08;
-      rotate(currentAngle, false);
-    }, 50);
-  }
-  function stopIdle() { if (idleTimer) { clearInterval(idleTimer); idleTimer = null; } }
-  
-  // Mouse drag
-  wrap.addEventListener('mousedown', function(e) {
-    if (e.target.closest('.orbit-arrow')) return; // אל תפריע ללחיצות על החיצים
-    isDragging = true; startX = e.clientX; startY = e.clientY; startAngle = currentAngle;
-    stopIdle();
-    e.preventDefault();
-  });
-  document.addEventListener('mousemove', function(e) {
-    if (!isDragging) return;
-    rotate(startAngle + (e.clientX - startX) * 0.3, false);
-  });
-  document.addEventListener('mouseup', function() {
-    if (!isDragging) return; isDragging = false;
-    snap(); startIdle();
-  });
-  
-  // Touch swipe
-  wrap.addEventListener('touchstart', function(e) {
-    if (e.target.closest('.orbit-arrow')) return;
-    isDragging = true; startX = e.touches[0].clientX; startY = e.touches[0].clientY; startAngle = currentAngle;
-    stopIdle();
-  }, { passive: true });
-  wrap.addEventListener('touchmove', function(e) {
-    if (!isDragging) return;
-    const dx = e.touches[0].clientX - startX;
-    const dy = e.touches[0].clientY - startY;
-    // גלילה אנכית של הדף — משחררים את הגרירה
-    if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 8) { isDragging = false; return; }
-    rotate(startAngle + dx * 0.5, false);
-    e.preventDefault();
-  }, { passive: false });
-  wrap.addEventListener('touchend', function() {
-    if (!isDragging) return; isDragging = false;
-    snap(); startIdle();
-  });
-  
-  // carousel no longer swallows the wheel: it used to preventDefault()
-  // every wheel event, so scrolling with the pointer over the showcase
-  // rotated the ring instead of moving the page and the homepage felt
-  // stuck. Arrows, drag and swipe still turn it; the page always scrolls.
-
-  
-  // עצירה בריחוף
-  wrap.addEventListener('mouseenter', function() { isHover = true; stopIdle(); });
-  wrap.addEventListener('mouseleave', function() { isHover = false; startIdle(); });
-  
-  startIdle();
-})();
+// ─── 3D showcase carousel: removed 2026-09-06 along with its section above.
+// It read #stage3d with no null guard, so it could not simply be left behind.
+// render() already calls window.refreshCarousel() through a typeof guard, so
+// nothing downstream needed changing.
 
 // ─── Savings by category bars ──────────────────────────────────────────────────
 // Exposed on window and NOT run as a bare IIFE: applyLang() already had a call
