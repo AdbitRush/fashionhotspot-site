@@ -124,8 +124,16 @@ def aliexpress(term):
 
 
 def url(lang, page):
-    """Absolute URL of a page in a language."""
-    return f"{SITE}/{LANGS[lang]['path']}{page}"
+    """Absolute URL of a page in a language.
+
+    index.html is dropped, because the server serves that page at the directory
+    URL and that is the address people link to and share. Emitting it here made
+    every canonical point at /he/index.html while / was the page actually being
+    served, and made the whole hreflang cluster name addresses that redirect --
+    which invalidates the set: reciprocity is checked on the exact URL.
+    """
+    u = f"{SITE}/{LANGS[lang]['path']}{page}"
+    return u[:-len('index.html')] if u.endswith('index.html') else u
 
 
 def rel_root(lang):

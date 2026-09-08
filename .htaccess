@@ -17,6 +17,19 @@
     # thin-affiliate pattern Amazon rejects. Send them to the guides index so the
     # old URLs still land somewhere useful instead of 404ing.
     RewriteRule ^post-(eco|gifts)-2026\.html$ /posts.html [R=301,L]
+
+    # Canonical directory URLs.
+    #
+    # /he/index.html and /he/ served the same page, and the canonical tags used
+    # to name the index.html form while / was what everyone actually linked to.
+    # The tags now name the directory; this makes the server agree, so the older
+    # address a crawler already has does not go on serving a duplicate.
+    #
+    # THE_REQUEST is matched rather than the rewritten path, so this only fires
+    # for a URL the visitor actually typed -- an internal rewrite to index.html
+    # must not be bounced back out, which would loop.
+    RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+    RewriteRule ^(.*/)?index\.html$ /%1 [R=301,L,NE]
 </IfModule>
 
 # ---------------------------------------------------------------------------
