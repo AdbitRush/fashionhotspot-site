@@ -29,3 +29,6 @@ api/*.json
 # regenerated .pyc files and a stale one could be committed over a real change.
 __pycache__/
 *.pyc
+
+# Records what has actually been uploaded, per host. Machine state, not source.
+.deploy-manifest
