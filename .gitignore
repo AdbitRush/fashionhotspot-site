@@ -24,3 +24,8 @@ api/config.php
 # subscriber addresses to a public repo and, via deploy.sh, overwrite the live
 # file with a stale one. deploy.sh excludes the same pattern.
 api/*.json
+
+# Byte-code caches. These were tracked, so every build dirtied the tree with
+# regenerated .pyc files and a stale one could be committed over a real change.
+__pycache__/
+*.pyc
