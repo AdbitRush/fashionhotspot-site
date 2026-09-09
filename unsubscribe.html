@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="root-html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unsubscribe — fashionhotspot</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="images/icon-192.png">
+<style>
+  :root{color-scheme:light dark}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:#faf8f4;color:#23232f;font:16px/1.6 -apple-system,'Segoe UI',Arial,sans-serif;padding:20px}
+  .card{background:#fff;border:1px solid #e8e5de;border-radius:16px;padding:32px 28px;max-width:440px;width:100%;
+    box-shadow:0 18px 44px rgba(0,0,0,.06);text-align:center}
+  h1{font-size:21px;margin:0 0 10px}
+  p{margin:0 0 6px;color:#55556a;font-size:15px}
+  .addr{font-weight:700;color:#23232f;word-break:break-all}
+  .ok{color:#177245;font-weight:700}
+  .err{color:#b3452b;font-weight:700}
+  button{margin-top:18px;background:#b3452b;color:#fff;border:0;border-radius:999px;
+    padding:12px 26px;font:inherit;font-weight:800;cursor:pointer}
+  button[disabled]{opacity:.5;cursor:default}
+  a{color:#b3452b}
+  @media(prefers-color-scheme:dark){
+    body{background:#16161c;color:#eceaf8}
+    .card{background:#1e1e26;border-color:#2c2c38;box-shadow:none}
+    p{color:#a9a9bd} .addr{color:#eceaf8}
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1 id="h">Unsubscribe</h1>
+  <p id="msg">Checking your link…</p>
+  <p class="addr" id="addr"></p>
+  <button id="go" hidden>Unsubscribe</button>
+  <p style="margin-top:18px;font-size:13px"><a href="/">← fashionhotspot</a></p>
+</div>
+<script>
+// Six languages, matching the rest of the site. The interface language comes
+// from the link (&l=he) because this page is opened from an email, where the
+// visitor's stored preference is not available.
+var T = {
+  en:{h:'Unsubscribe',ask:'Remove this address from the weekly email?',go:'Unsubscribe',
+      ok:'Done — you will not receive the newsletter again.',bad:'This link is not valid. Ask us to resend it.',
+      err:'Something went wrong. Please try again in a moment.',working:'Working…'},
+  he:{h:'הסרה מהרשימה',ask:'להסיר את הכתובת הזו מהמייל השבועי?',go:'להסיר אותי',
+      ok:'בוצע — לא תקבלו יותר את הניוזלטר.',bad:'הקישור הזה אינו תקין. בקשו מאיתנו לשלוח אותו שוב.',
+      err:'משהו השתבש. נסו שוב עוד רגע.',working:'רגע…'},
+  es:{h:'Darse de baja',ask:'¿Quitar esta dirección del correo semanal?',go:'Darme de baja',
+      ok:'Listo: no volverás a recibir el boletín.',bad:'Este enlace no es válido. Pídenos que lo reenviemos.',
+      err:'Algo salió mal. Inténtalo de nuevo en un momento.',working:'Un momento…'},
+  fr:{h:'Se désabonner',ask:'Retirer cette adresse de l\'e-mail hebdomadaire ?',go:'Me désabonner',
+      ok:'C\'est fait — vous ne recevrez plus la newsletter.',bad:'Ce lien n\'est pas valide. Demandez-nous de le renvoyer.',
+      err:'Une erreur est survenue. Réessayez dans un instant.',working:'Un instant…'},
+  de:{h:'Abmelden',ask:'Diese Adresse aus der wöchentlichen E-Mail entfernen?',go:'Abmelden',
+      ok:'Erledigt — Sie erhalten den Newsletter nicht mehr.',bad:'Dieser Link ist ungültig. Bitten Sie uns, ihn erneut zu senden.',
+      err:'Etwas ist schiefgelaufen. Bitte gleich noch einmal versuchen.',working:'Einen Moment…'},
+  el:{h:'Διαγραφή',ask:'Να αφαιρεθεί αυτή η διεύθυνση από το εβδομαδιαίο email;',go:'Διαγραφή',
+      ok:'Έγινε — δεν θα λαμβάνετε πλέον το newsletter.',bad:'Ο σύνδεσμος δεν είναι έγκυρος. Ζητήστε μας να τον ξαναστείλουμε.',
+      err:'Κάτι πήγε στραβά. Δοκιμάστε ξανά σε λίγο.',working:'Ένα λεπτό…'}
+};
+var RTL = { he: 1 };
+
+var p = new URLSearchParams(location.search);
+var email = (p.get('e') || '').trim();
+var token = (p.get('t') || '').trim();
+var lang = (p.get('l') || 'en').toLowerCase();
+if (!T[lang]) lang = 'en';
+var t = T[lang];
+
+var html = document.getElementById('root-html');
+html.setAttribute('lang', lang);
+html.setAttribute('dir', RTL[lang] ? 'rtl' : 'ltr');
+document.title = t.h + ' — fashionhotspot';
+
+var h = document.getElementById('h'), msg = document.getElementById('msg');
+var addrEl = document.getElementById('addr'), go = document.getElementById('go');
+h.textContent = t.h;
+
+if (!email || !token) {
+  msg.textContent = t.bad;
+  msg.className = 'err';
+} else {
+  // One click, not automatic: a mail client that pre-fetches links would
+  // otherwise unsubscribe people who never opened the email.
+  msg.textContent = t.ask;
+  addrEl.textContent = email;
+  go.textContent = t.go;
+  go.hidden = false;
+  go.addEventListener('click', function () {
+    go.disabled = true;
+    msg.textContent = t.working;
+    msg.className = '';
+    fetch('/api/unsubscribe.php?e=' + encodeURIComponent(email) + '&t=' + encodeURIComponent(token),
+          { method: 'POST', credentials: 'omit' })
+      .then(function (r) { return r.json().catch(function () { return {}; }); })
+      .then(function (j) {
+        go.hidden = true;
+        addrEl.textContent = '';
+        if (j && j.ok) { msg.textContent = t.ok; msg.className = 'ok'; }
+        else if (j && j.error === 'bad_token') { msg.textContent = t.bad; msg.className = 'err'; }
+        else { msg.textContent = t.err; msg.className = 'err'; go.hidden = false; go.disabled = false; }
+      })
+      .catch(function () {
+        msg.textContent = t.err; msg.className = 'err';
+        go.hidden = false; go.disabled = false;
+      });
+  });
+}
+</script>
+</body>
+</html>
