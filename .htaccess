@@ -36,11 +36,25 @@
 # Caching
 #
 # This previously sent no-store for *everything*, which meant every image was
-# re-downloaded on every page view. HTML still goes uncached so deal prices are
-# never stale; static assets get a long TTL.
+# re-downloaded on every page view. Static assets get a long TTL; HTML gets a
+# short one; the deal catalogue keeps revalidating on every view.
 # ---------------------------------------------------------------------------
 <IfModule mod_headers.c>
-    <FilesMatch "\.(html|htm|json|xml)$">
+    # HTML: five minutes at the edge, then revalidate. The pages are rebuilt
+    # once a night, so five minutes is the entire staleness this can produce,
+    # and it is what moves the language homepages off
+    # x-hcdn-cache-status: DYNAMIC. Apache sends Last-Modified for these files,
+    # so a revalidation after the TTL costs one 304 rather than 297KB.
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "public, max-age=300, must-revalidate"
+    </FilesMatch>
+
+    # deals.json is deliberately NOT given a TTL. It carries the prices, it is
+    # 1.6MB, and it is replaced by the nightly build; revalidating it on every
+    # view costs one 304 while a stale copy would show wrong money. sitemap.xml
+    # and the rest of the JSON/XML are grouped with it because they are small
+    # and there is no reason to risk serving an old one.
+    <FilesMatch "\.(json|xml)$">
         Header set Cache-Control "max-age=0, no-cache, must-revalidate"
     </FilesMatch>
     <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico|woff2?|css|js)$">
