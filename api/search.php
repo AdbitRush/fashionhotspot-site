@@ -282,6 +282,22 @@ if (count($hits) >= 20) {
 $hits[] = $now;
 @file_put_contents($rlFile, json_encode(array_values($hits)), LOCK_EX);
 
+// ── log-only mode ───────────────────────────────────────────────────────────
+// The grid on the homepage searches the published catalogue in the browser and
+// never calls this endpoint, so the searches that ended in "nothing found"
+// there — which is where most people type — were measured nowhere. That list is
+// the shopping list for the next import, and half of it was missing.
+//
+// ?log=1&q=…&hits=… records the term and stops. No API call, no cache write,
+// nothing returned but an acknowledgement. It sits AFTER the rate limiter on
+// purpose: it writes to a file, and a public endpoint that writes to a file
+// gets the same protection as one that spends API quota.
+if (isset($_GET['log']) && $_GET['log'] === '1') {
+    fh_log_search($q, isset($_GET['hits']) ? max(0, (int)$_GET['hits']) : 0, strtolower($lang));
+    echo json_encode(['ok' => true, 'logged' => true]);
+    exit;
+}
+
 // Which language the TITLES should come back in - see the note at
 // target_language below. Computed here because it has to run before the
 // request array is built.
