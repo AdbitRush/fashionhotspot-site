@@ -60,7 +60,18 @@ FTP_PATH="${FTP_PATH:-}"
 # destroy every record since the file was made. There is no undo: FTP PUT is not
 # a merge. Excluding the pattern means that mistake is not available.
 # site-config.json is NOT under api/ and still ships; it is build configuration.
-EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$|api/.*\.json$)'
+#
+# index.html, deals.json, about.html, contact.html and privacy.html are the five
+# files the deals build owns. build-static.js regenerates them from its own
+# templates and FTPs exactly those five to this host on every nightly and every
+# scheduled scan. Copies of them live in this repo only because that build
+# auto-syncs its output here as a mirror, so the copy on disk is whatever the
+# last sync happened to leave — not necessarily what is live now. Shipping them
+# from here silently republishes a stale deals homepage over a newer one, with
+# no error and nothing to notice: measured 2026-09-11, the repo copy was
+# 364,213 bytes against 360,710 live. Same class of mistake as api/*.json above
+# — the host, not this repo, is the source of truth for them.
+EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$|api/.*\.json$|index\.html$|deals\.json$|about\.html$|contact\.html$|privacy\.html$)'
 
 mapfile -t FILES < <(
   find . -type f \
