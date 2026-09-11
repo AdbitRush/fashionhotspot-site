@@ -96,6 +96,77 @@ QUEUE = [
     ("grilling", "Grilling",
      "barbecue and outdoor cooking: thermometers, tools, cleaning, fuel. Distinct from the "
      "kitchen guide."),
+    # ── Seasonal: end of year, holidays, the January reset ──────────────────
+    ("gifts-under-25", "Gifts",
+     "genuinely good presents under about $25 — the price band where most lists "
+     "pad with novelty junk. Everyday-useful objects someone would replace when "
+     "worn out. NOT gift cards and NOT anything whose appeal is that it is funny once."),
+    ("gifts-under-50", "Gifts",
+     "presents in the $25-50 band: the step up from a token, still short of a "
+     "big-ticket item. Favour things with a long service life over gadgets. "
+     "No overlap with the under-25 guide — different products, not cheaper ones."),
+    ("secret-santa", "Gifts",
+     "Secret Santa, White Elephant and office swaps, usually capped near $20-30. "
+     "The constraint is that the recipient is a near-stranger, so favour broadly "
+     "useful over personal. Say plainly which picks are a gamble on taste."),
+    ("stocking-stuffers", "Gifts",
+     "small items that fill a stocking without becoming January landfill: "
+     "consumables, small tools, cables, good socks. Physically small is the brief."),
+    ("gifts-for-teens", "Gifts",
+     "13-19, where taste is specific and getting it wrong is expensive. Lean on "
+     "categories that survive changing taste. NOT toys and NOT the kids guide."),
+    ("gifts-for-parents", "Gifts",
+     "presents for parents and grandparents who say they want nothing. Favour "
+     "comfort, the kitchen, and replacing something old that still gets daily use."),
+    ("gifts-for-cooks", "Gifts",
+     "presents for someone who already cooks well and owns the basics — so the "
+     "second-tier tools, not another pan set. Complements the kitchen guide "
+     "rather than repeating it."),
+    ("gifts-for-travellers", "Gifts",
+     "presents for frequent travellers. Complements the travel guide: gift-shaped "
+     "items, not a packing list. NOT luggage, which is too personal to gift."),
+    ("holiday-lights", "Seasonal",
+     "decorative string lights, indoor and outdoor, for the season. Safety rating "
+     "for outdoor use, timers, warm vs cool white. NOT the general lighting guide, "
+     "which covers lamps and bulbs for daily use."),
+    ("holiday-hosting", "Seasonal",
+     "having people stay and eat over the holidays: serveware, extra seating, "
+     "air beds, warming trays, coat and shoe overflow. The logistics of a full house."),
+    ("holiday-baking", "Seasonal",
+     "seasonal baking specifically: tins, cooling, decorating, storing and giving "
+     "away what you bake. Complements the kitchen guide, does not repeat it."),
+    ("gift-wrap", "Seasonal",
+     "wrapping and posting presents: paper, tape, labels, boxes, mailers, and "
+     "storing it all for next year. Unglamorous and genuinely useful in December."),
+    ("winter-warmth", "Seasonal",
+     "being warm at home without heating the whole house: throws, heated bedding, "
+     "draught excluders, small heaters. Be explicit about running costs and the "
+     "safety standard for portable heaters."),
+    ("winter-driving", "Seasonal",
+     "cold-weather car kit: scrapers, screenwash, jump packs, tyre checks, an "
+     "emergency bag. NOT the general car guide of dashcams and chargers."),
+    ("winter-skin", "Seasonal",
+     "what cold, wind and indoor heating do to skin and hands, and the seasonal "
+     "changes worth making. Defers to the skincare guide for a year-round routine "
+     "instead of restating it."),
+    ("winter-pets", "Seasonal",
+     "cold-weather pet care: paw protection, coats for short-haired dogs, indoor "
+     "enrichment for short days, cold-weather feeding. Complements the pets guide."),
+    ("nye-party", "Seasonal",
+     "hosting on New Year\'s Eve: glassware, ice, sound, lighting and cleaning up "
+     "after. Practical, not aspirational."),
+    ("new-year-organising", "New Year",
+     "the January reset: decluttering, labelling, and storage that survives past "
+     "February. Be honest that most organising products are a tax on not having "
+     "thrown things away. Complements the storage guide."),
+    ("home-gym-starter", "New Year",
+     "starting to train at home in January on a small budget and a small floor. "
+     "Complements the fitness guide by focusing on the first purchases, and says "
+     "plainly which are worth waiting on."),
+    ("january-sales", "New Year",
+     "what genuinely gets cheaper after Christmas and what only looks like it "
+     "does, by category. Explain seasonal price cycles so the reader can judge a "
+     "discount themselves."),
 ]
 
 
@@ -168,11 +239,20 @@ STRUCTURE:
     "Storage That Solves the Problem Instead of Moving It"
   Never "Best X of 2026", never "Buying Guide", never a colon followed by a
   list of the category's nouns.
+- "seo_title": the same guide as a search result, which is a different job from
+  the editorial title above. Under 60 characters, leads with the words someone
+  would actually type, includes the year {year} (that is the current year — do
+  not guess it), and may use a colon. Real examples
+  from this site:
+    "Best Home Coffee Setup 2026: Beginner to Advanced"
+    "Best Kitchen Tools 2026: What Survives Daily Use"
+  Every other guide on the site has one; build.py falls back to the long
+  editorial title when it is missing, which reads badly in a result page.
 - "dek": one sentence, under 160 characters.
 - "hero_image": one photographic scene description of the category as a whole.
 
 Return ONLY this JSON object:
-{{"title":"","dek":"","intro":["",""],"how_we_pick":"","hero_image":"",
+{{"title":"","seo_title":"","dek":"","intro":["",""],"how_we_pick":"","hero_image":"",
 "products":[{{"name":"","tag":"","price":"","search":"","image":"","body":"",
 "pros":[""],"cons":[""]}}],
 "faq":[{{"q":"","a":""}}]}}"""
@@ -201,7 +281,8 @@ def post(model, body, tries=4):
 def generate(slug, category, brief):
     body = {
         "contents": [{"role": "user", "parts": [
-            {"text": PROMPT.format(category=category, brief=brief)}]}],
+            {"text": PROMPT.format(category=category, brief=brief,
+                                               year=date.today().year)}]}],
         "generationConfig": {"temperature": 0.85, "responseMimeType": "application/json",
                              "maxOutputTokens": 32000},
     }
@@ -219,7 +300,7 @@ def generate(slug, category, brief):
     words = (sum(len(p.get("body", "").split()) for p in g.get("products", []))
              + sum(len(x.split()) for x in g.get("intro", [])))
     g["read_minutes"] = max(4, round(words / 200))
-    order = ["slug", "category", "title", "dek", "hero_image", "updated",
+    order = ["slug", "category", "title", "seo_title", "dek", "hero_image", "updated",
              "read_minutes", "intro", "how_we_pick", "products", "faq"]
     return {k: g[k] for k in order if k in g}
 

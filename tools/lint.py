@@ -77,13 +77,21 @@ def warn(where, msg):
     warnings.append(f"{where}: {msg}")
 
 
+# "Wüsthof" was reported as untranslated Latin "sthof". [A-Za-z] does not match
+# the u-umlaut, so the tokeniser split the brand in half and the lowercase tail
+# fell straight through the "capitalised tokens are names" rule below. Every
+# accented brand has this shape — Wüsthof, Häagen, Nescafé, L'Oréal, Björn —
+# so the letter class has to carry Latin-1 and Latin Extended-A, not just ASCII.
+LATIN_LETTER = r"A-Za-z\u00c0-\u024f"
+
+
 def latin_in_hebrew(text):
     """Ordinary English words stranded inside an otherwise-Hebrew string."""
     if not re.search(f"[{HEB}]", text):
         return []
     bad = []
     heb = re.compile(f"[{HEB}]")
-    for m in re.finditer(r"[A-Za-z][A-Za-z'\-]*", text):
+    for m in re.finditer(rf"[{LATIN_LETTER}][{LATIN_LETTER}'\-]*", text):
         tok = m.group()
         before = text[m.start() - 1:m.start()]
         after = text[m.end():m.end() + 1]
@@ -109,11 +117,11 @@ def latin_in_hebrew(text):
         # each of their words was being reported separately.
         run_start = m.start()
         while run_start > 0 and text[run_start - 1] in " -":
-            prev = re.search(r"[A-Za-z][A-Za-z'\-]*$", text[:run_start - 1])
+            prev = re.search(rf"[{LATIN_LETTER}][{LATIN_LETTER}'\-]*$", text[:run_start - 1])
             if not prev:
                 break
             run_start = prev.start()
-        run = re.match(r"(?:[A-Za-z][A-Za-z'\-]*[ -]?){2,}", text[run_start:])
+        run = re.match(rf"(?:[{LATIN_LETTER}][{LATIN_LETTER}'\-]*[ -]?){{2,}}", text[run_start:])
         if run and len(run.group().split()) >= 2:
             continue
         if not tok.islower() or len(tok) < 3:
