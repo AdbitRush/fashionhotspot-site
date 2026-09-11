@@ -1272,7 +1272,7 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
   </div>
 
   <div class="hero-inner">
-    <div class="hero-badge"><span class="dot"></span><span><span data-i18n="hero_badge_a">Updated daily ·</span> <span id="hero-count" class="num">1716</span><span data-i18n="hero_badge_b">+ fresh deals live now</span></span></div>
+    <div class="hero-badge"><span class="dot"></span><span><span data-i18n="hero_badge_a">Updated daily ·</span> <span id="hero-count" class="num">1715</span><span data-i18n="hero_badge_b">+ fresh deals live now</span></span></div>
     <h1><span data-i18n="hero_h1_a">Shop the drop.</span><br><span class="shine" data-i18n="hero_h1_b">Save on every purchase.</span></h1>
     <p data-i18n="hero_p">Deals from AliExpress and Amazon, rebuilt every night. Discounts are measured against a price we can defend — the inflated ones are dropped rather than published.</p>
     <div class="hero-ctas">
@@ -1359,7 +1359,7 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
       <span class="sec-kicker" style="margin:0;" data-i18n="flash">Flash Sale · Today</span>
     </div>
     <h2 style="font-weight:700;font-size:26px;line-height:1.18;letter-spacing:-.025em;color:var(--ink);">
-      <span id="deal-count" class="num">1716</span> <span data-i18n="deals_word">deals</span>
+      <span id="deal-count" class="num">1715</span> <span data-i18n="deals_word">deals</span>
     </h2>
   </div>
 
@@ -1443,7 +1443,7 @@ html[dir="rtl"] .cnt{letter-spacing:normal}
     
     
     <div class="cp-links">
-      <a class="cp-link" href="https://s.click.aliexpress.com/e/_c3pkRJqD" target="_blank" rel="nofollow noopener sponsored" data-lbl="Mega Coupons" data-lbl-he="מגה קופונים">🎟️ Mega Coupons</a><a class="cp-link" href="https://s.click.aliexpress.com/e/_c33HSBPT" target="_blank" rel="nofollow noopener sponsored" data-lbl="Store Coupons" data-lbl-he="קופוני חנות">🎟️ Store Coupons</a><a class="cp-link" href="https://s.click.aliexpress.com/e/_c3W7X3y5" target="_blank" rel="nofollow noopener sponsored" data-lbl="Super Deals" data-lbl-he="סופר דילים">🎟️ Super Deals</a>
+      <a class="cp-link" href="https://s.click.aliexpress.com/e/_c3Ub1z5R" target="_blank" rel="nofollow noopener sponsored" data-lbl="Mega Coupons" data-lbl-he="מגה קופונים">🎟️ Mega Coupons</a><a class="cp-link" href="https://s.click.aliexpress.com/e/_c4E57tBT" target="_blank" rel="nofollow noopener sponsored" data-lbl="Store Coupons" data-lbl-he="קופוני חנות">🎟️ Store Coupons</a><a class="cp-link" href="https://s.click.aliexpress.com/e/_c4NRlO2H" target="_blank" rel="nofollow noopener sponsored" data-lbl="Super Deals" data-lbl-he="סופר דילים">🎟️ Super Deals</a>
     </div>
     <div class="cp-note" data-i18n="cp_note">These coupons are claimed in one click — there is no code to copy. The discount is applied automatically at checkout.</div>
   </div>
@@ -2671,7 +2671,14 @@ function fillNoResults() {
     const top = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; }).slice(0, 3);
     host.innerHTML = top.map(function (c) {
       const meta = CAT_META[c] || CAT_META.general;
-      return '<button class="pill" onclick="jumpCat('' + c + '')">' + meta.icon + ' ' + esc(meta.label()) + '</button>';
+      // \' not ', and the doubling IS the fix. This file is one giant template
+      // literal, so ' is an escape the literal eats: it reached the page as a
+      // bare ' and turned the line into two adjacent string literals ->
+      // "SyntaxError: Unexpected string", which killed EVERY inline script on
+      // the page, the language switcher included. The same ' on lines 156-157
+      // is harmless only because it lands inside a double-quoted HTML attribute,
+      // where a bare quote is legal — which is why this went unnoticed.
+      return '<button class="pill" onclick="jumpCat(\'' + c + '\')">' + meta.icon + ' ' + esc(meta.label()) + '</button>';
     }).join('');
   }
 
