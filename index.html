@@ -3218,18 +3218,22 @@ whenCatalogue(function(){
     // falling back to the full set gives those a ring instead of a gap.
     let pool = withImage.filter(x => Number(x.d.addedAt || 0) >= cutoff);
     if (pool.length < 12) pool = withImage;
-    // Fashion/beauty/jewelry first, deepest discount within that bucket --
-    // same rule as the homepage grid's default order (see Fix 3,
-    // 2026-09-15). Ungated, this section's own "sort by discount" put
-    // electronics (routinely the deepest, most inflated AliExpress
-    // discounts) in the Hall of Fame ring even after the grid itself was
-    // fixed, because it re-sorts its own candidate pool from scratch.
-    const homeCat = c => (c === 'fashion' || c === 'beauty' || c === 'jewelry') ? 0 : 1;
-    const cands = pool.sort((a, b) => {
-      const ca = homeCat(a.d.cat), cb = homeCat(b.d.cat);
-      if (ca !== cb) return ca - cb;
-      return b.disc - a.disc;
-    }).slice(0, POOL);
+    // Fashion/beauty/jewelry only, when there are enough of them -- same
+    // categories the homepage grid's default order now leads with (Fix 3,
+    // 2026-09-15). A sort comparator alone is not enough here: the ring is
+    // sampled with a full Fisher-Yates shuffle below, which would have
+    // scrambled a fashion-first ORDER back into a random mix. Narrowing the
+    // POOL itself is what actually keeps electronics (routinely the deepest,
+    // most inflated AliExpress discounts, so they used to win every slot)
+    // out of the ring, not just off the top of a list nothing then reads in
+    // order. RING_MIN mirrors the "< 12" fallback just above: below it, a
+    // category is too thin to fill a ring on its own and the wider pool
+    // (still sorted by discount) is used instead of leaving gaps.
+    const isHomeCat = x => x.d.cat === 'fashion' || x.d.cat === 'beauty' || x.d.cat === 'jewelry';
+    const RING_MIN = 9;
+    const homePool = pool.filter(isHomeCat);
+    const sortPool = homePool.length >= RING_MIN ? homePool : pool;
+    const cands = sortPool.sort((a, b) => b.disc - a.disc).slice(0, POOL);
     // De-dupe by link, falling back to title+image when a link is missing.
     const seen = new Set();
     const unique = [];
