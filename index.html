@@ -3218,7 +3218,18 @@ whenCatalogue(function(){
     // falling back to the full set gives those a ring instead of a gap.
     let pool = withImage.filter(x => Number(x.d.addedAt || 0) >= cutoff);
     if (pool.length < 12) pool = withImage;
-    const cands = pool.sort((a, b) => b.disc - a.disc).slice(0, POOL);
+    // Fashion/beauty/jewelry first, deepest discount within that bucket --
+    // same rule as the homepage grid's default order (see Fix 3,
+    // 2026-09-15). Ungated, this section's own "sort by discount" put
+    // electronics (routinely the deepest, most inflated AliExpress
+    // discounts) in the Hall of Fame ring even after the grid itself was
+    // fixed, because it re-sorts its own candidate pool from scratch.
+    const homeCat = c => (c === 'fashion' || c === 'beauty' || c === 'jewelry') ? 0 : 1;
+    const cands = pool.sort((a, b) => {
+      const ca = homeCat(a.d.cat), cb = homeCat(b.d.cat);
+      if (ca !== cb) return ca - cb;
+      return b.disc - a.disc;
+    }).slice(0, POOL);
     // De-dupe by link, falling back to title+image when a link is missing.
     const seen = new Set();
     const unique = [];
