@@ -46,7 +46,7 @@
     "deals_group_name": "DealClaw"
   },
   "affiliates": {
-    "amazon": true,
+    "amazon": false,
     "aliexpress": true,
     "israel": true
   },
