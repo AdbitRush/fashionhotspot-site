@@ -2405,7 +2405,7 @@ function cardHTML(d, i) {
     // Same shape as cardHTMLServer above — category, platform and "New" in the
     // meta row, not on the photo. Keep this block identical to the server one.
     + '<div class="card-meta">'
-    +   '<span class="badge">' + meta.icon + ' ' + meta.label() + '</span>'
+    +   '<span class="badge">' + meta.label() + '</span>'
     +   '<span class="cm-sep">·</span>'
     +   '<span class="plat-badge" style="color:' + platBadge.bg + '">' + platBadge.label + '</span>'
     +   (isFresh(d) ? '<span class="new-badge">' + newTxt + '</span>' : addedAgoBadge(d))
@@ -2803,7 +2803,7 @@ function fillNoResults() {
       // decodes it to a quote before the browser reads the attribute as JS.
       // tools/check-inline-js.js parses the built page and fails the build if
       // this ever regresses.
-      return '<button class="pill" onclick="jumpCat(&quot;' + c + '&quot;)">' + meta.icon + ' ' + esc(meta.label()) + '</button>';
+      return '<button class="pill" onclick="jumpCat(&quot;' + c + '&quot;)">' + esc(meta.label()) + '</button>';
     }).join('');
   }
 
@@ -3175,9 +3175,17 @@ function showToast(msg) {
 // ─── Ticker: top discounts marquee ─────────────────────────────────────────────
 whenCatalogue(function(){
   const track = document.getElementById('ticker-track');
+  // Fashion/beauty/jewelry only, same as the showcase ring's isHomeCat -- this
+  // used to sort the whole catalogue by discount% with no category gate, so a
+  // Kids Workbench Tool Set or a Tuya E27 bulb could out-discount every dress
+  // on the page and lead the marquee. Falls back to the full catalogue only
+  // if home-cat deals can't fill the strip, same fallback shape as the ring.
+  const isHomeCatTick = x => x.d.cat === 'fashion' || x.d.cat === 'beauty' || x.d.cat === 'jewelry';
+  const discounted = DEALS.filter(hasUsableTitle).map(d => ({ d, disc: discOf(d) })).filter(x => x.disc >= 20);
+  const homeDiscounted = discounted.filter(isHomeCatTick);
+  const tickPool = homeDiscounted.length >= 14 ? homeDiscounted : discounted;
   const top = distinctDeals(
-    DEALS.filter(hasUsableTitle).map(d => ({ d, disc: discOf(d) })).filter(x => x.disc >= 20)
-      .sort((a,b) => b.disc - a.disc), x => x.d).slice(0, 14);
+    tickPool.sort((a,b) => b.disc - a.disc), x => x.d).slice(0, 14);
   if (!top.length) { track.parentElement.style.display = 'none'; return; }
   const item = x => '<span class="tick-item"><span class="pct">-' + x.disc + '%</span> '
     + titleFor(x.d).slice(0, 44) + ' <b>' + money(x.d.price, true) + '</b></span>';
