@@ -39,7 +39,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;600&family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<script>(function(){try{var t=localStorage.getItem('fh-theme');if(!t)t='dark';if(t==='dark')document.documentElement.className+=' dark';var L=null;try{L=new URLSearchParams(location.search).get('lang')||localStorage.getItem('fhs_lang');}catch(e){}if(L==='he'){document.documentElement.setAttribute('dir','rtl');document.documentElement.setAttribute('lang','he');}
+<script>(function(){try{var t=localStorage.getItem('fh-theme');if(!t)t='light';if(t==='dark')document.documentElement.className+=' dark';var L=null;try{L=new URLSearchParams(location.search).get('lang')||localStorage.getItem('fhs_lang');}catch(e){}if(L==='he'){document.documentElement.setAttribute('dir','rtl');document.documentElement.setAttribute('lang','he');}
 /* Same reason as the theme above: set before first paint. Applying the design
    from the main script instead would show the card layout for a frame and then
    snap to the list, which looks like a bug rather than a preference. */
@@ -1950,10 +1950,11 @@ function setLang(l) {
   const html = document.getElementById('root-html');
   if (!html) return;
   // The class itself was already applied before first paint by the inline
-  // script in <head> (same fh-theme key, same "dark unless the visitor has
-  // opted into light" default -- see Fix 5, 2026-09-15). This just paints the
-  // button to match whatever that script decided, so the icon is never wrong
-  // on load; it does not decide the theme a second time.
+  // script in <head> (same fh-theme key, same "light unless the visitor has
+  // opted into dark" default -- flipped 2026-09-16, was dark-default since
+  // Fix 5 on 2026-09-15). This just paints the button to match whatever that
+  // script decided, so the icon is never wrong on load; it does not decide
+  // the theme a second time.
   const tb = document.getElementById('theme-btn');
   if (tb) tb.textContent = html.classList.contains('dark') ? '🌙' : '☀️';
   applyLang();
