@@ -62,7 +62,7 @@ FTP_PATH="${FTP_PATH:-}"
 # site-config.json is NOT under api/ and still ships; it is build configuration.
 #
 # index.html, deals.json, about.html, contact.html and privacy.html are the five
-# files the deals build owns. build-static.js regenerates them from its own
+# files the deals build owns (plus the shared assets fh-theme.js / fh.css, which it also owns and uploads FIRST). build-static.js regenerates them from its own
 # templates and FTPs exactly those five to this host on every nightly and every
 # scheduled scan. Copies of them live in this repo only because that build
 # auto-syncs its output here as a mirror, so the copy on disk is whatever the
@@ -71,7 +71,7 @@ FTP_PATH="${FTP_PATH:-}"
 # no error and nothing to notice: measured 2026-09-11, the repo copy was
 # 364,213 bytes against 360,710 live. Same class of mistake as api/*.json above
 # — the host, not this repo, is the source of truth for them.
-EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$|api/.*\.json$|index\.html$|deals\.json$|about\.html$|contact\.html$|privacy\.html$)'
+EXCLUDE_RE='^\./(\.git|\.github/|tools/|content/|node_modules/|\.env|PW.*\.txt$|.*password.*\.txt$|.*creds.*\.txt$|.*credentials.*\.txt$|.*\.md$|.*\.sh$|.*\.bak$|.*\.py$|api/.*\.json$|index\.html$|deals\.json$|about\.html$|contact\.html$|privacy\.html$|fh-theme\.js$|fh\.css$)'
 
 mapfile -t FILES < <(
   find . -type f \

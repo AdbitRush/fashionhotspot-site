@@ -27,6 +27,8 @@ site is not:
     is one of the six languages and the design has no RTL half.
 """
 
+from pathlib import Path
+
 # Archivo carries display + UI; JetBrains Mono carries kickers and meta.
 # Weights are pruned to what is actually used — 400/600/800/900 and 400/600.
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -35,39 +37,37 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          'family=Archivo:wght@400;500;600;800;900&'
          'family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">')
 
-# ── Theme boot script ────────────────────────────────────────────────────────
-# Must run BEFORE the browser paints, which is why it is inline in <head> and
-# not a deferred file. If the theme were applied after first paint, a reader who
-# chose dark would get a full-brightness cream flash on every navigation — the
-# thing people actually notice and complain about.
+# ── Theme boot script ──────────────────────────────────────────────────────
+# ONE path for every page family: /fh-theme.js, a tiny blocking script in <head>
+# (so the theme is applied before first paint). It is owned by the deals build
+# (whatsapp-deals-bot/assets/fh-theme.js) and mirrored into this repo's root by
+# the same sync that mirrors index.html; this generator only links it.
 #
-# Order of precedence: an explicit saved choice always wins; otherwise follow the
-# operating system. Someone who has never touched the toggle gets whatever their
-# machine already says they prefer.
-THEME_BOOT = (
-    '<script>(function(){try{var t=localStorage.getItem("fh-theme");'
-    'if(!t)t=matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light";'
-    'document.documentElement.dataset.theme=t;}catch(e){}})();</script>'
-)
+# Rules it implements (see the file itself): a saved choice wins; with no saved
+# choice the page is LIGHT — the operating-system colour scheme is not consulted.
+def asset_url(name):
+    """/name?v=<content hash>, so the host's long TTL on .js/.css never serves a stale copy."""
+    import hashlib
+    p = Path(__file__).resolve().parent.parent / name
+    if not p.exists():
+        raise SystemExit(f"{name} is missing from the repo root. It is mirrored from "
+                         "whatsapp-deals-bot/assets/ by the deals build; copy it in and rerun.")
+    return f"/{name}?v={hashlib.sha1(p.read_bytes()).hexdigest()[:8]}"
+
+
+THEME_BOOT = f'<script src="{asset_url("fh-theme.js")}"></script>'
 
 # The toggle itself. aria-pressed + an accessible label because this is a real
 # control, not decoration; the two glyphs swap purely in CSS so there is no
 # scripted DOM churn on click.
 THEME_TOGGLE = (
     '<button class="themetog" type="button" onclick="fhToggleTheme()" '
-    'aria-label="Switch between light and dark" title="Light / dark">'
+    'aria-label="Switch between light and dark" aria-pressed="false" title="Light / dark">'
     '<span class="tt-sun">☀</span><span class="tt-moon">☾</span></button>'
 )
 
-THEME_SCRIPT = (
-    '<script>function fhToggleTheme(){var d=document.documentElement,'
-    'n=d.dataset.theme==="dark"?"light":"dark";d.dataset.theme=n;'
-    'try{localStorage.setItem("fh-theme",n);}catch(e){}}'
-    # Follow the OS if the reader has never expressed a preference here.
-    'try{matchMedia("(prefers-color-scheme:dark)").addEventListener("change",'
-    'function(ev){if(!localStorage.getItem("fh-theme"))'
-    'document.documentElement.dataset.theme=ev.matches?"dark":"light";});}catch(e){}</script>'
-)
+# Toggle + state sync now live in fh-theme.js; kept as an empty constant so importers do not change.
+THEME_SCRIPT = ''
 
 # ── Reading progress bar (article pages) ─────────────────────────────────────
 # The design drives this off scroll position. Written as a plain listener rather
