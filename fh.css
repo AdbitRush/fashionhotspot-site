@@ -1,0 +1,1527 @@
+/* fh.css — the ONE stylesheet of the Fashion Hotspot site (FH-2).
+   Linked as /fh.css?v=<content hash> by the homepage (site-template.js) and by every guide page (tools/build.py).
+   Source of truth: whatsapp-deals-bot/assets/fh.css; build-static.js mirrors it into the guides repo and FTPs it.
+   The two page families share this file but NOT their rules: every selector below is scoped to the family that owns it
+   by a class on <html> — .fh-home (homepage) or .fh-guides (guides index, home pages and articles) — so the
+   conflicting names (.card .hero .pill .badge .brand .mono .dot .num) cannot leak either way. The scope is one added
+   class per selector, so specificity inside a family is what it was before the merge.
+   Edit rules inside their section and keep the scope class when adding one.  Never add a <style> block to a page. */
+
+/* ═══════════════ HOMEPAGE  (html.fh-home) ═══════════════ */
+/* ═══ MAKEOVER — one design across the whole site ═══
+   2026-08-21. Ported from the claude.ai/design project "Fashion Hotspot
+   Design Overhaul" (Makeover + Makeover Light). The guides at /posts.html
+   already ship this palette; these are the same values, so the homepage and
+   the guides are now one system rather than two sites that share a logo.
+
+   Every token NAME below is unchanged — ~700 rules downstream reference them.
+   Only the VALUES move. That is deliberate: it makes this a repaint that
+   cannot break layout, and it makes the diff reviewable.
+
+   The jewel names (--berry, --orchid, --plum, --gold, --rose) survive as
+   aliases onto the new red family. Renaming them would have touched every
+   rule in the file for no visual gain, and a half-finished rename is how you
+   get an undefined custom property — which in this file has already produced
+   transparent fills that only survived by inheriting a parent colour. */
+:root.fh-home{
+  --bg:oklch(0.945 0.019 80); --bg2:oklch(0.925 0.022 78);
+  --card:oklch(0.978 0.014 82); --glass:rgba(0,0,0,.04);
+  --border:rgba(0,0,0,.08); --border-2:rgba(0,0,0,.13);
+  --ink:oklch(0.21 0.014 55); --ink2:oklch(0.44 0.014 65); --ink3:oklch(0.52 0.014 68);
+  /* Text-safe accents. The design draws accent text at oklch(0.55 0.2 25),
+     which measures 3.74:1 on this cream — under AA at the kicker sizes it is
+     used for. Anything that is TEXT takes --accent-ink; --accent stays the
+     brighter value for fills, borders and glows, where contrast rules do not
+     apply. This is the same split the guides build uses, and the same failure
+     it caught: 24 nodes, all of them accent-on-cream. */
+  --price:oklch(0.21 0.014 55); --amber-ink:oklch(0.45 0.15 70); --accent-ink:oklch(0.45 0.18 25);
+  --accent:oklch(0.55 0.2 25);
+  /* Elevated chrome — toast, find modal, carousel tiles. Both halves of the
+     pair must be taken together; taking one is what produced 1.15:1 ink here
+     before. */
+  --elev:oklch(0.978 0.014 82); --elev-2:oklch(0.965 0.016 81);
+  --on-elev:oklch(0.21 0.014 55); --on-elev-2:oklch(0.44 0.014 65);
+  /* Savings green stays semantic — money saved, not the accent. Red is the
+     brand now, so green is doing more work than before, not less. */
+  --save:#0B7A38; --save-soft:#E4F1E9; --rule:rgba(0,0,0,.08); --page:oklch(0.978 0.014 82);
+  --save-hdr:#0B7A38;
+  /* Header. Light in the light theme — a dark top bar in light mode is the
+     one thing the owner has reported twice. */
+  --hdr-bg:rgba(246,238,228,.9); --hdr-fill:oklch(0.978 0.014 82);
+  --hdr-line:rgba(0,0,0,.08); --hdr-ink:oklch(0.21 0.014 55); --hdr-ink2:oklch(0.44 0.014 65);
+  --hdr-ph:oklch(0.52 0.014 68);
+  --hdr-rail-bg:oklch(0.925 0.022 78); --hdr-rail-ink:oklch(0.44 0.014 65);
+  --hdr-rail-line:rgba(0,0,0,.07);
+  --hdr-accent:oklch(0.45 0.18 25);
+  --footer-bg:oklch(0.925 0.022 78);
+  /* Red family. The jewel names are aliases so existing rules keep working. */
+  --coral:oklch(0.55 0.2 25); --peach:oklch(0.66 0.17 35); --amber:oklch(0.7 0.15 70);
+  --mint:oklch(0.6 0.12 165); --violet:oklch(0.5 0.14 15);
+  --berry:oklch(0.55 0.2 25); --orchid:oklch(0.55 0.2 25); --plum:oklch(0.45 0.18 25);
+  --gold:oklch(0.7 0.15 70); --rose:oklch(0.72 0.14 30);
+  --on-grad:oklch(0.985 0.012 84);
+  --grad:linear-gradient(120deg,oklch(0.55 0.2 25),oklch(0.5 0.19 20) 100%);
+  --grad-ink:linear-gradient(120deg,oklch(0.5 0.19 25),oklch(0.42 0.17 20) 100%);
+  --chip:oklch(0.915 0.045 42);
+  --radius:22px;
+}
+html.dark.fh-home{
+  --bg:#141013; --bg2:#0E0B0D;
+  --card:#1E181C; --glass:rgba(255,255,255,.05);
+  --border:rgba(255,255,255,.09); --border-2:rgba(255,255,255,.15);
+  --ink:#F7F1EC; --ink2:#CBBFB8; --ink3:#9C8E88;
+  --price:#F7F1EC; --amber-ink:oklch(0.8 0.14 75); --accent-ink:oklch(0.82 0.16 25);
+  --accent:oklch(0.72 0.2 25);
+  --elev:#1E181C; --elev-2:#1B1519; --on-elev:#F7F1EC; --on-elev-2:#CBBFB8;
+  --save:#3DD68C; --save-soft:rgba(61,214,140,.12); --rule:rgba(255,255,255,.10); --page:#141013;
+  --save-hdr:#3DD68C;
+  --hdr-bg:rgba(20,16,19,.9); --hdr-fill:rgba(255,255,255,.06);
+  --hdr-line:rgba(255,255,255,.12); --hdr-ink:#F7F1EC; --hdr-ink2:#CBBFB8;
+  --hdr-ph:#9C8E88;
+  --hdr-rail-bg:rgba(0,0,0,.34); --hdr-rail-ink:#CBBFB8;
+  --hdr-rail-line:rgba(255,255,255,.08);
+  --hdr-accent:oklch(0.82 0.16 25);
+  --footer-bg:#0E0B0D;
+  --coral:oklch(0.72 0.2 25); --peach:oklch(0.76 0.16 35); --amber:oklch(0.8 0.14 75);
+  --mint:oklch(0.78 0.13 165); --violet:oklch(0.68 0.16 15);
+  --berry:oklch(0.72 0.2 25); --orchid:oklch(0.68 0.19 25); --plum:oklch(0.62 0.18 20);
+  --gold:oklch(0.8 0.14 75); --rose:oklch(0.8 0.12 30);
+  --on-grad:#170a0b;
+  --grad:linear-gradient(120deg,oklch(0.72 0.2 25),oklch(0.62 0.18 20) 100%);
+  /* Clipped TEXT on a dark page needs the bright end, not the fill ramp. */
+  --grad-ink:linear-gradient(120deg,oklch(0.82 0.16 25),oklch(0.76 0.16 35) 100%);
+  --chip:#3A2028;
+}
+:where(html).fh-home, .fh-home *{box-sizing:border-box;margin:0;padding:0}
+html.fh-home{scroll-behavior:smooth}
+.fh-home body{font-family:Archivo,system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.fh-home a{text-decoration:none;color:inherit}
+.fh-home button{cursor:pointer;font-family:inherit}
+
+/* ── Backdrop ──────────────────────────────────────────────────────────────
+   second pass. This was a receding perspective grid across the whole page
+   under a 900px magenta bloom, and .hero-floor laid a SECOND, animated grid
+   on top of it inside the hero. Stacked, they read as a synthwave floor: a
+   games and crypto motif, and the loudest thing on a page whose entire
+   argument is that its discounts are measured against a price it can defend.
+   Someone deciding whether to trust a number should not be reading it off a
+   Tron grid.
+
+   What replaces it does the job the grid was there for -- keeping the page
+   from being a flat sheet of cream -- without a motif of its own: a soft
+   vertical settling from --bg2 into --bg, and one wide, faint warm gathering
+   at the top that lifts the hero off the header. One static paint on one
+   layer, no animation, and the accent sits at 7% rather than 14% so it
+   registers as warmth rather than as a colour.
+
+   No grid, no starfield, no aurora, on purpose. The cards, the photography
+   and the price typography carry this design; the background's whole job is
+   to stay behind them. */
+.fh-home body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(1150px 560px at 50% -10%,
+      color-mix(in oklab,var(--accent) 7%,transparent), transparent 72%),
+    linear-gradient(to bottom, var(--bg2) 0%, var(--bg) 38%)}
+.fh-home header, .fh-home section, .fh-home footer, .fh-home #pager, .fh-home .ticker{position:relative;z-index:1}
+
+.fh-home h1, .fh-home h2, .fh-home h3{font-family:Archivo,system-ui,sans-serif;font-weight:900;letter-spacing:-.045em;line-height:.94}
+/* Every kicker, meta line, stat and label in the design is mono, uppercase and
+   widely tracked. One class so the RTL override at the bottom has a single
+   thing to reach for — JetBrains Mono has no Hebrew. */
+.fh-home .mono, .fh-home .sec-kicker, .fh-home .ticker, .fh-home .stat3d .k, .fh-home .hero-badge, .fh-home .g-card .meta, .fh-home .cnt, .fh-home .v{
+  font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-variant-numeric:tabular-nums}
+.fh-home .sec-kicker{text-transform:uppercase;letter-spacing:.18em;font-size:13px;font-weight:600;color:var(--accent-ink)}
+.fh-home .sec-title{font-family:Archivo,sans-serif;font-weight:900;letter-spacing:-.045em;line-height:.92}
+
+@keyframes gradmove{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+/* ── Header ─────────────────────────────────────────────────────────────────
+   Two strata. The utility rail carries the settings and the disclosure; the
+   nav carries the four things a shopper came for. The 2px gradient hairline
+   at the bottom is the header's one piece of colour — everything above it
+   stays quiet so the rail and the nav read as one object, not two bars. */
+.fh-home header{position:sticky;top:0;z-index:60;color:var(--hdr-ink);background:var(--hdr-bg);
+  backdrop-filter:saturate(160%) blur(18px);border-bottom:none;
+  box-shadow:0 1px 0 var(--hdr-line),0 6px 24px -12px rgba(42,26,36,.18)}
+.fh-home header::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;
+  background:var(--grad);background-size:220% auto;animation:gradmove 9s ease infinite;
+  opacity:.9;pointer-events:none}
+
+/* Utility rail */
+/* Collapsing the rail is done with grid-template-rows 1fr->0fr, not max-height.
+   max-height was tried first and would not animate here at all: the computed
+   value simply stayed at its open figure while the class was on, so the rail
+   never moved. The grid technique animates to the row's REAL height rather
+   than to a guessed ceiling, which is also why it does not need a magic 140px
+   that the two-row mobile rail would have outgrown.
+   border-bottom-color has to go with it — a border sits outside the content
+   box, so a collapsed row alone would leave a stray hairline. */
+/* grid-template-columns:minmax(0,1fr) is not decoration. An implicit grid
+   column is auto-sized, which means max-content — so once the rail's control
+   row went nowrap for scrolling, the column sized itself to the 359px the
+   controls wanted and overflowed the 345px viewport. Same family of trap as
+   min-width:0 on a flex item, and it needs both fixes, not either one. */
+.fh-home .util{display:grid;grid-template-rows:1fr;grid-template-columns:minmax(0,1fr);
+  background:var(--hdr-rail-bg);border-bottom:1px solid var(--hdr-rail-line);
+  transition:grid-template-rows var(--t) var(--ease),opacity var(--t) var(--ease),
+             border-bottom-color var(--t) var(--ease)}
+/* min-height:0 lets the row collapse; min-width:0 stops the item itself from
+   refusing to go below the min-content width of the nowrap control row. A grid
+   item's automatic minimum applies on BOTH axes, and capping the column above
+   does nothing while the item inside can still overflow it. */
+.fh-home .util>.util-in{overflow:hidden;min-height:0;min-width:0}
+.fh-home header.stuck .util{grid-template-rows:0fr;opacity:0;border-bottom-color:transparent}
+@media(prefers-reduced-motion:reduce){.fh-home .util{transition:none}}
+/* width:100% is load-bearing. This is a GRID item, and margin:0 auto on a
+   grid item opts it out of stretch and sizes it to its content instead — so
+   with the nowrap control row it rendered 359px wide inside a 345px column and
+   hung off the edge. An explicit width puts it back on the column; max-width
+   and the auto margins still do the centring on wide screens.
+   No min-height here on purpose either: the controls are ~30px inside 10px of
+   padding, and a min-height would fight the 0fr collapse above. */
+.fh-home .util-in{width:100%;max-width:1280px;margin:0 auto;padding:0 24px;
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.fh-home .util-note{flex:1 1 260px;min-width:0;color:var(--hdr-rail-ink);
+  font-size:14px;line-height:1.5;font-weight:600;letter-spacing:.01em;
+  padding:7px 0;margin:0}
+.fh-home .util-ctl{display:flex;align-items:center;gap:7px;margin-inline-start:auto;
+  padding:2px 0;flex-wrap:wrap}
+.fh-home .util-sep{width:1px;height:18px;background:var(--hdr-rail-line);flex:0 0 auto}
+/* One shared look for both selects and the icon button, so a new control in
+   this rail cannot drift the way the four inline-styled ones did. */
+.fh-home .hdr-sel, .fh-home .hdr-icon, .fh-home #design-btn{min-height:44px;border-radius:8px;
+  background:var(--hdr-fill);border:1px solid var(--hdr-line);color:var(--hdr-ink);
+  font-family:inherit;font-size:12.5px;line-height:1.4;font-weight:700;cursor:pointer;
+  transition:border-color var(--t-fast) var(--ease),color var(--t-fast) var(--ease),
+             background var(--t-fast) var(--ease)}
+.fh-home .hdr-sel{padding:0 8px;max-width:132px}
+.fh-home .hdr-sel:hover, .fh-home #design-btn:hover, .fh-home .hdr-icon:hover{border-color:var(--hdr-accent);color:var(--hdr-accent)}
+.fh-home .hdr-icon{width:44px;display:flex;align-items:center;justify-content:center;font-size:15px}
+.fh-home #design-btn-txt{font-size:14px}
+.fh-home .hdr-sel:focus-visible, .fh-home .hdr-icon:focus-visible, .fh-home #design-btn:focus-visible, .fh-home .hdr-link:focus-visible, .fh-home .hdr-cta:focus-visible, .fh-home .brand:focus-visible{
+  outline:2px solid var(--hdr-accent);outline-offset:2px}
+
+/* Main nav */
+.fh-home nav{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.fh-home .brand{display:flex;align-items:center;gap:11px;min-height:44px;flex:0 0 auto;text-decoration:none;color:inherit}
+.fh-home .nav-end{display:flex;align-items:center;gap:12px;margin-inline-start:auto;flex:0 0 auto}
+.fh-home .hdr-link{font-weight:700;font-size:15px;line-height:1.5;color:var(--hdr-ink2);
+  min-height:44px;display:inline-flex;align-items:center;
+  text-decoration:none;white-space:nowrap;transition:color var(--t-fast) var(--ease)}
+.fh-home .hdr-link:hover{color:var(--hdr-accent)}
+.fh-home .hdr-wa{color:#1EA855!important;font-weight:800}
+.fh-home .hdr-wa:hover{color:#17904a!important}
+.fh-home .logo-orb{width:40px;height:40px;border-radius:13px;background:var(--grad);background-size:200% 200%;animation:gradmove 8s ease infinite;display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px color-mix(in oklab,var(--accent) 55%,transparent),inset 0 1px 0 rgba(255,255,255,.4)}
+.fh-home .logo-name{font-family:Archivo,sans-serif;font-weight:900;font-size:20px;line-height:1.25;letter-spacing:-.045em;color:inherit}
+/* The wordmark keeps its gradient but takes the TEXT-SAFE one. --grad ends at
+   amber #FFC23C, which is 1.61:1 on the now-white header — the "spot" half of
+   "fashionhotspot" would have faded out. --grad-ink is the same three hues
+   dropped to a lightness that reads on white. */
+.fh-home .logo-name b{background:var(--grad-ink);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradmove 8s ease infinite}
+.fh-home .searchbox{position:relative;display:flex;align-items:center;gap:9px;flex:1 1 320px;max-width:520px;background:var(--hdr-fill);border:1.5px solid var(--hdr-line);border-radius:12px;padding:9px 15px;transition:border-color var(--t) var(--ease),box-shadow var(--t) var(--ease),background var(--t) var(--ease)}
+/* ── Suggestions ─────────────────────────────────────────────────────────
+   A ROW OF THE HEADER, not a floating overlay. The header is sticky, so a row
+   that opens under the search box grows the header and pushes the toolbar and
+   the grid down — the panel reserves its own space and can never sit on top of
+   the sticky filters or the first cards (FH-4). Raising or lowering a z-index
+   would only have chosen which of the two got covered. */
+.fh-home .sugg-row{max-width:1280px;margin:0 auto;padding:0 24px 12px}
+.fh-home .sugg-row[hidden]{display:none}
+.fh-home .sugg{position:relative;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:8px;
+  padding:8px;background:var(--elev);border:1px solid var(--border);border-radius:14px;
+  max-height:min(40vh,340px);overflow-y:auto;overscroll-behavior:contain}
+.fh-home .sugg-item{display:flex;align-items:center;gap:10px;padding:8px 12px;cursor:pointer;text-decoration:none;color:inherit;border:1px solid var(--border);border-radius:10px;background:none;width:100%;text-align:start;font:inherit;min-width:0}
+.fh-home .sugg-item:hover, .fh-home .sugg-item.on{background:var(--soft-hover,rgba(127,127,127,.10))}
+.fh-home .sugg-item.on{border-color:var(--hdr-accent,var(--accent));box-shadow:0 0 0 2px color-mix(in srgb,var(--hdr-accent,var(--accent)) 25%,transparent)}
+.fh-home .sugg-item img{width:40px;height:40px;object-fit:cover;border-radius:8px;flex:0 0 40px;background:#FFFDF8}
+.fh-home .sugg-t{flex:1;min-width:0;font-size:13px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fh-home .sugg-p{font-size:13px;font-weight:800;color:var(--price);white-space:nowrap;direction:ltr;unicode-bidi:isolate}
+.fh-home .sugg-all{grid-column:1/-1;justify-content:center;padding:10px 12px;color:var(--accent-ink,var(--accent));font-weight:800;font-size:13px}
+@media(max-width:760px){.fh-home .sugg-row{padding:0 16px 10px}.fh-home .sugg{max-height:min(26vh,190px)}}
+.fh-home .searchbox:hover{border-color:var(--hdr-ink2)}
+.fh-home .searchbox:focus-within{border-color:var(--hdr-accent);background:var(--hdr-bg);box-shadow:0 0 0 3px color-mix(in srgb,var(--hdr-accent) 20%,transparent)}
+.fh-home #search-input{flex:1;border:none;outline:none;font-size:16px;line-height:1.6;font-family:Archivo,sans-serif;color:inherit;background:transparent;min-width:0;min-height:44px}
+/* Was a hardcoded #C9C2D2, which is a pale grey chosen for the dark header.
+   On a white header that is 1.5:1 — the placeholder disappears. */
+.fh-home #search-input::placeholder{color:var(--hdr-ph)}
+.fh-home .hdr-cta{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 20px;background:var(--grad);background-size:200% auto;animation:gradmove 7s ease infinite;color:var(--on-grad);font-weight:800;font-size:14px;line-height:1.5;border-radius:11px;text-decoration:none;box-shadow:0 6px 18px -6px color-mix(in srgb,var(--berry) 65%,transparent);transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
+.fh-home .hdr-cta:hover{transform:translateY(-1px);box-shadow:0 10px 24px -8px color-mix(in srgb,var(--berry) 75%,transparent)}
+
+/* Header, narrow. The rail keeps its controls on one line and drops the
+   disclosure below them — the notice is the one thing here nobody taps, so it
+   is what gives up the row. Controls go to 36px: this is a settings strip, not
+   the primary interaction, and forcing 44px here rebuilds the stack of bars
+   the two-tier layout exists to remove. The search box takes the full width on
+   its own line, which is the one control on this header that IS primary. */
+@media(max-width:760px){
+  .fh-home .util-in{padding:0 16px;gap:6px}
+  .fh-home .util-note{order:2;flex:1 1 100%;font-size:14px;padding:0 0 7px}
+  .fh-home .util-ctl{order:1;flex:1 1 100%;margin-inline-start:0;padding:6px 0 0;gap:6px;
+    /* Four controls total ~333px inside a 313px row at 360px, so one of them
+       wrapped onto a line of its own. Scroll the row instead of stacking it —
+       the same call #plat-bar and #cat-bar already make further down, for the
+       same reason: wrapping costs a whole row, scrolling costs nothing. */
+    flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    /* min-width:0 is what actually makes the scroll work. A flex item defaults
+       to min-width:auto, so with nowrap content this row refused to shrink
+       below its 327px of controls, pushed .util-in to 359px inside a 345px
+       viewport, and the whole PAGE scrolled sideways instead of just this row. */
+    min-width:0;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .fh-home .util-ctl::-webkit-scrollbar{display:none}
+  .fh-home .util-ctl>*{flex:0 0 auto}
+  .fh-home .hdr-sel, .fh-home .hdr-icon, .fh-home #design-btn{min-height:44px}
+  .fh-home .hdr-icon{width:44px}
+  .fh-home .hdr-sel{max-width:112px}
+
+  /* Row one is the logo and the one action; the search box takes row two on
+     its own. The logo comes down to 17px so those two actually fit side by
+     side — at 22px they did not, and the CTA dropped onto an orphan row. */
+  .fh-home nav{padding:11px 16px;gap:10px}
+  .fh-home .brand{gap:8px}
+  .fh-home .logo-orb{width:34px;height:34px;border-radius:11px}
+  .fh-home .logo-name{font-size:17px}
+  .fh-home .nav-end{order:1;gap:8px}
+  .fh-home .searchbox{order:3;flex:1 0 100%;max-width:none;padding:8px 13px}
+  .fh-home .hdr-cta{min-height:44px;padding:0 13px;font-size:14px}
+}
+/* Guides goes below 560px. It is secondary, and it still appears twice on the
+   page — above the guides grid and in the footer — so nothing becomes
+   unreachable; keeping it here is what pushed the CTA off the row. */
+@media(max-width:560px){
+  /* Guides and WhatsApp are the site's two retention paths, and hiding them
+     removed both from the devices most deal traffic uses. They were hidden
+     because keeping them as text pushed the CTA onto an orphan row — a width
+     problem, and this file already solves width by scrolling the row instead
+     of wrapping it (see .util-ctl above). Same call, same reason. */
+  /* flex:0 0 auto (the desktop default) never shrinks, so the row above —
+     min-width:0 plus overflow-x:auto on its CONTENT — did nothing: the box
+     itself still sized to its max-content width (451px in Greek, where
+     "Today's Deals" runs long) and pushed the document past the viewport
+     instead of scrolling. flex:1 1 auto + max-width:100% lets the box itself
+     shrink to the row, and min-width:0 lets it shrink past its own
+     max-content floor; overflow-x:auto then scrolls what does not fit. */
+  .fh-home .nav-end{flex:1 1 auto;max-width:100%;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;min-width:0;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .fh-home .nav-end::-webkit-scrollbar{display:none}
+  .fh-home .nav-end>*{flex:0 0 auto}
+  .fh-home .hdr-link{font-size:15px;padding:0 7px;white-space:nowrap}
+}
+
+/* ── HERO ── */
+.fh-home .hero{position:relative;overflow:hidden;perspective:1200px}
+.fh-home .hero-inner{position:relative;max-width:1280px;margin:0 auto;padding:74px 24px 40px;z-index:2}
+/* The second perspective grid, and the last infinite animation on the
+   backdrop: 56px squares scrolling under the headline forever. The element
+   stays rather than being deleted, because the hero's stacking order is built
+   around it -- it is now the soft base the hero sits on, which is what a floor
+   should do quietly. */
+.fh-home .hero-floor{position:absolute;left:0;right:0;bottom:0;height:58%;pointer-events:none;z-index:0;
+  background:linear-gradient(to top,
+    color-mix(in oklab,var(--accent) 5%,transparent), transparent 76%)}
+.fh-home .hero-badge{display:inline-flex;align-items:center;gap:9px;background:transparent;border:1px solid color-mix(in oklab,var(--accent) 45%,transparent);border-radius:999px;padding:7px 14px;margin-bottom:26px}
+.fh-home .hero-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.fh-home .hero-badge span{color:var(--accent-ink);font-size:13px;line-height:1.5;font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.fh-home .hero h1{font-weight:900;font-size:clamp(44px,7vw,104px);line-height:.87;letter-spacing:-.05em;max-width:15ch;margin:0 0 24px;text-wrap:balance}
+.fh-home .hero h1 .shine{color:var(--accent-ink)}
+.fh-home .hero p{font-size:18px;line-height:1.4;line-height:1.65;color:var(--ink2);max-width:540px;margin:0 0 34px;font-weight:500}
+.fh-home .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px}
+.fh-home .cta-main{display:inline-flex;align-items:center;gap:9px;height:56px;padding:0 30px;background:var(--accent);color:var(--on-grad);font-weight:800;font-size:16px;line-height:1.6;border-radius:999px;box-shadow:0 12px 40px color-mix(in oklab,var(--accent) 34%,transparent);transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease)}
+.fh-home .cta-main:hover{transform:translateY(-2px);box-shadow:0 18px 54px color-mix(in oklab,var(--accent) 46%,transparent)}
+@keyframes ctapulse{0%,100%{box-shadow:0 12px 32px color-mix(in oklab,var(--accent) 45%,transparent)}50%{box-shadow:0 16px 44px rgba(158,27,107,.7),0 0 30px rgba(176,125,24,.3)}}
+.fh-home .cta-ghost{display:inline-flex;align-items:center;gap:8px;height:54px;padding:0 26px;background:var(--glass);border:1.5px solid var(--border-2);color:var(--ink);font-weight:700;font-size:16px;line-height:1.6;border-radius:15px;backdrop-filter:blur(8px);transition:transform var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
+.fh-home .cta-ghost:hover{transform:translateY(-3px);border-color:var(--coral)}
+.fh-home .hero-stats{display:flex;flex-wrap:wrap;gap:14px}
+.fh-home .stat3d{background:var(--glass);border:1px solid var(--border);backdrop-filter:blur(12px);border-radius:18px;padding:16px 24px;min-width:130px;transform-style:preserve-3d;transition:transform var(--t) var(--ease-out),border-color var(--t) var(--ease)}
+.fh-home .stat3d:hover{transform:translateY(-4px) rotateX(6deg);border-color:var(--border-2)}
+.fh-home .stat3d .v{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:600;font-size:30px;line-height:1.18;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate}
+.fh-home .stat3d .k{font-size:12px;line-height:1.45;color:var(--ink3);font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+
+/* floating 3D cubes */
+.fh-home .cube-wrap{position:absolute;pointer-events:none;z-index:1;transform-style:preserve-3d}
+.fh-home .hero-visual{position:absolute;top:50%;right:2%;width:min(46vw,520px);height:min(46vw,520px);transform:translateY(-50%);pointer-events:none;z-index:1;transition:translate var(--t) var(--ease-out)}
+.fh-home .floater{position:absolute;margin:0;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--border);box-shadow:0 30px 70px rgba(60,40,30,.16);animation:drift 8s ease-in-out infinite}
+html.dark.fh-home .floater{box-shadow:0 30px 70px rgba(0,0,0,.6)}
+.fh-home .floater img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.fh-home .floater figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 12px;border-top:1px solid var(--border)}
+.fh-home .fl-price{font-size:13px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.fh-home .fl-off{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:10px;font-weight:600;color:var(--accent-ink)}
+@keyframes drift{0%,100%{transform:translate3d(0,0,0) rotate(0)}50%{transform:translate3d(0,-22px,0) rotate(1.6deg)}}
+@media(max-width:980px){.fh-home .hero-visual{display:none}}
+@media(prefers-reduced-motion:reduce){.fh-home .hero-visual{transition:none}}
+.fh-home .cube{position:relative;transform-style:preserve-3d;animation:cubespin 22s linear infinite}
+.fh-home .cube.c2{animation-duration:30s;animation-direction:reverse}
+@keyframes cubespin{from{transform:rotateX(-18deg) rotateY(0)}to{transform:rotateX(-18deg) rotateY(360deg)}}
+.fh-home .face{position:absolute;display:flex;align-items:center;justify-content:center;border:1.5px solid rgba(232,99,154,.4);background:linear-gradient(135deg,color-mix(in oklab,var(--accent) 16%,transparent),color-mix(in oklab,var(--plum) 14%,transparent));backdrop-filter:blur(2px);box-shadow:inset 0 0 26px color-mix(in oklab,var(--accent) 12%,transparent)}
+.fh-home .float-ring{position:absolute;border-radius:50%;border:2px solid rgba(176,125,24,.35);pointer-events:none;animation:floaty 8s ease-in-out infinite}
+.fh-home .float-orb{position:absolute;border-radius:50%;pointer-events:none;filter:blur(2px);animation:floaty 10s ease-in-out infinite}
+@keyframes floaty{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-22px) rotate(8deg)}}
+
+/* ── Ticker ── */
+/* direction:ltr + contain:paint: the marquee is a physical left-to-right animation; in RTL the max-content track escaped the clip and made every Hebrew page ~11,000px wide. */
+.fh-home .ticker{direction:ltr;contain:paint;max-width:100%;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);overflow:hidden;padding:15px 0;z-index:2;font-size:13px;letter-spacing:.06em}
+.fh-home .ticker-track{display:flex;gap:38px;width:max-content;animation:marquee 110s linear infinite}
+.fh-home .ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.fh-home .tick-item{display:inline-flex;align-items:center;gap:9px;font-size:14px;line-height:1.5;line-height:1.5;font-weight:700;color:var(--ink2);white-space:nowrap}
+.fh-home .tick-item b{color:var(--amber-ink)}
+.fh-home .tick-item .pct{background:var(--grad);color:var(--on-grad);font-weight:900;border-radius:8px;padding:2px 9px;font-size:13px;line-height:1.45;line-height:1.45;direction:ltr;unicode-bidi:isolate}
+
+/* ── Buying guides strip ── */
+.fh-home #guides{max-width:1280px;margin:0 auto;padding:56px 24px 8px;text-align:center}
+.fh-home .g-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:18px;margin-top:26px;text-align:start}
+/* Literal easing, not var(--ease). The generated homepage defines that token
+   but the site repo's index.html does not, and an undefined token makes the
+   whole transition declaration invalid rather than falling back. */
+.fh-home .g-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1),border-color .25s,box-shadow .25s}
+.fh-home .g-card:hover{transform:translateY(-4px);border-color:var(--border-2);box-shadow:0 18px 44px rgba(0,0,0,.28)}
+.fh-home .g-card .g-img{height:132px;background:var(--glass);overflow:hidden}
+.fh-home .g-card .g-img img{width:100%;height:100%;object-fit:cover;display:block}
+.fh-home .g-card .g-body{padding:13px 15px 16px;display:flex;flex-direction:column;gap:7px;flex:1}
+.fh-home .g-card .g-title{font-size:14.5px;font-weight:600;line-height:1.38;color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.fh-home .g-card .g-meta{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3);margin-top:auto}
+.fh-home .g-all{display:inline-flex;align-items:center;min-height:44px;margin-top:26px;background:var(--grad);color:var(--on-grad);font-weight:800;font-size:14.5px;text-decoration:none;padding:13px 28px;border-radius:12px;box-shadow:0 8px 24px color-mix(in oklab,var(--accent) 32%,transparent)}
+.fh-home .g-all:hover{transform:translateY(-2px)}
+@media(max-width:640px){
+  .fh-home #guides{padding:40px 18px 4px}
+  .fh-home .g-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:13px}
+  .fh-home .g-card .g-img{height:100px}
+  .fh-home .g-card .g-title{font-size:13px;-webkit-line-clamp:3}
+}
+
+/* ── 3D showcase carousel ── */
+.fh-home .showcase{max-width:1280px;margin:0 auto;padding:var(--sec-y) 24px var(--sec-y);text-align:center}
+.fh-home .sec-kicker{font-size:13px;line-height:1.45;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:8px}
+.fh-home .sec-title{font-weight:700;font-size:clamp(26px,3.4vw,34px);line-height:1.1;letter-spacing:-.03em;color:var(--ink);margin-bottom:var(--s1)}
+.fh-home .sec-sub{color:var(--ink3);font-size:16px;line-height:1.6;margin-bottom:var(--s3)}
+.fh-home #stage3d-wrap{position:relative;height:330px;perspective:1500px;margin-top:8px}
+.fh-home #stage3d{position:absolute;inset:0;transform-style:preserve-3d}
+.fh-home .car-item{position:absolute;top:50%;left:50%;width:180px;margin:-130px 0 0 -90px;height:260px;border-radius:20px;overflow:hidden;background:var(--elev);color:var(--on-elev);border:1px solid var(--border-2);box-shadow:0 24px 60px rgba(0,0,0,.55);display:flex;flex-direction:column;transition:border-color var(--t) var(--ease)}
+.fh-home .car-item:hover{border-color:var(--amber)}
+.fh-home .car-item .ci-img{height:150px;background:#FFFDF8;overflow:hidden;position:relative}
+.fh-home .car-item .ci-img img{width:100%;height:100%;object-fit:cover}
+.fh-home .car-item .ci-pct{position:absolute;top:10px;left:10px;background:var(--grad);color:var(--on-grad);font-weight:900;font-size:14px;line-height:1.5;border-radius:999px;padding:4px 12px;box-shadow:0 4px 16px color-mix(in oklab,var(--accent) 50%,transparent);direction:ltr;unicode-bidi:isolate}
+.fh-home .car-item .ci-body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1;text-align:left}
+/* These two were the same bug as #toast and the card price: colours picked for
+   the dark theme, left literal, and unreadable once .car-item took a white
+   surface in light mode. Measured before the fix: the price was --amber
+   #FFC23C on white at 1.61:1, the title a hardcoded #B7A9CC at 2.20:1. Both
+   now come from the elevated-surface pair, 15.67:1 and 8.74:1. */
+.fh-home .car-item .ci-title{font-size:12px;line-height:1.45;line-height:1.45;font-weight:600;color:var(--on-elev-2);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fh-home .car-item .ci-price{font-family:Archivo,sans-serif;font-weight:900;font-size:20px;letter-spacing:-.03em;line-height:1.4;line-height:1.4;color:var(--price);margin-top:auto}
+/* The ring never looked round: every card drew at identical brightness and
+   size, so nine cards on a circle read as nine flat cards sliding sideways.
+   Two cues fix it — .orbit-floor draws the circle the cards sit on (a real
+   element, sized to the JS radius, laid flat by rotateX inside the existing
+   1500px perspective), and shade() below dims and blurs each card by how far
+   round the back it currently is. */
+.fh-home .orbit-floor{position:absolute;left:50%;top:58%;transform:translate(-50%,-50%) rotateX(74deg);border-radius:50%;border:1px solid rgba(255,255,255,.10);box-shadow:inset 0 0 70px color-mix(in oklab,var(--accent) 10%,transparent);pointer-events:none}
+.fh-home .car-item{will-change:opacity,filter}
+
+/* ── Deals section ── */
+.fh-home #deals{max-width:1280px;margin:0 auto;padding:var(--sec-y) 24px var(--sec-y)}
+.fh-home .pill{display:inline-flex;align-items:center;min-height:44px;padding:0 17px;border-radius:999px;font-size:14px;line-height:1.5;font-weight:700;letter-spacing:-.01em;border:1px solid var(--border-2);color:var(--ink2);cursor:pointer;background:var(--glass);transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),background-color var(--t-fast) var(--ease),color var(--t-fast) var(--ease);backdrop-filter:blur(6px)}
+.fh-home .pill:hover{transform:translateY(-2px);border-color:var(--border-2);color:var(--ink)}
+.fh-home .pill.active-dark{background:var(--grad);border-color:transparent;color:var(--on-grad);box-shadow:0 6px 20px color-mix(in oklab,var(--accent) 35%,transparent)}
+
+/* 3D tilt cards */
+.fh-home #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:22px;perspective:1600px}
+.fh-home .card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:22px;overflow:hidden;backdrop-filter:blur(14px);box-shadow:0 10px 30px rgba(0,0,0,.4);transform-style:preserve-3d;will-change:transform;transition:box-shadow var(--t) var(--ease),border-color var(--t) var(--ease)}
+.fh-home .card:hover{box-shadow:0 30px 70px rgba(0,0,0,.6),0 0 40px color-mix(in oklab,var(--accent) 12%,transparent);border-color:var(--border-2)}
+.fh-home .card .glare{position:absolute;inset:0;z-index:5;pointer-events:none;opacity:0;transition:opacity var(--t) var(--ease);background:radial-gradient(420px circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.16),transparent 46%)}
+.fh-home .card:hover .glare{opacity:1}
+.fh-home .rv{opacity:0;transform:translateY(28px) rotateX(7deg)}
+.fh-home .rv.in{opacity:1;transform:none;transition:opacity var(--t-slow) var(--ease-out),transform var(--t-slow) var(--ease-out)}
+.fh-home .card-img{position:relative;height:212px;background:#FFFDF8;overflow:hidden}
+.fh-home .card-img img{width:100%;height:100%;object-fit:cover;transition:transform var(--t-slow) var(--ease-out)}
+.fh-home .card:hover .card-img img{transform:scale(1.09)}
+/* The photo used to carry three badges (category, platform, "New") on top of
+   the discount tag — four things competing for one corner each, and the eye
+   had to sort brand chrome from the one fact that actually sells the deal.
+   Now the image keeps ONLY the discount; category, platform and "New" move
+   into .card-meta, a plain 13px text row between the photo and the price. */
+.fh-home .card-meta{display:flex;align-items:center;flex-wrap:wrap;gap:5px 8px;
+  padding:10px 18px 0;font-size:13px;line-height:1.4;color:var(--ink3)}
+.fh-home .badge{font-size:13px;line-height:1.4;font-weight:700;letter-spacing:.01em;color:var(--ink3)}
+.fh-home .cm-sep{color:var(--ink3);opacity:.55}
+.fh-home .disc-badge{position:absolute;top:12px;left:12px;background:linear-gradient(135deg,var(--accent),var(--accent));color:#fff;font-size:16px;line-height:1.6;font-weight:900;padding:6px 14px;border-radius:999px;box-shadow:0 4px 16px rgba(255,58,58,.55);letter-spacing:-.01em;animation:discpulse 2.4s ease-in-out infinite;z-index:2;direction:ltr;unicode-bidi:isolate}
+@keyframes discpulse{0%,100%{box-shadow:0 4px 16px rgba(255,58,58,.55)}50%{box-shadow:0 4px 26px rgba(255,58,58,.9)}}
+.fh-home .plat-badge{font-size:13px;line-height:1.4;font-weight:800}
+.fh-home .new-badge{font-size:13px;line-height:1.4;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--save)}
+.fh-home .added-badge{font-size:13px;line-height:1.4;font-weight:700;color:var(--ink3)}
+html[data-design="list"].fh-home .new-badge, html[data-design="list"].fh-home .added-badge, html[data-design="list"].fh-home .badge, html[data-design="list"].fh-home .cm-sep{display:none}
+/* display:contents so the row's one surviving child (the platform label)
+   becomes a direct flex item of .card in list mode, exactly where it sat
+   before this refactor moved it out of .card-img. */
+html[data-design="list"].fh-home .card-meta{display:contents}
+.fh-home .card-body{display:flex;flex-direction:column;gap:10px;padding:16px 18px 18px;flex:1}
+.fh-home .card-title{font-weight:600;font-size:16px;line-height:1.3;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* .disc-body / .disc-fire — the red "🔥 60% OFF" pill — are gone with the
+   markup that used them. The percentage is still on the photograph
+   (.disc-badge); what sits in the body now is .card-save, the saving in
+   money, which is the figure the pill never gave. */
+.fh-home .card-price{font-family:Archivo,sans-serif;font-weight:900;letter-spacing:-.03em;font-size:22px;line-height:1.25;line-height:1.25;color:var(--price);direction:ltr;unicode-bidi:isolate}
+.fh-home .card-orig{font-size:14px;line-height:1.5;color:var(--ink3);text-decoration:line-through;direction:ltr;unicode-bidi:isolate}
+/* The saving in money, which is what a shopper actually compares. Green, not
+   the red the discount tag uses: red is the alarm colour and this is the good
+   news. --save is the token the list design already uses for it. */
+.fh-home .card-save{font-size:13px;line-height:1.5;font-weight:800;color:var(--save);direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+.fh-home .card-usd{font-size:13px;line-height:1.4;color:var(--ink3);margin-top:-4px}
+.fh-home .stars{color:var(--amber-ink);font-size:14px;line-height:1.5;letter-spacing:1px}
+.fh-home .buy-btn{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;height:47px;background:var(--grad);background-size:200% auto;color:var(--on-grad);font-weight:800;font-size:14px;line-height:1.5;border-radius:14px;margin-top:4px;overflow:hidden;transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
+.fh-home .buy-btn::after{content:'';position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);transition:left var(--t-slow) var(--ease)}
+.fh-home .buy-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px color-mix(in oklab,var(--accent) 45%,transparent)}
+.fh-home .buy-btn:hover::after{left:130%}
+
+/* ── Buy + share row ──────────────────────────────────────────────────────
+   Share sits BESIDE the buy button, never above or across it: buying is the
+   card's job and the share control is a convenience next to it. It is square
+   and icon-only so it takes width away from nothing, and it carries a real
+   aria-label because an icon alone says nothing to a screen reader. */
+.fh-home .btn-row{display:flex;align-items:stretch;gap:8px;margin-top:4px}
+.fh-home .btn-row .buy-btn{flex:1 1 auto;margin-top:0}
+.fh-home .share-btn{flex:0 0 47px;width:47px;height:47px;display:flex;align-items:center;
+  justify-content:center;padding:0;border-radius:14px;border:1.5px solid var(--border);
+  background:var(--glass);color:var(--ink2);cursor:pointer;
+  transition:color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),
+             transform var(--t-fast) var(--ease)}
+.fh-home .share-btn:hover{color:var(--accent);border-color:var(--accent);transform:translateY(-2px)}
+/* Save sits beside share and borrows its box, so the button row keeps one
+   shape: a wide primary action and two equal square secondaries. */
+.fh-home .save-btn{flex:0 0 47px;width:47px;height:47px;display:flex;align-items:center;
+  justify-content:center;border-radius:14px;background:var(--elev);
+  border:1px solid var(--border);color:var(--ink3);cursor:pointer;
+  transition:color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),transform var(--t-fast) var(--ease)}
+.fh-home .save-btn:hover{color:var(--accent);border-color:var(--accent);transform:translateY(-2px)}
+.fh-home .save-btn.on{color:#fff;background:var(--accent);border-color:var(--accent)}
+.fh-home .save-btn.on svg{fill:currentColor}
+.fh-home .saved-btn .saved-n{font-variant-numeric:tabular-nums}
+
+/* ── Recently viewed ──────────────────────────────────────────────────────
+   One scrolling row, deliberately small: it is a way back to something the
+   visitor already opened, not a second deals grid competing with the first. */
+/* ── One toolbar ──────────────────────────────────────────────────────────
+   Sort, platform, price band, saved, and a Display popover on ONE line. There
+   were four stacked rows between the heading and the first card — sort,
+   per-page, platform+band, categories — which on a phone was most of the first
+   screen spent on controls before a single deal.
+
+   Desktop: sticky, so the controls stay reachable down a long grid.
+   Mobile: one horizontally scrollable strip, the pattern .util-ctl and
+   .nav-end already use in this file. */
+.fh-home .toolbar{display:flex;align-items:center;gap:8px;margin-bottom:14px;
+  overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 0}
+.fh-home .toolbar::-webkit-scrollbar{display:none}
+.fh-home .toolbar > *{flex:0 0 auto}
+.fh-home .tb-sep{width:1px;height:26px;background:var(--border);align-self:center}
+@media(min-width:900px){
+  /* --hdr-h is the live height of the sticky header (kept by script), so the
+     toolbar sticks BELOW the header and any open suggestions row, never under it. */
+  .fh-home .toolbar{position:sticky;top:calc(var(--hdr-h,0px) + 8px);z-index:30;flex-wrap:wrap;overflow:visible;
+    background:var(--glass);backdrop-filter:blur(10px);border:1px solid var(--border);
+    border-radius:16px;padding:6px 8px}
+}
+/* Per-page lives in a popover, not a fifth row: it is set once and then never
+   touched again, while sort and category are used constantly. They should not
+   cost the same amount of screen. */
+.fh-home .tb-disp{position:relative}
+@media(min-width:900px){ .fh-home .tb-disp{margin-inline-start:auto} }
+.fh-home .tb-pop{position:absolute;inset-inline-end:0;top:calc(100% + 6px);z-index:40;
+  display:flex;align-items:center;gap:6px;background:var(--elev);
+  border:1px solid var(--border);border-radius:14px;padding:8px 10px;
+  box-shadow:0 12px 32px rgba(0,0,0,.18);white-space:nowrap}
+.fh-home #cat-bar{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.fh-home #cat-bar::-webkit-scrollbar{display:none}
+@media(min-width:900px){ .fh-home #cat-bar{flex-wrap:wrap;overflow:visible} }
+
+/* ── Zero results ────────────────────────────────────────────────────────── */
+.fh-home #no-results{text-align:center;padding:28px 16px}
+.fh-home .nr-title{font-size:17px;font-weight:800;color:var(--ink)}
+.fh-home .nr-sub{font-size:16px;color:var(--ink2);margin-top:4px}
+.fh-home .nr-acts{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}
+.fh-home .nr-wa{display:inline-flex;align-items:center;gap:7px;background:#25D366;color:#08301a;
+  font-weight:800;font-size:14px;border-radius:999px;padding:10px 18px;text-decoration:none}
+
+/* ── Compare ──────────────────────────────────────────────────────────────
+   Electronics only, and that is not a technical limit: a power bank against a
+   power bank is a decision, a dress against a lamp is not. The tick appears on
+   390 of 1,588 cards. */
+.fh-home .cmp-tick{display:flex;align-items:center;gap:6px;min-height:44px;font-size:14px;color:var(--ink3);cursor:pointer;user-select:none}
+.fh-home .cmp-tick input{width:15px;height:15px;accent-color:var(--accent);cursor:pointer}
+.fh-home .cmp-bar{position:fixed;inset-inline:0;bottom:0;z-index:90;display:flex;align-items:center;gap:10px;
+  padding:10px 14px;background:var(--elev);border-top:1px solid var(--border);
+  box-shadow:0 -8px 28px rgba(0,0,0,.16);flex-wrap:wrap}
+.fh-home .cmp-bar img{width:38px;height:38px;object-fit:cover;border-radius:8px;background:#FFFDF8}
+.fh-home .cmp-go{margin-inline-start:auto;background:var(--grad);color:var(--on-grad);font-weight:800;
+  border:0;border-radius:999px;padding:10px 20px;cursor:pointer;font-size:14px}
+.fh-home .cmp-clear{background:none;border:0;color:var(--ink3);cursor:pointer;font-size:13px;text-decoration:underline}
+.fh-home .cmp-modal{position:fixed;inset:0;z-index:100;background:rgba(10,10,20,.55);display:flex;
+  align-items:center;justify-content:center;padding:16px}
+.fh-home .cmp-inner{background:var(--elev);border-radius:18px;max-width:900px;width:100%;max-height:88vh;
+  overflow:auto;padding:18px}
+.fh-home .cmp-table{width:100%;border-collapse:collapse;font-size:13px}
+.fh-home .cmp-table th, .fh-home .cmp-table td{padding:9px 10px;border-bottom:1px solid var(--border);text-align:start;vertical-align:top}
+.fh-home .cmp-table th{font-weight:800;color:var(--ink3);white-space:nowrap;width:120px}
+.fh-home .cmp-table img{width:100%;max-width:150px;height:110px;object-fit:cover;border-radius:10px;background:#FFFDF8}
+.fh-home .cmp-best{color:var(--save);font-weight:800}
+.fh-home .cmp-x{float:inline-end;background:none;border:0;font-size:22px;line-height:1;cursor:pointer;color:var(--ink3)}
+
+.fh-home #recent{margin:36px 0 8px}
+.fh-home #recent h3{font-size:15px;font-weight:800;color:var(--ink2);margin-bottom:10px}
+.fh-home .rv-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.fh-home .rv-item{flex:0 0 132px;background:var(--elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit}
+.fh-home .rv-item img{width:100%;height:84px;object-fit:cover;display:block;background:#FFFDF8}
+.fh-home .rv-item .rv-t{font-size:11px;line-height:1.35;padding:6px 8px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--ink2)}
+.fh-home .rv-item .rv-p{font-size:12px;font-weight:800;padding:2px 8px 8px;color:var(--price);direction:ltr;unicode-bidi:isolate}
+/* Keyboard users get the same visible focus ring the rest of the site uses. */
+.fh-home .share-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Confirmation for the clipboard fallback. Without it a blocked popup makes the
+   button look dead. */
+.fh-home .fh-toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:9999;
+  background:var(--ink);color:var(--bg);padding:11px 22px;border-radius:999px;
+  font-weight:700;font-size:14px;box-shadow:0 12px 34px rgba(0,0,0,.28);
+  opacity:1;transition:opacity .45s var(--ease)}
+.fh-home .fh-toast.gone{opacity:0}
+@media (prefers-reduced-motion:reduce){
+  .fh-home .share-btn, .fh-home .fh-toast{transition:none}
+  .fh-home .share-btn:hover{transform:none}
+}
+.fh-home #no-results{grid-column:1/-1;text-align:center;padding:70px 20px;color:var(--ink3);font-size:1rem;line-height:2;display:none}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   LIST DESIGN  —  html[data-design="list"]
+   ══════════════════════════════════════════════════════════════════════════
+   A second skin over the SAME markup, so both designs share one template and
+   neither can drift from the other. Toggled by #design-btn, remembered in
+   localStorage as fh-design. Default is the original — a visitor sees no
+   change until the owner picks.
+
+   Modelled on DealNews and Slickdeals, the two largest sites in this
+   category, after looking at both. Every rule below is one of the choices
+   they agree on and this design did the opposite of:
+
+     green for the saving      red reads as alarm, green reads as money saved
+     list rows, not a grid     more deals per screen, scannable
+     small images beside text  text-led; the photo supports, it does not shout
+     no gradients              one accent, so the accent still means something
+     no pulse / glare / zoom   motion earns attention it has not been given
+
+   The discount is deliberately DEMOTED here: on a feed where almost every
+   item claims 52-57% off, a red pulsing badge is noise, so it becomes quiet
+   green text next to the price. */
+
+/* A LIGHT header, so it meets the light page instead of floating over it as a
+   dark charcoal band. This also removes the need for a special case: once the
+   header shares the page's surface, the page's own --ink and --save are the
+   correct colours on it, which is what the earlier dark header was fighting.
+   Dark theme keeps a dark header below — there it is correct. */
+/* The light-header tokens moved to :root — the header is now bright in BOTH
+   designs, not only this one. Defining them again here would be duplication
+   waiting to drift. Dark theme still differs, so that block stays. */
+html.dark[data-design="list"].fh-home{
+  --hdr-bg:#120C1F; --hdr-fill:rgba(255,255,255,.06); --hdr-line:rgba(255,255,255,.16);
+  --hdr-ink:#F6F1FC; --hdr-ink2:#B7A9CC; --hdr-ph:#9C90AE; --save-hdr:#3DD68C;
+}
+/* This design is green, so the rail's berry tint and the berry hover/focus
+   accent both have to follow it — a pink strip above green chrome is the same
+   half-a-pair mistake the --hdr-* tokens exist to prevent, just in reverse. */
+html[data-design="list"].fh-home{
+  --hdr-rail-bg:#F4F8F5; --hdr-rail-line:#E2EBE5; --hdr-rail-ink:#4A5750;
+  --hdr-fill:#F7FAF8; --hdr-line:#E2EBE5; --hdr-ink:#222B26; --hdr-ink2:#4A5750;
+  --hdr-ph:#6E7C75; --hdr-accent:var(--save-hdr)}
+html.dark[data-design="list"].fh-home{--hdr-rail-bg:rgba(0,0,0,.34);--hdr-rail-ink:#A9B6AE}
+html[data-design="list"].fh-home header{backdrop-filter:none}
+/* The list design is the calm one, so the header loses its two moving parts:
+   the gradient hairline stops animating and goes flat green, matching the rest
+   of this design's chrome. The disclosure needed no special casing any more —
+   it is plain rail text now rather than a gradient band with an emoji on each
+   end, which is what the old .annc override existed to undo. */
+html[data-design="list"].fh-home header::after{
+  background:var(--save);background-image:none;animation:none;opacity:1;height:2px}
+/* The logo mark and wordmark are the last two gradients in the chrome. */
+html[data-design="list"].fh-home .logo-orb{
+  background:var(--save);background-image:none;animation:none;box-shadow:none}
+html[data-design="list"].fh-home .logo-name b{
+  background:none;-webkit-text-fill-color:var(--save);color:var(--save);animation:none}
+html[data-design="list"].fh-home .searchbox:focus-within{
+  border-color:var(--save);box-shadow:0 0 0 3px rgba(11,122,56,.15)}
+
+html[data-design="list"].fh-home body{background:var(--page)}
+html[data-design="list"].fh-home #grid{display:block;perspective:none;gap:0}
+html[data-design="list"].fh-home #no-results{grid-column:auto}
+
+html[data-design="list"].fh-home .card{
+  flex-direction:row;align-items:stretch;gap:16px;
+  background:var(--page);border:0;border-bottom:1px solid var(--rule);
+  border-radius:0;box-shadow:none;backdrop-filter:none;padding:16px 8px;
+  transform:none!important;transition:background-color var(--t-fast) var(--ease)}
+html[data-design="list"].fh-home .card:hover{box-shadow:none;background:var(--save-soft)}
+html[data-design="list"].fh-home .glare{display:none}
+
+html[data-design="list"].fh-home .card-img{
+  flex:0 0 132px;width:132px;height:132px;border-radius:10px;
+  background:#fff;border:1px solid var(--rule);overflow:hidden}
+html[data-design="list"].fh-home .card-img img{object-fit:contain;padding:8px;transform:none!important}
+
+/* The category chip and the pulsing red discount belong to the grid design.
+   In list mode the platform name earns its place (DealNews leads every row
+   with the store) and the rest is removed rather than restyled. */
+html[data-design="list"].fh-home .card-img .disc-badge{display:none}
+html[data-design="list"].fh-home .plat-badge{
+  align-self:flex-start;background:transparent!important;
+  color:var(--ink3)!important;padding:0;font-size:12px;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase}
+
+html[data-design="list"].fh-home .card-body{padding:0;gap:6px;justify-content:center}
+html[data-design="list"].fh-home .card-title{
+  font-size:17px;line-height:1.4;font-weight:700;-webkit-line-clamp:2}
+html[data-design="list"].fh-home .card-price{color:var(--save);font-size:24px}
+html[data-design="list"].fh-home .card-orig{color:var(--ink3)}
+html[data-design="list"].fh-home .card-usd{color:var(--ink3)}
+
+/* The list design hides the red badge on the thumbnail and used to restate the
+   discount as quiet green text. It no longer has to: .card-save is already the
+   saving, already green, and says how much money rather than what percentage —
+   which is the choice this design was making anyway. It only needs a place in
+   the row. */
+html[data-design="list"].fh-home .card-save{order:4;font-size:14px}
+
+/* One line per deal, the way DealNews reads: title, then everything else on a
+   single row. Stacking discount / price / caveat / button vertically made each
+   row ~260px tall, which throws away the density that is the whole point of a
+   list. The price block is the card body's last child in both designs. */
+html[data-design="list"].fh-home .card-body > div:last-child{
+  flex-direction:row!important;align-items:center;flex-wrap:wrap;
+  gap:6px 16px;margin-top:6px}
+/* Order matters: the caveat belongs beside the price it qualifies, and the
+   button ends the row. Without an explicit order the button (default 0) jumped
+   ahead of the caveat (5) and the line read price / button / caveat.
+   NOTE: the flame span is added in BOTH cardHTMLServer and cardHTML — the
+   first 24 deals are server-rendered and the rest are built in the browser by
+   a near-duplicate function. Changing a card means changing both. */
+html[data-design="list"].fh-home .card-usd{margin-top:0;order:5}
+html[data-design="list"].fh-home .buy-btn{margin-left:auto;margin-top:0;order:9}
+
+/* Outlined, single-colour, sized to a row rather than a card. */
+html[data-design="list"].fh-home .buy-btn{
+  background:none;background-image:none;border:1.5px solid var(--save);
+  color:var(--save);height:40px;border-radius:8px;align-self:flex-start;
+  padding:0 22px;font-weight:800;margin-top:2px}
+html[data-design="list"].fh-home .buy-btn::after{display:none}
+
+/* The buy button gained a wrapper (.btn-row) when share was added, so the two
+   rules above that push it to the end of the row — margin-left:auto and
+   order:9 — were suddenly positioning it inside the wrapper instead of inside
+   the row. Moving them onto the wrapper restores the list layout exactly. */
+html[data-design="list"].fh-home .btn-row{margin-left:auto;margin-top:0;order:9;
+  flex:0 0 auto;align-items:flex-start;gap:6px}
+html[data-design="list"].fh-home .btn-row .buy-btn{margin-left:0;order:0;flex:0 0 auto}
+html[data-design="list"].fh-home .share-btn{flex:0 0 40px;width:40px;height:40px;
+  border-radius:8px;margin-top:2px}
+html[data-design="list"].fh-home .buy-btn:hover{
+  background:var(--save);color:#fff;transform:none;box-shadow:none}
+
+@media(max-width:640px){
+  html[data-design="list"].fh-home .card{gap:12px;padding:14px 4px}
+  html[data-design="list"].fh-home .card-img{flex:0 0 92px;width:92px;height:92px}
+  html[data-design="list"].fh-home .card-title{font-size:15px}
+  html[data-design="list"].fh-home .card-price{font-size:20px}
+  html[data-design="list"].fh-home .buy-btn{width:100%;justify-content:center}
+}
+
+/* ── Hero, in list mode ────────────────────────────────────────────────────
+   The hero was the loudest thing on the page: gradient-filled headline on a
+   loop, a pulsing gradient CTA, a gradient floor, and a product photo whose
+   own dark backdrop painted a hard black blob against the cream. DealNews has
+   no hero image at all — the deals start immediately. */
+html[data-design="list"].fh-home .hero h1 .shine{
+  background:none;-webkit-text-fill-color:var(--ink);color:var(--ink);animation:none}
+html[data-design="list"].fh-home .hero-floor, html[data-design="list"].fh-home .hero-visual{display:none}
+html[data-design="list"].fh-home .hero-inner{padding:44px 24px 28px}
+html[data-design="list"].fh-home .hero-badge .dot{background:var(--save);box-shadow:none;animation:none}
+html[data-design="list"].fh-home .cta-main{
+  background:var(--save);background-image:none;color:#fff;animation:none;
+  border-radius:8px;font-weight:800}
+html[data-design="list"].fh-home .cta-main:hover{transform:none;filter:brightness(1.08)}
+html[data-design="list"].fh-home .cta-ghost{
+  border-radius:8px;backdrop-filter:none;background:transparent;
+  border-color:var(--rule)}
+html[data-design="list"].fh-home .cta-ghost:hover{transform:none;border-color:var(--save);color:var(--save)}
+html[data-design="list"].fh-home .stat3d{
+  background:none;border:0;border-left:3px solid var(--save);border-radius:0;
+  backdrop-filter:none;padding:2px 0 2px 14px;transform:none!important}
+html[data-design="list"].fh-home .stat3d:hover{transform:none!important}
+
+/* Section kickers were accent red; in a design with one accent they are not
+   the accent. */
+html[data-design="list"].fh-home .sec-kicker{color:var(--ink3)}
+html[data-design="list"].fh-home .ticker .pct{
+  background:var(--save-soft);color:var(--save);font-weight:800;border-radius:4px}
+html[data-design="list"].fh-home .tick-item b{color:var(--save)}
+
+/* ── Carousel, in list mode ────────────────────────────────────────────────
+   The 3D orbit is the least list-like thing here: side cards are blurred and
+   dimmed to unreadability by shade(), which is a lot of motion spent on
+   products nobody can read. It becomes a plain horizontal rail that scrolls
+   and snaps.
+
+   The orbit's transform, filter and opacity are written INLINE by JS on every
+   frame, so each override needs !important — a stylesheet rule alone loses to
+   an inline style. */
+html[data-design="list"].fh-home #stage3d-wrap{height:auto;perspective:none;margin-top:4px}
+html[data-design="list"].fh-home #stage3d{
+  position:static;display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;
+  transform-style:flat;transform:none!important;padding:4px 2px 14px;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+html[data-design="list"].fh-home .car-item{
+  position:static;margin:0;flex:0 0 172px;height:auto;border-radius:10px;
+  transform:none!important;filter:none!important;opacity:1!important;
+  box-shadow:none;border:1px solid var(--rule);scroll-snap-align:start}
+html[data-design="list"].fh-home .car-item .ci-img{height:132px;background:#fff}
+html[data-design="list"].fh-home .car-item .ci-img img{object-fit:contain;padding:8px}
+html[data-design="list"].fh-home .car-item .ci-price{color:var(--save)}
+html[data-design="list"].fh-home .car-item .ci-pct{
+  background:var(--save-soft);color:var(--save);box-shadow:none;font-weight:800}
+html[data-design="list"].fh-home .orbit-floor{display:none}
+html[data-design="list"].fh-home .orbit-arrow{
+  background:var(--page);border-color:var(--rule);color:var(--ink)}
+html[data-design="list"].fh-home .orbit-arrow:hover{border-color:var(--save);color:var(--save);transform:none}
+
+/* ── Buying guides, in list mode ───────────────────────────────────────────
+   The guides are the site's own writing and the only pages that rank, so they
+   keep their images — unlike the deal rows, where the photo is a thumbnail.
+   What goes is the card chrome: the lift on hover, the heavy shadow and the
+   18px radius, replaced by a flat tile on a rule. DealNews treats its
+   editorial the same way: quieter than the deals, not louder. */
+html[data-design="list"].fh-home .g-card{
+  background:var(--page);border:1px solid var(--rule);border-radius:10px;
+  box-shadow:none;transition:border-color var(--t-fast) var(--ease)}
+html[data-design="list"].fh-home .g-card:hover{
+  transform:none;box-shadow:none;border-color:var(--save)}
+html[data-design="list"].fh-home .g-card .g-img{background:#fff;border-bottom:1px solid var(--rule)}
+html[data-design="list"].fh-home .g-card .g-title{font-weight:700}
+html[data-design="list"].fh-home .g-card .g-meta{color:var(--save)}
+html[data-design="list"].fh-home .g-all{
+  background:var(--save);background-image:none;color:#fff;border-radius:8px;animation:none}
+
+/* The remaining gradients: the active filter chip, and the coupon tickets.
+   Found by grepping var(--grad) rather than by eye — the chips in particular
+   sit above the deal rows and were the loudest thing left on the page. */
+/* !important is load-bearing here, not laziness. The active chip has its
+   background, colour and shadow assigned INLINE by JS on every render (one
+   colour per category, and #2A1208 for the per-page row), and an inline style
+   beats any selector. This repo's HANDOFF already records the same trap for
+   #plat-bar, #cat-bar, #lang-sel and #theme-btn. Without it the chips stayed
+   orange over a green-and-white page. */
+html[data-design="list"].fh-home .pill.active-dark{
+  background:var(--save)!important;background-image:none!important;
+  border-color:var(--save)!important;color:#fff!important;box-shadow:none!important}
+html[data-design="list"].fh-home .tkt-b{background:var(--save);background-image:none}
+html[data-design="list"].fh-home .cp-link{
+  background:var(--save);background-image:none;color:#fff;border-radius:8px;animation:none}
+
+/* ── Footer, in list mode ──────────────────────────────────────────────────
+   --footer-bg is a translucent black wash that reads as a grey smudge under a
+   white page. A single rule and the page colour is cleaner, and the hover
+   colour was --peach, which is the gradient palette this design drops. */
+html[data-design="list"].fh-home footer{
+  background:var(--page);border-top:1px solid var(--rule);color:var(--ink3)}
+html[data-design="list"].fh-home footer .f-logo{color:var(--ink)}
+html[data-design="list"].fh-home footer a:hover{color:var(--save)}
+
+/* The two floating gradients. Not strictly hero or carousel, but they sit on
+   top of both and a gradient pill glowing over a calm list is the one thing
+   that gives the old design away. The header itself stays dark — DealNews and
+   Slickdeals both use a dark header, so that part was already right. */
+html[data-design="list"].fh-home .hdr-cta{
+  background:var(--save);background-image:none;color:#fff;animation:none;
+  box-shadow:none;border-radius:8px}
+html[data-design="list"].fh-home .hdr-cta:hover{transform:none;filter:brightness(1.08)}
+html[data-design="list"].fh-home #find-fab{
+  background:var(--save);background-image:none;color:#fff;animation:none;
+  box-shadow:0 6px 20px rgba(0,0,0,.18);border-radius:10px}
+html[data-design="list"].fh-home #find-fab:hover{transform:none;box-shadow:0 8px 26px rgba(0,0,0,.24)}
+
+/* The design switch. It now shares .hdr-sel/.hdr-icon's box above, so only the
+   parts unique to it live here.
+   Still the standing rule for anything in this header: it has its own --hdr-*
+   token set, and a control that reaches for --ink or --save instead lands at
+   1.63:1. That happened to this very button once, and was reported as "the top
+   is gray, difficult to read". On the header, use --hdr-* and --hdr-accent. */
+.fh-home #design-btn{display:inline-flex;align-items:center;gap:6px;padding:0 12px;white-space:nowrap}
+html[data-design="list"].fh-home #design-btn{border-color:var(--save-hdr);color:var(--save-hdr)}
+.fh-home #pager{max-width:1280px;margin:var(--s5) auto;padding:0 24px;display:flex;justify-content:center;gap:12px}
+.fh-home .pg-btn{display:inline-flex;align-items:center;height:46px;padding:0 24px;background:var(--glass);border:1.5px solid var(--border-2);color:var(--ink);font-weight:700;font-size:14px;line-height:1.5;border-radius:13px;transition:transform var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease)}
+.fh-home .pg-btn:hover{transform:translateY(-2px);border-color:var(--coral)}
+
+/* ── Savings visualization ── */
+.fh-home .viz{max-width:1280px;margin:0 auto;padding:var(--sec-y) 24px var(--sec-y)}
+.fh-home .viz-panel{background:var(--card);border:1px solid var(--border);border-radius:24px;backdrop-filter:blur(14px);padding:30px 32px;box-shadow:0 14px 40px rgba(0,0,0,.4)}
+.fh-home .viz-row{display:grid;grid-template-columns:150px 1fr 86px;align-items:center;gap:14px;margin-bottom:13px}
+.fh-home .viz-lbl{font-size:14px;line-height:1.5;line-height:1.5;font-weight:700;color:var(--ink2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fh-home .viz-track{height:14px;border-radius:999px;background:var(--glass);overflow:hidden}
+.fh-home .viz-fill{height:100%;width:0;border-radius:999px;background:var(--accent);box-shadow:0 0 14px color-mix(in oklab,var(--accent) 40%,transparent);transition:width .9s var(--ease-out)}
+.fh-home .viz-val{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:600;font-size:14px;line-height:1.6;color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* ── Coupons: 3D flip tickets ── */
+.fh-home .coupons{padding:var(--sec-y) 24px var(--sec-y)}
+.fh-home .coupons-inner{max-width:1280px;margin:0 auto}
+.fh-home .tkt-grid{display:flex;flex-wrap:wrap;gap:16px;margin-top:22px}
+.fh-home .tkt{perspective:900px;width:230px;height:104px;cursor:pointer}
+.fh-home .tkt-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.9,.3,1)}
+.fh-home .tkt:hover .tkt-inner{transform:rotateY(180deg)}
+.fh-home .tkt-f, .fh-home .tkt-b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;padding:16px 20px;border:1.5px dashed rgba(176,125,24,.5)}
+.fh-home .tkt-f{background:var(--glass)}
+.fh-home .tkt-b{background:var(--grad);transform:rotateY(180deg);border:none;align-items:center;justify-content:center}
+.fh-home .cp-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.fh-home .cp-link{display:inline-flex;align-items:center;gap:9px;height:52px;padding:0 22px;border-radius:14px;background:var(--grad);color:var(--on-grad);font-weight:800;font-size:15px;line-height:1.5;text-decoration:none;box-shadow:0 8px 24px color-mix(in oklab,var(--accent) 32%,transparent);transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}
+.fh-home .cp-link:hover{transform:translateY(-2px);box-shadow:0 14px 34px color-mix(in oklab,var(--accent) 45%,transparent)}
+.fh-home .cp-note{margin-top:14px;color:var(--ink3);font-size:14px;line-height:1.6}
+.fh-home .tkt-code{font-size:18px;line-height:1.4;font-weight:800;color:var(--amber-ink);font-family:monospace;letter-spacing:2px;direction:ltr;unicode-bidi:isolate}
+.fh-home .tkt-desc{font-size:14px;line-height:1.5;color:var(--ink2)}
+.fh-home .tkt-b span{color:var(--on-grad);font-weight:800;font-size:16px;line-height:1.6}
+
+/* ── Footer ── */
+.fh-home footer{background:var(--footer-bg);border-top:1px solid var(--border);color:var(--ink3);text-align:center;padding:var(--s5) 16px var(--s4);font-size:16px;line-height:1.5}
+.fh-home footer .f-logo{margin-bottom:8px;font-family:Archivo,sans-serif;font-weight:900;letter-spacing:-.04em;font-size:17px;line-height:1.6;color:var(--ink2)}
+.fh-home footer a{color:var(--ink3);font-size:14px;line-height:1.45;transition:color var(--t-fast) var(--ease)}
+.fh-home footer a:hover{color:var(--peach)}
+
+/* ── FAB + Find modal ── */
+.fh-home #find-fab{position:fixed;bottom:28px;right:24px;z-index:900;display:flex;align-items:center;gap:9px;background:var(--grad);background-size:200% auto;animation:gradmove 7s ease infinite;color:var(--on-grad);font-family:Archivo,sans-serif;font-weight:900;letter-spacing:-.03em;font-size:16px;line-height:1.6;padding:0 22px;height:54px;border-radius:999px;border:none;box-shadow:0 12px 40px color-mix(in oklab,var(--accent) 40%,transparent);transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease)}
+.fh-home #find-fab:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 14px 40px color-mix(in oklab,var(--accent) 65%,transparent)}
+/* Hidden while the hero's own "Find a specific deal" button is on screen —
+   they open the same modal, and on a phone the FAB covered it. */
+.fh-home #find-fab.fab-hidden{opacity:0;visibility:hidden;transform:translateY(12px) scale(.96);pointer-events:none}
+.fh-home #find-fab{transition:transform var(--t-fast) var(--ease),box-shadow var(--t-fast) var(--ease),opacity var(--t-fast) var(--ease),visibility var(--t-fast) var(--ease)}
+@media(prefers-reduced-motion:reduce){.fh-home #find-fab{transition:opacity .01s,visibility .01s}}
+
+.fh-home #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120px);background:var(--elev);border:1px solid var(--border-2);color:var(--on-elev);padding:11px 26px;border-radius:50px;font-weight:600;font-size:14px;line-height:1.5;transition:transform var(--t) var(--ease);z-index:9999;pointer-events:none;box-shadow:0 14px 40px rgba(0,0,0,.5)}
+
+.fh-home .fade{animation:fadeup .3s ease}
+@keyframes fadeup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+
+/* ── Email sign-up ── */
+.fh-home .sub-wrap{padding:0 24px var(--sec-y)}
+.fh-home .sub-in{max-width:1000px;margin:0 auto;padding:28px 30px;border-radius:24px;
+  background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow);text-align:center}
+.fh-home .sub-in h2{font-size:clamp(22px,2.6vw,30px);letter-spacing:-.035em;line-height:1.05;margin-bottom:8px}
+.fh-home .sub-in p{font-size:15px;line-height:1.55;color:var(--ink2);max-width:52ch;margin:0 auto 18px}
+.fh-home #sub-form{display:flex;gap:10px;max-width:470px;margin:0 auto;flex-wrap:wrap}
+.fh-home #sub-email{flex:1 1 220px;min-width:0;height:50px;padding:0 18px;border-radius:999px;
+  border:1px solid var(--border-2);background:var(--glass);color:var(--ink);
+  font-family:inherit;font-size:15px;outline:none}
+.fh-home #sub-email:focus{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in oklab,var(--accent) 15%,transparent)}
+.fh-home #sub-go{flex:0 0 auto;height:50px;padding:0 26px;border:none;border-radius:999px;
+  background:var(--accent);color:var(--on-grad);font-family:inherit;font-weight:800;
+  font-size:15px;cursor:pointer;transition:filter var(--t-fast) var(--ease),transform var(--t-fast) var(--ease)}
+.fh-home #sub-go:hover:not(:disabled){filter:brightness(1.07);transform:translateY(-1px)}
+.fh-home #sub-go:disabled{opacity:.6;cursor:default;transform:none}
+.fh-home #sub-msg{margin-top:12px;font-size:14px;font-weight:600;min-height:20px}
+.fh-home #sub-msg.ok{color:var(--save)} .fh-home #sub-msg.err{color:var(--accent-ink)}
+@media(max-width:600px){.fh-home .sub-in{padding:22px 18px}.fh-home #sub-go{width:100%}}
+
+/* ── Join the WhatsApp group ── */
+.fh-home .wa-join{padding:var(--sec-y) 24px}
+.fh-home .wa-join-in{max-width:1000px;margin:0 auto;display:flex;align-items:center;gap:22px;
+  flex-wrap:wrap;padding:28px 30px;border-radius:24px;background:var(--card);
+  border:1px solid var(--border);box-shadow:var(--shadow)}
+.fh-home .wa-join-icon{width:54px;height:54px;flex:0 0 auto;border-radius:50%;display:flex;
+  align-items:center;justify-content:center;font-size:26px;background:#25D366;line-height:1}
+.fh-home .wa-join-text{flex:1 1 260px;min-width:0}
+.fh-home .wa-join-text h2{font-size:clamp(22px,2.6vw,30px);letter-spacing:-.035em;line-height:1.05;
+  margin-bottom:6px;color:var(--ink)}
+.fh-home .wa-join-text p{font-size:15px;line-height:1.5;color:var(--ink2)}
+/* WhatsApp green, not the site accent: this button is a promise about where
+   the click lands, and people recognise the colour faster than the wording. */
+.fh-home .wa-join-btn{flex:0 0 auto;display:inline-flex;align-items:center;gap:9px;
+  background:#1EA855;color:#fff;font-weight:800;font-size:15px;padding:15px 28px;
+  border-radius:999px;text-decoration:none;
+  transition:transform var(--t-fast) var(--ease),filter var(--t-fast) var(--ease)}
+.fh-home .wa-join-btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+/* Group and bot side by side; the row takes its own line under the text so
+   two full-sentence buttons never squeeze the heading. Narrow screens stack
+   them (below). */
+.fh-home .wa-join-actions{flex:1 1 100%;display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.fh-home .wa-join-btn{white-space:normal;text-align:center;line-height:1.35;justify-content:center;flex:1 1 280px}
+/* WhatsApp teal for the bot: still reads as WhatsApp, but not the same button
+   as the group — the two must never be mistaken for one another. */
+.fh-home .wa-bot-btn{background:#128C7E}
+.fh-home .hdr-bot{color:#128C7E!important;font-weight:800}
+.fh-home .hdr-bot:hover{color:#0e6f64!important}
+.fh-home .f-wa{font-weight:800}
+.fh-home .f-wa-group{color:#1EA855}
+.fh-home .f-wa-bot{color:#128C7E}
+@media(max-width:600px){
+  .fh-home .wa-join-in{padding:22px 20px;gap:16px}
+  .fh-home .wa-join-actions{width:100%}
+  .fh-home .wa-join-actions{flex-direction:column}
+  .fh-home .wa-join-btn{width:100%;justify-content:center;min-height:48px;flex:1 1 auto}
+}
+
+/* ── More like this ── */
+.fh-home .rel-wrap{border-top:1px solid var(--border);margin-top:22px;padding-top:18px}
+.fh-home .rel-head{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:10.5px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin-bottom:14px}
+.fh-home .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+[dir="rtl"].fh-home .rel-head{letter-spacing:.02em;font-size:13px}
+
+/* ── Live search results ────────────────────────────────────────────────────
+   Deliberately distinct from a normal card. These come from the AliExpress API
+   at click time, so they have NOT been through the nightly filtering the rest
+   of the page has — the dashed frame and the labelled header are what say so.
+   Making them look identical to catalogue cards would be the lie. */
+.fh-home .live-wrap{border-top:1px solid var(--border);padding:18px 0 0;margin-top:6px}
+.fh-home .live-head{display:flex;align-items:center;gap:9px;font-family:'JetBrains Mono',ui-monospace,monospace;
+  font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent-ink);margin-bottom:16px}
+.fh-home .live-dot{width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse 1.6s infinite;flex:0 0 auto}
+.fh-home .live-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.fh-home .live-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);
+  border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;
+  transition:transform var(--t) var(--ease-out),box-shadow var(--t) var(--ease)}
+.fh-home .live-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(60,40,30,.14)}
+html.dark.fh-home .live-card:hover{box-shadow:0 16px 40px rgba(0,0,0,.5)}
+.fh-home .live-img{aspect-ratio:1;overflow:hidden;background:var(--bg2)}
+.fh-home .live-img img{width:100%;height:100%;object-fit:cover;display:block}
+.fh-home .live-body{padding:12px 13px 14px;display:flex;flex-direction:column;gap:7px;flex:1}
+.fh-home .live-title{font-size:13px;line-height:1.35;font-weight:600;color:var(--ink);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fh-home .live-price{display:flex;align-items:center;gap:8px;margin-top:auto;
+  font-size:17px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.fh-home .live-off{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:10px;font-weight:600;
+  background:var(--accent);color:var(--on-grad);padding:3px 7px;border-radius:999px;
+  direction:ltr;unicode-bidi:isolate}
+.fh-home .live-meta{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:10px;
+  letter-spacing:.06em;color:var(--ink3)}
+.fh-home .live-note{margin-top:14px;font-size:12px;line-height:1.5;color:var(--ink3)}
+.fh-home .live-skel{aspect-ratio:.72;border-radius:16px;background:var(--glass);
+  animation:pulse 1.4s ease-in-out infinite}
+@media(max-width:600px){.fh-home .live-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}}
+[dir="rtl"].fh-home .live-head, [dir="rtl"].fh-home .live-meta, [dir="rtl"].fh-home .live-off{letter-spacing:.02em}
+
+/* ── Orbit arrows ── */
+.fh-home .orbit-arrows{position:absolute;top:50%;left:0;right:0;z-index:10;pointer-events:none;display:flex;justify-content:space-between;padding:0 20px;transform:translateY(-50%)}
+.fh-home .orbit-arrow{width:44px;height:44px;border-radius:50%;background:var(--glass);border:1.5px solid var(--border);color:var(--ink);font-size:22px;line-height:1.25;line-height:1.25;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;pointer-events:auto;transition:transform var(--t) var(--ease),box-shadow var(--t) var(--ease),border-color var(--t) var(--ease),background-color var(--t) var(--ease),color var(--t) var(--ease);backdrop-filter:blur(8px)}
+.fh-home .orbit-arrow:hover{background:var(--grad);border-color:transparent;color:var(--on-grad);transform:scale(1.1)}
+.fh-home #stage3d{transition:none;will-change:transform}
+.fh-home #stage3d-wrap{cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.fh-home #stage3d-wrap:active{cursor:grabbing}
+@media(max-width:640px){
+  .fh-home .orbit-arrow{width:36px;height:36px;font-size:22px;line-height:1.25}
+}
+
+@media(max-width:760px){
+  .fh-home #stage3d-wrap{height:270px}
+  .fh-home .car-item{width:145px;height:220px;margin:-110px 0 0 -72px}
+  .fh-home .car-item .ci-img{height:115px}
+  .fh-home .viz-row{grid-template-columns:104px 1fr 70px}
+}
+@media(max-width:640px){
+  .fh-home #grid{grid-template-columns:repeat(2,1fr)!important;gap:12px!important}
+  .fh-home .hero-inner{padding:52px 20px 30px}
+  .fh-home .hero-stats{gap:10px}
+  .fh-home .stat3d{padding:12px 16px;min-width:104px}
+  .fh-home .stat3d .v{font-size:22px;line-height:1.25}
+  .fh-home .cube-wrap{display:none}
+  /* The 2-column grid leaves ~130px inside a card for the whole button row —
+     "Shop Now ↗" plus two 47px icon buttons never fit and the buy label
+     clipped. Wrapping gives the buy button its own full-width row and drops
+     save/share to a second row beside each other, so nothing is cut off. */
+  .fh-home .btn-row{flex-wrap:wrap}
+  .fh-home .btn-row .buy-btn{flex:1 1 100%}
+  .fh-home .btn-row .save-btn, .fh-home .btn-row .share-btn{flex:0 0 44px;width:44px;height:44px}
+}
+@media (prefers-reduced-motion: reduce){
+  :where(html).fh-home, .fh-home *, .fh-home *::before, .fh-home *::after, .fh-home body::before, .fh-home body::after{animation:none!important;transition-duration:.01ms!important}
+  .fh-home .rv{opacity:1;transform:none}
+}
+
+/* ── RTL support ── */
+/* Archivo and JetBrains Mono have no Hebrew, so before this every Hebrew
+   heading fell back to whatever the system had — and the mono treatment added
+   by the makeover put .22em tracking on kickers, stats and the ticker, which on
+   Hebrew is unreadable rather than merely wrong. Google serves Heebo with
+   unicode-range subsets, so adding it to the font request costs a Latin-only
+   visitor nothing: the Hebrew subset is only fetched when Hebrew is rendered. */
+html[dir="rtl"].fh-home body, html[dir="rtl"].fh-home h1, html[dir="rtl"].fh-home h2, html[dir="rtl"].fh-home h3, html[dir="rtl"].fh-home .logo-name, html[dir="rtl"].fh-home .sec-title, html[dir="rtl"].fh-home .sec-kicker, html[dir="rtl"].fh-home .mono, html[dir="rtl"].fh-home .pill, html[dir="rtl"].fh-home .stat3d .k, html[dir="rtl"].fh-home .hero-badge, html[dir="rtl"].fh-home .ticker, html[dir="rtl"].fh-home .badge{
+  font-family:Heebo,Assistant,system-ui,sans-serif}
+html[dir="rtl"].fh-home .sec-kicker, html[dir="rtl"].fh-home .stat3d .k, html[dir="rtl"].fh-home .hero-badge span, html[dir="rtl"].fh-home .badge{letter-spacing:.02em;font-size:13px}
+html[dir="rtl"].fh-home h1, html[dir="rtl"].fh-home h2, html[dir="rtl"].fh-home .sec-title{letter-spacing:-.01em;line-height:1.1}
+/* Numerals still flip inside dir=rtl even with no Hebrew beside them — the
+   ticker drew 70%- for -70% before these were isolated. */
+html[dir="rtl"].fh-home .cnt, html[dir="rtl"].fh-home .v, html[dir="rtl"].fh-home .pct, html[dir="rtl"].fh-home .viz-val, html[dir="rtl"].fh-home .card-price, html[dir="rtl"].fh-home .ci-price{unicode-bidi:isolate}
+html[dir="rtl"].fh-home nav{flex-direction:row-reverse}
+html[dir="rtl"].fh-home .hero-inner{text-align:right}
+html[dir="rtl"].fh-home .hero-ctas{justify-content:flex-start}
+html[dir="rtl"].fh-home .stat3d{text-align:right}
+html[dir="rtl"].fh-home .searchbox input{text-align:right}
+html[dir="rtl"].fh-home .card-body{text-align:right}
+html[dir="rtl"].fh-home .card-body .buy-btn{direction:ltr}
+html[dir="rtl"].fh-home .viz-row{grid-template-columns:56px 1fr 1fr 64px 64px}
+html[dir="rtl"].fh-home .tkt-f{text-align:right}
+html[dir="rtl"].fh-home footer{text-align:right}
+html[dir="rtl"].fh-home .filters-wrap{direction:rtl}
+html[dir="rtl"].fh-home .sec-kicker, html[dir="rtl"].fh-home .sec-title, html[dir="rtl"].fh-home .sec-sub{text-align:right}
+
+/* Bidi isolation for digits/codes embedded in translated text — see the
+   num()/iso() helpers below. The script has wrapped numbers in these spans
+   all along, but with no rule targeting the classes the wrap did nothing: a
+   number inside a Hebrew sentence was still reordered by the browser's bidi
+   algorithm, e.g. "45% הנחה" rendering as "הנחה %45". num() is for content
+   that is always numeric/LTR (prices, counts, percentages) and forces the
+   direction; iso() is for content of unknown script (a search term) and only
+   isolates it without forcing a direction. */
+.fh-home .num{unicode-bidi:isolate;direction:ltr}
+.fh-home .iso{unicode-bidi:isolate}
+/* Browser-verified (headless Chrome, LANG=he) that the bug is not limited to
+   a digit run sitting next to Hebrew words in the same string: a standalone
+   element holding only a number and its symbols — no Hebrew anywhere in it —
+   still gets those symbols reordered once the page around it is dir="rtl".
+   "-70%" in the ticker painted as "70%-"; "1,468+" in the hero stat painted
+   as "+1,468". .stat3d .v, .tick-item .pct, .car-item .ci-pct, .disc-badge,
+   .card-price, .card-orig, .tkt-code and .find-card-price each carry the same
+   direction:ltr;unicode-bidi:isolate pair directly (see their own rules)
+   rather than depending on every caller to remember num(). */
+
+/* ── Toggle buttons hover ── */
+.fh-home #theme-btn:hover, .fh-home #lang-btn:hover{border-color:var(--coral);box-shadow:0 0 0 3px color-mix(in oklab,var(--accent) 12%,transparent)}
+
+/* ── Language toggle text ── */
+html[lang="he"].fh-home .T{display:none}
+html[lang="he"].fh-home .T.he{display:inline}
+html[lang="en"].fh-home .T.en{display:inline}
+html[lang="en"].fh-home .T.he{display:none}
+
+/* type scale — pass 1 */
+/* Negative tracking flatters Latin display type and closes up Hebrew, which
+   is one of this site's languages. Latin keeps it; Hebrew does not. */
+html[dir="rtl"].fh-home h1, html[dir="rtl"].fh-home h2, html[dir="rtl"].fh-home .sec-title, html[dir="rtl"].fh-home .shine, html[dir="rtl"].fh-home .logo-name, html[dir="rtl"].fh-home .v, html[dir="rtl"].fh-home .cnt{letter-spacing:normal}
+
+/* inline type — pass 1 */
+
+/* spacing scale — pass 2 */
+:root.fh-home{
+  /* One rhythm for every major section, top and bottom. Was nine different
+     values with four sections whose top and bottom disagreed. */
+  --sec-y:clamp(44px,5.2vw,72px);
+  --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s5:48px; --s6:64px;
+}
+
+/* motion tokens — pass 3 */
+:root.fh-home{
+  /* One vocabulary for motion. Was eight durations and four easings mixed
+     arbitrarily, so the same kind of interaction moved at a different speed
+     depending on which component you touched. */
+  --t-fast:160ms;   /* colour, border — should feel instant */
+  --t:220ms;        /* hover transforms and shadows */
+  --t-slow:320ms;   /* scroll reveals, larger movement */
+  --ease:cubic-bezier(.2,.6,.2,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+}
+
+/* 375px pass */
+/* The ring is 1000px inside a 1280px section on desktop, so this clips nothing
+   there. It exists so no future change to the radius can make the whole page
+   scroll sideways on a phone again. */
+.fh-home .showcase{overflow:hidden}
+
+@media(max-width:768px){
+  /* 44px is Apple's minimum. "Guides" was 21px and the search field 26px, and
+     the filter pills — the primary interaction on a deals site — were 35px. */
+  .fh-home .pill{height:44px}
+  .fh-home #search-input{height:44px}
+  .fh-home .searchbar{min-height:44px}
+  .fh-home nav a{min-height:44px;display:inline-flex;align-items:center}
+  .fh-home .orbit-arrow{width:44px;height:44px}
+}
+
+/* 375px pass — round two */
+/* The last of the horizontal scroll. #plat-bar and #cat-bar already wrap and
+   fit; #sort-bar was nowrap and ran 348px wide inside a 312px column. */
+.fh-home #sort-bar{flex-wrap:wrap}
+
+@media(max-width:768px){
+  /* The !important pair that used to live here existed only to beat
+     height:36px set inline on #lang-sel and #theme-btn. Those inline styles
+     are gone — the controls are classed now — so the overrides beat nothing
+     and are dropped. The rail's own tap sizing is set with the rail, below. */
+  /* Real navigation, and they were 17px tall — block anchors with no padding. */
+  .fh-home footer a{min-height:44px;display:inline-flex;align-items:center;padding:0 6px}
+  .fh-home .buy-btn{min-height:44px}
+}
+
+/* mobile regression fix */
+@media(max-width:768px){
+  /* A row that is too wide should scroll, not stack. Wrapping turned 16
+     category pills at a 44px tap target into ~5 rows: 503px of filter buttons
+     before the first deal. Scrolling keeps the targets and costs ~160px. */
+  /* min-width:0 + max-width:100%: as flex items these bars could not shrink, so in RTL the whole bar sat off-screen to the left (plat-bar at -888px on a 390px phone). */
+  .fh-home #sort-bar, .fh-home #plat-bar, .fh-home #cat-bar, .fh-home #per-bar{min-width:0;max-width:100%;flex:0 1 auto;
+    flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+  }
+  .fh-home #sort-bar::-webkit-scrollbar, .fh-home #plat-bar::-webkit-scrollbar, .fh-home #cat-bar::-webkit-scrollbar, .fh-home #per-bar::-webkit-scrollbar{display:none}
+  .fh-home #sort-bar>*, .fh-home #plat-bar>*, .fh-home #cat-bar>*, .fh-home #per-bar>*{flex:0 0 auto}
+  /* Four numbers need no more width than the label beside them. */
+  .fh-home #per-bar .per-btn{min-width:52px;justify-content:center}
+
+  /* Cards back up — 145x220 inside a 150px ring collapsed the carousel. */
+  .fh-home .car-item{width:165px;height:250px;margin:-125px 0 0 -82px}
+  .fh-home .car-item .ci-img{height:130px}
+  .fh-home #stage3d-wrap{height:290px}
+}
+
+/* bars: beat the inline flex-wrap */
+@media(max-width:768px){
+  /* flex-wrap:wrap is set inline on these three; only !important reaches it. */
+  .fh-home #plat-bar, .fh-home #cat-bar, .fh-home #per-bar{flex-wrap:nowrap!important}
+}
+
+/* ═══════════════ GUIDES  (html.fh-guides) ═══════════════ */
+/* ---------- tokens ---------- */
+:root.fh-guides, :root[data-theme="light"].fh-guides{
+  --bg:oklch(0.945 0.019 80); --surface:oklch(0.978 0.014 82);
+  --ink:oklch(0.21 0.014 55); --ink-2:oklch(0.44 0.014 65); --ink-3:oklch(0.52 0.014 68);
+  --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.13);
+  --accent:oklch(0.55 0.2 25); --accent-ink:oklch(0.45 0.18 25);
+  --deep:oklch(0.21 0.014 55);
+  --shadow:0 1px 2px rgba(60,40,30,.05),0 10px 30px rgba(60,40,30,.07);
+  --card-hover:0 26px 60px rgba(60,40,30,.13);
+  --nav-bg:rgba(246,238,228,.9);
+  --pro:#2F7D55; --con:#B04A2E; --chip:oklch(0.915 0.045 42); --note-bg:oklch(0.965 0.016 81);
+  --on-accent:oklch(0.985 0.012 84); --on-deep:oklch(0.985 0.012 84);
+  --radius:22px; --maxw:760px; --navh:60px;
+}
+/* Dark is a re-mix of the same palette, not an inversion. The red has to be
+   lightened to stay legible on near-black, and surfaces stay lifted from the
+   background so cards keep the edge they have in light mode without borders. */
+:root[data-theme="dark"].fh-guides{
+  --bg:#141013; --surface:#1E181C; --ink:#F7F1EC; --ink-2:#CBBFB8; --ink-3:#9C8E88;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
+  --accent:oklch(0.72 0.2 25); --accent-ink:oklch(0.82 0.16 25);
+  --deep:#F7F1EC;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  --card-hover:0 26px 60px rgba(0,0,0,.5);
+  --nav-bg:rgba(20,16,19,.9);
+  --pro:#5FC98D; --con:#FF8B6B; --chip:#3A2028; --note-bg:#1B1519;
+  --on-accent:#170a0b; --on-deep:#141013;
+}
+html.fh-guides{color-scheme:light dark;-webkit-text-size-adjust:100%}
+:root[data-theme="dark"].fh-guides img{filter:brightness(.94)}
+:where(html).fh-guides, .fh-guides *{box-sizing:border-box;margin:0;padding:0}
+.fh-guides body{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px;
+  -webkit-font-smoothing:antialiased;overflow-x:clip}
+/* height:auto is load-bearing. The width/height attributes on every <img> are
+   there to reserve layout space and stop the page jumping as images load, but
+   they map to presentational CSS height — which pins the element at its
+   attribute height and stops aspect-ratio ever being applied. Without this the
+   hero and card images render at 630px tall regardless of column width. */
+.fh-guides img{max-width:100%;display:block;height:auto}
+.fh-guides a{color:var(--accent-ink)}
+.fh-guides ::selection{background:var(--accent);color:var(--on-accent)}
+
+/* Every kicker, meta line and label in the design is mono, uppercase and
+   widely tracked. One class, so the RTL and Greek overrides at the bottom have
+   a single thing to reach for. */
+.fh-guides .mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;font-weight:600;
+  color:var(--ink-3);font-variant-numeric:tabular-nums}
+.fh-guides .mono a{color:inherit;text-decoration:none}
+
+/* ---------- chrome ---------- */
+.fh-guides .nav{position:sticky;top:0;z-index:90;background:var(--nav-bg);
+  backdrop-filter:saturate(1.4) blur(18px);border-bottom:1px solid var(--line)}
+.fh-guides .nav-in{max-width:1280px;margin:0 auto;padding:13px 28px;display:flex;
+  align-items:center;gap:20px}
+.fh-guides .brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.fh-guides .logo{font-weight:900;font-size:19px;color:var(--ink);letter-spacing:-.045em;
+  text-decoration:none;white-space:nowrap}
+.fh-guides .logo span{color:var(--accent)}
+.fh-guides .navkick{color:var(--accent-ink);white-space:nowrap}
+.fh-guides .nav-links{display:flex;gap:24px;margin-inline-start:auto;flex-wrap:wrap;align-items:center}
+.fh-guides .nav-links a{font-size:13.5px;font-weight:600;color:var(--ink-2);text-decoration:none;
+  padding:4px 0;border-bottom:2px solid transparent}
+.fh-guides .nav-links a:hover{color:var(--ink)}
+.fh-guides .nav-links a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.fh-guides .themetog{margin-inline-start:2px;background:transparent;border:1px solid var(--line-2);
+  color:var(--ink-2);border-radius:999px;width:34px;height:34px;cursor:pointer;
+  font-size:15px;line-height:1;display:inline-flex;align-items:center;
+  justify-content:center;flex:0 0 auto;transition:border-color .15s,color .15s}
+.fh-guides .themetog:hover{border-color:var(--accent-ink);color:var(--accent-ink)}
+.fh-guides .themetog .tt-moon{display:none}
+:root[data-theme="dark"].fh-guides .themetog .tt-sun{display:none}
+:root[data-theme="dark"].fh-guides .themetog .tt-moon{display:inline}
+
+.fh-guides .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.fh-guides .wide{max-width:1280px;margin:0 auto;padding:0 28px}
+
+/* ---------- index: masthead ---------- */
+.fh-guides .masthead{padding:78px 0 44px;border-bottom:1px solid var(--line)}
+.fh-guides .masthead h1{max-width:15ch}
+.fh-guides .masthead .dek{max-width:560px}
+
+.fh-guides h1{font-size:clamp(42px,6.4vw,96px);line-height:.88;letter-spacing:-.05em;
+  font-weight:900;color:var(--ink);text-wrap:balance}
+.fh-guides .dek{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2);margin-top:22px;
+  line-height:1.5;text-wrap:pretty}
+.fh-guides .eyebrow{margin-bottom:18px;letter-spacing:.22em;color:var(--accent-ink)}
+
+/* ---------- index: featured + side list ---------- */
+.fh-guides .feat{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;
+  align-items:start;padding:52px 0 4px}
+.fh-guides .feat-main{text-decoration:none;color:inherit;display:block}
+.fh-guides .feat-main img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
+.fh-guides .feat-meta{display:flex;gap:12px;align-items:center;margin:22px 0 12px;flex-wrap:wrap}
+.fh-guides .pill{padding:6px 11px;border-radius:999px;background:var(--chip);
+  color:var(--accent-ink);font-weight:600}
+.fh-guides .feat-main h2{font-size:clamp(28px,3.2vw,44px);line-height:.99;letter-spacing:-.04em;
+  font-weight:900;margin:0 0 14px;max-width:22ch;color:var(--ink)}
+.fh-guides .feat-main p{font-size:17px;line-height:1.55;color:var(--ink-2);max-width:60ch;
+  text-wrap:pretty}
+/* ── Read next ─────────────────────────────────────────────────────────────
+   The row at the foot of every guide that links to related guides. Before it
+   existed no guide linked to any other, so a reader who finished one had
+   nowhere to go and a crawler saw 221 unconnected pages. Sits above the deals
+   CTA: another guide is a smaller ask than leaving for a shop. */
+.fh-guides .related{margin-top:44px;padding-top:26px;border-top:1px solid var(--line)}
+.fh-guides .relhead{letter-spacing:.18em;color:var(--ink-3);margin-bottom:16px}
+.fh-guides .relgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.fh-guides .relcard{display:flex;flex-direction:column;border-radius:16px;overflow:hidden;
+  background:var(--surface);border:1px solid var(--line);text-decoration:none;
+  color:inherit;transition:transform .25s ease,border-color .25s ease}
+.fh-guides .relcard:hover{transform:translateY(-3px);border-color:var(--accent)}
+.fh-guides .relcard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.fh-guides .relcard-in{display:flex;flex-direction:column;gap:6px;padding:13px 15px 15px}
+.fh-guides .relcard-in b{font-size:15px;font-weight:700;line-height:1.3;letter-spacing:-.015em;
+  color:var(--ink)}
+.fh-guides .relcard-in .mono{font-size:11px;letter-spacing:.1em;color:var(--ink-3)}
+[dir=rtl].fh-guides .relhead, [dir=rtl].fh-guides .relcard-in .mono{letter-spacing:.03em}
+@media (prefers-reduced-motion:reduce){.fh-guides .relcard, .fh-guides .relcard:hover{transition:none;transform:none}}
+
+.fh-guides .sidelist{display:flex;flex-direction:column;gap:10px}
+.fh-guides .sidelist>.mono{letter-spacing:.2em;padding-bottom:6px}
+.fh-guides .sideitem{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;
+  padding:15px 16px;border-radius:16px;background:var(--surface);
+  border:1px solid var(--line);text-decoration:none;color:inherit;
+  transition:transform .25s ease,border-color .25s ease}
+.fh-guides .sideitem:hover{transform:translateX(4px);border-color:var(--accent)}
+[dir=rtl].fh-guides .sideitem:hover{transform:translateX(-4px)}
+.fh-guides .sidenum{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:15px;
+  color:var(--accent-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.fh-guides .sideitem b{font-size:15px;font-weight:700;line-height:1.28;letter-spacing:-.015em;
+  display:block;color:var(--ink)}
+.fh-guides .sideitem .mono{margin-top:7px;letter-spacing:.1em}
+
+/* ---------- index: filters ---------- */
+.fh-guides .filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);margin-top:44px;padding-top:26px}
+.fh-guides .chip{font-size:13px;font-weight:700;letter-spacing:-.01em;padding:9px 16px;
+  border-radius:999px;cursor:pointer;background:var(--surface);color:var(--ink-2);
+  border:1px solid var(--line-2);font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+.fh-guides .chip:hover{border-color:var(--accent)}
+.fh-guides .chip[aria-pressed="true"]{background:var(--accent-ink);color:var(--on-accent);
+  border-color:var(--accent-ink)}
+.fh-guides .count{margin-inline-start:auto;letter-spacing:.1em}
+
+/* ---------- index: grid ---------- */
+.fh-guides .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:22px;margin:30px 0 10px}
+.fh-guides .gcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  text-decoration:none;color:inherit;
+  transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+.fh-guides .gcard:hover{transform:translateY(-6px);box-shadow:var(--card-hover)}
+.fh-guides .gcard[hidden]{display:none}
+.fh-guides .gcard-media{position:relative}
+.fh-guides .gcard-media img{width:100%;aspect-ratio:5/3;object-fit:cover}
+.fh-guides .gcard-cat{position:absolute;top:12px;inset-inline-start:12px;padding:6px 10px;
+  border-radius:999px;background:var(--nav-bg);backdrop-filter:blur(6px);
+  color:var(--ink-2);font-size:9.5px;letter-spacing:.12em}
+.fh-guides .gcard-in{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.fh-guides .gcard h3{font-size:19px;font-weight:800;line-height:1.18;letter-spacing:-.028em;
+  color:var(--ink)}
+.fh-guides .gcard .sum{font-size:14px;line-height:1.5;color:var(--ink-2);text-wrap:pretty}
+.fh-guides .gcard-foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;
+  justify-content:space-between;gap:10px;border-top:1px solid var(--line);
+  letter-spacing:.1em}
+.fh-guides .gcard-foot .go{color:var(--accent-ink)}
+
+/* ---------- article: progress ---------- */
+.fh-guides .progtrack{position:sticky;top:var(--navh);z-index:80;height:3px;background:var(--line)}
+.fh-guides .progbar{height:100%;width:0;background:var(--accent);transition:width .1s linear}
+
+/* ---------- article head ---------- */
+.fh-guides .crumbs{padding:26px 0 0;letter-spacing:.1em}
+.fh-guides .crumbs a:hover{color:var(--accent-ink)}
+.fh-guides .kicker{display:block;color:var(--accent-ink);letter-spacing:.18em;margin:26px 0 16px}
+.fh-guides .wrap h1{font-size:clamp(34px,5.2vw,62px);line-height:.94;letter-spacing:-.045em}
+.fh-guides .byline{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px;
+  padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  letter-spacing:.08em}
+.fh-guides .byline .av{width:30px;height:30px;border-radius:50%;background:var(--chip);
+  border:1px solid var(--line-2);flex:0 0 auto}
+.fh-guides .byline b{color:var(--ink-2);font-weight:600}
+.fh-guides .byline .end{margin-inline-start:auto}
+.fh-guides .dot{opacity:.45}
+/* The design runs the lead image wider than the column it sits under. */
+.fh-guides .hero{margin:30px auto;max-width:1080px;padding:0 28px}
+.fh-guides .hero img{width:100%;aspect-ratio:21/9;object-fit:cover;border-radius:26px;
+  border:1px solid var(--line);box-shadow:var(--shadow)}
+
+/* ---------- body copy ---------- */
+.fh-guides .body{font-size:17.5px}
+.fh-guides .body p{margin:0 0 22px;color:var(--ink-2);line-height:1.68;text-wrap:pretty}
+.fh-guides .body p.lead{font-size:19px;color:var(--ink)}
+.fh-guides h2{font-size:clamp(26px,3vw,34px);font-weight:900;color:var(--ink);
+  letter-spacing:-.035em;margin:48px 0 16px;line-height:1.05}
+.fh-guides h3{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.03em;
+  line-height:1.15;margin:0}
+
+/* The takeaway block. Body text is the number-one pick and its tag — both read
+   straight off the guide's own data, so this cannot drift from the list below
+   it the way a hand-written summary would. */
+.fh-guides .short{padding:26px 28px;border-radius:20px;background:var(--chip);
+  border:1px solid color-mix(in oklab,var(--accent) 25%,transparent);margin:30px 0 40px}
+.fh-guides .short .mono{color:var(--accent-ink);letter-spacing:.18em;margin-bottom:12px}
+.fh-guides .short .lead-pick{font-size:20px;line-height:1.35;font-weight:800;
+  letter-spacing:-.025em;color:var(--ink);text-wrap:pretty}
+.fh-guides .short .lead-tag{margin-top:8px;color:var(--accent-ink);letter-spacing:.12em}
+
+.fh-guides .note{background:var(--note-bg);border:1px solid var(--line);
+  border-inline-start:3px solid var(--accent);border-radius:14px;padding:16px 18px;
+  margin:26px 0;font-size:15px;color:var(--ink-2)}
+.fh-guides .note b{color:var(--ink)}
+
+/* ---------- comparison table ---------- */
+.fh-guides .tablewrap{overflow-x:auto;margin:22px 0 8px;border:1px solid var(--line);
+  border-radius:16px;background:var(--surface)}
+.fh-guides table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+.fh-guides th, .fh-guides td{text-align:start;padding:13px 15px;border-bottom:1px solid var(--line)}
+.fh-guides th{background:var(--note-bg);font-weight:700;color:var(--ink);font-size:11px;
+  text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
+.fh-guides tbody tr:last-child td{border-bottom:0}
+.fh-guides td a{font-weight:600;text-decoration:none}
+.fh-guides td a:hover{text-decoration:underline}
+.fh-guides .rank{color:var(--accent-ink);font-variant-numeric:tabular-nums;width:1%;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
+
+/* ---------- a pick ---------- */
+/* The design puts a small square thumbnail beside the text rather than a full
+   bleed image above it. With ten picks on a page that is the difference between
+   a list you can scan and ten screens of scrolling. */
+.fh-guides .card{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:28px 0;
+  border-top:1px solid var(--line);scroll-margin-top:88px}
+.fh-guides .card-img{width:150px;aspect-ratio:1;object-fit:cover;border-radius:16px;
+  border:1px solid var(--line);background:var(--surface)}
+.fh-guides .card-in{min-width:0}
+.fh-guides .badge{display:block;color:var(--accent-ink);letter-spacing:.16em;margin-bottom:9px}
+.fh-guides .card h3{margin-bottom:10px}
+.fh-guides .card p{margin:0 0 14px;color:var(--ink-2);font-size:16px;line-height:1.6;
+  text-wrap:pretty}
+.fh-guides .priceline{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.fh-guides .price{font-size:21px;font-weight:900;letter-spacing:-.03em;color:var(--ink)}
+.fh-guides .tradeoff{letter-spacing:.06em;text-transform:none;font-size:11px;color:var(--ink-3)}
+.fh-guides .tradeoff b{font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.fh-guides .num{display:none}
+.fh-guides .tag{display:none}
+.fh-guides .pc{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-top:18px;
+  padding-top:16px;border-top:1px solid var(--line)}
+.fh-guides .pc h4{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:7px;
+  font-family:"JetBrains Mono",ui-monospace,monospace}
+.fh-guides .pc ul{list-style:none;font-size:14.5px;color:var(--ink-2)}
+.fh-guides .pc li{position:relative;padding-inline-start:17px;margin-bottom:5px;line-height:1.5}
+.fh-guides .pc li::before{position:absolute;inset-inline-start:0;font-weight:700}
+.fh-guides .pros li::before{content:"+";color:var(--pro)}
+.fh-guides .cons li::before{content:"–";color:var(--con)}
+.fh-guides .buys{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
+.fh-guides .btn{text-decoration:none;font-size:14px;font-weight:700;padding:12px 20px;
+  border-radius:999px;display:inline-block;transition:transform .15s,filter .15s}
+.fh-guides .btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.fh-guides .btn-a{background:var(--accent-ink);color:var(--on-accent)}
+.fh-guides .btn-b{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
+
+/* ---------- faq ---------- */
+.fh-guides .faq{border-top:1px solid var(--line);margin-top:12px}
+.fh-guides .faq details{border-bottom:1px solid var(--line)}
+.fh-guides .faq summary{cursor:pointer;list-style:none;padding:18px 30px 18px 0;position:relative;
+  font-weight:700;color:var(--ink);font-size:16.5px;letter-spacing:-.015em}
+.fh-guides .faq summary::-webkit-details-marker{display:none}
+.fh-guides .faq summary::after{content:"+";position:absolute;inset-inline-end:4px;top:16px;
+  font-size:21px;font-weight:400;color:var(--accent-ink);line-height:1}
+.fh-guides .faq details[open] summary::after{content:"–"}
+.fh-guides .faq p{padding:0 0 18px;color:var(--ink-2);font-size:15.5px;margin:0}
+
+/* ---------- closer ---------- */
+.fh-guides .closer{margin-top:46px;padding:34px 30px;border-radius:22px;
+  border:1px dashed var(--line-2);text-align:center}
+.fh-guides .closer h2{font-size:clamp(22px,3vw,28px);margin:0 0 10px;letter-spacing:-.03em}
+.fh-guides .closer p{font-size:16px;color:var(--ink-2);margin:0 0 22px}
+.fh-guides .closer .btn{padding:15px 28px;font-size:15px;font-weight:800;
+  background:var(--deep);color:var(--on-deep)}
+
+/* ---------- footer ---------- */
+.fh-guides .disc{font-size:13.5px;color:var(--ink-3);border-top:1px solid var(--line);
+  padding-top:18px;margin-top:46px}
+.fh-guides footer{border-top:1px solid var(--line);margin-top:56px;padding:34px 28px;
+  text-align:center;color:var(--ink-3);font-size:13.5px;background:var(--note-bg)}
+.fh-guides footer nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+.fh-guides footer a{color:var(--ink-2);text-decoration:none;font-weight:600}
+.fh-guides footer a:hover{color:var(--accent-ink)}
+.fh-guides .langsw{margin-top:12px;font-size:13px}
+
+/* ---------- responsive ---------- */
+@media(max-width:900px){
+  .fh-guides .feat{grid-template-columns:1fr;gap:34px}
+  .fh-guides .masthead{padding:52px 0 34px}
+}
+@media(max-width:600px){
+  .fh-guides body{font-size:16px}
+  .fh-guides .wrap, .fh-guides .wide, .fh-guides .hero{padding-inline:18px}
+  .fh-guides .nav-in{padding:10px 18px;gap:12px}
+  .fh-guides .nav-links{gap:14px}
+  .fh-guides .nav-links a{font-size:13px}
+  .fh-guides .navkick{display:none}
+  /* The thumbnail column collapses rather than shrinking to a stamp. */
+  .fh-guides .card{grid-template-columns:1fr;gap:16px;padding:24px 0}
+  .fh-guides .card-img{width:100%;aspect-ratio:16/10}
+  .fh-guides .pc{grid-template-columns:1fr;gap:14px}
+  .fh-guides .hero img{aspect-ratio:16/10}
+  .fh-guides .count{margin-inline-start:0;width:100%;padding-top:8px}
+}
+/* The chips are the one genuinely new tap target the redesign adds, and at the
+   design's 9px padding they land at 34px — under the 44px minimum. Scoped to
+   coarse pointers so the mouse version keeps the tighter proportions the design
+   draws, and applied by min-height rather than padding so the label stays
+   vertically centred either way. */
+@media(pointer:coarse){
+  .fh-guides .chip{min-height:44px;padding-inline:18px}
+  .fh-guides .nav-links a{min-height:44px;display:inline-flex;align-items:center}
+  .fh-guides .themetog{width:44px;height:44px}
+  .fh-guides .sideitem{padding:18px 16px}
+}
+@media(prefers-reduced-motion:reduce){:where(html).fh-guides, .fh-guides *{transition:none!important;animation:none!important}}
+
+/* ---------- rtl / non-latin ---------- */
+/* Archivo and JetBrains Mono have no Hebrew, and wide tracking on Hebrew is
+   unreadable rather than merely wrong. Hebrew keeps Heebo everywhere and drops
+   the mono treatment, so the design's rhythm survives without the typography
+   that cannot cross the script. */
+[dir=rtl].fh-guides body, [dir=rtl].fh-guides .logo, [dir=rtl].fh-guides h1, [dir=rtl].fh-guides h2, [dir=rtl].fh-guides h3, [dir=rtl].fh-guides .chip, [dir=rtl].fh-guides .mono, [dir=rtl].fh-guides .sidenum, [dir=rtl].fh-guides .rank, [dir=rtl].fh-guides th, [dir=rtl].fh-guides .pc h4{
+  font-family:"Heebo","Assistant",system-ui,sans-serif}
+[dir=rtl].fh-guides .mono, [dir=rtl].fh-guides th, [dir=rtl].fh-guides .pc h4{letter-spacing:.02em;font-size:11.5px}
+[dir=rtl].fh-guides h1, [dir=rtl].fh-guides h2, [dir=rtl].fh-guides .feat-main h2{letter-spacing:-.01em;line-height:1.1}
+/* A number with no Hebrew beside it still flips inside dir=rtl — "35 -> 35"
+   is fine but "10 min" and "-58%" are not. Isolate every numeric run. */
+[dir=rtl].fh-guides .sidenum, [dir=rtl].fh-guides .rank, [dir=rtl].fh-guides .price, [dir=rtl].fh-guides .count, [dir=rtl].fh-guides .byline .end, [dir=rtl].fh-guides time{unicode-bidi:isolate}
+
+/* Greek guide pages: Archivo is Latin-only, so Greek falls through to Noto Sans (zero-specificity language guard). */
+html:where([lang="el"]).fh-guides body, html:where([lang="el"]).fh-guides h1, html:where([lang="el"]).fh-guides h2, html:where([lang="el"]).fh-guides h3, html:where([lang="el"]).fh-guides .logo, html:where([lang="el"]).fh-guides .chip, html:where([lang="el"]).fh-guides .mono, html:where([lang="el"]).fh-guides .sidenum, html:where([lang="el"]).fh-guides .rank, html:where([lang="el"]).fh-guides th, html:where([lang="el"]).fh-guides .pc h4{font-family:'Noto Sans',system-ui,sans-serif}html:where([lang="el"]).fh-guides .mono, html:where([lang="el"]).fh-guides th, html:where([lang="el"]).fh-guides .pc h4{letter-spacing:.08em}

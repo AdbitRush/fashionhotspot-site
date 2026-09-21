@@ -17,7 +17,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from theme import (CSS, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
+from theme import (CSS_LINK, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
                    THEME_SCRIPT, GUIDE_SCRIPT, INDEX_SCRIPT)
 from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, FONT_LINKS,  # noqa: E402
                    t, fmt_date, disclosure)
@@ -204,17 +204,8 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
     if cfg["font"] and cfg["font"] in FONT_LINKS and not rtl:
         fonts += FONT_LINKS[cfg["font"]]
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
-    extra_css = ""
-    if cfg["font"] == "Noto Sans":
-        # Archivo is Latin-only, so Greek would fall through to a system font and
-        # lose the 900 weight the whole design rests on. The mono classes are in
-        # this list for the same reason — JetBrains Mono does cover Greek, but
-        # mixing it with Noto Sans headings looked like two unrelated pages.
-        extra_css = ("<style>body,h1,h2,h3,.logo,.chip,.mono,.sidenum,.rank,th,"
-                     ".pc h4{font-family:'Noto Sans',system-ui,sans-serif}"
-                     ".mono,th,.pc h4{letter-spacing:.08em}</style>")
     return f"""<!DOCTYPE html>
-<html lang="{lang}" dir="{cfg['dir']}">
+<html lang="{lang}" dir="{cfg['dir']}" class="fh-guides">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -231,7 +222,7 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
 {fonts}
-<style>{CSS}</style>{extra_css}
+{CSS_LINK}
 {extra_head}
 </head>
 <body>
