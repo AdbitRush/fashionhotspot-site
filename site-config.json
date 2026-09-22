@@ -39,11 +39,17 @@
     "the private bot replaces it. A generic https://wa.me/?text=... share-with-a-friend",
     "link is neither of these and is unaffected.",
     "",
-    "Any key may be left empty; that button simply does not render."
+    "Any key may be left empty; that button simply does not render.",
+    "",
+    "2026-09-22 (owner decision): private_bot_url now matches the bot's own welcome",
+    "share link exactly (?text=%D7%94%D7%99%D7%99%20%D7%90%D7%9C%D7%99 = 'היי אלי'),",
+    "so the site and the bot share one entry point. Tapping it always fires the bot's",
+    "welcome+menu (workspace/skills/welcome.js in whatsapp-deals-bot), even for a",
+    "returning contact — that is the point, not a bug."
   ],
   "whatsapp": {
     "contact_number": "972559884354",
-    "private_bot_url": "https://wa.me/972559884354?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%97%D7%A4%D7%A9%20%D7%93%D7%99%D7%9C%20%D7%A2%D7%9C%20",
+    "private_bot_url": "https://wa.me/972559884354?text=%D7%94%D7%99%D7%99%20%D7%90%D7%9C%D7%99",
     "deals_group_invite": "https://chat.whatsapp.com/EtsWVYABYVr5VF1aFTaQPn",
     "deals_group_name": "DealClaw"
   },
