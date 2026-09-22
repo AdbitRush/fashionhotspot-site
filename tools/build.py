@@ -19,14 +19,34 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from theme import (CSS_LINK, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
                    THEME_SCRIPT, GUIDE_SCRIPT, INDEX_SCRIPT)
-from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, FONT_LINKS,  # noqa: E402
+from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, author, FONT_LINKS,  # noqa: E402
                    t, fmt_date, disclosure)
 from i18n_schema import CONTENT, load_translation, merge     # noqa: E402
 
+import os
+
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://fashionhotspot.site"
+# Overridable so the same pipeline can build a second brand (e.g. the AllyFind
+# rebrand) into a separate output tree without touching fashionhotspot.site's
+# own generated files. Unset, behaviour is exactly what it always was.
+SITE = os.environ.get("GUIDES_SITE", "https://fashionhotspot.site")
 AMZ_TAG = "fashionhots0f-20"
-BRAND = "fashionhotspot"
+BRAND = os.environ.get("GUIDES_BRAND", "fashionhotspot")
+# Where generated files land. Defaults to the repo root (fashionhotspot.site's
+# own checkout, exactly as before). A second brand build passes its own
+# scratch directory here so it can never collide with or overwrite the
+# fashionhotspot.site output that lives in this repo's working tree.
+OUT_ROOT = Path(os.environ["GUIDES_OUT"]).resolve() if os.environ.get("GUIDES_OUT") else ROOT
+
+# Wordmark split for the nav logo: <span class="logo">first<span>second</span></span>,
+# the second half picking up fh.css's accent color. Hardcoded per known brand
+# rather than guessed from BRAND, because an automatic split (e.g. halfway
+# through the string) would as often as not land mid-syllable.
+_WORDMARKS = {
+    "fashionhotspot": ("fashion", "hotspot"),
+    "AllyFind": ("Ally", "Find"),
+}
+WORDMARK = _WORDMARKS.get(BRAND, (BRAND, ""))
 
 ORDER = ["tech", "smart-home", "kitchen", "coffee", "home-office", "fitness",
          "travel", "pets", "photography", "gaming", "outdoor", "beauty",
@@ -158,7 +178,7 @@ def nav(lang, current):
     # so it is aria-hidden rather than read out twice, and it drops on mobile.
     return (f'<div class="nav"><div class="nav-in">'
             f'<a class="brand" href="{e(r)}index.html">'
-            f'<span class="logo">fashion<span>hotspot</span></span>'
+            f'<span class="logo">{e(WORDMARK[0])}<span>{e(WORDMARK[1])}</span></span>'
             f'<span class="mono navkick" aria-hidden="true">/ {e(t(lang, "guides")).lower()}</span>'
             f'</a>'
             f'<nav class="nav-links">{links}</nav>{THEME_TOGGLE}</div></div>')
@@ -253,7 +273,7 @@ def render_guide(g, lang, siblings=()):
               f'<time datetime="{e(g["updated"])}">{e(fmt_date(g["updated"], lang))}</time>'
               f'</span>')
     byline = (f'<div class="byline mono"><span class="av" aria-hidden="true"></span>'
-              f'<b>{e(AUTHOR.get(lang, AUTHOR[DEFAULT]))}</b>'
+              f'<b>{e(author(lang, BRAND))}</b>'
               f'<span class="end">{len(products)} {e(t(lang, "picks"))}</span></div>')
     head = (f'{crumb}{kicker}<h1>{e(g["title"])}</h1>'
             f'<p class="dek">{e(g["dek"])}</p>{byline}')
@@ -420,7 +440,7 @@ def json_ld(g, lang, canon):
         "headline": g["title"], "description": g["dek"],
         "datePublished": g["updated"], "dateModified": g["updated"],
         "inLanguage": lang,
-        "author": {"@type": "Organization", "name": AUTHOR.get(lang, AUTHOR[DEFAULT])},
+        "author": {"@type": "Organization", "name": author(lang, BRAND)},
         # Google will not show Article rich results without publisher.logo.
         "publisher": {"@type": "Organization", "name": BRAND,
                       "url": SITE,
@@ -699,7 +719,7 @@ def main():
     written = 0
     homes = 0
     for lang in langs:
-        out_dir = ROOT / LANGS[lang]["path"] if LANGS[lang]["path"] else ROOT
+        out_dir = OUT_ROOT / LANGS[lang]["path"] if LANGS[lang]["path"] else OUT_ROOT
         out_dir.mkdir(parents=True, exist_ok=True)
 
         # Translate every guide once, up front. The guide pages need the whole
@@ -725,7 +745,7 @@ def main():
             (out_dir / "index.html").write_text(render_lang_home(idx, lang), encoding="utf-8")
             homes += 1
 
-    (ROOT / "sitemap.xml").write_text(render_sitemap(ordered), encoding="utf-8")
+    (OUT_ROOT / "sitemap.xml").write_text(render_sitemap(ordered), encoding="utf-8")
     print(f"{written} guide pages across {len(langs)} languages "
           f"({', '.join(langs)}), plus {len(langs)} index pages, "
           f"{homes} language home pages and sitemap.xml")

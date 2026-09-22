@@ -278,11 +278,22 @@ assert set(UI_GROWTH) == set(UI), f"UI_GROWTH is missing {set(UI) - set(UI_GROWT
 for _code, _extra in UI_GROWTH.items():
     UI[_code].update(_extra)
 
-AUTHOR = {
-    "en": "The fashionhotspot editors", "he": "מערכת fashionhotspot",
-    "es": "La redacción de fashionhotspot", "fr": "La rédaction de fashionhotspot",
-    "de": "Die fashionhotspot-Redaktion", "el": "Η σύνταξη του fashionhotspot",
+# Templates, not display strings — {brand} is filled in by author() below so
+# the same guide pipeline can render under a different brand (see build.py's
+# --brand) without a second copy of every language's byline.
+AUTHOR_TPL = {
+    "en": "The {brand} editors", "he": "מערכת {brand}",
+    "es": "La redacción de {brand}", "fr": "La rédaction de {brand}",
+    "de": "Die {brand}-Redaktion", "el": "Η σύνταξη του {brand}",
 }
+# Back-compat name, fashionhotspot's own brand — anything still importing
+# AUTHOR directly (none of the code below after this change) gets the
+# original strings.
+AUTHOR = {code: tpl.format(brand="fashionhotspot") for code, tpl in AUTHOR_TPL.items()}
+
+
+def author(lang, brand):
+    return AUTHOR_TPL.get(lang, AUTHOR_TPL[DEFAULT]).format(brand=brand)
 
 # Networks named in the disclosure, per language.
 #
