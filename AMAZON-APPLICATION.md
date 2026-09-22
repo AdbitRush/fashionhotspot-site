@@ -48,7 +48,7 @@ themselves, and one rebuild brings it all back.
 | Affiliate disclosure, clearly visible | ✅ Top banner **and** footer, in all six languages |
 | Disclosure is truthful | ✅ *"We are not an Amazon Associate and earn nothing from Amazon links today."* True before, during and after review |
 | Privacy policy | ✅ `privacy.html` — covers cookies, affiliate links, Amazon, personal data, contact |
-| Contact route | ✅ `contact.html` + `fashionhotspotsite@gmail.com` |
+| Contact route | ✅ `contact.html` + `contact@allyfind.com` |
 | About page | ✅ `about.html` |
 | Own Associates tag only | ✅ fixed today — all `fashionhots0f-20` |
 | No PA-API content without PA-API | ✅ fixed today — withheld until keys exist |
