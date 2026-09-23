@@ -1,0 +1,15 @@
+# allyfind.com — click-tracking hop only.
+#
+# This is deliberately NOT a copy of fashionhotspot.site's .htaccess: this
+# site has never had one, and copying that file's other rules (brand-specific
+# 2026-suffix redirects, etc.) onto a host that has never run them is an
+# untested change with a much bigger blast radius than the one rule this
+# task actually needs. Add rules here later if allyfind.com needs its own
+# equivalents; do not paste the other file's rules in wholesale.
+#
+# /go/<id>?u=<url> -> /api/go.php?id=<id>&u=<url> (query string preserved by
+# QSA, so u travels through untouched). See api/go.php for what happens next.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^go/([A-Za-z0-9._-]+)$ /api/go.php?id=$1 [QSA,L]
+</IfModule>
