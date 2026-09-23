@@ -1,0 +1,172 @@
+{
+  "slug": "aquarium",
+  "title": "Un acuario para empezar que se mantenga claro y mantenga a los peces vivos",
+  "dek": "Diez cosas para un primer acuario de agua dulce, clasificadas según cuánto mantienen vivos a los peces durante los complicados primeros meses. Los tanques más grandes son más fáciles, no más difíciles.",
+  "category": "Mascotas",
+  "how_we_pick": "Estas selecciones provienen de comunidades de aficionados a los acuarios, guías de cuidado de peces e informes de propietarios a largo plazo, cotejados con las listas minoristas actuales. No hemos probado personalmente cada artículo aquí. Los tanques de vidrio son caros y frágiles de enviar, así que compruebe los costos de envío y las políticas de daños antes de hacer el pedido.",
+  "intro": [
+    "La mayoría de los primeros acuarios fallan en el primer mes. La historia es siempre similar: un tanque pequeño comprado con peces el mismo día, demasiados peces añadidos a la vez y agua que se vuelve tóxica antes de que las bacterias útiles tengan tiempo de crecer. Los peces mueren, el agua se enturbia y el tanque termina en un armario.",
+    "Esta lista está ordenada según lo que evita eso. El tamaño correcto del tanque, un buen filtro y un kit de prueba de agua son mucho más importantes que las decoraciones. Y lo más importante de la lista es gratis: paciencia mientras el tanque se cicla.",
+    "Los precios a continuación son precios aproximados en la calle en el momento de escribir esto y cambian constantemente, especialmente durante los eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre verifique la lista en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un tanque de 20 galones",
+      "tag": "El tamaño que lo hace más fácil",
+      "body": "Los tanques pequeños y los cuencos parecen amigables para principiantes, pero son los más difíciles de mantener estables. En un volumen pequeño, los desechos se acumulan rápido y la temperatura fluctúa rápidamente. Un tanque de 20 galones es lo suficientemente grande como para ser indulgente y lo suficientemente pequeño para la mayoría de los hogares. Elija una forma alargada para más espacio de natación. Los kits de inicio incluyen un filtro y una luz, pero verifique qué se incluye. El argumento a favor: agua más estable, espacio para una buena comunidad de peces y tolerancia a los errores. La contrapartida es real: un tanque lleno pesa más de 200 libras y el vidrio es costoso de enviar, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Agua más estable",
+        "Espacio para una buena comunidad de peces",
+        "Tolerancia a los errores"
+      ],
+      "cons": [
+        "Un tanque lleno pesa más de 200 libras",
+        "El vidrio es costoso de enviar"
+      ]
+    },
+    {
+      "name": "Un filtro de mochila o de esponja",
+      "tag": "Agua limpia y saludable",
+      "body": "El filtro hace más que limpiar el agua. Es el hogar de las bacterias beneficiosas que convierten los desechos tóxicos de los peces en compuestos más seguros. Un filtro de mochila clasificado para el tamaño de su tanque, o un poco más grande, es simple y efectivo. Los filtros de esponja son baratos, suaves y geniales para camarones y peces pequeños. Nunca enjuague el material del filtro con agua del grifo; enjuáguelo con agua vieja del tanque para que las bacterias sobrevivan. El argumento a favor: mantiene el agua limpia y segura, alberga bacterias beneficiosas y es fácil de mantener. La contrapartida es real: los filtros zumban un poco y los enjuagues con agua del grifo matan las bacterias, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Mantiene el agua limpia y segura",
+        "Alberga bacterias beneficiosas",
+        "Fácil de mantener"
+      ],
+      "cons": [
+        "Los filtros zumban un poco",
+        "Los enjuagues con agua del grifo matan las bacterias"
+      ]
+    },
+    {
+      "name": "Un kit de prueba de agua líquida",
+      "tag": "Saber que el agua es segura",
+      "body": "No puedes ver amoníaco o nitrito, y ambos matan peces. Un kit de prueba líquida, como el API Freshwater Master Kit, los mide junto con nitratos y pH. Te dice cuándo un tanque nuevo ha terminado de ciclarse y cuándo algo anda mal. Los kits líquidos son más precisos que las tiras y duran cientos de pruebas. El argumento a favor: muestra peligros invisibles, te dice cuándo el tanque está listo para los peces y dura mucho tiempo. La contrapartida es real: las pruebas toman unos minutos y los reactivos caducan; revise las fechas, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Muestra peligros invisibles",
+        "Te dice cuándo el tanque está listo para los peces",
+        "Dura mucho tiempo"
+      ],
+      "cons": [
+        "Las pruebas toman unos minutos",
+        "Los reactivos caducan; revise las fechas"
+      ]
+    },
+    {
+      "name": "Acondicionador de agua",
+      "tag": "Haciendo el agua del grifo segura",
+      "body": "El agua del grifo contiene cloro o cloraminas, que matan a los peces y a las bacterias del filtro. Un acondicionador de agua los elimina al instante. Añádalo a cada cubo de agua nueva. Una botella dura mucho tiempo, y los productos concentrados como Seachem Prime son muy económicos. El argumento a favor: hace que el agua del grifo sea segura al instante, protege a los peces y a las bacterias, y es barata. La contrapartida es real: debe usarse en cada cambio de agua y medir la dosis; no adivine, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $8-15, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Hace que el agua del grifo sea segura al instante",
+        "Protege a los peces y a las bacterias",
+        "Barato"
+      ],
+      "cons": [
+        "Debe usarse en cada cambio de agua",
+        "Mida la dosis; no adivine"
+      ]
+    },
+    {
+      "name": "Un calentador ajustable",
+      "tag": "Peces tropicales",
+      "body": "La mayoría de los peces de comunidad populares son tropicales y necesitan agua caliente constante, generalmente entre 76-80°F. Un calentador ajustable la mantiene constante. Para un tanque de 20 galones, 100 vatios es lo típico. Compre una marca confiable; un calentador atascado puede cocinar un tanque. El argumento a favor: temperatura constante para peces tropicales, ajustable y bajo costo operativo. La contrapartida es real: los calentadores baratos pueden fallar atascados y desenchufarse antes de los cambios de agua, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $20-35, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que necesite pensar mucho.",
+      "pros": [
+        "Temperatura constante para peces tropicales",
+        "Ajustable",
+        "Bajo costo operativo"
+      ],
+      "cons": [
+        "Los calentadores baratos pueden fallar atascados",
+        "Desenchufar antes de los cambios de agua"
+      ]
+    },
+    {
+      "name": "Un sifón aspirador de grava",
+      "tag": "Cambios de agua fáciles",
+      "body": "Los cambios parciales de agua semanales de alrededor del 20-25 por ciento mantienen a los peces sanos. Un sifón aspirador de grava extrae agua y succiona desechos de la grava al mismo tiempo. Los tipos de arranque por compresión evitan la succión por boca. Convierte una tarea en un trabajo de diez minutos. El argumento a favor: limpia la grava y cambia el agua a la vez, rápido y barato. La contrapartida es real: necesita un cubo y puede succionar peces pequeños si no se tiene cuidado, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de alrededor de $12-25, es fácil de justificar incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Limpia la grava y cambia el agua a la vez",
+        "Rápido",
+        "Barato"
+      ],
+      "cons": [
+        "Necesita un cubo",
+        "Puede succionar peces pequeños si no se tiene cuidado"
+      ]
+    },
+    {
+      "name": "Una luz LED con temporizador",
+      "tag": "Plantas y visualización",
+      "body": "Los peces necesitan un ciclo regular de día y noche, y las plantas necesitan luz. Una luz LED con un temporizador incorporado proporciona 8-10 horas al día. Demasiadas horas causan algas. Coloque el tanque lejos de la luz solar directa por la misma razón. El argumento a favor: ciclo de luz regular, cultiva plantas y exhibe peces. La contrapartida es real: un fotoperiodo demasiado largo produce algas y las luces baratas pueden no ser adecuadas para las plantas, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $25-60, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Ciclo de luz regular",
+        "Cultiva plantas",
+        "Exhibe peces"
+      ],
+      "cons": [
+        "Un fotoperiodo demasiado largo produce algas",
+        "Las luces baratas pueden no ser adecuadas para las plantas"
+      ]
+    },
+    {
+      "name": "Plantas vivas fáciles",
+      "tag": "Calidad del agua y apariencia",
+      "body": "Las plantas vivas absorben desechos y compiten con las algas, y se ven mucho mejor que las de plástico. Las plantas fáciles como el helecho de Java, el anubias y el musgo de Java necesitan poca luz y ningún sustrato especial. Átalas a rocas o troncos. Verifique las regulaciones locales; algunas plantas de acuario no se pueden enviar a algunos estados. El argumento a favor: mejoran la calidad del agua, reducen las algas y se ven naturales. La contrapartida es real: algunos peces comen plantas y pueden traer caracoles, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $15-30, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que necesite pensar mucho.",
+      "pros": [
+        "Mejoran la calidad del agua",
+        "Reducen las algas",
+        "Se ven naturales"
+      ],
+      "cons": [
+        "Algunos peces comen plantas",
+        "Pueden traer caracoles"
+      ]
+    },
+    {
+      "name": "Un termómetro",
+      "tag": "Comprobando la temperatura",
+      "body": "El dial de un calentador no es preciso. Un termómetro digital barato o uno adhesivo le permite verificar la temperatura real de un vistazo. También es su advertencia temprana si un calentador falla. El argumento a favor: comprueba que el calentador funciona, es barato y fácil de leer. La contrapartida es real: los tipos adhesivos son menos precisos y se necesitan baterías en los tipos digitales, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de alrededor de $5-10, es fácil de justificar incluso si solo se usa ocasionalmente en lugar de a diario. Nada de eso lo hace esencial para todos los que leen esto, solo vale la pena saberlo si la descripción anterior coincide con la forma en que realmente usa el espacio.",
+      "pros": [
+        "Comprueba que el calentador funciona",
+        "Barato",
+        "Fácil de leer"
+      ],
+      "cons": [
+        "Los tipos adhesivos son menos precisos",
+        "Se necesitan baterías en los tipos digitales"
+      ]
+    },
+    {
+      "name": "Un mueble para acuario",
+      "tag": "Soportando el peso",
+      "body": "El agua pesa aproximadamente 8 libras por galón, por lo que un tanque de 20 galones pesa más de 200 libras con grava y rocas. La mayoría de los muebles no están diseñados para eso. Un mueble diseñado para acuarios soporta el peso de manera uniforme y a menudo tiene espacio de almacenamiento para suministros. Colóquelo en un piso nivelado. El argumento a favor: soporta el peso de forma segura, almacenamiento para suministros y altura adecuada para la visualización. La contrapartida es real: voluminoso de enviar y debe estar nivelado, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $60-150, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Soporta el peso de forma segura",
+        "Almacenamiento para suministros",
+        "Altura adecuada para la visualización"
+      ],
+      "cons": [
+        "Voluminoso de enviar",
+        "Debe estar nivelado"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué es el ciclado del tanque?",
+      "a": "El crecimiento de bacterias beneficiosas en el filtro antes de añadir peces. Generalmente toma de cuatro a seis semanas. Pruebe el agua para saber cuándo está listo."
+    },
+    {
+      "q": "¿Qué tamaño de tanque es mejor para principiantes?",
+      "a": "Alrededor de 20 galones. Los tanques más grandes son más estables y tolerantes."
+    },
+    {
+      "q": "¿Con qué frecuencia debo cambiar el agua?",
+      "a": "Aproximadamente del 20 al 25 por ciento semanalmente para la mayoría de los tanques."
+    },
+    {
+      "q": "¿Qué peces son buenos para principiantes?",
+      "a": "Peces de comunidad resistentes como platies, corydoras y algunos tetras, añadidos de a poco después del ciclado."
+    }
+  ]
+}

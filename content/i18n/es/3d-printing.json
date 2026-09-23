@@ -1,0 +1,172 @@
+{
+  "slug": "3d-printing",
+  "title": "Un kit de inicio de impresión 3D que se salta el frustrante primer mes",
+  "dek": "Diez cosas que convierten una impresora nueva en piezas terminadas, clasificadas por cuántas impresiones fallidas te ahorra cada una.",
+  "category": "Hobbies",
+  "how_we_pick": "Estas selecciones provienen de reseñas publicadas de impresoras, foros de makers e informes de propietarios a largo plazo, cotejadas con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Favorecimos las máquinas que imprimen bien con la configuración predeterminada, porque un principiante debería estar aprendiendo a diseñar y cortar, no a reparar.",
+  "intro": [
+    "Hace cinco años, una primera impresora 3D significaba semanas de nivelar camas, apretar correas y leer hilos de foros a medianoche. Las máquinas para principiantes de hoy en día funcionan en su mayoría nada más sacarlas de la caja. La frustración se ha trasladado: ahora está en el filamento barato que se rompe, las bobinas húmedas, las impresiones que no se adhieren y no saber qué herramientas pequeñas necesitas.",
+    "Así que esta lista comienza con la impresora, luego cubre el puñado de extras baratos que deciden si tu primer mes es divertido o un montón de espaguetis. La mayoría de los accesorios cuestan menos que una sola bobina de filamento premium.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre verifica el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Una impresora de nivelación automática de una marca importante",
+      "tag": "La impresora para empezar",
+      "body": "Compra una máquina con nivelación automática de cama y una comunidad de usuarios grande y activa. Los modelos A1 y A1 Mini de Bambu Lab, los modelos Mini y Core de Prusa, y los modelos K1 y Ender V3 más recientes de Creality imprimen bien con la configuración predeterminada y tienen enormes bibliotecas de perfiles probados. La nivelación automática elimina el paso que acabó con el interés de la mayoría de los principiantes en los viejos tiempos. El tamaño de la comunidad importa más de lo que suena: cuando algo sale mal, una impresora popular tiene mil hilos de foros respondidos. Elige un tamaño de cama para lo que quieres hacer, no el más grande que puedas permitirte. El argumento a favor: imprime bien nada más sacarla de la caja, la nivelación automática elimina el peor paso para principiantes, y gran comunidad y perfiles probados. La contrapartida es real: algunas marcas te obligan a usar su propia nube o piezas y las impresoras son ruidosas; planifica dónde la colocarás, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Imprime bien nada más sacarla de la caja",
+        "La nivelación automática elimina el peor paso para principiantes",
+        "Gran comunidad y perfiles probados"
+      ],
+      "cons": [
+        "Algunas marcas te obligan a usar su propia nube o piezas",
+        "Las impresoras son ruidosas; planifica dónde la colocarás"
+      ]
+    },
+    {
+      "name": "Filamento PLA de un fabricante de renombre",
+      "tag": "Casi todos los primeros proyectos",
+      "body": "El PLA es fácil de imprimir, tiene poco olor y es suficiente para la mayoría de las piezas del hogar, juguetes y modelos. El filamento barato sin marca es la causa más común de fallos misteriosos: el diámetro varía, se rompe y los colores varían entre bobinas. Marcas conocidas como eSUN, Polymaker, Sunlu, Elegoo y las bobinas propias de los fabricantes de impresoras son consistentes. Empieza con un color neutro y uno divertido. Cómpralo sellado al vacío con un paquete de desecante, y mantenlo así hasta que lo uses. El argumento a favor: el material más fácil de imprimir, poco olor, seguro para uso en interiores, y consistente de buenas marcas. La contrapartida es real: se ablanda en un coche caliente o una ventana soleada y las bobinas baratas causan fallos aleatorios, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "El material más fácil de imprimir",
+        "Poco olor, seguro para uso en interiores",
+        "Consistente de buenas marcas"
+      ],
+      "cons": [
+        "Se ablanda en un coche caliente o una ventana soleada",
+        "Las bobinas baratas causan fallos aleatorios"
+      ]
+    },
+    {
+      "name": "Un secador de filamento o caja seca",
+      "tag": "Bobinas húmedas e impresiones con hilos",
+      "body": "El filamento absorbe la humedad del aire, y el filamento húmedo imprime con hilos, burbujas y capas débiles. La gente culpa a la impresora durante semanas antes de darse cuenta de que la bobina es el problema. Un pequeño secador con calefacción arregla las bobinas húmedas en unas pocas horas, y muchos funcionan también como caja seca desde la que se imprime directamente. En climas húmedos, esto pasa de ser un \"agradable de tener\" a ser esencial, especialmente para PETG y nailon. El argumento a favor: arregla las impresiones con hilos y débiles, puede alimentar la impresora mientras seca, y protege el filamento caro. La contrapartida es real: añade unas pocas horas antes de imprimir una bobina húmeda y una bobina a la vez en la mayoría de los modelos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Arregla las impresiones con hilos y débiles",
+        "Puede alimentar la impresora mientras seca",
+        "Protege el filamento caro"
+      ],
+      "cons": [
+        "Añade unas pocas horas antes de imprimir una bobina húmeda",
+        "Una bobina a la vez en la mayoría de los modelos"
+      ]
+    },
+    {
+      "name": "Una placa de construcción PEI texturizada",
+      "tag": "Impresiones que se adhieren, luego se liberan",
+      "body": "La adhesión de la primera capa es donde fallan la mayoría de las impresiones. Una placa de acero para muelles con recubrimiento PEI texturizado sujeta firmemente las impresiones mientras está caliente y las libera cuando se enfría, generalmente con una ligera flexión. Muchas impresoras vienen con una; si la tuya tiene una placa de vidrio o lisa, esta es la mejor mejora que puedes comprar. Obtén el tamaño y el tipo de imán que coincidan exactamente con tu modelo de impresora. Lávala con agua tibia y jabón para platos de vez en cuando; las huellas dactilares son el enemigo. El argumento a favor: las impresiones se adhieren bien mientras están calientes, se desprenden con una flexión una vez frías, y dejan un bonito interior texturizado. La contrapartida es real: debe coincidir exactamente con el tamaño de la cama de tu impresora y el recubrimiento se desgasta; es un consumible lento, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Las impresiones se adhieren bien mientras están calientes",
+        "Se desprenden con una flexión una vez frías",
+        "Deja un bonito interior texturizado"
+      ],
+      "cons": [
+        "Debe coincidir exactamente con el tamaño de la cama de tu impresora",
+        "El recubrimiento se desgasta; es un consumible lento"
+      ]
+    },
+    {
+      "name": "Un kit de herramientas de inicio",
+      "tag": "Quitar soportes y limpiar piezas",
+      "body": "Las piezas impresas salen con material de soporte, hilos y bordes ásperos. Un kit básico con cortadores al ras, una herramienta de desbarbado, limas de aguja, una espátula delgada y pinzas se encarga de todo. Puedes montar estos artículos individualmente, pero un kit de inicio hecho para impresión 3D es más barato y todo cabe en una bolsa. Guarda la espátula para la cama y nunca uses raspadores de metal en una lámina de PEI. El argumento a favor: limpia cada impresión, quita soportes sin romper piezas, y mantiene todo en un solo lugar. La contrapartida es real: la calidad del kit varía; los cortadores son lo más importante y las cuchillas afiladas necesitan un lugar seguro lejos de los niños, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Limpia cada impresión",
+        "Quita soportes sin romper piezas",
+        "Mantiene todo en un solo lugar"
+      ],
+      "cons": [
+        "La calidad del kit varía; los cortadores son lo más importante",
+        "Las cuchillas afiladas necesitan un lugar seguro lejos de los niños"
+      ]
+    },
+    {
+      "name": "Calibrador digital",
+      "tag": "Diseñar piezas que encajen",
+      "body": "La mejor parte de tener una impresora es hacer el soporte, la perilla o el clip exacto que necesitas. Eso significa medir las cosas con precisión. Los calibradores digitales leen hasta la centésima de milímetro y miden el exterior, el interior y la profundidad. Un par de $20 es lo suficientemente preciso para la impresión en casa. Los usarás para diseñar piezas, verificar el diámetro del filamento y un centenar de otros trabajos en casa. El argumento a favor: hace que las piezas personalizadas encajen a la primera, útil mucho más allá de la impresión, y lo suficientemente preciso a un precio bajo. La contrapartida es real: las baterías baratas se agotan si se dejan encendidas y los calibradores de plástico son menos precisos que los de acero, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Hace que las piezas personalizadas encajen a la primera",
+        "Útil mucho más allá de la impresión",
+        "Lo suficientemente preciso a un precio bajo"
+      ],
+      "cons": [
+        "Las baterías baratas se agotan si se dejan encendidas",
+        "Los calibradores de plástico son menos precisos que los de acero"
+      ]
+    },
+    {
+      "name": "Boquillas de repuesto",
+      "tag": "Obstrucciones y desgaste",
+      "body": "Las boquillas se obstruyen y se desgastan, y una obstrucción siempre ocurre un domingo por la noche. Ten algunas boquillas de repuesto de tu tipo y tamaño exacto, generalmente 0.4 mm. Algunas impresoras más nuevas usan hotends de cambio rápido, que son más caros pero más fáciles. Si planeas imprimir filamento que brilla en la oscuridad o relleno de carbono, obtén una boquilla de acero endurecido, porque esos materiales desgastan el latón rápidamente. El argumento a favor: arregla las obstrucciones en minutos, es barato de tener a mano, y te permite probar diferentes tamaños. La contrapartida es real: debe coincidir exactamente con tu hotend y cambiar una caliente requiere cuidado y guantes, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Arregla las obstrucciones en minutos",
+        "Barato de tener a mano",
+        "Te permite probar diferentes tamaños"
+      ],
+      "cons": [
+        "Debe coincidir exactamente con tu hotend",
+        "Cambiar una caliente requiere cuidado y guantes"
+      ]
+    },
+    {
+      "name": "Barra de pegamento o adhesivo para cama",
+      "tag": "Primeras capas rebeldes",
+      "body": "Para piezas que se curvan en las esquinas o materiales que se adhieren demasiado bien, una fina capa de barra de pegamento lavable o un adhesivo para cama especialmente diseñado ayuda. También actúa como capa de liberación para PETG, que puede adherirse tan fuertemente al PEI liso que rasga el recubrimiento. Una sola barra dura meses. Esta es la solución más barata para la deformación en la página. El argumento a favor: detiene las esquinas que se curvan, protege la placa del PETG, y es muy barato. La contrapartida es real: necesita limpiarse de la placa de vez en cuando y no es necesario para la mayoría del PLA en PEI texturizado, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Detiene las esquinas que se curvan",
+        "Protege la placa del PETG",
+        "Muy barato"
+      ],
+      "cons": [
+        "Necesita limpiarse de la placa de vez en cuando",
+        "No es necesario para la mayoría del PLA en PEI texturizado"
+      ]
+    },
+    {
+      "name": "Una alfombrilla o baldosa ignífuga y una alarma de humo",
+      "tag": "Imprimiendo sin supervisión",
+      "body": "Las impresoras funcionan a altas temperaturas durante horas, a menudo durante la noche. Los fallos que causan incendios son raros, pero ocurren, generalmente en máquinas baratas o modificadas. Coloca la impresora sobre una superficie no inflamable, mantenla alejada de las cortinas y pon una alarma de humo que funcione en la habitación. Es un consejo aburrido, pero importa más que cualquier mejora aquí, y cuesta muy poco. El argumento a favor: reduce el riesgo real de incendio, es barato, y te permite imprimir durante la noche con menos preocupaciones. La contrapartida es real: ninguna que valga la pena preocuparse y mantén el firmware actualizado; incluye comprobaciones de seguridad, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Reduce el riesgo real de incendio",
+        "Barato",
+        "Te permite imprimir durante la noche con menos preocupaciones"
+      ],
+      "cons": [
+        "Ninguna que valga la pena preocuparse",
+        "Mantén el firmware actualizado; incluye comprobaciones de seguridad"
+      ]
+    },
+    {
+      "name": "Filamento PETG",
+      "tag": "Piezas para exteriores y calor",
+      "body": "Una vez que imprimes piezas prácticas, los límites del PLA se hacen evidentes: se ablanda con el calor y se vuelve quebradizo al aire libre. El PETG es más resistente, soporta mejor el calor y el sol, y sigue siendo bastante fácil de imprimir. Es la opción correcta para clips de jardín, accesorios de coche y cualquier cosa cerca de un electrodoméstico caliente. Produce más hilos que el PLA y le encanta la humedad, así que sécalo primero y ajusta la retracción. El argumento a favor: más resistente y más resistente al calor que el PLA, bueno para piezas de exterior, y todavía amigable para principiantes. La contrapartida es real: más hilos que el PLA y se adhiere demasiado bien al PEI liso sin pegamento, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Más resistente y más resistente al calor que el PLA",
+        "Bueno para piezas de exterior",
+        "Todavía amigable para principiantes"
+      ],
+      "cons": [
+        "Más hilos que el PLA",
+        "Se adhiere demasiado bien al PEI liso sin pegamento"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Sigue siendo difícil la impresión 3D para principiantes?",
+      "a": "Mucho menos que antes. Una impresora moderna con nivelación automática y buen filamento imprimirá bien desde el primer día. El aprendizaje ahora está en el diseño y el corte, que es la parte divertida."
+    },
+    {
+      "q": "¿Qué puedo hacer realmente?",
+      "a": "Piezas de repuesto, organizadores, ganchos, juguetes, piezas de cosplay, macetas y regalos. Sitios de modelos gratuitos como Printables y Thingiverse tienen millones de diseños."
+    },
+    {
+      "q": "¿Es seguro en interiores?",
+      "a": "El PLA tiene poco olor y generalmente está bien en una habitación ventilada. Materiales como ABS y resina necesitan ventilación adecuada. Imprime siempre sobre una superficie ignífuga."
+    },
+    {
+      "q": "¿Resina o filamento?",
+      "a": "Filamento para una primera impresora. La resina ofrece un detalle increíble para miniaturas, pero implica químicos sucios, guantes y estaciones de lavado."
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "stargazing",
+  "category": "Outdoor",
+  "title": "Stargazing for Beginners: What to Buy Before a Telescope",
+  "dek": "Ten things for getting into astronomy, ranked by how much more of the night sky they show you. The telescope is not first.",
+  "seo_title": "Binoculars, star apps and red lights come before a telescope. Ten stargazing picks ranked by how much more of the sky you will see and enjoy.",
+  "hero_image": "a person with binoculars under a starry sky with the Milky Way",
+  "intro": [
+    "The classic beginner astronomy mistake is buying a cheap telescope from a department store. It wobbles, the magnification claims are fantasy, and finding anything with it is so frustrating it ends up in the garage within a month. The night sky is best learned with your eyes, an app and a pair of binoculars first.",
+    "This list is ordered by how much more of the sky each item opens up for the money. Several cost nothing. The telescope comes in when you know what you want to look at.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from astronomy clubs, published equipment reviews and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. Never look at the Sun through binoculars or a telescope without a certified solar filter.",
+  "products": [
+    {
+      "name": "7x50 or 10x50 binoculars",
+      "tag": "The first thing to buy",
+      "price": "$50-150",
+      "search": "7x50 or 10x50 binoculars",
+      "image": "a pair of 10x50 binoculars on a picnic table at dusk",
+      "body": "Binoculars show the Moon's craters, Jupiter's moons, star clusters and the Andromeda galaxy, and they are easy to use from the first night. The numbers mean magnification and lens size in millimetres; 50mm lenses gather plenty of light. 7x50 is easier to hold steady; 10x50 shows more detail. Look for fully multi-coated lenses and BaK-4 prisms. They are useful for birds and travel too. The case for it: easy to use from day one, shows far more than your eyes alone, and useful for other hobbies. The trade-off is real: hard to hold steady for long and cheap pairs have blurry edges, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Easy to use from day one",
+        "Shows far more than your eyes alone",
+        "Useful for other hobbies"
+      ],
+      "cons": [
+        "Hard to hold steady for long",
+        "Cheap pairs have blurry edges"
+      ]
+    },
+    {
+      "name": "A star chart app",
+      "tag": "Knowing what you are looking at",
+      "price": "Free-$10",
+      "search": "star chart app",
+      "image": "a phone held up to the sky showing a star chart app",
+      "body": "Point your phone at the sky and apps like Stellarium, SkySafari or Star Walk show what you are looking at: planets, constellations and satellites. It turns random dots into things you can name and find again. Many are free. Turn on night mode so the screen glows red. The case for it: identifies what you see, shows planets and the ISS, and free or cheap. The trade-off is real: bright screens ruin night vision and compass can be inaccurate near metal, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Identifies what you see",
+        "Shows planets and the ISS",
+        "Free or cheap"
+      ],
+      "cons": [
+        "Bright screens ruin night vision",
+        "Compass can be inaccurate near metal"
+      ]
+    },
+    {
+      "name": "A red flashlight or headlamp",
+      "tag": "Keeping night vision",
+      "price": "$10-20",
+      "search": "red flashlight or headlamp",
+      "image": "a red headlamp glowing in the dark",
+      "body": "Your eyes take 20-30 minutes to adjust fully to the dark, and one flash of white light resets them. Red light lets you read charts and find things without losing night vision. A headlamp with a red mode keeps your hands free. It is a small thing that makes a big difference. The case for it: keeps night vision, hands-free, and cheap. The trade-off is real: must avoid switching to white by mistake and very bright red still affects vision, so weigh that against how often it would actually get used. Priced around $10-20, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Keeps night vision",
+        "Hands-free",
+        "Cheap"
+      ],
+      "cons": [
+        "Must avoid switching to white by mistake",
+        "Very bright red still affects vision"
+      ]
+    },
+    {
+      "name": "A light pollution map and a dark sky trip",
+      "tag": "Seeing far more stars",
+      "price": "Free ($0)",
+      "search": "light pollution map and a dark sky trip",
+      "image": "a light pollution map on a laptop screen",
+      "body": "From a city you might see a few dozen stars. From a dark site, thousands, plus the Milky Way. Free light pollution maps show dark areas near you, and many state parks are certified dark sky places. Plan around a new moon for the darkest skies. This costs only fuel and gives the best views of anything on this list. The case for it: dramatically more stars, free, and makes every other tool work better. The trade-off is real: requires travel and check park hours and weather, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Dramatically more stars",
+        "Free",
+        "Makes every other tool work better"
+      ],
+      "cons": [
+        "Requires travel",
+        "Check park hours and weather"
+      ]
+    },
+    {
+      "name": "A reclining camping chair",
+      "tag": "Comfort while looking up",
+      "price": "$30-70",
+      "search": "reclining camping chair",
+      "image": "a reclining camping chair under the stars",
+      "body": "Looking straight up for an hour hurts your neck. A reclining camping chair or zero-gravity chair lets you scan the sky comfortably, and it is perfect with binoculars. Bring a blanket; nights get cold even in summer. The case for it: comfortable for long sessions, great with binoculars, and doubles as a garden chair. The trade-off is real: bulky to carry and metal frames get cold, so weigh that against how often it would actually get used. For $30-70, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Comfortable for long sessions",
+        "Great with binoculars",
+        "Doubles as a garden chair"
+      ],
+      "cons": [
+        "Bulky to carry",
+        "Metal frames get cold"
+      ]
+    },
+    {
+      "name": "A tabletop Dobsonian telescope",
+      "tag": "A first telescope that works",
+      "price": "$150-250",
+      "search": "tabletop Dobsonian telescope",
+      "image": "a small tabletop Dobsonian telescope on a garden table",
+      "body": "If you want a telescope, a tabletop Dobsonian reflector is the best starter. It has a large mirror for the price, a simple point-and-look mount with no complex setup, and it shows Saturn's rings, Jupiter's cloud bands and lunar detail. The Zhumell Z114 and similar models are popular. Ignore any telescope sold on its magnification; aperture, the mirror size, is what matters. The case for it: big aperture for the price, simple to use, and portable. The trade-off is real: needs a stable table and mirrors need occasional alignment, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Big aperture for the price",
+        "Simple to use",
+        "Portable"
+      ],
+      "cons": [
+        "Needs a stable table",
+        "Mirrors need occasional alignment"
+      ]
+    },
+    {
+      "name": "A full-size 6-8 inch Dobsonian",
+      "tag": "Serious beginners",
+      "price": "$350-600",
+      "search": "full-size 6-8 inch Dobsonian",
+      "image": "an 8-inch Dobsonian telescope in a back garden",
+      "body": "A 6 or 8-inch Dobsonian is what astronomy clubs recommend most. It gathers enough light to show galaxies and nebulae from dark sites, and planets in real detail. It is big and heavy but easy to use. Buy it when you know you enjoy the hobby. Shipping large telescopes can be expensive, so check the total cost. The case for it: excellent views for the money, simple mount, and a telescope for years. The trade-off is real: large and heavy and shipping can be costly, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Excellent views for the money",
+        "Simple mount",
+        "A telescope for years"
+      ],
+      "cons": [
+        "Large and heavy",
+        "Shipping can be costly"
+      ]
+    },
+    {
+      "name": "A binocular tripod adapter",
+      "tag": "Steadier views",
+      "price": "$15-30",
+      "search": "binocular tripod adapter",
+      "image": "binoculars mounted on a tripod with an adapter",
+      "body": "Handheld binoculars shake, especially at 10x. A cheap adapter mounts them on any camera tripod for steady views, which shows much more detail. Check your binoculars have a tripod socket, usually hidden under a cap at the front hinge. The case for it: rock-steady views, cheap, and works with a normal camera tripod. The trade-off is real: needs a tripod and awkward for overhead viewing, so weigh that against how often it would actually get used. For $15-30, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Rock-steady views",
+        "Cheap",
+        "Works with a normal camera tripod"
+      ],
+      "cons": [
+        "Needs a tripod",
+        "Awkward for overhead viewing"
+      ]
+    },
+    {
+      "name": "A planisphere",
+      "tag": "Learning constellations offline",
+      "price": "$10-20",
+      "search": "planisphere",
+      "image": "a planisphere star wheel under red light",
+      "body": "A planisphere is a rotating star chart you set to the date and time. It needs no batteries, does not ruin your night vision, and teaches constellations in a way apps do not. Buy one for your latitude. It makes a lovely gift for kids. The case for it: no batteries or screens, teaches the sky, and great for kids. The trade-off is real: latitude-specific and harder to read than an app at first, so weigh that against how often it would actually get used. Priced around $10-20, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "No batteries or screens",
+        "Teaches the sky",
+        "Great for kids"
+      ],
+      "cons": [
+        "Latitude-specific",
+        "Harder to read than an app at first"
+      ]
+    },
+    {
+      "name": "Certified solar eclipse glasses",
+      "tag": "Looking at the Sun safely",
+      "price": "$10-20",
+      "search": "Certified solar eclipse glasses",
+      "image": "a person wearing solar eclipse glasses looking at the Sun",
+      "body": "Looking at the Sun without proper protection can cause permanent eye damage, and normal sunglasses do not protect you. Eclipse glasses that meet the ISO 12312-2 standard, from reputable suppliers listed by the American Astronomical Society, are safe for direct viewing. Never use them with binoculars or telescopes; those need special solar filters. The case for it: safe viewing of eclipses and sunspots, cheap, and required for any solar viewing. The trade-off is real: fake glasses are sold around eclipses and never use with optics, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Safe viewing of eclipses and sunspots",
+        "Cheap",
+        "Required for any solar viewing"
+      ],
+      "cons": [
+        "Fake glasses are sold around eclipses",
+        "Never use with optics"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should I buy a telescope or binoculars first?",
+      "a": "Binoculars. They are easier to use and help you learn the sky. Buy a telescope once you know what you want to see."
+    },
+    {
+      "q": "What magnification do I need?",
+      "a": "Ignore magnification claims. Aperture, the size of the lens or mirror, matters much more."
+    },
+    {
+      "q": "Can I see anything from the city?",
+      "a": "Yes: the Moon, planets and bright stars. For galaxies and the Milky Way, go somewhere dark."
+    },
+    {
+      "q": "When is the best time to stargaze?",
+      "a": "Around the new moon, on a clear night, after your eyes have adjusted for 20-30 minutes."
+    }
+  ],
+  "updated": "2026-09-23"
+}

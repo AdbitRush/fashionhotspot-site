@@ -1,0 +1,205 @@
+{
+  "slug": "dog-training",
+  "category": "Pets",
+  "title": "Dog Walking and Training Gear That Makes Every Walk Easier",
+  "dek": "Ten things for walking and training a dog, ranked by how much they help with pulling, recall and manners. Treats and timing beat gadgets.",
+  "seo_title": "Harnesses, leads, treat pouches and training tools that make dog walks calmer. Ten picks ranked by how much they help with pulling and recall.",
+  "hero_image": "a dog walking calmly on a loose lead in a park",
+  "intro": [
+    "A dog that pulls on the lead, ignores recall and lunges at other dogs makes every walk stressful. The pet aisle offers many quick fixes, but training still comes down to two things: rewarding the behaviour you want at the right moment, and using equipment that does not make things worse.",
+    "This list is ordered by what helps most day to day. A good harness and a treat pouch come first. Aversive tools like prong and shock collars are not here; veterinary behaviour groups advise against them, and reward-based training works better long term.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from veterinary behaviour guidance, certified trainers' advice and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. For aggression or serious fear, work with a qualified behaviourist or your vet.",
+  "products": [
+    {
+      "name": "A front-clip harness",
+      "tag": "The quickest help with pulling",
+      "price": "$25-50",
+      "search": "front-clip harness",
+      "image": "a dog wearing a front-clip harness with the lead on the chest ring",
+      "body": "A front-clip harness attaches the lead at the chest, so when the dog pulls, it turns sideways toward you rather than forward. It reduces pulling right away while you train loose-lead walking, and it puts no pressure on the throat. Look for a Y-shaped design that does not restrict shoulder movement. It manages the behaviour rather than fixing it outright; pair it with real training. The case for it: reduces pulling right away, no pressure on the throat, and easy to put on. The trade-off is real: can rub under the legs if poorly fitted and straps across the shoulders restrict movement, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Reduces pulling right away",
+        "No pressure on the throat",
+        "Easy to put on"
+      ],
+      "cons": [
+        "Can rub under the legs if poorly fitted",
+        "Straps across the shoulders restrict movement"
+      ]
+    },
+    {
+      "name": "A treat pouch",
+      "tag": "Rewarding at the right moment",
+      "price": "$10-20",
+      "search": "treat pouch",
+      "image": "a treat pouch clipped to a belt",
+      "body": "Timing is everything in training. The reward needs to come within a second or two of the behaviour. Fumbling in a pocket is too slow. A clip-on pouch with a magnetic or hinged opening puts treats in your hand instantly. Many have a poop bag compartment too. The case for it: rewards arrive on time, keeps treats handy, and hands-free. The trade-off is real: cheap clips break and needs washing regularly, so weigh that against how often it would actually get used. For $10-20, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Rewards arrive on time",
+        "Keeps treats handy",
+        "Hands-free"
+      ],
+      "cons": [
+        "Cheap clips break",
+        "Needs washing regularly"
+      ]
+    },
+    {
+      "name": "Small, soft training treats",
+      "tag": "Frequent rewards",
+      "price": "$8-15",
+      "search": "Small, soft training treats",
+      "image": "small soft training treats in a hand",
+      "body": "Training uses dozens of treats per session, so they need to be tiny, soft and quick to eat. Pea-sized soft treats keep the dog focused without filling them up. Higher-value treats, like small bits of chicken, help in distracting places. Reduce their meals slightly on heavy training days. The case for it: keep dogs motivated, quick to eat, and easy to break smaller. The trade-off is real: calories add up and check ingredients for allergies, so weigh that against how often it would actually get used. Priced around $8-15, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Keep dogs motivated",
+        "Quick to eat",
+        "Easy to break smaller"
+      ],
+      "cons": [
+        "Calories add up",
+        "Check ingredients for allergies"
+      ]
+    },
+    {
+      "name": "A 6-foot standard lead",
+      "tag": "Everyday walks",
+      "price": "$12-25",
+      "search": "6-foot standard lead",
+      "image": "a simple 6-foot nylon lead",
+      "body": "A fixed 6-foot lead gives the dog room to sniff and you steady control. Retractable leads teach dogs that pulling earns more lead, and the thin cords can cause injuries. Padded handles are kinder to your hands. Biothane or nylon are easy to clean. The case for it: consistent control, teaches loose-lead walking, and safer than retractable leads. The trade-off is real: less freedom than a long line and cheap clips can open, so weigh that against how often it would actually get used. At $12-25, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Consistent control",
+        "Teaches loose-lead walking",
+        "Safer than retractable leads"
+      ],
+      "cons": [
+        "Less freedom than a long line",
+        "Cheap clips can open"
+      ]
+    },
+    {
+      "name": "A long line (15-30 feet)",
+      "tag": "Practising recall safely",
+      "price": "$15-30",
+      "search": "long line (15-30 feet)",
+      "image": "a dog on a long training line in an open field",
+      "body": "Recall is the most important safety skill, and the hardest to practise without risk. A long line lets the dog roam and sniff in open spaces while you still have control. Practise calling back with big rewards. Use it with a harness, never a collar, and wear gloves to avoid rope burn. The case for it: safe recall practice, freedom to explore, and cheap. The trade-off is real: can tangle around legs and use with a harness, not a collar, so weigh that against how often it would actually get used. For $15-30, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Safe recall practice",
+        "Freedom to explore",
+        "Cheap"
+      ],
+      "cons": [
+        "Can tangle around legs",
+        "Use with a harness, not a collar"
+      ]
+    },
+    {
+      "name": "A clicker",
+      "tag": "Precise timing",
+      "price": "$5-10",
+      "search": "clicker",
+      "image": "a small clicker in a hand",
+      "body": "A clicker makes a distinct sound that marks the exact moment the dog did the right thing, followed by a treat. Many trainers use it because it is more consistent than a word. A spoken marker like \"yes\" works too. It is cheap and worth trying. The case for it: precise marker, cheap, and speeds up learning. The trade-off is real: easy to forget at home and some dogs are sound-sensitive, so weigh that against how often it would actually get used. Priced around $5-10, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Precise marker",
+        "Cheap",
+        "Speeds up learning"
+      ],
+      "cons": [
+        "Easy to forget at home",
+        "Some dogs are sound-sensitive"
+      ]
+    },
+    {
+      "name": "A poop bag dispenser",
+      "tag": "Clean walks",
+      "price": "$8-15",
+      "search": "poop bag dispenser",
+      "image": "a poop bag dispenser clipped to a lead",
+      "body": "It is simple and essential: a dispenser that clips to the lead means you never run out. Choose thick bags that do not tear. The case for it: always have bags, clips on, and cheap. The trade-off is real: cheap bags tear and \"Compostable\" bags need proper composting, so weigh that against how often it would actually get used. At $8-15, it earns its place on this list without asking for a big up-front commitment either way. As with anything on this list, check the exact listing details and current price before adding it to a cart.",
+      "pros": [
+        "Always have bags",
+        "Clips on",
+        "Cheap"
+      ],
+      "cons": [
+        "Cheap bags tear",
+        "\"Compostable\" bags need proper composting"
+      ]
+    },
+    {
+      "name": "A reflective or LED collar",
+      "tag": "Night walks",
+      "price": "$10-20",
+      "search": "reflective or LED collar",
+      "image": "a dog wearing an LED light-up collar at dusk",
+      "body": "Autumn and winter walks happen in the dark. A reflective or LED collar makes your dog visible to drivers and helps you see them off lead. USB-rechargeable ones last for years. The case for it: visible to drivers, easy to spot off lead, and cheap. The trade-off is real: batteries need charging and cheap ones are not waterproof, so weigh that against how often it would actually get used. For $10-20, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about. It is a minor purchase in the context of the whole set-up, but the kind that is easy to regret skipping once you notice the gap.",
+      "pros": [
+        "Visible to drivers",
+        "Easy to spot off lead",
+        "Cheap"
+      ],
+      "cons": [
+        "Batteries need charging",
+        "Cheap ones are not waterproof"
+      ]
+    },
+    {
+      "name": "A snuffle mat or lick mat",
+      "tag": "Calming after walks",
+      "price": "$12-25",
+      "search": "snuffle mat or lick mat",
+      "image": "a dog sniffing treats in a snuffle mat",
+      "body": "Sniffing and licking calm dogs. A snuffle mat hides kibble in fabric strips, and a lick mat spreads wet food or yoghurt. Both provide mental exercise, which tires dogs as much as a walk. Good for rainy days and settling after excitement. The case for it: calms dogs down, mental exercise, and good for rainy days. The trade-off is real: chewers can destroy them and needs washing, so weigh that against how often it would actually get used. Priced around $12-25, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Calms dogs down",
+        "Mental exercise",
+        "Good for rainy days"
+      ],
+      "cons": [
+        "Chewers can destroy them",
+        "Needs washing"
+      ]
+    },
+    {
+      "name": "A GPS tracker",
+      "tag": "Dogs that bolt",
+      "price": "$30-60 plus plan",
+      "search": "GPS tracker",
+      "image": "a small GPS tracker on a dog collar",
+      "body": "For dogs that escape or bolt, a GPS tracker shows their location on your phone in real time. Most need a monthly subscription. Bluetooth trackers like AirTags are cheaper but only work near other phones. Microchipping is still essential regardless. The case for it: finds a lost dog quickly, real-time location, and peace of mind. The trade-off is real: monthly subscription and needs regular charging, so weigh that against how often it would actually get used. At $30-60 plus plan, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Finds a lost dog quickly",
+        "Real-time location",
+        "Peace of mind"
+      ],
+      "cons": [
+        "Monthly subscription",
+        "Needs regular charging"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I stop my dog pulling on the lead?",
+      "a": "Use a front-clip harness to manage it, stop when the lead goes tight, and reward when it is loose. It takes consistency."
+    },
+    {
+      "q": "Are retractable leads bad?",
+      "a": "They can teach pulling and the thin cords can injure. A fixed lead is better for training."
+    },
+    {
+      "q": "What about prong or shock collars?",
+      "a": "Veterinary behaviour organisations advise against them. Reward-based training works well without the risks."
+    },
+    {
+      "q": "How do I improve recall?",
+      "a": "Practise on a long line with high-value treats, and never call your dog for something unpleasant."
+    }
+  ],
+  "updated": "2026-09-23"
+}

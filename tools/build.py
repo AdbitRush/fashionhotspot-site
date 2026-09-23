@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from theme import (CSS_LINK, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
-                   THEME_SCRIPT, GUIDE_SCRIPT, INDEX_SCRIPT)
+                   THEME_SCRIPT, GUIDE_SCRIPT, GUIDES_BROWSER_SCRIPT)
 from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, author, FONT_LINKS,  # noqa: E402
                    t, fmt_date, disclosure)
 from i18n_schema import CONTENT, load_translation, merge     # noqa: E402
@@ -55,27 +55,50 @@ ORDER = ["tech", "smart-home", "kitchen", "coffee", "home-office", "fitness",
 
 # Filter groups for the guides index.
 #
-# `category` in the content JSON is one per guide — 35 guides, 35 distinct
-# categories — so filtering on it gives 35 chips that each narrow the page to a
-# single card. That is a slow way to click a link, not a filter. These are the
-# coarse buckets the chip row actually uses; the specific category still shows
-# on every card, so nothing is hidden by the grouping.
+# `category` in the content JSON is one per guide — over 40 distinct
+# categories at 115 guides — so filtering on it gives dozens of chips that
+# each narrow the page to a handful of cards. That is a slow way to click a
+# link, not a filter. These are the coarse buckets the chip row actually
+# uses; the specific category still shows on every card, so nothing is
+# hidden by the grouping.
 #
-# Keyed by slug rather than by category label so the mapping survives
-# translation: the chips carry the key in data-cat and only the visible text is
-# localised. A slug missing from here falls into "home", which is wrong-ish but
-# visible, rather than vanishing from every filter.
-GROUPS = {
-    "grp_home": ["air", "bathroom", "cleaning", "garden", "laundry", "lighting",
-                 "security", "smart-home", "storage", "tools"],
-    "grp_kitchen": ["coffee", "grilling", "kitchen"],
-    "grp_tech": ["audio", "gaming", "home-office", "phone", "photography", "tech"],
-    "grp_health": ["fitness", "health", "running", "sleep"],
-    "grp_beauty": ["beauty", "fashion", "haircare", "skincare"],
-    "grp_family": ["baby", "back-to-school", "kids", "pets"],
-    "grp_outdoors": ["car", "cycling", "outdoor", "travel"],
+# 2026-09-23: this used to be a hand-kept list of slugs, which is why 20 of
+# 55 guides (every Gifts/Seasonal/New Year one) silently fell through to
+# "home" — nobody had added their slugs to any bucket. Keyed by CATEGORY
+# now instead, computed from each guide's own metadata at build time, so a
+# brand-new content/<slug>.json with an existing category lands in the
+# right group automatically; only a genuinely new category needs a line
+# added here. A category missing from this map still falls into "home"
+# (visible, if wrong-ish, rather than vanishing from every filter) but that
+# is now a real gap to notice and fix, not the default outcome for anything
+# nobody remembered to list.
+GROUP_ORDER = ["grp_home", "grp_gifts", "grp_seasonal", "grp_kitchen", "grp_tech",
+               "grp_health", "grp_beauty", "grp_family", "grp_outdoors"]
+CATEGORY_TO_GROUP = {
+    "Air quality": "grp_home", "Bathroom": "grp_home", "Cleaning": "grp_home",
+    "Garden": "grp_home", "Laundry": "grp_home", "Lighting": "grp_home",
+    "DIY tools": "grp_home", "Home": "grp_home", "Home organisation": "grp_home",
+    "Home security": "grp_home", "Smart home": "grp_home", "Security": "grp_home",
+    "Storage": "grp_home", "Tools": "grp_home",
+    "Gifts": "grp_gifts",
+    "Seasonal": "grp_seasonal", "New Year": "grp_seasonal", "Deals": "grp_seasonal",
+    "Coffee": "grp_kitchen", "Grilling": "grp_kitchen", "Kitchen": "grp_kitchen",
+    "Audio": "grp_tech", "Electronics": "grp_tech", "Gaming": "grp_tech",
+    "Home office": "grp_tech", "Office": "grp_tech", "Phone": "grp_tech",
+    "Photography": "grp_tech", "Tech": "grp_tech",
+    "Fitness": "grp_health", "Health": "grp_health", "Running": "grp_health",
+    "Sleep": "grp_health",
+    "Beauty": "grp_beauty", "Fashion": "grp_beauty", "Hair care": "grp_beauty",
+    "Skincare": "grp_beauty",
+    "Baby": "grp_family", "Back to school": "grp_family", "Kids": "grp_family",
+    "Pets": "grp_family", "Hobbies": "grp_family",
+    "Car": "grp_outdoors", "Cycling": "grp_outdoors", "Outdoor": "grp_outdoors",
+    "Travel": "grp_outdoors",
 }
-GROUP_OF = {slug: key for key, slugs in GROUPS.items() for slug in slugs}
+
+
+def group_of(guide):
+    return CATEGORY_TO_GROUP.get(guide.get("category", ""), "grp_home")
 
 e = lambda s: html.escape(str(s), quote=True)
 
@@ -498,9 +521,9 @@ def related_guides(g, siblings, lang, limit=3):
     a heading above one link.
     """
     slug = g["slug"]
-    grp = GROUP_OF.get(slug)
+    grp = group_of(g)
     pool = [x for x in siblings
-            if x["slug"] != slug and GROUP_OF.get(x["slug"]) == grp] if grp else []
+            if x["slug"] != slug and group_of(x) == grp] if grp else []
     pool.sort(key=lambda x: x.get("updated", ""), reverse=True)
 
     if len(pool) < limit:
@@ -610,28 +633,25 @@ def render_index(guides, lang):
             f'<div class="sidelist"><div class="mono">'
             f'{e(t(lang, "recently_updated"))}</div>{side}</div></div>')
 
-    # ── filter chips ──────────────────────────────────────────────────────
-    # Categories in the order the guides are already sorted in, deduped. The
-    # chips are <button>s inside the document, not links, because filtering
-    # never changes the URL — every card stays in the HTML for crawlers.
-    present = [k for k in GROUPS
-               if any(GROUP_OF.get(g["slug"], "grp_home") == k for g in guides)]
-    chips = (f'<button type="button" class="chip" data-cat="" aria-pressed="true">'
-             f'{e(t(lang, "all"))}</button>')
-    chips += "".join(
-        f'<button type="button" class="chip" data-cat="{k}" aria-pressed="false">'
-        f'{e(t(lang, k))}</button>' for k in present)
-    tpl = t(lang, "showing")
-    filters = (f'<div class="filters" id="filters">{chips}'
-               f'<span class="mono count" id="shown" data-tpl="{e(tpl)}">'
-               f'{e(tpl.replace("{n}", str(n)))}</span></div>')
+    # ── guides browser: search + chips + grouped sections + views ─────────
+    # 2026-09-23 rebuild (spec: allyfind-guides-browser-spec). Server-renders
+    # every guide inside its group's <section> so the page is complete with
+    # JS off; the toolbar ships with `hidden` and JS un-hides it, so a no-JS
+    # reader never sees controls that would otherwise do nothing.
+    def norm(s):
+        import unicodedata
+        s = unicodedata.normalize("NFD", str(s))
+        return "".join(c for c in s if not unicodedata.combining(c))
 
-    # ── grid ──────────────────────────────────────────────────────────────
-    cards = []
-    for g in guides:
-        cards.append(
+    def card_html(g):
+        grp = group_of(g)
+        search_text = e(norm(" ".join([
+            g["title"], g["dek"], g["category"], t(lang, grp),
+        ])).lower())
+        return (
             f'<a class="gcard" href="post-{g["slug"]}.html" '
-            f'data-cat="{GROUP_OF.get(g["slug"], "grp_home")}">'
+            f'data-cat="{grp}" data-topic="{e(g["category"])}" '
+            f'data-search="{search_text}">'
             f'<div class="gcard-media">'
             f'<img src="{r}images/hero-{g["slug"]}.jpg" alt="{e(g["title"])}" '
             f'width="1600" height="840" loading="lazy" decoding="async">'
@@ -643,9 +663,67 @@ def render_index(guides, lang):
             f'{len(g["products"])} {e(t(lang, "picks"))}</span>'
             f'<span class="go">{e(t(lang, "read_guide"))} ↗</span></div></div></a>')
 
+    present = [k for k in GROUP_ORDER if any(group_of(g) == k for g in guides)]
+    group_counts = {k: sum(1 for g in guides if group_of(g) == k) for k in present}
+
+    chips = (f'<button type="button" class="chip" data-cat="" aria-pressed="true">'
+             f'{e(t(lang, "all"))}<span class="n">{n}</span></button>')
+    chips += "".join(
+        f'<button type="button" class="chip" data-cat="{k}" data-label="{e(t(lang, k))}" aria-pressed="false">'
+        f'{e(t(lang, k))}<span class="n">{group_counts[k]}</span></button>' for k in present)
+
+    search_id, clear_id = "gq", "gqc"
+    toolbar = (
+        f'<div class="gbrowse" id="gbrowse" hidden>'
+        f'<div class="gsearch" role="search">'
+        f'<label class="visually-hidden" for="{search_id}">{e(t(lang, "search_label"))}</label>'
+        f'<input type="search" id="{search_id}" autocomplete="off" '
+        f'placeholder="{e(t(lang, "search_placeholder"))}">'
+        f'<button type="button" class="gsearch-clear" id="{clear_id}" hidden '
+        f'aria-label="{e(t(lang, "search_clear"))}">×</button></div>'
+        f'<div class="filters" id="filters" role="group" '
+        f'aria-label="{e(t(lang, "filter_group_label"))}">{chips}</div>'
+        f'<div class="topics" id="topics" role="group" '
+        f'aria-label="{e(t(lang, "topics_label"))}" data-all="{e(t(lang, "topic_all"))}" hidden></div>'
+        f'<div class="gbar">'
+        f'<span class="mono count" id="shown" aria-live="polite" '
+        f'data-tpl-count="{e(t(lang, "count_of_total"))}" '
+        f'data-tpl-grouped="{e(str(n) + " · " + t(lang, "guides"))}" '
+        f'data-total="{n}">{e(str(n) + " · " + t(lang, "guides"))}</span>'
+        f'<div class="gview" role="group" aria-label="{e(t(lang, "view_grid"))}/{e(t(lang, "view_list"))}">'
+        f'<button type="button" class="chip" data-view="grid" aria-pressed="true">{e(t(lang, "view_grid"))}</button>'
+        f'<button type="button" class="chip" data-view="list" aria-pressed="false">{e(t(lang, "view_list"))}</button>'
+        f'</div></div></div>')
+
+    sections = []
+    for k in present:
+        gs = [g for g in guides if group_of(g) == k]
+        gs.sort(key=lambda x: x.get("updated", ""), reverse=True)
+        shown, hide = gs[:6], gs[6:]
+        cards_html = "".join(card_html(g) for g in shown)
+        cards_html += "".join(
+            card_html(g).replace('<a class="gcard"', '<a class="gcard" hidden', 1)
+            for g in hide)
+        more_btn = ""
+        if hide:
+            label = e(t(lang, "show_all").replace("{n}", str(len(gs))).replace("{grp}", t(lang, k)))
+            more_btn = f'<button type="button" class="gmore" data-more="{k}">{label}</button>'
+        sections.append(
+            f'<section class="gsection" data-section="{k}">'
+            f'<div class="gsection-head"><h2>{e(t(lang, k))}</h2>'
+            f'<span class="mono">{len(gs)}</span></div>'
+            f'<div class="grid">{cards_html}</div>{more_btn}</section>')
+
+    empty = (f'<div class="gempty" id="gempty" hidden>'
+             f'<p id="gempty-msg"></p>'
+             f'<button type="button" class="chip" id="gempty-clear">{e(t(lang, "empty_clear"))}</button>'
+             f'</div>')
+
+    results = f'<div class="gresults" id="gresults" data-tpl-empty="{e(t(lang, "empty_message"))}">' \
+              + "".join(sections) + empty + "</div>"
+
     body = (nav(lang, "posts.html") + '<div class="wide">'
-            + masthead + feat + filters
-            + f'<div class="grid">{"".join(cards)}</div>'
+            + masthead + feat + toolbar + results
             + f'<p class="disc" style="max-width:760px">'
               f'{e(disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True))}</p></div>'
             + footer(lang, "posts.html"))
@@ -653,7 +731,7 @@ def render_index(guides, lang):
                       body, canonical=url(lang, "posts.html"),
                       extra_head=alternates("posts.html"),
                       og_image=f"{SITE}/images/hero-{lead['slug']}.jpg" if guides else None,
-                      body_end=INDEX_SCRIPT)
+                      body_end=GUIDES_BROWSER_SCRIPT)
 
 
 def render_sitemap(guides):

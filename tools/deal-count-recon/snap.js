@@ -1,0 +1,12 @@
+const fs = require('fs');
+const P = f => JSON.parse(fs.readFileSync(f, 'utf8'));
+const L = P('local/archive.json'), V = P('vps/archive.json'), B = P('vps-bak/archive.json');
+const stat = (n, a) => { const pc = a.map(d => d.priceCheckedAt).filter(Boolean).sort(); const at = a.map(d => d.addedAt).filter(Boolean).sort((x, y) => x - y); const c = {}; pc.forEach(x => c[x] = (c[x] || 0) + 1); console.log(n, 'rows', a.length, '| priceCheckedAt max', pc[pc.length - 1], 'top days', JSON.stringify(Object.entries(c).sort().slice(-4)), '| addedAt max', new Date(at[at.length - 1]).toISOString(), '| priceUnavailable', a.filter(d => d.priceUnavailable).length); };
+stat('local  ', L); stat('vpsbak ', B); stat('vps now', V);
+const key = d => d.finalLink || d.link;
+const sk = a => new Set(a.map(key));
+const sL = sk(L), sV = sk(V), sB = sk(B);
+const inter = (a, b) => [...a].filter(x => b.has(x)).length;
+console.log('link-set overlap  local∩vps', inter(sL, sV), ' local∩bak', inter(sL, sB), ' bak∩vps', inter(sB, sV), ' |local|', sL.size, '|bak|', sB.size, '|vps|', sV.size);
+console.log('rows in bak but not in vps now (removed since 10:21Z):', B.filter(d => !sV.has(key(d))).length, '| rows in vps now not in bak (added since):', V.filter(d => !sB.has(key(d))).length);
+console.log('rows in local not in bak:', L.filter(d => !sB.has(key(d))).length, '| in bak not in local:', B.filter(d => !sL.has(key(d))).length);

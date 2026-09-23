@@ -1,0 +1,205 @@
+{
+  "slug": "aquarium",
+  "category": "Pets",
+  "title": "A First Aquarium That Stays Clear and Keeps Fish Alive",
+  "dek": "Ten things for a first freshwater aquarium, ranked by how much they keep fish alive through the tricky first months. Bigger tanks are easier, not harder.",
+  "seo_title": "The tank, filter, heater and test kit that make a beginner aquarium work. Ten picks ranked by how much they help fish survive the first months.",
+  "hero_image": "a planted freshwater aquarium with small colourful fish",
+  "intro": [
+    "Most first aquariums fail in the first month. The story is always similar: a small tank bought with fish on the same day, too many fish added at once, and water that turns toxic before the helpful bacteria have time to grow. The fish die, the water goes cloudy, and the tank ends up in a cupboard.",
+    "This list is ordered by what prevents that. The right size tank, a good filter and a water test kit matter far more than decorations. And the most important thing on the list is free: patience while the tank cycles.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from aquarium hobbyist communities, fish care guidance and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. Glass tanks are expensive and fragile to ship, so check delivery costs and damage policies before ordering.",
+  "products": [
+    {
+      "name": "A 20-gallon tank",
+      "tag": "The size that makes it easier",
+      "price": "$60-150",
+      "search": "20-gallon tank",
+      "image": "a 20-gallon glass aquarium on a stand",
+      "body": "Small tanks and bowls feel beginner-friendly but are the hardest to keep stable. In a small volume, waste builds up fast and temperature swings quickly. A 20-gallon tank is large enough to be forgiving and small enough for most homes. Choose a long shape for more swimming space. Starter kits bundle a filter and light, but check what is included. The case for it: more stable water, room for a good community of fish, and forgiving of mistakes. The trade-off is real: a full tank weighs over 200 pounds and glass is costly to ship, so weigh that against how often it would actually get used.",
+      "pros": [
+        "More stable water",
+        "Room for a good community of fish",
+        "Forgiving of mistakes"
+      ],
+      "cons": [
+        "A full tank weighs over 200 pounds",
+        "Glass is costly to ship"
+      ]
+    },
+    {
+      "name": "A hang-on-back or sponge filter",
+      "tag": "Clean, healthy water",
+      "price": "$20-50",
+      "search": "hang-on-back or sponge filter",
+      "image": "a hang-on-back filter on an aquarium rim",
+      "body": "The filter does more than clean the water. It is home to the beneficial bacteria that turn toxic fish waste into safer compounds. A hang-on-back filter rated for your tank size, or a bit larger, is simple and effective. Sponge filters are cheap, gentle and great for shrimp and small fish. Never rinse filter media under tap water; rinse it in old tank water so the bacteria survive. The case for it: keeps water clean and safe, houses beneficial bacteria, and easy to maintain. The trade-off is real: filters hum a little and tap water rinses kill the bacteria, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Keeps water clean and safe",
+        "Houses beneficial bacteria",
+        "Easy to maintain"
+      ],
+      "cons": [
+        "Filters hum a little",
+        "Tap water rinses kill the bacteria"
+      ]
+    },
+    {
+      "name": "A liquid water test kit",
+      "tag": "Knowing the water is safe",
+      "price": "$25-40",
+      "search": "liquid water test kit",
+      "image": "a liquid water test kit with coloured test tubes",
+      "body": "You cannot see ammonia or nitrite, and both kill fish. A liquid test kit, such as the API Freshwater Master Kit, measures them along with nitrate and pH. It tells you when a new tank has finished cycling and when something is wrong. Liquid kits are more accurate than strips and last for hundreds of tests. The case for it: shows invisible dangers, tells you when the tank is ready for fish, and lasts a long time. The trade-off is real: testing takes a few minutes and reagents expire; check dates, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Shows invisible dangers",
+        "Tells you when the tank is ready for fish",
+        "Lasts a long time"
+      ],
+      "cons": [
+        "Testing takes a few minutes",
+        "Reagents expire; check dates"
+      ]
+    },
+    {
+      "name": "Water conditioner",
+      "tag": "Making tap water safe",
+      "price": "$8-15",
+      "search": "Water conditioner",
+      "image": "a bottle of water conditioner beside a bucket",
+      "body": "Tap water contains chlorine or chloramine, which kills fish and filter bacteria. A water conditioner removes them instantly. Add it to every bucket of new water. A bottle lasts a long time, and concentrated products like Seachem Prime are very economical. The case for it: makes tap water safe instantly, protects fish and bacteria, and cheap. The trade-off is real: must be used every water change and measure the dose; do not guess, so weigh that against how often it would actually get used. At $8-15, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Makes tap water safe instantly",
+        "Protects fish and bacteria",
+        "Cheap"
+      ],
+      "cons": [
+        "Must be used every water change",
+        "Measure the dose; do not guess"
+      ]
+    },
+    {
+      "name": "An adjustable heater",
+      "tag": "Tropical fish",
+      "price": "$20-35",
+      "search": "adjustable heater",
+      "image": "an adjustable submersible aquarium heater",
+      "body": "Most popular community fish are tropical and need steady warm water, usually around 76-80°F. An adjustable heater keeps it constant. For a 20-gallon tank, 100 watts is typical. Buy a reliable brand; a heater stuck on can cook a tank. The case for it: steady temperature for tropical fish, adjustable, and low running cost. The trade-off is real: cheap heaters can fail stuck on and unplug before water changes, so weigh that against how often it would actually get used. For $20-35, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Steady temperature for tropical fish",
+        "Adjustable",
+        "Low running cost"
+      ],
+      "cons": [
+        "Cheap heaters can fail stuck on",
+        "Unplug before water changes"
+      ]
+    },
+    {
+      "name": "A gravel vacuum siphon",
+      "tag": "Easy water changes",
+      "price": "$12-25",
+      "search": "gravel vacuum siphon",
+      "image": "a gravel vacuum cleaning an aquarium bottom",
+      "body": "Weekly partial water changes of around 20-25 percent keep fish healthy. A gravel vacuum siphons water and pulls waste out of the gravel at the same time. Squeeze-start types avoid mouth siphoning. It makes a chore into a ten-minute job. The case for it: cleans gravel and changes water at once, quick, and cheap. The trade-off is real: needs a bucket and can suck up small fish if careless, so weigh that against how often it would actually get used. Priced around $12-25, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Cleans gravel and changes water at once",
+        "Quick",
+        "Cheap"
+      ],
+      "cons": [
+        "Needs a bucket",
+        "Can suck up small fish if careless"
+      ]
+    },
+    {
+      "name": "An LED light with a timer",
+      "tag": "Plants and viewing",
+      "price": "$25-60",
+      "search": "LED light with a timer",
+      "image": "an LED aquarium light over a planted tank",
+      "body": "Fish need a regular day and night cycle, and plants need light. An LED light with a built-in timer gives 8-10 hours a day. Too many hours cause algae. Place the tank away from direct sunlight for the same reason. The case for it: regular light cycle, grows plants, and shows off fish. The trade-off is real: too long a photoperiod grows algae and cheap lights may not suit plants, so weigh that against how often it would actually get used. At $25-60, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Regular light cycle",
+        "Grows plants",
+        "Shows off fish"
+      ],
+      "cons": [
+        "Too long a photoperiod grows algae",
+        "Cheap lights may not suit plants"
+      ]
+    },
+    {
+      "name": "Easy live plants",
+      "tag": "Water quality and looks",
+      "price": "$15-30",
+      "search": "Easy live plants",
+      "image": "java fern and anubias plants attached to driftwood",
+      "body": "Live plants absorb waste and compete with algae, and they look much better than plastic. Easy plants like java fern, anubias and java moss need little light and no special soil. Tie them to rocks or wood. Check local rules; some aquarium plants cannot be shipped to some states. The case for it: improve water quality, reduce algae, and look natural. The trade-off is real: some fish eat plants and can carry snails in, so weigh that against how often it would actually get used. For $15-30, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Improve water quality",
+        "Reduce algae",
+        "Look natural"
+      ],
+      "cons": [
+        "Some fish eat plants",
+        "Can carry snails in"
+      ]
+    },
+    {
+      "name": "A thermometer",
+      "tag": "Checking the temperature",
+      "price": "$5-10",
+      "search": "thermometer",
+      "image": "a digital aquarium thermometer stuck to the glass",
+      "body": "A heater's dial is not accurate. A cheap digital or stick-on thermometer lets you check the actual temperature at a glance. It is also your early warning if a heater fails. The case for it: checks the heater is working, cheap, and easy to read. The trade-off is real: stick-on types are less accurate and batteries needed on digital types, so weigh that against how often it would actually get used. Priced around $5-10, it is easy to justify even if it only ends up getting occasional rather than daily use. None of that makes it essential for everyone reading this, only worth knowing about if the description above matches how you actually use the space.",
+      "pros": [
+        "Checks the heater is working",
+        "Cheap",
+        "Easy to read"
+      ],
+      "cons": [
+        "Stick-on types are less accurate",
+        "Batteries needed on digital types"
+      ]
+    },
+    {
+      "name": "A tank stand",
+      "tag": "Supporting the weight",
+      "price": "$60-150",
+      "search": "tank stand",
+      "image": "a sturdy aquarium stand with cabinet",
+      "body": "Water weighs about 8 pounds per gallon, so a 20-gallon tank weighs over 200 pounds with gravel and rock. Most furniture is not built for that. A stand designed for aquariums supports the weight evenly and often has storage for supplies. Place it on a level floor. The case for it: supports the weight safely, storage for supplies, and right height for viewing. The trade-off is real: bulky to ship and must be level, so weigh that against how often it would actually get used. At $60-150, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Supports the weight safely",
+        "Storage for supplies",
+        "Right height for viewing"
+      ],
+      "cons": [
+        "Bulky to ship",
+        "Must be level"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is tank cycling?",
+      "a": "Growing beneficial bacteria in the filter before adding fish. It usually takes four to six weeks. Test the water to know when it is done."
+    },
+    {
+      "q": "What size tank is best for beginners?",
+      "a": "Around 20 gallons. Bigger tanks are more stable and forgiving."
+    },
+    {
+      "q": "How often should I change the water?",
+      "a": "About 20-25 percent weekly for most tanks."
+    },
+    {
+      "q": "What fish are good for beginners?",
+      "a": "Hardy community fish like platies, corydoras and some tetras, added a few at a time after cycling."
+    }
+  ],
+  "updated": "2026-09-23"
+}

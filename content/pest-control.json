@@ -1,0 +1,205 @@
+{
+  "slug": "pest-control",
+  "category": "Home",
+  "title": "Humane Pest Control That Works Without Poisoning the House",
+  "dek": "Ten ways to deal with mice, ants, flies and moths, ranked by how well they work in a home with children and pets. Sealing gaps beats every gadget.",
+  "seo_title": "Mice, ants, flies and moths, handled without harsh poisons. Ten picks ranked by how well they actually solve the problem, including which gadgets to skip.",
+  "hero_image": "a kitchen counter with sealed food jars and a small humane mouse trap",
+  "intro": [
+    "The pest control aisle sells two kinds of product: poisons that work but put children and pets at risk, and plug-in gadgets that promise to repel everything and mostly repel your money. Neither addresses why the pests came in. Mice come for food and warmth through a gap you can fit a pencil through. Ants follow a trail to crumbs. Moths live in the wool you have not worn since spring.",
+    "So this list is ordered by what solves the problem for good. Blocking the way in and removing the food come first, because they work on everything. Traps come after, and we say plainly which popular gadgets do not work.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from university extension services, public health guidance, pest-control professionals' advice and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. For large infestations, wasps, termites or anything that bites, call a licensed professional rather than relying on this list.",
+  "products": [
+    {
+      "name": "Steel wool and a gap-sealing kit",
+      "tag": "The fix that stops pests coming back",
+      "price": "$10-25",
+      "search": "Steel wool and a gap-sealing kit",
+      "image": "a hand pushing steel wool into a gap around a pipe under a sink",
+      "body": "A mouse can squeeze through a gap the width of a pencil. Look under sinks, behind appliances, around pipes and where cables enter the walls. Stuff small gaps with steel wool or copper mesh, which rodents cannot chew, and seal over it with caulk or expanding foam. Door sweeps close the gap under exterior doors. This takes an afternoon and prevents the next infestation, which no trap can do. The case for it: stops pests at the source, works on mice, insects and draughts, and one-time fix. The trade-off is real: finding every gap takes patience and renters should check with the landlord for larger holes, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Stops pests at the source",
+        "Works on mice, insects and draughts",
+        "One-time fix"
+      ],
+      "cons": [
+        "Finding every gap takes patience",
+        "Renters should check with the landlord for larger holes"
+      ]
+    },
+    {
+      "name": "Airtight food storage containers",
+      "tag": "Removing the food source",
+      "price": "$20-45",
+      "search": "Airtight food storage containers",
+      "image": "a pantry shelf of clear airtight containers with cereal and flour",
+      "body": "Mice, ants and pantry moths are all there for the food. Cardboard boxes and rolled-up bags are easy to get into. Moving cereal, flour, rice, pet food and snacks into airtight containers takes away the reason to visit. Clear ones make it easy to see what you have, and square shapes use shelf space well. The case for it: removes the main attraction, keeps food fresher, and makes pantry moths easy to spot. The trade-off is real: takes up more cupboard space than bags and seals wear out on cheap sets, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Removes the main attraction",
+        "Keeps food fresher",
+        "Makes pantry moths easy to spot"
+      ],
+      "cons": [
+        "Takes up more cupboard space than bags",
+        "Seals wear out on cheap sets"
+      ]
+    },
+    {
+      "name": "Humane catch-and-release mouse traps",
+      "tag": "Mice, without killing",
+      "price": "$12-25",
+      "search": "Humane catch-and-release mouse traps",
+      "image": "a clear plastic humane mouse trap with a peanut butter bait",
+      "body": "Tunnel-style traps let a mouse in and close behind it, unharmed. They work well with a dab of peanut butter. The catch is that you must check them daily, because a trapped mouse dies of stress and thirst quickly, and you must release it far enough away, at least a mile or so, or it comes straight back. Release is not legal everywhere, so check local rules. The case for it: no killing, reusable, and safe around pets and children. The trade-off is real: must be checked every day and mice released nearby come back, so weigh that against how often it would actually get used.",
+      "pros": [
+        "No killing",
+        "Reusable",
+        "Safe around pets and children"
+      ],
+      "cons": [
+        "Must be checked every day",
+        "Mice released nearby come back"
+      ]
+    },
+    {
+      "name": "Enclosed snap traps",
+      "tag": "Fast, certain mouse control",
+      "price": "$10-20",
+      "search": "Enclosed snap traps",
+      "image": "an enclosed box-style snap trap along a kitchen wall",
+      "body": "If humane release is not practical, modern enclosed snap traps are quick and far safer than poison. Poisoned mice die inside walls, where they smell for weeks, and poison can harm pets and wildlife that eat them. Enclosed traps keep fingers and paws out. Place them along walls, where mice run, not in the middle of the floor. The case for it: fast and effective, enclosed design protects pets and kids, and no poisoned animals in walls. The trade-off is real: not for people who do not want to kill mice and several traps work better than one, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Fast and effective",
+        "Enclosed design protects pets and kids",
+        "No poisoned animals in walls"
+      ],
+      "cons": [
+        "Not for people who do not want to kill mice",
+        "Several traps work better than one"
+      ]
+    },
+    {
+      "name": "Ant bait stations (borax-based)",
+      "tag": "Ant trails",
+      "price": "$6-12",
+      "search": "Ant bait stations (borax-based)",
+      "image": "a small ant bait station on a windowsill with an ant trail",
+      "body": "Spraying the ants you can see does nothing about the nest. Bait stations work because worker ants carry the bait home and share it with the colony. Place them on the trail and resist the urge to wipe the ants away; the traffic means it is working. It can take a week or two. Keep baits away from pets and children even though the enclosed stations make this easier. The case for it: reaches the whole colony, cheap, and enclosed stations limit exposure. The trade-off is real: takes one to two weeks and wiping the trail too early stops it working, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Reaches the whole colony",
+        "Cheap",
+        "Enclosed stations limit exposure"
+      ],
+      "cons": [
+        "Takes one to two weeks",
+        "Wiping the trail too early stops it working"
+      ]
+    },
+    {
+      "name": "Window and door screens",
+      "tag": "Flies and mosquitoes",
+      "price": "$15-40",
+      "search": "Window and door screens",
+      "image": "a magnetic mesh screen over an open window",
+      "body": "A screen stops flies and mosquitoes coming in at all, which beats any trap. If your windows lack screens, adjustable or magnetic-strip mesh screens fit most openings without tools. Magnetic door curtains close themselves behind you, which is useful for back doors in summer. Check existing screens for tears and patch them. The case for it: keeps insects out entirely, lets you open windows freely, and no chemicals. The trade-off is real: adhesive strips can peel off painted frames and cheap mesh tears easily, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Keeps insects out entirely",
+        "Lets you open windows freely",
+        "No chemicals"
+      ],
+      "cons": [
+        "Adhesive strips can peel off painted frames",
+        "Cheap mesh tears easily"
+      ]
+    },
+    {
+      "name": "Cedar blocks and sealed storage bags",
+      "tag": "Clothes moths",
+      "price": "$15-30",
+      "search": "Cedar blocks and sealed storage bags",
+      "image": "cedar blocks and a vacuum storage bag with wool sweaters",
+      "body": "Clothes moths lay eggs in wool, cashmere and silk, especially items stored dirty. Wash or dry-clean before storing, then seal off-season clothes in zip bags or vacuum bags. Cedar blocks help repel moths, but lose their effect after a season; sand them lightly to refresh. Moth pheromone traps in the wardrobe tell you if you have a problem. The case for it: protects expensive knitwear, chemical-free, and sealed bags also save space. The trade-off is real: cedar alone will not stop an infestation and clothes must be clean before storing, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Protects expensive knitwear",
+        "Chemical-free",
+        "Sealed bags also save space"
+      ],
+      "cons": [
+        "Cedar alone will not stop an infestation",
+        "Clothes must be clean before storing"
+      ]
+    },
+    {
+      "name": "Pantry moth pheromone traps",
+      "tag": "Moths in the cupboard",
+      "price": "$8-15",
+      "search": "Pantry moth pheromone traps",
+      "image": "a triangular pantry moth trap in a cupboard",
+      "body": "Pantry moths arrive in flour, rice or nuts and spread to everything. Pheromone traps catch the males and show you how bad things are. The real fix is emptying the cupboard, binning infested food, wiping the shelves and using airtight containers. The traps then warn you early if they return. The case for it: early warning of a problem, non-toxic, and cheap. The trade-off is real: traps alone do not end an infestation and only catches males, so weigh that against how often it would actually get used. For $8-15, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Early warning of a problem",
+        "Non-toxic",
+        "Cheap"
+      ],
+      "cons": [
+        "Traps alone do not end an infestation",
+        "Only catches males"
+      ]
+    },
+    {
+      "name": "A UV or light-based fly trap",
+      "tag": "Flies indoors",
+      "price": "$20-45",
+      "search": "UV or light-based fly trap",
+      "image": "a small UV fly trap glowing in a kitchen corner",
+      "body": "For flies that still get in, a light trap with a sticky board draws them in quietly and works overnight. Sticky-board models are quieter and less messy than zapping ones. Place it away from windows so it does not attract insects from outside. Fruit flies are better handled with a small dish of cider vinegar and a drop of dish soap. The case for it: quiet overnight control, no sprays, and works in kitchens. The trade-off is real: sticky boards need replacing and less effective in bright daylight rooms, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Quiet overnight control",
+        "No sprays",
+        "Works in kitchens"
+      ],
+      "cons": [
+        "Sticky boards need replacing",
+        "Less effective in bright daylight rooms"
+      ]
+    },
+    {
+      "name": "Ultrasonic plug-in repellers",
+      "tag": "Mostly skip",
+      "price": "$15-30",
+      "search": "Ultrasonic plug-in repellers",
+      "image": "an ultrasonic plug-in repeller in a wall socket",
+      "body": "These are sold everywhere with big claims. Independent studies and extension services have found little evidence they get rid of mice or insects for long, and the US Federal Trade Commission has warned sellers over unsupported claims. Rodents seem to get used to the sound. We include them because they are so heavily marketed; spend the money on sealing gaps instead. The case for it: heavily sold, so worth knowing about, harmless to people, and might deter pests briefly. The trade-off is real: little evidence that they work and some pets can hear and dislike them, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Heavily sold, so worth knowing about",
+        "Harmless to people",
+        "Might deter pests briefly"
+      ],
+      "cons": [
+        "Little evidence that they work",
+        "Some pets can hear and dislike them"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best way to get rid of mice?",
+      "a": "Seal the gaps they use, store food in airtight containers, then trap along walls. Poison is best avoided indoors."
+    },
+    {
+      "q": "Do ultrasonic repellers work?",
+      "a": "The evidence is weak. They are not a substitute for sealing gaps and removing food."
+    },
+    {
+      "q": "How do I get rid of ants without spraying?",
+      "a": "Use bait stations on the trail and let the ants carry the bait back to the nest. Clean crumbs and seal food."
+    },
+    {
+      "q": "When should I call a professional?",
+      "a": "For large infestations, wasp nests, termites, bed bugs, or rats you cannot trace."
+    }
+  ],
+  "updated": "2026-09-23"
+}

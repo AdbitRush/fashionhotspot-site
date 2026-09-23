@@ -1,0 +1,172 @@
+{
+  "slug": "beginner-drones",
+  "title": "Drones para principiantes que vuelan bien y te mantienen legal",
+  "dek": "Diez cosas para un primer dron, clasificadas por lo que mejora tu metraje y te mantiene al margen de la ley.",
+  "category": "Tecnología",
+  "how_we_pick": "Estas selecciones provienen de reseñas publicadas de drones, guías de la FAA, foros de aficionados y reportes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. La disponibilidad de algunas marcas de drones en EE. UU. ha cambiado con las reglas comerciales, así que verifique el stock y el soporte actuales antes de comprar.",
+  "intro": [
+    "El pasillo de los drones está dividido entre dos mundos: cuadricópteros de juguete que se van con la brisa y duran siete minutos, y drones con cámara adecuados que mantienen la posición con viento y graban metraje que parece un anuncio de viajes. La diferencia de precio es menor de lo que solía ser, y el extremo barato es donde ocurre la mayor decepción.",
+    "Esta lista comienza con el dron y luego cubre los pocos extras que convierten un vuelo corto en una salida adecuada. También cubre las reglas, porque en EE. UU. se requieren unos pocos pasos sencillos antes de volar, y saltárselos es una forma fácil de recibir una multa.",
+    "Los precios a continuación son precios aproximados en la calle en el momento de escribir esto y cambian constantemente, especialmente durante los eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre verifique el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un dron con cámara plegable de menos de 250 g con GPS",
+      "tag": "El primer dron que debes comprar",
+      "body": "Los drones de menos de 250 gramos se enfrentan a reglas más ligeras en muchos países y son lo suficientemente pequeños como para llevarlos a todas partes. Los buenos todavía tienen retención de posición GPS, regreso a casa, detección de obstáculos en algunos modelos y una cámara 4K estabilizada. La serie Mini de DJI definió la categoría, y alternativas de marcas como Potensic y Holy Stone han cerrado parte de la brecha. Verifique el peso exacto de la versión que compra, ya que agregar una batería más grande puede superarlo los 250 g. Compre en una tienda con soporte de garantía local. El argumento a favor: mantiene la posición de manera constante con GPS, reglas más ligeras en muchos países y se pliega lo suficientemente pequeño para cualquier bolso. La desventaja es real: los drones pequeños luchan con vientos fuertes y las baterías \"plus\" más grandes pueden superar los 250 g, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Mantiene la posición de manera constante con GPS",
+        "Reglas más ligeras en muchos países",
+        "Se pliega lo suficientemente pequeño para cualquier bolso"
+      ],
+      "cons": [
+        "Los drones pequeños luchan con vientos fuertes",
+        "Las baterías \"plus\" más grandes pueden superar los 250 g"
+      ]
+    },
+    {
+      "name": "El examen TRUST de la FAA y verificación de registro",
+      "tag": "Volar legalmente en EE. UU.",
+      "body": "Los volantes recreativos en EE. UU. deben aprobar el examen gratuito en línea TRUST y llevar prueba. Los drones de más de 250 g, o cualquier dron que vuele con fines comerciales, necesitan registro de la FAA, que actualmente cuesta unos pocos dólares. También debe seguir las reglas de Remote ID y evitar el espacio aéreo restringido cerca de aeropuertos, estadios y parques nacionales. Aplicaciones como B4UFLY muestran dónde puede volar. Consulte las reglas actuales de la FAA antes de su primer vuelo; se actualizan. El argumento a favor: requerido antes de volar, examen gratuito, registro barato y las aplicaciones facilitan la verificación del espacio aéreo. La desventaja es real: las reglas cambian, así que vuelva a verificar cada año y muchos parques y playas prohíben los drones localmente, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Requerido antes de volar",
+        "Examen gratuito, registro barato",
+        "Las aplicaciones facilitan la verificación del espacio aéreo"
+      ],
+      "cons": [
+        "Las reglas cambian, así que vuelva a verificar cada año",
+        "Muchos parques y playas prohíben los drones localmente"
+      ]
+    },
+    {
+      "name": "Dos o tres baterías de repuesto",
+      "tag": "Tiempo de vuelo real",
+      "body": "Una batería te da 20-30 minutos en condiciones ideales y menos con viento o frío. Eso apenas es suficiente para encontrar la toma. Dos o tres repuestos convierten un zumbido rápido en una sesión adecuada. La mayoría de los drones venden un paquete \"fly more\" con baterías, un centro de carga y una bolsa, y casi siempre es más barato que comprarlos por separado. Compre baterías genuinas; los clones baratos pueden hincharse y fallar. El argumento a favor: triplica tu tiempo de vuelo, los paquetes son más baratos que las compras por separado y te permite repetir tomas sin ir a casa. La desventaja es real: las baterías de litio tienen reglas de transporte aéreo y se almacenan con carga parcial si no se usan durante semanas, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Triplica tu tiempo de vuelo",
+        "Los paquetes son más baratos que las compras por separado",
+        "Te permite repetir tomas sin ir a casa"
+      ],
+      "cons": [
+        "Las baterías de litio tienen reglas de transporte aéreo",
+        "Se almacenan con carga parcial si no se usan durante semanas"
+      ]
+    },
+    {
+      "name": "Un centro de carga de baterías múltiples",
+      "tag": "Carga sin supervisión",
+      "body": "Cargar tres baterías una a la vez significa toda una noche de cambios. Un centro las carga en secuencia durante la noche, y muchos también pueden cargar tu controlador y teléfono. Algunos funcionan con un banco de energía USB-C o un cargador de coche, lo que es útil en viajes por carretera. Obtén el diseñado para tu modelo de dron, ya que los conectores difieren. El argumento a favor: carga varias baterías sin supervisión, algunas cargan desde un coche o banco de energía y a menudo se incluyen en los paquetes. La desventaja es real: conectores específicos del modelo y la carga en secuencia aún lleva horas, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Carga varias baterías sin supervisión",
+        "Algunas cargan desde un coche o banco de energía",
+        "A menudo se incluyen en los paquetes"
+      ],
+      "cons": [
+        "Conectores específicos del modelo",
+        "La carga en secuencia aún lleva horas"
+      ]
+    },
+    {
+      "name": "Juego de filtros ND",
+      "tag": "Video suave y cinematográfico",
+      "body": "En un día brillante, las cámaras de los drones usan velocidades de obturación muy rápidas, lo que hace que el video se vea entrecortado y duro. Los filtros ND son gafas de sol para la cámara: cortan la luz para que el obturador pueda reducir la velocidad y el movimiento se desenfoque de forma natural. Un juego de tres o cuatro intensidades cubre la mayoría de las condiciones. Se acoplan al cardán, por lo que deben coincidir con tu modelo. Esta es la mejora más barata en la apariencia de tu metraje. El argumento a favor: video más suave y natural, maneja escenas brillantes de playa y nieve, y es pequeño y ligero. La desventaja es real: los filtros mal hechos pueden afectar al cardán y no son necesarios para fotografías fijas, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Video más suave y natural",
+        "Maneja escenas brillantes de playa y nieve",
+        "Pequeño y ligero"
+      ],
+      "cons": [
+        "Los filtros mal hechos pueden afectar al cardán",
+        "No es necesario para fotografías fijas"
+      ]
+    },
+    {
+      "name": "Una tarjeta microSD rápida",
+      "tag": "Grabación 4K sin fotogramas perdidos",
+      "body": "El video 4K escribe muchos datos, y una tarjeta lenta causa tartamudeos o grabaciones detenidas. Busca una tarjeta con clasificación U3 y V30 de SanDisk, Samsung o Lexar, comprada en una tienda oficial. 128 GB es un buen tamaño. Las tarjetas falsificadas son comunes en los mercados, así que verifique la capacidad cuando llegue. El argumento a favor: previene fotogramas perdidos y grabaciones fallidas, almacena horas de metraje y es barata. La desventaja es real: las falsificaciones son comunes y la transferencia de metraje el mismo día, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de alrededor de $15-30, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Previene fotogramas perdidos y grabaciones fallidas",
+        "Almacena horas de metraje",
+        "Barato"
+      ],
+      "cons": [
+        "Las falsificaciones son comunes",
+        "Transferencia de metraje el mismo día"
+      ]
+    },
+    {
+      "name": "Una plataforma de aterrizaje",
+      "tag": "Despegues polvorientos y sobre hierba",
+      "body": "Despegar de arena, polvo o hierba alta rocía arena en los motores y el cardán y puede hacer que el dron se vuelque. Una plataforma de aterrizaje plegable proporciona un lugar limpio y plano y hace que el dron sea más fácil de ver cuando regresa. Se pliega en un círculo pequeño y no pesa casi nada. Una forma barata de proteger las partes más frágiles. El argumento a favor: mantiene la arena y la suciedad fuera de los motores, lugar de aterrizaje plano y visible, y se pliega pequeño. La desventaja es real: necesita estacas o pesos con viento y una cosa más para empacar, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Mantiene la arena y la suciedad fuera de los motores",
+        "Lugar de aterrizaje plano y visible",
+        "Se pliega pequeño"
+      ],
+      "cons": [
+        "Necesita estacas o pesos con viento",
+        "Una cosa más para empacar"
+      ]
+    },
+    {
+      "name": "Hélices de repuesto",
+      "tag": "La primera rama cortada",
+      "body": "Cada piloto nuevo golpea algo eventualmente. Una hélice mellada hace vibrar el dron y arruina el metraje, y puede fallar en vuelo. Los repuestos son baratos y reemplazarlos toma un minuto con el destornillador incluido. Mantén un juego en la bolsa en todo momento y revisa las hélices antes de cada vuelo. El argumento a favor: repara el daño más común, rápido de reemplazar y barato. La desventaja es real: debe coincidir exactamente con tu modelo y siempre revisa si hay mellas antes de volar, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $10-20, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central en la que necesites pensar mucho.",
+      "pros": [
+        "Repara el daño más común",
+        "Rápido de reemplazar",
+        "Barato"
+      ],
+      "cons": [
+        "Debe coincidir exactamente con tu modelo",
+        "Siempre revisa si hay mellas antes de volar"
+      ]
+    },
+    {
+      "name": "Una bolsa de hombro o estuche rígido",
+      "tag": "Llevando todo junto",
+      "body": "Un dron, controlador, baterías, cables y filtros suman muchas piezas pequeñas. Una bolsa ajustada las mantiene juntas y protege el cardán. Los estuches rígidos son mejores para viajes facturados o maleteros de coche; las bolsas de hombro blandas son mejores para el senderismo. Elija una con espacio para una tableta si usa una como pantalla. El argumento a favor: protege el cardán, mantiene juntas las piezas pequeñas y facilita agarrarlo y llevarlo. La desventaja es real: los estuches ajustados solo sirven para un modelo y las baterías deben ir en el equipaje de mano al volar, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Protege el cardán",
+        "Mantiene juntas las piezas pequeñas",
+        "Facilita agarrarlo y llevarlo"
+      ],
+      "cons": [
+        "Los estuches ajustados solo sirven para un modelo",
+        "Las baterías deben ir en el equipaje de mano al volar"
+      ]
+    },
+    {
+      "name": "Un dron barato para practicar en interiores",
+      "tag": "Aprendiendo a volar sin ayuda de GPS",
+      "body": "Los drones GPS son tan estables que los pilotos nunca aprenden a volar manualmente, luego entran en pánico cuando el GPS se cae cerca de edificios o árboles. Un dron interior pequeño y barato sin GPS enseña control real de los joysticks en la sala de estar, y estrellarlo no cuesta nada. Una hora de práctica te calma cuando el dron bueno hace algo inesperado. El argumento a favor: enseña control real de los joysticks, apto para choques y genial para niños también. La desventaja es real: batería de corta duración y cámaras deficientes y difícil de controlar en exteriores con cualquier brisa, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Enseña control real de los joysticks",
+        "Apto para choques",
+        "Genial para niños también"
+      ],
+      "cons": [
+        "Batería de corta duración y cámaras deficientes",
+        "Difícil de controlar en exteriores con cualquier brisa"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Necesito una licencia para volar un dron por diversión en EE. UU.?",
+      "a": "Necesitas aprobar el examen gratuito TRUST y llevar prueba. Los drones de más de 250 g también deben registrarse. El uso comercial requiere un certificado Parte 107."
+    },
+    {
+      "q": "¿Por qué importan 250 gramos?",
+      "a": "Muchos países, incluido EE. UU. para vuelos recreativos, tratan los drones de menos de 250 g de manera más ligera. Consulta las reglas locales antes de viajar con uno."
+    },
+    {
+      "q": "¿Cuánto duran las baterías de los drones?",
+      "a": "Por lo general, 20-30 minutos por batería en buenas condiciones, menos con viento o frío. La mayoría de la gente lleva al menos tres."
+    },
+    {
+      "q": "¿Puedo volar en un parque nacional?",
+      "a": "Los parques nacionales de EE. UU. prohíben los vuelos recreativos de drones en la mayoría de los casos. Consulte las reglas propias del parque y la aplicación B4UFLY."
+    }
+  ]
+}

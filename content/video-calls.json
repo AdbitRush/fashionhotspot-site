@@ -1,0 +1,205 @@
+{
+  "slug": "video-calls",
+  "category": "Office",
+  "title": "Looking and Sounding Better on Video Calls",
+  "dek": "Ten upgrades ranked by how much better you come across on a call. Sound matters most, and the camera matters least.",
+  "seo_title": "Sound first, light second, camera last. Ten video call upgrades ranked by how much better you come across, most of them under $50.",
+  "hero_image": "a person on a video call at a desk lit by a soft lamp, headset on",
+  "intro": [
+    "When people want to look better on calls, they buy a 4K webcam. It is usually the wrong first move. What colleagues notice is echo, a voice that cuts out, and a face lit from behind by a window. Fix those and a laptop camera looks fine. Skip them and a $200 webcam just shows your bad lighting in more detail.",
+    "So this list is ordered sound first, light second, camera last. Most of the useful items cost less than $50, and several cost nothing.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from published audio and webcam reviews, remote-work communities and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. We favoured things that work with any call app and that look normal in an office.",
+  "products": [
+    {
+      "name": "A wired or USB headset with a boom mic",
+      "tag": "The upgrade colleagues actually hear",
+      "price": "$30-80",
+      "search": "wired or USB headset with a boom mic",
+      "image": "a lightweight USB headset with a boom microphone on a desk",
+      "body": "Laptop microphones pick up the whole room: the keyboard, the fridge, the echo off bare walls. A boom mic sits a few centimetres from your mouth, so your voice is loud and everything else is quiet. It is the single biggest change people will notice. Wired or USB headsets are more reliable than Bluetooth for this, which often drops audio quality when the mic is active. Jabra, Logitech and Poly all make good office headsets at modest prices. The case for it: clear voice, little background noise, stops echo and feedback, and works with every call app. The trade-off is real: headsets look less polished on camera and bluetooth versions often sound worse in calls, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Clear voice, little background noise",
+        "Stops echo and feedback",
+        "Works with every call app"
+      ],
+      "cons": [
+        "Headsets look less polished on camera",
+        "Bluetooth versions often sound worse in calls"
+      ]
+    },
+    {
+      "name": "Facing the window, not sitting with it behind you",
+      "tag": "The free lighting fix",
+      "price": "Free ($0)",
+      "search": "Facing the window, not sitting with it behind you",
+      "image": "a desk turned to face a window with soft daylight on the person's face",
+      "body": "A bright window behind you turns you into a silhouette, and the camera cannot fix it. Turning your desk so the window is in front of you, or to one side, gives soft, flattering light for free. If you cannot move the desk, draw the blind behind you and move a lamp in front. This one change makes a cheap webcam look good. The case for it: costs nothing, soft, even light on your face, and makes any camera look better. The trade-off is real: depends on the room layout and direct sun is too harsh; use a sheer curtain, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Costs nothing",
+        "Soft, even light on your face",
+        "Makes any camera look better"
+      ],
+      "cons": [
+        "Depends on the room layout",
+        "Direct sun is too harsh; use a sheer curtain"
+      ]
+    },
+    {
+      "name": "A small LED panel or key light",
+      "tag": "Evening calls and dark rooms",
+      "price": "$20-60",
+      "search": "small LED panel or key light",
+      "image": "a small LED light panel clipped to a monitor",
+      "body": "When the daylight goes, a small dimmable LED panel placed behind the monitor and slightly above your eyes gives you steady, soft light. Choose one with adjustable colour temperature so you can match the room, and bounce it off a wall if it feels harsh. Ring lights work too, but reflect in glasses; a panel placed to one side avoids that. The case for it: consistent light at any time of day, adjustable brightness and warmth, and small and cheap. The trade-off is real: reflects in glasses if placed straight on and clamps can mark thin monitors, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Consistent light at any time of day",
+        "Adjustable brightness and warmth",
+        "Small and cheap"
+      ],
+      "cons": [
+        "Reflects in glasses if placed straight on",
+        "Clamps can mark thin monitors"
+      ]
+    },
+    {
+      "name": "A laptop stand",
+      "tag": "Camera at eye level",
+      "price": "$20-40",
+      "search": "laptop stand",
+      "image": "a laptop raised on a stand so the camera is at eye height",
+      "body": "A laptop on the desk films you from below, which is unflattering and makes it look like you are looking down at everyone. A stand raises the camera to eye level. Pair it with a separate keyboard and mouse so you can still type comfortably. A stack of books works, but a folding stand packs down and adjusts height. The case for it: eye-level camera angle, better posture during long calls, and folds flat. The trade-off is real: needs a separate keyboard and mouse and cheap stands can wobble when typing, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Eye-level camera angle",
+        "Better posture during long calls",
+        "Folds flat"
+      ],
+      "cons": [
+        "Needs a separate keyboard and mouse",
+        "Cheap stands can wobble when typing"
+      ]
+    },
+    {
+      "name": "A USB desk microphone",
+      "tag": "People who talk for a living",
+      "price": "$50-130",
+      "search": "USB desk microphone",
+      "image": "a USB microphone on a small desk arm",
+      "body": "If you present, teach, podcast or sell on calls, a USB microphone gives a fuller, warmer voice than a headset. Dynamic mics, such as Samson Q2U or similar, reject room noise better than condenser mics, which is what most home offices need. Place it close to your mouth, just out of camera shot, on a small arm. Use headphones with it to stop echo. The case for it: rich, clear voice, looks professional on camera, and useful for recording too. The trade-off is real: condenser mics pick up room echo and needs headphones to prevent feedback, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Rich, clear voice",
+        "Looks professional on camera",
+        "Useful for recording too"
+      ],
+      "cons": [
+        "Condenser mics pick up room echo",
+        "Needs headphones to prevent feedback"
+      ]
+    },
+    {
+      "name": "A 1080p webcam",
+      "tag": "Laptops used with the lid closed",
+      "price": "$40-90",
+      "search": "1080p webcam",
+      "image": "a small webcam clipped on top of an external monitor",
+      "body": "If your laptop lives closed on a stand beside a monitor, you need an external webcam, and it can sit on top of the monitor at eye level. A good 1080p webcam with decent low-light performance is plenty. 4K adds little on calls, because most apps compress the video anyway. Look for a built-in privacy shutter. The case for it: camera sits at eye level on the monitor, better than many older laptop cameras, and privacy shutter on most models. The trade-off is real: 4K is mostly wasted on calls and built-in mics are often poor, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Camera sits at eye level on the monitor",
+        "Better than many older laptop cameras",
+        "Privacy shutter on most models"
+      ],
+      "cons": [
+        "4K is mostly wasted on calls",
+        "Built-in mics are often poor"
+      ]
+    },
+    {
+      "name": "Soft furnishings or a rug",
+      "tag": "Echoey rooms",
+      "price": "$30-100",
+      "search": "Soft furnishings or a rug",
+      "image": "a home office with a rug, curtains and bookshelf",
+      "body": "Bare walls and hard floors bounce sound around, which makes you sound like you are in a bathroom. A rug, curtains, a bookshelf or a couple of cushions soak it up. Acoustic foam panels work but look like a studio; normal furniture is usually enough and looks better on camera. Try clapping in the room before and after. The case for it: less echo on every call, makes the room nicer too, and no tech required. The trade-off is real: only reduces echo, not outside noise and foam panels can look out of place, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Less echo on every call",
+        "Makes the room nicer too",
+        "No tech required"
+      ],
+      "cons": [
+        "Only reduces echo, not outside noise",
+        "Foam panels can look out of place"
+      ]
+    },
+    {
+      "name": "A wired Ethernet adapter",
+      "tag": "Frozen video",
+      "price": "$12-25",
+      "search": "wired Ethernet adapter",
+      "image": "a USB-C Ethernet adapter plugged into a laptop",
+      "body": "Freezing video and robotic voices are usually Wi-Fi, not the camera. If your desk is near the router, a USB-C Ethernet adapter and a cable give you a steady connection that does not drop when someone starts streaming in the next room. Many USB-C hubs include an Ethernet port already. The case for it: stops freezing and drop-outs, cheap, and often built into USB-C hubs. The trade-off is real: only practical near the router and needs a free port on thin laptops, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Stops freezing and drop-outs",
+        "Cheap",
+        "Often built into USB-C hubs"
+      ],
+      "cons": [
+        "Only practical near the router",
+        "Needs a free port on thin laptops"
+      ]
+    },
+    {
+      "name": "A tidy background or a simple backdrop",
+      "tag": "Looking settled",
+      "price": "$0-40",
+      "search": "tidy background or a simple backdrop",
+      "image": "a simple video call background with a plant and bookshelf",
+      "body": "Blur and virtual backgrounds flicker around hair and hands. A real background with a plant, a lamp and a shelf looks calm and settled. If the room behind you cannot be tidied, a simple fabric backdrop on a stand, or turning the desk to face a plain wall with one object on it, works well. The case for it: looks more natural than blur, no flicker around your edges, and often free. The trade-off is real: a real background takes some space and backdrops can crease; choose wrinkle-free fabric, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Looks more natural than blur",
+        "No flicker around your edges",
+        "Often free"
+      ],
+      "cons": [
+        "A real background takes some space",
+        "Backdrops can crease; choose wrinkle-free fabric"
+      ]
+    },
+    {
+      "name": "A mute button or stream deck",
+      "tag": "Quick, sure muting",
+      "price": "$20-60",
+      "search": "mute button or stream deck",
+      "image": "a small desktop macro pad with a large mute key",
+      "body": "Hunting for the mute button while the dog barks is a familiar panic. A small USB macro pad or physical mute button lets you mute any app instantly and shows clearly whether you are live. Many can also be set to start calls, share screen and raise your hand. Nice to have, not essential. The case for it: instant mute from any app, clear on/off light, and programmable shortcuts. The trade-off is real: needs some setup per app and another gadget on the desk, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Instant mute from any app",
+        "Clear on/off light",
+        "Programmable shortcuts"
+      ],
+      "cons": [
+        "Needs some setup per app",
+        "Another gadget on the desk"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should I upgrade first for better calls?",
+      "a": "Your microphone. A headset with a boom mic makes a bigger difference than any camera."
+    },
+    {
+      "q": "Is a 4K webcam worth it?",
+      "a": "Rarely for calls. Call apps compress video, so good lighting on a 1080p camera looks better than 4K in bad light."
+    },
+    {
+      "q": "Ring light or LED panel?",
+      "a": "Either works. If you wear glasses, a panel placed off to one side avoids the circle reflection."
+    },
+    {
+      "q": "Why does my video freeze?",
+      "a": "Usually Wi-Fi. Plug in with a cable if you can, or move closer to the router."
+    }
+  ],
+  "updated": "2026-09-23"
+}

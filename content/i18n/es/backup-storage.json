@@ -1,0 +1,172 @@
+{
+  "slug": "backup-storage",
+  "title": "Respaldar fotos y archivos antes de que sea demasiado tarde",
+  "dek": "Diez elementos para un plan de copias de seguridad, clasificados por cuánto te protegen cuando te roban el teléfono o se muere un portátil. Nada de esto es complicado.",
+  "category": "Tecnología",
+  "how_we_pick": "Estas selecciones provienen de pruebas publicadas de unidades, informes de fallos de empresas de recuperación de datos y experiencia de propietarios a largo plazo, cotejadas con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. El almacenamiento es una categoría llena de listados de capacidad falsa, por lo que hemos sido estrictos con las marcas y con cómo comprobar lo que llega.",
+  "intro": [
+    "Nadie piensa en las copias de seguridad hasta el día en que un portátil no arranca o un teléfono cae al agua. Entonces la pregunta es sencilla: ¿están las fotos de los niños en otro sitio? Para la mayoría de los hogares, la respuesta honesta es \"algunas, probablemente, en una cuenta en la nube de la que nadie recuerda la contraseña\".",
+    "La solución es una regla más antigua que la mayoría de los aparatejos: guarda tres copias, en dos tipos de almacenamiento diferentes, con una copia en un lugar distinto de tu casa. Esta lista construye esa configuración pieza a pieza, en el orden que más importa. No necesitas un rack de servidores. Necesitas una unidad, una cuenta en la nube y un recordatorio.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre comprueba el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un SSD portátil de 1-2 TB de una marca conocida",
+      "tag": "La unidad de copia de seguridad a comprar primero",
+      "body": "Un SSD portátil es pequeño, rápido y no tiene partes móviles, por lo que sobrevive a los golpes que matan a los discos duros giratorios. Hacer una copia de seguridad de una biblioteca completa de fotos en uno lleva minutos en lugar de una tarde, lo que significa que realmente lo harás. Cíñete a marcas conocidas como Samsung, SanDisk, Crucial o WD, y compra en una tienda oficial. Una unidad de 1 TB cubre la mayoría de los portátiles; elige 2 TB si grabas mucho vídeo. Conéctala, deja que la copia de seguridad se ejecute y guárdala lejos del ordenador. El argumento a favor: lo suficientemente rápido como para que las copias de seguridad se realicen, sobrevive a caídas y viajes, y es lo suficientemente pequeño como para guardarlo en un cajón. La contrapartida es real: cuesta más por terabyte que un disco duro y las listas falsas de \"2 TB por 20 $ \" son comunes en los mercados, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Lo suficientemente rápido como para que las copias de seguridad se realicen",
+        "Sobrevive a caídas y viajes",
+        "Lo suficientemente pequeño como para guardarlo en un cajón"
+      ],
+      "cons": [
+        "Cuesta más por terabyte que un disco duro",
+        "Las listas falsas de \"2 TB por 20 $ \" son comunes en los mercados"
+      ]
+    },
+    {
+      "name": "Un plan de copia de seguridad en la nube o almacenamiento de fotos",
+      "tag": "La copia externa",
+      "body": "Una unidad en la misma casa que tu portátil no ayuda en caso de incendio, inundación o robo. Una copia en la nube sí. Para fotos, los planes de iCloud, Google Photos o OneDrive son baratos y funcionan automáticamente desde tu teléfono. Para ordenadores completos, un servicio de copia de seguridad dedicado copia todo en segundo plano. Elige el que coincida con los teléfonos y ordenadores que tu familia ya utiliza, y comprueba cuánto cubre el plan familiar. Los planes anuales baratos a menudo superan a los mensuales. El argumento a favor: protege contra incendios, inundaciones y robos, automático desde los teléfonos y acceso a tus fotos desde cualquier lugar. La contrapartida es real: un coste continuo, y la primera carga es lenta y la sincronización no es lo mismo que una copia de seguridad; las eliminaciones también pueden sincronizarse, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Protege contra incendios, inundaciones y robos",
+        "Automático desde los teléfonos",
+        "Accede a tus fotos desde cualquier lugar"
+      ],
+      "cons": [
+        "Un coste continuo, y la primera carga es lenta",
+        "La sincronización no es lo mismo que una copia de seguridad; las eliminaciones también pueden sincronizarse"
+      ]
+    },
+    {
+      "name": "Software de copia de seguridad integrado, activado",
+      "tag": "Haciéndolo automático",
+      "body": "Los Mac tienen Time Machine y Windows tiene Historial de archivos. Ambos son gratuitos, ambos se ejecutan silenciosamente en segundo plano una vez que los apuntas a una unidad, y ambos conservan versiones antiguas de los archivos para que puedas recuperar el documento del martes pasado. La mayoría de las personas que poseen una unidad de copia de seguridad nunca las activan. Diez minutos de configuración convierten una unidad en un cajón en un sistema que realmente funciona. Si la unidad permanece enchufada en un escritorio, las copias de seguridad se realizan cada hora sin que pienses en ello. El argumento a favor: gratuito y ya en tu ordenador, conserva versiones antiguas de los archivos y se ejecuta sin ningún esfuerzo una vez configurado. La contrapartida es real: solo funciona cuando la unidad está conectada y la restauración requiere leer un poco la primera vez, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Gratuito y ya en tu ordenador",
+        "Conserva versiones antiguas de los archivos",
+        "Se ejecuta sin ningún esfuerzo una vez configurado"
+      ],
+      "cons": [
+        "Solo funciona cuando la unidad está conectada",
+        "La restauración requiere leer un poco la primera vez"
+      ]
+    },
+    {
+      "name": "Un disco duro externo grande",
+      "tag": "Grandes archivos de fotos y vídeos",
+      "body": "Para toda una vida de fotos y vídeos caseros, los discos duros giratorios siguen siendo el almacenamiento más barato por terabyte con diferencia. Una unidad de escritorio de 4-8 TB contiene un archivo que costaría mucho como SSD. Son más lentos y frágiles, así que trátalos como una segunda copia que permanece quieta en un estante en lugar de algo que llevas contigo. De nuevo, marcas conocidas: WD, Seagate o Toshiba de una tienda oficial. El argumento a favor: menor coste por terabyte, contiene años de fotos y vídeos, y es una buena segunda copia junto a un SSD. La contrapartida es real: frágil si se cae mientras funciona y necesita corriente eléctrica para la mayoría de los modelos de escritorio, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Menor coste por terabyte",
+        "Contiene años de fotos y vídeos",
+        "Buena segunda copia junto a un SSD"
+      ],
+      "cons": [
+        "Frágil si se cae mientras funciona",
+        "Necesita corriente eléctrica para la mayoría de los modelos de escritorio"
+      ]
+    },
+    {
+      "name": "Una NAS de dos bahías",
+      "tag": "Familias con varios ordenadores",
+      "body": "Una caja de almacenamiento en red se sitúa en tu red doméstica y hace copias de seguridad de todos los ordenadores de la casa, reproduce tus medios y puede copiarse a la nube. Con dos unidades espejadas, una puede fallar sin perder nada. Synology y QNAP son los nombres habituales. Esta es la respuesta correcta para una familia con tres portátiles y un fotógrafo en casa, pero es la respuesta incorrecta para alguien que quiere configurarlo y olvidarse. Necesita un poco de cuidado y actualizaciones ocasionales. El argumento a favor: hace copias de seguridad de todos los ordenadores a la vez, las unidades espejadas sobreviven a un fallo y puede enviar su propia copia a la nube. La contrapartida es real: necesita algo de configuración y mantenimiento y las unidades son un coste aparte, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Hace copias de seguridad de todos los ordenadores a la vez",
+        "Las unidades espejadas sobreviven a un fallo",
+        "Puede enviar su propia copia a la nube"
+      ],
+      "cons": [
+        "Necesita algo de configuración y mantenimiento",
+        "Las unidades son un coste aparte"
+      ]
+    },
+    {
+      "name": "Un lector de tarjetas USB-C rápido",
+      "tag": "Fotógrafos y propietarios de drones",
+      "body": "El metraje de cámaras y drones a menudo solo reside en la tarjeta de memoria hasta que se reutiliza. Un lector de tarjetas rápido hace que la descarga sea indolora, lo que significa que lo haces el mismo día en lugar del mes siguiente. Busca compatibilidad con UHS-II si tu cámara utiliza esas tarjetas, y USB-C para que funcione con portátiles y tabletas modernos. Los lectores integrados en los portátiles suelen ser lentos o inexistentes. El argumento a favor: descarga el mismo día, no el mes que viene, funciona con portátiles y tabletas, y es mucho más rápido que la mayoría de los lectores integrados. La contrapartida es real: los lectores baratos son mucho más lentos de lo que afirman y comprueba que admita tu tipo de tarjeta, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Descarga el mismo día, no el mes que viene",
+        "Funciona con portátiles y tabletas",
+        "Mucho más rápido que la mayoría de los lectores integrados"
+      ],
+      "cons": [
+        "Los lectores baratos son mucho más lentos de lo que afirman",
+        "Comprueba que admita tu tipo de tarjeta"
+      ]
+    },
+    {
+      "name": "Una herramienta de comprobación de capacidad de unidades",
+      "tag": "Detectar unidades de capacidad falsa",
+      "body": "Los mercados están llenos de unidades flash y SSD de \"2 TB\" que en realidad son chips de 32 GB programados para mentir. Parecen funcionar, y luego pierden silenciosamente todo lo que supera la capacidad real. Herramientas gratuitas como H2testw en Windows o F3 en Mac y Linux escriben datos de prueba en toda la unidad y comprueban que se leen correctamente. Ejecuta una en cualquier almacenamiento nuevo antes de confiarle archivos reales. Si un precio parece imposiblemente bajo para la capacidad, es falso. El argumento a favor: detecta unidades de capacidad falsa antes de que devoren datos, es gratuito y fácil de ejecutar. La contrapartida es real: una prueba completa lleva horas en unidades grandes y borra la unidad, así que ejecútala antes de añadir archivos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Detecta unidades de capacidad falsa antes de que devoren datos",
+        "Gratuito",
+        "Fácil de ejecutar"
+      ],
+      "cons": [
+        "Una prueba completa lleva horas en unidades grandes",
+        "Borra la unidad, así que ejecútala antes de añadir archivos"
+      ]
+    },
+    {
+      "name": "Una funda acolchada para unidades",
+      "tag": "Unidades que viajan",
+      "body": "Si tu unidad de copia de seguridad viaja, guárdala en una pequeña funda rígida con su cable. Evita el conector doblado y la carcasa rota que acaban con la mayoría de las unidades portátiles, y evita que el cable se pierda. Elige una con un bolsillo de malla para un segundo cable o lector de tarjetas. Es algo pequeño, pero mantiene el kit de copia de seguridad junto. El argumento a favor: protege el conector y la carcasa, mantiene el cable con la unidad y es barata. La contrapartida es real: debe coincidir con el tamaño de tu unidad y añade un poco de volumen a una bolsa, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Protege el conector y la carcasa",
+        "Mantiene el cable con la unidad",
+        "Barata"
+      ],
+      "cons": [
+        "Debe coincidir con el tamaño de tu unidad",
+        "Añade un poco de volumen a una bolsa"
+      ]
+    },
+    {
+      "name": "Un gestor de contraseñas",
+      "tag": "No perder la propia cuenta en la nube",
+      "body": "Una copia de seguridad en la nube solo es útil si puedes iniciar sesión cuando tu teléfono ya no está. La gente pierde el acceso a años de fotos porque la contraseña y los códigos de dos factores vivían en el dispositivo que se rompió. Un gestor de contraseñas almacena los inicios de sesión de forma segura y permite que un familiar de confianza acceda si te sucede algo. Bitwarden tiene un plan gratuito sólido; 1Password es la opción de pago más sencilla. Guarda también tus códigos de recuperación en él. El argumento a favor: mantiene el acceso a la nube seguro si se pierde un teléfono, uso compartido familiar para emergencias y almacena códigos de recuperación. La contrapartida es real: una cuenta más que asegurar bien y lleva una tarde mover las contraseñas antiguas, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Mantiene el acceso a la nube seguro si se pierde un teléfono",
+        "Uso compartido familiar para emergencias",
+        "Almacena códigos de recuperación"
+      ],
+      "cons": [
+        "Una cuenta más que asegurar bien",
+        "Lleva una tarde mover las contraseñas antiguas"
+      ]
+    },
+    {
+      "name": "Un recordatorio en el calendario",
+      "tag": "La parte que todo el mundo se salta",
+      "body": "Cada plan de copia de seguridad falla de la misma manera: funciona durante dos meses y luego nadie enchufa la unidad. Un recordatorio recurrente a principios de mes para enchufar la unidad y comprobar que la nube sigue sincronizándose no cuesta nada y es la diferencia entre una copia de seguridad y una unidad llena de archivos del año pasado. Una vez al año, intenta restaurar un archivo para demostrar que funciona. El argumento a favor: mantiene todo el sistema honesto, lleva cinco minutos al mes y detecta fallos de sincronización silenciosos. La contrapartida es real: solo funciona si realmente lo haces y pruebas una restauración al menos una vez al año, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Mantiene todo el sistema honesto",
+        "Lleva cinco minutos al mes",
+        "Detecta fallos de sincronización silenciosos"
+      ],
+      "cons": [
+        "Solo funciona si realmente lo haces",
+        "Prueba una restauración al menos una vez al año"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Es suficiente iCloud o Google Photos por sí solo?",
+      "a": "Es una buena copia externa, pero la sincronización puede propagar eliminaciones y los bloqueos de cuenta ocurren. Guarda también una copia en una unidad."
+    },
+    {
+      "q": "¿SSD o disco duro para copias de seguridad?",
+      "a": "SSD para una unidad que llevas contigo o usas a menudo; disco duro para un gran archivo que permanece en un estante. Mucha gente usa uno de cada."
+    },
+    {
+      "q": "¿Cómo detecto una unidad falsa?",
+      "a": "El precio es la clave. Un SSD de 2 TB por 25 $ no es real. Compra marcas conocidas en tiendas oficiales y ejecuta una prueba de capacidad al recibirla."
+    },
+    {
+      "q": "¿Con qué frecuencia debo hacer copias de seguridad?",
+      "a": "Los teléfonos deben hacer copias de seguridad en la nube continuamente. Los ordenadores deben ejecutar copias de seguridad automáticas, con una comprobación mensual de que siguen funcionando."
+    }
+  ]
+}

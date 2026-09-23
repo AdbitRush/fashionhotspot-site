@@ -1,0 +1,205 @@
+{
+  "slug": "home-wifi",
+  "category": "Tech",
+  "title": "Fixing Home Wi-Fi Dead Zones Without Paying for More Speed",
+  "dek": "Ten fixes for slow rooms and dropped calls, ranked by how much each one helps for the money. The first two cost nothing.",
+  "seo_title": "Slow Wi-Fi is usually a coverage problem, not a speed plan problem. Ten fixes ranked by how much they help, from free router moves to mesh kits.",
+  "hero_image": "a mesh Wi-Fi node on a shelf in a bright living room",
+  "intro": [
+    "When the Wi-Fi is bad in the bedroom, most people call their provider and pay for a faster plan. It rarely helps. The internet coming into the house is usually fine; the problem is the last thirty feet between the router and your laptop, and a faster plan does nothing about walls, floors and a router hidden in a cabinet.",
+    "So this list is ordered by leverage. Start at the top, test after each step, and stop when the problem goes away. Plenty of people fix their dead zone at step two and never spend a dollar.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from published lab testing, networking forums and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. We favoured fixes that work for renters and non-technical households, and we have been blunt about which gadgets mostly move the problem around.",
+  "products": [
+    {
+      "name": "Moving the router you already have",
+      "tag": "The free first fix",
+      "price": "Free ($0)",
+      "search": "Moving the router you already have",
+      "image": "a router being moved from a low cabinet to an open high shelf",
+      "body": "Routers get installed wherever the cable comes into the house, which is often a corner, a basement or the inside of a TV cabinet. Wi-Fi spreads outward and slightly downward, and it hates metal, mirrors, fish tanks and thick walls. Moving the router out of the cabinet, up to shelf height and closer to the middle of the home can make a bigger difference than any purchase on this page. If the cable point is fixed, a longer coax or Ethernet run from the wall socket to a better spot costs a few dollars. The case for it: costs nothing, often fixes the problem outright, and takes ten minutes to test. The trade-off is real: limited by where the cable comes in and provider-installed boxes sometimes cannot be moved far, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Costs nothing",
+        "Often fixes the problem outright",
+        "Takes ten minutes to test"
+      ],
+      "cons": [
+        "Limited by where the cable comes in",
+        "Provider-installed boxes sometimes cannot be moved far"
+      ]
+    },
+    {
+      "name": "A speed test app and a heat-map walk",
+      "tag": "Finding the real dead spot",
+      "price": "Free ($0)",
+      "search": "speed test app and a heat-map walk",
+      "image": "a phone showing a speed test result in a hallway",
+      "body": "Before buying anything, measure. Run a speed test next to the router, then in each room where things feel slow. If the speed next to the router is poor too, the problem is your plan or the provider's equipment, and no mesh kit will fix it. If it is fast by the router and collapses two rooms away, you have a coverage problem, and now you know exactly where. Free heat-map apps let you walk the house and see coverage drop. This step stops people buying the wrong fix. The case for it: separates plan problems from coverage problems, shows exactly which room needs help, and gives you a before-and-after number. The trade-off is real: results vary through the day and test on the device that actually struggles, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Separates plan problems from coverage problems",
+        "Shows exactly which room needs help",
+        "Gives you a before-and-after number"
+      ],
+      "cons": [
+        "Results vary through the day",
+        "Test on the device that actually struggles"
+      ]
+    },
+    {
+      "name": "A three-pack Wi-Fi 6 or 6E mesh kit",
+      "tag": "The fix for most multi-room homes",
+      "price": "$150-300",
+      "search": "three-pack Wi-Fi 6 or 6E mesh kit",
+      "image": "three white mesh Wi-Fi nodes arranged on a table",
+      "body": "Mesh systems replace one router with several units that pass your connection between them and appear as one network. You walk from the kitchen to the bedroom and your phone quietly moves to the nearest node. For a two-storey house or anything over roughly 1,500 square feet, a three-pack is the reliable answer. Wi-Fi 6 is plenty for most homes; 6E adds a less crowded band that helps in dense apartment blocks. TP-Link Deco, Eero and Asus ZenWiFi are the common families, and budget kits from all three are good. The case for it: one network name, whole-home coverage, easy app setup for non-technical households, and handles many devices at once. The trade-off is real: some brands push paid subscriptions for extra features and place nodes in open spots, not inside cabinets, so weigh that against how often it would actually get used.",
+      "pros": [
+        "One network name, whole-home coverage",
+        "Easy app setup for non-technical households",
+        "Handles many devices at once"
+      ],
+      "cons": [
+        "Some brands push paid subscriptions for extra features",
+        "Place nodes in open spots, not inside cabinets"
+      ]
+    },
+    {
+      "name": "A two-pack mesh kit",
+      "tag": "Apartments and small homes",
+      "price": "$100-180",
+      "search": "two-pack mesh kit",
+      "image": "a two-node mesh kit in a small apartment",
+      "body": "Most apartments do not need three units. A two-pack covers a typical one or two bedroom apartment, and the second node goes where the signal drops, usually the far bedroom or home office. You can add a third later if needed, since most brands let you expand within the same family. If you rent, mesh is also easy to take with you, which a wired fix is not. The case for it: right-sized for apartments, expandable later, and moves with you when you do. The trade-off is real: neighbours' networks still crowd the airwaves and mixing brands usually does not work, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Right-sized for apartments",
+        "Expandable later",
+        "Moves with you when you do"
+      ],
+      "cons": [
+        "Neighbours' networks still crowd the airwaves",
+        "Mixing brands usually does not work"
+      ]
+    },
+    {
+      "name": "A powerline or MoCA adapter pair",
+      "tag": "Thick walls and concrete",
+      "price": "$60-150",
+      "search": "powerline or MoCA adapter pair",
+      "image": "a powerline adapter plugged into a wall socket",
+      "body": "Some homes defeat Wi-Fi entirely: plaster and lath, concrete, brick, or a garage office across the yard. Powerline adapters send data over your electrical wiring, and MoCA adapters use existing TV coax. Plug one near the router and one in the far room, and you get a wired connection without drilling. MoCA is usually faster and more reliable if you have coax in the right rooms. Powerline speed depends heavily on your wiring, so buy from a store with an easy return window. The case for it: gets through walls Wi-Fi cannot, no drilling or new cables, and some models add Wi-Fi at the far end. The trade-off is real: powerline speed depends on your wiring and must plug directly into the wall, not a power strip, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Gets through walls Wi-Fi cannot",
+        "No drilling or new cables",
+        "Some models add Wi-Fi at the far end"
+      ],
+      "cons": [
+        "Powerline speed depends on your wiring",
+        "Must plug directly into the wall, not a power strip"
+      ]
+    },
+    {
+      "name": "A few Cat 6 cables",
+      "tag": "Desks, TVs and consoles near the router",
+      "price": "$8-20",
+      "search": "few Cat 6 cables",
+      "image": "a coiled Cat 6 Ethernet cable next to a games console",
+      "body": "Anything that does not move and sits within reach of the router should be plugged in. A TV, console or desktop on a cable gets full speed, lower lag, and it stops competing with phones for Wi-Fi. That frees up the wireless network for everything else. Flat cables tuck under rugs and along skirting boards neatly. This is the cheapest performance upgrade in networking and it is badly underused. The case for it: full speed and lower lag, frees up Wi-Fi for other devices, and very cheap. The trade-off is real: only practical near the router or a mesh node and very long cheap cables can be poorly made, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Full speed and lower lag",
+        "Frees up Wi-Fi for other devices",
+        "Very cheap"
+      ],
+      "cons": [
+        "Only practical near the router or a mesh node",
+        "Very long cheap cables can be poorly made"
+      ]
+    },
+    {
+      "name": "A USB Wi-Fi 6 adapter",
+      "tag": "Old laptops and desktop PCs",
+      "price": "$20-40",
+      "search": "USB Wi-Fi 6 adapter",
+      "image": "a small USB Wi-Fi adapter plugged into a laptop",
+      "body": "Sometimes the network is fine and the device is the problem. A laptop from 2016 has an old wireless chip that gets a fraction of what a modern router offers. A small USB Wi-Fi 6 adapter brings it up to date for the price of a takeout order. Desktop PCs without built-in Wi-Fi benefit the most. Check that the adapter supports your operating system before you buy, especially on Mac and Linux. The case for it: brings old machines up to modern speeds, plug-in, no opening the case, and cheap compared with a new laptop. The trade-off is real: driver support varies by operating system and uses up a USB port, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Brings old machines up to modern speeds",
+        "Plug-in, no opening the case",
+        "Cheap compared with a new laptop"
+      ],
+      "cons": [
+        "Driver support varies by operating system",
+        "Uses up a USB port"
+      ]
+    },
+    {
+      "name": "A travel router",
+      "tag": "Hotels and holiday rentals",
+      "price": "$30-90",
+      "search": "travel router",
+      "image": "a pocket-sized travel router on a hotel desk",
+      "body": "Hotel Wi-Fi often limits how many devices can join and makes you log in again on each one. A pocket travel router logs in once and then shares the connection with all your devices under your own network name. It also lets you plug into a wired hotel port where one exists, which is usually faster. GL.iNet makes the popular models. For families travelling with several tablets and a streaming stick, this ends the daily argument. The case for it: one login for all your devices, your own private network name, and useful at home as a backup. The trade-off is real: captive login pages need a few extra steps and cannot make a slow hotel connection faster, so weigh that against how often it would actually get used.",
+      "pros": [
+        "One login for all your devices",
+        "Your own private network name",
+        "Useful at home as a backup"
+      ],
+      "cons": [
+        "Captive login pages need a few extra steps",
+        "Cannot make a slow hotel connection faster"
+      ]
+    },
+    {
+      "name": "A smart plug on the router",
+      "tag": "Remote restarts",
+      "price": "$10-20",
+      "search": "smart plug on the router",
+      "image": "a smart plug with a router plugged into it",
+      "body": "Every household has a person who restarts the router, and when they are away nobody knows how. A smart plug on a schedule, set to power-cycle the router at 4 AM once a week, prevents a lot of slow-down complaints on older provider equipment. It also lets you restart it from your phone while travelling, as long as a second connection path exists. Choose a plug that keeps its schedule locally, so it still works when the internet is down. The case for it: scheduled weekly restarts, anyone in the house can do it from an app, and cheap. The trade-off is real: useless for remote restarts if it needs the internet to work and a router that needs constant restarts may be failing, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Scheduled weekly restarts",
+        "Anyone in the house can do it from an app",
+        "Cheap"
+      ],
+      "cons": [
+        "Useless for remote restarts if it needs the internet to work",
+        "A router that needs constant restarts may be failing"
+      ]
+    },
+    {
+      "name": "A single standalone range extender",
+      "tag": "Last resort, one room only",
+      "price": "$25-60",
+      "search": "single standalone range extender",
+      "image": "a plug-in range extender in a hallway socket",
+      "body": "Extenders are cheap and widely sold, which is why they are the most common wrong purchase in home networking. They repeat the router's signal, which usually halves speed, and many create a second network name your devices stick to after you walk away. For one fixed room that needs a basic connection, such as a printer or a guest bedroom, they are fine. For anything else, a mesh kit is worth the extra money. The case for it: cheapest way to reach one extra room, no setup beyond a button press, and good for low-demand devices. The trade-off is real: often halves the speed it repeats and devices may cling to the weaker network, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Cheapest way to reach one extra room",
+        "No setup beyond a button press",
+        "Good for low-demand devices"
+      ],
+      "cons": [
+        "Often halves the speed it repeats",
+        "Devices may cling to the weaker network"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will a faster internet plan fix slow Wi-Fi in one room?",
+      "a": "Usually not. If speed is good next to the router and bad in the far room, the problem is coverage. Test first."
+    },
+    {
+      "q": "Mesh or extender?",
+      "a": "Mesh for anything beyond one room. Extenders are a budget patch for a single low-demand device."
+    },
+    {
+      "q": "Do I need Wi-Fi 7?",
+      "a": "Not for most homes yet. Wi-Fi 6 or 6E covers typical streaming, gaming and video calls, and costs much less."
+    },
+    {
+      "q": "Can I use mesh with my provider's router?",
+      "a": "Yes. Most mesh kits plug into the provider box. Turning off the provider's own Wi-Fi reduces interference, and your provider can tell you how."
+    }
+  ],
+  "updated": "2026-09-23"
+}

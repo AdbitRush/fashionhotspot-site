@@ -1,0 +1,172 @@
+{
+  "slug": "beach",
+  "title": "Un kit para el día de playa que controla la arena, el sol y el viento",
+  "dek": "Diez compras para la playa clasificadas por cuánto mejoran el día. La sombra y el agua van primero, y los aparatos, al final.",
+  "category": "Exterior",
+  "how_we_pick": "Estas selecciones provienen de pruebas publicadas, guías de seguridad solar de dermatólogos, comunidades de bañistas e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. Favorecimos el equipo que resiste el viento y se empaca fácilmente.",
+  "intro": [
+    "Un día de playa suena simple hasta que cargas todo desde el aparcamiento sobre arena caliente, el paraguas se da la vuelta con la primera ráfaga y los niños se queman con el sol para el almuerzo. El equipo de playa falla con el viento, el calor y en la caminata. Paraguas baratos y sillas endebles componen gran parte de lo que queda en los cubos de basura de la playa al final del verano.",
+    "Esta lista está ordenada por lo que hace que el día dure: sombra, agua y protección primero, luego comodidad y transporte. Compra para el viento de tu playa; eso decide más que nada.",
+    "Los precios a continuación son precios aproximados en la calle en el momento de escribir y cambian constantemente, especialmente durante los eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre verifica el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Una sombrilla de playa o refugio solar anclado a la arena",
+      "tag": "Sombra que se mantiene en su sitio",
+      "body": "Los paraguas baratos se vuelan con el viento. Las sombrillas de tela que se anclan con sacos de arena, como los diseños estilo Shibumi, o los refugios solares desplegables con bolsillos para arena se sujetan mucho mejor y dan más sombra. Busca tela con UPF 50 y un diseño que funcione con el viento de tu playa habitual. Practica montarlo en casa primero. El argumento a favor: sombra fiable todo el día, resiste mejor el viento que los paraguas y tela con calificación UPF. La contrapartida es real: algunos necesitan viento constante para mantenerse en pie y los refugios desplegables pueden ser difíciles de plegar, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Sombra fiable todo el día",
+        "Resiste mejor el viento que los paraguas",
+        "Tela con calificación UPF"
+      ],
+      "cons": [
+        "Algunos necesitan viento constante para mantenerse en pie",
+        "Los refugios desplegables pueden ser difíciles de plegar"
+      ]
+    },
+    {
+      "name": "Protector solar mineral y una camiseta de manga larga con protección UV",
+      "tag": "Protección solar",
+      "body": "Las quemaduras solares son la lesión de playa más común. Usa un protector de amplio espectro SPF 30 o superior, reaplica cada dos horas y después de nadar. Los protectores solares minerales con zinc o titanio son suaves para la piel de los niños. Una camiseta de manga larga con protección UPF protege hombros y espalda sin necesidad de reaplicar, lo que ayuda mucho con los niños. Consulta las normativas locales; algunas playas prohíben ciertos ingredientes de protector solar. El argumento a favor: previene quemaduras solares, las camisetas de manga larga no necesitan reaplicación y son adecuadas para niños. La contrapartida es real: el protector solar mineral puede dejar una capa blanca y debe reaplicarse después de nadar, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Previene quemaduras solares",
+        "Las camisetas de manga larga no necesitan reaplicación",
+        "Adecuadas para niños"
+      ],
+      "cons": [
+        "El protector solar mineral puede dejar una capa blanca",
+        "Debe reaplicarse después de nadar"
+      ]
+    },
+    {
+      "name": "Una nevera blanda o bolsa térmica aislada",
+      "tag": "Bebidas frías todo el día",
+      "body": "Una nevera blanda con aislamiento grueso mantiene las bebidas y la comida frías durante un día y se transporta más cómodamente que una caja rígida. Busca un forro a prueba de fugas y una correa para el hombro. Congela botellas de agua para usarlas como bloques de hielo y bébelas a medida que se derriten. El argumento a favor: mantiene la comida segura y las bebidas frías, fácil de transportar y se pliega cuando está vacía. La contrapartida es real: menor retención de hielo que las neveras rígidas y las cremalleras baratas gotean, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 30 y 80 dólares, es fácil de justificar incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Mantiene la comida segura y las bebidas frías",
+        "Fácil de transportar",
+        "Se pliega cuando está vacía"
+      ],
+      "cons": [
+        "Menor retención de hielo que las neveras rígidas",
+        "Las cremalleras baratas gotean"
+      ]
+    },
+    {
+      "name": "Toallas de playa de microfibra sin arena",
+      "tag": "Toallas que se sacuden limpias",
+      "body": "Las toallas gruesas de algodón retienen arena y agua y permanecen húmedas. Las toallas de microfibra sin arena se sacuden limpias, se secan rápido y se empacan pequeñas. Son más finas, así que trae una por persona para sentarse y otra para secarse si prefieres más comodidad. El argumento a favor: la arena se sacude fácilmente, se secan rápido y se empacan pequeñas. La contrapartida es real: se sienten más finas que el algodón y pueden recoger pelusa en la lavadora, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 20 y 40 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial en ningún sentido.",
+      "pros": [
+        "La arena se sacude fácilmente",
+        "Se secan rápido",
+        "Se empacan pequeñas"
+      ],
+      "cons": [
+        "Se sienten más finas que el algodón",
+        "Pueden recoger pelusa en la lavadora"
+      ]
+    },
+    {
+      "name": "Un carrito de playa con ruedas anchas",
+      "tag": "Transportar todo sobre la arena",
+      "body": "Para las familias, el camino a la arena es la parte más difícil. Un carrito plegable con ruedas anchas tipo globo rueda sobre arena blanda donde las ruedas normales se hunden. Transporta la nevera, las sillas, la sombra y los juguetes en un solo viaje. Comprueba el ancho de las ruedas; las ruedas estrechas son inútiles en playas blandas. El argumento a favor: un solo viaje desde el coche, las ruedas anchas funcionan en la arena y se pliega para guardarlo. La contrapartida es real: voluminoso en el coche y las ruedas estrechas se hunden en arena blanda, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Un solo viaje desde el coche",
+        "Las ruedas anchas funcionan en la arena",
+        "Se pliega para guardarlo"
+      ],
+      "cons": [
+        "Voluminoso en el coche",
+        "Las ruedas estrechas se hunden en arena blanda"
+      ]
+    },
+    {
+      "name": "Sillas de playa bajas tipo mochila",
+      "tag": "Asientos cómodos",
+      "body": "Las sillas bajas son más estables en la arena y te permiten sentarte cerca del agua. Las correas de mochila liberan tus manos para otro equipo. Busca marcos de aluminio resistentes a la corrosión y un bolsillo o portavasos. Enjuaga después de usar; la sal corroe las juntas. El argumento a favor: cómodas durante horas, se llevan en la espalda y estables en la arena. La contrapartida es real: los asientos bajos son más difíciles de levantar y requieren enjuague para prevenir la corrosión, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 30 y 60 dólares cada una, es fácil de justificar incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Cómodas durante horas",
+        "Se llevan en la espalda",
+        "Estables en la arena"
+      ],
+      "cons": [
+        "Los asientos bajos son más difíciles de levantar",
+        "Requieren enjuague para prevenir la corrosión"
+      ]
+    },
+    {
+      "name": "Botellas de agua aisladas",
+      "tag": "Agua fría en el calor",
+      "body": "El sol abrasador, el agua salada y la actividad física deshidratan rápidamente a las personas. Las botellas de acero aisladas mantienen el agua fría todo el día, incluso bajo el sol directo. Una por persona evita discusiones. Rellena desde la nevera. El argumento a favor: agua fría todo el día, reduce los residuos plásticos y duraderas. La contrapartida es real: más pesadas que las botellas de plástico y la arena se mete en las roscas de la tapa, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 20 y 35 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial en ningún sentido. Como con cualquier artículo de esta lista, verifica los detalles exactos del listado y el precio actual antes de añadirlo al carrito.",
+      "pros": [
+        "Agua fría todo el día",
+        "Reduce los residuos plásticos",
+        "Duraderas"
+      ],
+      "cons": [
+        "Más pesadas que las botellas de plástico",
+        "La arena se mete en las roscas de la tapa"
+      ]
+    },
+    {
+      "name": "Una bolsa impermeable para el teléfono",
+      "tag": "Teléfonos cerca del agua",
+      "body": "La arena y el agua matan los teléfonos. Una bolsa impermeable transparente mantiene el teléfono utilizable para fotos y mensajes mientras lo protege de salpicaduras y arena. Pruébala con un pañuelo de papel dentro antes de confiarle tu teléfono. Algunas flotan, lo cual es útil en barcos. El argumento a favor: protege de la arena y el agua, barata y aún permite tomar fotos. La contrapartida es real: las pantallas táctiles son más difíciles de usar a través del plástico y hay que probarlas para detectar fugas primero, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 8 y 15 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que requiera pensar mucho.",
+      "pros": [
+        "Protege de la arena y el agua",
+        "Barata",
+        "Aún permite tomar fotos"
+      ],
+      "cons": [
+        "Las pantallas táctiles son más difíciles de usar a través del plástico",
+        "Hay que probarla para detectar fugas primero"
+      ]
+    },
+    {
+      "name": "Zapatos de agua",
+      "tag": "Arena caliente y rocas",
+      "body": "La arena del mediodía puede quemar los pies, y las playas rocosas, conchas y erizos de mar duelen. Los zapatos de agua de secado rápido protegen los pies dentro y fuera del agua. Los niños se benefician especialmente. También funcionan para paseos por el río y cubiertas de piscina. El argumento a favor: protege de la arena caliente y las rocas, secado rápido y geniales para niños. La contrapartida es real: entra arena y el tallaje es pequeño en algunos vendedores, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 15 y 30 dólares, es fácil de justificar incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Protege de la arena caliente y las rocas",
+        "Secado rápido",
+        "Geniales para niños"
+      ],
+      "cons": [
+        "Entra arena",
+        "El tallaje es pequeño en algunos vendedores"
+      ]
+    },
+    {
+      "name": "Bolsa de malla para juguetes de playa",
+      "tag": "Palas y cubos para niños",
+      "body": "Los juguetes de arena traen la mitad de la playa a casa. Una bolsa de malla permite sacudir y enjuagar los juguetes y dejar la arena atrás. Las grandes también sirven como bolsa de lavandería para toallas mojadas. El argumento a favor: deja la arena en la playa, fácil de enjuagar y barata. La contrapartida es real: los objetos pequeños se escapan por la malla grande y la malla puede romperse con juguetes afilados, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 10 y 20 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial en ningún sentido.",
+      "pros": [
+        "Deja la arena en la playa",
+        "Fácil de enjuagar",
+        "Barata"
+      ],
+      "cons": [
+        "Los objetos pequeños se escapan por la malla grande",
+        "La malla puede romperse con juguetes afilados"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la mejor sombra de playa para playas ventosas?",
+      "a": "Las sombrillas de tela ancladas con sacos de arena o los refugios desplegables se sujetan mejor que los paraguas. Anclalas bien."
+    },
+    {
+      "q": "¿Con qué frecuencia debo reaplicar el protector solar?",
+      "a": "Cada dos horas y después de nadar o secarse con toalla."
+    },
+    {
+      "q": "¿Cómo mantengo la comida fría en la playa?",
+      "a": "Una nevera bien aislada, botellas de agua congeladas como bloques de hielo y manteniéndola a la sombra."
+    },
+    {
+      "q": "¿Funcionan realmente las toallas sin arena?",
+      "a": "Mayormente, sí. La arena se sacude mucho más fácilmente que de las de algodón."
+    }
+  ]
+}

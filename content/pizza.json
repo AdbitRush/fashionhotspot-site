@@ -1,0 +1,205 @@
+{
+  "slug": "pizza",
+  "category": "Kitchen",
+  "title": "Pizza at Home That Tastes Like a Pizzeria Made It",
+  "dek": "Ten things for better homemade pizza, ranked by what they do for the crust. Heat is everything, and you can get most of it from a normal oven.",
+  "seo_title": "The steel, peel, oven and small tools that make great homemade pizza. Ten picks ranked by how much better your crust gets.",
+  "hero_image": "a blistered homemade pizza on a peel beside a hot oven",
+  "intro": [
+    "Homemade pizza usually disappoints for one reason: the oven is not hot enough. A pizzeria oven runs at 700-900°F. A home oven tops out around 500°F, and a thin baking sheet does not hold that heat, so the crust bakes pale and bready before the top is done.",
+    "This list is ordered by how much each item closes that gap. The first pick costs less than a takeaway order and transforms pizza from a normal oven. The outdoor oven sits further down because it is the biggest spend and only worth it once you are hooked.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from published testing, pizza-making communities and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. We favoured tools that work in an ordinary home oven first.",
+  "products": [
+    {
+      "name": "A baking steel or thick pizza stone",
+      "tag": "The upgrade that fixes the crust",
+      "price": "$40-100",
+      "search": "baking steel or thick pizza stone",
+      "image": "a thick steel baking plate in a home oven with a pizza on it",
+      "body": "A thick steel or stone soaks up heat during preheating and dumps it into the dough when the pizza lands, which gives a crisp, blistered base in a normal oven. Steel conducts heat faster than stone, so it bakes quicker and browns better at home oven temperatures. Preheat for 45 minutes to an hour at your oven's highest setting, on the top-third rack. Steel is heavy but will not crack; stones are lighter but can break from sudden temperature changes. The case for it: crisp, browned base in a normal oven, also great for bread, and lasts forever. The trade-off is real: steel is very heavy and needs a long preheat, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Crisp, browned base in a normal oven",
+        "Also great for bread",
+        "Lasts forever"
+      ],
+      "cons": [
+        "Steel is very heavy",
+        "Needs a long preheat"
+      ]
+    },
+    {
+      "name": "A pizza peel",
+      "tag": "Sliding pizza on and off",
+      "price": "$15-35",
+      "search": "pizza peel",
+      "image": "a wooden peel with a raw pizza on it",
+      "body": "Transferring a floppy pizza onto a hot steel without a peel is how toppings end up on the oven floor. A wooden peel is best for launching because dough sticks less to wood; a thin metal peel is best for turning and retrieving. Dust with semolina so the pizza slides. Start with one and add the other if you get serious. The case for it: makes launching pizzas possible, semolina helps it slide, and cheap. The trade-off is real: launching takes practice and wooden peels are thick for turning, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Makes launching pizzas possible",
+        "Semolina helps it slide",
+        "Cheap"
+      ],
+      "cons": [
+        "Launching takes practice",
+        "Wooden peels are thick for turning"
+      ]
+    },
+    {
+      "name": "A digital kitchen scale",
+      "tag": "Consistent dough",
+      "price": "$12-25",
+      "search": "digital kitchen scale",
+      "image": "flour on a digital scale in a mixing bowl",
+      "body": "Dough is chemistry, and cups of flour vary by up to 20 percent depending on how you scoop. A cheap digital scale makes every batch the same. Most good pizza recipes are written in grams and percentages for this reason. You will use it for all your baking. The case for it: consistent dough every time, follows gram-based recipes, and useful for all baking. The trade-off is real: needs batteries and get one that reads to 1g, so weigh that against how often it would actually get used. Priced around $12-25, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Consistent dough every time",
+        "Follows gram-based recipes",
+        "Useful for all baking"
+      ],
+      "cons": [
+        "Needs batteries",
+        "Get one that reads to 1g"
+      ]
+    },
+    {
+      "name": "Tipo 00 or bread flour",
+      "tag": "Dough that stretches",
+      "price": "$5-12 per bag",
+      "search": "Tipo 00 or bread flour",
+      "image": "a bag of Italian 00 flour and a ball of dough",
+      "body": "All-purpose flour makes a softer, weaker dough that tears. Italian 00 flour is milled fine for very hot ovens; bread flour has more protein and suits home ovens and New York style. If your oven only reaches 500°F, bread flour or a 00 flour made for home ovens often browns better. Try both. The case for it: stretchier, stronger dough, better texture, and cheap. The trade-off is real: classic 00 browns poorly in home ovens and store in a sealed container, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Stretchier, stronger dough",
+        "Better texture",
+        "Cheap"
+      ],
+      "cons": [
+        "Classic 00 browns poorly in home ovens",
+        "Store in a sealed container"
+      ]
+    },
+    {
+      "name": "An infrared thermometer",
+      "tag": "Knowing the surface temperature",
+      "price": "$15-30",
+      "search": "infrared thermometer",
+      "image": "an infrared thermometer pointed at a pizza steel",
+      "body": "The oven dial tells you the air temperature, not the steel's. An infrared thermometer shows the actual surface temperature in a second, so you know when it is ready to launch. It is essential with outdoor pizza ovens, where the stone can be very hot at the back and cooler at the front. The case for it: shows real surface heat, essential for outdoor ovens, and useful for pans and griddles. The trade-off is real: does not read air temperature and shiny surfaces read inaccurately, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Shows real surface heat",
+        "Essential for outdoor ovens",
+        "Useful for pans and griddles"
+      ],
+      "cons": [
+        "Does not read air temperature",
+        "Shiny surfaces read inaccurately"
+      ]
+    },
+    {
+      "name": "A rocker or wheel pizza cutter",
+      "tag": "Clean slices",
+      "price": "$10-25",
+      "search": "rocker or wheel pizza cutter",
+      "image": "a rocking pizza cutter slicing a pizza",
+      "body": "A dull wheel drags toppings off the pizza. A sharp wheel with a guard, or a long rocking blade, slices cleanly in one push. Rocker blades are faster for large pies and easier to clean. Protect your steel or peel; cut on a board. The case for it: clean slices without dragging toppings, quick, and cheap. The trade-off is real: rockers need a lot of storage length and do not cut on your steel, so weigh that against how often it would actually get used. Priced around $10-25, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Clean slices without dragging toppings",
+        "Quick",
+        "Cheap"
+      ],
+      "cons": [
+        "Rockers need a lot of storage length",
+        "Do not cut on your steel"
+      ]
+    },
+    {
+      "name": "Dough proofing containers",
+      "tag": "Easy overnight dough",
+      "price": "$15-30",
+      "search": "Dough proofing containers",
+      "image": "dough balls rising in clear lidded containers",
+      "body": "The best pizza dough is made a day or more ahead and rested in the fridge, which develops flavour and makes it easier to stretch. Lidded containers or a proofing box keep dough balls from drying out and sticking together. Individual round containers stack neatly in the fridge. The case for it: better flavour from slow proofing, stops dough drying out, and stackable. The trade-off is real: takes fridge space and dough still needs time out of the fridge before use, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Better flavour from slow proofing",
+        "Stops dough drying out",
+        "Stackable"
+      ],
+      "cons": [
+        "Takes fridge space",
+        "Dough still needs time out of the fridge before use"
+      ]
+    },
+    {
+      "name": "A portable outdoor pizza oven",
+      "tag": "Neapolitan-style pizza",
+      "price": "$250-450",
+      "search": "portable outdoor pizza oven",
+      "image": "a portable gas pizza oven on a garden table",
+      "body": "Portable gas or wood-pellet ovens from Ooni, Gozney and similar brands reach 850°F or more and cook a pizza in about a minute, with the leopard-spotted crust you cannot get indoors. They are the biggest spend here and need outdoor space and practice; pizzas burn in seconds if you are not paying attention. Gas models are easier than wood. The case for it: real pizzeria-level heat, one-minute pizzas, and fun for parties. The trade-off is real: pizzas burn quickly while you learn and needs outdoor space and fuel, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Real pizzeria-level heat",
+        "One-minute pizzas",
+        "Fun for parties"
+      ],
+      "cons": [
+        "Pizzas burn quickly while you learn",
+        "Needs outdoor space and fuel"
+      ]
+    },
+    {
+      "name": "A cast iron pan",
+      "tag": "Deep-dish and Detroit-style",
+      "price": "$25-45",
+      "search": "cast iron pan",
+      "image": "a Detroit-style pizza in a cast iron pan",
+      "body": "Not all pizza is thin. Pan pizzas, Detroit-style and deep-dish bake beautifully in cast iron, with crispy, fried edges, and they suit home ovens perfectly. A 10 or 12-inch skillet you already own will do. It is the easiest way to impress with homemade pizza. The case for it: great pan and deep-dish pizza, suits home ovens perfectly, and used for everything else too. The trade-off is real: heavy and needs seasoning care, so weigh that against how often it would actually get used. Priced around $25-45, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Great pan and deep-dish pizza",
+        "Suits home ovens perfectly",
+        "Used for everything else too"
+      ],
+      "cons": [
+        "Heavy",
+        "Needs seasoning care"
+      ]
+    },
+    {
+      "name": "A pizza screen or perforated pan",
+      "tag": "Crisp base without a stone",
+      "price": "$10-20",
+      "search": "pizza screen or perforated pan",
+      "image": "a perforated pizza pan with a crisp base",
+      "body": "If a steel is not practical, a perforated pan or pizza screen lets heat reach the base and moisture escape, so it crisps better than a solid baking tray. It is cheap, light and good for reheating takeaway pizza too. The case for it: better than a flat baking tray, cheap and light, and great for reheating. The trade-off is real: not as crisp as a steel and dough can sink into screens, so weigh that against how often it would actually get used. At $10-20, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Better than a flat baking tray",
+        "Cheap and light",
+        "Great for reheating"
+      ],
+      "cons": [
+        "Not as crisp as a steel",
+        "Dough can sink into screens"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I make good pizza in a normal oven?",
+      "a": "Yes. Preheat a baking steel at the highest setting for an hour and bake on the top-third rack."
+    },
+    {
+      "q": "Stone or steel?",
+      "a": "Steel browns faster and will not crack. Stone is lighter and cheaper."
+    },
+    {
+      "q": "Is an outdoor pizza oven worth it?",
+      "a": "If you make pizza often and have outdoor space, yes. Master a steel first."
+    },
+    {
+      "q": "What flour should I use?",
+      "a": "Bread flour for home ovens and New York style; 00 flour for very hot outdoor ovens."
+    }
+  ],
+  "updated": "2026-09-23"
+}

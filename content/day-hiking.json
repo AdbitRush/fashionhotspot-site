@@ -1,0 +1,205 @@
+{
+  "slug": "day-hiking",
+  "category": "Outdoor",
+  "title": "Day Hiking Kit That Gets You Home Comfortable, Not Just Home",
+  "dek": "Ten things for day hikes, ranked by what they do for you when the trail runs longer, hotter or wetter than the map suggested.",
+  "seo_title": "The day hiking gear that matters, from shoes and socks to a small first aid kit. Ten picks ranked by what they save you when the trail is longer than planned.",
+  "hero_image": "a hiker on a ridge trail with a small daypack in autumn light",
+  "intro": [
+    "Most day hikes go fine. The ones that do not tend to go wrong in small, predictable ways: blisters from new shoes, running out of water on a hot afternoon, a phone dying just as you need the map, or a sudden cold wind at the summit in a cotton T-shirt. None of it is dramatic. It is just the difference between a good day and a miserable walk back.",
+    "This list is ordered by how much each item protects that day. Feet come first because that is where most hikes are won or lost. The rest is light, affordable kit you will use for years.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from outdoor retailers' fitting advice, park service safety guidance, hiking communities and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. For multi-day trips and camping, see our separate camping guide.",
+  "products": [
+    {
+      "name": "Trail shoes or light hiking shoes that fit",
+      "tag": "The kit that decides the day",
+      "price": "$90-160",
+      "search": "Trail shoes or light hiking shoes that fit",
+      "image": "a pair of trail running shoes on a rocky path",
+      "body": "For most day hikes on maintained trails, light trail shoes are more comfortable than heavy boots and dry faster. Fit is everything: buy in the afternoon when feet are slightly swollen, with a thumb's width at the toe for descents, and walk them in before a long hike. Waterproof versions keep feet dry in wet grass but get hot in summer. Heavy boots only earn their weight on rough terrain with a heavy pack or for weak ankles. The case for it: lighter and more comfortable than boots, grippy soles for trails, and dry faster when wet. The trade-off is real: less ankle support than boots and wear out faster than boots, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Lighter and more comfortable than boots",
+        "Grippy soles for trails",
+        "Dry faster when wet"
+      ],
+      "cons": [
+        "Less ankle support than boots",
+        "Wear out faster than boots"
+      ]
+    },
+    {
+      "name": "Merino or synthetic hiking socks",
+      "tag": "Preventing blisters",
+      "price": "$15-25 per pair",
+      "search": "Merino or synthetic hiking socks",
+      "image": "merino wool hiking socks laid out",
+      "body": "Cotton socks hold sweat, and damp skin rubs into blisters. Merino wool or synthetic hiking socks move moisture away from the skin, cushion the right spots and do not smell as much. They cost more than regular socks and are worth every cent. Carry a spare pair on long hikes. The case for it: prevents blisters, less smell, and comfortable for hours. The trade-off is real: merino wears through faster than synthetic and expensive compared with regular socks, so weigh that against how often it would actually get used. For $15-25 per pair, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Prevents blisters",
+        "Less smell",
+        "Comfortable for hours"
+      ],
+      "cons": [
+        "Merino wears through faster than synthetic",
+        "Expensive compared with regular socks"
+      ]
+    },
+    {
+      "name": "A 20-30L daypack with a hip belt",
+      "tag": "Carrying it all comfortably",
+      "price": "$50-120",
+      "search": "20-30L daypack with a hip belt",
+      "image": "a 25-litre daypack with a hip belt on a trail",
+      "body": "A school backpack hangs from the shoulders and bounces. A proper daypack sits closer to the back, has a ventilated panel and a hip belt that moves weight to your hips. 20-30 litres fits water, layers, food and a first aid kit. Look for a sleeve for a water bladder and side pockets you can reach while walking. The case for it: comfortable for long walks, ventilated back panel, and room for layers and water. The trade-off is real: cheap packs have weak zips and try it loaded before a long hike, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Comfortable for long walks",
+        "Ventilated back panel",
+        "Room for layers and water"
+      ],
+      "cons": [
+        "Cheap packs have weak zips",
+        "Try it loaded before a long hike"
+      ]
+    },
+    {
+      "name": "A 2L water bladder or two bottles",
+      "tag": "Enough water",
+      "price": "$15-35",
+      "search": "2L water bladder or two bottles",
+      "image": "a hydration bladder with a drinking tube in a pack",
+      "body": "Dehydration creeps up quietly and makes everything harder. Carry at least half a litre per hour of hiking, more in heat. A bladder with a tube lets you sip while walking, so you actually drink. Bottles are easier to refill and check. For longer hikes with streams, add a small water filter. The case for it: drink while walking, prevents dehydration, and holds plenty of water. The trade-off is real: bladders are harder to clean and cheap bladders can leak or taste of plastic, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Drink while walking",
+        "Prevents dehydration",
+        "Holds plenty of water"
+      ],
+      "cons": [
+        "Bladders are harder to clean",
+        "Cheap bladders can leak or taste of plastic"
+      ]
+    },
+    {
+      "name": "A light waterproof shell",
+      "tag": "Wind and rain at the top",
+      "price": "$60-150",
+      "search": "light waterproof shell",
+      "image": "a packable rain jacket stuffed into its own pocket",
+      "body": "Weather at the summit is often very different from the car park. A packable waterproof jacket blocks wind and rain and weighs little. Look for taped seams and a hood that adjusts. It lives in the pack on sunny days too. The case for it: blocks wind and rain, packs small, and used year round. The trade-off is real: cheap shells get clammy inside and needs re-proofing after a few seasons, so weigh that against how often it would actually get used. For $60-150, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Blocks wind and rain",
+        "Packs small",
+        "Used year round"
+      ],
+      "cons": [
+        "Cheap shells get clammy inside",
+        "Needs re-proofing after a few seasons"
+      ]
+    },
+    {
+      "name": "A small first aid and blister kit",
+      "tag": "Small injuries",
+      "price": "$15-30",
+      "search": "small first aid and blister kit",
+      "image": "a compact first aid kit with blister plasters",
+      "body": "Blisters, scrapes and minor sprains are the common injuries on day hikes. A small kit with blister plasters, tape, antiseptic wipes, painkillers and an elastic bandage handles them. Add any personal medication. Treat a hot spot on your foot as soon as you feel it, before it becomes a blister. The case for it: handles common trail injuries, small and light, and blister care saves the day. The trade-off is real: pre-made kits often lack blister care and check and refill after use, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Handles common trail injuries",
+        "Small and light",
+        "Blister care saves the day"
+      ],
+      "cons": [
+        "Pre-made kits often lack blister care",
+        "Check and refill after use"
+      ]
+    },
+    {
+      "name": "An offline map app plus a power bank",
+      "tag": "Not getting lost",
+      "price": "$0-40",
+      "search": "offline map app plus a power bank",
+      "image": "a phone showing an offline trail map next to a small power bank",
+      "body": "Phone signal disappears in valleys and forests. Download the trail map before leaving with apps like AllTrails, Gaia GPS or your park's own app. GPS still works without signal. Carry a small power bank, because navigation drains batteries fast. Tell someone your route and when you expect to return. The case for it: works without signal, shows your exact location, and power bank keeps it running. The trade-off is real: phones die in cold weather and a paper map is still a good backup, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Works without signal",
+        "Shows your exact location",
+        "Power bank keeps it running"
+      ],
+      "cons": [
+        "Phones die in cold weather",
+        "A paper map is still a good backup"
+      ]
+    },
+    {
+      "name": "Trekking poles",
+      "tag": "Knees on descents",
+      "price": "$30-80",
+      "search": "Trekking poles",
+      "image": "a pair of folding trekking poles leaning on a rock",
+      "body": "Poles take strain off knees on steep descents and help balance on rough or wet ground. Folding or telescoping poles pack away when not needed. Cork or foam grips are more comfortable than plastic. They seem optional until your first long downhill. The case for it: less knee strain downhill, better balance, and fold small. The trade-off is real: another thing to carry and cheap locks slip, so weigh that against how often it would actually get used. For $30-80, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Less knee strain downhill",
+        "Better balance",
+        "Fold small"
+      ],
+      "cons": [
+        "Another thing to carry",
+        "Cheap locks slip"
+      ]
+    },
+    {
+      "name": "A sun hat and sunglasses",
+      "tag": "Exposed trails",
+      "price": "$20-50",
+      "search": "sun hat and sunglasses",
+      "image": "a wide-brim sun hat and sunglasses on a pack",
+      "body": "Exposed ridges and desert trails mean hours of sun. A wide-brim hat protects the face, ears and neck, and UV-blocking sunglasses protect your eyes. Add sunscreen to the pack. Sunburn and heat exhaustion are two of the most common reasons hikes end badly in summer. The case for it: protects from sunburn and heat, protects eyes, and cheap. The trade-off is real: wide brims catch wind and cheap sunglasses may not block UV fully, so weigh that against how often it would actually get used. Priced around $20-50, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Protects from sunburn and heat",
+        "Protects eyes",
+        "Cheap"
+      ],
+      "cons": [
+        "Wide brims catch wind",
+        "Cheap sunglasses may not block UV fully"
+      ]
+    },
+    {
+      "name": "A fleece or light insulated layer",
+      "tag": "Cold summits and breaks",
+      "price": "$30-80",
+      "search": "fleece or light insulated layer",
+      "image": "a hiker in a fleece at a windy summit",
+      "body": "You warm up walking uphill and cool down fast at the top or at lunch. A light fleece or synthetic insulated jacket keeps you warm on breaks. Synthetic insulation stays warm when damp, which down does not. It packs into the bottom of the daypack. The case for it: stay warm on breaks and summits, light, and useful for daily wear too. The trade-off is real: bulky fleeces take pack space and down loses warmth when wet, so weigh that against how often it would actually get used. At $30-80, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Stay warm on breaks and summits",
+        "Light",
+        "Useful for daily wear too"
+      ],
+      "cons": [
+        "Bulky fleeces take pack space",
+        "Down loses warmth when wet"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need hiking boots for day hikes?",
+      "a": "Not usually. Trail shoes are lighter and comfortable on most maintained trails. Boots help on rough terrain or if you need ankle support."
+    },
+    {
+      "q": "How much water should I bring?",
+      "a": "About half a litre per hour of hiking, more in heat. Bring extra if you are unsure."
+    },
+    {
+      "q": "What are the ten essentials?",
+      "a": "Navigation, light, sun protection, first aid, a knife or tool, fire, shelter, extra food, extra water and extra layers. Scale them to the hike."
+    },
+    {
+      "q": "How do I avoid blisters?",
+      "a": "Shoes that fit, merino or synthetic socks, and treating hot spots early."
+    }
+  ],
+  "updated": "2026-09-23"
+}

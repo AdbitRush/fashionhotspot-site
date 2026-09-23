@@ -1,0 +1,205 @@
+{
+  "slug": "mens-grooming",
+  "category": "Beauty",
+  "title": "Men's Grooming Kit That Does the Job Without a Shelf of Products",
+  "dek": "Ten grooming picks ranked by how much difference each one makes to how you look and feel day to day. A good trimmer and sunscreen beat a shelf of products.",
+  "seo_title": "Trimmers, razors, skincare basics and the few tools that matter for men's grooming. Ten picks ranked by how much difference they make day to day.",
+  "hero_image": "a bathroom shelf with a beard trimmer, razor, cleanser and moisturiser",
+  "intro": [
+    "Men's grooming marketing sells complicated routines, multi-blade razors with ten blades and products for problems nobody had. What most men actually need is short: a good trimmer or razor, a gentle face wash, a moisturiser with sunscreen, and a few tools that stop small problems like ingrown hairs and dry skin.",
+    "This list is ordered by how much each item changes your day-to-day look and comfort. Most of it lasts years or costs little to refill.",
+    "Prices below are approximate street prices at the time of writing and move around constantly, especially during sale events. Treat them as a rough band for budgeting, not a quote. Always check the live listing before you buy."
+  ],
+  "how_we_pick": "These picks come from dermatologist guidance, barber advice, published trimmer and razor testing and long-run owner reports, cross-checked against current retail listings. We have not personally tested every item here. Counterfeit grooming electronics are common on marketplaces; buy from official stores.",
+  "products": [
+    {
+      "name": "A cordless beard and body trimmer with guards",
+      "tag": "The tool most men use most",
+      "price": "$40-90",
+      "search": "cordless beard and body trimmer with guards",
+      "image": "a cordless beard trimmer with a set of guard combs",
+      "body": "Whether you keep stubble, a full beard or just tidy up before a haircut, a good trimmer is used several times a week. Look for sharp stainless or titanium blades, several guard lengths, a long battery life and a washable head. Philips, Braun and Wahl are the reliable names. Multi-groom kits handle beard, body and hair. Cheaper no-name trimmers pull hairs and die within a year. The case for it: handles most grooming jobs, precise length control, and lasts years. The trade-off is real: guards can pop off mid-trim on cheap models and clean after each use, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Handles most grooming jobs",
+        "Precise length control",
+        "Lasts years"
+      ],
+      "cons": [
+        "Guards can pop off mid-trim on cheap models",
+        "Clean after each use"
+      ]
+    },
+    {
+      "name": "A daily moisturiser with SPF 30",
+      "tag": "Skin protection",
+      "price": "$12-25",
+      "search": "daily moisturiser with SPF 30",
+      "image": "a tube of daily moisturiser with SPF 30",
+      "body": "Sun damage is the main cause of skin ageing and a skin cancer risk. A daily moisturiser with broad-spectrum SPF 30 protects and hydrates in one step, which makes it a habit you will keep. Choose a light, non-greasy formula. If you only buy one skincare product, buy this. The case for it: protects from sun damage, hydrates, and one easy step. The trade-off is real: some leave a slight white cast and reapply outdoors, so weigh that against how often it would actually get used. For $12-25, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about.",
+      "pros": [
+        "Protects from sun damage",
+        "Hydrates",
+        "One easy step"
+      ],
+      "cons": [
+        "Some leave a slight white cast",
+        "Reapply outdoors"
+      ]
+    },
+    {
+      "name": "A gentle face wash",
+      "tag": "Clean, calm skin",
+      "price": "$8-15",
+      "search": "gentle face wash",
+      "image": "a gentle face cleanser beside a sink",
+      "body": "Bar soap strips skin and can leave it dry and tight. A gentle, fragrance-free face wash cleans without irritation. CeraVe, Cetaphil and similar brands are affordable dermatologist favourites. Once a day in the evening is enough for most people. The case for it: cleans without drying, suits sensitive skin, and cheap. The trade-off is real: less \"clean\" feeling than harsh soaps and scrubs are not needed daily, so weigh that against how often it would actually get used. Priced around $8-15, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Cleans without drying",
+        "Suits sensitive skin",
+        "Cheap"
+      ],
+      "cons": [
+        "Less \"clean\" feeling than harsh soaps",
+        "Scrubs are not needed daily"
+      ]
+    },
+    {
+      "name": "A safety razor or quality cartridge razor",
+      "tag": "Close, comfortable shaves",
+      "price": "$20-50",
+      "search": "safety razor or quality cartridge razor",
+      "image": "a chrome double-edge safety razor",
+      "body": "Safety razors use a single cheap blade and cause less irritation for many men, especially those with ingrown hairs, because they cut without pulling. They take a week or two to learn. Quality cartridge razors are easier from day one. Either way, shave with the grain and replace blades often. The case for it: close shave, less irritation for many, and cheap blades. The trade-off is real: safety razors have a learning curve and blades are a travel issue in carry-on, so weigh that against how often it would actually get used.",
+      "pros": [
+        "Close shave",
+        "Less irritation for many",
+        "Cheap blades"
+      ],
+      "cons": [
+        "Safety razors have a learning curve",
+        "Blades are a travel issue in carry-on"
+      ]
+    },
+    {
+      "name": "A shaving cream or gel for sensitive skin",
+      "tag": "Less irritation",
+      "price": "$8-15",
+      "search": "shaving cream or gel for sensitive skin",
+      "image": "a tube of shaving cream and a brush",
+      "body": "Shaving cream helps the razor glide and protects the skin. Choose a fragrance-free formula for sensitive skin. A shaving brush builds a richer lather and lifts hairs, but is optional. The case for it: smoother shave, less irritation, and cheap. The trade-off is real: fragrances can irritate and cans are bulky for travel, so weigh that against how often it would actually get used. For $8-15, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about. It is a minor purchase in the context of the whole set-up, but the kind that is easy to regret skipping once you notice the gap.",
+      "pros": [
+        "Smoother shave",
+        "Less irritation",
+        "Cheap"
+      ],
+      "cons": [
+        "Fragrances can irritate",
+        "Cans are bulky for travel"
+      ]
+    },
+    {
+      "name": "A nose and ear hair trimmer",
+      "tag": "Quick tidy-ups",
+      "price": "$15-30",
+      "search": "nose and ear hair trimmer",
+      "image": "a small nose and ear hair trimmer",
+      "body": "Nose and ear hair gets more noticeable with age. A small rotary trimmer handles it safely in seconds. Look for a washable head and a battery that lasts. It is one of those small tools that makes a big difference to looking tidy. The case for it: quick and safe, small, and cheap. The trade-off is real: cheap ones pull hairs and clean after each use, so weigh that against how often it would actually get used. Priced around $15-30, it is easy to justify even if it only ends up getting occasional rather than daily use.",
+      "pros": [
+        "Quick and safe",
+        "Small",
+        "Cheap"
+      ],
+      "cons": [
+        "Cheap ones pull hairs",
+        "Clean after each use"
+      ]
+    },
+    {
+      "name": "A beard oil or balm",
+      "tag": "Softer beards, less itch",
+      "price": "$10-20",
+      "search": "beard oil or balm",
+      "image": "a bottle of beard oil and a wooden comb",
+      "body": "New beards itch, and longer beards get dry and wiry. A few drops of beard oil soften the hair and moisturise the skin underneath. Balm adds hold for longer beards. Choose light or unscented oils if you dislike strong smells. The case for it: reduces beard itch, softer beard, and healthier skin underneath. The trade-off is real: strong scents can clash with cologne and too much looks greasy, so weigh that against how often it would actually get used. At $10-20, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Reduces beard itch",
+        "Softer beard",
+        "Healthier skin underneath"
+      ],
+      "cons": [
+        "Strong scents can clash with cologne",
+        "Too much looks greasy"
+      ]
+    },
+    {
+      "name": "Nail clippers and a file",
+      "tag": "Neat hands",
+      "price": "$10-20",
+      "search": "Nail clippers and a file",
+      "image": "stainless steel nail clippers and a glass file",
+      "body": "Sharp, sturdy nail clippers cut cleanly without splitting nails. Cheap clippers go dull and crush. A glass file smooths edges. Small tools, but people notice hands. The case for it: clean cuts, lasts years, and small. The trade-off is real: good clippers cost more and glass files can break, so weigh that against how often it would actually get used. For $10-20, it is a small, low-risk addition to the list rather than a centrepiece purchase you need to think hard about. It is a minor purchase in the context of the whole set-up, but the kind that is easy to regret skipping once you notice the gap.",
+      "pros": [
+        "Clean cuts",
+        "Lasts years",
+        "Small"
+      ],
+      "cons": [
+        "Good clippers cost more",
+        "Glass files can break"
+      ]
+    },
+    {
+      "name": "Lip balm with SPF",
+      "tag": "Chapped lips",
+      "price": "$4-8",
+      "search": "Lip balm with SPF",
+      "image": "a lip balm stick with SPF",
+      "body": "Lips burn and chap easily, especially in winter and outdoors. An unscented balm with SPF protects and moisturises. Keep one in a pocket and one by the bed. The case for it: prevents chapping, sun protection, and cheap. The trade-off is real: easy to lose and melts in hot cars, so weigh that against how often it would actually get used. Priced around $4-8, it is easy to justify even if it only ends up getting occasional rather than daily use. None of that makes it essential for everyone reading this, only worth knowing about if the description above matches how you actually use the space.",
+      "pros": [
+        "Prevents chapping",
+        "Sun protection",
+        "Cheap"
+      ],
+      "cons": [
+        "Easy to lose",
+        "Melts in hot cars"
+      ]
+    },
+    {
+      "name": "An electric foil shaver",
+      "tag": "Fast daily shaving",
+      "price": "$60-150",
+      "search": "electric foil shaver",
+      "image": "an electric foil shaver in a charging stand",
+      "body": "For men who shave every day and are short on time, an electric foil shaver is fast, can be used dry and causes less nicking. It does not shave quite as close as a blade. Replace the foil and cutters every year or two. The case for it: fast, fewer cuts, and can be used dry. The trade-off is real: not as close as a blade and replacement heads add cost, so weigh that against how often it would actually get used. At $60-150, it earns its place on this list without asking for a big up-front commitment either way.",
+      "pros": [
+        "Fast",
+        "Fewer cuts",
+        "Can be used dry"
+      ],
+      "cons": [
+        "Not as close as a blade",
+        "Replacement heads add cost"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What grooming products do men actually need?",
+      "a": "A trimmer or razor, a gentle face wash, a moisturiser with SPF and lip balm. Everything else is optional."
+    },
+    {
+      "q": "How do I avoid razor bumps?",
+      "a": "Shave with the grain, use a sharp blade and a gentle cream, and consider a safety razor or trimmer instead."
+    },
+    {
+      "q": "Is beard oil necessary?",
+      "a": "It helps with itch and dryness, especially for new or long beards."
+    },
+    {
+      "q": "Electric shaver or razor?",
+      "a": "Electric for speed and fewer cuts; razor for the closest shave."
+    }
+  ],
+  "updated": "2026-09-23"
+}
