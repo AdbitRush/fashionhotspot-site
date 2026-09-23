@@ -468,6 +468,10 @@ html[data-design="list"].fh-home .card-meta{display:contents}
    the red the discount tag uses: red is the alarm colour and this is the good
    news. --save is the token the list design already uses for it. */
 .fh-home .card-save{font-size:13px;line-height:1.5;font-weight:800;color:var(--save);direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+/* 22.9 health check B2: a small, quiet freshness note under the price — visible without
+   hovering (the price tooltip already has the approximate/verify-before-buying caveat;
+   phones cannot hover it). Absent entirely on rows with no priceCheckedAt (Amazon/Israel). */
+.fh-home .price-checked{display:block;font-size:12px;line-height:1.4;color:var(--ink3)}
 .fh-home .card-usd{font-size:13px;line-height:1.4;color:var(--ink3);margin-top:-4px}
 .fh-home .stars{color:var(--amber-ink);font-size:14px;line-height:1.5;letter-spacing:1px}
 .fh-home .buy-btn{position:relative;display:flex;align-items:center;justify-content:center;gap:7px;height:47px;background:var(--grad);background-size:200% auto;color:var(--on-grad);font-weight:800;font-size:14px;line-height:1.5;border-radius:14px;margin-top:4px;overflow:hidden;transition:transform var(--t-fast) var(--ease),box-shadow var(--t) var(--ease)}

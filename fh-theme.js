@@ -1,4 +1,4 @@
-/* fashionhotspot — the ONE theme initialisation path, for every page family
+/* AllyFind — the ONE theme initialisation path, for every page family
    (homepage, guides index, guide articles, static pages). Linked from <head> as a
    small blocking script so the theme is applied BEFORE first paint; a page never
    flashes dark and then turns light (or the reverse).
