@@ -1,0 +1,172 @@
+{
+  "slug": "indoor-cats",
+  "title": "Artículos para gatos de interior que los mantienen ocupados, sanos y fuera de la encimera",
+  "dek": "Diez cosas para gatos de interior, clasificadas según cuánto ayudan con el aburrimiento, el peso y los sofás arañados. La mayoría de los problemas de los gatos son problemas de aburrimiento.",
+  "category": "Mascotas",
+  "how_we_pick": "Estas selecciones provienen de guías veterinarias y de comportamiento felino, comunidades de dueños de gatos e informes de dueños a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Cambios repentinos de comportamiento pueden indicar un problema de salud, así que hable con su veterinario si los hábitos de su gato cambian.",
+  "intro": [
+    "Los gatos de interior viven vidas más largas y seguras que los gatos de exterior, pero muchos están aburridos. El aburrimiento se manifiesta como muebles arañados, vasos volcados, carreras nocturnas, comer en exceso y estrés. La mayoría de estos comportamientos son un gato intentando hacer cosas de gato en un espacio que no se lo permite: trepar, arañar, cazar y observar el mundo.",
+    "Esta lista está ordenada por cuánto proporciona cada artículo a un gato de interior esas salidas. Nada de esto es caro, y la mayoría ahorra muebles y facturas veterinarias.",
+    "Los precios a continuación son precios aproximados de calle en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre revise el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un poste rascador alto y robusto",
+      "tag": "La pieza que salva el sofá",
+      "body": "Los gatos arañan para mantener las uñas sanas, estirarse y marcar territorio. La mayoría de los postes que se venden son demasiado cortos y tambaleantes, por lo que los gatos los ignoran y usan el sofá. Un buen poste es lo suficientemente alto para un estiramiento completo, de unas 30 pulgadas o más, cubierto de cuerda de sisal y lo suficientemente pesado como para no volcarse. Colóquelo junto a los muebles que a su gato le gusta arañar y recompénselo cuando lo use. El argumento a favor: salva muebles, uñas y estiramientos sanos, y los gatos realmente usan postes altos y estables. La contrapartida es real: ocupa espacio en el suelo y los postes cortos y tambaleantes se ignoran, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Salva muebles",
+        "Uñas y estiramientos sanos",
+        "Los gatos realmente usan postes altos y estables"
+      ],
+      "cons": [
+        "Ocupa espacio en el suelo",
+        "Los postes cortos y tambaleantes se ignoran"
+      ]
+    },
+    {
+      "name": "Un juguete de varita",
+      "tag": "Juego diario que los agota",
+      "body": "Nada agota más a un gato que un juguete de varita con plumas o tela movido como presa. De diez a quince minutos de juego dos veces al día reduce la actividad nocturna, ayuda con el peso y fortalece su vínculo. Termine cada sesión con una golosina, que imita una caza exitosa. Guárdelo después, para que siga siendo emocionante y nadie se trague el hilo. El argumento a favor: quema energía, ayuda al control del peso y fortalece su vínculo. La contrapartida es real: los hilos son inseguros si se dejan sin supervisión y las plumas se desgastan; compre repuestos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Quema energía",
+        "Ayuda al control del peso",
+        "Fortalece su vínculo"
+      ],
+      "cons": [
+        "Los hilos son inseguros si se dejan sin supervisión",
+        "Las plumas se desgastan; compre repuestos"
+      ]
+    },
+    {
+      "name": "Un árbol para gatos cerca de una ventana",
+      "tag": "Trepar y observar",
+      "body": "Los gatos se sienten seguros en las alturas, y un árbol para gatos les proporciona lugares para trepar, observar y un lugar para dormir la siesta. Cerca de una ventana, se convierte en su lugar favorito. Elija un árbol estable con una base ancha, postes de sisal y plataformas lo suficientemente grandes para su gato. Los árboles baratos se tambalean, lo que a los gatos no les gusta. El argumento a favor: trepar y altura, lugares para observar y dormir la siesta, y rascado incorporado. La contrapartida es real: es grande y difícil de ocultar, y los árboles baratos se tambalean, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 60 y 150 dólares, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Trepar y altura",
+        "Lugares para observar y dormir la siesta",
+        "Rascado incorporado"
+      ],
+      "cons": [
+        "Grande y difícil de ocultar",
+        "Los árboles baratos se tambalean"
+      ]
+    },
+    {
+      "name": "Un rompecabezas de comida o pelota dispensadora de golosinas",
+      "tag": "Comer más lento y cazar",
+      "body": "Los gatos en la naturaleza trabajan por cada comida. La comida de un cuenco se come en segundos. Los comederos rompecabezas y las pelotas dispensadoras de golosinas hacen que cacen por las croquetas, lo que ralentiza la alimentación, reduce los vómitos y proporciona ejercicio mental. Comience con uno fácil y hágalo más difícil con el tiempo. El argumento a favor: ralentiza la alimentación rápida, estimulación mental y ayuda al control del peso. La contrapartida es real: algunos gatos pierden interés y es más difícil de usar con comida húmeda, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 10 y 25 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras.",
+      "pros": [
+        "Ralentiza la alimentación rápida",
+        "Estimulación mental",
+        "Ayuda al control del peso"
+      ],
+      "cons": [
+        "Algunos gatos pierden interés",
+        "Más difícil de usar con comida húmeda"
+      ]
+    },
+    {
+      "name": "Una fuente de agua",
+      "tag": "Beber más agua",
+      "body": "Muchos gatos no beben lo suficiente, lo que se relaciona con problemas urinarios y renales. El agua en movimiento atrae a muchos gatos, y las fuentes mantienen el agua fresca y filtrada. Límpiela semanalmente y cambie los filtros regularmente. Colóquela lejos del cuenco de comida; los gatos prefieren el agua lejos de la comida. El argumento a favor: fomenta la bebida, agua fresca y filtrada, y hay modelos silenciosos disponibles. La contrapartida es real: necesita limpieza regular y los filtros son un costo continuo, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 25 y 45 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que necesite pensar mucho.",
+      "pros": [
+        "Fomenta la bebida",
+        "Agua fresca y filtrada",
+        "Modelos silenciosos disponibles"
+      ],
+      "cons": [
+        "Necesita limpieza regular",
+        "Los filtros son un costo continuo"
+      ]
+    },
+    {
+      "name": "Una caja de arena grande y descubierta",
+      "tag": "Menos problemas con la arena",
+      "body": "La mayoría de las cajas de arena son demasiado pequeñas. Los gatos prefieren una caja de aproximadamente una vez y media su longitud corporal, descubierta, con arena aglomerante sin perfume, en un lugar tranquilo. Muchos problemas con la arena desaparecen con una caja más grande y una limpieza diaria. El consejo habitual es una caja por gato más una. El argumento a favor: menos accidentes, los gatos las prefieren y son fáciles de limpiar. La contrapartida es real: las cajas descubiertas muestran la arena y ocupan más espacio, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 20 y 45 dólares, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Menos accidentes",
+        "Los gatos las prefieren",
+        "Fáciles de limpiar"
+      ],
+      "cons": [
+        "Las cajas descubiertas muestran la arena",
+        "Ocupan más espacio"
+      ]
+    },
+    {
+      "name": "Un percha para ventana",
+      "tag": "Observación de pájaros",
+      "body": "Una percha para ventana le da a su gato un asiento de primera fila para ver pájaros y transeúntes, lo que los dueños de gatos a veces llaman \"TV para gatos\". Las perchas con ventosas o atornilladas soportan a la mayoría de los gatos. Coloque un comedero para pájaros fuera de la ventana para entretenimiento adicional. El argumento a favor: horas de entretenimiento, utiliza espacio de ventana desocupado y es barata. La contrapartida es real: las ventosas pueden fallar y hay que comprobar los límites de peso, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 20 y 40 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras. Como con cualquier cosa en esta lista, verifique los detalles exactos del listado y el precio actual antes de agregarla a un carrito.",
+      "pros": [
+        "Horas de entretenimiento",
+        "Utiliza espacio de ventana desocupado",
+        "Barata"
+      ],
+      "cons": [
+        "Las ventosas pueden fallar",
+        "Comprobar los límites de peso"
+      ]
+    },
+    {
+      "name": "Estantes de pared para gatos",
+      "tag": "Espacio vertical en hogares pequeños",
+      "body": "En apartamentos pequeños, las paredes son donde está el espacio. Un conjunto de estantes y escalones para gatos crea una ruta de escalada y le da al gato su propio territorio, lo que puede reducir la tensión en hogares con varios gatos. Necesitan un montaje seguro en los montantes. El argumento a favor: añade espacio sin ocupar suelo, reduce la tensión entre varios gatos y queda bien. La contrapartida es real: necesita un montaje seguro en la pared y los inquilinos deben consultar las reglas del contrato de arrendamiento, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 40 y 100 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que necesite pensar mucho.",
+      "pros": [
+        "Añade espacio sin ocupar suelo",
+        "Reduce la tensión entre varios gatos",
+        "Queda bien"
+      ],
+      "cons": [
+        "Necesita un montaje seguro en la pared",
+        "Los inquilinos deben consultar las reglas del contrato de arrendamiento"
+      ]
+    },
+    {
+      "name": "Rascadores de cartón",
+      "tag": "Rascado barato en todas partes",
+      "body": "Algunos gatos prefieren arañar horizontalmente. Los rascadores planos de cartón son baratos y a los gatos les encantan. Coloque varios por la casa, especialmente cerca de las puertas y los lugares de descanso. Reemplace cuando estén desgastados. El argumento a favor: barato, adecuado para gatos que arañan horizontalmente, y los gatos a menudo duermen la siesta sobre ellos. La contrapartida es real: sueltan trozos de cartón y se desgastan en meses, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 10 y 20 dólares, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario. Nada de eso lo hace esencial para todos los que leen esto, solo vale la pena saberlo si la descripción anterior coincide con la forma en que realmente usa el espacio.",
+      "pros": [
+        "Barato",
+        "Adecuado para gatos que arañan horizontalmente",
+        "Los gatos a menudo duermen la siesta sobre ellos"
+      ],
+      "cons": [
+        "Sueltan trozos de cartón",
+        "Se desgastan en meses"
+      ]
+    },
+    {
+      "name": "Un cepillo de aseo autolimpiable",
+      "tag": "Bolas de pelo y muda de pelo",
+      "body": "El cepillado regular reduce las bolas de pelo, la muda y los enredos, especialmente en gatos de pelo largo. Un cepillo con un botón que expulsa el pelo facilita la limpieza. Cepille unos minutos varias veces por semana; muchos gatos aprenden a disfrutarlo. El argumento a favor: menos bolas de pelo, menos pelo en los muebles y fácil de limpiar. La contrapartida es real: algunos gatos no disfrutan del cepillado y demasiada presión puede arañar la piel, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 10 y 20 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras.",
+      "pros": [
+        "Menos bolas de pelo",
+        "Menos pelo en los muebles",
+        "Fácil de limpiar"
+      ],
+      "cons": [
+        "Algunos gatos no disfrutan del cepillado",
+        "Demasiada presión puede arañar la piel"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo evito que mi gato arañe el sofá?",
+      "a": "Pon un poste de sisal alto y estable al lado, recompensa su uso y haz que el sofá sea menos atractivo con fundas o cinta adhesiva por un tiempo."
+    },
+    {
+      "q": "¿Cuánto juego necesita un gato de interior?",
+      "a": "Unos 10-15 minutos de juego activo dos veces al día para la mayoría de los gatos."
+    },
+    {
+      "q": "¿Necesitan los gatos fuentes de agua?",
+      "a": "No siempre, pero muchos beben más de ellas, lo que ayuda a la salud urinaria."
+    },
+    {
+      "q": "¿Cuántas cajas de arena necesito?",
+      "a": "Una por gato, más una, en lugares tranquilos."
+    }
+  ]
+}

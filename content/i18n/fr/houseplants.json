@@ -1,0 +1,172 @@
+{
+  "slug": "houseplants",
+  "title": "Les plantes d'intérieur qui survivent dans une vraie maison, et le matériel pour les garder en vie",
+  "dek": "Dix éléments classés selon leur capacité à augmenter les chances de survie d'une plante durant sa première année à l'intérieur. La plupart des plantes meurent par excès de gentillesse, pas par négligence.",
+  "category": "Maison",
+  "how_we_pick": "Ces choix proviennent des conseils des services de vulgarisation horticole, des communautés d'entretien des plantes et des rapports d'utilisateurs à long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article ici. Nous avons privilégié les plantes et les outils qui pardonnent les erreurs, car la plupart des maisons n'ont pas une lumière parfaite ni une routine parfaite. Si vous avez des chats ou des chiens, vérifiez la toxicité de chaque plante avant d'acheter.",
+  "intro": [
+    "Les plantes d'intérieur meurent pour la plupart de la même manière : quelqu'un les aime trop. On les arrose selon un calendrier au lieu de quand la terre est sèche, elles sont placées dans un pot décoratif sans trou de drainage, et elles vivent dans un coin sombre parce que c'est là qu'elles sont jolies. Les racines pourrissent, les feuilles jaunissent, et la plante est blâmée.",
+    "Cette liste est ordonnée par impact. Les premiers choix sont peu coûteux et règlent les causes de la plupart des décès de plantes. Ensuite viennent les plantes résistantes pour commencer, et les outils qui facilitent l'entretien d'une petite collection.",
+    "Les prix indiqués ci-dessous sont les prix de rue approximatifs au moment de la rédaction et varient constamment, surtout pendant les périodes de soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Pots de pépinière à placer dans des pots décoratifs",
+      "tag": "La solution qui sauve le plus de plantes",
+      "body": "Un pot sans trou de drainage est le tueur de plantes le plus courant qui soit. L'eau s'accumule au fond, les racines baignent dedans, et elles pourrissent. La solution simple est de garder chaque plante dans un pot en plastique simple avec des trous et de le placer à l'intérieur du joli pot. Arrosez dans l'évier, laissez égoutter, et remettez-le en place. Vous obtenez le look que vous voulez et des racines qui peuvent respirer. Achetez les pots en plastique une taille au-dessus de la motte de racines, pas trois tailles au-dessus. L'avantage : prévient la pourriture des racines, la principale cause de mort des plantes, conserve vos pots décoratifs et facilite le rempotage. Le compromis est réel : vérifiez la présence d'eau stagnante dans le pot extérieur et un pot trop grand retient trop de terre humide, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Prévient la pourriture des racines, la principale cause de mort des plantes",
+        "Conserve vos pots décoratifs",
+        "Facilite le rempotage"
+      ],
+      "cons": [
+        "Vérifiez la présence d'eau stagnante dans le pot extérieur",
+        "Un pot trop grand retient trop de terre humide"
+      ]
+    },
+    {
+      "name": "Un humidimètre bon marché",
+      "tag": "Savoir quand arroser",
+      "body": "Arroser chaque dimanche ignore la saison, la lumière et la plante. Une simple sonde vous indique si la terre est sèche au niveau des racines, pas seulement en surface. Arrosez quand il indique sec pour la plupart des plantes, et vous arrêterez de les noyer. Pas besoin de piles pour les modèles de base. Après quelques semaines, vous apprenez ce que signifie « sec » et vous en avez à peine besoin. L'avantage : arrête le sur-arrosage, bon marché et sans pile, et vous apprend le rythme de chaque plante. Le compromis est réel : les lectures sont approximatives, pas exactes, et essuyez la sonde entre les pots pour éviter de propager des parasites, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Arrête le sur-arrosage",
+        "Bon marché et sans pile",
+        "Vous apprend le rythme de chaque plante"
+      ],
+      "cons": [
+        "Les lectures sont approximatives, pas exactes",
+        "Essuyez la sonde entre les pots pour éviter de propager des parasites"
+      ]
+    },
+    {
+      "name": "Terreau léger et bien drainant",
+      "tag": "Racines saines",
+      "body": "La terre de jardin et le terreau dense et bon marché restent trop humides à l'intérieur. La plupart des plantes d'intérieur préfèrent un mélange aéré avec de l'écorce, de la perlite ou des copeaux de coco pour que l'eau s'écoule et que l'air atteigne les racines. Achetez un mélange étiqueté pour plantes d'intérieur ou pour aracées, ou ajoutez de la perlite à un mélange standard. Lorsque vous rempotez une nouvelle plante du magasin, c'est ce qu'il faut utiliser. L'avantage : empêche les racines de rester détrempées, convient à la plupart des plantes d'intérieur courantes, et facile à améliorer avec de la perlite. Le compromis est réel : les mélanges légers sèchent plus vite et les cactus et succulentes ont besoin d'un mélange encore plus granuleux, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Empêche les racines de rester détrempées",
+        "Convient à la plupart des plantes d'intérieur courantes",
+        "Facile à améliorer avec de la perlite"
+      ],
+      "cons": [
+        "Les mélanges légers sèchent plus vite",
+        "Les cactus et succulentes ont besoin d'un mélange encore plus granuleux"
+      ]
+    },
+    {
+      "name": "Un pothos ou un philodendron",
+      "tag": "La première plante à acheter",
+      "body": "Le pothos et le philodendron à feuilles en cœur sont les plantes que les gens gardent en vie par accident. Ils tolèrent la lumière moyenne, flétrissent visiblement quand ils ont soif et se redressent en quelques heures après l'arrosage, ce qui vous apprend leurs besoins. Ils retombent des étagères ou grimpent sur un tuteur, et les boutures s'enracinent dans un verre d'eau, donc une plante en devient cinq. Ils sont toxiques pour les chats et les chiens s'ils sont mâchés, alors gardez-les hors de portée. L'avantage : très indulgent, indique clairement quand il a besoin d'eau, et facile à propager et à partager. Le compromis est réel : toxique pour les animaux de compagnie s'il est ingéré et devient filiforme dans la pénombre, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Très indulgent",
+        "Indique clairement quand il a besoin d'eau",
+        "Facile à propager et à partager"
+      ],
+      "cons": [
+        "Toxique pour les animaux de compagnie s'il est ingéré",
+        "Devient filiforme dans la pénombre"
+      ]
+    },
+    {
+      "name": "Un sansevieria ou un zamioculcas",
+      "tag": "Pièces sombres et personnes occupées",
+      "body": "Si vous voyagez, oubliez d'arroser, ou avez une pièce plus sombre, ces plantes sont pour vous. Les deux stockent l'eau dans leurs feuilles ou leurs racines et sont heureux d'être arrosés toutes les quelques semaines. Ils tolèrent une lumière plus faible que presque tout le reste, bien qu'ils y poussent lentement. La principale façon de les tuer est l'excès d'eau. Les deux sont légèrement toxiques pour les animaux de compagnie. L'avantage : tolère la pénombre et la négligence, arrosage toutes les deux à quatre semaines, et leur forme droite s'adapte aux coins. Le compromis est réel : croissance lente dans la pénombre et le sur-arrosage est le seul vrai risque, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Tolère la pénombre et la négligence",
+        "Arrosage toutes les deux à quatre semaines",
+        "Leur forme droite s'adapte aux coins"
+      ],
+      "cons": [
+        "Croissance lente dans la pénombre",
+        "Le sur-arrosage est le seul vrai risque"
+      ]
+    },
+    {
+      "name": "Une lampe de croissance LED à spectre complet",
+      "tag": "Pièces sans bonnes fenêtres",
+      "body": "La lumière est ce que les gens jugent le plus mal. Une pièce qui vous semble lumineuse peut être une ombre profonde pour une plante. Une lampe de croissance LED à spectre complet avec une minuterie donne aux plantes ce qu'une fenêtre ne peut pas, et les modèles modernes ressemblent à une lumière blanche normale plutôt que violette. Les modèles à clip et à ampoule sont bon marché. Réglez la minuterie sur 10-12 heures par jour et gardez-la à environ 30 cm au-dessus des feuilles. L'avantage : fait pousser les plantes dans des pièces sombres, minuteries intégrées sur de nombreux modèles, et la lumière blanche a un aspect normal dans une maison. Le compromis est réel : augmente légèrement la facture d'électricité et une proximité excessive peut brûler les feuilles, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Fait pousser les plantes dans des pièces sombres",
+        "Minuteries intégrées sur de nombreux modèles",
+        "La lumière blanche a un aspect normal dans une maison"
+      ],
+      "cons": [
+        "Augmente légèrement la facture d'électricité",
+        "Une proximité excessive peut brûler les feuilles"
+      ]
+    },
+    {
+      "name": "Un arrosoir à bec étroit",
+      "tag": "Arroser la terre, pas les feuilles",
+      "body": "Un bec long et fin amène l'eau à la base de la plante sous les feuilles et dans les étagères encombrées sans déborder. Cela peut sembler mineur, mais verser depuis un verre éclabousse la terre et mouille les feuilles, ce qui peut causer des taches et de la pourriture. Un arrosoir d'un litre est facile à manipuler et à remplir dans un évier de salle de bain. L'avantage : arrosage précis sous les feuilles, pas d'éclaboussures sur les meubles, et facile à manipuler. Le compromis est réel : les petits arrosoirs nécessitent des remplissages fréquents pour les grandes collections et les arrosoirs en métal peuvent rouiller à l'intérieur, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Arrosage précis sous les feuilles",
+        "Pas d'éclaboussures sur les meubles",
+        "Facile à manipuler"
+      ],
+      "cons": [
+        "Les petits arrosoirs nécessitent des remplissages fréquents pour les grandes collections",
+        "Les arrosoirs en métal peuvent rouiller à l'intérieur"
+      ]
+    },
+    {
+      "name": "Engrais liquide pour plantes d'intérieur",
+      "tag": "Croissance printanière et estivale",
+      "body": "Le terreau épuise ses nutriments après quelques mois. Un engrais liquide dilué ajouté à l'arrosoir toutes les quelques semaines au printemps et en été maintient les feuilles vertes et favorise la nouvelle croissance. Utilisez-le à la moitié de la force recommandée pour être sûr, et arrêtez en hiver lorsque les plantes se reposent. Une bouteille dure un an ou plus pour une petite collection. L'avantage : garde les plantes vertes et en croissance, une bouteille dure longtemps, et facile à ajouter à l'arrosoir. Le compromis est réel : trop d'engrais brûle les racines et il n'est pas nécessaire en hiver, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Garde les plantes vertes et en croissance",
+        "Une bouteille dure longtemps",
+        "Facile à ajouter à l'arrosoir"
+      ],
+      "cons": [
+        "Trop d'engrais brûle les racines",
+        "Pas nécessaire en hiver"
+      ]
+    },
+    {
+      "name": "Pièges collants et savon insecticide",
+      "tag": "Moucherons et parasites",
+      "body": "Les moucherons, ces petites mouches autour de la terre humide, sont le parasite le plus courant des plantes d'intérieur. Les pièges collants jaunes attrapent les adultes, et laisser sécher la terre entre les arrosages les empêche de se reproduire. Pour les pucerons, les cochenilles et les acariens, un spray de savon insecticide doux traite la plupart des cas précoces. Vérifiez les nouvelles plantes avant qu'elles ne rejoignent les autres ; de nombreux parasites arrivent du magasin. L'avantage : attrape les moucherons rapidement, le spray de savon traite les parasites courants, et bon marché et plus sûr pour les animaux que les sprays agressifs. Le compromis est réel : les pièges ne sont pas jolis et les infestations graves peuvent signifier perdre la plante, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Attrape les moucherons rapidement",
+        "Le spray de savon traite les parasites courants",
+        "Bon marché et plus sûr pour les animaux que les sprays agressifs"
+      ],
+      "cons": [
+        "Les pièges ne sont pas jolis",
+        "Les infestations graves peuvent signifier perdre la plante"
+      ]
+    },
+    {
+      "name": "Un support ou une étagère pour plantes",
+      "tag": "Mettre les plantes à la lumière",
+      "body": "Le meilleur endroit dans la plupart des maisons se trouve à quelques mètres d'une fenêtre, et cet espace est limité. Un support à plusieurs niveaux ou une étagère étroite place plusieurs plantes sous une bonne lumière au lieu de les disperser dans des coins sombres. Le bois ou le métal conviennent tous deux ; assurez-vous que les étagères sont résistantes à l'eau ou utilisez des soucoupes. L'avantage : place plus de plantes sous une bonne lumière, range une collection, et rend l'arrosage en un seul voyage. Le compromis est réel : prend de l'espace au sol près de la fenêtre et le bois non scellé tache avec les gouttes, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Place plus de plantes sous une bonne lumière",
+        "Range une collection",
+        "Rend l'arrosage en un seul voyage"
+      ],
+      "cons": [
+        "Prend de l'espace au sol près de la fenêtre",
+        "Le bois non scellé tache avec les gouttes"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "À quelle fréquence dois-je arroser mes plantes d'intérieur ?",
+      "a": "Quand la terre est sèche au niveau des racines, pas selon un calendrier. Pour de nombreuses plantes, c'est toutes les une à deux semaines en été et moins en hiver."
+    },
+    {
+      "q": "Quelle est la plante d'intérieur la plus facile ?",
+      "a": "Le pothos, le sansevieria et le zamioculcas sont les plus indulgents. Commencez par là."
+    },
+    {
+      "q": "Pourquoi les feuilles jaunissent-elles ?",
+      "a": "Généralement un excès d'arrosage ou un mauvais drainage. Vérifiez que le pot a un trou et laissez la terre sécher davantage entre les arrosages."
+    },
+    {
+      "q": "Les plantes d'intérieur sont-elles sans danger pour les chats et les chiens ?",
+      "a": "Beaucoup de plantes courantes sont toxiques si elles sont mâchées, y compris le pothos, le philodendron et le sansevieria. Consultez la liste des plantes de l'ASPCA avant d'acheter."
+    }
+  ]
+}

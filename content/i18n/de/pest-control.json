@@ -1,0 +1,172 @@
+{
+  "slug": "pest-control",
+  "title": "Menschliche Schädlingsbekämpfung, die ohne Vergiftung des Hauses wirkt",
+  "dek": "Zehn Methoden zur Bekämpfung von Mäusen, Ameisen, Fliegen und Motten, geordnet nach ihrer Wirksamkeit in Haushalten mit Kindern und Haustieren. Das Abdichten von Ritzen ist besser als jedes Gadget.",
+  "category": "Home",
+  "how_we_pick": "Diese Empfehlungen stammen von Universitätsberatungsstellen, Leitlinien des öffentlichen Gesundheitswesens, Ratschlägen von Schädlingsbekämpfungsexperten und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Bei großen Befällen, Wespen, Termiten oder allem, was beißt, rufen Sie einen lizenzierten Fachmann, anstatt sich auf diese Liste zu verlassen.",
+  "intro": [
+    "Der Gang zur Schädlingsbekämpfung bietet zwei Arten von Produkten: Gifte, die wirken, aber Kinder und Haustiere gefährden, und Steckdosen-Gadgets, die versprechen, alles abzuwehren und meistens Ihr Geld abwehren. Keines davon behebt, warum die Schädlinge überhaupt gekommen sind. Mäuse kommen wegen Futter und Wärme durch eine Lücke, durch die ein Bleistift passt. Ameisen folgen einer Spur zu Krümeln. Motten leben in der Wolle, die Sie seit dem Frühling nicht mehr getragen haben.",
+    "Diese Liste ist daher nach dem geordnet, was das Problem dauerhaft löst. Das Blockieren des Zugangs und das Entfernen von Futter stehen an erster Stelle, da sie bei allem wirken. Fallen kommen danach, und wir sagen deutlich, welche beliebten Gadgets nicht funktionieren.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und schwanken ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Bandbreite für die Budgetierung, nicht als Angebot. Überprüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Edelstahlwolle und ein Spaltabdichtungsset",
+      "tag": "Die Lösung, die Schädlinge fernhält",
+      "body": "Eine Maus kann durch eine Lücke von der Dicke eines Bleistifts schlüpfen. Suchen Sie unter Waschbecken, hinter Geräten, um Rohre herum und dort, wo Kabel in die Wände eindringen. Stopfen Sie kleine Lücken mit Stahlwolle oder Kupfergeflecht, das Nagetiere nicht zerkauen können, und dichten Sie es mit Dichtungsmasse oder Montageschaum ab. Türbürsten schließen die Lücke unter Außentüren. Dies dauert einen Nachmittag und verhindert den nächsten Befall, was keine Falle leisten kann. Das Argument dafür: Stoppt Schädlinge an der Quelle, wirkt gegen Mäuse, Insekten und Zugluft und ist eine einmalige Reparatur. Der Nachteil ist real: Jede Lücke zu finden, erfordert Geduld, und Mieter sollten sich bei größeren Löchern beim Vermieter erkundigen, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Stoppt Schädlinge an der Quelle",
+        "Wirkt gegen Mäuse, Insekten und Zugluft",
+        "Einmalige Reparatur"
+      ],
+      "cons": [
+        "Jede Lücke zu finden, erfordert Geduld",
+        "Mieter sollten sich bei größeren Löchern beim Vermieter erkundigen"
+      ]
+    },
+    {
+      "name": "Luftdichte Lebensmittelbehälter",
+      "tag": "Entfernen der Nahrungsquelle",
+      "body": "Mäuse, Ameisen und Vorratmotten sind alle wegen des Futters da. Pappkartons und aufgerollte Beutel sind leicht zu öffnen. Das Umfüllen von Müsli, Mehl, Reis, Tierfutter und Snacks in luftdichte Behälter nimmt ihnen den Grund für den Besuch. Klare Behälter erleichtern die Übersicht, und eckige Formen nutzen den Regalplatz gut aus. Das Argument dafür: Entfernt die Hauptattraktion, hält Lebensmittel länger frisch und macht Vorratmotten leicht erkennbar. Der Nachteil ist real: Nimmt mehr Schrankplatz ein als Beutel und Dichtungen verschleißen bei billigen Sets, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Entfernt die Hauptattraktion",
+        "Hält Lebensmittel länger frisch",
+        "Macht Vorratmotten leicht erkennbar"
+      ],
+      "cons": [
+        "Nimmt mehr Schrankplatz ein als Beutel",
+        "Dichtungen verschleißen bei billigen Sets"
+      ]
+    },
+    {
+      "name": "Humane Lebendfallen für Mäuse",
+      "tag": "Mäuse, ohne zu töten",
+      "body": "Tunnel-Fallen lassen eine Maus hinein und schließen sich hinter ihr, ohne sie zu verletzen. Sie funktionieren gut mit einem Klecks Erdnussbutter. Der Haken ist, dass Sie sie täglich überprüfen müssen, da eine gefangene Maus schnell an Stress und Durst stirbt, und Sie sie weit genug entfernt, mindestens eine Meile oder so, freilassen müssen, sonst kommt sie sofort zurück. Die Freilassung ist nicht überall legal, prüfen Sie also die örtlichen Vorschriften. Das Argument dafür: Kein Töten, wiederverwendbar und sicher für Haustiere und Kinder. Der Nachteil ist real: Muss täglich überprüft werden und in der Nähe freigelassene Mäuse kommen zurück, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Kein Töten",
+        "Wiederverwendbar",
+        "Sicher für Haustiere und Kinder"
+      ],
+      "cons": [
+        "Muss täglich überprüft werden",
+        "In der Nähe freigelassene Mäuse kommen zurück"
+      ]
+    },
+    {
+      "name": "Geschlossene Schlagfallen",
+      "tag": "Schnelle, sichere Mäusebekämpfung",
+      "body": "Wenn eine humane Freilassung nicht praktikabel ist, sind moderne geschlossene Schlagfallen schnell und weitaus sicherer als Gift. Vergiftete Mäuse sterben in den Wänden, wo sie wochenlang riechen, und Gift kann Haustiere und Wildtiere schädigen, die sie fressen. Geschlossene Fallen halten Finger und Pfoten fern. Platzieren Sie sie entlang der Wände, wo Mäuse laufen, nicht mitten auf dem Boden. Das Argument dafür: Schnell und effektiv, geschlossenes Design schützt Haustiere und Kinder, und keine vergifteten Tiere in den Wänden. Der Nachteil ist real: Nichts für Leute, die keine Mäuse töten wollen, und mehrere Fallen wirken besser als eine, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Schnell und effektiv",
+        "Geschlossenes Design schützt Haustiere und Kinder",
+        "Keine vergifteten Tiere in den Wänden"
+      ],
+      "cons": [
+        "Nichts für Leute, die keine Mäuse töten wollen",
+        "Mehrere Fallen wirken besser als eine"
+      ]
+    },
+    {
+      "name": "Ameisenköderstationen (Borax-basiert)",
+      "tag": "Ameisenstraßen",
+      "body": "Das Versprühen der sichtbaren Ameisen tut nichts gegen das Nest. Köderstationen funktionieren, weil Arbeiterameisen den Köder nach Hause tragen und ihn mit der Kolonie teilen. Platzieren Sie sie auf der Spur und widerstehen Sie dem Drang, die Ameisen wegzuwischen; der Verkehr bedeutet, dass es funktioniert. Es kann ein bis zwei Wochen dauern. Halten Sie Köder von Haustieren und Kindern fern, auch wenn die geschlossenen Stationen dies erleichtern. Das Argument dafür: Erreicht die gesamte Kolonie, billig und geschlossene Stationen begrenzen die Exposition. Der Nachteil ist real: Dauert ein bis zwei Wochen und das frühe Abwischen der Spur stoppt die Wirkung, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Erreicht die gesamte Kolonie",
+        "Billig",
+        "Geschlossene Stationen begrenzen die Exposition"
+      ],
+      "cons": [
+        "Dauert ein bis zwei Wochen",
+        "Das frühe Abwischen der Spur stoppt die Wirkung"
+      ]
+    },
+    {
+      "name": "Fenster- und Türgitter",
+      "tag": "Fliegen und Mücken",
+      "body": "Ein Gitter hält Fliegen und Mücken von vornherein fern, was jede Falle übertrifft. Wenn Ihre Fenster keine Gitter haben, passen verstellbare oder magnetische Gitter auf die meisten Öffnungen ohne Werkzeug. Magnetische Türvorhänge schließen sich hinter Ihnen, was für Hintertüren im Sommer nützlich ist. Überprüfen Sie vorhandene Gitter auf Risse und reparieren Sie sie. Das Argument dafür: Hält Insekten vollständig fern, ermöglicht freies Öffnen von Fenstern und keine Chemikalien. Der Nachteil ist real: Klebestreifen können von lackierten Rahmen abfallen und billige Gitter reißen leicht, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Hält Insekten vollständig fern",
+        "Ermöglicht freies Öffnen von Fenstern",
+        "Keine Chemikalien"
+      ],
+      "cons": [
+        "Klebestreifen können von lackierten Rahmen abfallen",
+        "Billige Gitter reißen leicht"
+      ]
+    },
+    {
+      "name": "Zedernholzblöcke und versiegelte Aufbewahrungsbeutel",
+      "tag": "Kleidermotten",
+      "body": "Kleidermotten legen Eier in Wolle, Kaschmir und Seide, besonders in schmutzig gelagerte Gegenstände. Waschen oder reinigen Sie sie vor der Lagerung, dann versiegeln Sie Kleidung für die Saison in Reißverschlussbeuteln oder Vakuumbeuteln. Zedernholzblöcke helfen, Motten abzuwehren, verlieren aber nach einer Saison ihre Wirkung; schleifen Sie sie leicht an, um sie aufzufrischen. Motten-Pheromonfallen im Kleiderschrank zeigen Ihnen, ob Sie ein Problem haben. Das Argument dafür: Schützt teure Strickwaren, chemikalienfrei und versiegelte Beutel sparen auch Platz. Der Nachteil ist real: Zedernholz allein stoppt keinen Befall und Kleidung muss vor der Lagerung sauber sein, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Schützt teure Strickwaren",
+        "Chemikalienfrei",
+        "Versiegelte Beutel sparen auch Platz"
+      ],
+      "cons": [
+        "Zedernholz allein stoppt keinen Befall",
+        "Kleidung muss vor der Lagerung sauber sein"
+      ]
+    },
+    {
+      "name": "Pheromonfallen für Vorratmotten",
+      "tag": "Motten im Schrank",
+      "body": "Vorratmotten kommen in Mehl, Reis oder Nüssen und breiten sich überall aus. Pheromonfallen fangen die Männchen und zeigen Ihnen, wie schlimm die Lage ist. Die eigentliche Lösung ist, den Schrank zu leeren, befallene Lebensmittel wegzuwerfen, die Regale abzuwischen und luftdichte Behälter zu verwenden. Die Fallen warnen Sie dann frühzeitig, wenn sie zurückkehren. Das Argument dafür: Frühwarnung vor einem Problem, ungiftig und billig. Der Nachteil ist real: Fallen allein beenden keinen Befall und fangen nur Männchen, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 8-15 US-Dollar ist es eine kleine, risikoarme Ergänzung zur Liste und kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Frühwarnung vor einem Problem",
+        "Ungiftig",
+        "Billig"
+      ],
+      "cons": [
+        "Fallen allein beenden keinen Befall",
+        "Fangen nur Männchen"
+      ]
+    },
+    {
+      "name": "Eine UV- oder lichtbasierte Fliegenfalle",
+      "tag": "Fliegen im Innenbereich",
+      "body": "Für Fliegen, die trotzdem hineingelangen, lockt eine Lichtfalle mit einer Klebefläche sie leise an und wirkt über Nacht. Modelle mit Klebefläche sind leiser und weniger unordentlich als Zapper. Platzieren Sie sie abseits von Fenstern, damit sie keine Insekten von außen anlockt. Fruchtfliegen lassen sich besser mit einer kleinen Schale Apfelessig und einem Tropfen Spülmittel bekämpfen. Das Argument dafür: Leise nächtliche Kontrolle, keine Sprays und funktioniert in Küchen. Der Nachteil ist real: Klebeflächen müssen ersetzt werden und sind in hellen Räumen weniger effektiv, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Leise nächtliche Kontrolle",
+        "Keine Sprays",
+        "Funktioniert in Küchen"
+      ],
+      "cons": [
+        "Klebeflächen müssen ersetzt werden",
+        "Weniger effektiv in hellen Räumen"
+      ]
+    },
+    {
+      "name": "Ultraschall-Steckdosen-Abwehrgeräte",
+      "tag": "Meist überspringen",
+      "body": "Diese werden überall mit großen Versprechungen verkauft. Unabhängige Studien und Beratungsstellen haben wenig Beweise dafür gefunden, dass sie Mäuse oder Insekten lange vertreiben, und die US Federal Trade Commission hat Verkäufer wegen unbegründeter Behauptungen abgemahnt. Nagetiere scheinen sich an den Ton zu gewöhnen. Wir nehmen sie auf, weil sie so stark vermarktet werden; geben Sie das Geld stattdessen für das Abdichten von Ritzen aus. Das Argument dafür: Stark verkauft, also wissenswert, harmlos für Menschen und kann Schädlinge kurzzeitig abschrecken. Der Nachteil ist real: Wenig Beweise dafür, dass sie funktionieren, und einige Haustiere können sie hören und mögen sie nicht, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Stark verkauft, also wissenswert",
+        "Harmlos für Menschen",
+        "Kann Schädlinge kurzzeitig abschrecken"
+      ],
+      "cons": [
+        "Wenig Beweise dafür, dass sie funktionieren",
+        "Einige Haustiere können sie hören und mögen sie nicht"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist der beste Weg, um Mäuse loszuwerden?",
+      "a": "Dichten Sie die Lücken ab, die sie nutzen, lagern Sie Lebensmittel in luftdichten Behältern und stellen Sie dann Fallen entlang der Wände auf. Gift sollte drinnen vermieden werden."
+    },
+    {
+      "q": "Funktionieren Ultraschall-Abwehrgeräte?",
+      "a": "Die Beweise sind schwach. Sie sind kein Ersatz für das Abdichten von Lücken und das Entfernen von Futter."
+    },
+    {
+      "q": "Wie werde ich Ameisen ohne Sprühen los?",
+      "a": "Verwenden Sie Köderstationen auf der Spur und lassen Sie die Ameisen den Köder zum Nest tragen. Reinigen Sie Krümel und verschließen Sie Lebensmittel."
+    },
+    {
+      "q": "Wann sollte ich einen Fachmann rufen?",
+      "a": "Bei großen Befällen, Wespennestern, Termiten, Bettwanzen oder Ratten, die Sie nicht aufspüren können."
+    }
+  ]
+}

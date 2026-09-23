@@ -1,0 +1,172 @@
+{
+  "slug": "home-wifi",
+  "title": "Corriger les zones mortes du Wi-Fi domestique sans payer plus cher",
+  "dek": "Dix solutions pour les pièces lentes et les appels coupés, classées selon leur efficacité par rapport au prix. Les deux premières ne coûtent rien.",
+  "category": "Tech",
+  "how_we_pick": "Ces choix proviennent de tests en laboratoire publiés, de forums de réseautage et de rapports d'utilisateurs à long terme, vérifiés par rapport aux listes de vente actuelles. Nous n'avons pas testé personnellement chaque article ici. Nous avons privilégié les solutions qui conviennent aux locataires et aux foyers non techniques, et nous avons été francs quant aux gadgets qui ne font que déplacer le problème.",
+  "intro": [
+    "Quand le Wi-Fi est mauvais dans la chambre, la plupart des gens appellent leur fournisseur et paient pour un forfait plus rapide. Ça n'aide jamais. L'internet qui arrive dans la maison est généralement correct ; le problème se situe dans les derniers mètres entre le routeur et votre ordinateur portable, et un forfait plus rapide ne change rien aux murs, aux planchers et à un routeur caché dans une armoire.",
+    "Cette liste est donc classée par impact. Commencez par le haut, testez après chaque étape, et arrêtez-vous quand le problème disparaît. Beaucoup de gens règlent leur zone morte à l'étape deux et ne dépensent jamais un centime.",
+    "Les prix indiqués ci-dessous sont les prix publics approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les périodes de soldes. Considérez-les comme une fourchette approximative pour la budgétisation, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Déplacer le routeur que vous possédez déjà",
+      "tag": "La première solution gratuite",
+      "body": "Les routeurs sont installés là où le câble arrive dans la maison, souvent dans un coin, un sous-sol ou à l'intérieur d'une armoire TV. Le Wi-Fi se propage vers l'extérieur et légèrement vers le bas, et il déteste le métal, les miroirs, les aquariums et les murs épais. Déplacer le routeur hors de l'armoire, le placer à hauteur d'étagère et plus près du centre de la maison peut faire une plus grande différence que n'importe quel achat sur cette page. Si le point de connexion est fixe, une rallonge coaxiale ou Ethernet plus longue depuis la prise murale vers un meilleur endroit coûte quelques dollars. L'argument en sa faveur : ne coûte rien, résout souvent le problème directement, et prend dix minutes à tester. Le compromis est réel : limité par l'emplacement de l'arrivée du câble et les boîtiers installés par le fournisseur ne peuvent parfois pas être déplacés loin, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Ne coûte rien",
+        "Résout souvent le problème directement",
+        "Prend dix minutes à tester"
+      ],
+      "cons": [
+        "Limité par l'emplacement de l'arrivée du câble",
+        "Les boîtiers installés par le fournisseur ne peuvent parfois pas être déplacés loin"
+      ]
+    },
+    {
+      "name": "Une application de test de vitesse et une promenade cartographique",
+      "tag": "Trouver la vraie zone morte",
+      "body": "Avant d'acheter quoi que ce soit, mesurez. Lancez un test de vitesse à côté du routeur, puis dans chaque pièce où les choses semblent lentes. Si la vitesse à côté du routeur est également faible, le problème vient de votre forfait ou de l'équipement du fournisseur, et aucun kit mesh ne le résoudra. Si elle est rapide près du routeur et s'effondre deux pièces plus loin, vous avez un problème de couverture, et maintenant vous savez exactement où. Les applications gratuites de cartographie thermique vous permettent de parcourir la maison et de voir la baisse de couverture. Cette étape empêche les gens d'acheter la mauvaise solution. L'argument en sa faveur : sépare les problèmes de forfait des problèmes de couverture, montre exactement quelle pièce a besoin d'aide, et vous donne un chiffre avant et après. Le compromis est réel : les résultats varient au cours de la journée et les tests sur l'appareil qui pose problème, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Sépare les problèmes de forfait des problèmes de couverture",
+        "Montre exactement quelle pièce a besoin d'aide",
+        "Donne un chiffre avant et après"
+      ],
+      "cons": [
+        "Les résultats varient au cours de la journée",
+        "Tester sur l'appareil qui pose problème"
+      ]
+    },
+    {
+      "name": "Un kit mesh Wi-Fi 6 ou 6E de trois unités",
+      "tag": "La solution pour la plupart des maisons avec plusieurs pièces",
+      "body": "Les systèmes mesh remplacent un routeur par plusieurs unités qui se transmettent la connexion et apparaissent comme un seul réseau. Vous marchez de la cuisine à la chambre et votre téléphone passe silencieusement au nœud le plus proche. Pour une maison à deux étages ou toute surface supérieure à environ 140 mètres carrés, un pack de trois est la solution fiable. Le Wi-Fi 6 est suffisant pour la plupart des foyers ; le 6E ajoute une bande moins encombrée qui aide dans les immeubles d'habitation denses. TP-Link Deco, Eero et Asus ZenWiFi sont les familles courantes, et les kits économiques de ces trois marques sont bons. L'argument en sa faveur : un nom de réseau, une couverture pour toute la maison, une configuration d'application facile pour les foyers non techniques, et gère de nombreux appareils à la fois. Le compromis est réel : certaines marques poussent des abonnements payants pour des fonctionnalités supplémentaires et placent les nœuds dans des endroits ouverts, pas dans des armoires, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Un nom de réseau, couverture pour toute la maison",
+        "Configuration d'application facile pour les foyers non techniques",
+        "Gère de nombreux appareils à la fois"
+      ],
+      "cons": [
+        "Certaines marques poussent des abonnements payants pour des fonctionnalités supplémentaires",
+        "Placent les nœuds dans des endroits ouverts, pas dans des armoires"
+      ]
+    },
+    {
+      "name": "Un kit mesh de deux unités",
+      "tag": "Appartements et petites maisons",
+      "body": "La plupart des appartements n'ont pas besoin de trois unités. Un pack de deux couvre un appartement typique d'une ou deux chambres, et le deuxième nœud va là où le signal faiblit, généralement la chambre à l'autre bout ou le bureau à domicile. Vous pouvez en ajouter un troisième plus tard si nécessaire, car la plupart des marques vous permettent d'étendre au sein de la même famille. Si vous louez, le mesh est également facile à emporter avec vous, contrairement à une solution filaire. L'argument en sa faveur : taille adaptée aux appartements, extensible plus tard, et vous suit lors de vos déménagements. Le compromis est réel : les réseaux des voisins encombrent toujours les ondes et mélanger les marques ne fonctionne généralement pas, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Taille adaptée aux appartements",
+        "Extensible plus tard",
+        "Vous suit lors de vos déménagements"
+      ],
+      "cons": [
+        "Les réseaux des voisins encombrent toujours les ondes",
+        "Mélanger les marques ne fonctionne généralement pas"
+      ]
+    },
+    {
+      "name": "Une paire d'adaptateurs Powerline ou MoCA",
+      "tag": "Murs épais et béton",
+      "body": "Certaines maisons rendent le Wi-Fi totalement inefficace : lattis et plâtre, béton, brique, ou un bureau dans le garage de l'autre côté de la cour. Les adaptateurs Powerline envoient des données via votre câblage électrique, et les adaptateurs MoCA utilisent le câble coaxial TV existant. Branchez-en un près du routeur et un dans la pièce éloignée, et vous obtenez une connexion filaire sans perçage. MoCA est généralement plus rapide et plus fiable si vous avez du coaxial dans les bonnes pièces. La vitesse Powerline dépend fortement de votre câblage, alors achetez auprès d'un magasin avec une fenêtre de retour facile. L'argument en sa faveur : traverse les murs que le Wi-Fi ne peut pas, pas de perçage ni de nouveaux câbles, et certains modèles ajoutent du Wi-Fi à l'extrémité éloignée. Le compromis est réel : la vitesse Powerline dépend de votre câblage et doit être branchée directement dans le mur, pas dans une multiprise, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Traverse les murs que le Wi-Fi ne peut pas",
+        "Pas de perçage ni de nouveaux câbles",
+        "Certains modèles ajoutent du Wi-Fi à l'extrémité éloignée"
+      ],
+      "cons": [
+        "La vitesse Powerline dépend de votre câblage",
+        "Doit être branché directement dans le mur, pas dans une multiprise"
+      ]
+    },
+    {
+      "name": "Quelques câbles Cat 6",
+      "tag": "Bureaux, téléviseurs et consoles près du routeur",
+      "body": "Tout ce qui ne bouge pas et se trouve à portée du routeur devrait être branché. Une télévision, une console ou un ordinateur de bureau connecté par câble bénéficie de la pleine vitesse, d'une latence réduite, et cela évite la concurrence avec les téléphones pour le Wi-Fi. Cela libère le réseau sans fil pour tout le reste. Les câbles plats se glissent discrètement sous les tapis et le long des plinthes. C'est la mise à niveau de performance la moins chère en réseau et elle est très sous-utilisée. L'argument en sa faveur : pleine vitesse et latence réduite, libère le Wi-Fi pour d'autres appareils, et très bon marché. Le compromis est réel : seulement pratique près du routeur ou d'un nœud mesh et les câbles longs et bon marché peuvent être mal fabriqués, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Pleine vitesse et latence réduite",
+        "Libère le Wi-Fi pour d'autres appareils",
+        "Très bon marché"
+      ],
+      "cons": [
+        "Seulement pratique près du routeur ou d'un nœud mesh",
+        "Les câbles longs et bon marché peuvent être mal fabriqués"
+      ]
+    },
+    {
+      "name": "Un adaptateur Wi-Fi 6 USB",
+      "tag": "Vieux ordinateurs portables et PC de bureau",
+      "body": "Parfois, le réseau est bon et l'appareil est le problème. Un ordinateur portable de 2016 a une vieille puce sans fil qui obtient une fraction de ce qu'offre un routeur moderne. Un petit adaptateur Wi-Fi 6 USB le met à jour pour le prix d'un repas à emporter. Les PC de bureau sans Wi-Fi intégré en bénéficient le plus. Vérifiez que l'adaptateur prend en charge votre système d'exploitation avant d'acheter, surtout sur Mac et Linux. L'argument en sa faveur : met les vieilles machines à jour avec des vitesses modernes, se branche, pas besoin d'ouvrir le boîtier, et bon marché par rapport à un nouvel ordinateur portable. Le compromis est réel : la prise en charge des pilotes varie selon le système d'exploitation et utilise un port USB, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Met les vieilles machines à jour avec des vitesses modernes",
+        "Se branche, pas besoin d'ouvrir le boîtier",
+        "Bon marché par rapport à un nouvel ordinateur portable"
+      ],
+      "cons": [
+        "La prise en charge des pilotes varie selon le système d'exploitation",
+        "Utilise un port USB"
+      ]
+    },
+    {
+      "name": "Un routeur de voyage",
+      "tag": "Hôtels et locations de vacances",
+      "body": "Le Wi-Fi des hôtels limite souvent le nombre d'appareils qui peuvent se connecter et vous oblige à vous reconnecter sur chacun d'eux. Un routeur de voyage portable se connecte une seule fois et partage ensuite la connexion avec tous vos appareils sous votre propre nom de réseau. Il vous permet également de vous connecter à un port filaire de l'hôtel lorsqu'il y en a un, ce qui est généralement plus rapide. GL.iNet fabrique les modèles populaires. Pour les familles voyageant avec plusieurs tablettes et un appareil de streaming, cela met fin aux disputes quotidiennes. L'argument en sa faveur : une seule connexion pour tous vos appareils, votre propre nom de réseau privé, et utile à la maison comme solution de secours. Le compromis est réel : les pages de connexion captives nécessitent quelques étapes supplémentaires et ne peuvent pas accélérer une connexion d'hôtel lente, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Une seule connexion pour tous vos appareils",
+        "Votre propre nom de réseau privé",
+        "Utile à la maison comme solution de secours"
+      ],
+      "cons": [
+        "Les pages de connexion captives nécessitent quelques étapes supplémentaires",
+        "Ne peut pas accélérer une connexion d'hôtel lente"
+      ]
+    },
+    {
+      "name": "Une prise intelligente sur le routeur",
+      "tag": "Redémarrages à distance",
+      "body": "Chaque foyer a une personne qui redémarre le routeur, et quand elle est absente, personne ne sait comment faire. Une prise intelligente programmée pour redémarrer le routeur à 4 heures du matin une fois par semaine, évite de nombreuses plaintes de ralentissement sur les anciens équipements des fournisseurs. Elle vous permet également de le redémarrer depuis votre téléphone en voyage, tant qu'un second chemin de connexion existe. Choisissez une prise qui conserve son programme localement, afin qu'elle fonctionne toujours lorsque l'internet est coupé. L'argument en sa faveur : redémarrages hebdomadaires programmés, n'importe qui dans la maison peut le faire depuis une application, et bon marché. Le compromis est réel : inutile pour les redémarrages à distance s'il a besoin d'internet pour fonctionner et un routeur qui a besoin de redémarrages constants peut être défaillant, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Redémarrages hebdomadaires programmés",
+        "N'importe qui dans la maison peut le faire depuis une application",
+        "Bon marché"
+      ],
+      "cons": [
+        "Inutile pour les redémarrages à distance s'il a besoin d'internet pour fonctionner",
+        "Un routeur qui a besoin de redémarrages constants peut être défaillant"
+      ]
+    },
+    {
+      "name": "Un seul répéteur Wi-Fi autonome",
+      "tag": "Dernier recours, une seule pièce",
+      "body": "Les répéteurs sont bon marché et largement vendus, c'est pourquoi ils sont l'achat erroné le plus courant en matière de réseau domestique. Ils répètent le signal du routeur, ce qui réduit généralement la vitesse de moitié, et beaucoup créent un deuxième nom de réseau auquel vos appareils restent connectés après que vous vous soyez éloigné. Pour une pièce fixe qui a besoin d'une connexion basique, comme une imprimante ou une chambre d'amis, ils conviennent. Pour tout le reste, un kit mesh vaut l'argent supplémentaire. L'argument en sa faveur : le moyen le moins cher d'atteindre une pièce supplémentaire, aucune configuration au-delà d'une pression de bouton, et bon pour les appareils à faible demande. Le compromis est réel : réduit souvent de moitié la vitesse qu'il répète et les appareils peuvent s'accrocher au réseau plus faible, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Le moyen le moins cher d'atteindre une pièce supplémentaire",
+        "Aucune configuration au-delà d'une pression de bouton",
+        "Bon pour les appareils à faible demande"
+      ],
+      "cons": [
+        "Réduit souvent de moitié la vitesse qu'il répète",
+        "Les appareils peuvent s'accrocher au réseau plus faible"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Un forfait internet plus rapide résoudra-t-il le problème du Wi-Fi lent dans une pièce ?",
+      "a": "Généralement pas. Si la vitesse est bonne près du routeur et mauvaise dans la pièce éloignée, le problème est la couverture. Testez d'abord."
+    },
+    {
+      "q": "Mesh ou répéteur ?",
+      "a": "Mesh pour tout ce qui dépasse une pièce. Les répéteurs sont une solution de dépannage économique pour un seul appareil à faible demande."
+    },
+    {
+      "q": "Ai-je besoin du Wi-Fi 7 ?",
+      "a": "Pas encore pour la plupart des foyers. Le Wi-Fi 6 ou 6E couvre le streaming, les jeux et les appels vidéo typiques, et coûte beaucoup moins cher."
+    },
+    {
+      "q": "Puis-je utiliser le mesh avec le routeur de mon fournisseur ?",
+      "a": "Oui. La plupart des kits mesh se branchent sur le boîtier du fournisseur. Désactiver le propre Wi-Fi du fournisseur réduit les interférences, et votre fournisseur peut vous expliquer comment faire."
+    }
+  ]
+}

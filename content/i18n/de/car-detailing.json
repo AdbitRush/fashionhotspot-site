@@ -1,0 +1,172 @@
+{
+  "slug": "car-detailing",
+  "title": "Autopflege zu Hause, ohne den Lack zu zerkratzen",
+  "dek": "Zehn Produkte für die Autopflege, bewertet danach, wie gut sie den Lack schützen und wie das Auto danach aussieht. Die meisten Schlieren entstehen beim Waschen, nicht beim Fahren.",
+  "category": "Auto",
+  "how_we_pick": "Diese Auswahl basiert auf Ratschlägen von Profi-Detailern, Community-Diskussionen zur Autopflege und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel persönlich getestet. Prüfen Sie lokale Vorschriften; in einigen Gebieten ist das Waschen von Autos auf Einfahrten wegen des Abwassers eingeschränkt.",
+  "intro": [
+    "Die meisten feinen Kratzer und Schlieren auf dem Autolack entstehen durch schlechtes Waschen: ein einziger Eimer mit schmutzigem Wasser, ein alter Schwamm, der Schmutz über den Lack zieht, und ein raues Handtuch. Automatische Waschanlagen mit Bürsten machen dasselbe. Die Lösung sind keine teuren Produkte. Es sind ein paar einfache Werkzeuge und eine bessere Methode.",
+    "Diese Liste ist nach dem Grad geordnet, wie gut jedes Produkt den Lack schützt. Die ersten paar sind günstig und verhindern die meisten Schäden. Wachse, Versiegelungen und Innenraumwerkzeuge kommen danach.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, besonders während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetplanung, nicht als Angebot. Prüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Zwei Eimer mit Schmutzfangsieben",
+      "tag": "Die Methode, die die meisten Kratzer verhindert",
+      "body": "Die Zwei-Eimer-Methode ist der einfachste Weg, Kratzer am Auto zu vermeiden. Ein Eimer enthält Seifenwasser; der andere enthält sauberes Wasser zum Ausspülen des Waschhandschuhs nach jedem Teil. Ein Schmutzfangsieb am Boden jedes Eimers fängt Schmutz auf, damit er nicht wieder auf den Handschuh gelangt. Waschen Sie von oben nach unten, spülen Sie den Handschuh oft aus, und Sie vermeiden die meisten Schlieren. Das Argument dafür: Verhindert die meisten Wasch-Kratzer, ist günstig und eine einfache Methode. Der Kompromiss ist real: Es dauert etwas länger und benötigt Platz für zwei Eimer. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Verhindert die meisten Wasch-Kratzer",
+        "Günstig",
+        "Einfache Methode"
+      ],
+      "cons": [
+        "Dauert etwas länger",
+        "Benötigt Platz für zwei Eimer"
+      ]
+    },
+    {
+      "name": "Ein Mikrofaser- oder Lammfell-Waschhandschuh",
+      "tag": "Sanftes Waschen",
+      "body": "Schwämme fangen Schmutz auf ihrer Oberfläche ein und ziehen ihn über den Lack. Ein Mikrofaser- oder Lammfell-Handschuh zieht Schmutz in seine Fasern, weg vom Lack. Haben Sie zwei, einen für den oberen Teil des Autos und einen für die schmutzigeren unteren Teile. Waschen Sie sie getrennt, ohne Weichspüler. Das Argument dafür: Nimmt Schmutz vom Lack weg, ist sanft und günstig. Der Kompromiss ist real: Muss nach Gebrauch gewaschen werden und heruntergefallene Handschuhe müssen vor Wiederverwendung gereinigt werden. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Für 10-20 US-Dollar ist es eine kleine, risikoarme Ergänzung zur Liste, kein Hauptprodukt, über das Sie lange nachdenken müssen.",
+      "pros": [
+        "Nimmt Schmutz vom Lack weg",
+        "Sanft",
+        "Günstig"
+      ],
+      "cons": [
+        "Muss nach Gebrauch gewaschen werden",
+        "Heruntergefallene Handschuhe müssen vor Wiederverwendung gereinigt werden"
+      ]
+    },
+    {
+      "name": "pH-neutrales Autoshampoo",
+      "tag": "Sichere Reinigung",
+      "body": "Spülmittel entfernt Wachs und trocknet Gummidichtungen aus. Ein pH-neutrales Autoshampoo reinigt, ohne den Schutz zu entfernen. Es ist günstig und eine Flasche reicht für viele Wäschen. Vermeiden Sie es, in direkter Sonne zu waschen, da dies Seife zu Flecken trocknet. Das Argument dafür: Sicher für Wachs und Dichtungen, günstig und hält viele Wäschen. Der Kompromiss ist real: Richtig verdünnen und nicht in heißer Sonne waschen. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Preislich bei etwa 10-20 US-Dollar ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich verwendet wird.",
+      "pros": [
+        "Sicher für Wachs und Dichtungen",
+        "Günstig",
+        "Hält viele Wäschen"
+      ],
+      "cons": [
+        "Richtig verdünnen",
+        "Nicht in heißer Sonne waschen"
+      ]
+    },
+    {
+      "name": "Ein großes Mikrofaser-Trockentuch",
+      "tag": "Trocknen ohne Schlieren",
+      "body": "Alte Badetücher und Chamoisleder können Kratzer verursachen. Ein großes, flauschiges Mikrofaser-Trockentuch nimmt viel Wasser auf und trocknet ein Auto mit ein paar sanften Durchgängen. Legen Sie es flach hin und tupfen oder ziehen Sie es langsam. Waschen Sie es ohne Weichspüler, um es saugfähig zu halten. Das Argument dafür: Trocknet schnell, ist schonend zum Lack und verhindert Wasserflecken. Der Kompromiss ist real: Weichspüler zerstört die Saugfähigkeit und billige Mikrofaser kann dünn sein. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Für 15-30 US-Dollar verdient es seinen Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen.",
+      "pros": [
+        "Trocknet schnell",
+        "Schonend zum Lack",
+        "Verhindert Wasserflecken"
+      ],
+      "cons": [
+        "Weichspüler zerstört die Saugfähigkeit",
+        "Billige Mikrofaser kann dünn sein"
+      ]
+    },
+    {
+      "name": "Eine Sprühversiegelung oder Keramik-Spray",
+      "tag": "Einfacher Schutz und Glanz",
+      "body": "Pastenwachs dauert einen Nachmittag. Moderne Sprühversiegelungen und Keramik-Sprays lassen sich nach dem Waschen in Minuten auftragen und schützen monatelang, mit starker Wasserabweisung und Glanz. Sie erleichtern zukünftige Wäschen, da Schmutz weniger haftet. Das Argument dafür: Schneller Schutz, monatelanger Glanz und erleichtert das Waschen. Der Kompromiss ist real: Weniger haltbar als professionelle Keramikbeschichtungen und muss außerhalb direkter Sonneneinstrahlung aufgetragen werden. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Für 15-30 US-Dollar ist es eine kleine, risikoarme Ergänzung zur Liste, kein Hauptprodukt, über das Sie lange nachdenken müssen.",
+      "pros": [
+        "Schneller Schutz",
+        "Monatelanger Glanz",
+        "Erleichtert das Waschen"
+      ],
+      "cons": [
+        "Weniger haltbar als professionelle Keramikbeschichtungen",
+        "Außerhalb direkter Sonneneinstrahlung auftragen"
+      ]
+    },
+    {
+      "name": "Felgenreiniger und -bürste",
+      "tag": "Bremsstaub",
+      "body": "Bremsstaub ist ätzend und schwer mit Autoshampoo zu entfernen. Ein spezieller Felgenreiniger und eine weiche Felgenbürste reinigen zwischen den Speichen. Reinigen Sie zuerst die Felgen, damit Sie keinen Schmutz auf den sauberen Lack spritzen. Verwenden Sie separate Werkzeuge für die Felgen. Das Argument dafür: Entfernt Bremsstaub, schützt Felgen und lässt das Auto neu aussehen. Der Kompromiss ist real: Einige Reiniger sind aggressiv und Felgenwerkzeuge müssen separat gehalten werden. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Preislich bei etwa 15-30 US-Dollar ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich verwendet wird.",
+      "pros": [
+        "Entfernt Bremsstaub",
+        "Schützt Felgen",
+        "Lässt das Auto neu aussehen"
+      ],
+      "cons": [
+        "Einige Reiniger sind aggressiv",
+        "Felgenwerkzeuge separat halten"
+      ]
+    },
+    {
+      "name": "Clay-Bar-Kit",
+      "tag": "Glatte Lackoberfläche",
+      "body": "Nach dem Waschen kann der Lack immer noch rau von anhaftenden Verunreinigungen sein. Eine Clay Bar mit Gleitmittel entfernt diese und hinterlässt eine glatte Lackoberfläche, bereit für die Versiegelung. Machen Sie das ein- oder zweimal im Jahr. Das Argument dafür: Glatte Lackoberfläche, bessere Haftung der Versiegelung und günstig. Der Kompromiss ist real: Dauert seine Zeit und heruntergefallene Clay Bar muss weggeworfen werden. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Für 15-25 US-Dollar verdient es seinen Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen. Wie bei allem auf dieser Liste, prüfen Sie die genauen Details des Angebots und den aktuellen Preis, bevor Sie es in den Warenkorb legen.",
+      "pros": [
+        "Glatte Lackoberfläche",
+        "Bessere Haftung der Versiegelung",
+        "Günstig"
+      ],
+      "cons": [
+        "Dauert seine Zeit",
+        "Heruntergefallene Clay Bar muss weggeworfen werden"
+      ]
+    },
+    {
+      "name": "Kabelloser Auto-Staubsauger",
+      "tag": "Innenraum",
+      "body": "Ein kabelloser Handstaubsauger mit Fugendüsen reinigt Sitze, Fußräume und zwischen den Sitzen, ohne ein Kabel zu ziehen. Achten Sie auf starke Saugkraft und einen waschbaren Filter. Viele kabellose Haushaltsstaubsauger funktionieren auch. Das Argument dafür: Schnelle Innenraumreinigung, keine Kabel und auch zu Hause nützlich. Der Kompromiss ist real: Kurze Akkulaufzeit und billige Modelle haben schwache Saugkraft. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Für 40-100 US-Dollar ist es eine kleine, risikoarme Ergänzung zur Liste, kein Hauptprodukt, über das Sie lange nachdenken müssen. Es ist eine geringfügige Anschaffung im Kontext des gesamten Setups, aber eine, die man leicht bereut zu überspringen, sobald man die Lücke bemerkt.",
+      "pros": [
+        "Schnelle Innenraumreinigung",
+        "Keine Kabel",
+        "Auch zu Hause nützlich"
+      ],
+      "cons": [
+        "Kurze Akkulaufzeit",
+        "Billige Modelle haben schwache Saugkraft"
+      ]
+    },
+    {
+      "name": "Innenraumreiniger und Mikrofasertücher",
+      "tag": "Armaturenbrett und Sitze",
+      "body": "Ein milder Allzweck-Innenraumreiniger für Armaturenbretter, Türverkleidungen und Kunststoffe. Sprühen Sie ihn auf das Tuch, nicht auf das Armaturenbrett, um zu vermeiden, dass er auf Bildschirme gelangt. Vermeiden Sie fettige Glanzprodukte, die Blendung verursachen. Das Argument dafür: Sauberer Innenraum, günstig und sicher auf den meisten Oberflächen. Der Kompromiss ist real: Fettige Produkte verursachen Blendung und sollten zuerst an Leder getestet werden. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Preislich bei etwa 10-20 US-Dollar ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich verwendet wird. Nichts davon macht es für jeden Leser unerlässlich, es ist nur erwähnenswert, wenn die obige Beschreibung auf Ihre tatsächliche Raumnutzung zutrifft.",
+      "pros": [
+        "Sauberer Innenraum",
+        "Günstig",
+        "Sicher auf den meisten Oberflächen"
+      ],
+      "cons": [
+        "Fettige Produkte verursachen Blendung",
+        "Zuerst an Leder testen"
+      ]
+    },
+    {
+      "name": "Schaumkanone oder Sprühflasche",
+      "tag": "Vorwäsche",
+      "body": "Eine Schaumkanone an einem Hochdruckreiniger oder eine Schaumsprühflasche für einen Gartenschlauch bedeckt das Auto mit Schaum, der den Schmutz löst, bevor Sie es berühren. Das Abspülen entfernt viel vom Schmutz, so dass beim Waschen weniger Kratzer entstehen. Das Argument dafür: Löst Schmutz vor dem Kontakt, weniger Kratzer und befriedigend. Der Kompromiss ist real: Schaumkanonen benötigen einen Hochdruckreiniger und verbrauchen mehr Shampoo. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung. Für 25-60 US-Dollar verdient es seinen Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen.",
+      "pros": [
+        "Löst Schmutz vor dem Kontakt",
+        "Weniger Kratzer",
+        "Befriedigend"
+      ],
+      "cons": [
+        "Schaumkanonen benötigen einen Hochdruckreiniger",
+        "Verbraucht mehr Shampoo"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie wasche ich ein Auto, ohne es zu zerkratzen?",
+      "a": "Verwenden Sie zwei Eimer mit Schmutzfangsieben, einen Mikrofaser-Waschhandschuh, pH-neutrales Shampoo und ein Mikrofaser-Trockentuch."
+    },
+    {
+      "q": "Sind automatische Waschanlagen schlecht für den Lack?",
+      "a": "Bürstenwäschen können Schlieren verursachen. Berührungslose Wäschen sind schonender, aber weniger gründlich."
+    },
+    {
+      "q": "Wie oft sollte ich mein Auto wachsen oder versiegeln?",
+      "a": "Sprühversiegelungen alle paar Monate; Pastenwachs ein paar Mal im Jahr."
+    },
+    {
+      "q": "Ist Spülmittel zum Autowaschen in Ordnung?",
+      "a": "Nein. Es entfernt Wachs und trocknet Dichtungen aus."
+    }
+  ]
+}

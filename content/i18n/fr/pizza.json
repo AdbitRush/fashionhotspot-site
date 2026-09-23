@@ -1,0 +1,172 @@
+{
+  "slug": "pizza",
+  "title": "Pizza maison digne d'une pizzeria",
+  "dek": "Dix astuces pour une meilleure pizza maison, classées selon leur impact sur la pâte. La chaleur est primordiale, et vous pouvez en obtenir la majeure partie avec un four classique.",
+  "category": "Cuisine",
+  "how_we_pick": "Ces sélections proviennent de tests publiés, de communautés de pizzaïolos et de retours d'utilisateurs à long terme, recoupés avec les offres actuelles du commerce. Nous n'avons pas testé personnellement tous les articles ici. Nous avons privilégié les outils qui fonctionnent d'abord dans un four domestique ordinaire.",
+  "intro": [
+    "La pizza maison est généralement décevante pour une raison : le four n'est pas assez chaud. Un four de pizzeria fonctionne à 370-480°C. Un four domestique atteint au maximum environ 260°C, et une plaque de cuisson fine ne retient pas cette chaleur, donc la pâte cuit pâle et molle avant que le dessus ne soit prêt.",
+    "Cette liste est classée selon l'importance de chaque article pour combler cet écart. Le premier choix coûte moins cher qu'une commande à emporter et transforme la pizza d'un four ordinaire. Le four d'extérieur se situe plus bas car c'est la dépense la plus importante et elle ne vaut la peine qu'une fois que vous êtes accro.",
+    "Les prix ci-dessous sont des prix publics approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'offre en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Une plaque en acier ou une pierre à pizza épaisse",
+      "tag": "La mise à niveau qui répare la pâte",
+      "body": "Un acier épais ou une pierre absorbe la chaleur pendant le préchauffage et la restitue à la pâte lorsque la pizza est posée, ce qui donne une base croustillante et boursouflée dans un four normal. L'acier conduit la chaleur plus rapidement que la pierre, donc il cuit plus vite et dore mieux aux températures des fours domestiques. Préchauffez pendant 45 minutes à une heure à la température la plus élevée de votre four, sur la grille du tiers supérieur. L'acier est lourd mais ne se fissure pas ; les pierres sont plus légères mais peuvent se casser sous des changements de température brusques. L'argument en sa faveur : une base croustillante et dorée dans un four normal, aussi excellente pour le pain, et qui dure éternellement. Le compromis est réel : l'acier est très lourd et nécessite un long préchauffage, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Base croustillante et dorée dans un four normal",
+        "Aussi excellent pour le pain",
+        "Dure éternellement"
+      ],
+      "cons": [
+        "L'acier est très lourd",
+        "Nécessite un long préchauffage"
+      ]
+    },
+    {
+      "name": "Une pelle à pizza",
+      "tag": "Glisser la pizza dedans et dehors",
+      "body": "Transférer une pizza molle sur un acier chaud sans pelle, c'est risquer de retrouver les garnitures au fond du four. Une pelle en bois est idéale pour enfourner car la pâte colle moins au bois ; une pelle fine en métal est préférable pour retourner et retirer la pizza. Saupoudrez de semoule pour que la pizza glisse. Commencez avec une et ajoutez l'autre si vous vous y mettez sérieusement. L'argument en sa faveur : permet d'enfourner les pizzas, la semoule aide à glisser, et c'est bon marché. Le compromis est réel : l'enfournement demande de la pratique et les pelles en bois sont trop épaisses pour retourner, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Permet d'enfourner les pizzas",
+        "La semoule aide à glisser",
+        "Bon marché"
+      ],
+      "cons": [
+        "L'enfournement demande de la pratique",
+        "Les pelles en bois sont trop épaisses pour retourner"
+      ]
+    },
+    {
+      "name": "Une balance de cuisine numérique",
+      "tag": "Pâte homogène",
+      "body": "La pâte, c'est de la chimie, et les tasses de farine varient jusqu'à 20 % selon la façon dont vous les remplissez. Une balance numérique bon marché rend chaque fournée identique. La plupart des bonnes recettes de pizza sont écrites en grammes et en pourcentages pour cette raison. Vous l'utiliserez pour toutes vos pâtisseries. L'argument en sa faveur : une pâte homogène à chaque fois, suit les recettes basées sur les grammes, et utile pour toutes les pâtisseries. Le compromis est réel : nécessite des piles et il faut en prendre une qui mesure au gramme près, alors pesez cela par rapport à la fréquence d'utilisation. Prix entre 12 et 25 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Pâte homogène à chaque fois",
+        "Suit les recettes basées sur les grammes",
+        "Utile pour toutes les pâtisseries"
+      ],
+      "cons": [
+        "Nécessite des piles",
+        "Prenez-en une qui mesure au gramme près"
+      ]
+    },
+    {
+      "name": "Farine Tipo 00 ou farine de blé",
+      "tag": "Pâte qui s'étire",
+      "body": "La farine tout usage donne une pâte plus molle et plus faible qui se déchire. La farine italienne 00 est moulue finement pour les fours très chauds ; la farine de blé a plus de protéines et convient aux fours domestiques et au style new-yorkais. Si votre four n'atteint que 260°C, la farine de blé ou une farine 00 conçue pour les fours domestiques dore souvent mieux. Essayez les deux. L'argument en sa faveur : pâte plus extensible et plus résistante, meilleure texture, et bon marché. Le compromis est réel : la 00 classique dore mal dans les fours domestiques et doit être conservée dans un récipient hermétique, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Pâte plus extensible et plus résistante",
+        "Meilleure texture",
+        "Bon marché"
+      ],
+      "cons": [
+        "La 00 classique dore mal dans les fours domestiques",
+        "Conserver dans un récipient hermétique"
+      ]
+    },
+    {
+      "name": "Un thermomètre infrarouge",
+      "tag": "Connaître la température de surface",
+      "body": "Le thermostat du four indique la température de l'air, pas celle de l'acier. Un thermomètre infrarouge indique la température réelle de la surface en une seconde, vous savez donc quand elle est prête à enfourner. C'est essentiel avec les fours à pizza d'extérieur, où la pierre peut être très chaude à l'arrière et plus froide à l'avant. L'argument en sa faveur : indique la chaleur réelle de la surface, essentiel pour les fours d'extérieur, et utile pour les poêles et les plaques. Le compromis est réel : ne lit pas la température de l'air et les surfaces brillantes donnent des lectures inexactes, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Indique la chaleur réelle de la surface",
+        "Essentiel pour les fours d'extérieur",
+        "Utile pour les poêles et les plaques"
+      ],
+      "cons": [
+        "Ne lit pas la température de l'air",
+        "Les surfaces brillantes donnent des lectures inexactes"
+      ]
+    },
+    {
+      "name": "Une roulette à pizza ou un coupe-pizza basculant",
+      "tag": "Tranches nettes",
+      "body": "Une roulette émoussée déchire les garnitures de la pizza. Une roulette bien aiguisée avec une garde, ou une longue lame basculante, coupe proprement en une seule pression. Les lames basculantes sont plus rapides pour les grandes pizzas et plus faciles à nettoyer. Protégez votre acier ou votre pelle ; coupez sur une planche. L'argument en sa faveur : tranches nettes sans tirer les garnitures, rapide, et bon marché. Le compromis est réel : les basculants nécessitent une grande longueur de rangement et ne coupent pas sur votre acier, alors pesez cela par rapport à la fréquence d'utilisation. Prix entre 10 et 25 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Tranches nettes sans tirer les garnitures",
+        "Rapide",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les basculants nécessitent une grande longueur de rangement",
+        "Ne coupent pas sur votre acier"
+      ]
+    },
+    {
+      "name": "Des récipients pour la pousse de la pâte",
+      "tag": "Pâte facile pour la nuit",
+      "body": "La meilleure pâte à pizza est préparée un jour ou plus à l'avance et reposée au réfrigérateur, ce qui développe les arômes et la rend plus facile à étirer. Les récipients avec couvercle ou une boîte de pousse empêchent les boules de pâte de se dessécher et de coller ensemble. Les récipients ronds individuels s'empilent proprement dans le réfrigérateur. L'argument en sa faveur : meilleure saveur grâce à une pousse lente, empêche la pâte de se dessécher, et empilables. Le compromis est réel : prend de la place au réfrigérateur et la pâte a toujours besoin de temps hors du réfrigérateur avant utilisation, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Meilleure saveur grâce à une pousse lente",
+        "Empêche la pâte de se dessécher",
+        "Empilables"
+      ],
+      "cons": [
+        "Prend de la place au réfrigérateur",
+        "La pâte a toujours besoin de temps hors du réfrigérateur avant utilisation"
+      ]
+    },
+    {
+      "name": "Un four à pizza portable d'extérieur",
+      "tag": "Pizza style napolitain",
+      "body": "Les fours portables à gaz ou à granulés de bois de marques comme Ooni, Gozney et similaires atteignent 850°F (environ 450°C) ou plus et cuisent une pizza en environ une minute, avec la croûte tachetée que l'on ne peut pas obtenir à l'intérieur. C'est la dépense la plus importante ici et cela nécessite un espace extérieur et de la pratique ; les pizzas brûlent en quelques secondes si vous ne faites pas attention. Les modèles à gaz sont plus faciles que ceux à bois. L'argument en sa faveur : chaleur digne d'une pizzeria, pizzas en une minute, et amusant pour les fêtes. Le compromis est réel : les pizzas brûlent rapidement pendant que vous apprenez et nécessite un espace extérieur et du carburant, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Chaleur digne d'une pizzeria",
+        "Pizzas en une minute",
+        "Amusant pour les fêtes"
+      ],
+      "cons": [
+        "Les pizzas brûlent rapidement pendant que vous apprenez",
+        "Nécessite un espace extérieur et du carburant"
+      ]
+    },
+    {
+      "name": "Une poêle en fonte",
+      "tag": "Deep-dish et style Detroit",
+      "body": "Toutes les pizzas ne sont pas fines. Les pizzas à la poêle, style Detroit et deep-dish cuisent magnifiquement dans la fonte, avec des bords croustillants et frits, et elles conviennent parfaitement aux fours domestiques. Une poêle de 10 ou 12 pouces que vous possédez déjà fera l'affaire. C'est le moyen le plus simple d'impressionner avec une pizza maison. L'argument en sa faveur : excellente pour les pizzas à la poêle et deep-dish, convient parfaitement aux fours domestiques, et utilisée pour tout le reste aussi. Le compromis est réel : lourde et nécessite un entretien de culottage, alors pesez cela par rapport à la fréquence d'utilisation. Prix entre 25 et 45 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Excellente pour les pizzas à la poêle et deep-dish",
+        "Convient parfaitement aux fours domestiques",
+        "Utilisée pour tout le reste aussi"
+      ],
+      "cons": [
+        "Lourde",
+        "Nécessite un entretien de culottage"
+      ]
+    },
+    {
+      "name": "Une grille à pizza ou une plaque perforée",
+      "tag": "Base croustillante sans pierre",
+      "body": "Si l'acier n'est pas pratique, une plaque perforée ou une grille à pizza permet à la chaleur d'atteindre la base et à l'humidité de s'échapper, donc elle croustille mieux qu'un plateau de cuisson plein. C'est bon marché, léger et idéal pour réchauffer les pizzas à emporter aussi. L'argument en sa faveur : mieux qu'un plateau de cuisson plat, bon marché et léger, et idéal pour réchauffer. Le compromis est réel : pas aussi croustillant qu'un acier et la pâte peut s'enfoncer dans les grilles, alors pesez cela par rapport à la fréquence d'utilisation. À 10-20 $, elle mérite sa place sur cette liste sans demander un gros investissement initial.",
+      "pros": [
+        "Mieux qu'un plateau de cuisson plat",
+        "Bon marché et léger",
+        "Idéal pour réchauffer"
+      ],
+      "cons": [
+        "Pas aussi croustillant qu'un acier",
+        "La pâte peut s'enfoncer dans les grilles"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Puis-je faire de bonnes pizzas dans un four normal ?",
+      "a": "Oui. Préchauffez une plaque en acier à la température la plus élevée pendant une heure et faites cuire sur la grille du tiers supérieur."
+    },
+    {
+      "q": "Pierre ou acier ?",
+      "a": "L'acier dore plus vite et ne se fissure pas. La pierre est plus légère et moins chère."
+    },
+    {
+      "q": "Un four à pizza d'extérieur vaut-il le coup ?",
+      "a": "Si vous faites des pizzas souvent et avez un espace extérieur, oui. Maîtrisez d'abord une plaque en acier."
+    },
+    {
+      "q": "Quelle farine dois-je utiliser ?",
+      "a": "Farine de blé pour les fours domestiques et le style new-yorkais ; farine 00 pour les fours d'extérieur très chauds."
+    }
+  ]
+}

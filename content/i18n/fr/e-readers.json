@@ -1,0 +1,172 @@
+{
+  "slug": "e-readers",
+  "title": "Liseuses et les quelques accessoires qui les améliorent",
+  "dek": "Dix choses qui vous font lire davantage, classées selon leur capacité à changer vos habitudes plutôt que leur aspect dans leur boîte.",
+  "category": "Technologie",
+  "how_we_pick": "Ces choix proviennent d'avis publiés, de retours d'utilisateurs à long terme et de forums de lecture électronique, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article. Nous avons accordé une importance bien plus grande au confort de l'écran et à l'autonomie qu'aux fonctionnalités supplémentaires, car ce sont les raisons invoquées par les gens pour expliquer pourquoi l'appareil a fini au fond d'un tiroir.",
+  "intro": [
+    "La plupart des gens qui achètent une liseuse arrêtent de l'utiliser pour l'une des trois raisons suivantes : l'écran fatigue au lit, la batterie lâche au mauvais moment, ou ils n'arrivent pas à y mettre leurs livres empruntés à la bibliothèque. Aucun de ces problèmes n'est lié à la lecture elle-même. Ce sont des problèmes d'installation, et les trois sont peu coûteux à résoudre.",
+    "Cette liste est classée par ordre d'efficacité pour garder l'appareil en main. La liseuse elle-même arrive en premier car l'écran est le produit entier, mais plusieurs des choix ci-dessous coûtent moins cher qu'un livre de poche et sont presque aussi importants. Si vous possédez déjà une liseuse fonctionnelle, commencez à la troisième position.",
+    "Les prix ci-dessous sont des prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout lors des soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Une liseuse de 6-7 pouces avec une lumière frontale chaude",
+      "tag": "Celle à acheter en premier",
+      "body": "L'écran, c'est le produit, alors dépensez pour lui. Cherchez un écran e-ink de 300 ppp, une lumière frontale qui passe du blanc froid à l'ambre, et une façade en verre affleurante sans lunette surélevée. La lumière chaude est la caractéristique la plus sous-estimée : lire la nuit sous une lumière blanc-bleu est ce qui pousse de nombreux propriétaires à abandonner et à revenir au téléphone. Les Kindle Paperwhite et Kobo Clara BW sont les choix habituels dans cette taille, et l'un ou l'autre fera l'affaire. Le vrai choix, c'est la boutique. Kindle vous enferme dans la boutique d'Amazon, tandis que Kobo lit les fichiers EPUB standard et intègre l'emprunt de livres. Les avantages : écran 300 ppp aussi net que l'impression, lumière chaude pour une lecture nocturne confortable, et des semaines d'autonomie entre deux charges. Le compromis est réel : vous entrez dans l'écosystème d'une librairie et les versions avec publicité affichent des publicités sur l'écran de verrouillage à moins de payer pour les supprimer, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Écran 300 ppp aussi net que l'impression",
+        "Lumière chaude pour une lecture nocturne confortable",
+        "Des semaines d'autonomie entre deux charges"
+      ],
+      "cons": [
+        "Vous entrez dans l'écosystème d'une librairie",
+        "Les versions avec publicité affichent des publicités sur l'écran de verrouillage à moins de payer pour les supprimer"
+      ]
+    },
+    {
+      "name": "Un modèle étanche, si vous lisez dans le bain ou à la piscine",
+      "tag": "Liseuses près de l'eau",
+      "body": "La plupart des liseuses milieu de gamme sont désormais certifiées IPX8, ce qui signifie qu'elles survivent à une chute dans l'eau douce et aux éclaboussures à la piscine. Si vous lisez dans le bain, à la plage ou sur un bateau, faites de cette certification un critère de sélection plutôt qu'un bonus. Un livre de poche mouillé est ruiné ; une liseuse mouillée est juste mouillée. L'eau salée et le sable sont toujours mauvais pour le port de charge, alors rincez et séchez-le après. Vérifiez attentivement l'annonce, car certains vendeurs mélangent des versions étanches et non étanches du même modèle dans une seule annonce et l'écart de prix est faible. Les avantages : l'IPX8 résiste à une immersion accidentelle, permet de lire là où les livres papier souffrent, et coûte généralement un peu plus cher. Le compromis est réel : les écrans tactiles fonctionnent mal lorsque le verre est mouillé et il faut rincer rapidement l'eau salée et le sable, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "L'IPX8 résiste à une immersion accidentelle",
+        "Permet de lire là où les livres papier souffrent",
+        "Coûte généralement un peu plus cher"
+      ],
+      "cons": [
+        "Les écrans tactiles fonctionnent mal lorsque le verre est mouillé",
+        "Il faut rincer rapidement l'eau salée et le sable"
+      ]
+    },
+    {
+      "name": "Un étui fin de type folio avec mise en veille/réveil automatique",
+      "tag": "Protéger l'écran",
+      "body": "Les écrans e-ink se fissurent sous la pression, pas seulement à cause des chutes, et la façon la plus courante dont ils meurent est dans un sac avec des clés ou un chargeur qui appuie sur le verre. Un étui folio évite cela, et la fermeture magnétique veille/réveil économise la batterie sans que vous y pensiez. Adaptez l'étui au modèle et à la génération exacts, car un étui pour la version de l'année dernière manque souvent le bouton d'alimentation de quelques millimètres. Évitez les étuis robustes et lourds, sauf si vous avez des enfants qui utilisent l'appareil ; le poids est l'ennemi de la lecture à une main. Les avantages : évite les fissures dues à la pression qui tuent la plupart des écrans, la fermeture magnétique économise automatiquement la batterie et n'ajoute que très peu de poids. Le compromis est réel : il doit correspondre à votre modèle et génération exacts et les étuis bon marché peuvent perdre leurs aimants en un an, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Évite les fissures dues à la pression qui tuent la plupart des écrans",
+        "La fermeture magnétique économise automatiquement la batterie",
+        "N'ajoute que très peu de poids"
+      ],
+      "cons": [
+        "Doit correspondre à votre modèle et génération exacts",
+        "Les étuis bon marché peuvent perdre leurs aimants en un an"
+      ]
+    },
+    {
+      "name": "Un compte d'application de prêt de bibliothèque (Libby ou celle de votre bibliothèque)",
+      "tag": "Livres gratuits",
+      "body": "Cela ne coûte rien et c'est la plus grande économie d'argent sur la page. La plupart des bibliothèques publiques américaines prêtent des livres électroniques via Libby, et dans de nombreux endroits, vous pouvez également envoyer ces prêts directement sur un Kindle. Les lecteurs Kobo ont OverDrive intégré dans le menu de la boutique. Les listes d'attente pour les nouveaux best-sellers peuvent être longues, mais le catalogue est énorme et les emprunts sont gratuits. Si vous lisez plus d'un livre par mois, cela rembourse la liseuse en moins d'un an. Vérifiez d'abord le site web de votre propre bibliothèque ; ce qu'ils proposent varie selon la ville. Les avantages : des milliers de livres gratuits avec une carte de bibliothèque, les prêts se retournent automatiquement, donc pas d'amendes, et fonctionne sur la plupart des liseuses majeures. Le compromis est réel : les nouveautés populaires ont des listes d'attente et la disponibilité dépend de votre bibliothèque locale, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Des milliers de livres gratuits avec une carte de bibliothèque",
+        "Les prêts se retournent automatiquement, donc pas d'amendes",
+        "Fonctionne sur la plupart des liseuses majeures"
+      ],
+      "cons": [
+        "Les nouveautés populaires ont des listes d'attente",
+        "La disponibilité dépend de votre bibliothèque locale"
+      ]
+    },
+    {
+      "name": "Un court câble USB-C et un petit chargeur mural",
+      "tag": "Ne jamais tomber à plat en voyage",
+      "body": "Une liseuse fonctionne pendant des semaines, c'est exactement pourquoi les gens oublient de la charger jusqu'à la porte d'embarquement de l'aéroport. Les nouveaux modèles se chargent via USB-C, donc le câble que vous transportez pour votre téléphone fonctionne probablement, mais un câble court de rechange dans la poche de l'étui ou votre pochette de voyage signifie qu'il est toujours là. Un petit chargeur de 20W est plus que suffisant. Si votre liseuse est plus ancienne et utilise encore le micro-USB, achetez un câble de rechange maintenant tant qu'ils sont encore faciles à trouver. Les avantages : élimine la panne de voyage la plus courante, partage un chargeur avec votre téléphone, et coûte moins cher qu'un livre de poche acheté à l'aéroport. Le compromis est réel : les anciennes liseuses ont toujours besoin du micro-USB et les câbles génériques bon marché tombent en panne rapidement ; achetez une marque connue, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Élimine la panne de voyage la plus courante",
+        "Partage un chargeur avec votre téléphone",
+        "Coûte moins cher qu'un livre de poche acheté à l'aéroport"
+      ],
+      "cons": [
+        "Les anciennes liseuses ont toujours besoin du micro-USB",
+        "Les câbles génériques bon marché tombent en panne rapidement ; achetez une marque connue"
+      ]
+    },
+    {
+      "name": "Une lampe de lecture à clipser ou tour de cou, pour les anciennes liseuses non éclairées",
+      "tag": "Améliorer un vieil appareil",
+      "body": "Si vous avez une ancienne liseuse basique sans lumière frontale, vous n'avez pas besoin d'un nouvel appareil pour lire au lit. Une petite lampe à clipser ou tour de cou avec un réglage chaud résout le problème pour très peu cher. Choisissez-en une avec au moins deux niveaux de luminosité et une option de couleur chaude, et une charge USB-C. Les lampes tour de cou sont meilleures pour un partenaire dans le même lit car elles dirigent la lumière vers la page plutôt que dans la pièce. C'est aussi un bon cadeau pour quiconque lit encore des livres papier la nuit. Les avantages : prolonge la durée de vie d'une liseuse que vous possédez déjà, les réglages chauds sont plus doux pour un partenaire endormi, et fonctionne aussi pour les livres papier. Le compromis est réel : les reflets sur les protecteurs d'écran brillants et les charnières des clips sont la première partie à casser, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Prolonge la durée de vie d'une liseuse que vous possédez déjà",
+        "Les réglages chauds sont plus doux pour un partenaire endormi",
+        "Fonctionne aussi pour les livres papier"
+      ],
+      "cons": [
+        "Reflets sur les protecteurs d'écran brillants",
+        "Les charnières des clips sont la première partie à casser"
+      ]
+    },
+    {
+      "name": "Une télécommande pour tourner les pages",
+      "tag": "Lire avec les mains froides ou au lit",
+      "body": "Cela ressemble à un gadget jusqu'à ce que vous l'essayiez. Une petite télécommande Bluetooth ou à clipser vous permet de tourner les pages avec la main sous la couette, en mangeant, ou avec la liseuse sur un support. Certaines se fixent à l'écran et le tapotent physiquement, elles fonctionnent donc sur n'importe quelle liseuse tactile ; d'autres utilisent le Bluetooth et ne fonctionnent qu'avec les modèles qui le prennent en charge. Vérifiez le type que vous achetez. Pour les personnes souffrant d'arthrite ou ayant une prise limitée, cela peut faire la différence entre lire et ne pas lire. Les avantages : tournage de pages mains libres, utile pour une prise limitée ou l'arthrite, et se marie bien avec un support. Le compromis est réel : les types à tapotement peuvent mal s'aligner et manquer l'écran, et les versions Bluetooth ne conviennent qu'aux modèles pris en charge, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Tournage de pages mains libres",
+        "Utile pour une prise limitée ou l'arthrite",
+        "Se marie bien avec un support"
+      ],
+      "cons": [
+        "Les types à tapotement peuvent mal s'aligner et manquer l'écran",
+        "Les versions Bluetooth ne conviennent qu'aux modèles pris en charge"
+      ]
+    },
+    {
+      "name": "Un support ou un coussin incliné",
+      "tag": "Lire les mains libres",
+      "body": "Tenir même un appareil léger pendant une heure devient fatigant, surtout en étant couché sur le côté. Un petit support pliable pour la table, ou un coussin incliné souple pour le lit, vous permet de lire en mangeant votre petit-déjeuner ou avec vos mains sous les couvertures. Les modèles de type coussin avec un rebord sont les plus confortables pour le lit. Combiné avec une télécommande pour tourner les pages, vous touchez à peine l'appareil. C'est l'un de ces achats que les gens font une fois et gardent pendant une décennie. Les avantages : élimine la fatigue du poignet et de la main, fonctionne aussi pour les tablettes et les livres papier, et est bon marché et dure des années. Le compromis est réel : un autre objet sur le lit ou la table et les supports rigides peuvent rayer les étuis non protégés, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Élimine la fatigue du poignet et de la main",
+        "Fonctionne aussi pour les tablettes et les livres papier",
+        "Bon marché et dure des années"
+      ],
+      "cons": [
+        "Un autre objet sur le lit ou la table",
+        "Les supports rigides peuvent rayer les étuis non protégés"
+      ]
+    },
+    {
+      "name": "Un protecteur d'écran trempé ou mat",
+      "tag": "Écrans sujets aux rayures",
+      "body": "La plupart des liseuses actuelles ont une façade en verre dur et n'en ont pas strictement besoin. Les modèles plus anciens et les liseuses moins chères avec un écran en plastique souple se rayent facilement, surtout si vous lisez à la plage. Si vous ajoutez un protecteur, choisissez mat plutôt que brillant : le film brillant annule l'aspect papier qui rend l'e-ink agréable pour les yeux. Achetez un paquet de deux, car l'alignement est délicat et la première tentative échoue souvent. Les avantages : protège les écrans en plastique souple du sable et des clés, le film mat conserve le fini papier, et une assurance très bon marché. Le compromis est réel : le film brillant ajoute des reflets et est inutile sur la plupart des modèles plus récents à façade en verre, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Protège les écrans en plastique souple du sable et des clés",
+        "Le film mat conserve le fini papier",
+        "Assurance très bon marché"
+      ],
+      "cons": [
+        "Le film brillant ajoute des reflets",
+        "Inutile sur la plupart des modèles plus récents à façade en verre"
+      ]
+    },
+    {
+      "name": "Une liseuse de 10 pouces pour la prise de notes",
+      "tag": "PDF et notes manuscrites",
+      "body": "Les liseuses de six pouces sont faites pour les romans. Les PDF, les manuels, les partitions et les documents techniques sont misérables sur elles car la page rétrécit jusqu'à devenir illisible. Une tablette e-ink de 10 pouces avec un stylet résout ce problème et permet de prendre des notes manuscrites dans les marges. Les Kindle Scribe, Kobo Elipsa et la gamme Boox Note sont les options courantes ; Boox fonctionne sous Android et installe d'autres applications de lecture, ce qui est flexible mais plus compliqué. Elles sont chères, lourdes et excessives pour la fiction. N'en achetez une que si votre lecture concerne principalement des documents. Les avantages : affiche des pages PDF complètes en taille lisible, permet des notes manuscrites et des annotations en marge, et est agréable pour les yeux lors de longues sessions de lecture de documents. Le compromis est réel : cher et lourd pour les romans et rafraîchissement de page lent par rapport à une tablette, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Affiche des pages PDF complètes en taille lisible",
+        "Permet des notes manuscrites et des annotations en marge",
+        "Agréable pour les yeux lors de longues sessions de lecture de documents"
+      ],
+      "cons": [
+        "Cher et lourd pour les romans",
+        "Rafraîchissement de page lent par rapport à une tablette"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kindle ou Kobo ?",
+      "a": "Si vous achetez déjà des livres sur Amazon, Kindle. Si vous empruntez beaucoup à la bibliothèque ou souhaitez acheter des livres EPUB dans d'autres boutiques, Kobo est plus ouvert. Le matériel est suffisamment similaire pour que la boutique doive décider."
+    },
+    {
+      "q": "Une liseuse est-elle meilleure pour les yeux qu'une tablette ?",
+      "a": "Pour les longues sessions de lecture, la plupart des gens trouvent l'e-ink plus confortable. Il réfléchit la lumière comme du papier au lieu de vous l'envoyer, et une lumière frontale chaude aide la nuit."
+    },
+    {
+      "q": "Ai-je besoin d'un modèle étanche ?",
+      "a": "Seulement si vous lisez près de l'eau. Cela coûte généralement un peu plus cher, et c'est une tranquillité d'esprit si vous lisez dans le bain ou en vacances."
+    },
+    {
+      "q": "Puis-je lire des livres de bibliothèque dessus ?",
+      "a": "Dans la plupart des États-Unis, oui, via Libby ou OverDrive. Vérifiez le site de votre bibliothèque pour confirmer qu'elle propose le prêt de livres électroniques."
+    }
+  ]
+}

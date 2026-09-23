@@ -1,0 +1,172 @@
+{
+  "slug": "day-hiking",
+  "title": "Équipement de randonnée à la journée : rentrez chez vous en forme, pas juste chez vous",
+  "dek": "Dix articles pour les randonnées à la journée, classés selon leur utilité quand le sentier s'allonge, devient plus chaud ou plus humide que prévu.",
+  "category": "Outdoor",
+  "how_we_pick": "Ces choix proviennent des conseils des détaillants spécialisés, des consignes de sécurité des parcs nationaux, des communautés de randonneurs et des retours d'utilisateurs sur le long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article. Pour les voyages de plusieurs jours et le camping, consultez notre guide de camping séparé.",
+  "intro": [
+    "La plupart des randonnées à la journée se passent bien. Celles qui tournent mal ont tendance à mal tourner de manière prévisible et mineure : ampoules dues à des chaussures neuves, manque d'eau par un après-midi chaud, téléphone qui meurt juste au moment où vous avez besoin de la carte, ou un vent froid soudain au sommet avec un simple t-shirt en coton. Rien de dramatique. C'est juste la différence entre une bonne journée et une marche retour misérable.",
+    "Cette liste est classée par l'importance de la protection qu'offre chaque article. Les pieds passent en premier car c'est là que la plupart des randonnées se gagnent ou se perdent. Le reste est un équipement léger et abordable que vous utiliserez pendant des années.",
+    "Les prix indiqués sont des prix de rue approximatifs au moment de la rédaction et varient constamment, surtout pendant les soldes. Considérez-les comme une fourchette pour votre budget, pas comme un devis. Vérifiez toujours l'offre en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Chaussures de trail ou chaussures de randonnée légères et bien ajustées",
+      "tag": "L'équipement qui fait la journée",
+      "body": "Pour la plupart des randonnées sur sentiers entretenus, les chaussures de trail légères sont plus confortables que les grosses bottes et sèchent plus vite. L'ajustement est primordial : achetez l'après-midi quand les pieds sont légèrement gonflés, avec un espace de pouce à l'avant pour les descentes, et marchez-les avant une longue randonnée. Les versions imperméables gardent les pieds au sec dans l'herbe mouillée mais chauffent en été. Les grosses bottes ne valent leur poids que sur terrain accidenté avec un sac lourd ou pour des chevilles fragiles. Les avantages : plus légères et plus confortables que les bottes, semelles adhérentes pour les sentiers, et sèchent plus vite une fois mouillées. Le compromis est réel : moins de soutien de la cheville que les bottes et une usure plus rapide, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Plus légères et plus confortables que les bottes",
+        "Semelles adhérentes pour les sentiers",
+        "Sèchent plus vite une fois mouillées"
+      ],
+      "cons": [
+        "Moins de soutien de la cheville que les bottes",
+        "S'usent plus vite que les bottes"
+      ]
+    },
+    {
+      "name": "Chaussettes de randonnée en mérinos ou synthétiques",
+      "tag": "Prévenir les ampoules",
+      "body": "Les chaussettes en coton retiennent la transpiration, et la peau humide frotte et provoque des ampoules. Les chaussettes de randonnée en laine mérinos ou synthétiques évacuent l'humidité de la peau, amortissent les zones clés et ne sentent pas autant. Elles coûtent plus cher que des chaussettes ordinaires et valent chaque centime. Prenez une paire de rechange pour les longues randonnées. Les avantages : préviennent les ampoules, moins d'odeur, et confortables pendant des heures. Le compromis est réel : le mérinos s'use plus vite que le synthétique et c'est cher par rapport aux chaussettes ordinaires, alors pesez cela par rapport à la fréquence d'utilisation. Pour 15 à 25 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat central qui demande une mûre réflexion.",
+      "pros": [
+        "Préviennent les ampoules",
+        "Moins d'odeur",
+        "Confortables pendant des heures"
+      ],
+      "cons": [
+        "Le mérinos s'use plus vite que le synthétique",
+        "Cher par rapport aux chaussettes ordinaires"
+      ]
+    },
+    {
+      "name": "Un sac à dos de 20-30 L avec ceinture ventrale",
+      "tag": "Porter le tout confortablement",
+      "body": "Un sac d'écolier pend sur les épaules et rebondit. Un vrai sac de randonnée est plus près du dos, a un panneau ventilé et une ceinture ventrale qui reporte le poids sur vos hanches. 20-30 litres suffisent pour l'eau, les couches de vêtements, la nourriture et une trousse de premiers secours. Cherchez une poche pour une poche à eau et des poches latérales accessibles en marchant. Les avantages : confortable pour les longues marches, panneau dorsal ventilé, et place pour les couches et l'eau. Le compromis est réel : les sacs bon marché ont des fermetures éclair fragiles, et essayez-le chargé avant une longue randonnée, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Confortable pour les longues marches",
+        "Panneau dorsal ventilé",
+        "Place pour les couches et l'eau"
+      ],
+      "cons": [
+        "Les sacs bon marché ont des fermetures éclair fragiles",
+        "Essayez-le chargé avant une longue randonnée"
+      ]
+    },
+    {
+      "name": "Une poche à eau de 2 L ou deux bouteilles",
+      "tag": "Assez d'eau",
+      "body": "La déshydratation s'installe silencieusement et rend tout plus difficile. Prévoyez au moins un demi-litre par heure de marche, plus par temps chaud. Une poche à eau avec un tube permet de boire en marchant, donc vous buvez vraiment. Les bouteilles sont plus faciles à remplir et à vérifier. Pour les longues randonnées avec des cours d'eau, ajoutez un petit filtre à eau. Les avantages : boire en marchant, prévient la déshydratation, et contient beaucoup d'eau. Le compromis est réel : les poches à eau sont plus difficiles à nettoyer et les poches bon marché peuvent fuir ou avoir un goût de plastique, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Boire en marchant",
+        "Prévient la déshydratation",
+        "Contient beaucoup d'eau"
+      ],
+      "cons": [
+        "Les poches à eau sont plus difficiles à nettoyer",
+        "Les poches bon marché peuvent fuir ou avoir un goût de plastique"
+      ]
+    },
+    {
+      "name": "Une veste imperméable légère",
+      "tag": "Vent et pluie au sommet",
+      "body": "La météo au sommet est souvent très différente de celle du parking. Une veste imperméable compactable bloque le vent et la pluie et pèse peu. Cherchez des coutures étanches et une capuche réglable. Elle reste dans le sac les jours ensoleillés aussi. Les avantages : bloque le vent et la pluie, se range petite, et s'utilise toute l'année. Le compromis est réel : les vestes bon marché deviennent moites à l'intérieur et nécessitent un réimperméabilisation après quelques saisons, alors pesez cela par rapport à la fréquence d'utilisation. Pour 60 à 150 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat central qui demande une mûre réflexion.",
+      "pros": [
+        "Bloque le vent et la pluie",
+        "Se range petite",
+        "S'utilise toute l'année"
+      ],
+      "cons": [
+        "Les vestes bon marché deviennent moites à l'intérieur",
+        "Nécessite une réimperméabilisation après quelques saisons"
+      ]
+    },
+    {
+      "name": "Une petite trousse de premiers secours et anti-ampoules",
+      "tag": "Petites blessures",
+      "body": "Les ampoules, éraflures et petites entorses sont les blessures courantes lors des randonnées à la journée. Une petite trousse avec des pansements anti-ampoules, du ruban adhésif, des lingettes antiseptiques, des analgésiques et une bande élastique permet de les gérer. Ajoutez vos médicaments personnels. Traitez un point chaud sur votre pied dès que vous le sentez, avant qu'il ne devienne une ampoule. Les avantages : gère les blessures courantes sur sentier, petite et légère, et les soins anti-ampoules sauvent la journée. Le compromis est réel : les trousses préfabriquées manquent souvent de soins anti-ampoules et il faut vérifier et recharger après usage, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Gère les blessures courantes sur sentier",
+        "Petite et légère",
+        "Les soins anti-ampoules sauvent la journée"
+      ],
+      "cons": [
+        "Les trousses préfabriquées manquent souvent de soins anti-ampoules",
+        "Vérifier et recharger après usage"
+      ]
+    },
+    {
+      "name": "Une application de carte hors ligne plus une batterie externe",
+      "tag": "Ne pas se perdre",
+      "body": "Le signal téléphonique disparaît dans les vallées et les forêts. Téléchargez la carte du sentier avant de partir avec des applications comme AllTrails, Gaia GPS ou l'application de votre parc. Le GPS fonctionne toujours sans signal. Emportez une petite batterie externe, car la navigation vide rapidement les batteries. Indiquez votre itinéraire à quelqu'un et quand vous prévoyez de rentrer. Les avantages : fonctionne sans signal, indique votre position exacte, et la batterie externe la maintient en marche. Le compromis est réel : les téléphones s'éteignent par temps froid et une carte papier reste une bonne sauvegarde, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Fonctionne sans signal",
+        "Indique votre position exacte",
+        "La batterie externe la maintient en marche"
+      ],
+      "cons": [
+        "Les téléphones s'éteignent par temps froid",
+        "Une carte papier reste une bonne sauvegarde"
+      ]
+    },
+    {
+      "name": "Bâtons de randonnée",
+      "tag": "Genoux en descente",
+      "body": "Les bâtons soulagent la pression sur les genoux lors des descentes raides et aident à l'équilibre sur terrain accidenté ou mouillé. Les bâtons pliables ou télescopiques se rangent quand ils ne sont pas nécessaires. Les poignées en liège ou en mousse sont plus confortables que le plastique. Ils semblent optionnels jusqu'à votre première longue descente. Les avantages : moins de pression sur les genoux en descente, meilleur équilibre, et se plient petit. Le compromis est réel : une chose de plus à transporter et les verrous bon marché glissent, alors pesez cela par rapport à la fréquence d'utilisation. Pour 30 à 80 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat central qui demande une mûre réflexion.",
+      "pros": [
+        "Moins de pression sur les genoux en descente",
+        "Meilleur équilibre",
+        "Se plient petit"
+      ],
+      "cons": [
+        "Une chose de plus à transporter",
+        "Les verrous bon marché glissent"
+      ]
+    },
+    {
+      "name": "Un chapeau de soleil et des lunettes de soleil",
+      "tag": "Sentiers exposés",
+      "body": "Les crêtes exposées et les sentiers désertiques signifient des heures de soleil. Un chapeau à larges bords protège le visage, les oreilles et le cou, et des lunettes de soleil anti-UV protègent vos yeux. Ajoutez de la crème solaire dans le sac. Les coups de soleil et l'épuisement par la chaleur sont deux des raisons les plus courantes pour lesquelles les randonnées se terminent mal en été. Les avantages : protège des coups de soleil et de la chaleur, protège les yeux, et c'est bon marché. Le compromis est réel : les larges bords attrapent le vent et les lunettes de soleil bon marché ne bloquent peut-être pas entièrement les UV, alors pesez cela par rapport à la fréquence d'utilisation. Prix entre 20 et 50 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Protège des coups de soleil et de la chaleur",
+        "Protège les yeux",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les larges bords attrapent le vent",
+        "Les lunettes de soleil bon marché ne bloquent peut-être pas entièrement les UV"
+      ]
+    },
+    {
+      "name": "Une couche polaire ou isolante légère",
+      "tag": "Sommets froids et pauses",
+      "body": "Vous vous réchauffez en montant et vous vous refroidissez rapidement au sommet ou pendant la pause déjeuner. Une polaire légère ou une veste isolante synthétique vous garde au chaud pendant les pauses. L'isolation synthétique reste chaude même mouillée, contrairement au duvet. Elle se range au fond du sac à dos. Les avantages : reste au chaud pendant les pauses et aux sommets, légère, et utile aussi pour un usage quotidien. Le compromis est réel : les polaires volumineuses prennent de la place dans le sac et le duvet perd son pouvoir isolant mouillé, alors pesez cela par rapport à la fréquence d'utilisation. À 30-80 $, elle mérite sa place sur cette liste sans demander un gros engagement initial.",
+      "pros": [
+        "Reste au chaud pendant les pauses et aux sommets",
+        "Légère",
+        "Utile aussi pour un usage quotidien"
+      ],
+      "cons": [
+        "Les polaires volumineuses prennent de la place dans le sac",
+        "Le duvet perd son pouvoir isolant mouillé"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ai-je besoin de chaussures de randonnée pour les randonnées à la journée ?",
+      "a": "Généralement non. Les chaussures de trail sont plus légères et confortables sur la plupart des sentiers entretenus. Les bottes sont utiles sur terrain accidenté ou si vous avez besoin d'un soutien de la cheville."
+    },
+    {
+      "q": "Quelle quantité d'eau dois-je apporter ?",
+      "a": "Environ un demi-litre par heure de marche, plus par temps chaud. Apportez-en plus si vous n'êtes pas sûr."
+    },
+    {
+      "q": "Quels sont les dix essentiels ?",
+      "a": "Navigation, lumière, protection solaire, premiers secours, couteau ou outil, feu, abri, nourriture supplémentaire, eau supplémentaire et couches de vêtements supplémentaires. Adaptez-les à la randonnée."
+    },
+    {
+      "q": "Comment éviter les ampoules ?",
+      "a": "Chaussures bien ajustées, chaussettes en mérinos ou synthétiques, et traitement précoce des points chauds."
+    }
+  ]
+}

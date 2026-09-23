@@ -1,0 +1,172 @@
+{
+  "slug": "video-calls",
+  "title": "Besser aussehen und klingen bei Videoanrufen",
+  "dek": "Zehn Upgrades, sortiert danach, wie viel besser Sie in einem Anruf rüberkommen. Ton ist am wichtigsten, die Kamera am wenigsten.",
+  "category": "Büro",
+  "how_we_pick": "Diese Auswahl stammt aus veröffentlichten Testberichten zu Audio- und Webcams, aus Communities für Remote-Arbeit und aus Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Wir bevorzugten Dinge, die mit jeder Anruf-App funktionieren und im Büro normal aussehen.",
+  "intro": [
+    "Wenn Leute bei Anrufen besser aussehen wollen, kaufen sie eine 4K-Webcam. Das ist meistens der falsche erste Schritt. Was Kollegen bemerken, ist Echo, eine Stimme, die abbricht, und ein Gesicht, das von einem Fenster hinterleuchtet wird. Wenn Sie das beheben, sieht eine Laptop-Kamera gut aus. Wenn Sie es ignorieren, zeigt eine 200-Dollar-Webcam Ihre schlechte Beleuchtung nur in mehr Details.",
+    "Diese Liste ist also nach Ton zuerst, Licht zweitens und Kamera zuletzt geordnet. Die meisten nützlichen Dinge kosten weniger als 50 US-Dollar, und einige kosten gar nichts.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetplanung, nicht als Angebot. Prüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Ein kabelgebundenes Headset oder ein USB-Headset mit Galgenmikrofon",
+      "tag": "Das Upgrade, das Kollegen tatsächlich hören",
+      "body": "Laptop-Mikrofone nehmen den ganzen Raum auf: die Tastatur, den Kühlschrank, das Echo von kahlen Wänden. Ein Galgenmikrofon sitzt wenige Zentimeter von Ihrem Mund entfernt, sodass Ihre Stimme laut und alles andere leise ist. Das ist die größte Veränderung, die Leute bemerken werden. Kabelgebundene oder USB-Headsets sind dafür zuverlässiger als Bluetooth, das oft die Audioqualität beeinträchtigt, wenn das Mikrofon aktiv ist. Jabra, Logitech und Poly stellen gute Büros-Headsets zu moderaten Preisen her. Das Argument dafür: klare Stimme, wenig Hintergrundgeräusche, stoppt Echo und Rückkopplung und funktioniert mit jeder Anruf-App. Der Kompromiss ist real: Headsets sehen auf der Kamera weniger gut aus und Bluetooth-Versionen klingen bei Anrufen oft schlechter, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Klare Stimme, wenig Hintergrundgeräusche",
+        "Stoppt Echo und Rückkopplung",
+        "Funktioniert mit jeder Anruf-App"
+      ],
+      "cons": [
+        "Headsets sehen auf der Kamera weniger gut aus",
+        "Bluetooth-Versionen klingen bei Anrufen oft schlechter"
+      ]
+    },
+    {
+      "name": "Dem Fenster zugewandt, nicht mit dem Fenster hinter Ihnen sitzend",
+      "tag": "Die kostenlose Beleuchtungslösung",
+      "body": "Ein helles Fenster hinter Ihnen macht Sie zur Silhouette, und die Kamera kann das nicht beheben. Wenn Sie Ihren Schreibtisch so drehen, dass das Fenster vor Ihnen oder seitlich ist, erhalten Sie kostenloses, weiches, schmeichelhaftes Licht. Wenn Sie den Schreibtisch nicht bewegen können, ziehen Sie die Jalousie hinter sich zu und stellen Sie eine Lampe davor. Diese eine Änderung lässt eine billige Webcam gut aussehen. Das Argument dafür: kostet nichts, weiches, gleichmäßiges Licht auf Ihrem Gesicht und lässt jede Kamera besser aussehen. Der Kompromiss ist real: hängt vom Raumlayout ab und direktes Sonnenlicht ist zu grell; verwenden Sie einen dünnen Vorhang, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Kostet nichts",
+        "Weiches, gleichmäßiges Licht auf Ihrem Gesicht",
+        "Lässt jede Kamera besser aussehen"
+      ],
+      "cons": [
+        "Hängt vom Raumlayout ab",
+        "Direktes Sonnenlicht ist zu grell; verwenden Sie einen dünnen Vorhang"
+      ]
+    },
+    {
+      "name": "Ein kleines LED-Panel oder eine Aufhellung",
+      "tag": "Abendliche Anrufe und dunkle Räume",
+      "body": "Wenn das Tageslicht schwindet, sorgt ein kleines, dimmbares LED-Panel hinter dem Monitor und leicht über Ihren Augen für gleichmäßiges, weiches Licht. Wählen Sie eines mit einstellbarer Farbtemperatur, damit Sie es an den Raum anpassen können, und reflektieren Sie es von einer Wand, wenn es zu grell ist. Ringlichter funktionieren auch, spiegeln sich aber in Brillen; ein Panel, das seitlich platziert wird, vermeidet das. Das Argument dafür: gleichmäßiges Licht zu jeder Tageszeit, einstellbare Helligkeit und Wärme, klein und günstig. Der Kompromiss ist real: spiegelt sich in Brillen, wenn es gerade aufgestellt wird, und Klemmen können dünne Monitore beschädigen, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Gleichmäßiges Licht zu jeder Tageszeit",
+        "Einstellbare Helligkeit und Wärme",
+        "Klein und günstig"
+      ],
+      "cons": [
+        "Spiegelt sich in Brillen, wenn es gerade aufgestellt wird",
+        "Klemmen können dünne Monitore beschädigen"
+      ]
+    },
+    {
+      "name": "Ein Laptop-Ständer",
+      "tag": "Kamera auf Augenhöhe",
+      "body": "Ein Laptop auf dem Schreibtisch filmt Sie von unten, was unvorteilhaft ist und den Eindruck erweckt, Sie blicken auf alle herab. Ein Ständer hebt die Kamera auf Augenhöhe. Kombinieren Sie ihn mit einer separaten Tastatur und Maus, damit Sie bequem tippen können. Ein Stapel Bücher funktioniert, aber ein faltbarer Ständer lässt sich zusammenklappen und in der Höhe verstellen. Das Argument dafür: Kamerawinkel auf Augenhöhe, bessere Haltung bei langen Anrufen und flach zusammenklappbar. Der Kompromiss ist real: benötigt eine separate Tastatur und Maus, und billige Ständer können beim Tippen wackeln, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Kamerawinkel auf Augenhöhe",
+        "Bessere Haltung bei langen Anrufen",
+        "Flach zusammenklappbar"
+      ],
+      "cons": [
+        "Benötigt eine separate Tastatur und Maus",
+        "Billige Ständer können beim Tippen wackeln"
+      ]
+    },
+    {
+      "name": "Ein USB-Tischmikrofon",
+      "tag": "Leute, die beruflich reden",
+      "body": "Wenn Sie präsentieren, unterrichten, podcasten oder auf Anrufen verkaufen, liefert ein USB-Mikrofon eine vollere, wärmere Stimme als ein Headset. Dynamische Mikrofone, wie das Samson Q2U oder ähnliche, unterdrücken Raumgeräusche besser als Kondensatormikrofone, was die meisten Heimbüros benötigen. Platzieren Sie es nah am Mund, knapp außerhalb des Kamerabereichs, auf einem kleinen Arm. Verwenden Sie Kopfhörer, um Echo zu vermeiden. Das Argument dafür: volle, klare Stimme, professionelles Aussehen auf der Kamera und auch für Aufnahmen nützlich. Der Kompromiss ist real: Kondensatormikrofone nehmen Raumhall auf und benötigen Kopfhörer zur Vermeidung von Rückkopplungen, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Volle, klare Stimme",
+        "Professionelles Aussehen auf der Kamera",
+        "Auch für Aufnahmen nützlich"
+      ],
+      "cons": [
+        "Kondensatormikrofone nehmen Raumhall auf",
+        "Benötigt Kopfhörer zur Vermeidung von Rückkopplungen"
+      ]
+    },
+    {
+      "name": "Eine 1080p-Webcam",
+      "tag": "Laptops, die mit geschlossenem Deckel verwendet werden",
+      "body": "Wenn Ihr Laptop geschlossen auf einem Ständer neben einem Monitor steht, benötigen Sie eine externe Webcam, die auf dem Monitor auf Augenhöhe platziert werden kann. Eine gute 1080p-Webcam mit guter Leistung bei schwachem Licht ist ausreichend. 4K bringt bei Anrufen wenig, da die meisten Apps das Video sowieso komprimieren. Achten Sie auf eine integrierte Abdeckkappe für die Privatsphäre. Das Argument dafür: Kamera sitzt auf Augenhöhe auf dem Monitor, besser als viele ältere Laptop-Kameras und bei den meisten Modellen mit Abdeckkappe für die Privatsphäre. Der Kompromiss ist real: 4K ist bei Anrufen meist verschwendet und integrierte Mikrofone sind oft schlecht, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Kamera sitzt auf Augenhöhe auf dem Monitor",
+        "Besser als viele ältere Laptop-Kameras",
+        "Abdeckkappe für die Privatsphäre bei den meisten Modellen"
+      ],
+      "cons": [
+        "4K ist bei Anrufen meist verschwendet",
+        "Integrierte Mikrofone sind oft schlecht"
+      ]
+    },
+    {
+      "name": "Weiche Möbel oder ein Teppich",
+      "tag": "Hallende Räume",
+      "body": "Kahle Wände und harte Böden reflektieren Schall, was Sie klingen lässt, als wären Sie in einem Badezimmer. Ein Teppich, Vorhänge, ein Bücherregal oder ein paar Kissen schlucken ihn. Akustikschaumstoffplatten funktionieren, sehen aber nach Studio aus; normale Möbel reichen normalerweise aus und sehen auf der Kamera besser aus. Klatschen Sie vorher und nachher im Raum. Das Argument dafür: weniger Echo bei jedem Anruf, macht den Raum auch schöner und keine Technik erforderlich. Der Kompromiss ist real: reduziert nur das Echo, nicht Außengeräusche, und Schaumstoffplatten können fehl am Platz aussehen, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Weniger Echo bei jedem Anruf",
+        "Macht den Raum auch schöner",
+        "Keine Technik erforderlich"
+      ],
+      "cons": [
+        "Reduziert nur das Echo, nicht Außengeräusche",
+        "Schaumstoffplatten können fehl am Platz aussehen"
+      ]
+    },
+    {
+      "name": "Ein kabelgebundener Ethernet-Adapter",
+      "tag": "Eingefrorenes Video",
+      "body": "Eingefrorene Videos und Roboterstimmen sind normalerweise WLAN, nicht die Kamera. Wenn Ihr Schreibtisch in der Nähe des Routers steht, bietet Ihnen ein USB-C-Ethernet-Adapter und ein Kabel eine stabile Verbindung, die nicht abbricht, wenn jemand im Nebenraum streamt. Viele USB-C-Hubs enthalten bereits einen Ethernet-Anschluss. Das Argument dafür: stoppt Einfrieren und Aussetzer, günstig und oft in USB-C-Hubs integriert. Der Kompromiss ist real: nur in der Nähe des Routers praktikabel und benötigt einen freien Port an dünnen Laptops, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Stoppt Einfrieren und Aussetzer",
+        "Günstig",
+        "Oft in USB-C-Hubs integriert"
+      ],
+      "cons": [
+        "Nur in der Nähe des Routers praktikabel",
+        "Benötigt einen freien Port an dünnen Laptops"
+      ]
+    },
+    {
+      "name": "Ein aufgeräumter Hintergrund oder eine einfache Kulisse",
+      "tag": "Ordentlich wirken",
+      "body": "Weichzeichner und virtuelle Hintergründe flackern um Haare und Hände. Ein echter Hintergrund mit einer Pflanze, einer Lampe und einem Regal wirkt ruhig und aufgeräumt. Wenn der Raum hinter Ihnen nicht aufgeräumt werden kann, funktioniert eine einfache Stoffkulisse auf einem Ständer oder das Drehen des Schreibtisches zu einer schlichten Wand mit einem Objekt darauf gut. Das Argument dafür: wirkt natürlicher als Weichzeichner, kein Flackern an den Rändern und oft kostenlos. Der Kompromiss ist real: ein echter Hintergrund nimmt Platz ein und Kulissen können knittern; wählen Sie knitterfreie Stoffe, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Wirkt natürlicher als Weichzeichner",
+        "Kein Flackern an den Rändern",
+        "Oft kostenlos"
+      ],
+      "cons": [
+        "Ein echter Hintergrund nimmt Platz ein",
+        "Kulissen können knittern; wählen Sie knitterfreie Stoffe"
+      ]
+    },
+    {
+      "name": "Eine Stummschalttaste oder ein Stream Deck",
+      "tag": "Schnelles, sicheres Stummschalten",
+      "body": "Die Stummschalttaste zu suchen, während der Hund bellt, ist eine bekannte Panik. Ein kleines USB-Makro-Pad oder eine physische Stummschalttaste ermöglicht es Ihnen, jede App sofort stummzuschalten und zeigt deutlich an, ob Sie live sind. Viele können auch so eingestellt werden, dass sie Anrufe starten, den Bildschirm teilen und die Hand heben. Nett zu haben, aber nicht essenziell. Das Argument dafür: sofortiges Stummschalten aus jeder App, klare Ein/Aus-Anzeige und programmierbare Verknüpfungen. Der Kompromiss ist real: erfordert etwas Einrichtung pro App und ein weiteres Gadget auf dem Schreibtisch, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Sofortiges Stummschalten aus jeder App",
+        "Klare Ein/Aus-Anzeige",
+        "Programmierbare Verknüpfungen"
+      ],
+      "cons": [
+        "Erfordert etwas Einrichtung pro App",
+        "Ein weiteres Gadget auf dem Schreibtisch"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was sollte ich zuerst für bessere Anrufe aufrüsten?",
+      "a": "Ihr Mikrofon. Ein Headset mit Galgenmikrofon macht einen größeren Unterschied als jede Kamera."
+    },
+    {
+      "q": "Lohnt sich eine 4K-Webcam?",
+      "a": "Selten für Anrufe. Anruf-Apps komprimieren Videos, daher sieht gute Beleuchtung auf einer 1080p-Kamera besser aus als 4K bei schlechtem Licht."
+    },
+    {
+      "q": "Ringlicht oder LED-Panel?",
+      "a": "Beides funktioniert. Wenn Sie eine Brille tragen, vermeidet ein seitlich platziertes Panel die kreisförmige Reflexion."
+    },
+    {
+      "q": "Warum friert mein Video ein?",
+      "a": "Normalerweise WLAN. Schließen Sie sich per Kabel an, wenn möglich, oder rücken Sie näher an den Router heran."
+    }
+  ]
+}

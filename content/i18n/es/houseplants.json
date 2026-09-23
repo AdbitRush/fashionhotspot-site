@@ -1,0 +1,172 @@
+{
+  "slug": "houseplants",
+  "title": "Plantas de interior que sobreviven en casas reales, y el equipo que las mantiene vivas",
+  "dek": "Diez cosas clasificadas por cuánto aumentan las probabilidades de que una planta supere su primer año en interiores. La mayoría de las plantas mueren de exceso de cuidados, no de abandono.",
+  "category": "Hogar",
+  "how_we_pick": "Estas selecciones provienen de consejos de extensión hortícola, comunidades de cuidado de plantas e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Favorecimos plantas y herramientas que perdonan los errores, porque la mayoría de los hogares no tienen una luz perfecta ni una rutina perfecta. Si tienes gatos o perros, consulta la toxicidad de cada planta antes de comprar.",
+  "intro": [
+    "Las plantas de interior mueren casi siempre de la misma manera: alguien las quiere demasiado. Las riegan con horario en lugar de cuando están secas, las colocan en una maceta decorativa sin agujero de drenaje y viven en un rincón oscuro porque ahí es donde quedan bonitas. Las raíces se pudren, las hojas se amarillean y se culpa a la planta.",
+    "Esta lista está ordenada por influencia. Las primeras selecciones son baratas y solucionan las causas de la mayoría de las muertes de plantas. Después vienen las plantas resistentes con las que vale la pena empezar, y las herramientas que facilitan el mantenimiento de una pequeña colección.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Tómalo como una banda aproximada para presupuestar, no como una cotización. Siempre consulta el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Macetas de vivero dentro de macetas decorativas",
+      "tag": "La solución que salva más plantas",
+      "body": "Una maceta sin agujero de drenaje es el asesino de plantas más común que existe. El agua se acumula en el fondo, las raíces se quedan ahí y se pudren. La solución fácil es mantener cada planta en una maceta de plástico simple con agujeros y meterla dentro de la maceta bonita. Riega en el lavabo, deja que drene y vuelve a colocarla. Obtienes el aspecto que deseas y raíces que pueden respirar. Compra las macetas de plástico un tamaño más grande que el cepellón, no tres tallas más. El argumento a favor: previene la pudrición de raíces, la principal causa de muerte de plantas, conserva tus macetas decorativas y facilita el trasplante. La contrapartida es real: comprueba si hay agua acumulada en la maceta exterior y una maceta demasiado grande retiene demasiada tierra húmeda, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Previene la pudrición de raíces, la principal causa de muerte de plantas",
+        "Conserva tus macetas decorativas",
+        "Facilita el trasplante"
+      ],
+      "cons": [
+        "Comprueba si hay agua acumulada en la maceta exterior",
+        "Una maceta demasiado grande retiene demasiada tierra húmeda"
+      ]
+    },
+    {
+      "name": "Un medidor de humedad barato",
+      "tag": "Saber cuándo regar",
+      "body": "Regar cada domingo ignora la estación, la luz y la planta. Un simple medidor de sonda te dice si la tierra está seca a nivel de raíz, no solo en la superficie. Riega cuando indique seco para la mayoría de las plantas, y dejarás de ahogarlas. No necesita pilas en los modelos básicos. Después de unas semanas, aprendes cómo se siente la tierra seca y apenas lo necesitas. El argumento a favor: detiene el riego excesivo, es barato y no necesita pilas, y te enseña el ritmo de cada planta. La contrapartida es real: las lecturas son aproximadas, no exactas, y limpia la sonda entre macetas para evitar la propagación de plagas, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Detiene el riego excesivo",
+        "Barato y no necesita pilas",
+        "Te enseña el ritmo de cada planta"
+      ],
+      "cons": [
+        "Las lecturas son aproximadas, no exactas",
+        "Limpia la sonda entre macetas para evitar la propagación de plagas"
+      ]
+    },
+    {
+      "name": "Sustrato espeso y bien drenado",
+      "tag": "Raíces sanas",
+      "body": "La tierra de jardín y el compost espeso y barato para macetas permanecen húmedos demasiado tiempo en interiores. La mayoría de las plantas de interior quieren una mezcla aireada con corteza, perlita o trozos de coco para que el agua drene y el aire llegue a las raíces. Compra una mezcla etiquetada para plantas de interior o aráceas, o añade perlita a una mezcla estándar. Cuando trasplantes una planta nueva de la tienda, esto es lo que debes ponerle. El argumento a favor: evita que las raíces permanezcan empapadas, es adecuado para la mayoría de las plantas de interior comunes y es fácil de mejorar con perlita. La contrapartida es real: las mezclas espesas se secan más rápido y los cactus y suculentas necesitan una mezcla aún más arenosa, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Evita que las raíces permanezcan empapadas",
+        "Adecuado para la mayoría de las plantas de interior comunes",
+        "Fácil de mejorar con perlita"
+      ],
+      "cons": [
+        "Las mezclas espesas se secan más rápido",
+        "Los cactus y suculentas necesitan una mezcla aún más arenosa"
+      ]
+    },
+    {
+      "name": "Una planta Potos o Filodendro",
+      "tag": "La primera planta que comprar",
+      "body": "Los potos y los filodendros de hoja de corazón son las plantas que la gente mantiene vivas por accidente. Soportan luz media, se marchitan visiblemente cuando tienen sed y se recuperan a las pocas horas de regarlas, lo que te enseña sus necesidades. Cuelgan de estantes o trepan por un poste, y los esquejes enraízan en un vaso de agua, por lo que una planta se convierte en cinco. Son tóxicos para gatos y perros si se mastican, así que mantenlos fuera de su alcance. El argumento a favor: muy tolerantes, muestran claramente cuándo necesitan agua, y fáciles de propagar y compartir. La contrapartida es real: tóxicos para mascotas si se ingieren y se vuelven espigados con poca luz, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Muy tolerantes",
+        "Muestran claramente cuándo necesitan agua",
+        "Fáciles de propagar y compartir"
+      ],
+      "cons": [
+        "Tóxicos para mascotas si se ingieren",
+        "Se vuelven espigados con poca luz"
+      ]
+    },
+    {
+      "name": "Una planta de serpiente o planta ZZ",
+      "tag": "Habitaciones con poca luz y gente ocupada",
+      "body": "Si viajas, olvidas regar o tienes una habitación con poca luz, estas son las plantas para ti. Ambas almacenan agua en sus hojas o raíces y están contentas con ser regadas cada pocas semanas. Toleran menos luz que casi cualquier otra cosa, aunque crecen lentamente ahí. La principal forma de matarlas es con demasiada agua. Ambas son ligeramente tóxicas para las mascotas. El argumento a favor: soportan poca luz y el descuido, se riegan cada dos a cuatro semanas, y su forma erguida encaja en las esquinas. La contrapartida es real: crecimiento lento con poca luz y el riego excesivo es el único riesgo real, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Soportan poca luz y el descuido",
+        "Se riegan cada dos a cuatro semanas",
+        "Su forma erguida encaja en las esquinas"
+      ],
+      "cons": [
+        "Crecimiento lento con poca luz",
+        "El riego excesivo es el único riesgo real"
+      ]
+    },
+    {
+      "name": "Una luz de cultivo LED de espectro completo",
+      "tag": "Habitaciones sin buenas ventanas",
+      "body": "La luz es lo que la gente juzga más mal. Una habitación que te parece luminosa puede ser sombra profunda para una planta. Una luz de cultivo LED de espectro completo con temporizador proporciona a las plantas lo que una ventana no puede, y las modernas parecen una luz blanca normal en lugar de morada. Los estilos de clip y bombilla son baratos. Configura el temporizador para 10-12 horas al día y mantenla a unos 30 cm por encima de las hojas. El argumento a favor: cultiva plantas en habitaciones oscuras, temporizadores incorporados en muchos modelos, y la luz blanca se ve normal en un hogar. La contrapartida es real: aumenta ligeramente la factura de electricidad y si está demasiado cerca puede quemar las hojas, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Cultiva plantas en habitaciones oscuras",
+        "Temporizadores incorporados en muchos modelos",
+        "La luz blanca se ve normal en un hogar"
+      ],
+      "cons": [
+        "Aumenta ligeramente la factura de electricidad",
+        "Si está demasiado cerca puede quemar las hojas"
+      ]
+    },
+    {
+      "name": "Una regadera de pico estrecho",
+      "tag": "Regar la tierra, no las hojas",
+      "body": "Un pico largo y delgado lleva el agua a la base de la planta debajo de las hojas y a estantes abarrotados sin derramar. Suena insignificante, pero verter desde un vaso salpica tierra y moja las hojas, lo que puede causar manchas y podredumbre. Una regadera de un litro es fácil de manejar y llenar en el lavabo del baño. El argumento a favor: riego preciso debajo de las hojas, sin salpicaduras en los muebles, y fácil de manejar. La contrapartida es real: las regaderas pequeñas necesitan rellenarse para colecciones grandes y las de metal pueden oxidarse por dentro, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Riego preciso debajo de las hojas",
+        "Sin salpicaduras en los muebles",
+        "Fácil de manejar"
+      ],
+      "cons": [
+        "Las regaderas pequeñas necesitan rellenarse para colecciones grandes",
+        "Las de metal pueden oxidarse por dentro"
+      ]
+    },
+    {
+      "name": "Fertilizante líquido para plantas de interior",
+      "tag": "Crecimiento de primavera y verano",
+      "body": "El sustrato se agota de nutrientes después de unos meses. Un fertilizante líquido diluido añadido a la regadera cada pocas semanas en primavera y verano mantiene las hojas verdes y el nuevo crecimiento viniendo. Úsalo a la mitad de la fuerza recomendada en la etiqueta para estar seguro, y deja de hacerlo en invierno cuando las plantas descansan. Una botella dura para una colección pequeña un año o más. El argumento a favor: mantiene las plantas verdes y en crecimiento, una botella dura mucho tiempo, y es fácil de añadir a la regadera. La contrapartida es real: demasiado quema las raíces y no es necesario en invierno, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Mantiene las plantas verdes y en crecimiento",
+        "Una botella dura mucho tiempo",
+        "Fácil de añadir a la regadera"
+      ],
+      "cons": [
+        "Demasiado quema las raíces",
+        "No es necesario en invierno"
+      ]
+    },
+    {
+      "name": "Trampas pegajosas y jabón insecticida",
+      "tag": "Mosquitos del hongo y plagas",
+      "body": "Los mosquitos del hongo, las pequeñas moscas alrededor de la tierra húmeda, son la plaga de plantas de interior más común. Las trampas pegajosas amarillas atrapan a los adultos, y dejar que la tierra se seque entre riegos evita que se reproduzcan. Para pulgones, cochinillas y ácaros, un spray de jabón insecticida suave maneja la mayoría de los casos iniciales. Revisa las plantas nuevas antes de que se unan al resto; muchas plagas llegan de la tienda. El argumento a favor: atrapa mosquitos rápidamente, el spray de jabón maneja plagas comunes, y es barato y más seguro para mascotas que los sprays fuertes. La contrapartida es real: las trampas no son bonitas y las infestaciones graves pueden significar perder la planta, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Atrapa mosquitos rápidamente",
+        "El spray de jabón maneja plagas comunes",
+        "Barato y más seguro para mascotas que los sprays fuertes"
+      ],
+      "cons": [
+        "Las trampas no son bonitas",
+        "Las infestaciones graves pueden significar perder la planta"
+      ]
+    },
+    {
+      "name": "Un soporte para plantas o estante",
+      "tag": "Llevar las plantas a la luz",
+      "body": "El mejor lugar en la mayoría de los hogares está a pocos metros de una ventana, y ese espacio es limitado. Un soporte de varios niveles o un estante estrecho coloca varias plantas con buena luz en lugar de dispersarlas por rincones oscuros. La madera o el metal funcionan; asegúrate de que los estantes sean resistentes al agua o usa platillos. El argumento a favor: lleva más plantas a la buena luz, ordena una colección y hace que regar sea un solo viaje. La contrapartida es real: ocupa espacio en el suelo junto a la ventana y la madera sin sellar se mancha por los goteos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Lleva más plantas a la buena luz",
+        "Ordena una colección",
+        "Hace que regar sea un solo viaje"
+      ],
+      "cons": [
+        "Ocupa espacio en el suelo junto a la ventana",
+        "La madera sin sellar se mancha por los goteos"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Con qué frecuencia debo regar mis plantas de interior?",
+      "a": "Cuando la tierra esté seca a nivel de raíz, no con horario. Para muchas plantas, eso es cada una o dos semanas en verano y menos en invierno."
+    },
+    {
+      "q": "¿Cuál es la planta de interior más fácil?",
+      "a": "El potos, la planta de serpiente y la planta ZZ son las más tolerantes. Empieza por ahí."
+    },
+    {
+      "q": "¿Por qué las hojas se ponen amarillas?",
+      "a": "Generalmente por exceso de riego o mal drenaje. Comprueba que la maceta tenga un agujero y deja que la tierra se seque más entre riegos."
+    },
+    {
+      "q": "¿Son las plantas de interior seguras para gatos y perros?",
+      "a": "Muchas de las comunes son tóxicas si se mastican, incluyendo el potos, el filodendro y la planta de serpiente. Consulta la lista de plantas de la ASPCA antes de comprar."
+    }
+  ]
+}

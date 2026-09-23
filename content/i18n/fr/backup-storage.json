@@ -1,0 +1,172 @@
+{
+  "slug": "backup-storage",
+  "title": "Sauvegarder photos et fichiers avant qu'il ne soit trop tard",
+  "dek": "Dix éléments d'un plan de sauvegarde, classés selon leur degré de protection en cas de vol de téléphone ou de panne d'ordinateur portable. Rien de compliqué.",
+  "category": "Tech",
+  "how_we_pick": "Ces choix proviennent de tests de disques publiés, de rapports de défaillance d'entreprises de récupération de données et de l'expérience à long terme des propriétaires, recoupés avec les listes de vente au détail actuelles. Nous n'avons pas testé personnellement tous les articles ici. Le stockage est une catégorie pleine de listes de capacité falsifiée, nous avons donc été stricts sur les marques et sur la manière de vérifier ce qui arrive.",
+  "intro": [
+    "Personne ne pense aux sauvegardes jusqu'au jour où un ordinateur portable refuse de démarrer ou qu'un téléphone tombe dans un lac. La question est alors simple : les photos des enfants sont-elles ailleurs ? Pour la plupart des foyers, la réponse honnête est « certaines, probablement, dans un compte cloud dont personne ne se souvient du mot de passe ».",
+    "La solution est une règle plus ancienne que la plupart des gadgets : conservez trois copies, sur deux types de stockage différents, avec une copie ailleurs que chez vous. Cette liste construit cette configuration pièce par pièce, dans l'ordre qui compte le plus. Vous n'avez pas besoin d'une baie de serveurs. Il vous faut un disque, un compte cloud et un rappel.",
+    "Les prix ci-dessous sont des prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les soldes. Considérez-les comme une fourchette approximative pour le budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Un SSD portable de 1-2 To d'une marque connue",
+      "tag": "Le disque de sauvegarde à acheter en premier",
+      "body": "Un SSD portable est petit, rapide et n'a pas de pièces mobiles, il résiste donc aux chocs qui tuent les disques durs rotatifs. Sauvegarder une bibliothèque photo complète sur l'un d'eux prend quelques minutes plutôt qu'une soirée, ce qui signifie que vous le ferez réellement. Tenez-vous-en aux marques connues comme Samsung, SanDisk, Crucial ou WD, et achetez auprès d'un magasin officiel. Un disque de 1 To suffit pour la plupart des ordinateurs portables ; passez à 2 To si vous filmez beaucoup de vidéos. Branchez-le, laissez la sauvegarde s'exécuter et rangez-le loin de l'ordinateur. L'argument en sa faveur : assez rapide pour que les sauvegardes se fassent réellement, résiste aux chutes et aux voyages, et assez petit pour être rangé dans un tiroir. Le compromis est réel : coûte plus cher par téraoctet qu'un disque dur et les fausses annonces « 2 To pour 20 € » sont courantes sur les places de marché, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Assez rapide pour que les sauvegardes se fassent réellement",
+        "Résiste aux chutes et aux voyages",
+        "Assez petit pour être rangé dans un tiroir"
+      ],
+      "cons": [
+        "Coûte plus cher par téraoctet qu'un disque dur",
+        "Les fausses annonces « 2 To pour 20 € » sont courantes sur les places de marché"
+      ]
+    },
+    {
+      "name": "Un plan de sauvegarde cloud ou de stockage photo",
+      "tag": "La copie hors site",
+      "body": "Un disque dans la même maison que votre ordinateur portable ne vous aide pas en cas d'incendie, d'inondation ou de cambriolage. Une copie cloud le fait. Pour les photos, les plans iCloud, Google Photos ou OneDrive sont peu coûteux et fonctionnent automatiquement depuis votre téléphone. Pour les ordinateurs complets, un service de sauvegarde dédié copie tout en arrière-plan. Choisissez celui qui correspond aux téléphones et ordinateurs que votre famille utilise déjà, et vérifiez la capacité du forfait familial. Les plans annuels bon marché battent souvent les plans mensuels. L'argument en sa faveur : protège contre l'incendie, les inondations et le vol, automatique depuis les téléphones, et permet d'accéder à vos photos de n'importe où. Le compromis est réel : un coût récurrent, et le premier téléchargement est lent et la synchronisation n'est pas la même qu'une sauvegarde ; les suppressions peuvent également se synchroniser, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Protège contre l'incendie, les inondations et le vol",
+        "Automatique depuis les téléphones",
+        "Accédez à vos photos de n'importe où"
+      ],
+      "cons": [
+        "Un coût récurrent, et le premier téléchargement est lent",
+        "La synchronisation n'est pas la même qu'une sauvegarde ; les suppressions peuvent également se synchroniser"
+      ]
+    },
+    {
+      "name": "Logiciel de sauvegarde intégré, activé",
+      "tag": "Pour automatiser le processus",
+      "body": "Les Mac ont Time Machine et Windows a l'Historique des fichiers. Les deux sont gratuits, les deux fonctionnent discrètement en arrière-plan une fois que vous les avez dirigés vers un disque, et les deux conservent les anciennes versions des fichiers afin que vous puissiez récupérer le document de mardi dernier. La plupart des personnes qui possèdent un disque de sauvegarde ne les activent jamais. Dix minutes de configuration transforment un disque dans un tiroir en un système qui fonctionne réellement. Si le disque reste branché à un bureau, les sauvegardes se font toutes les heures sans que vous y pensiez. L'argument en sa faveur : gratuit et déjà sur votre ordinateur, conserve les anciennes versions des fichiers, et fonctionne sans effort une fois configuré. Le compromis est réel : ne fonctionne que lorsque le disque est connecté et la restauration demande un peu de lecture la première fois, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Gratuit et déjà sur votre ordinateur",
+        "Conserve les anciennes versions des fichiers",
+        "Fonctionne sans effort une fois configuré"
+      ],
+      "cons": [
+        "Ne fonctionne que lorsque le disque est connecté",
+        "La restauration demande un peu de lecture la première fois"
+      ]
+    },
+    {
+      "name": "Un grand disque dur externe",
+      "tag": "Grandes archives photo et vidéo",
+      "body": "Pour une vie de photos et de vidéos familiales, les disques durs rotatifs restent le stockage le moins cher par téraoctet, et de loin. Un disque de bureau de 4 à 8 To contient une archive qui coûterait cher en SSD. Ils sont plus lents et plus fragiles, alors considérez-les comme une copie secondaire qui reste immobile sur une étagère plutôt que comme quelque chose que vous transportez. Encore une fois, les marques connues : WD, Seagate ou Toshiba, achetés dans un magasin officiel. L'argument en sa faveur : coût par téraoctet le plus bas, contient des années de photos et de vidéos, et une bonne copie secondaire à côté d'un SSD. Le compromis est réel : fragile en cas de chute pendant le fonctionnement et nécessite une alimentation secteur pour la plupart des modèles de bureau, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Coût par téraoctet le plus bas",
+        "Contient des années de photos et de vidéos",
+        "Bonne copie secondaire à côté d'un SSD"
+      ],
+      "cons": [
+        "Fragile en cas de chute pendant le fonctionnement",
+        "Nécessite une alimentation secteur pour la plupart des modèles de bureau"
+      ]
+    },
+    {
+      "name": "Un NAS à deux baies",
+      "tag": "Familles avec plusieurs ordinateurs",
+      "body": "Un boîtier de stockage réseau se connecte à votre réseau domestique et sauvegarde tous les ordinateurs de la maison, diffuse vos médias et peut se copier dans le cloud. Avec deux disques en miroir, l'un peut tomber en panne sans rien perdre. Synology et QNAP sont les noms habituels. C'est la bonne solution pour une famille avec trois ordinateurs portables et un photographe à la maison, mais c'est la mauvaise solution pour ceux qui veulent le régler et l'oublier. Il nécessite un peu d'attention et des mises à jour occasionnelles. L'argument en sa faveur : sauvegarde tous les ordinateurs à la fois, les disques en miroir survivent à une panne, et peut envoyer sa propre copie dans le cloud. Le compromis est réel : nécessite une configuration et une maintenance, et les disques représentent un coût supplémentaire, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Sauvegarde tous les ordinateurs à la fois",
+        "Les disques en miroir survivent à une panne",
+        "Peut envoyer sa propre copie dans le cloud"
+      ],
+      "cons": [
+        "Nécessite une configuration et une maintenance",
+        "Les disques représentent un coût supplémentaire"
+      ]
+    },
+    {
+      "name": "Un lecteur de carte USB-C rapide",
+      "tag": "Photographes et propriétaires de drones",
+      "body": "Les séquences de caméra et de drone ne résident souvent que sur la carte mémoire jusqu'à ce qu'elles soient réutilisées. Un lecteur de carte rapide rend le transfert sans douleur, ce qui signifie que vous le faites le même jour au lieu du mois prochain. Recherchez la prise en charge UHS-II si votre appareil photo utilise ces cartes, et USB-C pour qu'il fonctionne avec les ordinateurs portables et tablettes modernes. Les lecteurs intégrés aux ordinateurs portables sont souvent lents ou absents. L'argument en sa faveur : transfert le jour même, pas le mois prochain, fonctionne avec les ordinateurs portables et les tablettes, et beaucoup plus rapide que la plupart des lecteurs intégrés. Le compromis est réel : les lecteurs bon marché sont beaucoup plus lents qu'ils ne le prétendent et vérifiez qu'il prend en charge votre type de carte, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Transférez le jour même, pas le mois prochain",
+        "Fonctionne avec les ordinateurs portables et les tablettes",
+        "Beaucoup plus rapide que la plupart des lecteurs intégrés"
+      ],
+      "cons": [
+        "Les lecteurs bon marché sont beaucoup plus lents qu'ils ne le prétendent",
+        "Vérifiez qu'il prend en charge votre type de carte"
+      ]
+    },
+    {
+      "name": "Un outil de vérification de capacité de disque",
+      "tag": "Pour attraper les disques à capacité falsifiée",
+      "body": "Les places de marché regorgent de clés USB et de SSD « 2 To » qui sont en réalité des puces de 32 Go programmées pour mentir. Ils semblent fonctionner, puis perdent silencieusement tout ce qui dépasse la capacité réelle. Des outils gratuits comme H2testw sous Windows ou F3 sous Mac et Linux écrivent des données de test sur tout le disque et vérifient qu'elles sont correctement lues. Exécutez-en un sur tout nouveau stockage avant de lui confier des fichiers réels. Si un prix semble incroyablement bas pour la capacité, c'est faux. L'argument en sa faveur : détecte les disques à capacité falsifiée avant qu'ils ne corrompent les données, gratuit, et simple à utiliser. Le compromis est réel : un test complet prend des heures sur de gros disques et efface le disque, alors exécutez-le avant d'ajouter des fichiers, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Détecte les disques à capacité falsifiée avant qu'ils ne corrompent les données",
+        "Gratuit",
+        "Simple à utiliser"
+      ],
+      "cons": [
+        "Un test complet prend des heures sur de gros disques",
+        "Efface le disque, alors exécutez-le avant d'ajouter des fichiers"
+      ]
+    },
+    {
+      "name": "Un étui rembourré pour disque",
+      "tag": "Pour les disques qui voyagent",
+      "body": "Si votre disque de sauvegarde voyage, gardez-le dans un petit étui rigide avec son câble. Il évite le connecteur tordu et le boîtier fissuré qui mettent fin à la vie de la plupart des disques portables, et il empêche le câble de se perdre. Choisissez-en un avec une poche en filet pour un deuxième câble ou un lecteur de carte. C'est une petite chose, mais elle permet de garder le kit de sauvegarde ensemble. L'argument en sa faveur : protège le connecteur et le boîtier, garde le câble avec le disque, et bon marché. Le compromis est réel : doit correspondre à la taille de votre disque et ajoute un peu de volume à un sac, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Protège le connecteur et le boîtier",
+        "Garde le câble avec le disque",
+        "Bon marché"
+      ],
+      "cons": [
+        "Doit correspondre à la taille de votre disque",
+        "Ajoute un peu de volume à un sac"
+      ]
+    },
+    {
+      "name": "Un gestionnaire de mots de passe",
+      "tag": "Pour ne pas perdre le compte cloud lui-même",
+      "body": "Une sauvegarde cloud n'est utile que si vous pouvez vous connecter lorsque votre téléphone a disparu. Les gens perdent l'accès à des années de photos car le mot de passe et les codes de double authentification se trouvaient sur l'appareil qui est tombé en panne. Un gestionnaire de mots de passe stocke les identifiants en toute sécurité et permet à un membre de la famille de confiance d'accéder en cas de problème. Bitwarden a un plan gratuit solide ; 1Password est l'option payante plus simple. Enregistrez-y également vos codes de récupération. L'argument en sa faveur : garde l'accès au cloud sécurisé en cas de perte de téléphone, partage familial pour les urgences, et stocke les codes de récupération. Le compromis est réel : un compte de plus à sécuriser correctement et prend une soirée pour y transférer les anciens mots de passe, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Garde l'accès au cloud sécurisé en cas de perte de téléphone",
+        "Partage familial pour les urgences",
+        "Stocke les codes de récupération"
+      ],
+      "cons": [
+        "Un compte de plus à sécuriser correctement",
+        "Prend une soirée pour y transférer les anciens mots de passe"
+      ]
+    },
+    {
+      "name": "Un rappel de calendrier",
+      "tag": "La partie que tout le monde saute",
+      "body": "Chaque plan de sauvegarde échoue de la même manière : il fonctionne pendant deux mois, puis personne ne branche le disque. Un rappel récurrent en début de mois pour brancher le disque et vérifier que le cloud synchronise toujours ne coûte rien et fait la différence entre une sauvegarde et un disque plein de fichiers de l'année dernière. Une fois par an, essayez de restaurer un fichier pour prouver que cela fonctionne. L'argument en sa faveur : maintient l'ensemble du système honnête, prend cinq minutes par mois, et détecte les échecs de synchronisation silencieux. Le compromis est réel : ne fonctionne que si vous le faites réellement et testez une restauration au moins une fois par an, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Maintient l'ensemble du système honnête",
+        "Prend cinq minutes par mois",
+        "Détecte les échecs de synchronisation silencieux"
+      ],
+      "cons": [
+        "Ne fonctionne que si vous le faites réellement",
+        "Testez une restauration au moins une fois par an"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Est-ce qu'iCloud ou Google Photos suffisent à eux seuls ?",
+      "a": "C'est une bonne copie hors site, mais la synchronisation peut propager les suppressions et les blocages de compte arrivent. Gardez une copie sur disque en plus."
+    },
+    {
+      "q": "SSD ou disque dur pour les sauvegardes ?",
+      "a": "SSD pour un disque que vous transportez ou utilisez souvent ; disque dur pour une grande archive qui reste sur une étagère. Beaucoup de gens en utilisent un de chaque."
+    },
+    {
+      "q": "Comment repérer un disque falsifié ?",
+      "a": "Le prix est l'indicateur. Un SSD de 2 To pour 25 € n'est pas réel. Achetez des marques connues auprès de magasins officiels et exécutez un test de capacité à la réception."
+    },
+    {
+      "q": "À quelle fréquence dois-je sauvegarder ?",
+      "a": "Les téléphones devraient se sauvegarder dans le cloud en continu. Les ordinateurs devraient exécuter des sauvegardes automatiques, avec une vérification mensuelle qu'elles fonctionnent toujours."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "fermentation",
+  "title": "Fermentation zu Hause: Kimchi, Sauerkraut und Kombucha ohne Schimmel",
+  "dek": "Zehn Dinge für die Fermentation von Gemüse und Getränken zu Hause, sortiert danach, wie viele misslungene Chargen sie verhindern. Alles unter der Lake zu halten, ist der grösste Teil der Arbeit.",
+  "category": "Küche",
+  "how_we_pick": "Diese Auswahl basiert auf Lebensmittelsicherheitsrichtlinien von US-amerikanischen Beratungsstellen, Fermentationsexperten und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Befolgen Sie ein erprobtes Rezept für Salzverhältnisse, und im Zweifelsfall lieber wegwerfen.",
+  "intro": [
+    "Das Fermentieren von Gemüse ist eine der ältesten Methoden zur Konservierung von Lebensmitteln und erfordert fast nichts: Gemüse, Salz und Zeit. Was schiefgeht, ist fast immer dasselbe: Gemüse schwimmt über der Lake und schimmelt, Luft dringt ein oder das Salz stimmt nicht. Leute werfen ein Glas weg, entscheiden, dass Fermentation riskant ist, und hören auf.",
+    "Diese Liste ist danach geordnet, was das verhindert. Gewichte und Gärspunddeckel stehen an erster Stelle, weil sie das häufigste Versagen beheben. Danach kommen die Werkzeuge, die es erleichtern, die Prozesse zu wiederholen und zu skalieren.",
+    "Die unten angegebenen Preise sind ungefähre Strassenpreise zum Zeitpunkt der Veröffentlichung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetierung, nicht als Angebot. Überprüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Glas-Fermentationsgewichte",
+      "tag": "Die Lösung für die meisten misslungenen Chargen",
+      "body": "Die eine Regel beim Fermentieren von Gemüse: Alles unter der Lake halten. Alles, was über die Oberfläche ragt, ist Luft ausgesetzt und kann schimmeln. Schwere Glasscheiben, passend für Weithalsgläser, liegen auf dem Gemüse und halten es unten. Sie sind reaktionsträge, leicht zu reinigen und halten ewig. Ein mit Lake gefüllter Zip-Beutel funktioniert zur Not, aber Gewichte sind sauberer und zuverlässiger. Das Argument dafür: Verhindert das häufigste Versagen, ist leicht zu reinigen und hält ewig. Der Kompromiss ist real: Nur für Weithalsgläser geeignet und Glas kann absplittern, wenn es ins Glas fällt, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab.",
+      "pros": [
+        "Verhindert das häufigste Versagen",
+        "Leicht zu reinigen",
+        "Hält ewig"
+      ],
+      "cons": [
+        "Nur für Weithalsgläser geeignet",
+        "Glas kann absplittern, wenn es ins Glas fällt"
+      ]
+    },
+    {
+      "name": "Gärspunddeckel für Weithals-Einmachgläser",
+      "tag": "Gas rauslassen, Luft draussen halten",
+      "body": "Fermentierendes Gemüse gibt Gase ab, die Druck in einem verschlossenen Glas aufbauen. Das tägliche Öffnen des Glases, um das Gas entweichen zu lassen, lässt Luft hinein. Silikon- oder Kunststoff-Gärspunddeckel lassen Gas entweichen und halten gleichzeitig Luft draussen, sodass Sie das Glas in Ruhe lassen können. Silikon-Nippeldeckel sind einfach und billig; Wassergärspunde sehen aus wie bei Heimbrauer-Ausrüstung und funktionieren auch gut. Das Argument dafür: Kein tägliches Entlüften nötig, hält Luft und Fruchtfliegen fern und passt auf Standardgläser. Der Kompromiss ist real: Passt nur auf Weithalsgläser und Silikon kann Gerüche annehmen, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab.",
+      "pros": [
+        "Kein tägliches Entlüften nötig",
+        "Hält Luft und Fruchtfliegen fern",
+        "Passt auf Standardgläser"
+      ],
+      "cons": [
+        "Passt nur auf Weithalsgläser",
+        "Silikon kann Gerüche annehmen"
+      ]
+    },
+    {
+      "name": "Weithals-Einmachgläser",
+      "tag": "Kleine Chargen",
+      "body": "Quart- und Halbe-Gallonen-Weithalsgläser sind die Standardbehälter für die Fermentation. Sie sind billig, leicht zu verstauen und zu reinigen und passen auf die oben genannten Gewichte und Gärspunddeckel. Beginnen Sie mit ein paar Quart-Gläsern; sie eignen sich für einen kleinen Haushalt, und Sie können verschiedene Fermente nebeneinander laufen lassen. Das Argument dafür: Billig und leicht zu finden, passt auf Standarddeckel und Gewichte und erleichtert die Beobachtung des Ferments. Der Kompromiss ist real: geringe Kapazität für grosse Haushalte und Glas erfordert vorsichtige Handhabung, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Preislich bei ca. 15-30 $, ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Billig und leicht zu finden",
+        "Passt auf Standarddeckel und Gewichte",
+        "Erleichtert die Beobachtung des Ferments"
+      ],
+      "cons": [
+        "Geringe Kapazität für grosse Haushalte",
+        "Glas erfordert vorsichtige Handhabung"
+      ]
+    },
+    {
+      "name": "Eine digitale Waage",
+      "tag": "Genaue Salzverhältnisse",
+      "body": "Salz steuert, welche Mikroben wachsen. Zu wenig und die falschen übernehmen die Kontrolle; zu viel und nichts fermentiert. Die meisten Rezepte verwenden etwa 2 Prozent Salz nach Gewicht des Gemüses, was bedeutet, dass beides gewogen werden muss. Eine Digitalwaage bis auf 1 Gramm macht dies einfach und wiederholbar. Das Argument dafür: Genaue Salzverhältnisse, wiederholbare Chargen und nützlich für alle Kochvorgänge. Der Kompromiss ist real: Benötigt Batterien und man sollte eine nehmen, die bis auf 1g misst, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Für 12-25 $ verdient sie ihren Platz auf dieser Liste, ohne eine grosse Vorabinvestition zu verlangen.",
+      "pros": [
+        "Genaue Salzverhältnisse",
+        "Wiederholbare Chargen",
+        "Nützlich für alle Kochvorgänge"
+      ],
+      "cons": [
+        "Benötigt Batterien",
+        "Nehmen Sie eine, die bis auf 1g misst"
+      ]
+    },
+    {
+      "name": "Nicht jodiertes Salz",
+      "tag": "Gesunde Fermente",
+      "body": "Jod und Trennmittel im Tafelsalz können die Fermentation verlangsamen und die Lake trüben. Einmachsalz, koscheres Salz oder reines Meersalz ohne Zusatzstoffe sind am besten. Es ist billig und eine Packung reicht für viele Chargen. Prüfen Sie das Etikett auf Zusatzstoffe. Das Argument dafür: Bessere, klarere Fermente, billig und reicht für viele Chargen. Der Kompromiss ist real: Marken unterscheiden sich in der Korngrösse, also lieber wiegen als messen, und vermeiden Sie jodiertes Tafelsalz, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Für 5-10 $ ist es eine kleine, risikoarme Ergänzung zur Liste und kein Hauptkauf, über den man lange nachdenken müsste.",
+      "pros": [
+        "Bessere, klarere Fermente",
+        "Billig",
+        "Reicht für viele Chargen"
+      ],
+      "cons": [
+        "Marken unterscheiden sich in der Korngrösse, also lieber wiegen als messen",
+        "Vermeiden Sie jodiertes Tafelsalz"
+      ]
+    },
+    {
+      "name": "Ein Holzstampfer",
+      "tag": "Sauerkraut pressen",
+      "body": "Das feste Pressen von gesalzenem Kohl in ein Glas setzt dessen Saft frei und entfernt Luftblasen, sodass es seine eigene Lake bildet. Ein Holzstampfer ist dafür geformt und schont Ihre Hände. Ein sauberes Ende eines Nudelholzes funktioniert auch, aber ein Stampfer passt besser in Gläser. Das Argument dafür: Erleichtert die natürliche Lakebildung, entfernt Luftblasen und ist billig. Der Kompromiss ist real: Ein Werkzeug für einen einzigen Zweck und Holz muss nach dem Waschen getrocknet werden, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Preislich bei ca. 10-15 $, ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Erleichtert die natürliche Lakebildung",
+        "Entfernt Luftblasen",
+        "Billig"
+      ],
+      "cons": [
+        "Ein Werkzeug für einen einzigen Zweck",
+        "Holz muss nach dem Waschen getrocknet werden"
+      ]
+    },
+    {
+      "name": "Ein Keramik-Gärtopf",
+      "tag": "Grosse Chargen",
+      "body": "Für Haushalte, die viel Sauerkraut oder Kimchi essen, fermentiert ein Wasserrandtopf mehrere Pfund auf einmal. Der Wasserkanal um den Deckel lässt Gas entweichen und hält Luft draussen. Es ist der traditionelle Ansatz und sehr zuverlässig. Sie sind schwer und teuer im Versand, prüfen Sie also die Lieferkosten. Das Argument dafür: Grosse Chargen auf einmal, Wasserrand funktioniert gut und hält jahrzehntelang. Der Kompromiss ist real: schwer und teuer im Versand und prüfen Sie, ob die Glasur bleifrei und lebensmittelecht ist, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab.",
+      "pros": [
+        "Grosse Chargen auf einmal",
+        "Wasserrand funktioniert gut",
+        "Hält jahrzehntelang"
+      ],
+      "cons": [
+        "Schwer und teuer im Versand",
+        "Prüfen Sie, ob die Glasur bleifrei und lebensmittelecht ist"
+      ]
+    },
+    {
+      "name": "Ein Kombucha-Brauglas mit Zapfhahn",
+      "tag": "Kombucha und Wasser-Kefir",
+      "body": "Kombucha benötigt ein breites Glas, eine atmungsaktive Stoffabdeckung und einen SCOBY-Starter. Ein Glas mit Zapfhahn ermöglicht es Ihnen, fertigen Kombucha abzulassen, ohne die Kultur zu stören. Wählen Sie Glas- oder lebensmittelechte Edelstahl-Zapfhähne, keine billigen Plastikteile, die lecken können. Halten Sie es von direkter Sonneneinstrahlung fern. Das Argument dafür: Einfaches kontinuierliches Brauen, keine Störung der Kultur und auch gut für Wasser-Kefir. Der Kompromiss ist real: Billige Zapfhähne lecken und es wird ein Starterkultur separat benötigt, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Für 25-45 $ ist es eine kleine, risikoarme Ergänzung zur Liste und kein Hauptkauf, über den man lange nachdenken müsste.",
+      "pros": [
+        "Einfaches kontinuierliches Brauen",
+        "Keine Störung der Kultur",
+        "Auch gut für Wasser-Kefir"
+      ],
+      "cons": [
+        "Billige Zapfhähne lecken",
+        "Benötigt eine Starterkultur separat"
+      ]
+    },
+    {
+      "name": "Bügelverschlussflaschen",
+      "tag": "Getränke karbonisieren",
+      "body": "Eine zweite Gärung in verschlossenen Flaschen macht Kombucha und Ingwerbier-Getränke spritzig. Bügelverschlussflaschen halten den Druck und lassen sich leicht wieder verschliessen. Verwenden Sie ordnungsgemäss druckfeste Flaschen, keine dekorativen, und kühlen Sie sie vor dem Öffnen, da überfermentierte Flaschen viel Druck aufbauen können. Das Argument dafür: Macht natürlich sprudelnde Getränke, wiederverwendbar und leicht zu verschliessen. Der Kompromiss ist real: Kann überkarbonisieren und platzen, wenn sie warm gelagert werden, und verschlissene Gummidichtungen müssen ersetzt werden, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Preislich bei ca. 20-35 $, ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Macht natürlich sprudelnde Getränke",
+        "Wiederverwendbar",
+        "Leicht zu verschliessen"
+      ],
+      "cons": [
+        "Kann überkarbonisieren und platzen, wenn sie warm gelagert werden",
+        "Verschlissene Gummidichtungen müssen ersetzt werden"
+      ]
+    },
+    {
+      "name": "pH-Teststreifen",
+      "tag": "Säuregehalt prüfen",
+      "body": "Ein gesundes Gemüseferment wird mit der Zeit saurer, und diese Säure hält es sicher. Teststreifen liefern eine grobe Messung, was für Anfänger beruhigend ist und für Kombucha nützlich. Die meisten erprobten Rezepte sind ohne Testen sicher, wenn Salz und Untertauchen stimmen, daher ist dies optional. Das Argument dafür: Beruhigung für Anfänger, nützlich für Kombucha und billig. Der Kompromiss ist real: Streifen liefern nur eine grobe Messung und sind kein Ersatz für ein erprobtes Rezept, also wägen Sie das gegen die Häufigkeit der tatsächlichen Nutzung ab. Für 8-15 $ verdient es seinen Platz auf dieser Liste, ohne eine grosse Vorabinvestition zu verlangen.",
+      "pros": [
+        "Beruhigung für Anfänger",
+        "Nützlich für Kombucha",
+        "Billig"
+      ],
+      "cons": [
+        "Streifen liefern nur eine grobe Messung",
+        "Kein Ersatz für ein erprobtes Rezept"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist Fermentation zu Hause sicher?",
+      "a": "Gemüsefermentation mit dem richtigen Salz und unter der Lake gehaltenem Gemüse hat eine gute Sicherheitsbilanz. Befolgen Sie erprobte Rezepte und werfen Sie alles weg, was pelzigen Schimmel, seltsame Farben oder einen fauligen Geruch aufweist."
+    },
+    {
+      "q": "Was ist der weisse Film oben?",
+      "a": "Oft Kahmhefe, die harmlos ist, aber seltsam schmecken kann. Abschöpfen. Pelziger, farbiger Schimmel bedeutet wegwerfen."
+    },
+    {
+      "q": "Wie lange dauert Sauerkraut?",
+      "a": "Normalerweise ein bis vier Wochen bei Raumtemperatur, abhängig von der Wärme und dem Geschmack. Probieren Sie zwischendurch."
+    },
+    {
+      "q": "Was soll ich zuerst fermentieren?",
+      "a": "Sauerkraut. Es ist nur Kohl und Salz, und es lehrt die Grundlagen."
+    }
+  ]
+}

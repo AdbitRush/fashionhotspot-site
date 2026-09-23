@@ -1,0 +1,172 @@
+{
+  "slug": "aquarium",
+  "title": "Ein erstes Aquarium, das klar bleibt und Fische am Leben hält",
+  "dek": "Zehn Dinge für ein erstes Süßwasseraquarium, sortiert danach, wie gut sie Fische in den ersten schwierigen Monaten am Leben halten. Größere Becken sind einfacher, nicht schwieriger.",
+  "category": "Haustiere",
+  "how_we_pick": "Diese Auswahl stammt aus Aquarianer-Communities, Ratschlägen zur Fischpflege und Berichten von Langzeitbesitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Glasbecken sind teuer und zerbrechlich beim Versand, prüfen Sie daher die Lieferkosten und Beschädigungsrichtlinien vor der Bestellung.",
+  "intro": [
+    "Die meisten ersten Aquarien scheitern im ersten Monat. Die Geschichte ist immer ähnlich: ein kleines Becken, das am selben Tag mit Fischen gekauft wird, zu viele Fische auf einmal eingesetzt und Wasser, das giftig wird, bevor die nützlichen Bakterien Zeit zum Wachsen haben. Die Fische sterben, das Wasser wird trüb und das Becken landet im Schrank.",
+    "Diese Liste ist danach geordnet, was das verhindert. Die richtige Beckengröße, ein guter Filter und ein Wassertestkit sind wichtiger als Dekorationen. Und das Wichtigste auf der Liste ist kostenlos: Geduld, während das Becken einfährt.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetierung, nicht als Angebot. Prüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Ein 20-Gallonen-Becken",
+      "tag": "Die Größe, die es einfacher macht",
+      "body": "Kleine Becken und Schalen wirken anfängerfreundlich, sind aber am schwierigsten stabil zu halten. In einem kleinen Volumen bauen sich Abfälle schnell auf und die Temperatur schwankt schnell. Ein 20-Gallonen-Becken ist groß genug, um fehlerverzeihend zu sein, und klein genug für die meisten Wohnungen. Wählen Sie eine längliche Form für mehr Schwimmraum. Starter-Kits bündeln Filter und Licht, aber prüfen Sie, was enthalten ist. Das Argument dafür: stabileres Wasser, Platz für eine gute Fischgemeinschaft und fehlerverzeihend. Der Kompromiss ist real: Ein volles Becken wiegt über 90 kg und Glas ist teuer im Versand, wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Stabileres Wasser",
+        "Platz für eine gute Fischgemeinschaft",
+        "Fehlerverzeihend"
+      ],
+      "cons": [
+        "Ein volles Becken wiegt über 90 kg",
+        "Glas ist teuer im Versand"
+      ]
+    },
+    {
+      "name": "Ein Innen- oder Schwammfilter",
+      "tag": "Sauberes, gesundes Wasser",
+      "body": "Der Filter reinigt das Wasser mehr als nur. Er beherbergt die nützlichen Bakterien, die giftige Fischabfälle in sicherere Verbindungen umwandeln. Ein Innenfilter, der für Ihre Beckengröße oder etwas größer ausgelegt ist, ist einfach und effektiv. Schwammfilter sind billig, schonend und eignen sich hervorragend für Garnelen und kleine Fische. Spülen Sie das Filtermaterial niemals unter Leitungswasser aus; spülen Sie es in altem Aquarienwasser aus, damit die Bakterien überleben. Das Argument dafür: hält das Wasser sauber und sicher, beherbergt nützliche Bakterien und ist leicht zu warten. Der Kompromiss ist real: Filter brummen ein wenig und Spülungen mit Leitungswasser töten die Bakterien ab, wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Hält das Wasser sauber und sicher",
+        "Beherbergt nützliche Bakterien",
+        "Leicht zu warten"
+      ],
+      "cons": [
+        "Filter brummen ein wenig",
+        "Spülungen mit Leitungswasser töten die Bakterien ab"
+      ]
+    },
+    {
+      "name": "Ein flüssiger Wassertestkit",
+      "tag": "Wissen, dass das Wasser sicher ist",
+      "body": "Ammoniak oder Nitrit können Sie nicht sehen, und beides tötet Fische. Ein flüssiger Testkit, wie das API Freshwater Master Kit, misst diese zusammen mit Nitrat und pH-Wert. Er sagt Ihnen, wann ein neues Becken fertig eingefahren ist und wann etwas schiefgeht. Flüssigkits sind genauer als Streifen und reichen für Hunderte von Tests. Das Argument dafür: zeigt unsichtbare Gefahren, sagt Ihnen, wann das Becken für Fische bereit ist, und hält lange. Der Kompromiss ist real: Tests dauern ein paar Minuten und Reagenzien laufen ab; prüfen Sie die Daten, wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Zeigt unsichtbare Gefahren",
+        "Sagt Ihnen, wann das Becken für Fische bereit ist",
+        "Hält lange"
+      ],
+      "cons": [
+        "Tests dauern ein paar Minuten",
+        "Reagenzien laufen ab; prüfen Sie die Daten"
+      ]
+    },
+    {
+      "name": "Wasseraufbereiter",
+      "tag": "Leitungswasser sicher machen",
+      "body": "Leitungswasser enthält Chlor oder Chloramin, das Fische und Filterbakterien abtötet. Ein Wasseraufbereiter entfernt diese sofort. Geben Sie ihn in jeden Eimer mit neuem Wasser. Eine Flasche hält lange, und konzentrierte Produkte wie Seachem Prime sind sehr sparsam. Das Argument dafür: macht Leitungswasser sofort sicher, schützt Fische und Bakterien und ist billig. Der Kompromiss ist real: muss bei jedem Wasserwechsel verwendet und die Dosis gemessen werden; raten Sie nicht, wägen Sie das gegen die tatsächliche Nutzung ab. Für 8-15 $ gehört er ohne große Vorabinvestition auf diese Liste.",
+      "pros": [
+        "Macht Leitungswasser sofort sicher",
+        "Schützt Fische und Bakterien",
+        "Billig"
+      ],
+      "cons": [
+        "Muss bei jedem Wasserwechsel verwendet werden",
+        "Dosis messen; nicht raten"
+      ]
+    },
+    {
+      "name": "Einstellbarer Heizstab",
+      "tag": "Tropenfische",
+      "body": "Die meisten beliebten Gemeinschaftsfische sind tropisch und benötigen gleichmäßig warmes Wasser, normalerweise um die 24-27 °C. Ein einstellbarer Heizstab hält es konstant. Für ein 20-Gallonen-Becken sind 100 Watt typisch. Kaufen Sie eine zuverlässige Marke; ein klemmender Heizstab kann ein Becken kochen. Das Argument dafür: konstante Temperatur für tropische Fische, einstellbar und geringe Betriebskosten. Der Kompromiss ist real: billige Heizstäbe können klemmen und vor Wasserwechseln ausgesteckt werden müssen, wägen Sie das gegen die tatsächliche Nutzung ab. Für 20-35 $ ist es eine kleine, risikoarme Ergänzung zur Liste, kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Konstante Temperatur für tropische Fische",
+        "Einstellbar",
+        "Geringe Betriebskosten"
+      ],
+      "cons": [
+        "Billige Heizstäbe können klemmen",
+        "Vor Wasserwechseln ausstecken"
+      ]
+    },
+    {
+      "name": "Ein Kies-Siphon-Sauger",
+      "tag": "Einfache Wasserwechsel",
+      "body": "Wöchentliche Teilwasserwechsel von etwa 20-25 Prozent halten die Fische gesund. Ein Kies-Sauger saugt Wasser ab und entfernt gleichzeitig Abfälle aus dem Kies. Drückstart-Typen vermeiden Mundabsaugung. Es macht eine lästige Pflicht zu einer Zehn-Minuten-Aufgabe. Das Argument dafür: reinigt Kies und wechselt Wasser gleichzeitig, schnell und billig. Der Kompromiss ist real: benötigt einen Eimer und kann kleine Fische ansaugen, wenn man nicht aufpasst, wägen Sie das gegen die tatsächliche Nutzung ab. Preislich bei etwa 12-25 $, ist er leicht zu rechtfertigen, auch wenn er nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Reinigt Kies und wechselt Wasser gleichzeitig",
+        "Schnell",
+        "Billig"
+      ],
+      "cons": [
+        "Benötigt einen Eimer",
+        "Kann kleine Fische ansaugen, wenn man nicht aufpasst"
+      ]
+    },
+    {
+      "name": "Eine LED-Leuchte mit Timer",
+      "tag": "Pflanzen und Betrachtung",
+      "body": "Fische brauchen einen regelmäßigen Tag-Nacht-Zyklus und Pflanzen brauchen Licht. Eine LED-Leuchte mit eingebautem Timer liefert 8-10 Stunden am Tag. Zu viele Stunden verursachen Algen. Stellen Sie das Becken aus demselben Grund nicht in direktes Sonnenlicht. Das Argument dafür: regelmäßiger Lichtzyklus, lässt Pflanzen wachsen und präsentiert Fische. Der Kompromiss ist real: zu lange Belichtungszeiten führen zu Algenwachstum und billige Leuchten sind für Pflanzen möglicherweise nicht geeignet, wägen Sie das gegen die tatsächliche Nutzung ab. Für 25-60 $ gehört er ohne große Vorabinvestition auf diese Liste.",
+      "pros": [
+        "Regelmäßiger Lichtzyklus",
+        "Lässt Pflanzen wachsen",
+        "Präsentiert Fische"
+      ],
+      "cons": [
+        "Zu lange Belichtungszeiten führen zu Algenwachstum",
+        "Billige Leuchten sind für Pflanzen möglicherweise nicht geeignet"
+      ]
+    },
+    {
+      "name": "Einfache lebende Pflanzen",
+      "tag": "Wasserqualität und Aussehen",
+      "body": "Lebende Pflanzen absorbieren Abfälle und konkurrieren mit Algen, und sie sehen besser aus als Plastik. Einfache Pflanzen wie Javafarn, Anubias und Javamoss benötigen wenig Licht und keine spezielle Erde. Binden Sie sie an Steine oder Holz. Prüfen Sie lokale Vorschriften; einige Aquarienpflanzen dürfen nicht in bestimmte Staaten versendet werden. Das Argument dafür: verbessern die Wasserqualität, reduzieren Algen und sehen natürlich aus. Der Kompromiss ist real: einige Fische fressen Pflanzen und können Schnecken einschleppen, wägen Sie das gegen die tatsächliche Nutzung ab. Für 15-30 $ ist es eine kleine, risikoarme Ergänzung zur Liste, kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Verbessern die Wasserqualität",
+        "Reduzieren Algen",
+        "Sehen natürlich aus"
+      ],
+      "cons": [
+        "Einige Fische fressen Pflanzen",
+        "Können Schnecken einschleppen"
+      ]
+    },
+    {
+      "name": "Ein Thermometer",
+      "tag": "Temperatur prüfen",
+      "body": "Das Drehrad eines Heizstabs ist nicht genau. Ein billiges digitales oder aufklebbares Thermometer ermöglicht es Ihnen, die tatsächliche Temperatur auf einen Blick zu überprüfen. Es ist auch Ihre Frühwarnung, wenn ein Heizstab ausfällt. Das Argument dafür: prüft, ob der Heizstab funktioniert, billig und leicht ablesbar. Der Kompromiss ist real: Aufklebetypen sind weniger genau und digitale Typen benötigen Batterien, wägen Sie das gegen die tatsächliche Nutzung ab. Preislich bei etwa 5-10 $, ist er leicht zu rechtfertigen, auch wenn er nur gelegentlich statt täglich benutzt wird. Nichts davon macht es für jeden Leser unerlässlich, nur wissenswert, wenn die obige Beschreibung mit Ihrer tatsächlichen Nutzung des Raumes übereinstimmt.",
+      "pros": [
+        "Prüft, ob der Heizstab funktioniert",
+        "Billig",
+        "Leicht ablesbar"
+      ],
+      "cons": [
+        "Aufklebetypen sind weniger genau",
+        "Digitale Typen benötigen Batterien"
+      ]
+    },
+    {
+      "name": "Ein Aquarienunterschrank",
+      "tag": "Das Gewicht tragen",
+      "body": "Wasser wiegt etwa 3,8 kg pro Gallone, also wiegt ein 20-Gallonen-Becken mit Kies und Steinen über 90 kg. Die meisten Möbel sind nicht dafür ausgelegt. Ein für Aquarien entwickelter Unterschrank trägt das Gewicht gleichmäßig und hat oft Stauraum für Zubehör. Stellen Sie ihn auf einen ebenen Boden. Das Argument dafür: trägt das Gewicht sicher, Stauraum für Zubehör und richtige Höhe zur Betrachtung. Der Kompromiss ist real: sperrig im Versand und muss eben sein, wägen Sie das gegen die tatsächliche Nutzung ab. Für 60-150 $ gehört er ohne große Vorabinvestition auf diese Liste.",
+      "pros": [
+        "Trägt das Gewicht sicher",
+        "Stauraum für Zubehör",
+        "Richtige Höhe zur Betrachtung"
+      ],
+      "cons": [
+        "Sperrig im Versand",
+        "Muss eben sein"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was ist Einfahren eines Beckens?",
+      "a": "Das Züchten nützlicher Bakterien im Filter, bevor Fische eingesetzt werden. Es dauert normalerweise vier bis sechs Wochen. Testen Sie das Wasser, um zu wissen, wann es fertig ist."
+    },
+    {
+      "q": "Welche Beckengröße ist am besten für Anfänger?",
+      "a": "Etwa 20 Gallonen. Größere Becken sind stabiler und fehlerverzeihender."
+    },
+    {
+      "q": "Wie oft sollte ich das Wasser wechseln?",
+      "a": "Etwa 20-25 Prozent wöchentlich für die meisten Becken."
+    },
+    {
+      "q": "Welche Fische eignen sich gut für Anfänger?",
+      "a": "Robuste Gemeinschaftsfische wie Platys, Panzerwelse und einige Salmler, nach dem Einfahren schrittweise eingesetzt."
+    }
+  ]
+}

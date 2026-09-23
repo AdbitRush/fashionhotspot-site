@@ -1,0 +1,172 @@
+{
+  "slug": "home-bar",
+  "title": "Eine Hausbar-Ausstattung, die gute Drinks ohne Barkeeper-Budget macht",
+  "dek": "Zehn Bar-Werkzeuge für zu Hause, sortiert danach, wie sehr sie den Drink in Ihrem Glas verbessern. Messen ist wichtiger als jedes schicke Gadget.",
+  "category": "Küche",
+  "how_we_pick": "Diese Auswahl basiert auf Empfehlungen von professionellen Barkeepern, Getränke-Autoren und Langzeit-Besitzerberichten, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Wir bevorzugten einfache, langlebige Werkzeuge, die in echten Bars verwendet werden, gegenüber neuartigen Sets. Bitte trinken Sie verantwortungsbewusst und nur, wenn Sie das gesetzliche Mindestalter erreicht haben.",
+  "intro": [
+    "Die meisten Cocktails zu Hause gehen aus banalen Gründen schief: geschätzte Maße, abgefüllter Zitronensaft und kleine, trübe Eiswürfel, die schmelzen und alles verwässern. Die teuren Gadgets in Cocktail-Geschenksets beheben nichts davon, und die 20-teiligen Sets sind meist nur Füllmaterial.",
+    "Diese Liste ist nach Hebelwirkung geordnet. Die ersten paar Artikel kosten sehr wenig und retten die meisten schlechten Drinks. Danach kommen die Werkzeuge, die es schneller und unterhaltsamer machen. Mit den ersten fünf können Sie fast jeden klassischen Cocktail zubereiten.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und schwanken ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetierung, nicht als Angebot. Überprüfen Sie immer das Live-Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Ein Jigger im japanischen Stil, doppelseitig",
+      "tag": "Das Werkzeug, das die meisten schlechten Drinks rettet",
+      "body": "Cocktails sind Rezepte, und eine Viertel Unze zu viel von etwas Saurem oder Süßem wirft den ganzen Drink durcheinander. Ein schlanker Jigger im japanischen Stil mit inneren Messlinien ermöglicht das genaue Ausgießen von 1/2, 3/4, 1 und 2 Unzen. Es ist das billigste Werkzeug hier und das, das den größten Unterschied macht. Edelstahl hält ewig; die hohe, schmale Form ist leichter genau zu gießen als der breite klassische Typ. Die Argumente dafür: genaue, wiederholbare Drinks, sehr billig und hält ewig. Der Kompromiss ist real: Es braucht ein paar Versuche, um ohne Verschütten zu gießen und die Einheiten zu prüfen; einige sind nur metrisch, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Genaue, wiederholbare Drinks",
+        "Sehr billig",
+        "Hält ewig"
+      ],
+      "cons": [
+        "Es braucht ein paar Versuche, um ohne Verschütten zu gießen",
+        "Einheiten prüfen; einige sind nur metrisch"
+      ]
+    },
+    {
+      "name": "Eine handgehaltene Zitruspresse",
+      "tag": "Frischer Saft in Sekunden",
+      "body": "Flaschenzitronen- und Limettensaft schmeckt flach und leicht chemisch. Frischer Saft ist der Unterschied zwischen einem Sour, der wie eine Bar schmeckt, und einem, der wie ein Mixer schmeckt. Eine stabile, scharnierte Presse presst eine Limette mit einem Druck, fängt die Kerne auf und kann in die Spülmaschine. Nehmen Sie die Limettengröße; sie funktioniert auch für Zitronen, und viele Leute benutzen sie schließlich täglich zum Kochen. Die Argumente dafür: frischer Saft in Sekunden, fängt Kerne auf und ist auch in der Küche nützlich. Der Kompromiss ist real: beschichtete Pressen können mit der Zeit abplatzen und Orangen brauchen eine größere Presse, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Frischer Saft in Sekunden",
+        "Fängt Kerne auf",
+        "Auch in der Küche nützlich"
+      ],
+      "cons": [
+        "Beschichtete Pressen können mit der Zeit abplatzen",
+        "Orangen brauchen eine größere Presse"
+      ]
+    },
+    {
+      "name": "Ein zweiteiliger Boston-Shaker (Becher)",
+      "tag": "Geschüttelte Drinks",
+      "body": "Dreiteilige Cobbler-Shaker mit eingebauten Sieben sehen nett aus, klemmen aber oft, wenn sie kalt sind. Profis verwenden zwei Metallbecher, einen großen und einen kleinen, die mit einem Klaps abdichten, schnell kühlen und sich leicht trennen lassen. Beschwerte Becher fühlen sich stabiler an. Sie dienen auch als Mischgefäß. Sobald Sie ein Paar verwendet haben, kommt der Cobbler-Typ zurück in den Schrank. Die Argumente dafür: kühlt Drinks schnell, klemmt nicht wie Cobbler-Shaker und ist robust und einfach. Der Kompromiss ist real: das Abdichten erfordert etwas Übung und benötigt ein separates Sieb, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Kühlt Drinks schnell",
+        "Klemmt nicht wie Cobbler-Shaker",
+        "Robust und einfach"
+      ],
+      "cons": [
+        "Das Abdichten erfordert etwas Übung",
+        "Benötigt ein separates Sieb"
+      ]
+    },
+    {
+      "name": "Ein Hawthorne-Sieb und ein Feinsieb",
+      "tag": "Klare, glatte Drinks",
+      "body": "Ein Hawthorne-Sieb, das mit der Feder, hält das Eis zurück, wenn aus einem Shaker-Becher gegossen wird. Ein kleines Feinsieb fängt winzige Eisspäne und Fruchtfleisch für einen glatteren Drink auf, besonders bei Sours, die \"straight up\" serviert werden. Gießen Sie beides gleichzeitig durch, bekannt als \"Double Straining\". Zusammen kosten sie weniger als ein neuartiges Gadget. Die Argumente dafür: hält Eis und Fruchtfleisch draußen, macht Drinks seidig und ist billig. Der Kompromiss ist real: Feinsiebe sind bei fruchtfleischhaltigen Drinks langsam und lose Federn verschleißen bei billigen, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Hält Eis und Fruchtfleisch draußen",
+        "Macht Drinks seidig",
+        "Billig"
+      ],
+      "cons": [
+        "Feinsiebe sind bei fruchtfleischhaltigen Drinks langsam",
+        "Lose Federn verschleißen bei billigen"
+      ]
+    },
+    {
+      "name": "Große Eiswürfelformen aus Silikon",
+      "tag": "Langsam schmelzendes Eis",
+      "body": "Kleine Eiswürfel aus der Gefrierschranktür schmelzen schnell und verwässern Drinks. Zwei-Zoll-Würfel schmelzen langsam, halten einen Drink kalt und sehen in einem Rocks-Glas besser aus. Silikonformen mit Deckeln verhindern, dass das Eis Gefrierschrankgerüche annimmt. Behalten Sie eine Form mit großen Würfeln zum Servieren und Ihr normales Eis zum Schütteln. Die Argumente dafür: weniger Verdünnung im Glas, sieht gut aus und Deckel halten das Eis geschmacksneutral. Der Kompromiss ist real: große Würfel frieren langsam und Würfel sind trüb ohne eine klare Form, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Weniger Verdünnung im Glas",
+        "Sieht gut aus",
+        "Deckel halten das Eis geschmacksneutral"
+      ],
+      "cons": [
+        "Große Würfel frieren langsam",
+        "Würfel sind trüb ohne eine klare Form"
+      ]
+    },
+    {
+      "name": "Ein Mixglas und ein langer Barlöffel",
+      "tag": "Gerührte Drinks wie ein Martini",
+      "body": "Nur-Spirituosen-Drinks wie ein Martini, Manhattan oder Negroni sollten gerührt, nicht geschüttelt werden, für eine seidige, klare Textur. Ein schweres Mixglas und ein langer, verdrehter Barlöffel machen das einfach. Sie können in einem Pint-Glas rühren, aber ein richtiges Mixglas hat einen Ausgießer und fasst mehr Eis. Der Barlöffel misst auch ungefähr einen Teelöffel. Die Argumente dafür: richtige Textur für gerührte Drinks, Ausgießer für sauberes Gießen und sieht toll auf einem Barwagen aus. Der Kompromiss ist real: Glas-Mixkrüge können reißen und benötigen auch ein Sieb, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Richtige Textur für gerührte Drinks",
+        "Ausgießer für sauberes Gießen",
+        "Sieht toll auf einem Barwagen aus"
+      ],
+      "cons": [
+        "Glas-Mixkrüge können reißen",
+        "Benötigt auch ein Sieb"
+      ]
+    },
+    {
+      "name": "Ein Y-Schäler",
+      "tag": "Zitruszesten und Garnituren",
+      "body": "Ein Streifen Zitruszeste, über einen Drink gepresst, fügt aromatische Öle hinzu, die den gesamten Geruch und Geschmack verändern. Ein scharfer Y-Schäler nimmt breite Streifen mit wenig bitterer Schale ab. Es ist das gleiche Werkzeug, das Sie für Gemüse verwenden, und ein billiges funktioniert gut. Dies ist der einfachste Weg, einen Drink aussehen und riechen zu lassen, als hätte ihn eine Bar gemacht. Die Argumente dafür: fügt Drinks Aroma hinzu, macht richtige Garnituren und dient auch als Küchenwerkzeug. Der Kompromiss ist real: Klingen werden mit der Zeit stumpf und das Abwaschen geht schnell; Zitrusöle bleiben haften, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Fügt Drinks Aroma hinzu",
+        "Macht richtige Garnituren",
+        "Dient auch als Küchenwerkzeug"
+      ],
+      "cons": [
+        "Klingen werden mit der Zeit stumpf",
+        "Schnell abwaschen; Zitrusöle bleiben haften"
+      ]
+    },
+    {
+      "name": "Ein Stößel",
+      "tag": "Mojitos und Smashes",
+      "body": "Für Mojitos, Caipirinhas und Smashes zerdrückt ein Stößel Obst und Kräuter, um ihren Geschmack freizusetzen. Unlackierte Holz- oder Kunststoffköpfe sind am besten; lackierte lösen sich in Drinks ab. Sanft mit Minze drücken, härter mit Obst. Wenn Sie diese Drinks nicht zubereiten, überspringen Sie ihn, weshalb er auf der Liste weit unten steht. Die Argumente dafür: benötigt für Mojitos und ähnliches, billig und einfach. Der Kompromiss ist real: nur für wenige Drinks benötigt und lackiertes Holz vermeiden, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab. Für 8-15 US-Dollar ist es eine kleine, risikoarme Ergänzung zur Liste und kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Benötigt für Mojitos und ähnliches",
+        "Billig",
+        "Einfach"
+      ],
+      "cons": [
+        "Nur für wenige Drinks benötigt",
+        "Lackiertes Holz vermeiden"
+      ]
+    },
+    {
+      "name": "Eine klare Eisform",
+      "tag": "Kristallklares Eis zu Hause",
+      "body": "Klares Eis schmilzt langsamer und sieht spektakulär aus. Isolierte Formen gefrieren Wasser von oben nach unten, drücken Luft und Verunreinigungen nach unten, sodass Sie klare Würfel oder Kugeln erhalten. Es dauert einen Tag, und es ist ein Luxus, aber für einen Whisky oder einen Old Fashioned ist es ein echtes Upgrade. Kaufen Sie eine Größe, die zu Ihren Gläsern passt. Die Argumente dafür: kristallklares, langsam schmelzendes Eis, beeindruckt Gäste und funktioniert in einem normalen Gefrierschrank. Der Kompromiss ist real: es dauert etwa einen Tag zum Gefrieren und nimmt Platz im Gefrierschrank ein, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Kristallklares, langsam schmelzendes Eis",
+        "Beeindruckt Gäste",
+        "Funktioniert in einem normalen Gefrierschrank"
+      ],
+      "cons": [
+        "Es dauert etwa einen Tag zum Gefrieren",
+        "Nimmt Platz im Gefrierschrank ein"
+      ]
+    },
+    {
+      "name": "Ein paar gute Gläser",
+      "tag": "Coupe, Rocks und Highball",
+      "body": "Sie können jeden Drink in jedem Glas servieren, aber eine Coupe für \"straight up\" Drinks, ein Rocks-Glas für Drinks auf Eis und ein Highball für Longdrinks decken fast alles ab. Zwei von jedem sind zum Anfangen genug. Glas, das sich gut in der Hand anfühlt, lässt einen Hausdrink zu einem Anlass werden. Kaufen Sie stabile, die die Spülmaschine überstehen. Die Argumente dafür: das richtige Glas für jede Art von Drink, lässt Drinks besonders wirken und ein kleines Set deckt die meisten Drinks ab. Der Kompromiss ist real: empfindliche Gläser brechen leicht und der Versand von Glas birgt Bruchgefahr; prüfen Sie die Rückgabebedingungen des Verkäufers, also wägen Sie das gegen die Häufigkeit des tatsächlichen Gebrauchs ab.",
+      "pros": [
+        "Das richtige Glas für jede Art von Drink",
+        "Lässt Drinks besonders wirken",
+        "Ein kleines Set deckt die meisten Drinks ab"
+      ],
+      "cons": [
+        "Empfindliche Gläser brechen leicht",
+        "Versand von Glas birgt Bruchgefahr; prüfen Sie die Rückgabebedingungen des Verkäufers"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was brauche ich, um zu Hause mit der Zubereitung von Cocktails zu beginnen?",
+      "a": "Einen Jigger, eine Zitruspresse, einen Shaker, ein Sieb und gutes Eis. Das deckt die meisten klassischen Drinks ab."
+    },
+    {
+      "q": "Lohnen sich Cocktail-Geschenksets?",
+      "a": "Normalerweise nicht. Große Sets sind mit Werkzeugen gefüllt, die Sie nicht verwenden werden, und die Qualität ist oft schlecht. Kaufen Sie die wichtigsten Teile separat."
+    },
+    {
+      "q": "Geschüttelt oder gerührt?",
+      "a": "Schütteln Sie Drinks mit Zitrussaft, Sahne oder Ei. Rühren Sie Drinks, die nur aus Spirituosen bestehen, wie einen Martini oder Negroni."
+    },
+    {
+      "q": "Ist Eis wirklich wichtig?",
+      "a": "Ja. Großes, frisches Eis schmilzt langsamer, sodass Drinks kalt bleiben, ohne verwässert zu werden."
+    }
+  ]
+}

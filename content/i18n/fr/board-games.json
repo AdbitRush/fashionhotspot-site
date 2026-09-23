@@ -1,0 +1,172 @@
+{
+  "slug": "board-games",
+  "title": "Le matériel pour vos soirées jeux qui ramène les gens à la table",
+  "dek": "Dix sélections de jeux de société classées selon leur fréquence d'utilisation avec des groupes variés, pas selon leur classement auprès des passionnés.",
+  "category": "Loisirs",
+  "how_we_pick": "Ces sélections proviennent des communautés de jeux de société, des critiques publiées et des rapports d'utilisateurs à long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article. Les contrefaçons de jeux populaires sont courantes sur les places de marché ; achetez auprès de revendeurs officiels et vérifiez les critiques concernant la qualité d'impression.",
+  "intro": [
+    "Une soirée jeu de société tourne au vinaigre quand le jeu est trop long, que les règles prennent quarante minutes à expliquer, ou que la moitié de la table attend son tour. Les classements des passionnés regorgent de jeux brillants que la plupart des groupes ne finiront jamais. Ce qui fonctionne pour les amis et la famille est différent : règles courtes, beaucoup d'interaction, et des jeux où tout le monde est impliqué à chaque tour.",
+    "Cette liste est classée par fréquence d'utilisation avec un groupe varié. Les jeux de fête rapides et les jeux d'initiation arrivent en premier. Quelques accessoires à la fin rendent n'importe quelle soirée jeu plus fluide.",
+    "Les prix indiqués sont les prix publics approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les soldes. Considérez-les comme une fourchette pour votre budget, pas comme un devis. Vérifiez toujours l'offre en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Codenames ou un jeu de mots d'équipe similaire",
+      "tag": "Le jeu qui marche à tous les coups",
+      "body": "Codenames fonctionne avec quatre à huit personnes, s'explique en deux minutes et se joue en quinze. Deux équipes essaient de deviner leurs mots à partir d'indices en un seul mot, et la table est bruyante dès le premier tour. Il convient aux familles, aux événements d'entreprise et aux amis qui disent ne pas aimer les jeux de société. Il existe des versions illustrées, idéales pour les enfants et les langues mélangées. C'est l'ouvre-jeu le plus fiable qui soit. Les points forts : s'explique en deux minutes, excellent avec les grands groupes, et convient aux non-joueurs. Le revers de la médaille : moins amusant à moins de quatre joueurs et les donneurs d'indices peuvent avoir des tours longs, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "S'explique en deux minutes",
+        "Excellent avec les grands groupes",
+        "Convient aux non-joueurs"
+      ],
+      "cons": [
+        "Moins amusant à moins de quatre joueurs",
+        "Les donneurs d'indices peuvent avoir des tours longs"
+      ]
+    },
+    {
+      "name": "Ticket to Ride",
+      "tag": "Le meilleur jeu d'initiation",
+      "body": "Ticket to Ride est souvent le jeu qui transforme les joueurs occasionnels en fans de jeux de société. Les joueurs collectionnent des cartes de train colorées et revendiquent des routes sur une carte. Les règles tiennent sur une page, les parties durent environ une heure, et il convient aux 8 ans et plus. Il existe de nombreuses cartes ; la carte originale des États-Unis est le point de départ le plus simple. Les points forts : règles simples, jeu satisfaisant, et convient aux familles. Le revers de la médaille : idéal avec trois à cinq joueurs et peut sembler répétitif après de nombreuses parties, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Règles simples",
+        "Jeu satisfaisant",
+        "Convient aux familles"
+      ],
+      "cons": [
+        "Idéal avec trois à cinq joueurs",
+        "Peut sembler répétitif après de nombreuses parties"
+      ]
+    },
+    {
+      "name": "Un jeu coopératif comme Pandemic",
+      "tag": "Pour les groupes qui n'aiment pas la compétition",
+      "body": "Dans les jeux coopératifs, tout le monde joue contre le jeu plutôt que les uns contre les autres. Dans Pandemic, les joueurs travaillent ensemble pour arrêter la propagation des maladies. C'est idéal pour les groupes où la compétition crée des tensions, et pour les couples. Un joueur expérimenté peut dominer les décisions, alors encouragez tout le monde à prendre ses propres tours. Les points forts : tout le monde gagne ou perd ensemble, moins de tension, et idéal pour les couples. Le revers de la médaille : un joueur peut prendre le contrôle et il est difficile de gagner à des niveaux de difficulté plus élevés, alors pesez cela par rapport à la fréquence d'utilisation réelle. Vendu environ 30-45 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Tout le monde gagne ou perd ensemble",
+        "Moins de tension",
+        "Idéal pour les couples"
+      ],
+      "cons": [
+        "Un joueur peut prendre le contrôle",
+        "Difficile de gagner à des niveaux de difficulté plus élevés"
+      ]
+    },
+    {
+      "name": "Sushi Go! ou un jeu de cartes rapide",
+      "tag": "Jeux rapides pour tous les âges",
+      "body": "Les petits jeux de cartes comme Sushi Go! s'expliquent en quelques minutes, se jouent en quinze et tiennent dans une poche. Les joueurs choisissent des cartes et passent le reste, formant des ensembles. Il convient aux enfants et aux adultes et est parfait pour le début ou la fin d'une soirée, ou pour les voyages. Les points forts : rapide et bon marché, pour tous les âges, et se transporte bien. Le revers de la médaille : léger pour les joueurs expérimentés et les petites boîtes perdent facilement des cartes, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 10-15 $, il mérite sa place dans cette liste sans demander un gros investissement initial.",
+      "pros": [
+        "Rapide et bon marché",
+        "Pour tous les âges",
+        "Se transporte bien"
+      ],
+      "cons": [
+        "Léger pour les joueurs expérimentés",
+        "Les petites boîtes perdent facilement des cartes"
+      ]
+    },
+    {
+      "name": "Wavelength ou un jeu de devinettes festif",
+      "tag": "Grands groupes et fous rires",
+      "body": "Les jeux de fête comme Wavelength font parler et rire les grands groupes. Les équipes devinent où se situe un indice sur un spectre, ce qui mène à des disputes mémorables. Bon pour les fêtes jusqu'à une douzaine de personnes environ. Le plaisir vient des gens plutôt que des règles. Les points forts : idéal pour les grands groupes, facile à apprendre, et suscite beaucoup de conversations. Le revers de la médaille : moins amusant avec les petits groupes et dépend de l'énergie du groupe, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 25-40 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central qui nécessite une mûre réflexion.",
+      "pros": [
+        "Idéal pour les grands groupes",
+        "Facile à apprendre",
+        "Suscite beaucoup de conversations"
+      ],
+      "cons": [
+        "Moins amusant avec les petits groupes",
+        "Dépend de l'énergie du groupe"
+      ]
+    },
+    {
+      "name": "Catan",
+      "tag": "Le classique moderne",
+      "body": "Catan a initié des millions de personnes aux jeux de société modernes. Les joueurs collectent des ressources, échangent et construisent des colonies. Il y a plus d'échanges et de discussions à table que dans la plupart des jeux, mais il peut être long avec des joueurs lents, et la chance des dés peut décider des parties. Reste un favori pour les groupes réguliers de trois ou quatre personnes. Les points forts : beaucoup d'échanges et d'interactions, un classique pour une raison, et de nombreuses extensions. Le revers de la médaille : la chance des dés peut frustrer et les parties sont longues avec quatre joueurs, alors pesez cela par rapport à la fréquence d'utilisation réelle. Vendu environ 40-55 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Beaucoup d'échanges et d'interactions",
+        "Un classique pour une raison",
+        "De nombreuses extensions"
+      ],
+      "cons": [
+        "La chance des dés peut frustrer",
+        "Les parties sont longues avec quatre joueurs"
+      ]
+    },
+    {
+      "name": "Un jeu à deux joueurs comme Jaipur",
+      "tag": "Pour les couples et les duos",
+      "body": "De nombreux jeux sont moins intéressants à deux joueurs. Les jeux conçus pour deux, comme Jaipur, Patchwork ou 7 Wonders Duel, sont intenses et rapides. Jaipur est un jeu de cartes d'échange rapide qui se joue en 20 minutes. Idéal pour les soirées en semaine et les voyages. Les points forts : conçu pour deux, rapide, et idéal pour les couples. Le revers de la médaille : uniquement pour deux joueurs et petits composants, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 15-25 $, il mérite sa place dans cette liste sans demander un gros investissement initial. Comme pour tout article de cette liste, vérifiez les détails exacts de l'offre et le prix actuel avant de l'ajouter au panier.",
+      "pros": [
+        "Conçu pour deux",
+        "Rapide",
+        "Idéal pour les couples"
+      ],
+      "cons": [
+        "Uniquement pour deux joueurs",
+        "Petits composants"
+      ]
+    },
+    {
+      "name": "Protège-cartes",
+      "tag": "Pour protéger vos jeux préférés",
+      "body": "Les cartes des jeux populaires s'usent et se plient, deviennent collantes ou marquées. Les protège-cartes transparents les préservent pendant des années de jeu. Vérifiez la taille des cartes de votre jeu ; les tailles varient. Utile uniquement pour les jeux à forte composante de cartes que vous jouez souvent. Les points forts : protège les cartes, garde les jeux comme neufs, et bon marché. Le revers de la médaille : les cartes protégées peuvent ne pas rentrer dans la boîte et doivent correspondre à la taille des cartes, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 8-15 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central qui nécessite une mûre réflexion.",
+      "pros": [
+        "Protège les cartes",
+        "Garde les jeux comme neufs",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les cartes protégées peuvent ne pas rentrer dans la boîte",
+        "Doit correspondre à la taille des cartes"
+      ]
+    },
+    {
+      "name": "Un plateau de soirée jeu ou un bac à dés",
+      "tag": "Pour garder les pièces ensemble",
+      "body": "Un bac à dés en feutre empêche les dés de rouler hors de la table et de renverser des pièces. Les plateaux pour composants accélèrent la mise en place et le jeu. Une amélioration petite et bon marché qui rend la soirée jeu plus ordonnée. Les points forts : les dés restent sur la table, roulement plus silencieux, et jeu ordonné. Le revers de la médaille : une chose de plus à ranger et les modèles en cuir peuvent sentir au début, alors pesez cela par rapport à la fréquence d'utilisation réelle. Vendu environ 15-30 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Les dés restent sur la table",
+        "Roulement plus silencieux",
+        "Jeu ordonné"
+      ],
+      "cons": [
+        "Une chose de plus à ranger",
+        "Les modèles en cuir peuvent sentir au début"
+      ]
+    },
+    {
+      "name": "Inserts d'organisation de boîte",
+      "tag": "Mise en place plus rapide",
+      "body": "De nombreux jeux sont livrés avec une boîte vide et un tas de sacs en plastique. Les inserts ou organisateurs trient les pièces, de sorte que la mise en place prend quelques minutes au lieu de vingt. Utile pour les jeux que vous jouez souvent. Les points forts : mise en place et rangement plus rapides, protège les pièces, et rend les jeux plus faciles à sortir. Le revers de la médaille : certains nécessitent un assemblage et doivent correspondre au jeu spécifique, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 15-40 $, il mérite sa place dans cette liste sans demander un gros investissement initial. Comme pour tout article de cette liste, vérifiez les détails exacts de l'offre et le prix actuel avant de l'ajouter au panier.",
+      "pros": [
+        "Mise en place et rangement plus rapides",
+        "Protège les pièces",
+        "Rend les jeux plus faciles à sortir"
+      ],
+      "cons": [
+        "Certains nécessitent un assemblage",
+        "Doit correspondre au jeu spécifique"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel est le meilleur jeu de société pour les non-joueurs ?",
+      "a": "Codenames, Ticket to Ride ou un jeu de cartes rapide comme Sushi Go!."
+    },
+    {
+      "q": "Quels jeux conviennent aux grands groupes ?",
+      "a": "Codenames, Wavelength et d'autres jeux de fête conviennent bien à partir de six joueurs."
+    },
+    {
+      "q": "Les jeux coopératifs sont-ils bons pour les familles ?",
+      "a": "Oui. Tout le monde travaille ensemble, ce qui convient aux âges variés."
+    },
+    {
+      "q": "Comment éviter les faux jeux de société ?",
+      "a": "Achetez auprès de revendeurs officiels et vérifiez les critiques mentionnant la qualité d'impression et les pièces manquantes."
+    }
+  ]
+}

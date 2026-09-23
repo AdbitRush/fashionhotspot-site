@@ -1,0 +1,172 @@
+{
+  "slug": "drawing-tablets",
+  "title": "Grafiktabletts für Einsteiger: Was Sie für digitale Kunst kaufen sollten",
+  "dek": "Zehn Produkte für den Einstieg in die digitale Kunst, sortiert nach Preis-Leistung für Lernende. Ein günstiges Grafiktablett ist besser als die meisten denken.",
+  "category": "Hobbys",
+  "how_we_pick": "Diese Empfehlungen stammen aus veröffentlichten Testberichten, Online-Communities für digitale Kunst und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Angeboten im Handel. Wir haben nicht jeden Artikel selbst getestet. Prüfen Sie vor dem Kauf, ob die Treiber Ihr Betriebssystem unterstützen, insbesondere unter Chromebooks und Linux.",
+  "intro": [
+    "Digitale Kunst war noch nie so günstig wie heute. Ein einfaches Grafiktablett, das an jeden Computer angeschlossen wird, kostet weniger als ein Set guter Marker, und kostenlose Software wie Krita ist leistungsfähig genug für Profis. Dennoch steigen viele Anfänger direkt auf ein teures Bildschirmtablett um oder kaufen einen Stylus für ihr Smartphone und fragen sich, warum es sich nicht wie Zeichnen anfühlt.",
+    "Diese Liste ist nach Preis-Leistung für Anfänger geordnet. Die günstigste Option ganz oben ist wirklich gut, und viele professionelle Illustratoren benutzen sie immer noch. Weiter unten folgen Bildschirmtabletts und iPad-Setups, die zwar schön sind, aber ein Vielfaches kosten. Die kleinen Extras am Ende sind günstig und beheben die häufigsten Beschwerden.",
+    "Die unten angegebenen Preise sind ungefähre Marktpreise zum Zeitpunkt der Veröffentlichung und schwanken ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetplanung, nicht als exaktes Angebot. Prüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Ein kleines oder mittelgroßes Grafiktablett (ohne Bildschirm)",
+      "tag": "Der beste Einstieg für das Geld",
+      "body": "Ein Grafiktablett ist ein druckempfindliches Pad, auf das Sie zeichnen, während Sie Ihren Computermonitor beobachten. Es fühlt sich ein oder zwei Abende lang seltsam an, wird dann aber natürlich, und so arbeiten viele Profis immer noch. Wacom Intuos und Marken wie XP-Pen und Huion stellen gute Geräte mit batterielosen Stiften und Tausenden von Druckstufen her. Eine kleine Größe passt zu einem Laptop; mittelgroß zu einem großen Monitor. Zu diesem Preis ist es der sinnvollste Weg, um herauszufinden, ob Ihnen digitale Kunst Spaß macht, bevor Sie mehr ausgeben. Das Argument dafür: sehr günstige Art zu beginnen, funktioniert mit jedem Computer und viele Profis nutzen sie. Der Kompromiss: Es dauert ein paar Tage, sich an das Zeichnen außerhalb des Bildschirms zu gewöhnen, und die Treiberunterstützung variiert bei Chromebooks und Linux, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Sehr günstige Art zu beginnen",
+        "Funktioniert mit jedem Computer",
+        "Viele Profis nutzen sie"
+      ],
+      "cons": [
+        "Es dauert ein paar Tage, sich an das Zeichnen außerhalb des Bildschirms zu gewöhnen",
+        "Treiberunterstützung variiert bei Chromebooks und Linux"
+      ]
+    },
+    {
+      "name": "Kostenlose Zeichensoftware (Krita oder Clip Studio Testversion)",
+      "tag": "Ohne weitere Kosten starten",
+      "body": "Sie brauchen keine teure Software. Krita ist kostenlos, Open Source und hat hervorragende Pinsel für Malerei und Illustration. Clip Studio Paint ist beliebt für Comics und Manga, mit einer kostenlosen Testversion und erschwinglichen Lizenzen. Viele Tabletts enthalten eine kostenlose Software-Bundle, prüfen Sie das also, bevor Sie etwas kaufen. Verbringen Sie Ihren ersten Monat damit, ein Programm gut zu lernen, anstatt alle auszuprobieren. Das Argument dafür: professionelle Funktionen kostenlos, funktioniert mit jedem Grafiktablett und große Tutorial-Bibliotheken. Der Kompromiss: Das Erlernen jedes Programms braucht Zeit und einige Bundles sind nur Testversionen, keine Vollversionen, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Professionelle Funktionen kostenlos",
+        "Funktioniert mit jedem Grafiktablett",
+        "Große Tutorial-Bibliotheken"
+      ],
+      "cons": [
+        "Das Erlernen jedes Programms braucht Zeit",
+        "Einige Bundles sind nur Testversionen, keine Vollversionen"
+      ]
+    },
+    {
+      "name": "Ein 13-16 Zoll Grafikdisplay",
+      "tag": "Direkt auf dem Bildschirm zeichnen",
+      "body": "Ein Grafikdisplay ermöglicht es Ihnen, direkt auf einem Bildschirm zu zeichnen, was sich viel mehr wie Papier anfühlt und für viele Anfänger einfacher ist. Sie werden als zweiter Monitor an Ihren Computer angeschlossen. XP-Pen, Huion und Wacom One bieten gute Budget-Modelle. Achten Sie auf ein laminiertes Display, das den Abstand zwischen Stiftspitze und Linie reduziert, und einen guten Farbbereich, wenn Sie malen. Sie benötigen einen Schreibtisch und Kabel. Das Argument dafür: direkt auf dem Bild zeichnen, für viele Leute schneller zu lernen und gute Budget-Optionen jetzt. Der Kompromiss: Benötigt einen Computer und Kabel, und Ihre Hand verdeckt einen Teil des Bildes, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Direkt auf dem Bild zeichnen",
+        "Für viele Leute schneller zu lernen",
+        "Gute Budget-Optionen jetzt"
+      ],
+      "cons": [
+        "Benötigt einen Computer und Kabel",
+        "Ihre Hand verdeckt einen Teil des Bildes"
+      ]
+    },
+    {
+      "name": "Ein iPad mit Apple Pencil Unterstützung",
+      "tag": "Überall zeichnen",
+      "body": "Ein iPad mit Apple Pencil ist ein komplettes, portables Zeichenstudio ohne Computer. Zeichnen auf der Couch, im Café oder im Zug ist ein wichtiger Grund, warum Leute mehr zeichnen. Prüfen Sie, welcher Pencil mit welchem iPad funktioniert; die Modelle sind nicht austauschbar. Ein generalüberholtes iPad von Apple oder einem bekannten Aufbereiter senkt die Kosten. Planen Sie den Pencil und eine Displayschutzfolie ein. Das Argument dafür: portabel, All-in-One, hervorragende Zeichen-Apps und für viel mehr als nur Kunst nützlich. Der Kompromiss: Teuer, sobald Sie den Pencil hinzufügen, und die Pencil-Kompatibilität ist verwirrend, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Portabel, All-in-One",
+        "Hervorragende Zeichen-Apps",
+        "Für viel mehr als nur Kunst nützlich"
+      ],
+      "cons": [
+        "Teuer, sobald Sie den Pencil hinzufügen",
+        "Pencil-Kompatibilität ist verwirrend"
+      ]
+    },
+    {
+      "name": "Procreate",
+      "tag": "iPad Zeichen-App",
+      "body": "Procreate ist der Grund, warum viele Künstler ein iPad kaufen. Es ist ein einmaliger Kauf, sehr einfach zu lernen, mit hervorragenden Pinseln und einer riesigen Bibliothek kostenloser Tutorials und Pinselpakete. Für iPad-Besitzer ist es die offensichtliche erste App. Es ist nicht auf Android oder Computern verfügbar. Das Argument dafür: einfach zu lernen, einmaliger Kauf und riesige Tutorial-Community. Der Kompromiss: Nur für iPad und nicht ideal für komplexe Vektorgrafiken, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 13 US-Dollar einmalig ist es eine kleine, risikoarme Ergänzung zur Liste, anstatt ein Hauptprodukt, über das Sie sich intensiv Gedanken machen müssen.",
+      "pros": [
+        "Einfach zu lernen",
+        "Einmaliger Kauf",
+        "Riesige Tutorial-Community"
+      ],
+      "cons": [
+        "Nur für iPad",
+        "Nicht ideal für komplexe Vektorgrafiken"
+      ]
+    },
+    {
+      "name": "Eine matte Displayschutzfolie mit Papiergefühl",
+      "tag": "Mehr Grip auf Glasbildschirmen",
+      "body": "Glasbildschirme sind rutschig, und viele Künstler finden, dass ihre Linien wackeln. Eine matte Displayschutzfolie mit Papierstruktur sorgt für mehr Grip, der sich näher an Papier anfühlt. Sie reduziert auch Blendungen. Der Kompromiss ist eine etwas weniger scharfe Anzeige und schnellerer Verschleiß der Stiftspitzen. Das Argument dafür: papierähnliches Gefühl, mehr Kontrolle und weniger Blendung. Der Kompromiss: Verschleißt Stiftspitzen schneller und dämpft das Display leicht, also wägen Sie das gegen die tatsächliche Nutzung ab. Preislich bei etwa 10-20 US-Dollar ist sie leicht zu rechtfertigen, selbst wenn sie nur gelegentlich statt täglich genutzt wird.",
+      "pros": [
+        "Papierähnliches Gefühl",
+        "Mehr Kontrolle",
+        "Weniger Blendung"
+      ],
+      "cons": [
+        "Verschleißt Stiftspitzen schneller",
+        "Dämpft das Display leicht"
+      ]
+    },
+    {
+      "name": "Ersatz-Stiftspitzen",
+      "tag": "Abgenutzte Spitzen",
+      "body": "Stiftspitzen nutzen sich ab, besonders auf texturierten Oberflächen. Eine abgenutzte Spitze zerkratzt die Oberfläche und fühlt sich kratzig an. Ersatzspitzen sind günstig; die meisten Tabletts enthalten einige. Prüfen Sie, ob Sie Spitzen kaufen, die für Ihr Stiftmodell hergestellt wurden. Das Argument dafür: hält das Gefühl konsistent, schützt die Oberfläche und ist günstig. Der Kompromiss: Muss zum Stiftmodell passen und ersetzt werden, bevor die Spitze scharf wird, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 5-10 US-Dollar verdient sie ihren Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen.",
+      "pros": [
+        "Hält das Gefühl konsistent",
+        "Schützt die Oberfläche",
+        "Günstig"
+      ],
+      "cons": [
+        "Muss zum Stiftmodell passen",
+        "Vor der Spitze scharf wird ersetzen"
+      ]
+    },
+    {
+      "name": "Ein Zwei-Finger-Zeichenhandschuh",
+      "tag": "Glatte Handbewegung",
+      "body": "Ihre Handfläche schleift auf der Oberfläche und kann Touch-Eingaben auf Bildschirmen auslösen. Ein Zwei-Finger-Handschuh lässt Ihre Hand reibungslos gleiten und reduziert Schlieren und versehentliche Berührungen. Er ist günstig und Leute, die ihn benutzen, kehren selten zurück. Das Argument dafür: glatte Handbewegung, verhindert versehentliche Berührungen und ist günstig. Der Kompromiss: Größen variieren je nach Verkäufer und er muss gewaschen werden, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 5-12 US-Dollar ist er eine kleine, risikoarme Ergänzung zur Liste, anstatt ein Hauptprodukt, über das Sie sich intensiv Gedanken machen müssen.",
+      "pros": [
+        "Glatte Handbewegung",
+        "Verhindert versehentliche Berührungen",
+        "Günstig"
+      ],
+      "cons": [
+        "Größen variieren je nach Verkäufer",
+        "Muss gewaschen werden"
+      ]
+    },
+    {
+      "name": "Ein verstellbarer Tablettständer",
+      "tag": "Bessere Haltung",
+      "body": "Das Zeichnen über einem flachen Tablett verrenkt Nacken und Rücken. Ein Ständer neigt das Tablett oder Display wie einen Zeichentisch. Viele Grafikdisplays enthalten einen einfachen Ständer; ein stabilerer, verstellbarer Ständer ist ein gutes Upgrade für lange Sitzungen. Das Argument dafür: bessere Haltung, bequemere lange Sitzungen und verstellbarer Winkel. Der Kompromiss: Günstige Ständer rutschen beim Drücken und prüfen Sie, ob er zur Größe Ihres Geräts passt, also wägen Sie das gegen die tatsächliche Nutzung ab. Preislich bei etwa 20-40 US-Dollar ist er leicht zu rechtfertigen, selbst wenn er nur gelegentlich statt täglich genutzt wird.",
+      "pros": [
+        "Bessere Haltung",
+        "Bequemere lange Sitzungen",
+        "Verstellbarer Winkel"
+      ],
+      "cons": [
+        "Günstige Ständer rutschen beim Drücken",
+        "Prüfen Sie, ob er zur Größe Ihres Geräts passt"
+      ]
+    },
+    {
+      "name": "Eine Shortcut-Fernbedienung oder Tastatur",
+      "tag": "Schnellerer Workflow",
+      "body": "Künstler machen ständig Rückgängig-Schritte, wechseln Pinsel und zoomen. Eine kleine Shortcut-Tastatur legt diese Funktionen unter Ihre nicht-zeichnende Hand, sodass Sie nicht mehr zur Tastatur greifen müssen. Nützlich, sobald Sie regelmäßig zeichnen. Das Argument dafür: schnellerer Workflow, weniger Greifen zur Tastatur und programmierbar. Der Kompromiss: Muss pro Programm eingerichtet werden und ist für Anfänger nicht unerlässlich, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 25-50 US-Dollar verdient sie ihren Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen. Wie bei allem auf dieser Liste, prüfen Sie die genauen Angebotsdetails und den aktuellen Preis, bevor Sie es in den Warenkorb legen.",
+      "pros": [
+        "Schnellerer Workflow",
+        "Weniger Greifen zur Tastatur",
+        "Programmierbar"
+      ],
+      "cons": [
+        "Muss pro Programm eingerichtet werden",
+        "Nicht unerlässlich für Anfänger"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Grafiktablett oder Grafikdisplay für Anfänger?",
+      "a": "Ein Grafiktablett ist der günstigste Weg zu beginnen und funktioniert nach kurzer Eingewöhnung gut. Ein Display ist einfacher, kostet aber mehr."
+    },
+    {
+      "q": "Kann ich einen Smartphone-Stylus für digitale Kunst verwenden?",
+      "a": "Einfache kapazitive Stylus-Stifte haben keine Druckempfindlichkeit und fühlen sich unpräzise an. Ein richtiges Grafiktablett ist viel besser."
+    },
+    {
+      "q": "Welche kostenlose Software ist gut?",
+      "a": "Krita ist hervorragend und kostenlos. Viele Tabletts werden auch mit Software-Bundles geliefert."
+    },
+    {
+      "q": "iPad oder Grafikdisplay?",
+      "a": "iPad, wenn Sie Portabilität wünschen; Grafikdisplay, wenn Sie bereits einen guten Computer haben und einen größeren Bildschirm möchten."
+    }
+  ]
+}

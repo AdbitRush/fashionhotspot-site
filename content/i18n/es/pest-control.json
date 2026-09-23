@@ -1,0 +1,172 @@
+{
+  "slug": "pest-control",
+  "title": "Control de plagas sin veneno que funciona sin intoxicar la casa",
+  "dek": "Diez formas de lidiar con ratones, hormigas, moscas y polillas, clasificadas según su eficacia en un hogar con niños y mascotas. Sellar las grietas supera a cualquier aparato.",
+  "category": "Hogar",
+  "how_we_pick": "Nuestras selecciones provienen de servicios de extensión universitaria, guías de salud pública, consejos de profesionales del control de plagas e informes de propietarios a largo plazo, cotejados con listados de venta actuales. No hemos probado personalmente todos los artículos aquí. Para infestaciones grandes, avispas, termitas o cualquier cosa que muerda, llame a un profesional con licencia en lugar de confiar en esta lista.",
+  "intro": [
+    "El pasillo de control de plagas vende dos tipos de productos: venenos que funcionan pero ponen en riesgo a niños y mascotas, y aparatos enchufables que prometen repeler todo y que en su mayoría repelen tu dinero. Ninguno aborda por qué llegaron las plagas. Los ratones buscan comida y calor a través de una grieta por la que cabe un lápiz. Las hormigas siguen un rastro hasta las migas. Las polillas viven en la lana que no has usado desde la primavera.",
+    "Así que esta lista está ordenada por lo que resuelve el problema de forma definitiva. Bloquear el acceso y eliminar la comida van primero, porque funcionan en todo. Las trampas van después, y decimos claramente qué aparatos populares no funcionan.",
+    "Los precios a continuación son precios aproximados de calle en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre revise el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Lana de acero y kit de sellado de grietas",
+      "tag": "La solución que detiene el regreso de las plagas",
+      "body": "Un ratón puede pasar por una grieta del ancho de un lápiz. Mire debajo de los lavabos, detrás de los electrodomésticos, alrededor de las tuberías y donde los cables entran en las paredes. Rellene las grietas pequeñas con lana de acero o malla de cobre, que los roedores no pueden roer, y selle con masilla o espuma expansiva. Las burletes para puertas cierran la brecha debajo de las puertas exteriores. Esto lleva una tarde y previene la próxima infestación, algo que ninguna trampa puede hacer. El argumento a favor: detiene las plagas en su origen, funciona en ratones, insectos y corrientes de aire, y es una solución única. La contrapartida es real: encontrar cada grieta requiere paciencia y los inquilinos deben consultar con el propietario para agujeros más grandes, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Detiene las plagas en su origen",
+        "Funciona en ratones, insectos y corrientes de aire",
+        "Solución única"
+      ],
+      "cons": [
+        "Encontrar cada grieta requiere paciencia",
+        "Los inquilinos deben consultar con el propietario para agujeros más grandes"
+      ]
+    },
+    {
+      "name": "Contenedores herméticos para alimentos",
+      "tag": "Eliminar la fuente de alimento",
+      "body": "Los ratones, las hormigas y las polillas de la despensa buscan comida. Las cajas de cartón y las bolsas enrolladas son fáciles de abrir. Mover cereales, harina, arroz, comida para mascotas y aperitivos a recipientes herméticos elimina la razón para visitar. Los transparentes facilitan ver lo que tienes, y las formas cuadradas aprovechan bien el espacio de la estantería. El argumento a favor: elimina la principal atracción, mantiene los alimentos más frescos y facilita la detección de polillas de la despensa. La contrapartida es real: ocupan más espacio en el armario que las bolsas y los sellos se desgastan en los juegos baratos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Elimina la principal atracción",
+        "Mantiene los alimentos más frescos",
+        "Facilita la detección de polillas de la despensa"
+      ],
+      "cons": [
+        "Ocupan más espacio en el armario que las bolsas",
+        "Los sellos se desgastan en los juegos baratos"
+      ]
+    },
+    {
+      "name": "Trampas humanas de captura y liberación para ratones",
+      "tag": "Ratones, sin matarlos",
+      "body": "Las trampas tipo túnel permiten que un ratón entre y se cierran detrás de él, sin dañarlo. Funcionan bien con un poco de mantequilla de cacahuete. El truco es que debes revisarlas a diario, porque un ratón atrapado muere rápidamente por estrés y sed, y debes liberarlo lo suficientemente lejos, al menos a un kilómetro o más, o volverá de inmediato. La liberación no es legal en todas partes, así que consulta las normativas locales. El argumento a favor: no mata, es reutilizable y seguro para mascotas y niños. La contrapartida es real: deben revisarse todos los días y los ratones liberados cerca regresan, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "No mata",
+        "Reutilizable",
+        "Seguro para mascotas y niños"
+      ],
+      "cons": [
+        "Deben revisarse todos los días",
+        "Los ratones liberados cerca regresan"
+      ]
+    },
+    {
+      "name": "Trampas de resorte cerradas",
+      "tag": "Control rápido y seguro de ratones",
+      "body": "Si la liberación humana no es práctica, las trampas de resorte cerradas modernas son rápidas y mucho más seguras que el veneno. Los ratones envenenados mueren dentro de las paredes, donde huelen durante semanas, y el veneno puede dañar a mascotas y vida silvestre que los coman. Las trampas cerradas protegen dedos y patas. Colócalas a lo largo de las paredes, donde corren los ratones, no en medio del suelo. El argumento a favor: rápido y eficaz, diseño cerrado protege a mascotas y niños, y no hay animales envenenados en las paredes. La contrapartida es real: no es para personas que no quieren matar ratones y varias trampas funcionan mejor que una, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Rápido y eficaz",
+        "Diseño cerrado protege a mascotas y niños",
+        "No hay animales envenenados en las paredes"
+      ],
+      "cons": [
+        "No es para personas que no quieren matar ratones",
+        "Varias trampas funcionan mejor que una"
+      ]
+    },
+    {
+      "name": "Estaciones de cebo para hormigas (a base de bórax)",
+      "tag": "Rastros de hormigas",
+      "body": "Rociar las hormigas que ves no hace nada contra el nido. Las estaciones de cebo funcionan porque las hormigas obreras llevan el cebo a casa y lo comparten con la colonia. Colócalas en el rastro y resiste la tentación de eliminar las hormigas; el tráfico significa que está funcionando. Puede tardar una o dos semanas. Mantén los cebos alejados de mascotas y niños, aunque las estaciones cerradas facilitan esto. El argumento a favor: llega a toda la colonia, es barato y las estaciones cerradas limitan la exposición. La contrapartida es real: tarda de una a dos semanas y limpiar el rastro demasiado pronto detiene su funcionamiento, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Llega a toda la colonia",
+        "Barato",
+        "Estaciones cerradas limitan la exposición"
+      ],
+      "cons": [
+        "Tarda de una a dos semanas",
+        "Limpiar el rastro demasiado pronto detiene su funcionamiento"
+      ]
+    },
+    {
+      "name": "Mosquiteras para ventanas y puertas",
+      "tag": "Moscas y mosquitos",
+      "body": "Una mosquitera detiene las moscas y los mosquitos antes de que entren, lo cual es mejor que cualquier trampa. Si tus ventanas no tienen mosquiteras, las mosquiteras ajustables o de malla con banda magnética se adaptan a la mayoría de las aberturas sin herramientas. Las cortinas magnéticas para puertas se cierran solas detrás de ti, lo cual es útil para las puertas traseras en verano. Revisa las mosquiteras existentes en busca de rasgaduras y repáralas. El argumento a favor: mantiene los insectos fuera por completo, permite abrir las ventanas libremente y no usa productos químicos. La contrapartida es real: las tiras adhesivas pueden despegarse de los marcos pintados y la malla barata se rasga fácilmente, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Mantiene los insectos fuera por completo",
+        "Permite abrir las ventanas libremente",
+        "Sin productos químicos"
+      ],
+      "cons": [
+        "Las tiras adhesivas pueden despegarse de los marcos pintados",
+        "La malla barata se rasga fácilmente"
+      ]
+    },
+    {
+      "name": "Bloques de cedro y bolsas de almacenamiento selladas",
+      "tag": "Polillas de la ropa",
+      "body": "Las polillas de la ropa ponen huevos en lana, cachemira y seda, especialmente en prendas almacenadas sucias. Lava o limpia en seco antes de guardar, luego sella la ropa de temporada en bolsas con cremallera o bolsas de vacío. Los bloques de cedro ayudan a repeler las polillas, pero pierden su efecto después de una temporada; líjalos ligeramente para refrescarlos. Las trampas de feromonas para polillas en el armario te indican si tienes un problema. El argumento a favor: protege prendas de punto caras, sin químicos y las bolsas selladas también ahorran espacio. La contrapartida es real: el cedro solo no detendrá una infestación y la ropa debe estar limpia antes de guardarla, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Protege prendas de punto caras",
+        "Sin químicos",
+        "Las bolsas selladas también ahorran espacio"
+      ],
+      "cons": [
+        "El cedro solo no detendrá una infestación",
+        "La ropa debe estar limpia antes de guardarla"
+      ]
+    },
+    {
+      "name": "Trampas de feromonas para polillas de despensa",
+      "tag": "Polillas en la despensa",
+      "body": "Las polillas de despensa llegan en harina, arroz o frutos secos y se propagan a todo. Las trampas de feromonas atrapan a los machos y te muestran la gravedad del problema. La solución real es vaciar la despensa, tirar la comida infestada, limpiar las estanterías y usar recipientes herméticos. Las trampas te avisan temprano si regresan. El argumento a favor: alerta temprana de un problema, no tóxico y barato. La contrapartida es real: las trampas solas no acaban con una infestación y solo atrapan machos, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $8-15, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central en la que necesites pensar mucho.",
+      "pros": [
+        "Alerta temprana de un problema",
+        "No tóxico",
+        "Barato"
+      ],
+      "cons": [
+        "Las trampas solas no acaban con una infestación",
+        "Solo atrapan machos"
+      ]
+    },
+    {
+      "name": "Una trampa para moscas UV o de luz",
+      "tag": "Moscas en interiores",
+      "body": "Para las moscas que aún entran, una trampa de luz con una placa adhesiva las atrae silenciosamente y funciona durante la noche. Los modelos con placa adhesiva son más silenciosos y menos sucios que los que electrocutan. Colócala lejos de las ventanas para que no atraiga insectos del exterior. Las moscas de la fruta se manejan mejor con un pequeño plato de vinagre de sidra y una gota de jabón para platos. El argumento a favor: control silencioso durante la noche, sin aerosoles y funciona en cocinas. La contrapartida es real: las placas adhesivas necesitan ser reemplazadas y son menos efectivas en habitaciones con mucha luz diurna, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Control silencioso durante la noche",
+        "Sin aerosoles",
+        "Funciona en cocinas"
+      ],
+      "cons": [
+        "Las placas adhesivas necesitan ser reemplazadas",
+        "Menos efectivas en habitaciones con mucha luz diurna"
+      ]
+    },
+    {
+      "name": "Repelentes enchufables ultrasónicos",
+      "tag": "Mayormente, evítalos",
+      "body": "Se venden en todas partes con grandes promesas. Estudios independientes y servicios de extensión han encontrado poca evidencia de que eliminen ratones o insectos a largo plazo, y la Comisión Federal de Comercio de EE. UU. ha advertido a los vendedores sobre afirmaciones no respaldadas. Los roedores parecen acostumbrarse al sonido. Los incluimos porque están muy comercializados; gasta el dinero en sellar grietas en su lugar. El argumento a favor: muy vendidos, por lo que vale la pena saber de ellos, inofensivos para las personas y pueden disuadir plagas brevemente. La contrapartida es real: poca evidencia de que funcionen y algunas mascotas pueden oírlos y desagradarles, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Muy vendidos, por lo que vale la pena saber de ellos",
+        "Inofensivos para las personas",
+        "Pueden disuadir plagas brevemente"
+      ],
+      "cons": [
+        "Poca evidencia de que funcionen",
+        "Algunas mascotas pueden oírlos y desagradarles"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es la mejor manera de deshacerse de los ratones?",
+      "a": "Sella las grietas que usan, guarda la comida en recipientes herméticos, luego atrapa a lo largo de las paredes. Es mejor evitar el veneno en interiores."
+    },
+    {
+      "q": "¿Funcionan los repelentes ultrasónicos?",
+      "a": "La evidencia es débil. No son un sustituto de sellar grietas y eliminar la comida."
+    },
+    {
+      "q": "¿Cómo me deshago de las hormigas sin rociar?",
+      "a": "Usa estaciones de cebo en el rastro y deja que las hormigas lleven el cebo de vuelta al nido. Limpia las migas y sella los alimentos."
+    },
+    {
+      "q": "¿Cuándo debo llamar a un profesional?",
+      "a": "Para infestaciones grandes, nidos de avispas, termitas, chinches o ratas que no puedas rastrear."
+    }
+  ]
+}

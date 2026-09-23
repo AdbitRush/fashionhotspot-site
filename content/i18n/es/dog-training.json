@@ -1,0 +1,172 @@
+{
+  "slug": "dog-training",
+  "title": "Equipo de paseo y adiestramiento canino que facilita cada salida",
+  "dek": "Diez cosas para pasear y adiestrar a un perro, clasificadas por lo útiles que son para evitar tirones, mejorar la llamada y la educación. Las golosinas y el momento oportuno superan a los artilugios.",
+  "category": "Mascotas",
+  "how_we_pick": "Estas selecciones provienen de la orientación de veterinarios etólogos, el consejo de adiestradores certificados y los informes de dueños a largo plazo, cotejados con las listas de venta actuales. No hemos probado personalmente cada artículo aquí. Para casos de agresividad o miedo grave, trabaje con un etólogo cualificado o su veterinario.",
+  "intro": [
+    "Un perro que tira de la correa, ignora la llamada y se abalanza sobre otros perros hace que cada paseo sea estresante. El pasillo de las mascotas ofrece muchas soluciones rápidas, pero el adiestramiento sigue basándose en dos cosas: recompensar el comportamiento deseado en el momento adecuado y usar equipo que no empeore las cosas.",
+    "Esta lista está ordenada según lo que más ayuda en el día a día. Un buen arnés y una bolsa para golosinas van primero. Las herramientas aversivas como los collares de púas y eléctricos no están aquí; los grupos veterinarios de etología desaconsejan su uso, y el adiestramiento basado en recompensas funciona mejor a largo plazo.",
+    "Los precios que se indican a continuación son precios aproximados de calle en el momento de escribir esto y cambian constantemente, especialmente durante las rebajas. Tómelos como una banda aproximada para presupuestar, no como una cotización. Consulte siempre la lista en directo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un arnés de clip frontal",
+      "tag": "La ayuda más rápida contra los tirones",
+      "body": "Un arnés de clip frontal sujeta la correa en el pecho, de modo que cuando el perro tira, se gira hacia usted en lugar de seguir adelante. Reduce los tirones de inmediato mientras se entrena el paseo con correa floja, y no ejerce presión en la garganta. Busque un diseño en forma de Y que no restrinja el movimiento de los hombros. Gestiona el comportamiento en lugar de corregirlo de raíz; combínelo con un adiestramiento real. Los argumentos a favor: reduce los tirones de inmediato, no ejerce presión en la garganta y es fácil de poner. El inconveniente es real: puede rozar bajo las patas si está mal ajustado y las correas sobre los hombros restringen el movimiento, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Reduce los tirones de inmediato",
+        "No ejerce presión en la garganta",
+        "Fácil de poner"
+      ],
+      "cons": [
+        "Puede rozar bajo las patas si está mal ajustado",
+        "Las correas sobre los hombros restringen el movimiento"
+      ]
+    },
+    {
+      "name": "Una bolsa para golosinas",
+      "tag": "Recompensar en el momento justo",
+      "body": "El momento lo es todo en el adiestramiento. La recompensa debe llegar en uno o dos segundos del comportamiento. Buscar en un bolsillo es demasiado lento. Una bolsa con clip y apertura magnética o abatible pone las golosinas en su mano al instante. Muchas también tienen un compartimento para bolsas de excrementos. Los argumentos a favor: las recompensas llegan a tiempo, mantiene las golosinas a mano y manos libres. El inconveniente es real: los clips baratos se rompen y necesita lavarse con regularidad, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 10-20 $, es una adición pequeña y de bajo riesgo a la lista, en lugar de una compra principal en la que necesite pensar mucho.",
+      "pros": [
+        "Las recompensas llegan a tiempo",
+        "Mantiene las golosinas a mano",
+        "Manos libres"
+      ],
+      "cons": [
+        "Los clips baratos se rompen",
+        "Necesita lavarse con regularidad"
+      ]
+    },
+    {
+      "name": "Golosinas pequeñas y blandas para adiestramiento",
+      "tag": "Recompensas frecuentes",
+      "body": "El adiestramiento utiliza docenas de golosinas por sesión, por lo que deben ser diminutas, blandas y rápidas de comer. Las golosinas blandas del tamaño de un guisante mantienen al perro concentrado sin llenarlo. Las golosinas de mayor valor, como pequeños trozos de pollo, ayudan en lugares que distraen. Reduzca ligeramente sus comidas en días de adiestramiento intenso. Los argumentos a favor: mantienen a los perros motivados, son rápidas de comer y fáciles de romper en trozos más pequeños. El inconveniente es real: las calorías se acumulan y revise los ingredientes para detectar alergias, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 8 y 15 $, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Mantienen a los perros motivados",
+        "Rápidas de comer",
+        "Fáciles de romper en trozos más pequeños"
+      ],
+      "cons": [
+        "Las calorías se acumulan",
+        "Revise los ingredientes para detectar alergias"
+      ]
+    },
+    {
+      "name": "Una correa estándar de 1,8 metros",
+      "tag": "Paseos cotidianos",
+      "body": "Una correa fija de 1,8 metros le da al perro espacio para olfatear y a usted un control firme. Las correas retráctiles enseñan a los perros que tirar les da más correa, y los finos cordones pueden causar lesiones. Las asas acolchadas son más amables con sus manos. El Biothane o el nailon son fáciles de limpiar. Los argumentos a favor: control constante, enseña a pasear con correa floja y es más segura que las correas retráctiles. El inconveniente es real: menos libertad que una línea larga y los clips baratos pueden abrirse, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 12-25 $, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras.",
+      "pros": [
+        "Control constante",
+        "Enseña a pasear con correa floja",
+        "Más segura que las correas retráctiles"
+      ],
+      "cons": [
+        "Menos libertad que una línea larga",
+        "Los clips baratos pueden abrirse"
+      ]
+    },
+    {
+      "name": "Una línea larga (3-9 metros)",
+      "tag": "Practicar la llamada de forma segura",
+      "body": "La llamada es la habilidad de seguridad más importante y la más difícil de practicar sin riesgo. Una línea larga permite al perro deambular y olfatear en espacios abiertos mientras usted todavía tiene el control. Practique llamándolo con grandes recompensas. Úsela con un arnés, nunca con un collar, y use guantes para evitar quemaduras por la cuerda. Los argumentos a favor: práctica segura de la llamada, libertad para explorar y barata. El inconveniente es real: puede enredarse en las patas y usarla con un arnés, no con un collar, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 15-30 $, es una adición pequeña y de bajo riesgo a la lista, en lugar de una compra principal en la que necesite pensar mucho.",
+      "pros": [
+        "Práctica segura de la llamada",
+        "Libertad para explorar",
+        "Barata"
+      ],
+      "cons": [
+        "Puede enredarse en las patas",
+        "Usar con un arnés, no con un collar"
+      ]
+    },
+    {
+      "name": "Un clicker",
+      "tag": "Temporización precisa",
+      "body": "Un clicker emite un sonido distintivo que marca el momento exacto en que el perro hizo lo correcto, seguido de una golosina. Muchos adiestradores lo usan porque es más consistente que una palabra. Un marcador hablado como \"sí\" también funciona. Es barato y vale la pena intentarlo. Los argumentos a favor: marcador preciso, barato y acelera el aprendizaje. El inconveniente es real: es fácil olvidarlo en casa y algunos perros son sensibles al sonido, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 5 y 10 $, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Marcador preciso",
+        "Barato",
+        "Acelera el aprendizaje"
+      ],
+      "cons": [
+        "Fácil de olvidar en casa",
+        "Algunos perros son sensibles al sonido"
+      ]
+    },
+    {
+      "name": "Un dispensador de bolsas para excrementos",
+      "tag": "Paseos limpios",
+      "body": "Es simple y esencial: un dispensador que se engancha a la correa significa que nunca se quedará sin ellas. Elija bolsas gruesas que no se rompan. Los argumentos a favor: siempre tiene bolsas, se engancha y es barato. El inconveniente es real: las bolsas baratas se rompen y las bolsas \"compostables\" necesitan un compostaje adecuado, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 8-15 $, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras. Como con cualquier cosa en esta lista, consulte los detalles exactos de la lista y el precio actual antes de añadirlo al carrito.",
+      "pros": [
+        "Siempre tiene bolsas",
+        "Se engancha",
+        "Barato"
+      ],
+      "cons": [
+        "Las bolsas baratas se rompen",
+        "Las bolsas \"compostables\" necesitan un compostaje adecuado"
+      ]
+    },
+    {
+      "name": "Un collar reflectante o LED",
+      "tag": "Paseos nocturnos",
+      "body": "Los paseos de otoño e invierno ocurren en la oscuridad. Un collar reflectante o LED hace que su perro sea visible para los conductores y le ayuda a verlo sin correa. Los recargables por USB duran años. Los argumentos a favor: visible para los conductores, fácil de detectar sin correa y barato. El inconveniente es real: las baterías necesitan cargarse y los modelos baratos no son impermeables, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 10-20 $, es una adición pequeña y de bajo riesgo a la lista, en lugar de una compra principal en la que necesite pensar mucho. Es una compra menor en el contexto del conjunto, pero del tipo que es fácil lamentar no haberla hecho una vez que nota la ausencia.",
+      "pros": [
+        "Visible para los conductores",
+        "Fácil de detectar sin correa",
+        "Barato"
+      ],
+      "cons": [
+        "Las baterías necesitan cargarse",
+        "Los modelos baratos no son impermeables"
+      ]
+    },
+    {
+      "name": "Una alfombra olfativa o alfombra de lamido",
+      "tag": "Calmar después de los paseos",
+      "body": "Olfatear y lamer calman a los perros. Una alfombra olfativa esconde pienso en tiras de tela, y una alfombra de lamido extiende comida húmeda o yogur. Ambas proporcionan ejercicio mental, que cansa a los perros tanto como un paseo. Buenas para días lluviosos y para calmarse después de la excitación. Los argumentos a favor: calman a los perros, ejercicio mental y buenas para días lluviosos. El inconveniente es real: los masticadores pueden destruirlas y necesitan lavarse, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 12 y 25 $, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Calman a los perros",
+        "Ejercicio mental",
+        "Buenas para días lluviosos"
+      ],
+      "cons": [
+        "Los masticadores pueden destruirlas",
+        "Necesita lavarse"
+      ]
+    },
+    {
+      "name": "Un rastreador GPS",
+      "tag": "Perros que se escapan",
+      "body": "Para perros que se escapan o huyen, un rastreador GPS muestra su ubicación en su teléfono en tiempo real. La mayoría necesita una suscripción mensual. Los rastreadores Bluetooth como AirTags son más baratos pero solo funcionan cerca de otros teléfonos. La microchipación sigue siendo esencial independientemente. Los argumentos a favor: encuentra un perro perdido rápidamente, ubicación en tiempo real y tranquilidad. El inconveniente es real: suscripción mensual y necesita cargarse con regularidad, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 30-60 $ más el plan, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras.",
+      "pros": [
+        "Encuentra un perro perdido rápidamente",
+        "Ubicación en tiempo real",
+        "Tranquilidad"
+      ],
+      "cons": [
+        "Suscripción mensual",
+        "Necesita cargarse con regularidad"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo evito que mi perro tire de la correa?",
+      "a": "Use un arnés de clip frontal para controlarlo, deténgase cuando la correa se tense y recompense cuando esté floja. Requiere constancia."
+    },
+    {
+      "q": "¿Son malas las correas retráctiles?",
+      "a": "Pueden enseñar a tirar y los finos cordones pueden causar lesiones. Una correa fija es mejor para el adiestramiento."
+    },
+    {
+      "q": "¿Qué pasa con los collares de púas o eléctricos?",
+      "a": "Las organizaciones veterinarias de etología desaconsejan su uso. El adiestramiento basado en recompensas funciona bien sin los riesgos."
+    },
+    {
+      "q": "¿Cómo mejoro la llamada?",
+      "a": "Practique con una línea larga y golosinas de alto valor, y nunca llame a su perro para algo desagradable."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "pizza",
+  "title": "Pizza zu Hause, die schmeckt wie vom Pizzabäcker",
+  "dek": "Zehn Dinge für bessere hausgemachte Pizza, sortiert danach, was sie für den Teigboden tun. Hitze ist alles, und die meiste davon kriegen Sie aus einem normalen Backofen.",
+  "category": "Küche",
+  "how_we_pick": "Diese Auswahl basiert auf veröffentlichten Tests, Pizza-Communitys und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Wir bevorzugten Werkzeuge, die zuerst in einem normalen Haushaltsbackofen funktionieren.",
+  "intro": [
+    "Hausgemachte Pizza enttäuscht meistens aus einem Grund: Der Ofen ist nicht heiß genug. Ein Pizzabäckerofen läuft bei 370-480°C. Ein Haushaltsbackofen schafft höchstens 260°C, und ein dünnes Backblech hält diese Hitze nicht, sodass der Boden blass und brotig wird, bevor die Oberseite fertig ist.",
+    "Diese Liste ist danach geordnet, wie gut jeder Artikel diese Lücke schließt. Der erste Tipp kostet weniger als eine Takeaway-Bestellung und verwandelt Pizza aus einem normalen Ofen. Der Outdoor-Ofen steht weiter unten, weil er die größte Ausgabe ist und sich nur lohnt, wenn Sie einmal richtig Feuer gefangen haben.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetplanung, nicht als Angebot. Überprüfen Sie immer das Live-Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Ein Pizzastahl oder ein dicker Pizzastein",
+      "tag": "Das Upgrade, das den Boden repariert",
+      "body": "Ein dicker Stahl oder Stein speichert während des Vorheizens Wärme und gibt sie an den Teig ab, wenn die Pizza darauf gelegt wird, was in einem normalen Ofen einen knusprigen, blasigen Boden ergibt. Stahl leitet Wärme schneller als Stein, sodass er bei heimischen Ofentemperaturen schneller backt und besser bräunt. 45 Minuten bis eine Stunde bei der höchsten Einstellung Ihres Ofens auf dem oberen Drittelrost vorheizen. Stahl ist schwer, bricht aber nicht; Steine sind leichter, können aber durch plötzliche Temperaturwechsel brechen. Das Argument dafür: knuspriger, gebräunter Boden in einem normalen Ofen, auch toll für Brot, und hält ewig. Der Kompromiss ist real: Stahl ist sehr schwer und benötigt ein langes Vorheizen, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab.",
+      "pros": [
+        "Knuspriger, gebräunter Boden in einem normalen Ofen",
+        "Auch toll für Brot",
+        "Hält ewig"
+      ],
+      "cons": [
+        "Stahl ist sehr schwer",
+        "Benötigt langes Vorheizen"
+      ]
+    },
+    {
+      "name": "Ein Pizzaschieber",
+      "tag": "Pizza drauf- und runterrutschen lassen",
+      "body": "Eine labberige Pizza ohne Schieber auf einen heißen Stahl zu schieben, führt dazu, dass die Beläge auf dem Ofenboden landen. Ein Holzschieber eignet sich am besten zum Einschieben, da der Teig weniger am Holz klebt; ein dünner Metallschieber ist am besten zum Wenden und Herausnehmen. Mit Grieß bestäuben, damit die Pizza rutscht. Fangen Sie mit einem an und fügen Sie den anderen hinzu, wenn Sie es ernst meinen. Das Argument dafür: Ermöglicht das Einschieben von Pizzen, Grieß hilft beim Rutschen und ist günstig. Der Kompromiss ist real: Das Einschieben erfordert Übung und Holzschieber sind zum Wenden zu dick, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab.",
+      "pros": [
+        "Ermöglicht das Einschieben von Pizzen",
+        "Grieß hilft beim Rutschen",
+        "Günstig"
+      ],
+      "cons": [
+        "Das Einschieben erfordert Übung",
+        "Holzschieber sind zum Wenden zu dick"
+      ]
+    },
+    {
+      "name": "Eine digitale Küchenwaage",
+      "tag": "Konstanter Teig",
+      "body": "Teig ist Chemie, und Tassen Mehl variieren um bis zu 20 Prozent, je nachdem, wie Sie schöpfen. Eine günstige digitale Waage macht jede Charge gleich. Die meisten guten Pizzarezepte sind aus diesem Grund in Gramm und Prozent angegeben. Sie werden sie für Ihr gesamtes Backen verwenden. Das Argument dafür: jedes Mal konstanter Teig, folgt gramm-basierten Rezepten und ist für alle Backwaren nützlich. Der Kompromiss ist real: Benötigt Batterien und besorgen Sie sich eine, die auf 1g genau ist, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab. Preislich bei ca. 12-25 $, ist sie leicht zu rechtfertigen, auch wenn sie nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Jedes Mal konstanter Teig",
+        "Folgt gramm-basierten Rezepten",
+        "Nützlich für alle Backwaren"
+      ],
+      "cons": [
+        "Benötigt Batterien",
+        "Besorgen Sie sich eine, die auf 1g genau ist"
+      ]
+    },
+    {
+      "name": "Tipo 00 oder Weizenmehl",
+      "tag": "Teig, der sich dehnt",
+      "body": "Allzweckmehl ergibt einen weicheren, schwächeren Teig, der reißt. Italienisches 00-Mehl ist fein gemahlen für sehr heiße Öfen; Weizenmehl hat mehr Protein und eignet sich für Haushaltsöfen und New Yorker Stil. Wenn Ihr Ofen nur 260°C erreicht, bräunt Weizenmehl oder ein 00-Mehl für Haushaltsöfen oft besser. Probieren Sie beides. Das Argument dafür: dehnbarerer, stärkerer Teig, bessere Textur und günstig. Der Kompromiss ist real: Klassisches 00 bräunt in Haushaltsöfen schlecht und muss in einem luftdichten Behälter aufbewahrt werden, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab.",
+      "pros": [
+        "Dehnbarerer, stärkerer Teig",
+        "Bessere Textur",
+        "Günstig"
+      ],
+      "cons": [
+        "Klassisches 00 bräunt in Haushaltsöfen schlecht",
+        "In einem luftdichten Behälter aufbewahren"
+      ]
+    },
+    {
+      "name": "Ein Infrarotthermometer",
+      "tag": "Die Oberflächentemperatur kennen",
+      "body": "Das Ofenrad zeigt die Lufttemperatur an, nicht die des Stahls. Ein Infrarotthermometer zeigt in Sekundenschnelle die tatsächliche Oberflächentemperatur an, sodass Sie wissen, wann sie zum Einschieben bereit ist. Es ist unerlässlich bei Outdoor-Pizzaöfen, wo der Stein hinten sehr heiß und vorne kühler sein kann. Das Argument dafür: zeigt die tatsächliche Oberflächentemperatur, unerlässlich für Outdoor-Öfen und nützlich für Pfannen und Grills. Der Kompromiss ist real: misst keine Lufttemperatur und glänzende Oberflächen werden ungenau gemessen, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab.",
+      "pros": [
+        "Zeigt die tatsächliche Oberflächentemperatur an",
+        "Unerlässlich für Outdoor-Öfen",
+        "Nützlich für Pfannen und Grills"
+      ],
+      "cons": [
+        "Misst keine Lufttemperatur",
+        "Glänzende Oberflächen werden ungenau gemessen"
+      ]
+    },
+    {
+      "name": "Ein Pizzaschneider (Rocker oder Rad)",
+      "tag": "Saubere Schnitte",
+      "body": "Ein stumpfes Rad zieht die Beläge von der Pizza. Ein scharfes Rad mit Schutz oder eine lange Kippklinge schneidet mit einem Druck sauber durch. Kippklingen sind schneller für große Pizzen und leichter zu reinigen. Schützen Sie Ihren Stahl oder Schieber; schneiden Sie auf einem Brett. Das Argument dafür: saubere Schnitte, ohne Beläge zu verschieben, schnell und günstig. Der Kompromiss ist real: Rocker benötigen viel Stauraumlänge und schneiden nicht auf Ihrem Stahl, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab. Preislich bei ca. 10-25 $, ist er leicht zu rechtfertigen, auch wenn er nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Saubere Schnitte, ohne Beläge zu verschieben",
+        "Schnell",
+        "Günstig"
+      ],
+      "cons": [
+        "Rocker benötigen viel Stauraumlänge",
+        "Schneiden nicht auf Ihrem Stahl"
+      ]
+    },
+    {
+      "name": "Teigbehälter zum Gären",
+      "tag": "Einfacher über Nacht Teig",
+      "body": "Der beste Pizzateig wird einen Tag oder länger im Voraus hergestellt und im Kühlschrank ruhen gelassen, was den Geschmack entwickelt und das Dehnen erleichtert. Behälter mit Deckel oder eine Gärbox verhindern, dass Teigbällchen austrocknen und zusammenkleben. Einzelne runde Behälter lassen sich ordentlich im Kühlschrank stapeln. Das Argument dafür: besserer Geschmack durch langsames Gären, verhindert Austrocknen des Teigs und stapelbar. Der Kompromiss ist real: Benötigt Platz im Kühlschrank und der Teig muss vor Gebrauch noch aus dem Kühlschrank genommen werden, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab.",
+      "pros": [
+        "Besserer Geschmack durch langsames Gären",
+        "Verhindert Austrocknen des Teigs",
+        "Stapelbar"
+      ],
+      "cons": [
+        "Benötigt Platz im Kühlschrank",
+        "Der Teig muss vor Gebrauch noch aus dem Kühlschrank genommen werden"
+      ]
+    },
+    {
+      "name": "Ein tragbarer Outdoor-Pizzaofen",
+      "tag": "Pizza im neapolitanischen Stil",
+      "body": "Tragbare Gas- oder Holzpelletöfen von Ooni, Gozney und ähnlichen Marken erreichen 900°F (ca. 480°C) oder mehr und backen eine Pizza in etwa einer Minute, mit dem gesprenkelten Rand, den man drinnen nicht bekommt. Sie sind die größte Ausgabe hier und erfordern Platz im Freien und Übung; Pizzen verbrennen in Sekundenschnelle, wenn man nicht aufpasst. Gasmodelle sind einfacher als Holz. Das Argument dafür: echte Pizzaofen-Hitze, Ein-Minuten-Pizzen und Spaß für Partys. Der Kompromiss ist real: Pizzen verbrennen schnell, während man lernt, und benötigen Platz im Freien und Brennstoff, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab.",
+      "pros": [
+        "Echte Pizzaofen-Hitze",
+        "Ein-Minuten-Pizzen",
+        "Spaß für Partys"
+      ],
+      "cons": [
+        "Pizzen verbrennen schnell, während man lernt",
+        "Benötigt Platz im Freien und Brennstoff"
+      ]
+    },
+    {
+      "name": "Eine Gusseisenpfanne",
+      "tag": "Deep-Dish und Detroit-Stil",
+      "body": "Nicht jede Pizza ist dünn. Pfannenpizzen, Detroit-Stil und Deep-Dish backen wunderbar in Gusseisen, mit knusprigen, gebratenen Rändern, und sie passen perfekt in Haushaltsöfen. Eine 10- oder 12-Zoll-Pfanne, die Sie bereits besitzen, reicht aus. Es ist der einfachste Weg, mit hausgemachter Pizza zu beeindrucken. Das Argument dafür: großartige Pfannen- und Deep-Dish-Pizza, passt perfekt in Haushaltsöfen und ist auch für alles andere verwendbar. Der Kompromiss ist real: schwer und benötigt Pflege beim Einbrennen, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab. Preislich bei ca. 25-45 $, ist sie leicht zu rechtfertigen, auch wenn sie nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Großartige Pfannen- und Deep-Dish-Pizza",
+        "Passt perfekt in Haushaltsöfen",
+        "Auch für alles andere verwendbar"
+      ],
+      "cons": [
+        "Schwer",
+        "Benötigt Pflege beim Einbrennen"
+      ]
+    },
+    {
+      "name": "Ein Pizzasieb oder eine perforierte Pfanne",
+      "tag": "Knuspriger Boden ohne Stein",
+      "body": "Wenn ein Stahl nicht praktikabel ist, lässt ein perforiertes Blech oder ein Pizzasieb Wärme zum Boden gelangen und Feuchtigkeit entweichen, sodass er besser knusprig wird als ein massives Backblech. Es ist günstig, leicht und auch gut zum Aufwärmen von Takeaway-Pizza. Das Argument dafür: besser als ein flaches Backblech, günstig und leicht und gut zum Aufwärmen. Der Kompromiss ist real: nicht so knusprig wie ein Stahl und Teig kann in Siebe einsinken, also wägen Sie das gegen die tatsächliche Nutzungshäufigkeit ab. Für 10-20 $ verdient es seinen Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen.",
+      "pros": [
+        "Besser als ein flaches Backblech",
+        "Günstig und leicht",
+        "Gut zum Aufwärmen"
+      ],
+      "cons": [
+        "Nicht so knusprig wie ein Stahl",
+        "Teig kann in Siebe einsinken"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kann ich in einem normalen Ofen gute Pizza machen?",
+      "a": "Ja. Heizen Sie einen Pizzastahl eine Stunde lang auf höchster Stufe vor und backen Sie auf dem oberen Drittelrost."
+    },
+    {
+      "q": "Stein oder Stahl?",
+      "a": "Stahl bräunt schneller und bricht nicht. Stein ist leichter und günstiger."
+    },
+    {
+      "q": "Lohnt sich ein Outdoor-Pizzaofen?",
+      "a": "Wenn Sie oft Pizza machen und Platz im Freien haben, ja. Meistern Sie zuerst einen Stahl."
+    },
+    {
+      "q": "Welches Mehl soll ich verwenden?",
+      "a": "Weizenmehl für Haushaltsöfen und New Yorker Stil; 00-Mehl für sehr heiße Outdoor-Öfen."
+    }
+  ]
+}

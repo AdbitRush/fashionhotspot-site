@@ -1,0 +1,172 @@
+{
+  "slug": "car-detailing",
+  "title": "Detallado de coches en casa sin rayar la pintura",
+  "dek": "Diez productos para detallar coches clasificados por cuánto protegen la pintura y qué tan bien queda el coche después. La mayoría de las marcas circulares provienen del lavado, no de la conducción.",
+  "category": "Coche",
+  "how_we_pick": "Estas selecciones provienen de consejos de detallistas profesionales, comunidades de cuidado del automóvil e informes de propietarios a largo plazo, contrastados con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. Consulte las normativas locales; algunas zonas restringen el lavado de coches en las entradas debido a la escorrentía.",
+  "intro": [
+    "La mayoría de los arañazos finos y marcas circulares en la pintura de un coche provienen de lavarlo mal: un solo cubo de agua sucia, una esponja vieja que arrastra la suciedad por la pintura y una toalla áspera. Los túneles de lavado automáticos con cepillos hacen lo mismo. La solución no son productos caros. Son unas pocas herramientas sencillas y un método mejor.",
+    "Esta lista está ordenada por la cantidad de protección que cada artículo ofrece a la pintura. Los primeros son baratos y previenen la mayor parte del daño. Las ceras, selladores y herramientas interiores vienen después.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Consulte siempre el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Dos cubos con protectores de suciedad",
+      "tag": "El método que previene la mayoría de los arañazos",
+      "body": "El método de los dos cubos es la forma más sencilla de evitar rayar tu coche. Un cubo contiene agua jabonosa; el otro contiene agua limpia para enjuagar el guante después de cada panel. Un protector de suciedad en el fondo de cada cubo atrapa la suciedad para que no vuelva al guante. Lava de arriba abajo, enjuaga el guante a menudo y evitarás la mayoría de las marcas circulares. El argumento a favor: previene la mayoría de los arañazos del lavado, es barato y un método sencillo. El inconveniente es real: lleva un poco más de tiempo y necesita espacio para dos cubos, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Previene la mayoría de los arañazos del lavado",
+        "Barato",
+        "Método sencillo"
+      ],
+      "cons": [
+        "Lleva un poco más de tiempo",
+        "Necesita espacio para dos cubos"
+      ]
+    },
+    {
+      "name": "Un guante de lavado de microfibra o lana de cordero",
+      "tag": "Lavado suave",
+      "body": "Las esponjas atrapan la suciedad en su superficie y la arrastran por la pintura. Un guante de microfibra o lana de cordero arrastra la suciedad a sus fibras, lejos de la pintura. Ten dos, uno para la parte superior del coche y otro para los paneles inferiores más sucios. Lávalos por separado sin suavizante. El argumento a favor: atrapa la suciedad lejos de la pintura, es suave y barato. El inconveniente es real: necesita lavado después de su uso y los guantes caídos deben limpiarse antes de reutilizarlos, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por 10-20 $, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra principal en la que necesites pensar mucho.",
+      "pros": [
+        "Atrapa la suciedad lejos de la pintura",
+        "Suave",
+        "Barato"
+      ],
+      "cons": [
+        "Necesita lavado después de su uso",
+        "Los guantes caídos deben limpiarse antes de reutilizarlos"
+      ]
+    },
+    {
+      "name": "Champú para coches con pH neutro",
+      "tag": "Limpieza segura",
+      "body": "El jabón para platos quita la cera y reseca las juntas de goma. Un champú para coches con pH neutro limpia sin eliminar la protección. Es barato y una botella dura muchos lavados. Evita lavar bajo el sol directo, que seca el jabón formando manchas. El argumento a favor: seguro para la cera y las juntas, barato y dura muchos lavados. El inconveniente es real: diluir correctamente y no lavar bajo el sol fuerte, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de entre 10 y 20 $, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Seguro para la cera y las juntas",
+        "Barato",
+        "Dura muchos lavados"
+      ],
+      "cons": [
+        "Diluir correctamente",
+        "No lavar bajo el sol fuerte"
+      ]
+    },
+    {
+      "name": "Una toalla grande de microfibra para secar",
+      "tag": "Secado sin marcas circulares",
+      "body": "Las toallas de baño viejas y las gamuzas pueden rayar. Una toalla grande y mullida de microfibra para secar absorbe mucha agua y seca un coche con unas pocas pasadas suaves. Colócala plana y presiona o arrastra lentamente. Lava sin suavizante para mantener su poder de absorción. El argumento a favor: seca rápidamente, es suave con la pintura y previene las manchas de agua. El inconveniente es real: el suavizante arruina la capacidad de absorción y la microfibra barata puede ser fina, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por 15-30 $, se gana su lugar en esta lista sin pedir un gran compromiso inicial en cualquier caso.",
+      "pros": [
+        "Seca rápidamente",
+        "Suave con la pintura",
+        "Previene las manchas de agua"
+      ],
+      "cons": [
+        "El suavizante arruina la capacidad de absorción",
+        "La microfibra barata puede ser fina"
+      ]
+    },
+    {
+      "name": "Un sellador en spray o spray cerámico",
+      "tag": "Protección y brillo fáciles",
+      "body": "La cera en pasta lleva una tarde. Los selladores en spray modernos y los sprays cerámicos se aplican después de lavar en minutos y protegen durante meses, con un fuerte perlado de agua y brillo. Hacen que los lavados futuros sean más fáciles porque la suciedad se adhiere menos. El argumento a favor: protección rápida, meses de brillo y facilita el lavado. El inconveniente es real: menos duradero que los recubrimientos cerámicos profesionales y se aplica fuera del sol directo, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por 15-30 $, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra principal en la que necesites pensar mucho.",
+      "pros": [
+        "Protección rápida",
+        "Meses de brillo",
+        "Facilita el lavado"
+      ],
+      "cons": [
+        "Menos duradero que los recubrimientos cerámicos profesionales",
+        "Aplicar fuera del sol directo"
+      ]
+    },
+    {
+      "name": "Un limpiador de llantas y cepillo",
+      "tag": "Polvo de frenos",
+      "body": "El polvo de frenos es corrosivo y difícil de eliminar con champú para coches. Un limpiador de llantas dedicado y un cepillo suave para llantas limpian entre los radios. Limpia las llantas primero para no salpicar suciedad sobre la pintura limpia. Usa herramientas separadas para las llantas. El argumento a favor: elimina el polvo de frenos, protege las llantas y hace que el coche parezca nuevo. El inconveniente es real: algunos limpiadores son agresivos y hay que mantener las herramientas de llantas separadas, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de entre 15 y 30 $, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Elimina el polvo de frenos",
+        "Protege las llantas",
+        "Hace que el coche parezca nuevo"
+      ],
+      "cons": [
+        "Algunos limpiadores son agresivos",
+        "Mantener las herramientas de llantas separadas"
+      ]
+    },
+    {
+      "name": "Un kit de barra de arcilla",
+      "tag": "Pintura suave",
+      "body": "Después de lavar, la pintura aún puede sentirse áspera por contaminantes adheridos. Una barra de arcilla con lubricante los levanta, dejando una pintura suave como el cristal lista para el sellador. Hazlo una o dos veces al año. El argumento a favor: pintura suave como el cristal, mejor adherencia del sellador y barato. El inconveniente es real: lleva tiempo y la arcilla que se cae debe desecharse, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por 15-25 $, se gana su lugar en esta lista sin pedir un gran compromiso inicial en cualquier caso. Como con cualquier cosa en esta lista, comprueba los detalles exactos del listado y el precio actual antes de añadirlo al carrito.",
+      "pros": [
+        "Pintura suave como el cristal",
+        "Mejor adherencia del sellador",
+        "Barato"
+      ],
+      "cons": [
+        "Lleva tiempo",
+        "La arcilla que se cae debe desecharse"
+      ]
+    },
+    {
+      "name": "Una aspiradora de coche inalámbrica",
+      "tag": "Interiores",
+      "body": "Una aspiradora de mano inalámbrica con herramientas para ranuras limpia asientos, huecos para los pies y entre los asientos sin arrastrar un cable. Busca una succión potente y un filtro lavable. Muchas aspiradoras inalámbricas domésticas también sirven. El argumento a favor: limpiezas interiores rápidas, sin cables y útil en casa también. El inconveniente es real: poca duración de la batería y las baratas tienen poca succión, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por 40-100 $, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra principal en la que necesites pensar mucho. Es una compra menor en el contexto del conjunto, pero del tipo que es fácil lamentar no haberla hecho una vez que notas el hueco.",
+      "pros": [
+        "Limpiezas interiores rápidas",
+        "Sin cables",
+        "Útil en casa también"
+      ],
+      "cons": [
+        "Poca duración de la batería",
+        "Las baratas tienen poca succión"
+      ]
+    },
+    {
+      "name": "Limpiador de interiores y paños de microfibra",
+      "tag": "Salpicaderos y asientos",
+      "body": "Un limpiador interior suave multiusos maneja salpicaderos, paneles de puertas y plástico. Rocíalo sobre el paño, no sobre el salpicadero, para evitar que llegue a las pantallas. Evita los productos de brillo grasiento que causan reflejos. El argumento a favor: interior limpio, barato y seguro en la mayoría de las superficies. El inconveniente es real: los productos grasientos causan reflejos y pruébalos primero en cuero, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de entre 10 y 20 $, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario. Nada de eso lo hace esencial para todos los que leen esto, solo vale la pena saberlo si la descripción anterior coincide con la forma en que realmente usas el espacio.",
+      "pros": [
+        "Interior limpio",
+        "Barato",
+        "Seguro en la mayoría de las superficies"
+      ],
+      "cons": [
+        "Los productos grasientos causan reflejos",
+        "Probar primero en cuero"
+      ]
+    },
+    {
+      "name": "Una caña de espuma o pulverizador de bomba",
+      "tag": "Pre-lavado",
+      "body": "Una caña de espuma en una hidrolimpiadora, o un pulverizador de espuma de bomba para una manguera, cubre el coche con espuma que afloja la suciedad antes de tocarlo. Enjuagarla elimina gran parte de la suciedad, lo que reduce los arañazos al lavar. El argumento a favor: afloja la suciedad antes del contacto, menos arañazos y satisfactorio. El inconveniente es real: las cañas de espuma necesitan una hidrolimpiadora y usan más champú, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por 25-60 $, se gana su lugar en esta lista sin pedir un gran compromiso inicial en cualquier caso.",
+      "pros": [
+        "Afloja la suciedad antes del contacto",
+        "Menos arañazos",
+        "Satisfactorio"
+      ],
+      "cons": [
+        "Las cañas de espuma necesitan una hidrolimpiadora",
+        "Usa más champú"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo lavo un coche sin rayarlo?",
+      "a": "Usa dos cubos con protectores de suciedad, un guante de microfibra, champú con pH neutro y una toalla de microfibra para secar."
+    },
+    {
+      "q": "¿Son malos los túneles de lavado automáticos para la pintura?",
+      "a": "Los lavados con cepillos pueden causar marcas circulares. Los lavados sin contacto son más suaves pero menos eficaces."
+    },
+    {
+      "q": "¿Con qué frecuencia debo encerar o sellar mi coche?",
+      "a": "Selladores en spray cada pocos meses; cera en pasta un par de veces al año."
+    },
+    {
+      "q": "¿Está bien usar jabón para platos para lavar un coche?",
+      "a": "No. Quita la cera y reseca las juntas."
+    }
+  ]
+}

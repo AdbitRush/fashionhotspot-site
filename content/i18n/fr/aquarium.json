@@ -1,0 +1,172 @@
+{
+  "slug": "aquarium",
+  "title": "Le premier aquarium qui reste clair et garde les poissons en vie",
+  "dek": "Dix éléments pour un premier aquarium d'eau douce, classés selon leur efficacité à maintenir les poissons en vie durant les premiers mois difficiles. Les grands bacs sont plus faciles, pas plus difficiles.",
+  "category": "Animaux de compagnie",
+  "how_we_pick": "Ces choix proviennent des communautés de passionnés d'aquariophilie, des conseils d'entretien des poissons et des rapports d'utilisateurs à long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article ici. Les aquariums en verre sont chers et fragiles à expédier, alors vérifiez les frais de livraison et les politiques en cas de dommage avant de commander.",
+  "intro": [
+    "La plupart des premiers aquariums échouent dans le premier mois. L'histoire est toujours la même : un petit bac acheté le même jour que les poissons, trop de poissons ajoutés d'un coup, et une eau qui devient toxique avant que les bactéries utiles n'aient le temps de se développer. Les poissons meurent, l'eau devient trouble, et le bac finit au placard.",
+    "Cette liste est classée selon ce qui empêche cela. La bonne taille de bac, un bon filtre et un kit de test d'eau sont bien plus importants que les décorations. Et la chose la plus importante sur la liste est gratuite : la patience pendant que le bac se stabilise.",
+    "Les prix indiqués ci-dessous sont des prix publics approximatifs au moment de la rédaction et fluctuent constamment, surtout lors des événements de soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Un bac de 20 gallons",
+      "tag": "La taille qui facilite les choses",
+      "body": "Les petits bacs et les bocaux semblent faciles pour les débutants, mais sont les plus difficiles à maintenir stables. Dans un petit volume, les déchets s'accumulent rapidement et la température fluctue vite. Un bac de 20 gallons est assez grand pour être tolérant et assez petit pour la plupart des maisons. Choisissez une forme longue pour plus d'espace de nage. Les kits de démarrage comprennent un filtre et une lumière, mais vérifiez ce qui est inclus. L'argument en sa faveur : une eau plus stable, de la place pour une bonne communauté de poissons, et une tolérance aux erreurs. Le compromis est réel : un bac plein pèse plus de 90 kg et le verre coûte cher à expédier, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Eau plus stable",
+        "De la place pour une bonne communauté de poissons",
+        "Tolérant aux erreurs"
+      ],
+      "cons": [
+        "Un bac plein pèse plus de 90 kg",
+        "Le verre coûte cher à expédier"
+      ]
+    },
+    {
+      "name": "Un filtre suspendu ou un filtre éponge",
+      "tag": "Eau propre et saine",
+      "body": "Le filtre fait plus que nettoyer l'eau. Il abrite les bactéries bénéfiques qui transforment les déchets toxiques des poissons en composés plus sûrs. Un filtre suspendu, adapté à la taille de votre bac, voire un peu plus grand, est simple et efficace. Les filtres éponge sont bon marché, doux et parfaits pour les crevettes et les petits poissons. Ne rincez jamais le média filtrant à l'eau du robinet ; rincez-le dans de l'eau de l'aquarium usagée pour que les bactéries survivent. L'argument en sa faveur : maintient l'eau propre et sûre, abrite les bactéries bénéfiques, et est facile à entretenir. Le compromis est réel : les filtres bourdonnent un peu et les rinçages à l'eau du robinet tuent les bactéries, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Maintient l'eau propre et sûre",
+        "Héberge les bactéries bénéfiques",
+        "Facile à entretenir"
+      ],
+      "cons": [
+        "Les filtres bourdonnent un peu",
+        "Les rinçages à l'eau du robinet tuent les bactéries"
+      ]
+    },
+    {
+      "name": "Un kit de test d'eau liquide",
+      "tag": "Savoir si l'eau est sûre",
+      "body": "Vous ne pouvez pas voir l'ammoniac ou les nitrites, et les deux tuent les poissons. Un kit de test liquide, comme le API Freshwater Master Kit, les mesure ainsi que les nitrates et le pH. Il vous indique quand un nouveau bac a fini son cycle et quand quelque chose ne va pas. Les kits liquides sont plus précis que les bandelettes et durent des centaines de tests. L'argument en sa faveur : révèle les dangers invisibles, vous indique quand le bac est prêt pour les poissons, et dure longtemps. Le compromis est réel : les tests prennent quelques minutes et les réactifs expirent ; vérifiez les dates, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Révèle les dangers invisibles",
+        "Indique quand le bac est prêt pour les poissons",
+        "Dure longtemps"
+      ],
+      "cons": [
+        "Les tests prennent quelques minutes",
+        "Les réactifs expirent ; vérifiez les dates"
+      ]
+    },
+    {
+      "name": "Conditionneur d'eau",
+      "tag": "Rendre l'eau du robinet sûre",
+      "body": "L'eau du robinet contient du chlore ou de la chloramine, qui tuent les poissons et les bactéries du filtre. Un conditionneur d'eau les élimine instantanément. Ajoutez-le à chaque seau d'eau nouvelle. Une bouteille dure longtemps, et les produits concentrés comme Seachem Prime sont très économiques. L'argument en sa faveur : rend l'eau du robinet sûre instantanément, protège les poissons et les bactéries, et est bon marché. Le compromis est réel : doit être utilisé à chaque changement d'eau et la dose doit être mesurée ; ne devinez pas, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 8-15 $, il mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Rend l'eau du robinet sûre instantanément",
+        "Protège les poissons et les bactéries",
+        "Bon marché"
+      ],
+      "cons": [
+        "Doit être utilisé à chaque changement d'eau",
+        "Mesurez la dose ; ne devinez pas"
+      ]
+    },
+    {
+      "name": "Un chauffage réglable",
+      "tag": "Poissons tropicaux",
+      "body": "La plupart des poissons de communauté populaires sont tropicaux et ont besoin d'une eau chaude et stable, généralement autour de 24-27°C. Un chauffage réglable maintient la température constante. Pour un bac de 20 gallons, 100 watts est typique. Achetez une marque fiable ; un chauffage bloqué peut cuire un bac. L'argument en sa faveur : température stable pour les poissons tropicaux, réglable, et faible coût de fonctionnement. Le compromis est réel : les chauffages bon marché peuvent se bloquer en marche et doivent être débranchés avant les changements d'eau, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 20-35 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement.",
+      "pros": [
+        "Température stable pour les poissons tropicaux",
+        "Réglable",
+        "Faible coût de fonctionnement"
+      ],
+      "cons": [
+        "Les chauffages bon marché peuvent se bloquer en marche",
+        "Débranchez avant les changements d'eau"
+      ]
+    },
+    {
+      "name": "Un aspirateur de gravier",
+      "tag": "Changements d'eau faciles",
+      "body": "Des changements d'eau partiels hebdomadaires d'environ 20-25 % maintiennent les poissons en bonne santé. Un aspirateur de gravier aspire l'eau et retire les déchets du gravier en même temps. Les modèles à pompe évitent l'aspiration par la bouche. Cela transforme une corvée en un travail de dix minutes. L'argument en sa faveur : nettoie le gravier et change l'eau en même temps, rapide, et bon marché. Le compromis est réel : nécessite un seau et peut aspirer de petits poissons si l'on n'est pas prudent, alors pesez cela par rapport à la fréquence d'utilisation réelle. Vendu entre 12 et 25 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Nettoie le gravier et change l'eau en même temps",
+        "Rapide",
+        "Bon marché"
+      ],
+      "cons": [
+        "Nécessite un seau",
+        "Peut aspirer de petits poissons si l'on n'est pas prudent"
+      ]
+    },
+    {
+      "name": "Une lumière LED avec minuterie",
+      "tag": "Plantes et observation",
+      "body": "Les poissons ont besoin d'un cycle jour/nuit régulier, et les plantes ont besoin de lumière. Une lumière LED avec une minuterie intégrée fournit 8 à 10 heures par jour. Trop d'heures provoquent des algues. Placez le bac loin de la lumière directe du soleil pour la même raison. L'argument en sa faveur : cycle lumineux régulier, fait pousser les plantes, et met en valeur les poissons. Le compromis est réel : une période de lumière trop longue fait pousser des algues et les lumières bon marché peuvent ne pas convenir aux plantes, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 25-60 $, il mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Cycle lumineux régulier",
+        "Fait pousser les plantes",
+        "Met en valeur les poissons"
+      ],
+      "cons": [
+        "Une période de lumière trop longue fait pousser des algues",
+        "Les lumières bon marché peuvent ne pas convenir aux plantes"
+      ]
+    },
+    {
+      "name": "Plantes vivantes faciles",
+      "tag": "Qualité de l'eau et esthétique",
+      "body": "Les plantes vivantes absorbent les déchets et concurrencent les algues, et elles sont plus belles que le plastique. Les plantes faciles comme la fougère de Java, l'anubias et la mousse de Java nécessitent peu de lumière et pas de terreau spécial. Attachez-les à des roches ou du bois. Vérifiez les règles locales ; certaines plantes d'aquarium ne peuvent pas être expédiées dans certains États. L'argument en sa faveur : améliorent la qualité de l'eau, réduisent les algues, et ont un aspect naturel. Le compromis est réel : certains poissons mangent les plantes et peuvent introduire des escargots, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 15-30 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement.",
+      "pros": [
+        "Améliorent la qualité de l'eau",
+        "Réduisent les algues",
+        "Aspect naturel"
+      ],
+      "cons": [
+        "Certains poissons mangent les plantes",
+        "Peuvent introduire des escargots"
+      ]
+    },
+    {
+      "name": "Un thermomètre",
+      "tag": "Vérifier la température",
+      "body": "Le réglage d'un chauffage n'est pas précis. Un thermomètre numérique bon marché ou à coller permet de vérifier la température réelle d'un coup d'œil. C'est aussi votre première alerte si un chauffage tombe en panne. L'argument en sa faveur : vérifie que le chauffage fonctionne, bon marché, et facile à lire. Le compromis est réel : les modèles à coller sont moins précis et les modèles numériques nécessitent des piles, alors pesez cela par rapport à la fréquence d'utilisation réelle. Vendu entre 5 et 10 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement. Rien de tout cela ne le rend essentiel pour tous ceux qui lisent ceci, il vaut mieux le savoir si la description ci-dessus correspond à votre utilisation de l'espace.",
+      "pros": [
+        "Vérifie que le chauffage fonctionne",
+        "Bon marché",
+        "Facile à lire"
+      ],
+      "cons": [
+        "Les modèles à coller sont moins précis",
+        "Les modèles numériques nécessitent des piles"
+      ]
+    },
+    {
+      "name": "Un meuble d'aquarium",
+      "tag": "Supporter le poids",
+      "body": "L'eau pèse environ 3,8 kg par gallon, donc un bac de 20 gallons pèse plus de 90 kg avec le gravier et les roches. La plupart des meubles ne sont pas conçus pour cela. Un meuble conçu pour les aquariums supporte le poids uniformément et dispose souvent d'un espace de rangement pour les fournitures. Placez-le sur un sol de niveau. L'argument en sa faveur : supporte le poids en toute sécurité, espace de rangement pour les fournitures, et hauteur idéale pour l'observation. Le compromis est réel : encombrant à expédier et doit être de niveau, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 60-150 $, il mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Supporte le poids en toute sécurité",
+        "Rangement pour les fournitures",
+        "Hauteur idéale pour l'observation"
+      ],
+      "cons": [
+        "Encombrant à expédier",
+        "Doit être de niveau"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Qu'est-ce que le cyclage d'un bac ?",
+      "a": "La croissance de bactéries bénéfiques dans le filtre avant d'ajouter les poissons. Cela prend généralement quatre à six semaines. Testez l'eau pour savoir quand c'est terminé."
+    },
+    {
+      "q": "Quelle taille de bac est la meilleure pour les débutants ?",
+      "a": "Environ 20 gallons. Les bacs plus grands sont plus stables et plus tolérants."
+    },
+    {
+      "q": "À quelle fréquence dois-je changer l'eau ?",
+      "a": "Environ 20-25 % par semaine pour la plupart des bacs."
+    },
+    {
+      "q": "Quels poissons sont bons pour les débutants ?",
+      "a": "Des poissons de communauté robustes comme les platys, les corydoras et certains tétras, ajoutés un par un après le cyclage."
+    }
+  ]
+}

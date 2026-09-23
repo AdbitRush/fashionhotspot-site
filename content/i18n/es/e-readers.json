@@ -1,0 +1,172 @@
+{
+  "slug": "e-readers",
+  "title": "E-readers y los pocos accesorios que los mejoran",
+  "dek": "Diez cosas que te hacen leer más, clasificadas por cuánto cambian el hábito en lugar de lo bonitas que quedan en su caja.",
+  "category": "Tecnología",
+  "how_we_pick": "Estas selecciones provienen de reseñas publicadas, informes de propietarios a largo plazo y foros de lectura electrónica, cotejados con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. Dimos más importancia a la comodidad de la pantalla y la duración de la batería que a las funciones adicionales, porque eso es lo que la gente cita cuando explica por qué el dispositivo acabó en un cajón.",
+  "intro": [
+    "La mayoría de la gente que compra un lector electrónico deja de usarlo por una de estas tres razones: la pantalla molesta en la cama, la batería se agota en el peor momento o no podían cargar sus libros de la biblioteca. Ninguno de esos son problemas de lectura. Son problemas de configuración, y los tres son baratos de solucionar.",
+    "Esta lista está ordenada por lo que mantiene el dispositivo en tu mano. El lector en sí va primero porque la pantalla es todo el producto, pero varias de las selecciones que vienen después cuestan menos que un libro de bolsillo y son casi igual de importantes. Si ya tienes un lector electrónico que funciona, empieza por el número tres.",
+    "Los precios que figuran a continuación son precios aproximados en la calle en el momento de escribir estas líneas y cambian constantemente, especialmente durante las rebajas. Tómalo como una banda aproximada para presupuestar, no como un presupuesto exacto. Consulta siempre el anuncio en directo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un lector electrónico de 6-7 pulgadas con luz frontal cálida",
+      "tag": "El que debes comprar primero",
+      "body": "La pantalla es el producto, así que gasta en ella. Busca una pantalla de tinta electrónica de 300 ppp, una luz frontal que cambie de blanco frío a ámbar, y un frontal de cristal liso sin bisel elevado. La luz cálida es la característica que la gente más infravalora: leer por la noche con un resplandor azul-blanco es lo que hace que muchos propietarios se rindan y vuelvan al teléfono. Kindle Paperwhite y Kobo Clara BW son las opciones habituales en este tamaño, y cualquiera de las dos sirve. La verdadera elección es la tienda. Kindle te encierra en la tienda de Amazon, mientras que Kobo lee archivos EPUB estándar y tiene préstamos de biblioteca integrados. El argumento a favor: pantalla de 300 ppp tan nítida como la impresión, luz cálida que hace la lectura nocturna cómoda y semanas de batería entre cargas. La contrapartida es real: estás comprando el ecosistema de una librería y las versiones con publicidad muestran anuncios en la pantalla de bloqueo a menos que pagues para eliminarlos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Pantalla de 300 ppp tan nítida como la impresión",
+        "La luz cálida hace que la lectura nocturna sea cómoda",
+        "Semanas de batería entre cargas"
+      ],
+      "cons": [
+        "Estás comprando el ecosistema de una librería",
+        "Las versiones con publicidad muestran anuncios en la pantalla de bloqueo a menos que pagues para eliminarlos"
+      ]
+    },
+    {
+      "name": "Un modelo impermeable, si lees en la bañera o en la piscina",
+      "tag": "Lectores cerca del agua",
+      "body": "La mayoría de los lectores de gama media ahora tienen una clasificación IPX8, lo que significa que sobreviven a una caída en agua dulce y a salpicaduras en la piscina. Si lees en la bañera, en la playa o en un barco, haz que esta clasificación sea un filtro en lugar de algo deseable. Un libro de bolsillo mojado se arruina; un lector electrónico mojado solo está mojado. El agua salada y la arena siguen siendo malas noticias para el puerto de carga, así que enjuágalo y sécalo después. Consulta el anuncio detenidamente, ya que algunos vendedores mezclan versiones impermeables y no impermeables del mismo modelo en un solo anuncio y la diferencia de precio es pequeña. El argumento a favor: iPX8 sobrevive a una inmersión accidental, te permite leer donde los libros de papel sufren, y suele costar solo un poco más. La contrapartida es real: las pantallas táctiles fallan cuando el cristal está mojado y hay que enjuagar el agua salada y la arena rápidamente, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "IPX8 sobrevive a una inmersión accidental",
+        "Te permite leer donde los libros de papel sufren",
+        "Suele costar solo un poco más"
+      ],
+      "cons": [
+        "Las pantallas táctiles fallan cuando el cristal está mojado",
+        "Enjuagar el agua salada y la arena rápidamente"
+      ]
+    },
+    {
+      "name": "Una funda tipo folio delgada con suspensión/activación automática",
+      "tag": "Protegiendo la pantalla",
+      "body": "Las pantallas de tinta electrónica se agrietan por la presión, no solo por las caídas, y la forma más común en que mueren es en un bolso con llaves o cargador presionando el cristal. Una funda tipo folio lo evita, y el cierre magnético de suspensión/activación ahorra batería sin que tengas que pensar en ello. Adapta la funda al modelo y generación exactos, ya que una funda para la versión del año pasado a menudo se pierde el botón de encendido por unos milímetros. Evita las fundas robustas y pesadas a menos que tengas niños usando el dispositivo; el peso es el enemigo de la lectura con una sola mano. El argumento a favor: evita las grietas por presión que matan la mayoría de las pantallas, el cierre magnético ahorra batería automáticamente y añade muy poco peso. La contrapartida es real: debe coincidir con tu modelo y generación exactos y las fundas baratas pueden perder sus imanes en un año, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Evita las grietas por presión que matan la mayoría de las pantallas",
+        "El cierre magnético ahorra batería automáticamente",
+        "Añade muy poco peso"
+      ],
+      "cons": [
+        "Debe coincidir con tu modelo y generación exactos",
+        "Las fundas baratas pueden perder sus imanes en un año"
+      ]
+    },
+    {
+      "name": "Una cuenta de aplicación de préstamos de biblioteca (Libby o la de tu biblioteca)",
+      "tag": "Libros gratis",
+      "body": "Esto no cuesta nada y es el mayor ahorro de dinero en la página. La mayoría de las bibliotecas públicas de EE. UU. prestan libros electrónicos a través de Libby, y en muchos lugares también puedes enviar esos préstamos directamente a un Kindle. Los lectores Kobo tienen OverDrive integrado en el menú de la tienda. Las listas de espera para los bestsellers nuevos pueden ser largas, pero el catálogo antiguo es enorme y los préstamos son gratuitos. Si lees más de un libro al mes, esto paga el lector electrónico en un año. Consulta primero el sitio web de tu propia biblioteca; lo que ofrecen varía según la ciudad. El argumento a favor: miles de libros gratis con tarjeta de biblioteca, los préstamos se devuelven solos, por lo que no hay multas, y funciona en la mayoría de los lectores electrónicos principales. La contrapartida es real: los lanzamientos nuevos populares tienen listas de espera y la disponibilidad depende de tu biblioteca local, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Miles de libros gratis con tarjeta de biblioteca",
+        "Los préstamos se devuelven solos, así que no hay multas",
+        "Funciona en la mayoría de los lectores electrónicos principales"
+      ],
+      "cons": [
+        "Los lanzamientos nuevos populares tienen listas de espera",
+        "La disponibilidad depende de tu biblioteca local"
+      ]
+    },
+    {
+      "name": "Un cable USB-C corto y un cargador de pared pequeño",
+      "tag": "Nunca quedarse sin batería en un viaje",
+      "body": "Un lector electrónico dura semanas, que es exactamente por lo que la gente olvida cargarlo hasta la puerta de embarque del aeropuerto. Los modelos más nuevos se cargan por USB-C, por lo que el cable que llevas para tu teléfono probablemente funcione, pero un cable corto de repuesto guardado en el bolsillo de la funda o en tu neceser de viaje significa que siempre está ahí. Un cargador pequeño de 20W es más que suficiente. Si tu lector es más antiguo y todavía usa micro-USB, compra un cable de repuesto ahora mientras todavía son fáciles de encontrar. El argumento a favor: elimina el fallo más común en los viajes, comparte cargador con tu teléfono y cuesta menos que un libro de bolsillo de aeropuerto. La contrapartida es real: los lectores más antiguos todavía necesitan micro-USB y los cables baratos sin marca fallan rápido; compra una marca conocida, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Elimina el fallo más común en los viajes",
+        "Comparte cargador con tu teléfono",
+        "Cuesta menos que un libro de bolsillo de aeropuerto"
+      ],
+      "cons": [
+        "Los lectores más antiguos todavía necesitan micro-USB",
+        "Los cables baratos sin marca fallan rápido; compra una marca conocida"
+      ]
+    },
+    {
+      "name": "Una luz de lectura con clip o de cuello, para lectores antiguos sin luz",
+      "tag": "Actualizando un dispositivo antiguo",
+      "body": "Si tienes un lector básico antiguo sin luz frontal, no necesitas un dispositivo nuevo para leer en la cama. Una pequeña luz con clip o de cuello con ajuste cálido lo soluciona por muy poco. Elige una con al menos dos niveles de brillo y una opción de color cálido, y carga USB-C. Las luces de cuello son mejores para una pareja en la misma cama porque dirigen la luz hacia la página en lugar de por la habitación. Esto también es un buen regalo para cualquiera que siga leyendo libros de papel por la noche. El argumento a favor: extiende la vida útil de un lector que ya posees, los ajustes cálidos son más amables con una pareja durmiendo, y también funciona para libros de papel. La contrapartida es real: el deslumbramiento en protectores de pantalla brillantes y las bisagras del clip son la primera parte que se rompe, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Extiende la vida útil de un lector que ya posees",
+        "Los ajustes cálidos son más amables con una pareja durmiendo",
+        "Funciona también para libros de papel"
+      ],
+      "cons": [
+        "Deslumbramiento en protectores de pantalla brillantes",
+        "Las bisagras del clip son la primera parte que se rompe"
+      ]
+    },
+    {
+      "name": "Un mando para pasar página",
+      "tag": "Leer con las manos frías o en la cama",
+      "body": "Esto parece un truco hasta que lo pruebas. Un pequeño mando Bluetooth o con clip te permite pasar páginas con la mano debajo del edredón, mientras comes, o con el lector en un soporte. Algunos se adhieren a la pantalla y la tocan físicamente, por lo que funcionan en cualquier lector táctil; otros usan Bluetooth y solo funcionan con modelos que lo admiten. Comprueba qué tipo estás comprando. Para personas con artritis o agarre limitado, esto puede ser la diferencia entre leer y no leer. El argumento a favor: pasar páginas con manos libres, útil para agarre limitado o artritis, y combina bien con un soporte. La contrapartida es real: los tipos de toque pueden desalinearse y fallar la pantalla y las versiones Bluetooth solo se adaptan a modelos compatibles, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Pasar páginas con manos libres",
+        "Útil para agarre limitado o artritis",
+        "Combina bien con un soporte"
+      ],
+      "cons": [
+        "Los tipos de toque pueden desalinearse y fallar la pantalla",
+        "Las versiones Bluetooth solo se adaptan a modelos compatibles"
+      ]
+    },
+    {
+      "name": "Un soporte o cojín en cuña",
+      "tag": "Leer con manos libres",
+      "body": "Sostener incluso un dispositivo ligero durante una hora cansa, especialmente tumbado de lado. Un pequeño soporte plegable para la mesa, o un cojín suave en cuña para la cama, te permite leer mientras desayunas o con las manos debajo de las sábanas. Los de tipo cuña con un borde son los más cómodos para la cama. Combinado con un mando para pasar página, apenas tocas el dispositivo. Esta es una de esas compras que la gente hace una vez y conserva durante una década. El argumento a favor: elimina la tensión de muñeca y mano, también funciona para tabletas y libros de bolsillo, y es barato y dura años. La contrapartida es real: otro objeto en la cama o la mesa y los soportes duros pueden rayar las fundas sin protección, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Elimina la tensión de muñeca y mano",
+        "Funciona también para tabletas y libros de bolsillo",
+        "Barato y dura años"
+      ],
+      "cons": [
+        "Otro objeto en la cama o la mesa",
+        "Los soportes duros pueden rayar las fundas sin protección"
+      ]
+    },
+    {
+      "name": "Un protector de pantalla templado o mate",
+      "tag": "Pantallas propensas a arañazos",
+      "body": "La mayoría de los lectores actuales tienen un frontal de cristal duro y no lo necesitan estrictamente. Los modelos antiguos y los lectores más baratos con pantalla de plástico blando se rayan fácilmente, especialmente si lees en la playa. Si añades un protector, elige mate en lugar de brillante: la película brillante deshace el aspecto similar al papel que hace que la tinta electrónica sea agradable a la vista. Compra un paquete de dos, ya que la alineación es complicada y el primer intento a menudo sale mal. El argumento a favor: protege las pantallas de plástico blando de la arena y las llaves, la película mate mantiene el acabado similar al papel, y es un seguro muy barato. La contrapartida es real: la película brillante añade deslumbramiento y es innecesaria en la mayoría de los modelos más nuevos con frontal de cristal, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Protege las pantallas de plástico blando de la arena y las llaves",
+        "La película mate mantiene el acabado similar al papel",
+        "Seguro muy barato"
+      ],
+      "cons": [
+        "La película brillante añade deslumbramiento",
+        "Innecesario en la mayoría de los modelos más nuevos con frontal de cristal"
+      ]
+    },
+    {
+      "name": "Un lector electrónico de 10 pulgadas para tomar notas",
+      "tag": "PDFs y notas escritas a mano",
+      "body": "Los lectores de seis pulgadas están hechos para novelas. Los PDFs, libros de texto, partituras y documentos técnicos son miserables en ellos porque la página se encoge hasta ser ilegible. Una tableta de tinta electrónica de 10 pulgadas con lápiz óptico soluciona eso y añade notas escritas a mano en los márgenes. Kindle Scribe, Kobo Elipsa y la gama Boox Note son las opciones comunes; Boox ejecuta Android e instala otras aplicaciones de lectura, lo que es flexible pero más complicado. Son caros, pesados y excesivos para la ficción. Compra uno solo si tu lectura son principalmente documentos. El argumento a favor: muestra páginas PDF completas a un tamaño legible, notas escritas a mano y marcado de márgenes, y es agradable a la vista para largas sesiones de documentos. La contrapartida es real: caro y pesado para novelas y refresco de página lento en comparación con una tableta, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Muestra páginas PDF completas a un tamaño legible",
+        "Notas escritas a mano y marcado de márgenes",
+        "Agradable a la vista para largas sesiones de documentos"
+      ],
+      "cons": [
+        "Caro y pesado para novelas",
+        "Refresco de página lento en comparación con una tableta"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Kindle o Kobo?",
+      "a": "Si ya compras libros en Amazon, Kindle. Si pides prestado mucho de la biblioteca o quieres comprar libros EPUB de otras tiendas, Kobo es más abierto. El hardware es lo suficientemente parecido como para que la tienda deba decidirlo."
+    },
+    {
+      "q": "¿Es un lector electrónico mejor para los ojos que una tableta?",
+      "a": "Para largas sesiones de lectura, la mayoría de la gente encuentra la tinta electrónica más cómoda. Refleja la luz como el papel en lugar de brillarla hacia ti, y una luz frontal cálida ayuda por la noche."
+    },
+    {
+      "q": "¿Necesito uno impermeable?",
+      "a": "Solo si lees cerca del agua. Suele costar un poco más, y da tranquilidad si lees en la bañera o de vacaciones."
+    },
+    {
+      "q": "¿Puedo leer libros de la biblioteca en él?",
+      "a": "En la mayor parte de EE. UU., sí, a través de Libby o OverDrive. Consulta el sitio de tu biblioteca para confirmar que ofrece préstamos de libros electrónicos."
+    }
+  ]
+}

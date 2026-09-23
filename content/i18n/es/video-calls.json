@@ -1,0 +1,172 @@
+{
+  "slug": "video-calls",
+  "title": "Verse y suene mejor en videollamadas",
+  "dek": "Diez mejoras clasificadas por lo mucho que mejora su presencia en una llamada. El sonido es lo más importante, y la cámara, lo menos.",
+  "category": "Oficina",
+  "how_we_pick": "Estas selecciones provienen de reseñas publicadas de audio y webcams, comunidades de trabajo remoto e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. Favorecimos los que funcionan con cualquier aplicación de llamadas y que parecen normales en una oficina.",
+  "intro": [
+    "Cuando la gente quiere verse mejor en las llamadas, compra una webcam 4K. Por lo general, es el primer movimiento equivocado. Lo que notan los colegas es el eco, una voz que se corta y una cara iluminada desde atrás por una ventana. Soluciona eso y la cámara de un portátil se ve bien. Si te los saltas, una webcam de 200 $ solo muestra tu mala iluminación con más detalle.",
+    "Así que esta lista está ordenada primero por sonido, luego por luz, y por último por cámara. La mayoría de los artículos útiles cuestan menos de 50 $, y varios son gratis.",
+    "Los precios a continuación son precios aproximados de calle en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre verifique el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Auriculares con cable o USB con micrófono de brazo",
+      "tag": "La mejora que los colegas realmente escuchan",
+      "body": "Los micrófonos de los portátiles captan toda la habitación: el teclado, la nevera, el eco de las paredes desnudas. Un micrófono de brazo se coloca a unos centímetros de tu boca, por lo que tu voz es alta y todo lo demás es silencioso. Es el mayor cambio que notará la gente. Los auriculares con cable o USB son más fiables que los Bluetooth para esto, que a menudo degradan la calidad del audio cuando el micrófono está activo. Jabra, Logitech y Poly fabrican buenos auriculares de oficina a precios modestos. El argumento a favor: voz clara, poco ruido de fondo, detiene el eco y la retroalimentación, y funciona con todas las aplicaciones de llamadas. La contrapartida es real: los auriculares se ven menos pulidos en cámara y las versiones Bluetooth a menudo suenan peor en las llamadas, así que sopesa eso frente a la frecuencia con la que se usarían en realidad.",
+      "pros": [
+        "Voz clara, poco ruido de fondo",
+        "Detiene el eco y la retroalimentación",
+        "Funciona con todas las aplicaciones de llamadas"
+      ],
+      "cons": [
+        "Los auriculares se ven menos pulidos en cámara",
+        "Las versiones Bluetooth a menudo suenan peor en las llamadas"
+      ]
+    },
+    {
+      "name": "De cara a la ventana, no sentado de espaldas a ella",
+      "tag": "La solución de iluminación gratuita",
+      "body": "Una ventana brillante a tu espalda te convierte en una silueta, y la cámara no puede arreglarlo. Girar tu escritorio para que la ventana esté frente a ti, o a un lado, proporciona una luz suave y favorecedora de forma gratuita. Si no puedes mover el escritorio, baja la persiana detrás de ti y coloca una lámpara delante. Este único cambio hace que una webcam barata se vea bien. El argumento a favor: no cuesta nada, luz suave y uniforme en tu rostro, y hace que cualquier cámara se vea mejor. La contrapartida es real: depende de la distribución de la habitación y el sol directo es demasiado duro; usa una cortina translúcida, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "No cuesta nada",
+        "Luz suave y uniforme en tu rostro",
+        "Hace que cualquier cámara se vea mejor"
+      ],
+      "cons": [
+        "Depende de la distribución de la habitación",
+        "El sol directo es demasiado duro; usa una cortina translúcida"
+      ]
+    },
+    {
+      "name": "Un pequeño panel LED o luz principal",
+      "tag": "Llamadas nocturnas y habitaciones oscuras",
+      "body": "Cuando se va la luz del día, un pequeño panel LED regulable colocado detrás del monitor y ligeramente por encima de tus ojos te proporciona una luz constante y suave. Elige uno con temperatura de color ajustable para que puedas igualar la de la habitación, y rebótala en una pared si se siente dura. Las luces de anillo también funcionan, pero se reflejan en las gafas; un panel colocado a un lado evita eso. El argumento a favor: luz constante a cualquier hora del día, brillo y calidez ajustables, y pequeño y barato. La contrapartida es real: se refleja en las gafas si se coloca de frente y las abrazaderas pueden marcar monitores delgados, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Luz constante a cualquier hora del día",
+        "Brillo y calidez ajustables",
+        "Pequeño y barato"
+      ],
+      "cons": [
+        "Se refleja en las gafas si se coloca de frente",
+        "Las abrazaderas pueden marcar monitores delgados"
+      ]
+    },
+    {
+      "name": "Un soporte para portátil",
+      "tag": "Cámara a la altura de los ojos",
+      "body": "Un portátil sobre el escritorio te filma desde abajo, lo cual no es favorecedor y hace que parezca que estás mirando hacia abajo a todos. Un soporte eleva la cámara a la altura de los ojos. Combínalo con un teclado y ratón separados para que puedas seguir escribiendo cómodamente. Una pila de libros funciona, pero un soporte plegable se guarda y ajusta la altura. El argumento a favor: ángulo de cámara a la altura de los ojos, mejor postura durante llamadas largas, y se pliega plano. La contrapartida es real: necesita un teclado y ratón separados y los soportes baratos pueden tambalearse al escribir, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Ángulo de cámara a la altura de los ojos",
+        "Mejor postura durante llamadas largas",
+        "Se pliega plano"
+      ],
+      "cons": [
+        "Necesita un teclado y ratón separados",
+        "Los soportes baratos pueden tambalearse al escribir"
+      ]
+    },
+    {
+      "name": "Un micrófono de escritorio USB",
+      "tag": "Para quienes hablan de profesión",
+      "body": "Si presentas, enseñas, haces podcasts o vendes en llamadas, un micrófono USB proporciona una voz más llena y cálida que unos auriculares. Los micrófonos dinámicos, como el Samson Q2U o similar, rechazan el ruido de la habitación mejor que los micrófonos de condensador, que es lo que la mayoría de las oficinas en casa necesitan. Colócalo cerca de tu boca, justo fuera del plano de la cámara, en un pequeño brazo. Usa auriculares con él para evitar el eco. El argumento a favor: voz rica y clara, aspecto profesional en cámara, y útil para grabar también. La contrapartida es real: los micrófonos de condensador captan el eco de la habitación y necesitan auriculares para evitar la retroalimentación, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Voz rica y clara",
+        "Aspecto profesional en cámara",
+        "Útil para grabar también"
+      ],
+      "cons": [
+        "Los micrófonos de condensador captan el eco de la habitación",
+        "Necesita auriculares para evitar la retroalimentación"
+      ]
+    },
+    {
+      "name": "Una webcam 1080p",
+      "tag": "Portátiles usados con la tapa cerrada",
+      "body": "Si tu portátil vive cerrado en un soporte junto a un monitor, necesitas una webcam externa, y puede colocarse encima del monitor a la altura de los ojos. Una buena webcam 1080p con un rendimiento decente con poca luz es suficiente. 4K añade poco en las llamadas, ya que la mayoría de las aplicaciones comprimen el vídeo de todos modos. Busca una cubierta de privacidad integrada. El argumento a favor: la cámara se sitúa a la altura de los ojos en el monitor, mejor que muchas cámaras de portátiles antiguas, y cubierta de privacidad en la mayoría de los modelos. La contrapartida es real: 4K se desperdicia en su mayor parte en llamadas y los micrófonos integrados suelen ser deficientes, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "La cámara se sitúa a la altura de los ojos en el monitor",
+        "Mejor que muchas cámaras de portátiles antiguas",
+        "Cubierta de privacidad en la mayoría de los modelos"
+      ],
+      "cons": [
+        "4K se desperdicia en su mayor parte en llamadas",
+        "Los micrófonos integrados suelen ser deficientes"
+      ]
+    },
+    {
+      "name": "Mobiliario blando o una alfombra",
+      "tag": "Salas con eco",
+      "body": "Las paredes desnudas y los suelos duros hacen rebotar el sonido, lo que te hace sonar como si estuvieras en un baño. Una alfombra, cortinas, una estantería o un par de cojines lo absorben. Los paneles de espuma acústica funcionan, pero parecen de estudio; el mobiliario normal suele ser suficiente y se ve mejor en cámara. Intenta aplaudir en la habitación antes y después. El argumento a favor: menos eco en cada llamada, hace la habitación más agradable también, y no requiere tecnología. La contrapartida es real: solo reduce el eco, no el ruido exterior y los paneles de espuma pueden parecer fuera de lugar, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Menos eco en cada llamada",
+        "Hace la habitación más agradable también",
+        "No requiere tecnología"
+      ],
+      "cons": [
+        "Solo reduce el eco, no el ruido exterior",
+        "Los paneles de espuma pueden parecer fuera de lugar"
+      ]
+    },
+    {
+      "name": "Un adaptador Ethernet con cable",
+      "tag": "Vídeo congelado",
+      "body": "El vídeo congelado y las voces robóticas suelen ser por Wi-Fi, no por la cámara. Si tu escritorio está cerca del router, un adaptador Ethernet USB-C y un cable te proporcionan una conexión estable que no se interrumpe cuando alguien empieza a transmitir en la habitación de al lado. Muchos concentradores USB-C ya incluyen un puerto Ethernet. El argumento a favor: detiene la congelación y las interrupciones, es barato, y a menudo está integrado en los concentradores USB-C. La contrapartida es real: solo es práctico cerca del router y necesita un puerto libre en portátiles delgados, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Detiene la congelación y las interrupciones",
+        "Barato",
+        "A menudo integrado en los concentradores USB-C"
+      ],
+      "cons": [
+        "Solo es práctico cerca del router",
+        "Necesita un puerto libre en portátiles delgados"
+      ]
+    },
+    {
+      "name": "Un fondo ordenado o un telón de fondo sencillo",
+      "tag": "Aspecto arreglado",
+      "body": "El desenfoque y los fondos virtuales parpadean alrededor del pelo y las manos. Un fondo real con una planta, una lámpara y una estantería se ve tranquilo y arreglado. Si la habitación detrás de ti no se puede ordenar, un telón de fondo de tela sencillo sobre un soporte, o girar el escritorio para que mire a una pared lisa con un objeto sobre ella, funciona bien. El argumento a favor: se ve más natural que el desenfoque, sin parpadeo en los bordes, y a menudo es gratis. La contrapartida es real: un fondo real ocupa algo de espacio y los telones de fondo pueden arrugarse; elige tela sin arrugas, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Se ve más natural que el desenfoque",
+        "Sin parpadeo alrededor de los bordes",
+        "A menudo gratis"
+      ],
+      "cons": [
+        "Un fondo real ocupa algo de espacio",
+        "Los telones de fondo pueden arrugarse; elige tela sin arrugas"
+      ]
+    },
+    {
+      "name": "Un botón de silencio o stream deck",
+      "tag": "Silencio rápido y seguro",
+      "body": "Buscar el botón de silencio mientras ladra el perro es un pánico familiar. Un pequeño pad macro USB o un botón de silencio físico te permite silenciar cualquier aplicación al instante y muestra claramente si estás en directo. Muchos también se pueden configurar para iniciar llamadas, compartir pantalla y levantar la mano. Es agradable de tener, no esencial. El argumento a favor: silencio instantáneo desde cualquier aplicación, luz de encendido/apagado clara, y atajos programables. La contrapartida es real: necesita algo de configuración por aplicación y otro gadget sobre el escritorio, así que sopesa eso frente a la frecuencia con la que se usaría en realidad.",
+      "pros": [
+        "Silencio instantáneo desde cualquier aplicación",
+        "Luz de encendido/apagado clara",
+        "Atajos programables"
+      ],
+      "cons": [
+        "Necesita algo de configuración por aplicación",
+        "Otro gadget sobre el escritorio"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué debería mejorar primero para tener mejores llamadas?",
+      "a": "Tu micrófono. Unos auriculares con micrófono de brazo marcan una diferencia mayor que cualquier cámara."
+    },
+    {
+      "q": "¿Vale la pena una webcam 4K?",
+      "a": "Rara vez para llamadas. Las aplicaciones de llamadas comprimen el vídeo, por lo que una buena iluminación en una cámara 1080p se ve mejor que 4K con mala luz."
+    },
+    {
+      "q": "¿Luz de anillo o panel LED?",
+      "a": "Cualquiera de los dos funciona. Si usas gafas, un panel colocado a un lado evita el reflejo circular."
+    },
+    {
+      "q": "¿Por qué se congela mi vídeo?",
+      "a": "Normalmente es el Wi-Fi. Conéctate con un cable si puedes, o acércate al router."
+    }
+  ]
+}

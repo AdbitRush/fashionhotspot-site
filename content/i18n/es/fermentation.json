@@ -1,0 +1,172 @@
+{
+  "slug": "fermentation",
+  "title": "Fermentación en casa: Kimchi, chucrut y kombucha sin moho",
+  "dek": "Diez cosas para fermentar verduras y bebidas en casa, clasificadas según cuántos lotes fallidos evita cada una. Mantener todo bajo la salmuera es la mayor parte del trabajo.",
+  "category": "Cocina",
+  "how_we_pick": "Estas selecciones provienen de guías de seguridad alimentaria de servicios de extensión de EE. UU., autores de fermentación e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Sigue una receta probada para las proporciones de sal y, en caso de duda sobre un lote, deséchalo.",
+  "intro": [
+    "La fermentación de verduras es una de las formas más antiguas de conservar alimentos, y necesita casi nada: verduras, sal y tiempo. Lo que sale mal es casi siempre lo mismo: las verduras flotan sobre la salmuera y crecen moho, entra aire o la sal está mal. La gente tira un frasco, decide que la fermentación es arriesgada y se detiene.",
+    "Esta lista está ordenada según lo que evita eso. Las pesas y las tapas con válvula de aire ocupan los primeros puestos porque resuelven el fallo más común. Después vienen las herramientas que facilitan la repetición y la ampliación.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir este artículo y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre comprueba el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Pesas de fermentación de vidrio",
+      "tag": "La solución para la mayoría de los lotes fallidos",
+      "body": "La única regla de la fermentación de verduras: mantén todo bajo la salmuera. Cualquier cosa que sobresalga de la superficie queda expuesta al aire y puede crecer moho. Discos pesados de vidrio del tamaño de frascos de boca ancha se colocan sobre las verduras y las sujetan. No son reactivos, fáciles de limpiar y duran para siempre. Una bolsa con cierre hermético llena de salmuera funciona en un apuro, pero las pesas son más limpias y fiables. El argumento a favor: evita el fallo más común, es fácil de limpiar y dura para siempre. La contrapartida es real: solo sirven para frascos de boca ancha y el vidrio puede astillarse si se cae en el frasco, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Evita el fallo más común",
+        "Fácil de limpiar",
+        "Dura para siempre"
+      ],
+      "cons": [
+        "Solo sirven para frascos de boca ancha",
+        "El vidrio puede astillarse si se cae en el frasco"
+      ]
+    },
+    {
+      "name": "Tapas con válvula de aire para frascos Mason de boca ancha",
+      "tag": "Deja salir el gas, mantiene fuera el aire",
+      "body": "Las verduras fermentadas liberan gas, lo que genera presión en un frasco sellado. Abrir el frasco a diario para dejarlo salir deja entrar aire. Las tapas de silicona o plástico con válvula de aire liberan gas mientras mantienen fuera el aire, por lo que puedes dejar el frasco en paz. Las tapas de silicona tipo tetina son sencillas y baratas; las válvulas de aire con agua parecen un kit de elaboración casera y también funcionan bien. El argumento a favor: sin necesidad de desgasificar a diario, mantiene fuera el aire y las moscas de la fruta, y se adapta a frascos estándar. La contrapartida es real: solo sirven para frascos de boca ancha y la silicona puede retener olores, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Sin necesidad de desgasificar a diario",
+        "Mantiene fuera el aire y las moscas de la fruta",
+        "Se adapta a frascos estándar"
+      ],
+      "cons": [
+        "Solo sirven para frascos de boca ancha",
+        "La silicona puede retener olores"
+      ]
+    },
+    {
+      "name": "Frascos Mason de boca ancha",
+      "tag": "Lotes pequeños",
+      "body": "Los frascos de un cuarto de galón y medio galón de boca ancha son el recipiente de fermentación estándar. Son baratos, fáciles de empacar y limpiar, y se adaptan a las pesas y tapas con válvula de aire mencionadas. Empieza con unos cuantos cuartos; son adecuados para un hogar pequeño y puedes preparar diferentes fermentos uno al lado del otro. El argumento a favor: baratos y fáciles de encontrar, se adaptan a tapas y pesas estándar, y es fácil observar el fermento. La contrapartida es real: capacidad pequeña para hogares grandes y el vidrio requiere un manejo cuidadoso, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 15 y 30 dólares, es fácil justificarlo incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Baratos y fáciles de encontrar",
+        "Se adaptan a tapas y pesas estándar",
+        "Fácil de observar el fermento"
+      ],
+      "cons": [
+        "Capacidad pequeña para hogares grandes",
+        "El vidrio requiere un manejo cuidadoso"
+      ]
+    },
+    {
+      "name": "Una báscula digital",
+      "tag": "Proporciones de sal precisas",
+      "body": "La sal controla qué microbios crecen. Demasiado poca y los incorrectos se apoderan; demasiado y nada fermenta. La mayoría de las recetas usan alrededor del 2 por ciento de sal por peso de las verduras, lo que significa pesar ambas. Una báscula digital de hasta 1 gramo facilita esto y lo hace repetible. El argumento a favor: proporciones de sal precisas, lotes repetibles y útil para toda la cocina. La contrapartida es real: necesita pilas y hay que conseguir una que mida hasta 1 g, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 12 y 25 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras.",
+      "pros": [
+        "Proporciones de sal precisas",
+        "Lotes repetibles",
+        "Útil para toda la cocina"
+      ],
+      "cons": [
+        "Necesita pilas",
+        "Consigue una que mida hasta 1 g"
+      ]
+    },
+    {
+      "name": "Sal no yodada",
+      "tag": "Fermentos saludables",
+      "body": "El yodo y los antiaglomerantes de la sal de mesa pueden ralentizar la fermentación y enturbiar la salmuera. La sal para encurtidos, la sal kosher o la sal marina simple sin aditivos es lo mejor. Es barata y una bolsa dura para muchos lotes. Comprueba la etiqueta para ver si tiene aditivos. El argumento a favor: fermentos mejores y más claros, barata y dura para muchos lotes. La contrapartida es real: las marcas difieren en el tamaño del grano, así que pesa en lugar de medir y evita la sal de mesa yodada, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 5 y 10 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que requiera pensar mucho.",
+      "pros": [
+        "Fermentos mejores y más claros",
+        "Barata",
+        "Dura para muchos lotes"
+      ],
+      "cons": [
+        "Las marcas difieren en el tamaño del grano, así que pesa en lugar de medir",
+        "Evita la sal de mesa yodada"
+      ]
+    },
+    {
+      "name": "Un pisón de madera",
+      "tag": "Empaquetar chucrut",
+      "body": "Presionar firmemente el repollo salado en un frasco libera su jugo y elimina las bolsas de aire, por lo que crea su propia salmuera. Un pisón de madera tiene la forma adecuada para el trabajo y te salva las manos. El extremo de un rodillo limpio también sirve, pero un pisón encaja mejor en los frascos. El argumento a favor: facilita la salmuera natural, elimina las bolsas de aire y es barato. La contrapartida es real: una herramienta de un solo propósito y la madera necesita secarse después de lavarla, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 10 y 15 dólares, es fácil justificarlo incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Facilita la salmuera natural",
+        "Elimina las bolsas de aire",
+        "Barato"
+      ],
+      "cons": [
+        "Una herramienta de un solo propósito",
+        "La madera necesita secarse después de lavarla"
+      ]
+    },
+    {
+      "name": "Una vasija de fermentación de cerámica",
+      "tag": "Lotes grandes",
+      "body": "Para los hogares que consumen mucho chucrut o kimchi, una vasija con sello de agua fermenta varios kilos a la vez. El canal de agua alrededor de la tapa deja salir el gas y mantiene fuera el aire. Es el enfoque tradicional y muy fiable. Son pesadas y caras de enviar, así que comprueba los costes de envío. El argumento a favor: grandes lotes de una vez, el sello de agua funciona bien y dura décadas. La contrapartida es real: pesada y costosa de enviar, y comprueba que el esmalte no contenga plomo y sea seguro para alimentos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Grandes lotes de una vez",
+        "El sello de agua funciona bien",
+        "Dura décadas"
+      ],
+      "cons": [
+        "Pesada y costosa de enviar",
+        "Comprueba que el esmalte no contenga plomo y sea seguro para alimentos"
+      ]
+    },
+    {
+      "name": "Un frasco para elaborar kombucha con grifo",
+      "tag": "Kombucha y kéfir de agua",
+      "body": "La kombucha necesita un frasco ancho, una cubierta de tela transpirable y un cultivo iniciador SCOBY. Un frasco con grifo te permite extraer la kombucha terminada sin perturbar el cultivo. Elige grifos de vidrio o acero inoxidable de grado alimenticio, no de plástico barato que pueda gotear. Mantenlo alejado de la luz solar directa. El argumento a favor: elaboración continua fácil, sin perturbar el cultivo y también bueno para el kéfir de agua. La contrapartida es real: los grifos baratos gotean y se necesita un cultivo iniciador por separado, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 25 y 45 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que requiera pensar mucho.",
+      "pros": [
+        "Elaboración continua fácil",
+        "Sin perturbar el cultivo",
+        "También bueno para el kéfir de agua"
+      ],
+      "cons": [
+        "Los grifos baratos gotean",
+        "Se necesita un cultivo iniciador por separado"
+      ]
+    },
+    {
+      "name": "Botellas de cierre abatible",
+      "tag": "Carbonatar bebidas",
+      "body": "Una segunda fermentación en botellas selladas hace que las bebidas de kombucha y jengibre burbujeen. Las botellas de cierre abatible soportan la presión y se vuelven a sellar fácilmente. Usa botellas adecuadas para la presión, no decorativas, y enfría antes de abrir, ya que las botellas sobrefermentadas pueden generar mucha presión. El argumento a favor: produce bebidas naturalmente burbujeantes, reutilizables y fáciles de sellar. La contrapartida es real: pueden carbonatar en exceso y explotar si se dejan a temperatura ambiente y hay que reemplazar las juntas de goma desgastadas, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 20 y 35 dólares, es fácil justificarlo incluso si solo se usa ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Produce bebidas naturalmente burbujeantes",
+        "Reutilizables",
+        "Fáciles de sellar"
+      ],
+      "cons": [
+        "Pueden carbonatar en exceso y explotar si se dejan a temperatura ambiente",
+        "Reemplazar las juntas de goma desgastadas"
+      ]
+    },
+    {
+      "name": "Tiras de prueba de pH",
+      "tag": "Comprobar la acidez",
+      "body": "Un fermento de verduras saludable se vuelve más ácido a medida que avanza, y esa acidez es lo que lo mantiene seguro. Las tiras de prueba dan una lectura aproximada, lo que tranquiliza a los principiantes y es útil para la kombucha. La mayoría de las recetas probadas son seguras sin necesidad de pruebas cuando la sal y la inmersión son correctas, por lo que esto es opcional. El argumento a favor: tranquilidad para principiantes, útil para la kombucha y barata. La contrapartida es real: las tiras solo dan una lectura aproximada y no sustituyen a una receta probada, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por entre 8 y 15 dólares, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna de las dos maneras.",
+      "pros": [
+        "Tranquilidad para principiantes",
+        "Útil para la kombucha",
+        "Barata"
+      ],
+      "cons": [
+        "Las tiras solo dan una lectura aproximada",
+        "No sustituyen a una receta probada"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Es segura la fermentación casera?",
+      "a": "La fermentación de verduras con la sal adecuada y las verduras mantenidas bajo salmuera tiene un buen historial de seguridad. Sigue recetas probadas y desecha cualquier cosa con moho velloso, colores extraños u olor a podrido."
+    },
+    {
+      "q": "¿Qué es la película blanca en la parte superior?",
+      "a": "A menudo levadura Kahm, que es inofensiva pero puede tener un sabor extraño. Retírala con una espumadera. El moho velloso y de color significa que hay que desecharlo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda el chucrut?",
+      "a": "Normalmente de una a cuatro semanas a temperatura ambiente, dependiendo de la calidez y el sabor. Prueba a medida que avanza."
+    },
+    {
+      "q": "¿Qué debería fermentar primero?",
+      "a": "Chucrut. Es solo repollo y sal, y enseña lo básico."
+    }
+  ]
+}

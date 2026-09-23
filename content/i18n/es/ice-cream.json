@@ -1,0 +1,172 @@
+{
+  "slug": "ice-cream",
+  "title": "Helado casero, del fácil sin máquina al gelato de verdad",
+  "dek": "Diez cosas para hacer helado casero, clasificadas por lo más suave y fácil que se vuelve. El frío importa más que nada.",
+  "category": "Cocina",
+  "how_we_pick": "Estas selecciones provienen de pruebas publicadas de electrodomésticos, comunidades de repostería y reportes de propietarios a largo plazo, cotejadas con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Para los electrodomésticos, comprueba que el enchufe y el voltaje coincidan con tu país, y compra a vendedores con una garantía clara.",
+  "intro": [
+    "El helado casero sale mal de la misma manera para casi todos: queda helado y duro, no suave. La causa es la congelación lenta, que permite que crezcan grandes cristales de hielo. El helado comercial se congela rápido, se bate con aire y se hace con ingredientes que lo mantienen blando.",
+    "Esta lista está ordenada por cuánto soluciona cada artículo ese problema. Una máquina básica con tazón congelable supone un gran salto respecto a las opciones sin máquina. Después de eso, se trata de conveniencia, textura y almacenamiento.",
+    "Los precios a continuación son precios aproximados de calle en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre comprueba el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Una máquina de helados con tazón congelable",
+      "tag": "La mejor mejora con buena relación calidad-precio",
+      "body": "Estas máquinas usan un tazón de doble pared que congelas durante la noche, y luego baten la base durante unos 20 minutos. Hacen helado genuinamente suave por un precio modesto, y los modelos de Cuisinart son los favoritos desde hace mucho tiempo. El inconveniente es la planificación: el tazón necesita de 12 a 24 horas en el congelador, por lo que solo sale una tanda al día a menos que compres un segundo tazón. Guarda el tazón permanentemente en el congelador si tienes espacio. El argumento a favor: helado suave a bajo precio, fácil de usar y bate en unos 20 minutos. El inconveniente es real: el tazón necesita congelarse durante la noche y solo permite una tanda a la vez, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Helado suave a bajo precio",
+        "Fácil de usar",
+        "Bate en unos 20 minutos"
+      ],
+      "cons": [
+        "El tazón necesita congelarse durante la noche",
+        "Una tanda a la vez"
+      ]
+    },
+    {
+      "name": "Una máquina procesadora tipo Ninja CREAMi",
+      "tag": "Pintas individuales, helados de proteína y fruta",
+      "body": "Estas funcionan de manera diferente: congelas la base sólida en un recipiente de pinta, luego una cuchilla giratoria la raspa hasta obtener una textura cremosa. Son geniales para porciones individuales, helados de proteína más ligeros y sorbetes de frutas, y cada pinta puede ser de un sabor diferente. Son ruidosas y necesitas planificar la congelación de 24 horas. Los recipientes de pinta adicionales son casi esenciales. El argumento a favor: genial para porciones individuales y helados de proteína, sabores diferentes en cada pinta y limpieza fácil. El inconveniente es real: ruidosas, y las bases necesitan un día completo para congelarse y las pintas extra cuestan más, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Genial para porciones individuales y helados de proteína",
+        "Sabores diferentes en cada pinta",
+        "Limpieza fácil"
+      ],
+      "cons": [
+        "Ruidosas, y las bases necesitan un día completo para congelarse",
+        "Las pintas extra cuestan más"
+      ]
+    },
+    {
+      "name": "Una máquina de helados con compresor",
+      "tag": "Máquinas serias, tandas consecutivas",
+      "body": "Una máquina con compresor tiene su propio congelador incorporado, por lo que no hay pre-congelación y puedes hacer tanda tras tanda. Congela rápido, lo que da resultados muy suaves. Son grandes, pesadas y caras. Para personas que hacen helado cada semana o para fiestas, vale la pena; para uso ocasional, una máquina con tazón congelable es suficiente. El argumento a favor: sin pre-congelación, tandas consecutivas y resultados muy suaves. El inconveniente es real: grande y pesada en la encimera y cara, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "Sin pre-congelación",
+        "Tandas consecutivas",
+        "Resultados muy suaves"
+      ],
+      "cons": [
+        "Grande y pesada en la encimera",
+        "Cara"
+      ]
+    },
+    {
+      "name": "Recipientes aislados para helado",
+      "tag": "Almacenamiento sin quemaduras por congelación",
+      "body": "El helado casero está en su mejor momento el día que se hace y se vuelve helado en recipientes normales. Los recipientes aislados largos y poco profundos con tapas herméticas congelan uniformemente, resisten las quemaduras por congelación y son fáciles de servir. Presiona un trozo de papel de hornear sobre la superficie antes de cerrar para protección adicional. El argumento a favor: menos quemaduras por congelación, forma fácil de servir y reutilizable. El inconveniente es real: ocupa espacio en el congelador y aún así es mejor consumirlo en una o dos semanas, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $15-30, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Menos quemaduras por congelación",
+        "Forma fácil de servir",
+        "Reutilizable"
+      ],
+      "cons": [
+        "Ocupa espacio en el congelador",
+        "Aún es mejor consumirlo en una o dos semanas"
+      ]
+    },
+    {
+      "name": "Un termómetro de lectura instantánea",
+      "tag": "Bases de natillas",
+      "body": "El helado clásico de natillas se cocina a unos 77-82°C. Si te pasas, los huevos se revuelven. Un termómetro rápido de lectura instantánea elimina las conjeturas y es útil para todo, desde pollo asado hasta caramelo. El argumento a favor: evita que las natillas se revuelvan, útil en toda la cocina y lecturas rápidas. El inconveniente es real: los baratos son lentos de leer y necesitan baterías, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $15-30, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que necesites pensar mucho.",
+      "pros": [
+        "Evita que las natillas se revuelvan",
+        "Útil en toda la cocina",
+        "Lecturas rápidas"
+      ],
+      "cons": [
+        "Los baratos son lentos de leer",
+        "Necesita baterías"
+      ]
+    },
+    {
+      "name": "Un cucharón para helado de alta resistencia",
+      "tag": "Para helado duro",
+      "body": "El helado casero se congela más duro que el comprado en tienda porque tiene menos aire y estabilizador. Un cucharón pesado de aluminio con un mango grueso, como el estilo Zeroll, corta el helado duro con menos esfuerzo. Lavar a mano; los lavavajillas arruinan algunos de ellos. El argumento a favor: saca helado duro fácilmente, agarre cómodo y dura años. El inconveniente es real: algunos tipos solo se lavan a mano y son más pesados que los cucharones baratos, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de entre $12 y $25, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Saca helado duro fácilmente",
+        "Agarre cómodo",
+        "Dura años"
+      ],
+      "cons": [
+        "Algunos tipos solo se lavan a mano",
+        "Más pesado que los cucharones baratos"
+      ]
+    },
+    {
+      "name": "Un colador de malla fina",
+      "tag": "Natillas suaves",
+      "body": "Colar la base cocida atrapa cualquier trozo de huevo cocido y vaina de vainilla, dando una textura sedosa. Es un pequeño paso con una gran recompensa. Probablemente ya tengas un colador; uno de malla fina es lo mejor. El argumento a favor: helado más sedoso, atrapa trozos cocidos y útil en toda la cocina. El inconveniente es real: la malla fina es lenta con bases espesas y hay que limpiarla inmediatamente antes de que se seque, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $10-20, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Helado más sedoso",
+        "Atrapa trozos cocidos",
+        "Útil en toda la cocina"
+      ],
+      "cons": [
+        "La malla fina es lenta con bases espesas",
+        "Limpiar inmediatamente antes de que se seque"
+      ]
+    },
+    {
+      "name": "Moldes para paletas de hielo",
+      "tag": "Paletas para niños",
+      "body": "El jugo de fruta, el yogur o la base de helado sobrante se convierten en paletas sin necesidad de máquina. Los moldes de silicona se liberan fácilmente; los de plástico duro con palitos son más resistentes. Una gran actividad de verano para niños y una forma de usar fruta. El argumento a favor: no se necesita máquina, apto para niños y aprovecha la fruta. El inconveniente es real: los moldes de silicona pueden volcarse en el congelador y el plástico barato se agrieta, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $12-25, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que necesites pensar mucho.",
+      "pros": [
+        "No se necesita máquina",
+        "Apto para niños",
+        "Aprovecha la fruta"
+      ],
+      "cons": [
+        "Los moldes de silicona pueden volcarse en el congelador",
+        "El plástico barato se agrieta"
+      ]
+    },
+    {
+      "name": "Recipientes extra de pinta para tu máquina",
+      "tag": "Varios sabores a la vez",
+      "body": "Si tienes una máquina tipo CREAMi, las pintas extra te permiten congelar varias bases a la vez y marcan la diferencia entre tener helado esta noche o mañana. Compra los recipientes para tu modelo exacto; las tapas y los tamaños difieren entre versiones. El argumento a favor: varios sabores listos para usar, hace la máquina mucho más útil y apilables. El inconveniente es real: deben coincidir con tu modelo exacto y los de terceros pueden encajar mal, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de entre $15 y $30, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Varios sabores listos para usar",
+        "Hace la máquina mucho más útil",
+        "Apilables"
+      ],
+      "cons": [
+        "Deben coincidir con tu modelo exacto",
+        "Los de terceros pueden encajar mal"
+      ]
+    },
+    {
+      "name": "Una batidora de mano",
+      "tag": "Helado sin máquina",
+      "body": "El helado sin máquina, hecho batiendo nata y mezclando leche condensada, no necesita máquina y es sorprendentemente bueno. Una batidora de mano bate la nata en pocos minutos. Es más dulce y rico que el helado batido, pero es una excelente manera de probar antes de comprar una máquina. El argumento a favor: no se necesita máquina de helados, rápido y útil para toda la repostería. El inconveniente es real: la textura es menos suave que la batida y las recetas son muy dulces, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $25-50, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "No se necesita máquina de helados",
+        "Rápido",
+        "Útil para toda la repostería"
+      ],
+      "cons": [
+        "La textura es menos suave que la batida",
+        "Las recetas son muy dulces"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Por qué mi helado casero queda helado?",
+      "a": "Normalmente por congelación lenta o demasiada agua en la base. Enfría bien la base, asegúrate de que el tazón esté completamente congelado y consúmelo en una o dos semanas."
+    },
+    {
+      "q": "¿Tazón congelable, compresor o tipo CREAMi?",
+      "a": "Tazón congelable para el valor, compresor para tandas frecuentes, tipo CREAMi para pintas individuales y recetas de proteína o fruta."
+    },
+    {
+      "q": "¿Cuánto dura el helado casero?",
+      "a": "Está en su mejor momento entre una y dos semanas en un recipiente hermético."
+    },
+    {
+      "q": "¿Puedo hacer helado sin máquina?",
+      "a": "Sí. Las recetas sin máquina con nata montada y leche condensada funcionan bien."
+    }
+  ]
+}

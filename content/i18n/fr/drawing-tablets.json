@@ -1,0 +1,172 @@
+{
+  "slug": "drawing-tablets",
+  "title": "Tablettes graphiques pour débutants : quoi acheter pour l'art numérique",
+  "dek": "Dix articles pour débuter en art numérique, classés par rapport qualité-prix pour ceux qui apprennent encore. Une tablette à stylet bon marché est un meilleur point de départ que la plupart des gens ne le pensent.",
+  "category": "Loisirs",
+  "how_we_pick": "Ces choix proviennent d'avis publiés, de communautés d'art numérique et de rapports d'utilisateurs à long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement tous les articles ici. Vérifiez que les pilotes prennent en charge votre système d'exploitation, en particulier sur Chromebook et Linux, avant d'acheter.",
+  "intro": [
+    "L'art numérique n'a jamais été aussi abordable. Une tablette à stylet basique qui se branche sur n'importe quel ordinateur coûte moins cher qu'un jeu de bons marqueurs, et un logiciel gratuit comme Krita est suffisamment performant pour les professionnels. Pourtant, de nombreux débutants se tournent directement vers une tablette à écran coûteuse, ou achètent un stylet pour téléphone et se demandent pourquoi cela ne ressemble en rien au dessin.",
+    "Cette liste est classée par rapport qualité-prix pour un débutant. L'option la moins chère en haut est vraiment bonne, et de nombreux illustrateurs professionnels en utilisent encore une. Plus bas, on trouve les tablettes à écran et les configurations iPad, qui sont superbes mais coûtent plusieurs fois plus cher. Les petits extras en bas sont bon marché et résolvent les plaintes les plus courantes.",
+    "Les prix ci-dessous sont des prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Une tablette à stylet petite ou moyenne (sans écran)",
+      "tag": "Le meilleur rapport qualité-prix pour commencer",
+      "body": "Une tablette à stylet est un pavé sensible à la pression sur lequel vous dessinez tout en regardant l'écran de votre ordinateur. Cela semble étrange pendant un soir ou deux, puis devient naturel, et c'est ainsi que de nombreux professionnels travaillent encore. Les Intuos de Wacom, et des marques comme XP-Pen et Huion, en fabriquent de bonnes avec des stylets sans pile et des milliers de niveaux de pression. Une petite taille convient à un ordinateur portable ; une taille moyenne convient à un grand moniteur. À ce prix, c'est le moyen le plus sensé de découvrir si vous aimez l'art numérique avant de dépenser plus. Les arguments en sa faveur : moyen très bon marché de commencer, fonctionne avec n'importe quel ordinateur, et de nombreux professionnels les utilisent. Le compromis est réel : il faut quelques jours pour s'habituer à dessiner hors écran et le support des pilotes varie sur Chromebook et Linux, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Moyen très bon marché de commencer",
+        "Fonctionne avec n'importe quel ordinateur",
+        "De nombreux professionnels les utilisent"
+      ],
+      "cons": [
+        "Il faut quelques jours pour s'habituer à dessiner hors écran",
+        "Le support des pilotes varie sur Chromebook et Linux"
+      ]
+    },
+    {
+      "name": "Logiciel de dessin gratuit (Krita, ou essai de Clip Studio)",
+      "tag": "Commencer sans dépenser plus",
+      "body": "Vous n'avez pas besoin de logiciels coûteux. Krita est gratuit, open source et possède d'excellents pinceaux pour la peinture et l'illustration. Clip Studio Paint est populaire pour les bandes dessinées et les mangas, avec un essai gratuit et des licences abordables. De nombreuses tablettes incluent un pack logiciel gratuit, alors vérifiez avant d'acheter quoi que ce soit. Passez votre premier mois à bien apprendre un programme plutôt qu'à essayer de tous les utiliser. Les arguments en sa faveur : fonctionnalités professionnelles gratuites, fonctionne avec n'importe quelle tablette à stylet, et de grandes bibliothèques de tutoriels. Le compromis est réel : apprendre n'importe quel programme prend du temps et certains packs sont des essais courts, pas des licences complètes, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Fonctionnalités professionnelles gratuites",
+        "Fonctionne avec n'importe quelle tablette à stylet",
+        "Grandes bibliothèques de tutoriels"
+      ],
+      "cons": [
+        "Apprendre n'importe quel programme prend du temps",
+        "Certains packs sont des essais courts, pas des licences complètes"
+      ]
+    },
+    {
+      "name": "Un écran à stylet de 13 à 16 pouces",
+      "tag": "Dessiner directement sur l'écran",
+      "body": "Un écran à stylet vous permet de dessiner directement sur un écran, ce qui ressemble davantage à du papier et est plus facile pour de nombreux débutants. Ils se connectent à votre ordinateur comme un second moniteur. XP-Pen, Huion et la gamme One de Wacom proposent de bons modèles économiques. Recherchez un écran laminé, qui réduit l'espace entre la pointe du stylet et le trait, et une bonne gamme de couleurs si vous peignez. Ils nécessitent un bureau et des câbles. Les arguments en sa faveur : dessiner directement sur l'image, plus rapide à apprendre pour de nombreuses personnes, et de bonnes options économiques maintenant. Le compromis est réel : nécessite un ordinateur et des câbles, et votre main couvre une partie de l'image, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Dessiner directement sur l'image",
+        "Plus rapide à apprendre pour de nombreuses personnes",
+        "Bonnes options économiques maintenant"
+      ],
+      "cons": [
+        "Nécessite un ordinateur et des câbles",
+        "Votre main couvre une partie de l'image"
+      ]
+    },
+    {
+      "name": "Un iPad compatible avec l'Apple Pencil",
+      "tag": "Dessiner n'importe où",
+      "body": "Un iPad avec un Apple Pencil est un studio de dessin complet et portable, sans ordinateur nécessaire. Dessiner sur le canapé, dans un café ou dans un train est une raison majeure pour laquelle les gens dessinent davantage. Vérifiez quel Pencil fonctionne avec quel iPad ; les modèles ne sont pas interchangeables. Un iPad reconditionné d'Apple ou d'un reconditionneur réputé réduit le coût. Budget pour le Pencil et un protecteur d'écran. Les arguments en sa faveur : portable, tout-en-un, excellentes applications de dessin, et utile pour bien plus que l'art. Le compromis est réel : cher une fois que vous ajoutez le Pencil et la compatibilité des crayons est confuse, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Portable, tout-en-un",
+        "Excellentes applications de dessin",
+        "Utile pour bien plus que l'art"
+      ],
+      "cons": [
+        "Cher une fois que vous ajoutez le Pencil",
+        "La compatibilité des crayons est confuse"
+      ]
+    },
+    {
+      "name": "Procreate",
+      "tag": "Application de dessin pour iPad",
+      "body": "Procreate est la raison pour laquelle de nombreux artistes achètent un iPad. C'est un achat unique, très facile à apprendre, avec d'excellents pinceaux et une énorme bibliothèque de tutoriels gratuits et de packs de pinceaux. Pour les propriétaires d'iPad, c'est la première application évidente. Il n'est pas disponible sur Android ou sur ordinateur. Les arguments en sa faveur : facile à apprendre, achat unique, et énorme communauté de tutoriels. Le compromis est réel : iPad uniquement et pas idéal pour le travail vectoriel complexe, alors pesez cela par rapport à la fréquence d'utilisation. Pour 13 $, un achat unique, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement.",
+      "pros": [
+        "Facile à apprendre",
+        "Achat unique",
+        "Énorme communauté de tutoriels"
+      ],
+      "cons": [
+        "iPad uniquement",
+        "Pas idéal pour le travail vectoriel complexe"
+      ]
+    },
+    {
+      "name": "Un protecteur d'écran mat effet papier",
+      "tag": "Plus d'adhérence sur les écrans en verre",
+      "body": "Les écrans en verre sont glissants, et de nombreux artistes constatent que leurs lignes tremblent. Un protecteur texturé mat effet papier ajoute une adhérence qui ressemble davantage à du papier. Il réduit également l'éblouissement. Le compromis est un affichage légèrement moins net et une usure plus rapide de la pointe. Les arguments en sa faveur : sensation proche du papier, plus de contrôle, et moins d'éblouissement. Le compromis est réel : use les pointes de stylet plus rapidement et adoucit légèrement l'affichage, alors pesez cela par rapport à la fréquence d'utilisation. Vendu environ 10 à 20 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Sensation proche du papier",
+        "Plus de contrôle",
+        "Moins d'éblouissement"
+      ],
+      "cons": [
+        "Use les pointes de stylet plus rapidement",
+        "Adoucit légèrement l'affichage"
+      ]
+    },
+    {
+      "name": "Pointes de stylet de rechange",
+      "tag": "Pointes usées",
+      "body": "Les pointes de stylet s'usent, surtout sur les surfaces texturées. Une pointe usée raye la surface et donne une sensation rugueuse. Les rechanges sont bon marché ; la plupart des tablettes en incluent quelques-unes. Vérifiez que vous achetez des pointes fabriquées pour votre modèle de stylet. Les arguments en sa faveur : maintient la sensation constante, protège la surface, et bon marché. Le compromis est réel : doit correspondre à votre modèle de stylet et être remplacé avant que la pointe ne devienne pointue, alors pesez cela par rapport à la fréquence d'utilisation. À 5-10 $, il mérite sa place sur cette liste sans demander un gros engagement initial de quelque manière que ce soit.",
+      "pros": [
+        "Maintient la sensation constante",
+        "Protège la surface",
+        "Bon marché"
+      ],
+      "cons": [
+        "Doit correspondre à votre modèle de stylet",
+        "Remplacer avant que la pointe ne devienne pointue"
+      ]
+    },
+    {
+      "name": "Un gant de dessin à deux doigts",
+      "tag": "Mouvement de main fluide",
+      "body": "Votre paume glisse sur la surface et peut déclencher l'entrée tactile sur les écrans. Un gant à deux doigts permet à votre main de glisser en douceur et réduit les taches et les touches accidentelles. C'est bon marché et ceux qui en utilisent un reviennent rarement en arrière. Les arguments en sa faveur : mouvement de main fluide, empêche les touches accidentelles, et bon marché. Le compromis est réel : les tailles varient selon le vendeur et il faut le laver, alors pesez cela par rapport à la fréquence d'utilisation. Pour 5-12 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement.",
+      "pros": [
+        "Mouvement de main fluide",
+        "Empêche les touches accidentelles",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les tailles varient selon le vendeur",
+        "Il faut le laver"
+      ]
+    },
+    {
+      "name": "Un support de tablette réglable",
+      "tag": "Meilleure posture",
+      "body": "Dessiner courbé sur une tablette plate sollicite le cou et le dos. Un support incline la tablette ou l'écran comme une table de dessin. De nombreux écrans à stylet incluent un support basique ; un support réglable plus robuste est une bonne amélioration pour les longues sessions. Les arguments en sa faveur : meilleure posture, plus de confort pour les longues sessions, et angle réglable. Le compromis est réel : les supports bon marché glissent lorsque vous appuyez et vérifiez qu'il convient à la taille de votre appareil, alors pesez cela par rapport à la fréquence d'utilisation. Vendu environ 20-40 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Meilleure posture",
+        "Plus de confort pour les longues sessions",
+        "Angle réglable"
+      ],
+      "cons": [
+        "Les supports bon marché glissent lorsque vous appuyez",
+        "Vérifiez qu'il convient à la taille de votre appareil"
+      ]
+    },
+    {
+      "name": "Une télécommande ou un clavier de raccourcis",
+      "tag": "Flux de travail plus rapide",
+      "body": "Les artistes annulent constamment, changent de pinceau et zooment. Un petit clavier de raccourcis place ces fonctions sous votre main non dessinante, vous évitant ainsi de tendre la main vers le clavier. C'est agréable une fois que vous dessinez régulièrement. Les arguments en sa faveur : flux de travail plus rapide, moins de besoin de tendre la main vers le clavier, et programmable. Le compromis est réel : nécessite une configuration par programme et n'est pas essentiel pour les débutants, alors pesez cela par rapport à la fréquence d'utilisation. À 25-50 $, il mérite sa place sur cette liste sans demander un gros engagement initial de quelque manière que ce soit. Comme pour tout ce qui figure sur cette liste, vérifiez les détails exacts de l'annonce et le prix actuel avant de l'ajouter à votre panier.",
+      "pros": [
+        "Flux de travail plus rapide",
+        "Moins besoin de tendre la main vers le clavier",
+        "Programmable"
+      ],
+      "cons": [
+        "Nécessite une configuration par programme",
+        "Pas essentiel pour les débutants"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Tablette à stylet ou écran à stylet pour débutants ?",
+      "a": "Une tablette à stylet est le moyen le moins cher de commencer et fonctionne bien après une courte période d'adaptation. Un écran est plus facile mais coûte plus cher."
+    },
+    {
+      "q": "Puis-je utiliser un stylet de téléphone pour l'art numérique ?",
+      "a": "Les stylets capacitifs basiques manquent de sensibilité à la pression et sont imprécis. Une vraie tablette à stylet est bien meilleure."
+    },
+    {
+      "q": "Quel logiciel gratuit est bien ?",
+      "a": "Krita est excellent et gratuit. De nombreuses tablettes sont également livrées avec des packs logiciels."
+    },
+    {
+      "q": "iPad ou écran à stylet ?",
+      "a": "iPad si vous voulez la portabilité ; écran à stylet si vous avez déjà un bon ordinateur et que vous voulez un écran plus grand."
+    }
+  ]
+}

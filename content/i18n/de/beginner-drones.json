@@ -1,0 +1,172 @@
+{
+  "slug": "beginner-drones",
+  "title": "Einsteiger-Drohnen, die gut fliegen und Sie legal unterwegs sind",
+  "dek": "Zehn Dinge für eine erste Drohne, geordnet nach dem, was Ihre Aufnahmen verbessert und Sie im Rahmen der Regeln hält.",
+  "category": "Tech",
+  "how_we_pick": "Diese Auswahl basiert auf veröffentlichten Drohnenrezensionen, FAA-Richtlinien, Hobby-Foren und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Die Verfügbarkeit einiger Drohnenmarken in den USA hat sich aufgrund von Handelsregeln geändert, prüfen Sie daher vor dem Kauf den aktuellen Lagerbestand und den Support.",
+  "intro": [
+    "Die Drohnenabteilung ist zweigeteilt: Spielzeug-Quadrocopter, die im Wind davontreiben und sieben Minuten halten, und richtige Kamera-Drohnen, die im Wind die Position halten und Aufnahmen machen, die wie eine Reiseanzeige aussehen. Die Preisspanne ist kleiner als früher, und am günstigen Ende passiert die meiste Enttäuschung.",
+    "Diese Liste beginnt mit der Drohne und behandelt dann die wenigen Extras, die aus einem kurzen Flug ein richtiges Ausflugserlebnis machen. Sie behandelt auch die Regeln, denn in den USA sind vor dem ersten Flug ein paar einfache Schritte erforderlich, und wenn Sie diese überspringen, können Sie leicht eine Geldstrafe bekommen.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Bandbreite für die Budgetierung, nicht als Angebot. Überprüfen Sie immer das Live-Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Eine faltbare Kamera-Drohne unter 250 g mit GPS",
+      "tag": "Die erste Drohne, die man kaufen sollte",
+      "body": "Drohnen unter 250 Gramm unterliegen in vielen Ländern leichteren Regeln und sind klein genug, um sie überallhin mitzunehmen. Die guten haben immer noch GPS-Positionsbeibehaltung, Rückkehr zum Startpunkt, Hinderniserkennung bei einigen Modellen und eine stabilisierte 4K-Kamera. DJI's Mini-Serie hat die Kategorie definiert, und Alternativen von Marken wie Potensic und Holy Stone haben die Lücke teilweise geschlossen. Prüfen Sie das genaue Gewicht der von Ihnen gekauften Version, da das Hinzufügen eines größeren Akkus diese über 250 g bringen kann. Kaufen Sie bei einem Händler mit lokalem Garantie-Support. Dafür spricht: Hält die Position dank GPS stabil, leichtere Regeln in vielen Ländern und faltet sich klein genug für jede Tasche. Der Kompromiss ist real: Kleine Drohnen haben Schwierigkeiten bei starkem Wind und größere „Plus“-Akkus können sie über 250 g bringen, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Hält die Position dank GPS stabil",
+        "Leichtere Regeln in vielen Ländern",
+        "Faltet sich klein genug für jede Tasche"
+      ],
+      "cons": [
+        "Kleine Drohnen haben Schwierigkeiten bei starkem Wind",
+        "Größere „Plus“-Akkus können sie über 250 g bringen"
+      ]
+    },
+    {
+      "name": "Der FAA TRUST-Test und die Registrierungsprüfung",
+      "tag": "Legal in den USA fliegen",
+      "body": "Freizeitpiloten in den USA müssen den kostenlosen Online-TRUST-Test bestehen und einen Nachweis mit sich führen. Drohnen über 250 g müssen ebenfalls registriert werden, was derzeit ein paar Dollar kostet. Sie müssen auch die Remote-ID-Regeln befolgen und eingeschränkten Luftraum in der Nähe von Flughäfen, Stadien und Nationalparks meiden. Apps wie B4UFLY zeigen Ihnen, wo Sie fliegen dürfen. Überprüfen Sie die aktuellen Regeln der FAA vor Ihrem ersten Flug; sie werden aktualisiert. Dafür spricht: Vor dem Flug erforderlich, kostenloser Test, günstige Registrierung und Apps erleichtern die Überprüfung des Luftraums. Der Kompromiss ist real: Regeln ändern sich, also überprüfen Sie sie jedes Jahr erneut, und viele Parks und Strände verbieten Drohnen lokal, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Vor dem Flug erforderlich",
+        "Kostenloser Test, günstige Registrierung",
+        "Apps erleichtern die Überprüfung des Luftraums"
+      ],
+      "cons": [
+        "Regeln ändern sich, also überprüfen Sie sie jedes Jahr erneut",
+        "Viele Parks und Strände verbieten Drohnen lokal"
+      ]
+    },
+    {
+      "name": "Zwei oder drei Ersatzakkus",
+      "tag": "Echte Flugzeit",
+      "body": "Ein Akku gibt Ihnen 20-30 Minuten unter idealen Bedingungen und weniger bei Wind oder Kälte. Das reicht kaum aus, um die Aufnahme zu finden. Zwei oder drei Ersatzakkus machen aus einem kurzen Surren eine richtige Session. Die meisten Drohnen verkaufen ein „Fly More“-Bundle mit Akkus, einer Ladestation und einer Tasche, und es ist fast immer günstiger, als sie einzeln zu kaufen. Kaufen Sie Originalakkus; billige Nachbauten können aufquellen und versagen. Dafür spricht: Verdreifacht Ihre Flugzeit, Bundles sind günstiger als Einzelkäufe und ermöglichen es Ihnen, Aufnahmen zu wiederholen, ohne nach Hause fahren zu müssen. Der Kompromiss ist real: Lithiumbatterien unterliegen Flugbestimmungen und müssen bei wochenlanger Nichtbenutzung teilweise entladen gelagert werden, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Verdreifacht Ihre Flugzeit",
+        "Bundles sind günstiger als Einzelkäufe",
+        "Ermöglicht es Ihnen, Aufnahmen zu wiederholen, ohne nach Hause fahren zu müssen"
+      ],
+      "cons": [
+        "Lithiumbatterien unterliegen Flugbestimmungen",
+        "Müssen bei wochenlanger Nichtbenutzung teilweise entladen gelagert werden"
+      ]
+    },
+    {
+      "name": "Eine Multi-Akku-Ladestation",
+      "tag": "Aufladen ohne Aufsicht",
+      "body": "Das Aufladen von drei Akkus nacheinander bedeutet einen ganzen Abend des Austauschens. Eine Station lädt sie über Nacht nacheinander auf, und viele können auch Ihren Controller und Ihr Telefon aufladen. Einige funktionieren über eine USB-C-Powerbank oder ein Autoladegerät, was auf Roadtrips nützlich ist. Besorgen Sie sich das für Ihr Drohnenmodell entwickelte Gerät, da die Anschlüsse unterschiedlich sind. Dafür spricht: Lädt mehrere Akkus unbeaufsichtigt auf, einige laden über ein Auto oder eine Powerbank und sind oft in Bundles enthalten. Der Kompromiss ist real: Modellspezifische Anschlüsse und das sequenzielle Laden dauern immer noch Stunden, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Lädt mehrere Akkus unbeaufsichtigt auf",
+        "Einige laden über ein Auto oder eine Powerbank",
+        "Oft in Bundles enthalten"
+      ],
+      "cons": [
+        "Modellspezifische Anschlüsse",
+        "Das sequenzielle Laden dauert immer noch Stunden"
+      ]
+    },
+    {
+      "name": "ND-Filter-Set",
+      "tag": "Sanfte, cineastische Videos",
+      "body": "An einem hellen Tag verwenden Drohnenkameras sehr schnelle Verschlusszeiten, was Videos ruckelig und hart erscheinen lässt. ND-Filter sind Sonnenbrillen für die Kamera: Sie reduzieren das Licht, damit die Verschlusszeit langsamer werden kann und Bewegungsunschärfe natürlich aussieht. Ein Set aus drei oder vier Stärken deckt die meisten Bedingungen ab. Sie werden auf den Gimbal geklickt, müssen also zu Ihrem Modell passen. Dies ist das günstigste Upgrade für das Aussehen Ihrer Aufnahmen. Dafür spricht: Sanftere, natürlichere Videos, geeignet für helle Strand- und Schneeszenen und klein und leicht. Der Kompromiss ist real: Schlecht gefertigte Filter können den Gimbal stören und sind für Standbilder nicht notwendig, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Sanftere, natürlichere Videos",
+        "Geeignet für helle Strand- und Schneeszenen",
+        "Klein und leicht"
+      ],
+      "cons": [
+        "Schlecht gefertigte Filter können den Gimbal stören",
+        "Nicht notwendig für Standbilder"
+      ]
+    },
+    {
+      "name": "Eine schnelle microSD-Karte",
+      "tag": "4K-Aufnahme ohne Bildaussetzer",
+      "body": "4K-Videos schreiben viele Daten, und eine langsame Karte verursacht Ruckler oder abgebrochene Aufnahmen. Suchen Sie nach einer Karte mit der Klassifizierung U3 und V30 von SanDisk, Samsung oder Lexar, gekauft in einem offiziellen Geschäft. 128 GB sind eine gute Größe. Gefälschte Karten sind auf Marktplätzen üblich, prüfen Sie also die Kapazität, wenn sie ankommt. Dafür spricht: Verhindert Bildaussetzer und fehlgeschlagene Aufnahmen, speichert Stunden an Material und ist günstig. Der Kompromiss ist real: Fälschungen sind üblich und das Entladen von Material am selben Tag, also wägen Sie das gegen die Häufigkeit der Nutzung ab. Für 15-30 US-Dollar ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich genutzt wird.",
+      "pros": [
+        "Verhindert Bildaussetzer und fehlgeschlagene Aufnahmen",
+        "Speichert Stunden an Material",
+        "Günstig"
+      ],
+      "cons": [
+        "Fälschungen sind üblich",
+        "Material am selben Tag entladen"
+      ]
+    },
+    {
+      "name": "Eine Landeplattform",
+      "tag": "Staubige und grasbewachsene Starts",
+      "body": "Der Start von Sand, Staub oder hohem Gras sprüht Grit in die Motoren und den Gimbal und kann die Drohne umkippen. Eine faltbare Landeplattform bietet eine saubere, ebene Fläche und macht die Drohne beim Rückflug besser sichtbar. Sie faltet sich zu einem kleinen Kreis zusammen und wiegt fast nichts. Eine günstige Möglichkeit, die empfindlichsten Teile zu schützen. Dafür spricht: Hält Sand und Grit aus den Motoren fern, ebene, sichtbare Landefläche und faltet sich klein zusammen. Der Kompromiss ist real: Benötigt bei Wind Heringe oder Gewichte und ist eine weitere Sache zum Einpacken, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Hält Sand und Grit aus den Motoren fern",
+        "Ebene, sichtbare Landefläche",
+        "Faltet sich klein zusammen"
+      ],
+      "cons": [
+        "Benötigt bei Wind Heringe oder Gewichte",
+        "Eine weitere Sache zum Einpacken"
+      ]
+    },
+    {
+      "name": "Ersatzpropeller",
+      "tag": "Der erste Astkontakt",
+      "body": "Jeder neue Pilot stößt irgendwann gegen etwas. Ein beschädigter Propeller lässt die Drohne vibrieren und ruiniert die Aufnahmen, und kann während des Fluges ausfallen. Ersatzteile sind günstig und der Austausch dauert eine Minute mit dem mitgelieferten Schraubendreher. Bewahren Sie immer einen Satz in der Tasche auf und überprüfen Sie die Propeller vor jedem Flug. Dafür spricht: Behebt die häufigsten Schäden, schnell zu ersetzen und günstig. Der Kompromiss ist real: Muss exakt zu Ihrem Modell passen und immer auf Beschädigungen prüfen, bevor Sie fliegen, also wägen Sie das gegen die Häufigkeit der Nutzung ab. Für 10-20 US-Dollar ist es eine kleine, risikoarme Ergänzung zur Liste und kein Hauptkauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Behebt die häufigsten Schäden",
+        "Schnell zu ersetzen",
+        "Günstig"
+      ],
+      "cons": [
+        "Muss exakt zu Ihrem Modell passen",
+        "Immer auf Beschädigungen prüfen, bevor Sie fliegen"
+      ]
+    },
+    {
+      "name": "Eine Umhängetasche oder ein Hartschalenkoffer",
+      "tag": "Alles zusammen transportieren",
+      "body": "Eine Drohne, ein Controller, Akkus, Kabel und Filter ergeben viele Kleinteile. Eine passende Tasche hält sie zusammen und schützt den Gimbal. Hartschalenkoffer sind besser für aufgegebenes Gepäck oder Kofferräume; weiche Umhängetaschen sind besser zum Wandern. Wählen Sie eine mit einem Fach für ein Tablet, wenn Sie es als Bildschirm verwenden. Dafür spricht: Schützt den Gimbal, hält Kleinteile zusammen und erleichtert das schnelle Mitnehmen. Der Kompromiss ist real: Passende Koffer passen nur für ein Modell und Akkus müssen beim Fliegen im Handgepäck mitgeführt werden, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Schützt den Gimbal",
+        "Hält Kleinteile zusammen",
+        "Erleichtert das schnelle Mitnehmen"
+      ],
+      "cons": [
+        "Passende Koffer passen nur für ein Modell",
+        "Akkus müssen beim Fliegen im Handgepäck mitgeführt werden"
+      ]
+    },
+    {
+      "name": "Eine günstige Indoor-Übungsdrohne",
+      "tag": "Fliegen lernen ohne GPS-Hilfe",
+      "body": "GPS-Drohnen sind so stabil, dass Piloten nie lernen, manuell zu fliegen, und dann in Panik geraten, wenn das GPS in der Nähe von Gebäuden oder Bäumen ausfällt. Eine kleine, günstige Indoor-Drohne ohne GPS lehrt echte Stick-Kontrolle im Wohnzimmer, und ein Absturz kostet nichts. Eine Stunde Übung macht Sie ruhiger, wenn die gute Drohne etwas Unerwartetes tut. Dafür spricht: Lehrt echte Stick-Kontrolle, sturzfreundlich und auch toll für Kinder. Der Kompromiss ist real: Kurze Akkulaufzeit und schlechte Kameras und schwer im Freien bei jeglichem Wind zu steuern, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Lehrt echte Stick-Kontrolle",
+        "Sturzfreundlich",
+        "Auch toll für Kinder"
+      ],
+      "cons": [
+        "Kurze Akkulaufzeit und schlechte Kameras",
+        "Schwer im Freien bei jeglichem Wind zu steuern"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Brauche ich eine Lizenz, um in den USA zum Spaß eine Drohne zu fliegen?",
+      "a": "Sie müssen den kostenlosen TRUST-Test bestehen und einen Nachweis mit sich führen. Drohnen über 250 g müssen ebenfalls registriert werden. Kommerzielle Nutzung erfordert ein Part 107-Zertifikat."
+    },
+    {
+      "q": "Warum sind 250 Gramm wichtig?",
+      "a": "Viele Länder, darunter die USA für den Freizeitflug, behandeln Drohnen unter 250 g leichter. Informieren Sie sich vor Reisen mit einer Drohne über die örtlichen Vorschriften."
+    },
+    {
+      "q": "Wie lange halten Drohnenakkus?",
+      "a": "Normalerweise 20-30 Minuten pro Akku bei guten Bedingungen, weniger bei Wind oder Kälte. Die meisten Leute tragen mindestens drei mit sich."
+    },
+    {
+      "q": "Kann ich in einem Nationalpark fliegen?",
+      "a": "US-Nationalparks verbieten in den meisten Fällen Freizeitdrohnenflüge. Überprüfen Sie die Regeln des Parks selbst und die B4UFLY-App."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "backup-storage",
+  "title": "Fotos und Dateien sichern, bevor es zu spät ist",
+  "dek": "Zehn Teile eines Backup-Plans, sortiert danach, wie gut sie schützen, wenn ein Handy gestohlen wird oder ein Laptop den Geist aufgibt. Nichts davon ist kompliziert.",
+  "category": "Technik",
+  "how_we_pick": "Diese Empfehlungen stammen aus veröffentlichten Laufwerkstests, Fehlerberichten von Datenrettungsfirmen und langjährigen Erfahrungen von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel hier persönlich getestet. Speicher ist eine Kategorie voller Angebote mit gefälschter Kapazität, daher waren wir bei Marken und bei der Überprüfung dessen, was ankommt, streng.",
+  "intro": [
+    "Niemand denkt an Backups, bis der Tag kommt, an dem ein Laptop nicht mehr startet oder ein Handy in einen See fällt. Dann ist die Frage einfach: Sind die Fotos der Kinder irgendwo anders gespeichert? Für die meisten Haushalte lautet die ehrliche Antwort: „Einige davon, wahrscheinlich, in einem Cloud-Konto, dessen Passwort niemand mehr kennt.“",
+    "Die Lösung ist eine Regel, die älter ist als die meisten Gadgets: Bewahren Sie drei Kopien auf zwei verschiedenen Speichermedien auf, wobei eine Kopie außerhalb Ihres Zuhauses aufbewahrt wird. Diese Liste baut dieses Setup Stück für Stück auf, in der Reihenfolge, die am wichtigsten ist. Sie brauchen kein Server-Rack. Sie brauchen ein Laufwerk, ein Cloud-Konto und eine Erinnerung.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetierung, nicht als Angebot. Überprüfen Sie immer das Live-Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Eine tragbare SSD mit 1-2 TB von einer bekannten Marke",
+      "tag": "Das Backup-Laufwerk, das Sie zuerst kaufen sollten",
+      "body": "Eine tragbare SSD ist klein, schnell und hat keine beweglichen Teile, sodass sie Stöße übersteht, die rotierende Festplatten zerstören. Das Sichern einer vollständigen Fotobibliothek auf eine dauert Minuten statt eines Abends, was bedeutet, dass Sie es tatsächlich tun werden. Halten Sie sich an bekannte Marken wie Samsung, SanDisk, Crucial oder WD und kaufen Sie in einem offiziellen Geschäft. Eine 1-TB-Festplatte reicht für die meisten Laptops; wählen Sie 2 TB, wenn Sie viele Videos aufnehmen. Schließen Sie sie an, lassen Sie das Backup laufen und bewahren Sie sie vom Computer entfernt auf. Das Argument dafür: schnell genug, damit Backups tatsächlich stattfinden, übersteht Stürze und Reisen, und klein genug, um sie in einer Schublade aufzubewahren. Der Kompromiss ist real: kostet mehr pro Terabyte als eine Festplatte, und gefälschte Angebote „2 TB für 20 €“ sind auf Marktplätzen üblich. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Schnell genug, damit Backups tatsächlich stattfinden",
+        "Übersteht Stürze und Reisen",
+        "Klein genug, um sie in einer Schublade aufzubewahren"
+      ],
+      "cons": [
+        "Kostet mehr pro Terabyte als eine Festplatte",
+        "Gefälschte Angebote „2 TB für 20 €“ sind auf Marktplätzen üblich"
+      ]
+    },
+    {
+      "name": "Ein Cloud-Backup- oder Fotospeicherplan",
+      "tag": "Die externe Kopie",
+      "body": "Ein Laufwerk im selben Haus wie Ihr Laptop hilft bei einem Brand, einer Überschwemmung oder einem Einbruch nicht. Eine Kopie in der Cloud schon. Für Fotos sind iCloud, Google Fotos oder OneDrive-Pläne günstig und funktionieren automatisch von Ihrem Handy aus. Für ganze Computer kopiert ein spezieller Backup-Dienst alles im Hintergrund. Wählen Sie den Plan, der zu den Handys und Computern passt, die Ihre Familie bereits verwendet, und prüfen Sie, wie viel der Familienplan abdeckt. Günstige Jahrespläne sind oft besser als Monatspläne. Das Argument dafür: schützt vor Feuer, Überschwemmung und Diebstahl, automatisch von Handys, und Sie können von überall auf Ihre Fotos zugreifen. Der Kompromiss ist real: laufende Kosten, und der erste Upload ist langsam, und die Synchronisierung ist nicht dasselbe wie ein Backup; Löschungen können ebenfalls synchronisiert werden. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Schützt vor Feuer, Überschwemmung und Diebstahl",
+        "Automatisch von Handys",
+        "Zugriff auf Ihre Fotos von überall"
+      ],
+      "cons": [
+        "Laufende Kosten, und der erste Upload ist langsam",
+        "Synchronisierung ist nicht dasselbe wie Backup; Löschungen können ebenfalls synchronisiert werden"
+      ]
+    },
+    {
+      "name": "Integrierte Backup-Software, aktiviert",
+      "tag": "Automatisch machen",
+      "body": "Macs haben Time Machine und Windows hat die Dateiversionsverlauf. Beide sind kostenlos, beide laufen leise im Hintergrund, sobald Sie ihnen ein Laufwerk zuweisen, und beide behalten ältere Versionen von Dateien, sodass Sie das Dokument von letztem Dienstag wiederherstellen können. Die meisten Leute, die ein Backup-Laufwerk besitzen, schalten diese nie ein. Zehn Minuten Einrichtung verwandeln ein Laufwerk in einer Schublade in ein System, das tatsächlich funktioniert. Wenn das Laufwerk am Schreibtisch angeschlossen bleibt, erfolgen Backups stündlich, ohne dass Sie darüber nachdenken müssen. Das Argument dafür: kostenlos und bereits auf Ihrem Computer, behält ältere Dateiversionen, und läuft ohne Aufwand, sobald eingerichtet. Der Kompromiss ist real: funktioniert nur, wenn das Laufwerk angeschlossen ist, und die Wiederherstellung erfordert beim ersten Mal etwas Lesearbeit. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Kostenlos und bereits auf Ihrem Computer",
+        "Behält ältere Dateiversionen",
+        "Läuft ohne Aufwand, sobald eingerichtet"
+      ],
+      "cons": [
+        "Funktioniert nur, wenn das Laufwerk angeschlossen ist",
+        "Die Wiederherstellung erfordert beim ersten Mal etwas Lesearbeit"
+      ]
+    },
+    {
+      "name": "Eine große externe Festplatte",
+      "tag": "Große Foto- und Videoarchive",
+      "body": "Für ein ganzes Leben an Fotos und Heimvideos sind rotierende Festplatten immer noch die günstigste Speicherlösung pro Terabyte, und zwar mit großem Abstand. Eine 4-8 TB Desktop-Festplatte fasst ein Archiv, das als SSD viel kosten würde. Sie sind langsamer und empfindlicher, behandeln Sie sie also eher als zweite Kopie, die still auf einem Regal liegt, als etwas, das Sie mit sich herumtragen. Wieder bekannte Marken: WD, Seagate oder Toshiba aus einem offiziellen Geschäft. Das Argument dafür: niedrigste Kosten pro Terabyte, fasst Jahre von Fotos und Videos, und gute zweite Kopie neben einer SSD. Der Kompromiss ist real: empfindlich, wenn sie während des Betriebs herunterfällt, und benötigt für die meisten Desktop-Modelle Netzstrom. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Niedrigste Kosten pro Terabyte",
+        "Fasst Jahre von Fotos und Videos",
+        "Gute zweite Kopie neben einer SSD"
+      ],
+      "cons": [
+        "Empfindlich, wenn sie während des Betriebs herunterfällt",
+        "Benötigt Netzstrom für die meisten Desktop-Modelle"
+      ]
+    },
+    {
+      "name": "Ein NAS mit zwei Einschüben",
+      "tag": "Familien mit mehreren Computern",
+      "body": "Eine Netzwerkspeicherbox steht in Ihrem Heimnetzwerk und sichert jeden Computer im Haus, streamt Ihre Medien und kann sich selbst in die Cloud kopieren. Mit zwei gespiegelten Laufwerken kann eines ausfallen, ohne dass etwas verloren geht. Synology und QNAP sind die üblichen Namen. Dies ist die richtige Lösung für eine Familie mit drei Laptops und einem Fotografen im Haus, aber die falsche Lösung für jemanden, der es einrichten und vergessen möchte. Es erfordert etwas Pflege und gelegentliche Updates. Das Argument dafür: sichert jeden Computer gleichzeitig, gespiegelte Laufwerke überstehen einen Ausfall, und kann seine eigene Kopie in die Cloud übertragen. Der Kompromiss ist real: erfordert etwas Einrichtung und Wartung, und die Laufwerke sind separate Kosten. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Sichert jeden Computer gleichzeitig",
+        "Gespiegelte Laufwerke überstehen einen Ausfall",
+        "Kann seine eigene Kopie in die Cloud übertragen"
+      ],
+      "cons": [
+        "Erfordert etwas Einrichtung und Wartung",
+        "Laufwerke sind separate Kosten"
+      ]
+    },
+    {
+      "name": "Ein schneller USB-C-Kartenleser",
+      "tag": "Fotografen und Drohnenbesitzer",
+      "body": "Kamera- und Drohnenaufnahmen verbleiben oft nur auf der Speicherkarte, bis sie wiederverwendet wird. Ein schneller Kartenleser macht das Auslagern schmerzfrei, was bedeutet, dass Sie es am selben Tag tun, anstatt nächsten Monat. Achten Sie auf UHS-II-Unterstützung, wenn Ihre Kamera diese Karten verwendet, und auf USB-C, damit es mit modernen Laptops und Tablets funktioniert. Integrierte Laptop-Lesegeräte sind oft langsam oder fehlen ganz. Das Argument dafür: am selben Tag auslagern, nicht nächsten Monat, funktioniert mit Laptops und Tablets, und viel schneller als die meisten integrierten Lesegeräte. Der Kompromiss ist real: günstige Lesegeräte sind viel langsamer, als sie behaupten, und prüfen Sie, ob es Ihren Kartentyp unterstützt. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Am selben Tag auslagern, nicht nächsten Monat",
+        "Funktioniert mit Laptops und Tablets",
+        "Viel schneller als die meisten integrierten Lesegeräte"
+      ],
+      "cons": [
+        "Günstige Lesegeräte sind viel langsamer, als sie behaupten",
+        "Prüfen Sie, ob es Ihren Kartentyp unterstützt"
+      ]
+    },
+    {
+      "name": "Ein Tool zur Überprüfung der Laufwerkskapazität",
+      "tag": "Erkennung von Laufwerken mit gefälschter Kapazität",
+      "body": "Marktplätze sind voller „2 TB“-Flash-Laufwerke und SSDs, die eigentlich 32-GB-Chips sind, die darauf programmiert sind, zu lügen. Sie scheinen zu funktionieren und verlieren dann stillschweigend alles, was über die tatsächliche Kapazität hinausgeht. Kostenlose Tools wie H2testw unter Windows oder F3 unter Mac und Linux schreiben Testdaten über das gesamte Laufwerk und prüfen, ob sie korrekt gelesen werden. Führen Sie eines davon auf jedem neuen Speicher aus, bevor Sie ihm echte Dateien anvertrauen. Wenn ein Preis für die Kapazität unmöglich niedrig erscheint, ist er gefälscht. Das Argument dafür: erkennt Laufwerke mit gefälschter Kapazität, bevor sie Daten fressen, kostenlos und einfach auszuführen. Der Kompromiss ist real: ein vollständiger Test dauert Stunden auf großen Laufwerken und löscht das Laufwerk. Führen Sie es also aus, bevor Sie Dateien hinzufügen. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Erkennt Laufwerke mit gefälschter Kapazität, bevor sie Daten fressen",
+        "Kostenlos",
+        "Einfach auszuführen"
+      ],
+      "cons": [
+        "Ein vollständiger Test dauert Stunden auf großen Laufwerken",
+        "Löscht das Laufwerk, also führen Sie es aus, bevor Sie Dateien hinzufügen"
+      ]
+    },
+    {
+      "name": "Eine gepolsterte Laufwerkstasche",
+      "tag": "Laufwerke, die mitreisen",
+      "body": "Wenn Ihr Backup-Laufwerk mit auf Reisen geht, bewahren Sie es in einer kleinen Hartschalenbox mit seinem Kabel auf. Es verhindert den verbogenen Anschluss und das Rissgehäuse, die die meisten tragbaren Laufwerke zerstören, und es verhindert, dass das Kabel verloren geht. Wählen Sie eine mit einer Netztasche für ein zweites Kabel oder einen Kartenleser. Es ist eine Kleinigkeit, aber es hält das Backup-Kit zusammen. Das Argument dafür: schützt den Anschluss und das Gehäuse, bewahrt das Kabel beim Laufwerk auf und ist günstig. Der Kompromiss ist real: muss zur Größe Ihres Laufwerks passen und fügt eine kleine Tasche hinzu. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Schützt den Anschluss und das Gehäuse",
+        "Bewahrt das Kabel beim Laufwerk auf",
+        "Günstig"
+      ],
+      "cons": [
+        "Muss zur Größe Ihres Laufwerks passen",
+        "Fügt eine kleine Tasche hinzu"
+      ]
+    },
+    {
+      "name": "Ein Passwort-Manager",
+      "tag": "Das Cloud-Konto selbst nicht verlieren",
+      "body": "Ein Cloud-Backup ist nur nützlich, wenn Sie sich anmelden können, wenn Ihr Handy weg ist. Leute verlieren den Zugriff auf jahrelange Fotos, weil das Passwort und die Zwei-Faktor-Codes auf dem Gerät lebten, das kaputt ging. Ein Passwort-Manager speichert Anmeldungen sicher und ermöglicht es einem vertrauenswürdigen Familienmitglied, sich anzumelden, wenn Ihnen etwas zustößt. Bitwarden hat einen soliden kostenlosen Plan; 1Password ist die einfachere kostenpflichtige Option. Speichern Sie auch Ihre Wiederherstellungscodes darin. Das Argument dafür: sichert den Cloud-Zugriff, wenn ein Handy verloren geht, Familienfreigabe für Notfälle und speichert Wiederherstellungscodes. Der Kompromiss ist real: ein weiteres Konto, das gut gesichert werden muss, und es dauert einen Abend, alte Passwörter zu übertragen. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Sichert den Cloud-Zugriff, wenn ein Handy verloren geht",
+        "Familienfreigabe für Notfälle",
+        "Speichert Wiederherstellungscodes"
+      ],
+      "cons": [
+        "Ein weiteres Konto, das gut gesichert werden muss",
+        "Es dauert einen Abend, alte Passwörter zu übertragen"
+      ]
+    },
+    {
+      "name": "Eine Kalendererinnerung",
+      "tag": "Der Teil, den jeder übersieht",
+      "body": "Jeder Backup-Plan scheitert auf die gleiche Weise: Er funktioniert zwei Monate lang und dann schließt niemand mehr das Laufwerk an. Eine wiederkehrende Erinnerung zum Monatsanfang, das Laufwerk anzuschließen und zu überprüfen, ob die Cloud noch synchronisiert, kostet nichts und ist der Unterschied zwischen einem Backup und einem Laufwerk voller Dateien vom letzten Jahr. Versuchen Sie einmal im Jahr, eine Datei wiederherzustellen, um zu beweisen, dass es funktioniert. Das Argument dafür: hält das gesamte System ehrlich, dauert fünf Minuten im Monat und erkennt stille Synchronisationsfehler. Der Kompromiss ist real: funktioniert nur, wenn Sie es tatsächlich tun, und testen Sie eine Wiederherstellung mindestens einmal im Jahr. Wägen Sie das ab gegen die Häufigkeit der tatsächlichen Nutzung.",
+      "pros": [
+        "Hält das gesamte System ehrlich",
+        "Dauert fünf Minuten im Monat",
+        "Erkennt stille Synchronisationsfehler"
+      ],
+      "cons": [
+        "Funktioniert nur, wenn Sie es tatsächlich tun",
+        "Testen Sie eine Wiederherstellung mindestens einmal im Jahr"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Reicht iCloud oder Google Fotos allein aus?",
+      "a": "Es ist eine gute externe Kopie, aber die Synchronisierung kann Löschungen verbreiten und Kontosperrungen passieren. Behalten Sie auch eine Laufwerkskopie."
+    },
+    {
+      "q": "SSD oder Festplatte für Backups?",
+      "a": "SSD für ein Laufwerk, das Sie mitnehmen oder oft verwenden; Festplatte für ein großes Archiv, das auf einem Regal liegt. Viele Leute verwenden eines von beiden."
+    },
+    {
+      "q": "Wie erkenne ich ein gefälschtes Laufwerk?",
+      "a": "Der Preis ist der Hinweis. Eine 2-TB-SSD für 25 € ist nicht echt. Kaufen Sie bekannte Marken in offiziellen Geschäften und führen Sie bei Ankunft einen Kapazitätstest durch."
+    },
+    {
+      "q": "Wie oft sollte ich ein Backup erstellen?",
+      "a": "Handys sollten kontinuierlich in der Cloud gesichert werden. Computer sollten automatische Backups ausführen, mit einer monatlichen Überprüfung, ob sie noch funktionieren."
+    }
+  ]
+}

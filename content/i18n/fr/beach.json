@@ -1,0 +1,172 @@
+{
+  "slug": "beach",
+  "title": "Une trousse pour la plage qui maîtrise le sable, le soleil et le vent",
+  "dek": "Dix achats pour la plage classés selon leur capacité à améliorer votre journée. L'ombre et l'eau d'abord, les gadgets ensuite.",
+  "category": "Extérieur",
+  "how_we_pick": "Ces choix proviennent de tests publiés, de conseils de dermatologues sur la sécurité solaire, de communautés de plagistes et de rapports d'utilisateurs à long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article. Nous avons privilégié le matériel qui résiste au vent et se range facilement.",
+  "intro": [
+    "Une journée à la plage semble simple jusqu'à ce que vous transportiez tout du parking sur le sable chaud, que le parasol se retourne au premier coup de vent, et que les enfants attrapent des coups de soleil avant le déjeuner. Le matériel de plage échoue face au vent, à la chaleur et au trajet. Les parasols bon marché et les chaises fragiles constituent une grande partie de ce qui finit abandonné dans les poubelles de plage à la fin de l'été.",
+    "Cette liste est classée selon ce qui rend la journée meilleure : l'ombre, l'eau et la protection d'abord, puis le confort et le transport. Achetez en fonction du vent de votre plage ; cela compte plus que tout.",
+    "Les prix indiqués ci-dessous sont des prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Un abri de plage ancré dans le sable ou une tente solaire",
+      "tag": "De l'ombre qui reste en place",
+      "body": "Les parasols bon marché se retournent au vent. Les abris en tissu qui s'ancrent avec des sacs de sable, comme les modèles de style Shibumi, ou les tentes solaires pop-up avec poches à sable tiennent beaucoup mieux et offrent plus d'ombre. Recherchez un tissu UPF 50 et un design qui fonctionne avec le vent de votre plage habituelle. Entraînez-vous à l'installer à la maison d'abord. L'argument : une ombre fiable toute la journée, meilleure tenue au vent que les parasols, et tissu certifié UPF. Le compromis est réel : certains nécessitent un vent constant pour rester droits et les tentes pop-up peuvent être difficiles à plier, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Une ombre fiable toute la journée",
+        "Meilleure tenue au vent que les parasols",
+        "Tissu certifié UPF"
+      ],
+      "cons": [
+        "Certains nécessitent un vent constant pour rester droits",
+        "Les tentes pop-up peuvent être difficiles à plier"
+      ]
+    },
+    {
+      "name": "Une crème solaire minérale et un rashguard anti-UV",
+      "tag": "Protection solaire",
+      "body": "Le coup de soleil est la blessure de plage la plus courante. Utilisez un écran solaire à large spectre SPF 30 ou plus, réappliquez toutes les deux heures et après la baignade. Les crèmes solaires minérales à base de zinc ou de titane sont douces pour la peau des enfants. Un rashguard UPF protège les épaules et le dos sans réapplication, ce qui aide beaucoup avec les enfants. Vérifiez les règles locales ; certaines plages interdisent certains ingrédients de crème solaire. L'argument : prévient les coups de soleil, les rashguards ne nécessitent pas de réapplication, et conviennent aux enfants. Le compromis est réel : la crème solaire minérale peut laisser un film blanc et doit être réappliquée après la baignade, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Prévient les coups de soleil",
+        "Les rashguards ne nécessitent pas de réapplication",
+        "Convient aux enfants"
+      ],
+      "cons": [
+        "La crème solaire minérale peut laisser un film blanc",
+        "Doit être réappliquée après la baignade"
+      ]
+    },
+    {
+      "name": "Une glacière souple ou un sac isotherme",
+      "tag": "Boissons fraîches toute la journée",
+      "body": "Une glacière souple avec une isolation épaisse garde les boissons et la nourriture au frais pendant une journée et se transporte plus confortablement qu'une boîte rigide. Recherchez une doublure étanche et une bandoulière. Congelez des bouteilles d'eau pour les utiliser comme blocs de glace, et buvez-les au fur et à mesure qu'elles fondent. L'argument : garde les aliments en sécurité et les boissons au frais, facile à transporter, et se plie une fois vide. Le compromis est réel : moins de rétention de glace que les glacières rigides et les fermetures éclair bon marché fuient, alors pesez cela par rapport à la fréquence d'utilisation. Prix autour de 30-80 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Garde les aliments en sécurité et les boissons au frais",
+        "Facile à transporter",
+        "Se plie une fois vide"
+      ],
+      "cons": [
+        "Moins de rétention de glace que les glacières rigides",
+        "Les fermetures éclair bon marché fuient"
+      ]
+    },
+    {
+      "name": "Serviettes de plage microfibre sans sable",
+      "tag": "Serviettes qui se secouent facilement",
+      "body": "Les serviettes épaisses en coton retiennent le sable et l'eau et restent humides. Les serviettes microfibre sans sable se secouent facilement, sèchent rapidement et se rangent en petit format. Elles sont plus fines, alors prévoyez-en une par personne pour s'asseoir et une pour se sécher si vous préférez plus de confort. L'argument : le sable s'enlève facilement, sèche rapidement et se range en petit format. Le compromis est réel : elles sont plus fines que le coton et peuvent attraper des peluches au lavage, alors pesez cela par rapport à la fréquence d'utilisation. À 20-40 $, elles méritent leur place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Le sable s'enlève facilement",
+        "Sèche rapidement",
+        "Se range en petit format"
+      ],
+      "cons": [
+        "Plus fines que le coton",
+        "Peuvent attraper des peluches au lavage"
+      ]
+    },
+    {
+      "name": "Chariot de plage à roues larges",
+      "tag": "Pour transporter tout le matériel sur le sable",
+      "body": "Pour les familles, le trajet jusqu'au sable est la partie la plus difficile. Un chariot pliable à roues larges de type ballon roule sur le sable mou où les roues normales s'enfoncent. Il transporte la glacière, les chaises, l'abri et les jouets en un seul voyage. Vérifiez la largeur des roues ; les roues étroites sont inutiles sur les plages de sable fin. L'argument : un seul trajet depuis la voiture, les roues larges fonctionnent sur le sable, et se plie pour le rangement. Le compromis est réel : encombrant dans la voiture et les roues étroites s'enfoncent dans le sable mou, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Un seul trajet depuis la voiture",
+        "Les roues larges fonctionnent sur le sable",
+        "Se plie pour le rangement"
+      ],
+      "cons": [
+        "Encombrant dans la voiture",
+        "Les roues étroites s'enfoncent dans le sable mou"
+      ]
+    },
+    {
+      "name": "Chaises de plage basses type sac à dos",
+      "tag": "Assise confortable",
+      "body": "Les chaises basses sont plus stables sur le sable et vous permettent de vous asseoir près de l'eau. Les bretelles de sac à dos libèrent vos mains pour d'autres équipements. Recherchez des cadres en aluminium résistant à la rouille et une poche ou un porte-gobelet. Rincez après utilisation ; le sel corrode les articulations. L'argument : confortable pendant des heures, se porte sur le dos, et stable sur le sable. Le compromis est réel : les sièges bas sont plus difficiles à quitter et nécessitent un rinçage pour éviter la rouille, alors pesez cela par rapport à la fréquence d'utilisation. Prix autour de 30-60 $ chacune, il est facile de le justifier même si elles ne sont utilisées qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Confortable pendant des heures",
+        "Se porte sur le dos",
+        "Stable sur le sable"
+      ],
+      "cons": [
+        "Les sièges bas sont plus difficiles à quitter",
+        "Nécessite un rinçage pour éviter la rouille"
+      ]
+    },
+    {
+      "name": "Bouteilles d'eau isothermes",
+      "tag": "Eau fraîche par temps chaud",
+      "body": "Le soleil brûlant, l'eau salée et l'activité physique déshydratent rapidement. Les bouteilles isothermes en acier gardent l'eau froide toute la journée, même en plein soleil. Une par personne évite les disputes. Remplissez depuis la glacière. L'argument : eau froide toute la journée, réduit les déchets plastiques, et durable. Le compromis est réel : plus lourdes que les bouteilles en plastique et le sable se coince dans les filets du couvercle, alors pesez cela par rapport à la fréquence d'utilisation. À 20-35 $, elles méritent leur place sur cette liste sans demander un gros engagement initial, quelle que soit l'option. Comme pour tout sur cette liste, vérifiez les détails exacts de l'annonce et le prix actuel avant de l'ajouter au panier.",
+      "pros": [
+        "Eau froide toute la journée",
+        "Réduit les déchets plastiques",
+        "Durable"
+      ],
+      "cons": [
+        "Plus lourdes que les bouteilles en plastique",
+        "Le sable se coince dans les filets du couvercle"
+      ]
+    },
+    {
+      "name": "Pochette de téléphone étanche",
+      "tag": "Téléphones près de l'eau",
+      "body": "Le sable et l'eau tuent les téléphones. Une pochette étanche transparente garde le téléphone utilisable pour les photos et les messages tout en le protégeant des éclaboussures et du sable. Testez-la avec un mouchoir à l'intérieur avant de lui confier votre téléphone. Certaines flottent, ce qui est utile sur les bateaux. L'argument : protège du sable et de l'eau, bon marché, et permet toujours de prendre des photos. Le compromis est réel : les écrans tactiles sont plus difficiles à utiliser à travers le plastique et il faut tester l'étanchéité d'abord, alors pesez cela par rapport à la fréquence d'utilisation. Pour 8-15 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel il faut réfléchir sérieusement.",
+      "pros": [
+        "Protège du sable et de l'eau",
+        "Bon marché",
+        "Permet toujours de prendre des photos"
+      ],
+      "cons": [
+        "Les écrans tactiles sont plus difficiles à utiliser à travers le plastique",
+        "Tester l'étanchéité d'abord"
+      ]
+    },
+    {
+      "name": "Chaussures d'eau",
+      "tag": "Sable chaud et rochers",
+      "body": "Le sable à midi peut brûler les pieds, et les plages rocheuses, les coquillages et les oursins font mal. Les chaussures d'eau à séchage rapide protègent les pieds dans et hors de l'eau. Les enfants en bénéficient particulièrement. Elles conviennent aussi pour les balades en rivière et les abords de piscine. L'argument : protège du sable chaud et des rochers, séchage rapide, et idéal pour les enfants. Le compromis est réel : le sable entre à l'intérieur et les tailles sont petites chez certains vendeurs, alors pesez cela par rapport à la fréquence d'utilisation. Prix autour de 15-30 $, il est facile de les justifier même si elles ne sont utilisées qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Protège du sable chaud et des rochers",
+        "Séchage rapide",
+        "Idéal pour les enfants"
+      ],
+      "cons": [
+        "Le sable entre à l'intérieur",
+        "Les tailles sont petites chez certains vendeurs"
+      ]
+    },
+    {
+      "name": "Sac en filet pour jouets de plage",
+      "tag": "Pelles et seaux pour enfants",
+      "body": "Les jouets de plage ramènent la moitié de la plage à la maison. Un sac en filet permet de secouer et rincer les jouets et de laisser le sable derrière. Les grands sacs servent aussi de sac à linge pour les serviettes mouillées. L'argument : laisse le sable à la plage, facile à rincer, et bon marché. Le compromis est réel : les petits objets passent à travers les mailles larges et le filet peut se déchirer sur des jouets pointus, alors pesez cela par rapport à la fréquence d'utilisation. À 10-20 $, il mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Laisse le sable à la plage",
+        "Facile à rincer",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les petits objets passent à travers les mailles larges",
+        "Le filet peut se déchirer sur des jouets pointus"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel est le meilleur abri de plage pour les plages venteuses ?",
+      "a": "Les abris en tissu ancrés par des sacs de sable ou les tentes pop-up tiennent mieux que les parasols. Ancrez-les bien."
+    },
+    {
+      "q": "À quelle fréquence dois-je réappliquer la crème solaire ?",
+      "a": "Toutes les deux heures et après la baignade ou s'être essuyé."
+    },
+    {
+      "q": "Comment garder la nourriture au frais à la plage ?",
+      "a": "Une glacière bien isolée, des bouteilles d'eau congelées comme blocs de glace, et la garder à l'ombre."
+    },
+    {
+      "q": "Les serviettes sans sable fonctionnent-elles vraiment ?",
+      "a": "La plupart du temps, oui. Le sable s'enlève beaucoup plus facilement qu'avec du coton."
+    }
+  ]
+}

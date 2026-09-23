@@ -1,0 +1,172 @@
+{
+  "slug": "pizza",
+  "title": "Pizza casera que sabe a pizzería",
+  "dek": "Diez cosas para una mejor pizza casera, clasificadas por lo que hacen por la masa. El calor lo es todo, y puedes conseguir la mayor parte en un horno normal.",
+  "category": "Cocina",
+  "how_we_pick": "Estas selecciones provienen de pruebas publicadas, comunidades de elaboración de pizza e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Favorecimos las herramientas que funcionan primero en un horno doméstico normal.",
+  "intro": [
+    "La pizza casera suele decepcionar por una razón: el horno no está lo suficientemente caliente. Un horno de pizzería funciona a 400-500°C. Un horno doméstico alcanza un máximo de unos 260°C, y una bandeja fina no retiene ese calor, por lo que la masa se hornea pálida y panosa antes de que se haga la parte superior.",
+    "Esta lista está ordenada por cuánto cierra cada artículo esa brecha. La primera selección cuesta menos que un pedido para llevar y transforma la pizza de un horno normal. El horno de exterior se sitúa más abajo porque es el mayor gasto y solo vale la pena una vez que te enganchas.",
+    "Los precios a continuación son precios aproximados de calle en el momento de escribir estas líneas y cambian constantemente, especialmente durante las rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Comprueba siempre el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Una plancha de acero o piedra para pizza gruesa",
+      "tag": "La mejora que arregla la masa",
+      "body": "Una plancha de acero o piedra gruesa absorbe el calor durante el precalentamiento y lo vierte sobre la masa cuando la pizza aterriza, lo que da una base crujiente y ampollada en un horno normal. El acero conduce el calor más rápido que la piedra, por lo que se hornea más rápido y se dora mejor a las temperaturas de los hornos domésticos. Precalienta durante 45 minutos a una hora en el estante superior de tu horno. El acero es pesado pero no se agrieta; las piedras son más ligeras pero pueden romperse por cambios bruscos de temperatura. El argumento a favor: base crujiente y dorada en un horno normal, también genial para pan, y dura para siempre. La contrapartida es real: el acero es muy pesado y necesita un precalentamiento largo, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Base crujiente y dorada en un horno normal",
+        "También genial para pan",
+        "Dura para siempre"
+      ],
+      "cons": [
+        "El acero es muy pesado",
+        "Necesita un precalentamiento largo"
+      ]
+    },
+    {
+      "name": "Una pala para pizza",
+      "tag": "Deslizar la pizza dentro y fuera",
+      "body": "Transferir una pizza flácida a una plancha caliente sin pala es la forma en que los ingredientes terminan en el suelo del horno. Una pala de madera es mejor para lanzar porque la masa se pega menos a la madera; una pala de metal fina es mejor para girar y recuperar. Espolvorea con sémola para que la pizza se deslice. Empieza con una y añade la otra si te pones serio. El argumento a favor: hace posible lanzar pizzas, la sémola ayuda a que se deslice y es barata. La contrapartida es real: lanzar requiere práctica y las palas de madera son gruesas para girar, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Hace posible lanzar pizzas",
+        "La sémola ayuda a que se deslice",
+        "Barata"
+      ],
+      "cons": [
+        "Lanzar requiere práctica",
+        "Las palas de madera son gruesas para girar"
+      ]
+    },
+    {
+      "name": "Una báscula de cocina digital",
+      "tag": "Masa consistente",
+      "body": "La masa es química, y las tazas de harina varían hasta un 20 por ciento dependiendo de cómo las midas. Una báscula digital barata hace que cada tanda sea igual. La mayoría de las buenas recetas de pizza están escritas en gramos y porcentajes por esta razón. La usarás para toda tu repostería. El argumento a favor: masa consistente cada vez, sigue recetas basadas en gramos y es útil para toda la repostería. La contrapartida es real: necesita pilas y consigue una que mida hasta 1g, así que sopesa eso frente a la frecuencia con la que se usaría. Con un precio de entre 12 y 25 dólares, es fácil de justificar, incluso si solo acaba usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Masa consistente cada vez",
+        "Sigue recetas basadas en gramos",
+        "Útil para toda la repostería"
+      ],
+      "cons": [
+        "Necesita pilas",
+        "Consigue una que mida hasta 1g"
+      ]
+    },
+    {
+      "name": "Harina Tipo 00 o de fuerza",
+      "tag": "Masa que se estira",
+      "body": "La harina de todo uso hace una masa más suave y débil que se rasga. La harina italiana 00 se muele fina para hornos muy calientes; la harina de fuerza tiene más proteína y se adapta a hornos domésticos y al estilo de Nueva York. Si tu horno solo alcanza los 260°C, la harina de fuerza o una harina 00 hecha para hornos domésticos a menudo se dora mejor. Prueba ambas. El argumento a favor: masa más elástica y fuerte, mejor textura y barata. La contrapartida es real: la 00 clásica se dora mal en hornos domésticos y se guarda en un recipiente hermético, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Masa más elástica y fuerte",
+        "Mejor textura",
+        "Barata"
+      ],
+      "cons": [
+        "La 00 clásica se dora mal en hornos domésticos",
+        "Guardar en un recipiente hermético"
+      ]
+    },
+    {
+      "name": "Un termómetro infrarrojo",
+      "tag": "Conocer la temperatura de la superficie",
+      "body": "El dial del horno te dice la temperatura del aire, no la del acero. Un termómetro infrarrojo muestra la temperatura real de la superficie en un segundo, para que sepas cuándo está lista para lanzar. Es esencial con los hornos de pizza de exterior, donde la piedra puede estar muy caliente en la parte trasera y más fría en la delantera. El argumento a favor: muestra el calor real de la superficie, esencial para hornos de exterior y útil para sartenes y planchas. La contrapartida es real: no mide la temperatura del aire y las superficies brillantes dan lecturas inexactas, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Muestra el calor real de la superficie",
+        "Esencial para hornos de exterior",
+        "Útil para sartenes y planchas"
+      ],
+      "cons": [
+        "No mide la temperatura del aire",
+        "Las superficies brillantes dan lecturas inexactas"
+      ]
+    },
+    {
+      "name": "Un cortador de pizza rocker o de rueda",
+      "tag": "Porciones limpias",
+      "body": "Una rueda desafilada arrastra los ingredientes de la pizza. Una rueda afilada con protector, o una cuchilla rocker larga, corta limpiamente de una sola pasada. Las cuchillas rocker son más rápidas para pizzas grandes y más fáciles de limpiar. Protege tu plancha o pala; corta sobre una tabla. El argumento a favor: porciones limpias sin arrastrar ingredientes, rápido y barato. La contrapartida es real: los rockers necesitan mucha longitud de almacenamiento y no cortan sobre tu plancha, así que sopesa eso frente a la frecuencia con la que se usaría. Con un precio de entre 10 y 25 dólares, es fácil de justificar, incluso si solo acaba usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Porciones limpias sin arrastrar ingredientes",
+        "Rápido",
+        "Barato"
+      ],
+      "cons": [
+        "Los rockers necesitan mucha longitud de almacenamiento",
+        "No cortan sobre tu plancha"
+      ]
+    },
+    {
+      "name": "Recipientes para fermentar masa",
+      "tag": "Masa fácil de un día para otro",
+      "body": "La mejor masa de pizza se hace uno o más días antes y se deja reposar en la nevera, lo que desarrolla el sabor y facilita su estiramiento. Los recipientes con tapa o una caja de fermentación evitan que las bolas de masa se sequen y se peguen entre sí. Los recipientes redondos individuales se apilan ordenadamente en la nevera. El argumento a favor: mejor sabor por fermentación lenta, evita que la masa se seque y son apilables. La contrapartida es real: ocupan espacio en la nevera y la masa aún necesita tiempo fuera de la nevera antes de usarla, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Mejor sabor por fermentación lenta",
+        "Evita que la masa se seque",
+        "Apilables"
+      ],
+      "cons": [
+        "Ocupan espacio en la nevera",
+        "La masa aún necesita tiempo fuera de la nevera antes de usarla"
+      ]
+    },
+    {
+      "name": "Un horno de pizza portátil de exterior",
+      "tag": "Pizza estilo napolitana",
+      "body": "Los hornos portátiles de gas o pellets de madera de Ooni, Gozney y marcas similares alcanzan los 450°C o más y cocinan una pizza en aproximadamente un minuto, con la masa moteada que no se puede conseguir en interiores. Son el mayor gasto aquí y necesitan espacio exterior y práctica; las pizzas se queman en segundos si no prestas atención. Los modelos de gas son más fáciles que los de leña. El argumento a favor: calor real de nivel de pizzería, pizzas de un minuto y diversión para fiestas. La contrapartida es real: las pizzas se queman rápidamente mientras aprendes y necesitan espacio exterior y combustible, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Calor real de nivel de pizzería",
+        "Pizzas de un minuto",
+        "Diversión para fiestas"
+      ],
+      "cons": [
+        "Las pizzas se queman rápidamente mientras aprendes",
+        "Necesitan espacio exterior y combustible"
+      ]
+    },
+    {
+      "name": "Una sartén de hierro fundido",
+      "tag": "Estilo deep-dish y Detroit",
+      "body": "No toda la pizza es fina. Las pizzas en sartén, estilo Detroit y deep-dish se hornean maravillosamente en hierro fundido, con bordes crujientes y fritos, y se adaptan perfectamente a los hornos domésticos. Una sartén de 25 o 30 cm que ya tengas servirá. Es la forma más fácil de impresionar con pizza casera. El argumento a favor: genial para pizza en sartén y deep-dish, se adapta perfectamente a hornos domésticos y se usa para todo lo demás también. La contrapartida es real: pesada y necesita cuidado en el curado, así que sopesa eso frente a la frecuencia con la que se usaría. Con un precio de entre 25 y 45 dólares, es fácil de justificar, incluso si solo acaba usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Genial para pizza en sartén y deep-dish",
+        "Se adapta perfectamente a hornos domésticos",
+        "Se usa para todo lo demás también"
+      ],
+      "cons": [
+        "Pesada",
+        "Necesita cuidado en el curado"
+      ]
+    },
+    {
+      "name": "Una rejilla para pizza o sartén perforada",
+      "tag": "Base crujiente sin piedra",
+      "body": "Si una plancha de acero no es práctica, una sartén perforada o una rejilla para pizza permite que el calor llegue a la base y escape la humedad, para que se ponga más crujiente que una bandeja de horno sólida. Es barata, ligera y también buena para recalentar pizza para llevar. El argumento a favor: mejor que una bandeja de horno plana, barata y ligera, y genial para recalentar. La contrapartida es real: no tan crujiente como una plancha de acero y la masa puede hundirse en las rejillas, así que sopesa eso frente a la frecuencia con la que se usaría. Por 10-20 dólares, se gana su lugar en esta lista sin pedir una gran inversión inicial de ninguna manera.",
+      "pros": [
+        "Mejor que una bandeja de horno plana",
+        "Barata y ligera",
+        "Genial para recalentar"
+      ],
+      "cons": [
+        "No tan crujiente como una plancha de acero",
+        "La masa puede hundirse en las rejillas"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Puedo hacer buena pizza en un horno normal?",
+      "a": "Sí. Precalienta una plancha de acero a la temperatura más alta durante una hora y hornea en el estante superior."
+    },
+    {
+      "q": "¿Piedra o acero?",
+      "a": "El acero se dora más rápido y no se agrieta. La piedra es más ligera y barata."
+    },
+    {
+      "q": "¿Vale la pena un horno de pizza de exterior?",
+      "a": "Si haces pizza a menudo y tienes espacio exterior, sí. Domina una plancha de acero primero."
+    },
+    {
+      "q": "¿Qué harina debo usar?",
+      "a": "Harina de fuerza para hornos domésticos y estilo Nueva York; harina 00 para hornos de exterior muy calientes."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "stargazing",
+  "title": "Observer le ciel : le matériel indispensable avant d'acheter un télescope",
+  "dek": "Dix choses à avoir pour débuter en astronomie, classées selon ce qu'elles vous permettent de voir en plus du ciel nocturne. Le télescope n'est pas le premier achat.",
+  "category": "Outdoor",
+  "how_we_pick": "Ces recommandations proviennent de clubs d'astronomie, de tests d'équipement publiés et de retours d'utilisateurs à long terme, recoupés avec les offres actuelles du commerce. Nous n'avons pas testé personnellement chaque article. Ne regardez jamais le Soleil à travers des jumelles ou un télescope sans filtre solaire certifié.",
+  "intro": [
+    "La première erreur classique du débutant en astronomie est d'acheter un télescope bon marché dans un grand magasin. Ça tremble, les promesses de grossissement sont fantaisistes, et trouver quoi que ce soit avec est tellement frustrant que l'appareil finit au garage en moins d'un mois. Le ciel nocturne s'apprend mieux d'abord avec vos yeux, une application et une paire de jumelles.",
+    "Cette liste est classée selon ce que chaque article vous ouvre de plus dans le ciel pour le prix. Plusieurs ne coûtent rien. Le télescope intervient quand vous savez ce que vous voulez observer.",
+    "Les prix indiqués sont les prix publics approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les soldes. Considérez-les comme une fourchette budgétaire, pas un devis. Vérifiez toujours le prix en ligne avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Jumelles 7x50 ou 10x50",
+      "tag": "Le premier achat à faire",
+      "body": "Les jumelles révèlent les cratères de la Lune, les lunes de Jupiter, les amas d'étoiles et la galaxie d'Andromède, et elles sont faciles à utiliser dès la première nuit. Les chiffres indiquent le grossissement et la taille de l'objectif en millimètres ; les objectifs de 50 mm collectent beaucoup de lumière. Les 7x50 sont plus faciles à tenir stables ; les 10x50 montrent plus de détails. Cherchez des lentilles entièrement traitées multicouches et des prismes BaK-4. Elles sont aussi utiles pour observer les oiseaux et en voyage. L'argument en leur faveur : faciles à utiliser dès le premier jour, montrent bien plus que vos yeux seuls, et utiles pour d'autres loisirs. Le compromis : difficiles à tenir stables longtemps et les modèles bon marché ont des bords flous, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Faciles à utiliser dès le premier jour",
+        "Montrent bien plus que vos yeux seuls",
+        "Utiles pour d'autres loisirs"
+      ],
+      "cons": [
+        "Difficiles à tenir stables longtemps",
+        "Les modèles bon marché ont des bords flous"
+      ]
+    },
+    {
+      "name": "Une application de carte du ciel",
+      "tag": "Savoir ce que l'on regarde",
+      "body": "Pointez votre téléphone vers le ciel et des applications comme Stellarium, SkySafari ou Star Walk vous montrent ce que vous regardez : planètes, constellations et satellites. Cela transforme des points aléatoires en objets que vous pouvez nommer et retrouver. Beaucoup sont gratuites. Activez le mode nuit pour que l'écran s'éclaire en rouge. L'argument en sa faveur : identifie ce que vous voyez, montre les planètes et l'ISS, et gratuit ou bon marché. Le compromis : les écrans lumineux ruinent la vision nocturne et la boussole peut être imprécise près du métal, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Identifie ce que vous voyez",
+        "Montre les planètes et l'ISS",
+        "Gratuit ou bon marché"
+      ],
+      "cons": [
+        "Les écrans lumineux ruinent la vision nocturne",
+        "La boussole peut être imprécise près du métal"
+      ]
+    },
+    {
+      "name": "Une lampe de poche ou une lampe frontale rouge",
+      "tag": "Préserver la vision nocturne",
+      "body": "Vos yeux mettent 20 à 30 minutes pour s'adapter complètement à l'obscurité, et un seul éclair de lumière blanche les réinitialise. La lumière rouge vous permet de lire des cartes et de trouver des objets sans perdre votre vision nocturne. Une lampe frontale avec un mode rouge vous laisse les mains libres. C'est un petit détail qui fait une grande différence. L'argument en sa faveur : préserve la vision nocturne, mains libres, et bon marché. Le compromis : il faut éviter de passer au blanc par erreur et un rouge très vif affecte toujours la vision, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 10 à 20 $, il est facile de le justifier, même s'il ne sert qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Préserve la vision nocturne",
+        "Mains libres",
+        "Bon marché"
+      ],
+      "cons": [
+        "Il faut éviter de passer au blanc par erreur",
+        "Un rouge très vif affecte toujours la vision"
+      ]
+    },
+    {
+      "name": "Une carte de la pollution lumineuse et une sortie dans un ciel sombre",
+      "tag": "Voir beaucoup plus d'étoiles",
+      "body": "Depuis une ville, vous ne verrez peut-être que quelques dizaines d'étoiles. Depuis un site sombre, des milliers, plus la Voie lactée. Des cartes gratuites de la pollution lumineuse indiquent les zones sombres près de chez vous, et de nombreux parcs d'État sont des sites certifiés ciel sombre. Planifiez votre sortie autour de la nouvelle lune pour les ciels les plus sombres. Cela ne coûte que le carburant et offre les meilleures vues de tout ce qui figure sur cette liste. L'argument en sa faveur : beaucoup plus d'étoiles, gratuit, et améliore l'efficacité de tous les autres outils. Le compromis : nécessite des déplacements et il faut vérifier les horaires des parcs et la météo, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Beaucoup plus d'étoiles",
+        "Gratuit",
+        "Améliore l'efficacité de tous les autres outils"
+      ],
+      "cons": [
+        "Nécessite des déplacements",
+        "Vérifier les horaires des parcs et la météo"
+      ]
+    },
+    {
+      "name": "Une chaise de camping inclinable",
+      "tag": "Confort pendant l'observation",
+      "body": "Regarder droit vers le ciel pendant une heure vous fait mal au cou. Une chaise de camping inclinable ou une chaise zéro gravité vous permet de balayer le ciel confortablement, et c'est parfait avec des jumelles. Apportez une couverture ; les nuits sont froides même en été. L'argument en sa faveur : confortable pour de longues sessions, génial avec des jumelles, et sert aussi de chaise de jardin. Le compromis : encombrante à transporter et les cadres métalliques deviennent froids, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 30 à 70 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat central qui nécessite une mûre réflexion.",
+      "pros": [
+        "Confortable pour de longues sessions",
+        "Génial avec des jumelles",
+        "Sert aussi de chaise de jardin"
+      ],
+      "cons": [
+        "Encombrante à transporter",
+        "Les cadres métalliques deviennent froids"
+      ]
+    },
+    {
+      "name": "Un télescope Dobson de table",
+      "tag": "Un premier télescope qui fonctionne",
+      "body": "Si vous voulez un télescope, un Dobson de table à miroir est le meilleur choix pour débuter. Il a un grand miroir pour le prix, une monture simple à pointer et à regarder sans configuration complexe, et il montre les anneaux de Saturne, les bandes nuageuses de Jupiter et les détails lunaires. Le Zhumell Z114 et les modèles similaires sont populaires. Ignorez toute promesse de grossissement ; l'ouverture, la taille du miroir, est ce qui compte. L'argument en sa faveur : grande ouverture pour le prix, simple à utiliser, et portable. Le compromis : nécessite une table stable et les miroirs ont besoin d'un alignement occasionnel, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Grande ouverture pour le prix",
+        "Simple à utiliser",
+        "Portable"
+      ],
+      "cons": [
+        "Nécessite une table stable",
+        "Les miroirs ont besoin d'un alignement occasionnel"
+      ]
+    },
+    {
+      "name": "Un Dobson de 15-20 cm",
+      "tag": "Pour les débutants sérieux",
+      "body": "Un Dobson de 15 ou 20 cm est ce que les clubs d'astronomie recommandent le plus. Il collecte suffisamment de lumière pour montrer les galaxies et les nébuleuses depuis des sites sombres, et les planètes en détail. Il est grand et lourd mais facile à utiliser. Achetez-le quand vous savez que vous appréciez ce loisir. L'expédition de grands télescopes peut être coûteuse, alors vérifiez le coût total. L'argument en sa faveur : vues excellentes pour le prix, monture simple, et un télescope pour des années. Le compromis : grand et lourd et l'expédition peut être coûteuse, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Vues excellentes pour le prix",
+        "Monture simple",
+        "Un télescope pour des années"
+      ],
+      "cons": [
+        "Grand et lourd",
+        "L'expédition peut être coûteuse"
+      ]
+    },
+    {
+      "name": "Un adaptateur pour trépied de jumelles",
+      "tag": "Vues plus stables",
+      "body": "Les jumelles tenues à la main tremblent, surtout en grossissement 10x. Un adaptateur bon marché les monte sur n'importe quel trépied photo pour des vues stables, ce qui montre beaucoup plus de détails. Vérifiez que vos jumelles ont une prise pour trépied, généralement cachée sous un capuchon à la charnière avant. L'argument en sa faveur : vues parfaitement stables, bon marché, et fonctionne avec un trépied photo normal. Le compromis : nécessite un trépied et peu pratique pour la vision au-dessus de la tête, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 15 à 30 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat central qui nécessite une mûre réflexion.",
+      "pros": [
+        "Vues parfaitement stables",
+        "Bon marché",
+        "Fonctionne avec un trépied photo normal"
+      ],
+      "cons": [
+        "Nécessite un trépied",
+        "Peu pratique pour la vision au-dessus de la tête"
+      ]
+    },
+    {
+      "name": "Un planisphère",
+      "tag": "Apprendre les constellations hors ligne",
+      "body": "Un planisphère est une carte du ciel rotative que vous réglez selon la date et l'heure. Il n'a pas besoin de piles, ne ruine pas votre vision nocturne, et enseigne les constellations d'une manière que les applications ne font pas. Achetez-en un pour votre latitude. C'est un joli cadeau pour les enfants. L'argument en sa faveur : pas de piles ni d'écrans, enseigne le ciel, et génial pour les enfants. Le compromis : spécifique à la latitude et plus difficile à lire qu'une application au début, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 10 à 20 $, il est facile de le justifier, même s'il ne sert qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Pas de piles ni d'écrans",
+        "Enseigne le ciel",
+        "Génial pour les enfants"
+      ],
+      "cons": [
+        "Spécifique à la latitude",
+        "Plus difficile à lire qu'une application au début"
+      ]
+    },
+    {
+      "name": "Lunettes certifiées pour éclipse solaire",
+      "tag": "Observer le Soleil en toute sécurité",
+      "body": "Regarder le Soleil sans protection adéquate peut causer des dommages oculaires permanents, et les lunettes de soleil normales ne vous protègent pas. Les lunettes pour éclipse conformes à la norme ISO 12312-2, provenant de fournisseurs réputés listés par l'American Astronomical Society, sont sûres pour l'observation directe. Ne les utilisez jamais avec des jumelles ou des télescopes ; ceux-ci nécessitent des filtres solaires spéciaux. L'argument en leur faveur : observation sûre des éclipses et des taches solaires, bon marché, et requis pour toute observation solaire. Le compromis : de fausses lunettes sont vendues autour des éclipses et ne jamais utiliser avec des optiques, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Observation sûre des éclipses et des taches solaires",
+        "Bon marché",
+        "Requis pour toute observation solaire"
+      ],
+      "cons": [
+        "De fausses lunettes sont vendues autour des éclipses",
+        "Ne jamais utiliser avec des optiques"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Dois-je acheter un télescope ou des jumelles d'abord ?",
+      "a": "Des jumelles. Elles sont plus faciles à utiliser et vous aident à apprendre le ciel. Achetez un télescope une fois que vous savez ce que vous voulez voir."
+    },
+    {
+      "q": "Quel grossissement me faut-il ?",
+      "a": "Ignorez les promesses de grossissement. L'ouverture, la taille de l'objectif ou du miroir, est bien plus importante."
+    },
+    {
+      "q": "Peut-on voir quelque chose depuis la ville ?",
+      "a": "Oui : la Lune, les planètes et les étoiles brillantes. Pour les galaxies et la Voie lactée, allez dans un endroit sombre."
+    },
+    {
+      "q": "Quel est le meilleur moment pour observer les étoiles ?",
+      "a": "Autour de la nouvelle lune, par nuit claire, après que vos yeux se soient adaptés pendant 20 à 30 minutes."
+    }
+  ]
+}

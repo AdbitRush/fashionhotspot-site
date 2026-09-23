@@ -1,0 +1,172 @@
+{
+  "slug": "drawing-tablets",
+  "title": "Tabletas Gráficas para Principiantes: Qué Comprar para Arte Digital",
+  "dek": "Diez cosas para empezar con el arte digital, clasificadas por su valor para alguien que aún está aprendiendo. Una tableta gráfica barata es un mejor comienzo de lo que la mayoría de la gente espera.",
+  "category": "Hobbies",
+  "how_we_pick": "Estas selecciones provienen de reseñas publicadas, comunidades de arte digital e informes de propietarios a largo plazo, cotejadas con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. Verifique que los controladores admitan su sistema operativo, especialmente en Chromebooks y Linux, antes de comprar.",
+  "intro": [
+    "Empezar con el arte digital nunca ha sido tan barato. Una tableta gráfica básica que se conecta a cualquier ordenador cuesta menos que un juego de rotuladores de calidad, y un software gratuito como Krita es lo suficientemente potente para profesionales. Sin embargo, muchos principiantes se lanzan directamente a una costosa tableta con pantalla o compran un lápiz óptico para un teléfono y se preguntan por qué no se parece en nada a dibujar.",
+    "Esta lista está ordenada por valor para un principiante. La opción más barata en la parte superior es genuinamente buena, y muchos ilustradores profesionales todavía usan una. Más abajo vienen las tabletas con pantalla y las configuraciones de iPad, que son encantadoras pero cuestan varias veces más. Los pequeños extras en la parte inferior son baratos y solucionan las quejas más comunes.",
+    "Los precios a continuación son precios aproximados en la calle en el momento de escribir esto y cambian constantemente, especialmente durante los eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre verifique el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Una tableta gráfica pequeña o mediana (sin pantalla)",
+      "tag": "El mejor comienzo en relación calidad-precio",
+      "body": "Una tableta gráfica es una almohadilla sensible a la presión sobre la que dibujas mientras miras la pantalla de tu ordenador. Se siente raro durante una tarde o dos, luego se vuelve natural, y es como trabajan muchos profesionales. Intuos de Wacom, y marcas como XP-Pen y Huion, fabrican buenas tabletas con lápices sin batería y miles de niveles de presión. Un tamaño pequeño se adapta a un portátil; uno mediano a un monitor grande. A este precio, es la forma más sensata de averiguar si disfrutas del arte digital antes de gastar más. Los argumentos a favor: forma muy barata de empezar, funciona con cualquier ordenador y muchos profesionales las usan. La contrapartida es real: se necesitan unos días para acostumbrarse a dibujar fuera de la pantalla y el soporte de los controladores varía en Chromebooks y Linux, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Forma muy barata de empezar",
+        "Funciona con cualquier ordenador",
+        "Muchos profesionales las usan"
+      ],
+      "cons": [
+        "Se necesitan unos días para acostumbrarse a dibujar fuera de la pantalla",
+        "El soporte de los controladores varía en Chromebooks y Linux"
+      ]
+    },
+    {
+      "name": "Software de dibujo gratuito (Krita o prueba de Clip Studio)",
+      "tag": "Empezar sin gastar más",
+      "body": "No necesitas software caro. Krita es gratuito, de código abierto y tiene excelentes pinceles para pintar e ilustrar. Clip Studio Paint es popular para cómics y manga, con una prueba gratuita y licencias asequibles. Muchas tabletas incluyen un paquete de software gratuito, así que verifica antes de comprar nada. Dedica tu primer mes a aprender bien un programa en lugar de probarlos todos. Los argumentos a favor: funciones profesionales gratis, funciona con cualquier tableta gráfica y grandes bibliotecas de tutoriales. La contrapartida es real: aprender cualquier programa lleva tiempo y algunos paquetes son pruebas cortas, no licencias completas, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Funciones profesionales gratis",
+        "Funciona con cualquier tableta gráfica",
+        "Grandes bibliotecas de tutoriales"
+      ],
+      "cons": [
+        "Aprender cualquier programa lleva tiempo",
+        "Algunos paquetes son pruebas cortas, no licencias completas"
+      ]
+    },
+    {
+      "name": "Una pantalla de dibujo de 13-16 pulgadas",
+      "tag": "Dibujar directamente en la pantalla",
+      "body": "Una pantalla de dibujo te permite dibujar directamente sobre una pantalla, lo que se siente mucho más parecido al papel y es más fácil para muchos principiantes. Se conectan a tu ordenador como un segundo monitor. XP-Pen, Huion y la línea One de Wacom ofrecen buenos modelos económicos. Busca una pantalla laminada, que reduce el espacio entre la punta del lápiz y la línea, y una buena gama de colores si pintas. Necesitan un escritorio y cables. Los argumentos a favor: dibuja directamente sobre la imagen, más rápido de aprender para muchas personas y buenas opciones económicas ahora. La contrapartida es real: necesita un ordenador y cables, y tu mano cubre parte de la imagen, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Dibuja directamente sobre la imagen",
+        "Más rápido de aprender para muchas personas",
+        "Buenas opciones económicas ahora"
+      ],
+      "cons": [
+        "Necesita un ordenador y cables",
+        "Tu mano cubre parte de la imagen"
+      ]
+    },
+    {
+      "name": "Un iPad con soporte para Apple Pencil",
+      "tag": "Dibujar en cualquier lugar",
+      "body": "Un iPad con un Apple Pencil es un estudio de dibujo completo y portátil sin necesidad de un ordenador. Dibujar en el sofá, en una cafetería o en un tren es una de las grandes razones por las que la gente dibuja más. Verifica qué Pencil funciona con qué iPad; los modelos no son intercambiables. Un iPad reacondicionado de Apple o de un reacondicionador conocido reduce el coste. Presupuesta el Pencil y un protector de pantalla. Los argumentos a favor: portátil, todo en uno, excelentes aplicaciones de dibujo y útil para mucho más que arte. La contrapartida es real: caro una vez que añades el Pencil y la compatibilidad del lápiz es confusa, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Portátil, todo en uno",
+        "Excelentes aplicaciones de dibujo",
+        "Útil para mucho más que arte"
+      ],
+      "cons": [
+        "Caro una vez que añades el Pencil",
+        "La compatibilidad del lápiz es confusa"
+      ]
+    },
+    {
+      "name": "Procreate",
+      "tag": "Aplicación de dibujo para iPad",
+      "body": "Procreate es la razón por la que muchos artistas compran un iPad. Es una compra única, muy fácil de aprender, con excelentes pinceles y una gran biblioteca de tutoriales gratuitos y paquetes de pinceles. Para los propietarios de iPad, es la primera aplicación obvia. No está disponible en Android ni en ordenadores. Los argumentos a favor: fácil de aprender, compra única y enorme comunidad de tutoriales. La contrapartida es real: solo para iPad y no ideal para trabajos vectoriales complejos, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $13 de pago único, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Fácil de aprender",
+        "Compra única",
+        "Enorme comunidad de tutoriales"
+      ],
+      "cons": [
+        "Solo para iPad",
+        "No ideal para trabajos vectoriales complejos"
+      ]
+    },
+    {
+      "name": "Un protector de pantalla mate tipo papel",
+      "tag": "Más agarre en pantallas de cristal",
+      "body": "Las pantallas de cristal son resbaladizas, y muchos artistas encuentran que sus líneas tiemblan. Un protector mate con textura de papel añade agarre que se siente más cercano al papel. También reduce el deslumbramiento. La contrapartida es una pantalla ligeramente menos nítida y un desgaste más rápido de la punta. Los argumentos a favor: sensación similar al papel, más control y menos deslumbramiento. La contrapartida es real: desgasta las puntas del lápiz más rápido y suaviza ligeramente la pantalla, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de alrededor de $10-20, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Sensación similar al papel",
+        "Más control",
+        "Menos deslumbramiento"
+      ],
+      "cons": [
+        "Desgasta las puntas del lápiz más rápido",
+        "Suaviza ligeramente la pantalla"
+      ]
+    },
+    {
+      "name": "Puntas de repuesto para lápiz",
+      "tag": "Puntas desgastadas",
+      "body": "Las puntas de los lápices se desgastan, especialmente en superficies texturizadas. Una punta desgastada raya la superficie y se siente áspera. Las puntas de repuesto son baratas; la mayoría de las tabletas incluyen algunas. Asegúrate de comprar puntas hechas para tu modelo de lápiz. Los argumentos a favor: mantiene la sensación constante, protege la superficie y es barata. La contrapartida es real: debe coincidir con tu modelo de lápiz y reemplazarse antes de que la punta se afile, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $5-10, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Mantiene la sensación constante",
+        "Protege la superficie",
+        "Barato"
+      ],
+      "cons": [
+        "Debe coincidir con tu modelo de lápiz",
+        "Reemplazar antes de que la punta se afile"
+      ]
+    },
+    {
+      "name": "Un guante de dibujo de dos dedos",
+      "tag": "Movimiento suave de la mano",
+      "body": "Tu palma se arrastra sobre la superficie y puede activar la entrada táctil en las pantallas. Un guante de dos dedos permite que tu mano se deslice suavemente y reduce las manchas y los toques accidentales. Es barato y las personas que usan uno rara vez vuelven atrás. Los argumentos a favor: movimiento suave de la mano, previene toques accidentales y es barato. La contrapartida es real: las tallas varían según el vendedor y necesita lavado, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $5-12, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Movimiento suave de la mano",
+        "Previene toques accidentales",
+        "Barato"
+      ],
+      "cons": [
+        "Las tallas varían según el vendedor",
+        "Necesita lavado"
+      ]
+    },
+    {
+      "name": "Un soporte ajustable para tableta",
+      "tag": "Mejor postura",
+      "body": "Dibujar encorvado sobre una tableta plana fuerza el cuello y la espalda. Un soporte inclina la tableta o la pantalla como una mesa de dibujo. Muchas pantallas de dibujo incluyen una básica; un soporte ajustable más robusto es una buena mejora para sesiones largas. Los argumentos a favor: mejor postura, más cómodo en sesiones largas y ángulo ajustable. La contrapartida es real: los soportes baratos se deslizan cuando presionas y verifica que se ajuste al tamaño de tu dispositivo, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de alrededor de $20-40, es fácil de justificar, incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Mejor postura",
+        "Más cómodo en sesiones largas",
+        "Ángulo ajustable"
+      ],
+      "cons": [
+        "Los soportes baratos se deslizan cuando presionas",
+        "Verifica que se ajuste al tamaño de tu dispositivo"
+      ]
+    },
+    {
+      "name": "Un mando o teclado de atajos",
+      "tag": "Flujo de trabajo más rápido",
+      "body": "Los artistas deshacen, cambian de pincel y hacen zoom constantemente. Un pequeño teclado de atajos pone estas funciones bajo tu mano no dominante, para que dejes de alcanzar el teclado. Es agradable de tener una vez que dibujas regularmente. Los argumentos a favor: flujo de trabajo más rápido, menos necesidad de alcanzar el teclado y programable. La contrapartida es real: necesita configuración por programa y no es esencial para principiantes, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $25-50, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera. Como con cualquier cosa en esta lista, verifica los detalles exactos del listado y el precio actual antes de añadirlo al carrito.",
+      "pros": [
+        "Flujo de trabajo más rápido",
+        "Menos necesidad de alcanzar el teclado",
+        "Programable"
+      ],
+      "cons": [
+        "Necesita configuración por programa",
+        "No es esencial para principiantes"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Tableta gráfica o pantalla de dibujo para principiantes?",
+      "a": "Una tableta gráfica es la forma más barata de empezar y funciona bien después de un breve ajuste. Una pantalla es más fácil pero cuesta más."
+    },
+    {
+      "q": "¿Puedo usar un lápiz óptico de teléfono para arte digital?",
+      "a": "Los lápices ópticos capacitivos básicos carecen de sensibilidad a la presión y se sienten imprecisos. Una tableta gráfica adecuada es mucho mejor."
+    },
+    {
+      "q": "¿Qué software gratuito es bueno?",
+      "a": "Krita es excelente y gratuito. Muchas tabletas también vienen con paquetes de software."
+    },
+    {
+      "q": "¿iPad o pantalla de dibujo?",
+      "a": "iPad si quieres portabilidad; pantalla de dibujo si ya tienes un buen ordenador y quieres una pantalla más grande."
+    }
+  ]
+}

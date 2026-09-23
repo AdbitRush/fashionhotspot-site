@@ -1,0 +1,172 @@
+{
+  "slug": "home-wifi",
+  "title": "WLAN-Funklöcher beheben, ohne mehr Geschwindigkeit zu bezahlen",
+  "dek": "Zehn Lösungen für langsame Räume und abgebrochene Anrufe, sortiert nach ihrem Preis-Leistungs-Verhältnis. Die ersten beiden kosten nichts.",
+  "category": "Technik",
+  "how_we_pick": "Diese Auswahl basiert auf veröffentlichten Labortests, Netzwerkforen und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel persönlich getestet. Wir bevorzugten Lösungen, die für Mieter und technisch nicht versierte Haushalte funktionieren, und wir waren schonungslos ehrlich, welche Geräte das Problem meist nur verschieben.",
+  "intro": [
+    "Wenn das WLAN im Schlafzimmer schlecht ist, rufen die meisten Leute ihren Anbieter an und bezahlen für einen schnelleren Tarif. Das hilft selten. Das Internet, das ins Haus kommt, ist normalerweise in Ordnung; das Problem sind die letzten zehn Meter zwischen dem Router und Ihrem Laptop, und ein schnellerer Tarif tut nichts gegen Wände, Böden und einen Router, der in einem Schrank versteckt ist.",
+    "Diese Liste ist also nach Hebelwirkung geordnet. Beginnen Sie oben, testen Sie nach jedem Schritt und hören Sie auf, wenn das Problem verschwindet. Viele Leute beheben ihre Funklöcher bei Schritt zwei und geben keinen Cent aus.",
+    "Die unten angegebenen Preise sind ungefähre Straßenpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Verkaufsaktionen. Betrachten Sie sie als grobe Richtlinie für die Budgetplanung, nicht als Angebot. Überprüfen Sie immer das Live-Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Den vorhandenen Router umstellen",
+      "tag": "Die kostenlose erste Lösung",
+      "body": "Router werden dort installiert, wo das Kabel ins Haus kommt, oft in einer Ecke, einem Keller oder im Inneren eines TV-Schranks. WLAN breitet sich nach außen und leicht nach unten aus und es mag kein Metall, keine Spiegel, keine Aquarien und keine dicken Wände. Den Router aus dem Schrank zu holen, auf ein Regal zu stellen und näher zur Mitte des Hauses zu bringen, kann einen größeren Unterschied machen als jeder Kauf auf dieser Seite. Wenn der Kabelanschluss fest ist, kostet eine längere Koaxial- oder Ethernet-Leitung von der Wandsteckdose zu einem besseren Ort ein paar Euro. Das Argument dafür: kostet nichts, löst das Problem oft sofort und braucht zehn Minuten zum Testen. Der Kompromiss ist real: begrenzt durch den Ort des Kabeleingangs und vom Anbieter installierte Boxen können manchmal nicht weit bewegt werden, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Kostet nichts",
+        "Löst das Problem oft sofort",
+        "Braucht zehn Minuten zum Testen"
+      ],
+      "cons": [
+        "Begrenzt durch den Ort des Kabeleingangs",
+        "Vom Anbieter installierte Boxen können manchmal nicht weit bewegt werden"
+      ]
+    },
+    {
+      "name": "Eine Speedtest-App und ein Heatmap-Walk",
+      "tag": "Den echten toten Punkt finden",
+      "body": "Messen Sie, bevor Sie etwas kaufen. Führen Sie einen Speedtest neben dem Router durch, dann in jedem Raum, in dem die Dinge langsam sind. Wenn die Geschwindigkeit neben dem Router ebenfalls schlecht ist, liegt das Problem bei Ihrem Tarif oder der Ausrüstung des Anbieters, und kein Mesh-Kit wird es beheben. Wenn es am Router schnell ist und zwei Räume weiter zusammenbricht, haben Sie ein Abdeckungsproblem, und jetzt wissen Sie genau, wo. Kostenlose Heatmap-Apps ermöglichen es Ihnen, durch das Haus zu gehen und den Abfall der Abdeckung zu sehen. Dieser Schritt verhindert, dass Leute die falsche Lösung kaufen. Das Argument dafür: trennt Tarifprobleme von Abdeckungsproblemen, zeigt genau, welcher Raum Hilfe braucht, und liefert Ihnen eine Vorher-Nachher-Zahl. Der Kompromiss ist real: die Ergebnisse variieren im Laufe des Tages und Tests auf dem Gerät, das tatsächlich Probleme hat, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Trennte Tarifprobleme von Abdeckungsproblemen",
+        "Zeigt genau, welcher Raum Hilfe braucht",
+        "Liefert eine Vorher-Nachher-Zahl"
+      ],
+      "cons": [
+        "Ergebnisse variieren im Laufe des Tages",
+        "Test auf dem Gerät, das tatsächlich Probleme hat"
+      ]
+    },
+    {
+      "name": "Ein Drei-Pack Wi-Fi 6 oder 6E Mesh-Kit",
+      "tag": "Die Lösung für die meisten Mehrfamilienhäuser",
+      "body": "Mesh-Systeme ersetzen einen Router durch mehrere Einheiten, die Ihre Verbindung zwischen ihnen weiterleiten und als ein Netzwerk erscheinen. Sie gehen von der Küche ins Schlafzimmer und Ihr Telefon wechselt leise zum nächstgelegenen Knotenpunkt. Für ein zweistöckiges Haus oder alles über ca. 140 Quadratmeter ist ein Drei-Pack die zuverlässige Antwort. Wi-Fi 6 ist für die meisten Haushalte ausreichend; 6E fügt ein weniger überfülltes Band hinzu, das in dichten Wohnblöcken hilft. TP-Link Deco, Eero und Asus ZenWiFi sind die gängigen Familien, und Budget-Kits von allen dreien sind gut. Das Argument dafür: ein Netzwerkname, flächendeckende Abdeckung, einfache App-Einrichtung für technisch nicht versierte Haushalte und die gleichzeitige Handhabung vieler Geräte. Der Kompromiss ist real: einige Marken drängen auf kostenpflichtige Abonnements für Zusatzfunktionen und platzieren Knotenpunkte an offenen Stellen, nicht in Schränken, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Ein Netzwerkname, flächendeckende Abdeckung",
+        "Einfache App-Einrichtung für technisch nicht versierte Haushalte",
+        "Handhabt viele Geräte gleichzeitig"
+      ],
+      "cons": [
+        "Einige Marken drängen auf kostenpflichtige Abonnements für Zusatzfunktionen",
+        "Platzieren Knotenpunkte an offenen Stellen, nicht in Schränken"
+      ]
+    },
+    {
+      "name": "Ein Zwei-Pack Mesh-Kit",
+      "tag": "Wohnungen und kleine Häuser",
+      "body": "Die meisten Wohnungen brauchen keine drei Einheiten. Ein Zwei-Pack deckt eine typische Ein- oder Zwei-Zimmer-Wohnung ab, und der zweite Knotenpunkt kommt dort hin, wo das Signal abfällt, normalerweise das hintere Schlafzimmer oder das Heimbüro. Sie können später bei Bedarf einen dritten hinzufügen, da die meisten Marken es Ihnen ermöglichen, innerhalb derselben Familie zu erweitern. Wenn Sie mieten, ist Mesh auch leicht mitzunehmen, was eine kabelgebundene Lösung nicht ist. Das Argument dafür: richtig dimensioniert für Wohnungen, später erweiterbar und zieht mit Ihnen um. Der Kompromiss ist real: Netzwerke von Nachbarn überfüllen immer noch die Funkwellen und das Mischen von Marken funktioniert normalerweise nicht, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Richtig dimensioniert für Wohnungen",
+        "Später erweiterbar",
+        "Zieht mit Ihnen um"
+      ],
+      "cons": [
+        "Netzwerke von Nachbarn überfüllen immer noch die Funkwellen",
+        "Das Mischen von Marken funktioniert normalerweise nicht"
+      ]
+    },
+    {
+      "name": "Ein Powerline- oder MoCA-Adapter-Paar",
+      "tag": "Dicke Wände und Beton",
+      "body": "Manche Häuser vereiteln WLAN vollständig: Putz und Latten, Beton, Ziegel oder ein Garagenbüro über den Hof. Powerline-Adapter senden Daten über Ihre Stromleitungen, und MoCA-Adapter nutzen vorhandene TV-Koaxialkabel. Schließen Sie einen in der Nähe des Routers und einen im hinteren Raum an, und Sie erhalten eine kabelgebundene Verbindung ohne Bohren. MoCA ist normalerweise schneller und zuverlässiger, wenn Sie Koaxialkabel in den richtigen Räumen haben. Die Powerline-Geschwindigkeit hängt stark von Ihrer Verkabelung ab, kaufen Sie also bei einem Geschäft mit einem einfachen Rückgabefenster. Das Argument dafür: durchdringt Wände, die WLAN nicht durchdringt, kein Bohren oder neue Kabel, und einige Modelle fügen am hinteren Ende WLAN hinzu. Der Kompromiss ist real: die Powerline-Geschwindigkeit hängt von Ihrer Verkabelung ab und muss direkt in die Wand gesteckt werden, nicht in eine Steckdosenleiste, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Durchdringt Wände, die WLAN nicht durchdringt",
+        "Kein Bohren oder neue Kabel",
+        "Einige Modelle fügen am hinteren Ende WLAN hinzu"
+      ],
+      "cons": [
+        "Die Powerline-Geschwindigkeit hängt von Ihrer Verkabelung ab",
+        "Muss direkt in die Wand gesteckt werden, nicht in eine Steckdosenleiste"
+      ]
+    },
+    {
+      "name": "Ein paar Cat 6 Kabel",
+      "tag": "Schreibtische, Fernseher und Konsolen in der Nähe des Routers",
+      "body": "Alles, was sich nicht bewegt und in Reichweite des Routers befindet, sollte angeschlossen werden. Ein Fernseher, eine Konsole oder ein Desktop-PC, die per Kabel angeschlossen sind, erhalten die volle Geschwindigkeit, geringere Latenz und konkurrieren nicht mit Telefonen um WLAN. Das gibt dem drahtlosen Netzwerk mehr Spielraum für alles andere. Flache Kabel lassen sich ordentlich unter Teppichen und entlang von Fußleisten verstecken. Dies ist das günstigste Leistungsupgrade in der Netzwerktechnik und wird stark unterschätzt. Das Argument dafür: volle Geschwindigkeit und geringere Latenz, gibt WLAN für andere Geräte frei und ist sehr günstig. Der Kompromiss ist real: nur in der Nähe des Routers oder eines Mesh-Knotens praktikabel und sehr lange billige Kabel können schlecht hergestellt sein, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Volle Geschwindigkeit und geringere Latenz",
+        "Gibt WLAN für andere Geräte frei",
+        "Sehr günstig"
+      ],
+      "cons": [
+        "Nur in der Nähe des Routers oder eines Mesh-Knotens praktikabel",
+        "Sehr lange billige Kabel können schlecht hergestellt sein"
+      ]
+    },
+    {
+      "name": "Ein USB Wi-Fi 6 Adapter",
+      "tag": "Alte Laptops und Desktop-PCs",
+      "body": "Manchmal ist das Netzwerk in Ordnung und das Gerät ist das Problem. Ein Laptop von 2016 hat einen alten Funkchip, der nur einen Bruchteil dessen liefert, was ein moderner Router bietet. Ein kleiner USB Wi-Fi 6 Adapter bringt ihn für den Preis einer Essensbestellung auf den neuesten Stand. Desktop-PCs ohne integriertes WLAN profitieren am meisten. Überprüfen Sie, ob der Adapter Ihr Betriebssystem unterstützt, bevor Sie ihn kaufen, insbesondere bei Mac und Linux. Das Argument dafür: bringt alte Maschinen auf moderne Geschwindigkeiten, Plug-in, kein Öffnen des Gehäuses und günstig im Vergleich zu einem neuen Laptop. Der Kompromiss ist real: die Treiberunterstützung variiert je nach Betriebssystem und belegt einen USB-Anschluss, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Bringt alte Maschinen auf moderne Geschwindigkeiten",
+        "Plug-in, kein Öffnen des Gehäuses",
+        "Günstig im Vergleich zu einem neuen Laptop"
+      ],
+      "cons": [
+        "Die Treiberunterstützung variiert je nach Betriebssystem",
+        "Belegt einen USB-Anschluss"
+      ]
+    },
+    {
+      "name": "Ein Reise-Router",
+      "tag": "Hotels und Ferienwohnungen",
+      "body": "Hotel-WLAN beschränkt oft die Anzahl der Geräte, die sich verbinden können, und verlangt, dass Sie sich bei jedem Gerät neu anmelden. Ein kompakter Reise-Router meldet sich einmal an und teilt dann die Verbindung mit all Ihren Geräten unter Ihrem eigenen Netzwerknamen. Er ermöglicht es Ihnen auch, sich bei einem vorhandenen kabelgebundenen Hotelanschluss anzumelden, was normalerweise schneller ist. GL.iNet stellt die beliebten Modelle her. Für Familien, die mit mehreren Tablets und einem Streaming-Stick reisen, beendet dies den täglichen Streit. Das Argument dafür: eine Anmeldung für alle Ihre Geräte, Ihr eigener privater Netzwerkname und zu Hause als Backup nützlich. Der Kompromiss ist real: Captive-Login-Seiten erfordern ein paar zusätzliche Schritte und können eine langsame Hotelverbindung nicht schneller machen, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Eine Anmeldung für alle Ihre Geräte",
+        "Ihr eigener privater Netzwerkname",
+        "Zu Hause als Backup nützlich"
+      ],
+      "cons": [
+        "Captive-Login-Seiten erfordern ein paar zusätzliche Schritte",
+        "Kann eine langsame Hotelverbindung nicht schneller machen"
+      ]
+    },
+    {
+      "name": "Eine Smart-Steckdose am Router",
+      "tag": "Fern-Neustarts",
+      "body": "Jeder Haushalt hat eine Person, die den Router neu startet, und wenn diese Person weg ist, weiß niemand, wie. Eine Smart-Steckdose mit Zeitplan, die so eingestellt ist, dass der Router einmal pro Woche um 4 Uhr morgens neu gestartet wird, verhindert viele Beschwerden über langsame Verbindungen bei älterer Ausrüstung des Anbieters. Sie ermöglicht es Ihnen auch, ihn von Ihrem Handy aus neu zu starten, während Sie unterwegs sind, solange ein zweiter Verbindungspfad besteht. Wählen Sie eine Steckdose, die ihren Zeitplan lokal speichert, damit sie auch dann funktioniert, wenn das Internet ausfällt. Das Argument dafür: geplante wöchentliche Neustarts, jeder im Haus kann es von einer App aus tun, und günstig. Der Kompromiss ist real: nutzlos für Fern-Neustarts, wenn es Internet zum Arbeiten braucht, und ein Router, der ständige Neustarts benötigt, könnte defekt sein, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Geplante wöchentliche Neustarts",
+        "Jeder im Haus kann es von einer App aus tun",
+        "Günstig"
+      ],
+      "cons": [
+        "Nutzlos für Fern-Neustarts, wenn es Internet zum Arbeiten braucht",
+        "Ein Router, der ständige Neustarts benötigt, könnte defekt sein"
+      ]
+    },
+    {
+      "name": "Ein einzelner Standalone-Reichweitenverstärker",
+      "tag": "Letzte Ausflucht, nur ein Raum",
+      "body": "Verstärker sind günstig und weit verbreitet, weshalb sie der häufigste Fehlkauf im Heimnetzwerk sind. Sie wiederholen das Signal des Routers, was normalerweise die Geschwindigkeit halbiert, und viele erstellen ein zweites Netzwerk, an dem Ihre Geräte nach dem Verlassen hängen bleiben. Für einen festen Raum, der eine grundlegende Verbindung benötigt, wie z. B. ein Drucker oder ein Gästezimmer, sind sie in Ordnung. Für alles andere ist ein Mesh-Kit das zusätzliche Geld wert. Das Argument dafür: die günstigste Möglichkeit, einen zusätzlichen Raum zu erreichen, keine Einrichtung über einen Knopfdruck hinaus und gut für Geräte mit geringem Bedarf. Der Kompromiss ist real: halbiert oft die Geschwindigkeit, die es wiederholt, und Geräte können am schwächeren Netzwerk hängen bleiben, also wägen Sie das gegen die Häufigkeit der Nutzung ab.",
+      "pros": [
+        "Die günstigste Möglichkeit, einen zusätzlichen Raum zu erreichen",
+        "Keine Einrichtung über einen Knopfdruck hinaus",
+        "Gut für Geräte mit geringem Bedarf"
+      ],
+      "cons": [
+        "Halbiert oft die Geschwindigkeit, die es wiederholt",
+        "Geräte können am schwächeren Netzwerk hängen bleiben"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wird ein schnellerer Internetplan langsame WLAN-Verbindungen in einem Raum beheben?",
+      "a": "Normalerweise nicht. Wenn die Geschwindigkeit neben dem Router gut und im hinteren Raum schlecht ist, liegt das Problem an der Abdeckung. Testen Sie zuerst."
+    },
+    {
+      "q": "Mesh oder Repeater?",
+      "a": "Mesh für alles über einen Raum hinaus. Repeater sind eine Budget-Notlösung für ein einzelnes Gerät mit geringem Bedarf."
+    },
+    {
+      "q": "Brauche ich Wi-Fi 7?",
+      "a": "Noch nicht für die meisten Haushalte. Wi-Fi 6 oder 6E deckt typisches Streaming, Gaming und Videoanrufe ab und kostet viel weniger."
+    },
+    {
+      "q": "Kann ich Mesh mit dem Router meines Anbieters verwenden?",
+      "a": "Ja. Die meisten Mesh-Kits werden an die Anbieterbox angeschlossen. Das Ausschalten des eigenen WLANs des Anbieters reduziert Interferenzen, und Ihr Anbieter kann Ihnen sagen, wie."
+    }
+  ]
+}

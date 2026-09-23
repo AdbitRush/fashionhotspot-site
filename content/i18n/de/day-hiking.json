@@ -1,0 +1,172 @@
+{
+  "slug": "day-hiking",
+  "title": "Tageswander-Ausrüstung, die Sie bequem nach Hause bringt – nicht nur nach Hause",
+  "dek": "Zehn Dinge für Tageswanderungen, sortiert danach, was sie für Sie tun, wenn der Weg länger, heißer oder nasser wird als auf der Karte angegeben.",
+  "category": "Outdoor",
+  "how_we_pick": "Diese Auswahl basiert auf Beratung von Outdoor-Händlern, Sicherheitshinweisen von Nationalparks, Wander-Communitys und Langzeitberichten von Besitzern, abgeglichen mit aktuellen Einzelhandelsangeboten. Wir haben nicht jeden Artikel persönlich getestet. Für mehrtägige Touren und Camping siehe unseren separaten Camping-Ratgeber.",
+  "intro": [
+    "Die meisten Tageswanderungen verlaufen problemlos. Die, die schiefgehen, tun das meist auf kleine, vorhersehbare Weise: Blasen von neuen Schuhen, kein Wasser mehr an einem heißen Nachmittag, ein sterbender Handy-Akku genau dann, wenn Sie die Karte brauchen, oder ein plötzlicher kalter Wind auf dem Gipfel in einem Baumwoll-T-Shirt. Nichts davon ist dramatisch. Es ist einfach der Unterschied zwischen einem guten Tag und einem elenden Heimweg.",
+    "Diese Liste ist danach geordnet, wie gut jeder Artikel den Tag rettet. Füße kommen zuerst, denn dort werden die meisten Wanderungen gewonnen oder verloren. Der Rest ist leichte, erschwingliche Ausrüstung, die Sie jahrelang nutzen werden.",
+    "Die unten angegebenen Preise sind ungefähre Marktpreise zum Zeitpunkt der Erstellung und ändern sich ständig, insbesondere während Sonderangeboten. Betrachten Sie sie als grobe Richtlinie für die Budgetplanung, nicht als Angebot. Prüfen Sie immer das aktuelle Angebot, bevor Sie kaufen."
+  ],
+  "products": [
+    {
+      "name": "Wanderschuhe oder leichte Trekkingschuhe, die passen",
+      "tag": "Die Ausrüstung, die den Tag entscheidet",
+      "body": "Für die meisten Tageswanderungen auf befestigten Wegen sind leichte Trekkingschuhe bequemer als schwere Stiefel und trocknen schneller. Passform ist alles: Kaufen Sie nachmittags, wenn die Füße leicht geschwollen sind, mit einer Daumenbreite Platz an den Zehen für Abstiege, und laufen Sie sie vor einer langen Wanderung ein. Wasserdichte Varianten halten die Füße auf nassem Gras trocken, werden aber im Sommer heiß. Schwere Stiefel lohnen sich nur auf rauem Gelände mit schwerem Rucksack oder bei schwachen Knöcheln. Der Vorteil: leichter und bequemer als Stiefel, griffige Sohlen für Wege und trocknen schneller, wenn sie nass sind. Der Nachteil ist real: weniger Knöchelhalt als bei Stiefeln und schnellerer Verschleiß als bei Stiefeln, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Leichter und bequemer als Stiefel",
+        "Griffige Sohlen für Wege",
+        "Trocknen schneller, wenn nass"
+      ],
+      "cons": [
+        "Weniger Knöchelhalt als bei Stiefeln",
+        "Verschleißen schneller als Stiefel"
+      ]
+    },
+    {
+      "name": "Merino- oder Synthetik-Wandersocken",
+      "tag": "Blasen vorbeugen",
+      "body": "Baumwollsocken speichern Schweiß, und feuchte Haut reibt zu Blasen. Merino-Woll- oder Synthetik-Wandersocken leiten Feuchtigkeit von der Haut weg, polstern die richtigen Stellen und riechen nicht so stark. Sie kosten mehr als normale Socken und sind jeden Cent wert. Nehmen Sie auf langen Wanderungen ein Ersatzpaar mit. Der Vorteil: beugt Blasen vor, weniger Geruch und stundenlang bequem. Der Nachteil ist real: Merino verschleißt schneller als Synthetik und ist teuer im Vergleich zu normalen Socken, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 15-25 US-Dollar pro Paar ist dies eine kleine, risikoarme Ergänzung zur Liste, kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Beugt Blasen vor",
+        "Weniger Geruch",
+        "Stundenlang bequem"
+      ],
+      "cons": [
+        "Merino verschleißt schneller als Synthetik",
+        "Teuer im Vergleich zu normalen Socken"
+      ]
+    },
+    {
+      "name": "Ein Tagesrucksack (20-30 L) mit Hüftgurt",
+      "tag": "Alles bequem tragen",
+      "body": "Ein Schulrucksack hängt an den Schultern und wackelt. Ein richtiger Tagesrucksack sitzt näher am Rücken, hat ein belüftetes Rückenteil und einen Hüftgurt, der das Gewicht auf die Hüften verlagert. 20-30 Liter fassen Wasser, Kleidungsschichten, Essen und ein Erste-Hilfe-Set. Achten Sie auf eine Tasche für eine Trinkblase und Seitentaschen, die Sie beim Gehen erreichen können. Der Vorteil: bequem für lange Spaziergänge, belüftetes Rückenteil und Platz für Kleidung und Wasser. Der Nachteil ist real: billige Rucksäcke haben schwache Reißverschlüsse und man sollte ihn vor einer langen Wanderung beladen ausprobieren, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Bequem für lange Spaziergänge",
+        "Belüftetes Rückenteil",
+        "Platz für Kleidung und Wasser"
+      ],
+      "cons": [
+        "Billige Rucksäcke haben schwache Reißverschlüsse",
+        "Vor einer langen Wanderung beladen ausprobieren"
+      ]
+    },
+    {
+      "name": "Eine 2-Liter-Trinkblase oder zwei Flaschen",
+      "tag": "Genug Wasser",
+      "body": "Dehydrierung schleichend und macht alles schwieriger. Tragen Sie mindestens einen halben Liter pro Stunde Wanderung, mehr bei Hitze. Eine Blase mit Schlauch ermöglicht es Ihnen, während des Gehens zu trinken, sodass Sie tatsächlich trinken. Flaschen sind leichter nachzufüllen und zu überprüfen. Für längere Wanderungen mit Bächen zusätzlich einen kleinen Wasserfilter mitnehmen. Der Vorteil: unterwegs trinken, beugt Dehydrierung vor und fasst viel Wasser. Der Nachteil ist real: Trinkblasen sind schwerer zu reinigen und billige Blasen können auslaufen oder nach Plastik schmecken, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Unterwegs trinken",
+        "Beugt Dehydrierung vor",
+        "Fasst viel Wasser"
+      ],
+      "cons": [
+        "Trinkblasen sind schwerer zu reinigen",
+        "Billige Trinkblasen können auslaufen oder nach Plastik schmecken"
+      ]
+    },
+    {
+      "name": "Eine leichte wasserdichte Jacke",
+      "tag": "Wind und Regen auf dem Gipfel",
+      "body": "Das Wetter auf dem Gipfel ist oft ganz anders als auf dem Parkplatz. Eine packbare wasserdichte Jacke blockiert Wind und Regen und wiegt wenig. Achten Sie auf versiegelte Nähte und eine verstellbare Kapuze. Sie lebt auch an sonnigen Tagen im Rucksack. Der Vorteil: blockiert Wind und Regen, klein verpackbar und ganzjährig nutzbar. Der Nachteil ist real: billige Jacken werden innen klamm und müssen nach einigen Saisons neu imprägniert werden, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 60-150 US-Dollar ist dies eine kleine, risikoarme Ergänzung zur Liste, kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Blockiert Wind und Regen",
+        "Klein verpackbar",
+        "Ganzjährig nutzbar"
+      ],
+      "cons": [
+        "Billige Jacken werden innen klamm",
+        "Muss nach einigen Saisons neu imprägniert werden"
+      ]
+    },
+    {
+      "name": "Ein kleines Erste-Hilfe- und Blasenpflaster-Set",
+      "tag": "Kleine Verletzungen",
+      "body": "Blasen, Schürfwunden und leichte Verstauchungen sind die häufigsten Verletzungen bei Tageswanderungen. Ein kleines Set mit Blasenpflastern, Tape, Desinfektionstüchern, Schmerzmitteln und einer elastischen Binde hilft dagegen. Fügen Sie persönliche Medikamente hinzu. Behandeln Sie eine heiße Stelle am Fuß sofort, wenn Sie sie spüren, bevor sie zu einer Blase wird. Der Vorteil: bewältigt häufige Wegverletzungen, klein und leicht, und Blasenpflege rettet den Tag. Der Nachteil ist real: vorgefertigte Sets enthalten oft keine Blasenpflege und müssen nach Gebrauch überprüft und aufgefüllt werden, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Bewältigt häufige Wegverletzungen",
+        "Klein und leicht",
+        "Blasenpflege rettet den Tag"
+      ],
+      "cons": [
+        "Vorgefertigte Sets enthalten oft keine Blasenpflege",
+        "Nach Gebrauch überprüfen und auffüllen"
+      ]
+    },
+    {
+      "name": "Offline-Karten-App plus Powerbank",
+      "tag": "Nicht verloren gehen",
+      "body": "Handysignal verschwindet in Tälern und Wäldern. Laden Sie die Wanderkarte herunter, bevor Sie losfahren, mit Apps wie AllTrails, Gaia GPS oder der eigenen App Ihres Parks. GPS funktioniert auch ohne Signal. Nehmen Sie eine kleine Powerbank mit, da die Navigation Akkus schnell entlädt. Informieren Sie jemanden über Ihre Route und wann Sie zurückerwartet werden. Der Vorteil: funktioniert ohne Signal, zeigt Ihren genauen Standort und die Powerbank hält sie am Laufen. Der Nachteil ist real: Handys sterben bei Kälte und eine Papierkarte ist immer noch ein guter Backup, also wägen Sie das gegen die tatsächliche Nutzung ab.",
+      "pros": [
+        "Funktioniert ohne Signal",
+        "Zeigt Ihren genauen Standort",
+        "Powerbank hält sie am Laufen"
+      ],
+      "cons": [
+        "Handys sterben bei Kälte",
+        "Eine Papierkarte ist immer noch ein guter Backup"
+      ]
+    },
+    {
+      "name": "Trekkingstöcke",
+      "tag": "Knie bei Abstiegen",
+      "body": "Stöcke entlasten die Knie bei steilen Abstiegen und helfen beim Gleichgewicht auf rauem oder nassem Untergrund. Falt- oder Teleskopstöcke lassen sich verstauen, wenn sie nicht gebraucht werden. Kork- oder Schaumstoffgriffe sind bequemer als Plastik. Sie scheinen optional, bis zum ersten langen Abstieg. Der Vorteil: weniger Kniebelastung bergab, besseres Gleichgewicht und klein faltbar. Der Nachteil ist real: eine weitere Sache zum Tragen und billige Schlösser rutschen, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 30-80 US-Dollar ist dies eine kleine, risikoarme Ergänzung zur Liste, kein zentraler Kauf, über den Sie lange nachdenken müssen.",
+      "pros": [
+        "Weniger Kniebelastung bergab",
+        "Besseres Gleichgewicht",
+        "Klein faltbar"
+      ],
+      "cons": [
+        "Eine weitere Sache zum Tragen",
+        "Billige Schlösser rutschen"
+      ]
+    },
+    {
+      "name": "Ein Sonnenhut und eine Sonnenbrille",
+      "tag": "Ausgesetzte Wege",
+      "body": "Ausgesetzte Grate und Wüstenpfade bedeuten stundenlange Sonne. Ein Hut mit breiter Krempe schützt Gesicht, Ohren und Nacken, und eine UV-Schutz-Sonnenbrille schützt die Augen. Sonnencreme in den Rucksack packen. Sonnenbrand und Hitzschlag sind zwei der häufigsten Gründe, warum Wanderungen im Sommer schlecht enden. Der Vorteil: schützt vor Sonnenbrand und Hitze, schützt die Augen und ist günstig. Der Nachteil ist real: breite Krempen fangen Wind und billige Sonnenbrillen blockieren möglicherweise nicht vollständig UV, also wägen Sie das gegen die tatsächliche Nutzung ab. Preislich zwischen 20 und 50 US-Dollar ist es leicht zu rechtfertigen, auch wenn es nur gelegentlich statt täglich benutzt wird.",
+      "pros": [
+        "Schützt vor Sonnenbrand und Hitze",
+        "Schützt die Augen",
+        "Günstig"
+      ],
+      "cons": [
+        "Breite Krempen fangen Wind",
+        "Billige Sonnenbrillen blockieren möglicherweise nicht vollständig UV"
+      ]
+    },
+    {
+      "name": "Ein Fleece oder eine leichte Isolationsschicht",
+      "tag": "Kalte Gipfel und Pausen",
+      "body": "Beim bergauf Gehen wärmen Sie sich auf und kühlen an der Spitze oder beim Mittagessen schnell ab. Ein leichtes Fleece oder eine synthetische Isolationsjacke hält Sie bei Pausen warm. Synthetische Isolierung bleibt auch im feuchten Zustand warm, Daunen nicht. Es lässt sich im unteren Teil des Tagesrucksacks verstauen. Der Vorteil: bleibt bei Pausen und auf Gipfeln warm, leicht und auch für den täglichen Gebrauch nützlich. Der Nachteil ist real: sperrige Fleeces nehmen Platz im Rucksack ein und Daunen verlieren im Nassen ihre Wärme, also wägen Sie das gegen die tatsächliche Nutzung ab. Für 30-80 US-Dollar verdient es seinen Platz auf dieser Liste, ohne eine große Vorabinvestition zu verlangen.",
+      "pros": [
+        "Bleibt bei Pausen und auf Gipfeln warm",
+        "Leicht",
+        "Auch für den täglichen Gebrauch nützlich"
+      ],
+      "cons": [
+        "Sperrige Fleeces nehmen Platz im Rucksack ein",
+        "Daunen verlieren im Nassen ihre Wärme"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Brauche ich Wanderschuhe für Tageswanderungen?",
+      "a": "Normalerweise nicht. Trekkingschuhe sind leichter und bequem auf den meisten befestigten Wegen. Stiefel helfen auf rauem Gelände oder wenn Sie Knöchelhalt benötigen."
+    },
+    {
+      "q": "Wie viel Wasser sollte ich mitbringen?",
+      "a": "Etwa einen halben Liter pro Stunde Wanderung, bei Hitze mehr. Bringen Sie mehr mit, wenn Sie unsicher sind."
+    },
+    {
+      "q": "Was sind die zehn wichtigsten Dinge?",
+      "a": "Navigation, Licht, Sonnenschutz, Erste Hilfe, ein Messer oder Werkzeug, Feuer, Unterschlupf, extra Essen, extra Wasser und extra Kleidung. Passen Sie sie an die Wanderung an."
+    },
+    {
+      "q": "Wie vermeide ich Blasen?",
+      "a": "Passende Schuhe, Merino- oder Synthetiksocken und frühe Behandlung von heißen Stellen."
+    }
+  ]
+}

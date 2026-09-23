@@ -1,0 +1,172 @@
+{
+  "slug": "oral-care",
+  "title": "Mejoras en el cuidado bucal que tu dentista aprobaría",
+  "dek": "Diez opciones de cuidado bucal clasificadas según cuánto protegen dientes y encías. La técnica y el flúor superan a cualquier gadget de alta gama.",
+  "category": "Salud",
+  "how_we_pick": "Estas selecciones provienen de guías de asociaciones dentales, revisiones clínicas publicadas e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Esta guía no es un consejo dental; habla con tu dentista sobre tus propios dientes y encías.",
+  "intro": [
+    "El cuidado bucal se ha convertido en una categoría de gadgets, con cepillos de dientes conectados a apps, polvos de carbón y kits de blanqueamiento LED. Los dentistas dicen mayormente lo mismo de siempre: cepíllate dos veces al día durante dos minutos con pasta dental con flúor, limpia entre los dientes a diario y visita al dentista regularmente. Los productos útiles son los que facilitan esos hábitos.",
+    "Esta lista está ordenada según cuánto ayuda cada artículo a lograrlo. Un cepillo de dientes eléctrico se sitúa en la parte superior porque el temporizador y el sensor de presión incorporados corrigen los dos errores más comunes. Los trucos están al final, con un veredicto claro.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre verifica el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un cepillo de dientes eléctrico con temporizador y sensor de presión",
+      "tag": "La mejora que corrige la técnica",
+      "body": "La mayoría de la gente se cepilla durante bastante menos de dos minutos y presiona demasiado fuerte, lo que desgasta el esmalte y las encías. Un cepillo de dientes eléctrico recargable con temporizador de dos minutos y sensor de presión soluciona ambos problemas. Las revisiones de la evidencia han encontrado que los cepillos oscilatorio-rotatorios eliminan más placa que el cepillado manual. No necesitas conectividad a app ni muchos modos; los modelos de entrada de Oral-B y Philips Sonicare hacen el trabajo. El argumento a favor: el temporizador asegura dos minutos, el sensor de presión protege las encías y una mejor eliminación de placa. La contrapartida es real: los cabezales de repuesto son un costo continuo y las funciones premium aportan poco, así que sopesa eso frente a la frecuencia con la que realmente se usaría.",
+      "pros": [
+        "El temporizador asegura dos minutos",
+        "El sensor de presión protege las encías",
+        "Mejor eliminación de placa"
+      ],
+      "cons": [
+        "Los cabezales de repuesto son un costo continuo",
+        "Las funciones premium aportan poco"
+      ]
+    },
+    {
+      "name": "Pasta dental con flúor",
+      "tag": "Protección contra caries",
+      "body": "El flúor fortalece el esmalte y previene las caries, y es el ingrediente más probado en el cuidado bucal. Elige cualquier pasta dental con flúor y el sello de la ADA. Escupe, no enjuagues, después de cepillarte, para que el flúor permanezca en tus dientes. Las pastas dentales caras rara vez aportan mucho. El argumento a favor: protección probada contra caries, barata y ampliamente disponible. La contrapartida es real: los niños necesitan cantidades apropiadas para su edad y algunas pastas \"naturales\" carecen de flúor, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $4-8, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Protección probada contra caries",
+        "Barata",
+        "Ampliamente disponible"
+      ],
+      "cons": [
+        "Los niños necesitan cantidades apropiadas para su edad",
+        "Algunas pastas \"naturales\" carecen de flúor"
+      ]
+    },
+    {
+      "name": "Hilo dental o cepillos interdentales",
+      "tag": "Limpieza entre los dientes",
+      "body": "El cepillado no llega a los espacios entre los dientes, donde comienzan muchas caries y problemas de encías. El hilo dental funciona; los cepillos interdentales son más fáciles para muchas personas y a menudo limpian mejor donde los huecos lo permiten. Elige el tamaño que te recomiende tu dentista o higienista. Hacerlo a diario importa más que cuál uses. El argumento a favor: limpia donde los cepillos no llegan, previene enfermedades de las encías y es barato. La contrapartida es real: es fácil saltárselo y los cepillos interdentales necesitan el tamaño adecuado, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de alrededor de $4-10, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Limpia donde los cepillos no llegan",
+        "Previene enfermedades de las encías",
+        "Barato"
+      ],
+      "cons": [
+        "Es fácil saltárselo",
+        "Los cepillos interdentales necesitan el tamaño adecuado"
+      ]
+    },
+    {
+      "name": "Un irrigador bucal",
+      "tag": "Ortodoncia, implantes y gente que odia el hilo dental",
+      "body": "Un irrigador bucal utiliza un chorro pulsante para limpiar entre los dientes y alrededor de ortodoncias, puentes e implantes. Es más fácil para muchas personas que el hilo dental, lo que significa que realmente lo hacen. Los modelos de sobremesa son más potentes; los inalámbricos son portátiles. Empieza con baja presión. El argumento a favor: más fácil que el hilo dental para muchos, genial con ortodoncias e implantes, y suave con las encías. La contrapartida es real: es un lío aprender a usarlo y ocupa espacio en el mostrador, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $40-80, se gana su lugar en esta lista sin pedir un gran compromiso inicial en ningún sentido.",
+      "pros": [
+        "Más fácil que el hilo dental para muchos",
+        "Genial con ortodoncias e implantes",
+        "Suave con las encías"
+      ],
+      "cons": [
+        "Es un lío aprender a usarlo",
+        "Ocupa espacio en el mostrador"
+      ]
+    },
+    {
+      "name": "Cabezales de cepillo de repuesto",
+      "tag": "Mantener el cepillo eficaz",
+      "body": "Las cerdas desgastadas limpian mal. Reemplaza los cabezales cada tres meses o cuando las cerdas se abran. Los cabezales originales son mejores; las copias baratas encajan pero algunas tienen cerdas ásperas. Comprar paquetes múltiples reduce el costo. El argumento a favor: mantiene la limpieza eficaz, los paquetes múltiples ahorran dinero y son higiénicos. La contrapartida es real: los cabezales originales cuestan más y las copias varían en calidad, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $15-30, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho. Es una compra menor en el contexto de todo el conjunto, pero del tipo que es fácil lamentar no haber hecho una vez que notas el hueco.",
+      "pros": [
+        "Mantiene la limpieza eficaz",
+        "Los paquetes múltiples ahorran dinero",
+        "Higiénico"
+      ],
+      "cons": [
+        "Los cabezales originales cuestan más",
+        "Las copias varían en calidad"
+      ]
+    },
+    {
+      "name": "Un raspador de lengua",
+      "tag": "Aliento más fresco",
+      "body": "Gran parte del mal aliento proviene de bacterias en la lengua. Un raspador de lengua las elimina de manera más efectiva que un cepillo de dientes para muchas personas. El acero inoxidable dura para siempre y es fácil de limpiar. El argumento a favor: aliento más fresco, barato y dura para siempre. La contrapartida es real: el reflejo nauseoso requiere acostumbrarse y no reemplaza el cepillado, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de alrededor de $5-10, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario. Nada de eso lo hace esencial para todos los que leen esto, solo vale la pena saberlo si la descripción anterior coincide con cómo usas realmente el espacio.",
+      "pros": [
+        "Aliento más fresco",
+        "Barato",
+        "Dura para siempre"
+      ],
+      "cons": [
+        "El reflejo nauseoso requiere acostumbrarse",
+        "No reemplaza el cepillado"
+      ]
+    },
+    {
+      "name": "Un estuche para cepillo de dientes de viaje",
+      "tag": "Viaje higiénico",
+      "body": "Un estuche de viaje mantiene el cabezal del cepillo limpio y protege el botón de encendido para que no se active en tu bolso. Los estuches ventilados permiten que se seque. Algunos cepillos eléctricos incluyen uno. El argumento a favor: mantiene los cepillos limpios, evita que se enciendan accidentalmente y es barato. La contrapartida es real: debe coincidir con tu modelo de cepillo y los estuches sellados atrapan la humedad, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $8-15, se gana su lugar en esta lista sin pedir un gran compromiso inicial en ningún sentido. Como con cualquier cosa en esta lista, verifica los detalles exactos del listado y el precio actual antes de añadirlo al carrito.",
+      "pros": [
+        "Mantiene los cepillos limpios",
+        "Evita que se enciendan accidentalmente",
+        "Barato"
+      ],
+      "cons": [
+        "Debe coincidir con tu modelo de cepillo",
+        "Los estuches sellados atrapan la humedad"
+      ]
+    },
+    {
+      "name": "Una férula de descarga (ajustada por el dentista o termoformable)",
+      "tag": "Bruxismo",
+      "body": "Si te despiertas con dolor de mandíbula o dolores de cabeza, o si tu dentista ve dientes desgastados, es posible que rechines los dientes por la noche. Una férula de descarga protege tus dientes. Las férulas ajustadas por el dentista se adaptan mejor y duran más; las termoformables son un comienzo más barato. Habla primero con tu dentista. El argumento a favor: protege los dientes del rechinamiento, puede reducir el dolor de mandíbula y hay opciones baratas disponibles. La contrapartida es real: las férulas personalizadas son caras y las termoformables se ajustan menos bien, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $20-400, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Protege los dientes del rechinamiento",
+        "Puede reducir el dolor de mandíbula",
+        "Opciones baratas disponibles"
+      ],
+      "cons": [
+        "Las férulas personalizadas son caras",
+        "Las férulas termoformables se ajustan menos bien"
+      ]
+    },
+    {
+      "name": "Pasta dental para sensibilidad",
+      "tag": "Dientes sensibles",
+      "body": "Si las bebidas frías te duelen, la pasta dental para sensibilidad con nitrato de potasio o fluoruro de estaño puede ayudar en unas pocas semanas. Úsala de manera constante. La sensibilidad continua merece una revisión por parte de un dentista. El argumento a favor: reduce la sensibilidad, es barata y aún contiene flúor. La contrapartida es real: tarda semanas en hacer efecto y hay que ver al dentista si el dolor persiste, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Con un precio de alrededor de $5-10, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario. Nada de eso lo hace esencial para todos los que leen esto, solo vale la pena saberlo si la descripción anterior coincide con cómo usas realmente el espacio.",
+      "pros": [
+        "Reduce la sensibilidad",
+        "Barata",
+        "Aún contiene flúor"
+      ],
+      "cons": [
+        "Tarda semanas en hacer efecto",
+        "Ver al dentista si el dolor persiste"
+      ]
+    },
+    {
+      "name": "Pasta dental de carbón y kits de blanqueamiento LED",
+      "tag": "Mayormente, evítalos",
+      "body": "Las pastas dentales de carbón son abrasivas, y las asociaciones dentales han expresado preocupación de que puedan desgastar el esmalte, y muchas carecen de flúor. Los kits de blanqueamiento LED varían ampliamente; la luz en sí aporta poco, y el gel hace el trabajo. Para blanquear, pregunta a tu dentista sobre opciones seguras de peróxido. El argumento a favor: muy comercializados, así que vale la pena saber de ellos, algunos geles blanqueadores funcionan y son baratos. La contrapartida es real: poca evidencia, posible desgaste del esmalte y puede aumentar la sensibilidad, así que sopesa eso frente a la frecuencia con la que realmente se usaría. Por $15-60, se gana su lugar en esta lista sin pedir un gran compromiso inicial en ningún sentido.",
+      "pros": [
+        "Muy comercializados, así que vale la pena saber de ellos",
+        "Algunos geles blanqueadores funcionan",
+        "Barato"
+      ],
+      "cons": [
+        "Poca evidencia, posible desgaste del esmalte",
+        "Puede aumentar la sensibilidad"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Es mejor un cepillo de dientes eléctrico que uno manual?",
+      "a": "Los estudios sugieren que eliminan más placa, y los temporizadores y sensores de presión ayudan con la técnica."
+    },
+    {
+      "q": "¿Irrigador bucal o hilo dental?",
+      "a": "Ambos funcionan. Usa el que usarás a diario."
+    },
+    {
+      "q": "¿Con qué frecuencia debo reemplazar el cabezal de mi cepillo de dientes?",
+      "a": "Cada tres meses, o antes si las cerdas se abren."
+    },
+    {
+      "q": "¿La pasta dental de carbón blanquea los dientes?",
+      "a": "Puede eliminar manchas superficiales pero es abrasiva, y muchas carecen de flúor. Habla con tu dentista sobre el blanqueamiento."
+    }
+  ]
+}

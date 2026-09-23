@@ -1,0 +1,172 @@
+{
+  "slug": "stem-toys",
+  "title": "Juguetes STEM que los niños siguen usando después del primer día",
+  "dek": "Diez juguetes STEM clasificados por cuánto tiempo los niños siguen jugando con ellos, no por lo educativos que dicen ser en la caja.",
+  "category": "Niños",
+  "how_we_pick": "Estas selecciones provienen de educadores, guías de desarrollo infantil, comunidades de padres e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Verifique las clasificaciones por edad y las certificaciones de seguridad, especialmente para imanes y piezas pequeñas; los juguetes falsificados pueden no cumplir con los estándares de seguridad.",
+  "intro": [
+    "El pasillo de juguetes STEM está lleno de kits que prometen convertir a los niños en ingenieros. Muchos son de un solo uso: un solo experimento, un modelo construido una vez, y luego una caja de piezas en un armario. Los juguetes que realmente enseñan son aquellos a los que los niños vuelven una y otra vez, porque permiten construir, experimentar y resolver problemas sin fin.",
+    "Esta lista está ordenada por cuánto tiempo cada juguete permanece en uso. Los juguetes de construcción de final abierto están en la parte superior porque duran años y crecen con el niño. Los kits de uso único están más abajo, y especificamos para qué edades es adecuada cada opción.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre verifique el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Un gran set de bloques de construcción magnéticos",
+      "tag": "El juguete que dura años",
+      "body": "Los bloques magnéticos como Magna-Tiles, Picasso Tiles y marcas similares se unen fácilmente, por lo que incluso los niños pequeños pueden construir torres, casas y rampas sin frustración. Los niños aprenden formas, simetría, equilibrio y estructuras sin darse cuenta. Se usan desde la primera infancia hasta alrededor de los diez años, y los hermanos juegan juntos. Compra un set grande; los pequeños se agotan demasiado rápido. Elige marcas con imanes sellados, ya que los imanes sueltos son peligrosos si se tragan. El argumento a favor: años de juego de final abierto, fácil para niños pequeños, y enseña geometría y estructura. El inconveniente es real: las copias baratas pueden agrietarse y exponer los imanes, y los sets grandes necesitan almacenamiento, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Años de juego de final abierto",
+        "Fácil para niños pequeños",
+        "Enseña geometría y estructura"
+      ],
+      "cons": [
+        "Las copias baratas pueden agrietarse y exponer los imanes",
+        "Los sets grandes necesitan almacenamiento"
+      ]
+    },
+    {
+      "name": "Un set clásico de bloques de construcción",
+      "tag": "Ingeniería y creatividad (edades 5+)",
+      "body": "Los sets de bloques de construcción enseñan a seguir instrucciones, razonamiento espacial y construcción libre. Un set grande de ladrillos clásicos mixtos es más de final abierto que un solo modelo temático. Los kits temáticos son divertidos pero a menudo se construyen una vez y se exhiben. Compra una caja grande de ladrillos básicos más algún kit ocasional. El argumento a favor: desarrolla habilidades espaciales, creatividad sin fin y crece con el niño. El inconveniente es real: piezas pequeñas por todas partes y los kits temáticos se construyen una vez, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $30-80, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que requiera pensar mucho.",
+      "pros": [
+        "Desarrolla habilidades espaciales",
+        "Creatividad sin fin",
+        "Crece con el niño"
+      ],
+      "cons": [
+        "Piezas pequeñas por todas partes",
+        "Los kits temáticos se construyen una vez"
+      ]
+    },
+    {
+      "name": "Un robot de codificación sin pantalla",
+      "tag": "Codificación temprana (edades 4-8)",
+      "body": "Los robots de codificación sin pantalla permiten a los niños pequeños programar una secuencia de movimientos con botones o tarjetas, y luego ver cómo el robot la sigue. Enseña secuenciación, lógica y depuración sin una pantalla. El robot ratón Code and Go de Learning Resources y juguetes similares son populares en las aulas. El argumento a favor: enseña lógica de codificación sin pantallas, es práctico y genial para niños pequeños. El inconveniente es real: los niños mayores lo superan y necesita pilas, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de alrededor de $40-80, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Enseña lógica de codificación sin pantallas",
+        "Práctico",
+        "Genial para niños pequeños"
+      ],
+      "cons": [
+        "Los niños mayores lo superan",
+        "Necesita pilas"
+      ]
+    },
+    {
+      "name": "Un juego de canicas",
+      "tag": "Física a través del juego (edades 4-10)",
+      "body": "Los juegos de canicas enseñan gravedad, momento y prueba y error. Los niños construyen una pista, la prueban y la rediseñan cuando la canica se sale. Los sets resistentes con muchas piezas mantienen a los niños ocupados durante horas y se pueden reconstruir de manera diferente cada vez. Las canicas son un peligro de asfixia para los niños pequeños. El argumento a favor: enseña física, reconstrucción sin fin y es satisfactorio de ver. El inconveniente es real: las canicas son un peligro de asfixia para menores de 3 años y los sets baratos se desmoronan, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de $30-60, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Enseña física",
+        "Reconstrucción sin fin",
+        "Satisfactorio de ver"
+      ],
+      "cons": [
+        "Las canicas son un peligro de asfixia para menores de 3 años",
+        "Los sets baratos se desmoronan"
+      ]
+    },
+    {
+      "name": "Un kit de circuitos electrónicos Snap Circuits",
+      "tag": "Fundamentos de electrónica (edades 8+)",
+      "body": "Los kits de circuitos que se unen permiten a los niños construir circuitos funcionales con luces, ventiladores, timbres y radios, siguiendo una guía o experimentando. No se necesita soldadura. Enseñan electrónica real de forma segura y ofrecen muchos proyectos en una sola caja. El argumento a favor: electrónica real de forma segura, muchos proyectos y sin soldadura. El inconveniente es real: piezas pequeñas que hay que vigilar y necesita pilas, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $30-60, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que requiera pensar mucho.",
+      "pros": [
+        "Electrónica real de forma segura",
+        "Muchos proyectos",
+        "Sin soldadura"
+      ],
+      "cons": [
+        "Piezas pequeñas que hay que vigilar",
+        "Necesita pilas"
+      ]
+    },
+    {
+      "name": "Un microscopio para niños",
+      "tag": "Científicos curiosos (edades 8+)",
+      "body": "Un microscopio real abre un mundo oculto: agua de charca, hojas, cristales de sal y cabello. Busca una lente de vidrio real e iluminación LED en lugar de ópticas de plástico de juguete. Los microscopios digitales que se conectan a una tableta son más fáciles de compartir para los niños más pequeños. El argumento a favor: cosas infinitas para mirar, ciencia real y dura años. El inconveniente es real: las ópticas de calidad de juguete decepcionan y las diapositivas y muestras necesitan preparación, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de alrededor de $40-100, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Cosas infinitas para mirar",
+        "Ciencia real",
+        "Dura años"
+      ],
+      "cons": [
+        "Las ópticas de calidad de juguete decepcionan",
+        "Las diapositivas y muestras necesitan preparación"
+      ]
+    },
+    {
+      "name": "Un kit de robot programable",
+      "tag": "Niños mayores que programan (edades 10+)",
+      "body": "Para niños mayores, un kit de robot construible programado a través de una tableta o computadora enseña codificación real con bloques o Python. Los kits de marcas como LEGO Education, Makeblock y similares están bien soportados. Son el siguiente paso una vez que los juguetes de codificación simples se vuelven aburridos. El argumento a favor: habilidades de codificación reales, construye y programa, y crece con la habilidad. El inconveniente es real: necesita un dispositivo y algunos requieren ayuda parental para empezar, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de $60-150, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera.",
+      "pros": [
+        "Habilidades de codificación reales",
+        "Construye y programa",
+        "Crece con la habilidad"
+      ],
+      "cons": [
+        "Necesita un dispositivo",
+        "Algunos requieren ayuda parental para empezar"
+      ]
+    },
+    {
+      "name": "Un kit de química o de crecimiento de cristales",
+      "tag": "Días de experimentos (edades 8+)",
+      "body": "Los kits de crecimiento de cristales y química simple son excelentes proyectos para días lluviosos y muestran la ciencia en acción. Muchos son de un solo uso, por eso están más abajo en la lista. Elige kits con instrucciones claras y supervisa como indica la etiqueta. El argumento a favor: experimentos memorables, resultados visibles y buenos regalos. El inconveniente es real: a menudo de un solo uso y requiere supervisión de un adulto, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por $20-40, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central que requiera pensar mucho.",
+      "pros": [
+        "Experimentos memorables",
+        "Resultados visibles",
+        "Buenos regalos"
+      ],
+      "cons": [
+        "A menudo de un solo uso",
+        "Requiere supervisión de un adulto"
+      ]
+    },
+    {
+      "name": "Un set de engranajes y construcción de ingeniería",
+      "tag": "Mecánica (edades 5-10)",
+      "body": "Los sets de engranajes con manivelas, ejes y ruedas muestran cómo funcionan las máquinas: gira un engranaje y observa cómo giran los demás. Los niños construyen modelos funcionales y aprenden causa y efecto. El argumento a favor: enseña mecánica, modelos móviles satisfactorios y de final abierto. El inconveniente es real: las piezas pueden aflojarse y algunos sets tienen pocas piezas, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de alrededor de $25-50, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario. Nada de eso lo hace esencial para todos los que leen esto, solo vale la pena saberlo si la descripción anterior coincide con cómo usas realmente el espacio.",
+      "pros": [
+        "Enseña mecánica",
+        "Modelos móviles satisfactorios",
+        "De final abierto"
+      ],
+      "cons": [
+        "Las piezas pueden aflojarse",
+        "Algunos sets tienen pocas piezas"
+      ]
+    },
+    {
+      "name": "Un telescopio o binoculares para principiantes",
+      "tag": "Fans del espacio (edades 8+)",
+      "body": "Para niños fascinados por el espacio, unos binoculares o un pequeño telescopio de mesa muestran los cráteres de la Luna y las lunas de Júpiter. Los binoculares son más fáciles para los niños pequeños. Evita los telescopios de juguete que venden por su aumento. El argumento a favor: vistas reales del espacio, inspira curiosidad y es útil durante años. El inconveniente es real: necesita noches despejadas y los telescopios de juguete decepcionan, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de $40-100, se gana su lugar en esta lista sin pedir un gran compromiso inicial de ninguna manera. Como con cualquier cosa en esta lista, verifica los detalles exactos del listado y el precio actual antes de agregarlo al carrito.",
+      "pros": [
+        "Vistas reales del espacio",
+        "Inspira curiosidad",
+        "Útil durante años"
+      ],
+      "cons": [
+        "Necesita noches despejadas",
+        "Los telescopios de juguete decepcionan"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es el mejor juguete STEM para niños pequeños?",
+      "a": "Bloques magnéticos y ladrillos de construcción. Son de final abierto y duran años."
+    },
+    {
+      "q": "¿Valen la pena los juguetes de codificación?",
+      "a": "Sí, especialmente los que no usan pantalla para niños pequeños y los kits programables para niños mayores."
+    },
+    {
+      "q": "¿Son seguros los juguetes magnéticos?",
+      "a": "Compra de marcas conocidas con imanes sellados y sigue las indicaciones de edad. Los imanes tragados son peligrosos."
+    },
+    {
+      "q": "¿Duran los kits de ciencia?",
+      "a": "Muchos son de un solo uso. Los juguetes de final abierto ofrecen más juego por el dinero."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "home-bar",
+  "title": "Una configuración de bar casero que prepara buenas bebidas sin el presupuesto de un barman",
+  "dek": "Diez herramientas para el bar casero clasificadas según cuánto mejora la bebida en tu vaso. Las medidas importan más que cualquier artilugio elegante.",
+  "category": "Cocina",
+  "how_we_pick": "Estas selecciones provienen de las recomendaciones de bartenders profesionales, escritores de bebidas e informes de propietarios a largo plazo, cotejados con las listas minoristas actuales. No hemos probado personalmente cada artículo aquí. Favorecimos herramientas simples y duraderas utilizadas en bares reales sobre juegos de novedad. Por favor, beba responsablemente y solo si tiene la edad legal para beber.",
+  "intro": [
+    "La mayoría de los cócteles caseros salen mal por razones aburridas: medidas al azar, jugo de limón embotellado y hielo pequeño y turbio que se derrite y agüa todo. Los aparatos caros en los juegos de regalo de cócteles no solucionan nada de esto, y los juegos de 20 piezas son en su mayoría relleno.",
+    "Esta lista está ordenada por influencia. Los primeros artículos cuestan muy poco y arreglan la mayoría de las bebidas malas. Después vienen las herramientas que lo hacen más rápido y divertido. Puedes preparar casi todos los cócteles clásicos con los cinco primeros.",
+    "Los precios a continuación son precios aproximados en la calle en el momento de escribir y cambian constantemente, especialmente durante eventos de rebajas. Trátelos como una banda aproximada para presupuestar, no como una cotización. Siempre revise la lista en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Una doble medida de estilo japonés",
+      "tag": "La herramienta que arregla la mayoría de las bebidas malas",
+      "body": "Los cócteles son recetas, y una cuarta parte de onza de más de algo ácido o dulce desequilibra toda la bebida. Una delgada medida de estilo japonés con líneas de medición internas te permite verter medidas precisas de 1/2, 3/4, 1 y 2 onzas. Es la herramienta más barata aquí y la que marca la mayor diferencia. El acero inoxidable dura para siempre; la forma alta y estrecha es más fácil de verter con precisión que el tipo clásico ancho. Los argumentos a favor: bebidas precisas y repetibles, muy barata y dura para siempre. La contrapartida es real: se necesitan unos cuantos intentos para verter sin derramar y comprobar las unidades; algunas son solo métricas, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Bebidas precisas y repetibles",
+        "Muy barata",
+        "Dura para siempre"
+      ],
+      "cons": [
+        "Se necesitan unos cuantos intentos para verter sin derramar",
+        "Comprueba las unidades; algunas son solo métricas"
+      ]
+    },
+    {
+      "name": "Una prensa de cítricos de mano",
+      "tag": "Jugo fresco en segundos",
+      "body": "El jugo de limón y lima embotellado tiene un sabor plano y ligeramente químico. El jugo fresco es la diferencia entre un sour que sabe a bar y uno que sabe a mezcla. Una prensa bisagrada resistente exprime una lima en un solo apretón, atrapa las semillas y va al lavavajillas. Consigue el tamaño de lima; también funciona para limones, y muchas personas terminan usándola para cocinar todos los días. Los argumentos a favor: jugo fresco en segundos, atrapa las semillas y también es útil en la cocina. La contrapartida es real: las prensas recubiertas pueden astillarse con el tiempo y las naranjas necesitan una prensa más grande, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Jugo fresco en segundos",
+        "Atrapa las semillas",
+        "Útil en la cocina también"
+      ],
+      "cons": [
+        "Las prensas recubiertas pueden astillarse con el tiempo",
+        "Las naranjas necesitan una prensa más grande"
+      ]
+    },
+    {
+      "name": "Una coctelera Boston de dos piezas (latas)",
+      "tag": "Bebidas agitadas",
+      "body": "Las cocteleras cobbler de tres piezas con coladores incorporados se ven bien, pero a menudo se atascan cuando están frías. Los profesionales usan dos latas de metal, una grande y una pequeña, que sellan con un golpe, se enfrían rápido y se separan fácilmente. Las latas con peso se sienten más estables. También sirven como recipiente para mezclar. Una vez que hayas usado un par, el tipo cobbler vuelve al armario. Los argumentos a favor: enfría las bebidas rápido, no se atasca como las cocteleras cobbler, y es resistente y simple. La contrapartida es real: sellar requiere un poco de práctica y necesita un colador aparte, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Enfría las bebidas rápido",
+        "No se atasca como las cocteleras cobbler",
+        "Resistente y simple"
+      ],
+      "cons": [
+        "Sellar requiere un poco de práctica",
+        "Necesita un colador aparte"
+      ]
+    },
+    {
+      "name": "Un colador Hawthorne y un colador de malla fina",
+      "tag": "Bebidas limpias y suaves",
+      "body": "Un colador Hawthorne, el que tiene resorte, retiene el hielo al verter de una lata de coctelera. Un pequeño colador de malla fina atrapa diminutos trozos de hielo y pulpa para una bebida más suave, especialmente los sours servidos solos. Vierte a través de ambos a la vez, conocido como doble colado. Juntos cuestan menos que un artilugio de novedad. Los argumentos a favor: mantiene el hielo y la pulpa fuera, hace las bebidas sedosas y es barato. La contrapartida es real: los coladores finos son lentos con bebidas pulposas y los resortes sueltos se desgastan en los baratos, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Mantiene el hielo y la pulpa fuera",
+        "Hace las bebidas sedosas",
+        "Barato"
+      ],
+      "cons": [
+        "Los coladores finos son lentos con bebidas pulposas",
+        "Los resortes sueltos se desgastan en los baratos"
+      ]
+    },
+    {
+      "name": "Bandejas de hielo de silicona de cubos grandes",
+      "tag": "Hielo que se derrite más lentamente",
+      "body": "El hielo pequeño de la puerta del congelador se derrite rápido y agüa las bebidas. Los cubos de dos pulgadas se derriten lentamente, mantienen una bebida fría y se ven mejor en un vaso de rocas. Las bandejas de silicona con tapas evitan que el hielo absorba olores del congelador. Guarda una bandeja de cubos grandes para servir y tu hielo regular para agitar. Los argumentos a favor: menos dilución en el vaso, se ve bien y las tapas mantienen el hielo con sabor limpio. La contrapartida es real: los cubos grandes se congelan lentamente y los cubos son turbios sin un molde transparente, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Menos dilución en el vaso",
+        "Se ve bien",
+        "Las tapas mantienen el hielo con sabor limpio"
+      ],
+      "cons": [
+        "Los cubos grandes se congelan lentamente",
+        "Los cubos son turbios sin un molde transparente"
+      ]
+    },
+    {
+      "name": "Un vaso mezclador y una cuchara de bar larga",
+      "tag": "Bebidas removidas como un Martini",
+      "body": "Las bebidas solo de alcohol como un Martini, Manhattan o Negroni deben removerse, no agitarse, para obtener una textura sedosa y clara. Un vaso mezclador pesado y una cuchara de bar larga y retorcida facilitan esto. Puedes remover en un vaso de pinta, pero un vaso mezclador adecuado tiene pico y contiene más hielo. La cuchara de bar también mide aproximadamente una cucharadita. Los argumentos a favor: textura correcta para bebidas removidas, pico para verter limpiamente y se ve genial en un carrito de bar. La contrapartida es real: los vasos mezcladores de vidrio pueden agrietarse y también necesitan un colador, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Textura correcta para bebidas removidas",
+        "Pico para verter limpiamente",
+        "Se ve genial en un carrito de bar"
+      ],
+      "cons": [
+        "Los vasos mezcladores de vidrio pueden agrietarse",
+        "Necesita un colador también"
+      ]
+    },
+    {
+      "name": "Un pelador en Y",
+      "tag": "Twists de cítricos y guarniciones",
+      "body": "Una tira de cáscara de cítrico exprimida sobre una bebida agrega aceites aromáticos que cambian todo el olor y el sabor. Un pelador en Y afilado toma tiras anchas con poca médula amarga. Es la misma herramienta que usas para las verduras, y una barata funciona bien. Esta es la forma más fácil de hacer que una bebida se vea y huela como si la hubiera hecho un bar. Los argumentos a favor: agrega aroma a las bebidas, hace guarniciones adecuadas y también sirve como herramienta de cocina. La contrapartida es real: las cuchillas se desafilan con el tiempo y se lavan rápidamente; los aceites cítricos se pegan, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Agrega aroma a las bebidas",
+        "Hace guarniciones adecuadas",
+        "Sirve también como herramienta de cocina"
+      ],
+      "cons": [
+        "Las cuchillas se desafilan con el tiempo",
+        "Se lavan rápido; los aceites cítricos se pegan"
+      ]
+    },
+    {
+      "name": "Un mortero",
+      "tag": "Mojitos y smashes",
+      "body": "Para mojitos, caipiriñas y smashes, un mortero presiona frutas y hierbas para liberar su sabor. Las cabezas de madera sin barnizar o de plástico son mejores; las barnizadas se desgastan y terminan en las bebidas. Presiona suavemente con menta, más fuerte con fruta. Si no preparas estas bebidas, sáltatelo, por eso está bajo en la lista. Los argumentos a favor: necesario para mojitos y similares, barato y simple. La contrapartida es real: solo necesario para unas pocas bebidas y evita la madera barnizada, así que sopesa eso frente a la frecuencia con la que se usaría. Por $8-15, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Necesario para mojitos y similares",
+        "Barato",
+        "Simple"
+      ],
+      "cons": [
+        "Solo necesario para unas pocas bebidas",
+        "Evita la madera barnizada"
+      ]
+    },
+    {
+      "name": "Un molde para hielo transparente",
+      "tag": "Hielo cristalino en casa",
+      "body": "El hielo transparente se derrite más lentamente y se ve espectacular. Los moldes aislados congelan el agua de arriba hacia abajo, empujando el aire y las impurezas hacia abajo, por lo que obtienes cubos o esferas transparentes. Lleva un día, y es un lujo, pero para un whisky o un Old Fashioned es una mejora real. Compra uno del tamaño de tus vasos. Los argumentos a favor: hielo cristalino que se derrite lentamente, impresiona a los invitados y funciona en un congelador normal. La contrapartida es real: tarda aproximadamente un día en congelarse y ocupa espacio en el congelador, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "Hielo cristalino que se derrite lentamente",
+        "Impresiona a los invitados",
+        "Funciona en un congelador normal"
+      ],
+      "cons": [
+        "Tarda aproximadamente un día en congelarse",
+        "Ocupa espacio en el congelador"
+      ]
+    },
+    {
+      "name": "Unos cuantos vasos buenos",
+      "tag": "Copa, vaso de rocas y highball",
+      "body": "Puedes servir cualquier bebida en cualquier vaso, pero una copa para bebidas solas, un vaso de rocas para bebidas con hielo y un vaso alto para bebidas largas cubren casi todo. Dos de cada uno son suficientes para empezar. El vidrio que se siente bien en la mano hace que una bebida casera se sienta como una ocasión. Compra unos resistentes que sobrevivan al lavavajillas. Los argumentos a favor: el vaso adecuado para cada tipo de bebida, hace que las bebidas se sientan especiales y un juego pequeño cubre la mayoría de las bebidas. La contrapartida es real: los vasos delicados se rompen fácilmente y el envío de vidrio conlleva riesgo de rotura; revisa las devoluciones del vendedor, así que sopesa eso frente a la frecuencia con la que se usaría.",
+      "pros": [
+        "El vaso adecuado para cada tipo de bebida",
+        "Hace que las bebidas se sientan especiales",
+        "Un juego pequeño cubre la mayoría de las bebidas"
+      ],
+      "cons": [
+        "Los vasos delicados se rompen fácilmente",
+        "El envío de vidrio conlleva riesgo de rotura; revisa las devoluciones del vendedor"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué necesito para empezar a preparar cócteles en casa?",
+      "a": "Una medida, una prensa de cítricos, una coctelera, un colador y buen hielo. Eso cubre la mayoría de los cócteles clásicos."
+    },
+    {
+      "q": "¿Valen la pena los juegos de regalo de cócteles?",
+      "a": "Por lo general, no. Los juegos grandes están rellenos de herramientas que no usarás, y la calidad suele ser pobre. Compra las piezas clave por separado."
+    },
+    {
+      "q": "¿Agitado o removido?",
+      "a": "Agita las bebidas con cítricos, crema o huevo. Remueve las bebidas hechas solo de licores, como un Martini o un Negroni."
+    },
+    {
+      "q": "¿Realmente importa el hielo?",
+      "a": "Sí. El hielo grande y fresco se derrite más lentamente, por lo que las bebidas se mantienen frías sin aguarse."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "ice-cream",
+  "title": "Glace maison, du sans sorbetière au vrai gelato",
+  "dek": "Dix appareils pour faire de la glace maison, classés selon leur facilité d'utilisation et le résultat obtenu. Le froid est le facteur le plus important.",
+  "category": "Cuisine",
+  "how_we_pick": "Ces sélections proviennent de tests d'appareils publiés, de communautés de pâtissiers et de retours d'utilisateurs à long terme, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article. Pour les appareils, vérifiez que la prise et la tension correspondent à votre pays, et achetez auprès de vendeurs offrant une garantie claire.",
+  "intro": [
+    "La glace maison échoue pour presque tout le monde de la même manière : elle est glacée et dure, pas onctueuse. La cause est une congélation lente, qui laisse les gros cristaux de glace se développer. La glace commerciale gèle rapidement, est aérée pendant le barattage, et contient des ingrédients qui la gardent souple.",
+    "Cette liste est classée selon l'efficacité de chaque article à résoudre ce problème. Une sorbetière basique avec bol congelable représente un grand bond en avant par rapport au sans sorbetière. Après cela, il s'agit de commodité, de texture et de conservation.",
+    "Les prix indiqués ci-dessous sont les prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les périodes de soldes. Considérez-les comme une fourchette approximative pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Une sorbetière à bol congelable",
+      "tag": "Le meilleur rapport qualité-prix pour une amélioration",
+      "body": "Ces machines utilisent un bol à double paroi que vous congelez pendant la nuit, puis elles brassent la préparation pendant environ 20 minutes. Elles produisent une glace vraiment onctueuse pour un prix modeste, et les modèles Cuisinart sont les favoris de longue date. Le hic, c'est la planification : le bol nécessite 12 à 24 heures au congélateur, donc c'est une fournée par jour, à moins d'acheter un second bol. Laissez le bol en permanence au congélateur si vous avez de la place. Les arguments en sa faveur : glace onctueuse à bas prix, simple à utiliser, et brassage en 20 minutes environ. Le compromis est réel : le bol doit être congelé la veille et ne permet qu'une fournée à la fois, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Glace onctueuse à bas prix",
+        "Simple à utiliser",
+        "Brassage en 20 minutes environ"
+      ],
+      "cons": [
+        "Le bol doit être congelé la veille",
+        "Une seule fournée à la fois"
+      ]
+    },
+    {
+      "name": "Une machine de type Ninja CREAMi",
+      "tag": "Pintes individuelles, glaces protéinées et aux fruits",
+      "body": "Ces machines fonctionnent différemment : vous congelez la préparation à cœur dans un pot d'une pinte, puis une lame rotative la transforme en une texture crémeuse. Elles sont parfaites pour les portions individuelles, les glaces protéinées plus légères et les sorbets aux fruits, et chaque pinte peut avoir une saveur différente. Elles sont bruyantes, et il faut prévoir la congélation de 24 heures. Des pots supplémentaires sont presque indispensables. Les arguments en sa faveur : parfaites pour les portions individuelles et les glaces protéinées, différentes saveurs par pot, et nettoyage facile. Le compromis est réel : bruyant, et les préparations nécessitent une journée complète de congélation et des pots supplémentaires coûtent cher, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Parfaites pour les portions individuelles et les glaces protéinées",
+        "Différentes saveurs par pot",
+        "Nettoyage facile"
+      ],
+      "cons": [
+        "Bruyant, et les préparations nécessitent une journée complète de congélation",
+        "Les pots supplémentaires coûtent cher"
+      ]
+    },
+    {
+      "name": "Une sorbetière à compresseur",
+      "tag": "Pour les amateurs sérieux, fournées successives",
+      "body": "Une machine à compresseur possède son propre congélateur intégré, donc il n'y a pas de pré-congélation et vous pouvez faire fournée après fournée. Elle gèle rapidement, ce qui donne des résultats très onctueux. Elles sont grandes, lourdes et chères. Pour ceux qui font de la glace chaque semaine ou pour des fêtes, cela en vaut la peine ; pour une utilisation occasionnelle, une sorbetière à bol congelable suffit. Les arguments en sa faveur : pas de pré-congélation, fournées successives, et résultats très onctueux. Le compromis est réel : encombrant et lourd sur le comptoir et cher, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Pas de pré-congélation",
+        "Fournées successives",
+        "Résultats très onctueux"
+      ],
+      "cons": [
+        "Encombrant et lourd sur le comptoir",
+        "Cher"
+      ]
+    },
+    {
+      "name": "Des pots de conservation isothermes pour glace",
+      "tag": "Conservation sans brûlure de congélation",
+      "body": "La glace maison est meilleure le jour même et devient glacée dans des récipients ordinaires. Les pots longs et peu profonds, isothermes et dotés de couvercles hermétiques, congèlent uniformément, résistent aux brûlures de congélation et sont faciles à servir. Pressez un morceau de papier sulfurisé sur la surface avant de fermer pour une protection supplémentaire. Les arguments en sa faveur : moins de brûlures de congélation, forme facile à servir, et réutilisable. Le compromis est réel : prend de la place au congélateur et il est toujours préférable de la consommer dans la semaine ou deux, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 15-30 $, il a sa place dans cette liste sans demander un gros engagement initial.",
+      "pros": [
+        "Moins de brûlures de congélation",
+        "Forme facile à servir",
+        "Réutilisable"
+      ],
+      "cons": [
+        "Prend de la place au congélateur",
+        "Il est toujours préférable de la consommer dans la semaine ou deux"
+      ]
+    },
+    {
+      "name": "Un thermomètre à lecture instantanée",
+      "tag": "Pour les bases de crème anglaise",
+      "body": "La glace classique à base de crème anglaise est cuite à environ 77-82 °C. Aller trop loin et les œufs brouillent. Un thermomètre rapide à lecture instantanée élimine les conjectures, et il est utile pour tout, du poulet rôti au caramel. Les arguments en sa faveur : évite que la crème anglaise ne tourne, utile dans toute la cuisine, et lectures rapides. Le compromis est réel : les modèles bon marché sont lents à lire et nécessitent des piles, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 15-30 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel il faut réfléchir longuement.",
+      "pros": [
+        "Évite que la crème anglaise ne tourne",
+        "Utile dans toute la cuisine",
+        "Lectures rapides"
+      ],
+      "cons": [
+        "Les modèles bon marché sont lents à lire",
+        "Nécessite des piles"
+      ]
+    },
+    {
+      "name": "Une cuillère à glace robuste",
+      "tag": "Pour servir la glace dure",
+      "body": "La glace maison gèle plus dur que celle du commerce car elle contient moins d'air et de stabilisants. Une cuillère robuste en aluminium avec un manche épais, comme le style Zeroll, coupe la glace dure avec moins d'effort. Lavage à la main ; les lave-vaisselle en ruinent certaines. Les arguments en sa faveur : sert la glace dure facilement, prise en main confortable, et dure des années. Le compromis est réel : certains types ne se lavent qu'à la main et sont plus lourds que les cuillères bon marché, alors pesez cela par rapport à la fréquence d'utilisation réelle. Prix autour de 12-25 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Sert la glace dure facilement",
+        "Prise en main confortable",
+        "Dure des années"
+      ],
+      "cons": [
+        "Certains types ne se lavent qu'à la main",
+        "Plus lourde que les cuillères bon marché"
+      ]
+    },
+    {
+      "name": "Une passoire à mailles fines",
+      "tag": "Pour une crème anglaise lisse",
+      "body": "Filtrer la préparation cuite retient les éventuels morceaux d'œuf cuit et de gousse de vanille, donnant une texture soyeuse. C'est une petite étape avec un grand bénéfice. Vous avez probablement déjà une passoire ; une à mailles fines est préférable. Les arguments en sa faveur : glace plus soyeuse, retient les morceaux cuits, et utile dans toute la cuisine. Le compromis est réel : les mailles fines sont lentes avec les préparations épaisses et il faut la nettoyer immédiatement avant qu'elle ne sèche, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 10-20 $, elle a sa place dans cette liste sans demander un gros engagement initial.",
+      "pros": [
+        "Glace plus soyeuse",
+        "Retient les morceaux cuits",
+        "Utile dans toute la cuisine"
+      ],
+      "cons": [
+        "Les mailles fines sont lentes avec les préparations épaisses",
+        "Nettoyer immédiatement avant que ça ne sèche"
+      ]
+    },
+    {
+      "name": "Des moules à sucettes glacées",
+      "tag": "Glaçons pour enfants",
+      "body": "Le jus de fruits, le yaourt ou les restes de préparation à glace deviennent des sucettes sans aucune machine. Les moules en silicone se démoulent facilement ; les moules en plastique dur avec bâtonnets sont plus robustes. Une excellente activité estivale pour les enfants et un moyen d'utiliser les fruits. Les arguments en sa faveur : aucune machine nécessaire, adapté aux enfants, et utilise les fruits. Le compromis est réel : les moules en silicone peuvent basculer dans le congélateur et le plastique bon marché se fissure, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 12-25 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel il faut réfléchir longuement.",
+      "pros": [
+        "Aucune machine nécessaire",
+        "Adapté aux enfants",
+        "Utilise les fruits"
+      ],
+      "cons": [
+        "Les moules en silicone peuvent basculer dans le congélateur",
+        "Le plastique bon marché se fissure"
+      ]
+    },
+    {
+      "name": "Des pots supplémentaires d'une pinte pour votre machine",
+      "tag": "Plusieurs saveurs à la fois",
+      "body": "Si vous avez une machine de type CREAMi, des pots supplémentaires vous permettent de congeler plusieurs préparations à la fois et font la différence entre avoir de la glace ce soir ou demain. Achetez les pots pour votre modèle exact ; les couvercles et les tailles diffèrent entre les versions. Les arguments en sa faveur : plusieurs saveurs prêtes à l'emploi, rend la machine beaucoup plus utile, et empilables. Le compromis est réel : doit correspondre à votre modèle exact et les modèles tiers peuvent mal s'adapter, alors pesez cela par rapport à la fréquence d'utilisation réelle. Prix autour de 15-30 $, il est facile de le justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Plusieurs saveurs prêtes à l'emploi",
+        "Rend la machine beaucoup plus utile",
+        "Empilables"
+      ],
+      "cons": [
+        "Doit correspondre à votre modèle exact",
+        "Les modèles tiers peuvent mal s'adapter"
+      ]
+    },
+    {
+      "name": "Un batteur électrique à main",
+      "tag": "Glace sans sorbetière",
+      "body": "La glace sans sorbetière, faite en fouettant de la crème et en incorporant du lait concentré sucré, ne nécessite aucune machine et est étonnamment bonne. Un batteur à main fouette la crème en quelques minutes. Elle est plus sucrée et plus riche que la glace barattée, mais c'est un excellent moyen d'essayer avant d'acheter une machine. Les arguments en sa faveur : aucune sorbetière nécessaire, rapide, et utile pour toute pâtisserie. Le compromis est réel : la texture est moins onctueuse que celle barattée et les recettes sont très sucrées, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 25-50 $, il a sa place dans cette liste sans demander un gros engagement initial.",
+      "pros": [
+        "Aucune sorbetière nécessaire",
+        "Rapide",
+        "Utile pour toute pâtisserie"
+      ],
+      "cons": [
+        "La texture est moins onctueuse que celle barattée",
+        "Les recettes sont très sucrées"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Pourquoi ma glace maison est-elle glacée ?",
+      "a": "Généralement une congélation lente ou trop d'eau dans la préparation. Refroidissez bien la préparation, assurez-vous que le bol est complètement congelé et consommez-la dans la semaine ou deux."
+    },
+    {
+      "q": "Sorbetière à bol congelable, à compresseur ou type CREAMi ?",
+      "a": "Bol congelable pour le rapport qualité-prix, compresseur pour les fournées fréquentes, type CREAMi pour les pintes individuelles et les recettes protéinées ou aux fruits."
+    },
+    {
+      "q": "Combien de temps se conserve la glace maison ?",
+      "a": "Elle est meilleure dans la semaine à deux dans un récipient hermétique."
+    },
+    {
+      "q": "Puis-je faire de la glace sans machine ?",
+      "a": "Oui. Les recettes sans sorbetière avec crème fouettée et lait concentré sucré fonctionnent bien."
+    }
+  ]
+}

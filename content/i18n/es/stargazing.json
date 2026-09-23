@@ -1,0 +1,172 @@
+{
+  "slug": "stargazing",
+  "title": "Observación de estrellas para principiantes: Qué comprar antes de un telescopio",
+  "dek": "Diez cosas para iniciarse en la astronomía, clasificadas según cuánto más del cielo nocturno te muestran. El telescopio no es lo primero.",
+  "category": "Outdoor",
+  "how_we_pick": "Estas selecciones provienen de clubes de astronomía, reseñas de equipos publicados e informes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente todos los artículos aquí. Nunca mires al Sol a través de binoculares o un telescopio sin un filtro solar certificado.",
+  "intro": [
+    "El error clásico del astrónomo principiante es comprar un telescopio barato de una tienda departamental. Tiembla, las afirmaciones de magnificación son fantasía y encontrar algo con él es tan frustrante que termina en el garaje en un mes. El cielo nocturno se aprende mejor primero con los ojos, una aplicación y unos binoculares.",
+    "Esta lista está ordenada según cuánto más del cielo abre cada artículo por el dinero. Varios no cuestan nada. El telescopio entra en juego cuando sabes qué quieres observar.",
+    "Los precios a continuación son precios aproximados en la calle en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre verifica el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Binoculares 7x50 o 10x50",
+      "tag": "Lo primero que hay que comprar",
+      "body": "Los binoculares muestran los cráteres de la Luna, las lunas de Júpiter, cúmulos de estrellas y la galaxia de Andrómeda, y son fáciles de usar desde la primera noche. Los números significan magnificación y tamaño de la lente en milímetros; las lentes de 50 mm captan mucha luz. Los 7x50 son más fáciles de mantener estables; los 10x50 muestran más detalle. Busca lentes totalmente multirecubiertas y prismas BaK-4. También son útiles para pájaros y viajes. El argumento a favor: fáciles de usar desde el primer día, muestran mucho más que solo tus ojos, y útiles para otras aficiones. La contrapartida es real: difíciles de mantener estables durante mucho tiempo y los pares baratos tienen bordes borrosos, así que sopesa eso frente a la frecuencia con la que se usarían realmente.",
+      "pros": [
+        "Fáciles de usar desde el primer día",
+        "Muestran mucho más que solo tus ojos",
+        "Útiles para otras aficiones"
+      ],
+      "cons": [
+        "Difíciles de mantener estables durante mucho tiempo",
+        "Los pares baratos tienen bordes borrosos"
+      ]
+    },
+    {
+      "name": "Una aplicación de mapa estelar",
+      "tag": "Saber qué estás mirando",
+      "body": "Apunta tu teléfono al cielo y aplicaciones como Stellarium, SkySafari o Star Walk te muestran lo que estás viendo: planetas, constelaciones y satélites. Convierte puntos aleatorios en cosas que puedes nombrar y encontrar de nuevo. Muchas son gratuitas. Activa el modo nocturno para que la pantalla brille en rojo. El argumento a favor: identifica lo que ves, muestra planetas y la ISS, y es gratis o barata. La contrapartida es real: las pantallas brillantes arruinan la visión nocturna y la brújula puede ser imprecisa cerca de metal, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Identifica lo que ves",
+        "Muestra planetas y la ISS",
+        "Gratis o barata"
+      ],
+      "cons": [
+        "Las pantallas brillantes arruinan la visión nocturna",
+        "La brújula puede ser imprecisa cerca de metal"
+      ]
+    },
+    {
+      "name": "Una linterna o faro rojo",
+      "tag": "Conservando la visión nocturna",
+      "body": "Tus ojos tardan 20-30 minutos en ajustarse completamente a la oscuridad, y un destello de luz blanca los reinicia. La luz roja te permite leer mapas y encontrar cosas sin perder la visión nocturna. Un faro con modo rojo te deja las manos libres. Es algo pequeño que marca una gran diferencia. El argumento a favor: conserva la visión nocturna, manos libres y barata. La contrapartida es real: debes evitar cambiar accidentalmente a blanco y el rojo muy brillante aún afecta la visión, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 10 y 20 dólares, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Conserva la visión nocturna",
+        "Manos libres",
+        "Barata"
+      ],
+      "cons": [
+        "Debes evitar cambiar accidentalmente a blanco",
+        "El rojo muy brillante aún afecta la visión"
+      ]
+    },
+    {
+      "name": "Un mapa de contaminación lumínica y un viaje a un cielo oscuro",
+      "tag": "Viendo muchas más estrellas",
+      "body": "Desde una ciudad podrías ver unas pocas docenas de estrellas. Desde un sitio oscuro, miles, más la Vía Láctea. Los mapas gratuitos de contaminación lumínica muestran áreas oscuras cerca de ti, y muchos parques estatales son lugares certificados de cielo oscuro. Planifica alrededor de una luna nueva para los cielos más oscuros. Esto solo cuesta combustible y ofrece las mejores vistas de todo en esta lista. El argumento a favor: dramáticamente más estrellas, gratis y hace que todas las demás herramientas funcionen mejor. La contrapartida es real: requiere viajar y verificar los horarios del parque y el clima, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Dramáticamente más estrellas",
+        "Gratis",
+        "Hace que todas las demás herramientas funcionen mejor"
+      ],
+      "cons": [
+        "Requiere viajar",
+        "Verificar horarios del parque y el clima"
+      ]
+    },
+    {
+      "name": "Una silla de camping reclinable",
+      "tag": "Comodidad al mirar hacia arriba",
+      "body": "Mirar directamente hacia arriba durante una hora te duele el cuello. Una silla de camping reclinable o una silla gravedad cero te permite escanear el cielo cómodamente, y es perfecta con binoculares. Lleva una manta; las noches se enfrían incluso en verano. El argumento a favor: cómoda para sesiones largas, genial con binoculares y sirve también como silla de jardín. La contrapartida es real: voluminosa de transportar y los marcos de metal se enfrían, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 30-70 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Cómoda para sesiones largas",
+        "Genial con binoculares",
+        "Sirve también como silla de jardín"
+      ],
+      "cons": [
+        "Voluminosa de transportar",
+        "Los marcos de metal se enfrían"
+      ]
+    },
+    {
+      "name": "Un telescopio Dobsonian de mesa",
+      "tag": "Un primer telescopio que funciona",
+      "body": "Si quieres un telescopio, un reflector Dobsonian de mesa es el mejor para empezar. Tiene un espejo grande por el precio, un soporte simple de apuntar y mirar sin configuración compleja, y muestra los anillos de Saturno, las bandas de nubes de Júpiter y detalles lunares. El Zhumell Z114 y modelos similares son populares. Ignora cualquier telescopio vendido por su magnificación; la apertura, el tamaño del espejo, es lo que importa. El argumento a favor: gran apertura por el precio, simple de usar y portátil. La contrapartida es real: necesita una mesa estable y los espejos necesitan alineación ocasional, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Gran apertura por el precio",
+        "Simple de usar",
+        "Portátil"
+      ],
+      "cons": [
+        "Necesita una mesa estable",
+        "Los espejos necesitan alineación ocasional"
+      ]
+    },
+    {
+      "name": "Un Dobsonian de 6-8 pulgadas de tamaño completo",
+      "tag": "Principiantes serios",
+      "body": "Un Dobsonian de 6 u 8 pulgadas es lo que más recomiendan los clubes de astronomía. Recoge suficiente luz para mostrar galaxias y nebulosas desde sitios oscuros, y planetas con detalles reales. Es grande y pesado pero fácil de usar. Cómpralo cuando sepas que disfrutas de la afición. El envío de telescopios grandes puede ser caro, así que verifica el costo total. El argumento a favor: vistas excelentes por el dinero, montura simple y un telescopio para años. La contrapartida es real: grande y pesado y el envío puede ser costoso, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Vistas excelentes por el dinero",
+        "Montura simple",
+        "Un telescopio para años"
+      ],
+      "cons": [
+        "Grande y pesado",
+        "El envío puede ser costoso"
+      ]
+    },
+    {
+      "name": "Un adaptador de trípode para binoculares",
+      "tag": "Vistas más estables",
+      "body": "Los binoculares de mano tiemblan, especialmente a 10x. Un adaptador barato los monta en cualquier trípode de cámara para vistas estables, lo que muestra mucho más detalle. Verifica que tus binoculares tengan un enchufe para trípode, generalmente oculto bajo una tapa en la bisagra frontal. El argumento a favor: vistas súper estables, barato y funciona con un trípode de cámara normal. La contrapartida es real: necesita un trípode y es incómodo para la visualización cenital, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Por 15-30 dólares, es una adición pequeña y de bajo riesgo a la lista en lugar de una compra central sobre la que necesites pensar mucho.",
+      "pros": [
+        "Vistas súper estables",
+        "Barato",
+        "Funciona con un trípode de cámara normal"
+      ],
+      "cons": [
+        "Necesita un trípode",
+        "Incómodo para la visualización cenital"
+      ]
+    },
+    {
+      "name": "Un planisferio",
+      "tag": "Aprendiendo constelaciones sin conexión",
+      "body": "Un planisferio es un mapa estelar giratorio que configuras para la fecha y hora. No necesita baterías, no arruina tu visión nocturna y enseña constelaciones de una manera que las aplicaciones no lo hacen. Compra uno para tu latitud. Es un bonito regalo para niños. El argumento a favor: sin baterías ni pantallas, enseña el cielo y genial para niños. La contrapartida es real: específico para la latitud y más difícil de leer que una aplicación al principio, así que sopesa eso frente a la frecuencia con la que se usaría realmente. Con un precio de entre 10 y 20 dólares, es fácil de justificar incluso si solo termina usándose ocasionalmente en lugar de a diario.",
+      "pros": [
+        "Sin baterías ni pantallas",
+        "Enseña el cielo",
+        "Genial para niños"
+      ],
+      "cons": [
+        "Específico para la latitud",
+        "Más difícil de leer que una aplicación al principio"
+      ]
+    },
+    {
+      "name": "Gafas certificadas para eclipses solares",
+      "tag": "Mirando el Sol de forma segura",
+      "body": "Mirar al Sol sin protección adecuada puede causar daño ocular permanente, y las gafas de sol normales no te protegen. Las gafas para eclipses que cumplen la norma ISO 12312-2, de proveedores de confianza listados por la American Astronomical Society, son seguras para la visualización directa. Nunca las uses con binoculares o telescopios; esos necesitan filtros solares especiales. El argumento a favor: visualización segura de eclipses y manchas solares, baratas y necesarias para cualquier observación solar. La contrapartida es real: se venden gafas falsas alrededor de los eclipses y nunca se deben usar con ópticas, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Visualización segura de eclipses y manchas solares",
+        "Baratas",
+        "Necesarias para cualquier observación solar"
+      ],
+      "cons": [
+        "Se venden gafas falsas alrededor de los eclipses",
+        "Nunca usar con ópticas"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Debería comprar un telescopio o binoculares primero?",
+      "a": "Binoculares. Son más fáciles de usar y te ayudan a aprender el cielo. Compra un telescopio una vez que sepas qué quieres ver."
+    },
+    {
+      "q": "¿Qué magnificación necesito?",
+      "a": "Ignora las afirmaciones de magnificación. La apertura, el tamaño de la lente o el espejo, importa mucho más."
+    },
+    {
+      "q": "¿Puedo ver algo desde la ciudad?",
+      "a": "Sí: la Luna, los planetas y las estrellas brillantes. Para galaxias y la Vía Láctea, ve a un lugar oscuro."
+    },
+    {
+      "q": "¿Cuándo es el mejor momento para observar las estrellas?",
+      "a": "Alrededor de la luna nueva, en una noche despejada, después de que tus ojos se hayan ajustado durante 20-30 minutos."
+    }
+  ]
+}

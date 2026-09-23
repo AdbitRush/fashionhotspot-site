@@ -1,0 +1,172 @@
+{
+  "slug": "car-detailing",
+  "title": "Détail automobile à la maison sans rayer la peinture",
+  "dek": "Dix produits de détail automobile classés selon leur capacité à protéger la peinture et le rendu final de la voiture. La plupart des micro-rayures proviennent du lavage, pas de la conduite.",
+  "category": "Voiture",
+  "how_we_pick": "Ces choix proviennent des conseils de detailers professionnels, des communautés d'entretien automobile et des rapports d'utilisateurs à long terme, recoupés avec les listes de vente au détail actuelles. Nous n'avons pas testé personnellement chaque article. Vérifiez les réglementations locales ; certaines régions restreignent le lavage des voitures sur les allées en raison du ruissellement.",
+  "intro": [
+    "La plupart des fines rayures et des micro-rayures sur la peinture d'une voiture proviennent d'un mauvais lavage : un seul seau d'eau sale, une vieille éponge qui traîne du gravier sur la peinture et une serviette rêche. Les stations de lavage automatiques avec des brosses font de même. La solution n'est pas des produits coûteux. Il s'agit de quelques outils simples et d'une meilleure méthode.",
+    "Cette liste est classée selon la protection qu'offre chaque article à la peinture. Les premiers sont bon marché et préviennent la plupart des dommages. Les cires, les scellants et les outils d'intérieur viennent après.",
+    "Les prix indiqués ci-dessous sont des prix de rue approximatifs au moment de la rédaction et varient constamment, surtout pendant les périodes de soldes. Considérez-les comme une fourchette approximative pour la budgétisation, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Deux seaux avec grilles anti-sédiments",
+      "tag": "La méthode qui prévient la plupart des rayures",
+      "body": "La méthode des deux seaux est le moyen le plus simple d'éviter de rayer votre voiture. Un seau contient de l'eau savonneuse ; l'autre contient de l'eau propre pour rincer le gant après chaque panneau. Une grille anti-sédiments au fond de chaque seau piège la saleté pour qu'elle ne revienne pas sur le gant. Lavez de haut en bas, rincez souvent le gant, et vous éviterez la plupart des micro-rayures. Les avantages : prévient la plupart des rayures de lavage, peu coûteux et méthode simple. Le compromis est réel : prend un peu plus de temps et nécessite de la place pour deux seaux, alors pesez cela par rapport à la fréquence d'utilisation réelle.",
+      "pros": [
+        "Prévient la plupart des rayures de lavage",
+        "Peu coûteux",
+        "Méthode simple"
+      ],
+      "cons": [
+        "Prend un peu plus de temps",
+        "Nécessite de la place pour deux seaux"
+      ]
+    },
+    {
+      "name": "Un gant de lavage en microfibre ou en laine d'agneau",
+      "tag": "Lavage doux",
+      "body": "Les éponges piègent le gravier à leur surface et le traînent sur la peinture. Un gant en microfibre ou en laine d'agneau retient la saleté dans ses fibres, loin de la peinture. Ayez-en deux, un pour le haut de la voiture et un pour les panneaux inférieurs plus sales. Lavez-les séparément sans adoucissant. Les avantages : retient la saleté loin de la peinture, doux et peu coûteux. Le compromis est réel : nécessite un lavage après utilisation et les gants tombés doivent être nettoyés avant réutilisation, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 10-20 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement.",
+      "pros": [
+        "Retient la saleté loin de la peinture",
+        "Doux",
+        "Peu coûteux"
+      ],
+      "cons": [
+        "Nécessite un lavage après utilisation",
+        "Les gants tombés doivent être nettoyés avant réutilisation"
+      ]
+    },
+    {
+      "name": "Shampoing automobile pH neutre",
+      "tag": "Nettoyage sûr",
+      "body": "Le liquide vaisselle décape la cire et dessèche les joints en caoutchouc. Un shampoing automobile pH neutre nettoie sans enlever la protection. Il est peu coûteux et une bouteille dure de nombreux lavages. Évitez de laver en plein soleil, ce qui sèche le savon en taches. Les avantages : sûr pour la cire et les joints, peu coûteux et dure de nombreux lavages. Le compromis est réel : diluez correctement et ne lavez pas en plein soleil chaud, alors pesez cela par rapport à la fréquence d'utilisation réelle. Prix autour de 10-20 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Sûr pour la cire et les joints",
+        "Peu coûteux",
+        "Dure de nombreux lavages"
+      ],
+      "cons": [
+        "Diluer correctement",
+        "Ne pas laver en plein soleil chaud"
+      ]
+    },
+    {
+      "name": "Une grande serviette de séchage en microfibre",
+      "tag": "Séchage sans micro-rayures",
+      "body": "Les vieilles serviettes de bain et les chamois peuvent rayer. Une grande serviette de séchage en microfibre pelucheuse absorbe beaucoup d'eau et sèche une voiture en quelques passages doux. Posez-la à plat et tamponnez ou faites-la glisser lentement. Lavez sans adoucissant pour qu'elle reste absorbante. Les avantages : sèche rapidement, doux pour la peinture et prévient les taches d'eau. Le compromis est réel : l'adoucissant ruine l'absorption et la microfibre bon marché peut être fine, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 15-30 $, elle mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Sèche rapidement",
+        "Doux pour la peinture",
+        "Prévient les taches d'eau"
+      ],
+      "cons": [
+        "L'adoucissant ruine l'absorption",
+        "La microfibre bon marché peut être fine"
+      ]
+    },
+    {
+      "name": "Un scellant en spray ou un spray céramique",
+      "tag": "Protection et brillance faciles",
+      "body": "La cire en pâte prend un après-midi. Les scellants en spray modernes et les sprays céramiques s'appliquent après le lavage en quelques minutes et protègent pendant des mois, avec un perlage d'eau et une brillance forts. Ils facilitent les lavages futurs car la saleté adhère moins. Les avantages : protection rapide, mois de brillance et facilite le lavage. Le compromis est réel : moins durable que les revêtements céramiques professionnels et à appliquer à l'abri du soleil direct, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 15-30 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement.",
+      "pros": [
+        "Protection rapide",
+        "Mois de brillance",
+        "Facilite le lavage"
+      ],
+      "cons": [
+        "Moins durable que les revêtements céramiques professionnels",
+        "Appliquer à l'abri du soleil direct"
+      ]
+    },
+    {
+      "name": "Un nettoyant pour jantes et une brosse",
+      "tag": "Poussière de frein",
+      "body": "La poussière de frein est corrosive et difficile à enlever avec du shampoing automobile. Un nettoyant pour jantes dédié et une brosse douce pour jantes nettoient entre les rayons. Nettoyez d'abord les jantes pour ne pas éclabousser de saleté sur la peinture propre. Utilisez des outils séparés pour les jantes. Les avantages : élimine la poussière de frein, protège les jantes et donne un aspect neuf à la voiture. Le compromis est réel : certains nettoyants sont agressifs et gardez les outils pour jantes séparés, alors pesez cela par rapport à la fréquence d'utilisation réelle. Prix autour de 15-30 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Élimine la poussière de frein",
+        "Protège les jantes",
+        "Donne un aspect neuf à la voiture"
+      ],
+      "cons": [
+        "Certains nettoyants sont agressifs",
+        "Garder les outils pour jantes séparés"
+      ]
+    },
+    {
+      "name": "Un kit de barre d'argile",
+      "tag": "Peinture lisse",
+      "body": "Après le lavage, la peinture peut encore sembler rugueuse à cause des contaminants incrustés. Une barre d'argile avec un lubrifiant les élimine, laissant une peinture lisse comme du verre prête pour le scellant. Faites-le une ou deux fois par an. Les avantages : peinture lisse comme du verre, meilleure adhérence du scellant et peu coûteux. Le compromis est réel : prend du temps et l'argile tombée doit être jetée, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 15-25 $, elle mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option. Comme pour tout sur cette liste, vérifiez les détails exacts de l'annonce et le prix actuel avant de l'ajouter au panier.",
+      "pros": [
+        "Peinture lisse comme du verre",
+        "Meilleure adhérence du scellant",
+        "Peu coûteux"
+      ],
+      "cons": [
+        "Prend du temps",
+        "L'argile tombée doit être jetée"
+      ]
+    },
+    {
+      "name": "Un aspirateur de voiture sans fil",
+      "tag": "Intérieurs",
+      "body": "Un aspirateur à main sans fil avec des embouts suceurs nettoie les sièges, les planchers et entre les sièges sans traîner de câble. Recherchez une aspiration puissante et un filtre lavable. De nombreux aspirateurs sans fil domestiques fonctionnent aussi. Les avantages : nettoyages intérieurs rapides, pas de câbles et utile à la maison aussi. Le compromis est réel : autonomie de batterie courte et les modèles bon marché ont une faible aspiration, alors pesez cela par rapport à la fréquence d'utilisation réelle. Pour 40-100 $, c'est un ajout petit et à faible risque à la liste plutôt qu'un achat central sur lequel vous devez réfléchir sérieusement. C'est un achat mineur dans le contexte de l'ensemble, mais du genre facile à regretter une fois que vous remarquez le manque.",
+      "pros": [
+        "Nettoyages intérieurs rapides",
+        "Pas de câbles",
+        "Utile à la maison aussi"
+      ],
+      "cons": [
+        "Autonomie de batterie courte",
+        "Les modèles bon marché ont une faible aspiration"
+      ]
+    },
+    {
+      "name": "Nettoyant intérieur et chiffons en microfibre",
+      "tag": "Tableaux de bord et sièges",
+      "body": "Un nettoyant intérieur doux tout usage convient aux tableaux de bord, aux panneaux de portes et au plastique. Vaporisez-le sur le chiffon, pas sur le tableau de bord, pour éviter qu'il ne touche les écrans. Évitez les produits à brillance grasse qui provoquent des reflets. Les avantages : intérieur propre, peu coûteux et sûr sur la plupart des surfaces. Le compromis est réel : les produits gras provoquent des reflets et testez d'abord sur le cuir, alors pesez cela par rapport à la fréquence d'utilisation réelle. Prix autour de 10-20 $, il est facile à justifier même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement. Rien de tout cela ne le rend essentiel pour tous ceux qui lisent ceci, il vaut mieux le connaître si la description ci-dessus correspond à la façon dont vous utilisez réellement l'espace.",
+      "pros": [
+        "Intérieur propre",
+        "Peu coûteux",
+        "Sûr sur la plupart des surfaces"
+      ],
+      "cons": [
+        "Les produits gras provoquent des reflets",
+        "Tester d'abord sur le cuir"
+      ]
+    },
+    {
+      "name": "Canon à mousse ou pulvérisateur à pompe",
+      "tag": "Pré-lavage",
+      "body": "Un canon à mousse sur un nettoyeur haute pression, ou un pulvérisateur à mousse à pompe pour un tuyau d'arrosage, couvre la voiture de mousse qui détache la saleté avant que vous ne la touchiez. Le rinçage élimine une grande partie du gravier, donc moins de rayures lors du lavage. Les avantages : détache la saleté avant le contact, moins de rayures et satisfaisant. Le compromis est réel : les canons à mousse nécessitent un nettoyeur haute pression et consomment plus de shampoing, alors pesez cela par rapport à la fréquence d'utilisation réelle. À 25-60 $, il mérite sa place sur cette liste sans demander un gros engagement initial, quelle que soit l'option.",
+      "pros": [
+        "Détache la saleté avant le contact",
+        "Moins de rayures",
+        "Satisfaisant"
+      ],
+      "cons": [
+        "Les canons à mousse nécessitent un nettoyeur haute pression",
+        "Consomme plus de shampoing"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Comment laver une voiture sans la rayer ?",
+      "a": "Utilisez deux seaux avec des grilles anti-sédiments, un gant en microfibre, un shampoing pH neutre et une serviette de séchage en microfibre."
+    },
+    {
+      "q": "Les stations de lavage automatiques sont-elles mauvaises pour la peinture ?",
+      "a": "Les lavages à brosses peuvent causer des micro-rayures. Les lavages sans contact sont plus doux mais moins efficaces."
+    },
+    {
+      "q": "À quelle fréquence dois-je cirer ou sceller ma voiture ?",
+      "a": "Scellants en spray tous les quelques mois ; cire en pâte quelques fois par an."
+    },
+    {
+      "q": "Le liquide vaisselle convient-il pour laver une voiture ?",
+      "a": "Non. Il décape la cire et dessèche les joints."
+    }
+  ]
+}

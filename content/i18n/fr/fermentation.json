@@ -1,0 +1,172 @@
+{
+  "slug": "fermentation",
+  "title": "La fermentation maison : kimchi, choucroute et kombucha sans moisissure",
+  "dek": "Dix articles pour faire fermenter légumes et boissons chez soi, classés selon le nombre de préparations ratées qu'ils évitent. Le plus gros du travail consiste à maintenir le tout sous la saumure.",
+  "category": "Cuisine",
+  "how_we_pick": "Ces sélections proviennent des conseils de sécurité alimentaire des services de vulgarisation américains, d'auteurs spécialisés en fermentation et des retours d'utilisateurs de longue date, recoupés avec les listes de vente actuelles. Nous n'avons pas testé personnellement chaque article. Suivez une recette éprouvée pour les ratios de sel et, en cas de doute sur une préparation, jetez-la.",
+  "intro": [
+    "La fermentation des légumes est l'une des plus anciennes méthodes de conservation des aliments, et elle ne demande quasiment rien : des légumes, du sel et du temps. Ce qui tourne mal est presque toujours la même chose : les légumes flottent au-dessus de la saumure et développent des moisissures, l'air s'infiltre, ou le sel est mal dosé. Les gens jettent un bocal, décident que la fermentation est risquée et abandonnent.",
+    "Cette liste est classée selon ce qui empêche ces problèmes. Les poids et les couvercles à barboteur arrivent en tête car ils résolvent les échecs les plus courants. Viennent ensuite les outils qui facilitent la répétition et l'augmentation des quantités.",
+    "Les prix indiqués sont les prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout pendant les périodes de soldes. Considérez-les comme une fourchette indicative pour établir votre budget, pas comme un devis. Vérifiez toujours l'annonce en ligne avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Poids de fermentation en verre",
+      "tag": "La solution à la plupart des préparations ratées",
+      "body": "La règle d'or de la fermentation des légumes : tout maintenir sous la saumure. Tout ce qui dépasse la surface est exposé à l'air et peut développer des moisissures. Des disques de verre lourds, conçus pour les bocaux à large ouverture, se placent sur les légumes et les maintiennent enfoncés. Ils sont non réactifs, faciles à nettoyer et durent éternellement. Un sac de congélation rempli de saumure peut dépanner, mais les poids sont plus propres et plus fiables. Les avantages : préviennent l'échec le plus courant, faciles à nettoyer et durent éternellement. Le compromis : conçus uniquement pour les bocaux à large ouverture et le verre peut s'ébrécher s'il tombe dans le bocal, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Prévient l'échec le plus courant",
+        "Facile à nettoyer",
+        "Dure éternellement"
+      ],
+      "cons": [
+        "Conçu uniquement pour les bocaux à large ouverture",
+        "Le verre peut s'ébrécher s'il tombe dans le bocal"
+      ]
+    },
+    {
+      "name": "Couvercles à barboteur pour bocaux Mason à large ouverture",
+      "tag": "Laisse le gaz s'échapper, garde l'air dehors",
+      "body": "La fermentation des légumes produit du gaz, ce qui crée une pression dans un bocal hermétique. Ouvrir le bocal quotidiennement pour laisser le gaz s'échapper laisse entrer l'air. Les couvercles à barboteur en silicone ou en plastique laissent le gaz s'échapper tout en empêchant l'air d'entrer, vous pouvez donc laisser le bocal tranquille. Les couvercles à tétine en silicone sont simples et bon marché ; les barboteurs à eau ressemblent à du matériel de brassage amateur et fonctionnent bien aussi. Les avantages : pas besoin de dégazer quotidiennement, empêche l'air et les mouches à fruits d'entrer, et s'adapte aux bocaux standards. Le compromis : ne convient qu'aux bocaux à large ouverture et le silicone peut retenir les odeurs, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Pas de dégazage quotidien",
+        "Empêche l'air et les mouches à fruits d'entrer",
+        "S'adapte aux bocaux standards"
+      ],
+      "cons": [
+        "Ne convient qu'aux bocaux à large ouverture",
+        "Le silicone peut retenir les odeurs"
+      ]
+    },
+    {
+      "name": "Bocaux Mason à large ouverture",
+      "tag": "Petites quantités",
+      "body": "Les bocaux Mason d'un litre et de deux litres à large ouverture sont le récipient de fermentation standard. Ils sont bon marché, faciles à remplir et à nettoyer, et s'adaptent aux poids et aux couvercles à barboteur mentionnés ci-dessus. Commencez avec quelques bocaux d'un litre ; ils conviennent à un petit foyer et vous pouvez faire fermenter différents produits simultanément. Les avantages : bon marché et faciles à trouver, s'adaptent aux couvercles et poids standards, et permettent de surveiller facilement la fermentation. Le compromis : petite capacité pour les grands foyers et le verre nécessite une manipulation prudente, alors pesez cela par rapport à la fréquence d'utilisation. Prix autour de 15-30 $, il est facile de justifier l'achat même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Bon marché et faciles à trouver",
+        "S'adapte aux couvercles et poids standards",
+        "Facile de surveiller la fermentation"
+      ],
+      "cons": [
+        "Petite capacité pour les grands foyers",
+        "Le verre nécessite une manipulation prudente"
+      ]
+    },
+    {
+      "name": "Une balance numérique",
+      "tag": "Ratios de sel précis",
+      "body": "Le sel contrôle la croissance des micro-organismes. Trop peu et les mauvais prennent le dessus ; trop et rien ne fermente. La plupart des recettes utilisent environ 2 % de sel par poids de légumes, ce qui implique de peser les deux. Une balance numérique au gramme près rend cela facile et reproductible. Les avantages : ratios de sel précis, préparations reproductibles et utile pour toutes les cuisines. Le compromis : nécessite des piles et il faut en choisir une qui affiche au gramme près, alors pesez cela par rapport à la fréquence d'utilisation. À 12-25 $, elle mérite sa place sur cette liste sans demander un gros engagement initial.",
+      "pros": [
+        "Ratios de sel précis",
+        "Préparations reproductibles",
+        "Utile pour toutes les cuisines"
+      ],
+      "cons": [
+        "Nécessite des piles",
+        "Choisir une balance qui affiche au gramme près"
+      ]
+    },
+    {
+      "name": "Sel non iodé",
+      "tag": "Fermentations saines",
+      "body": "L'iode et les agents anti-agglomérants du sel de table peuvent ralentir la fermentation et troubler la saumure. Le sel à cornichons, le sel casher ou le sel de mer pur sans additifs sont préférables. C'est bon marché et un sac dure pour de nombreuses préparations. Vérifiez l'étiquette pour les additifs. Les avantages : fermentations meilleures et plus claires, bon marché et dure pour de nombreuses préparations. Le compromis : les marques diffèrent par la taille des grains, il faut donc peser plutôt que mesurer et éviter le sel de table iodé, alors pesez cela par rapport à la fréquence d'utilisation. Pour 5-10 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat principal nécessitant une réflexion approfondie.",
+      "pros": [
+        "Fermentations meilleures et plus claires",
+        "Bon marché",
+        "Dure pour de nombreuses préparations"
+      ],
+      "cons": [
+        "Les marques diffèrent par la taille des grains, il faut donc peser plutôt que mesurer",
+        "Éviter le sel de table iodé"
+      ]
+    },
+    {
+      "name": "Un pilon en bois",
+      "tag": "Tasser la choucroute",
+      "body": "Presser fermement le chou salé dans un bocal libère son jus et élimine les poches d'air, créant ainsi sa propre saumure. Un pilon en bois est conçu pour cette tâche et épargne vos mains. Le bout d'un rouleau à pâtisserie propre fonctionne aussi, mais un pilon s'adapte mieux aux bocaux. Les avantages : facilite la création de saumure naturelle, élimine les poches d'air et bon marché. Le compromis : un outil à usage unique et le bois nécessite un séchage après lavage, alors pesez cela par rapport à la fréquence d'utilisation. Prix autour de 10-15 $, il est facile de justifier l'achat même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Facilite la création de saumure naturelle",
+        "Élimine les poches d'air",
+        "Bon marché"
+      ],
+      "cons": [
+        "Un outil à usage unique",
+        "Le bois nécessite un séchage après lavage"
+      ]
+    },
+    {
+      "name": "Une jarre de fermentation en céramique",
+      "tag": "Grandes quantités",
+      "body": "Pour les foyers qui consomment beaucoup de choucroute ou de kimchi, une jarre à bain d'eau permet de fermenter plusieurs kilos à la fois. Le canal d'eau autour du couvercle laisse le gaz s'échapper et empêche l'air d'entrer. C'est l'approche traditionnelle et très fiable. Elles sont lourdes et coûteuses à expédier, alors vérifiez les frais de livraison. Les avantages : grandes quantités en une seule fois, le bain d'eau fonctionne bien et dure des décennies. Le compromis : lourde et coûteuse à expédier, et vérifiez que la glaçure est sans plomb et de qualité alimentaire, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Grandes quantités en une seule fois",
+        "Le bain d'eau fonctionne bien",
+        "Dure des décennies"
+      ],
+      "cons": [
+        "Lourde et coûteuse à expédier",
+        "Vérifier que la glaçure est sans plomb et de qualité alimentaire"
+      ]
+    },
+    {
+      "name": "Une jarre de brassage de kombucha avec robinet",
+      "tag": "Kombucha et kéfir de fruits",
+      "body": "Le kombucha nécessite une jarre large, une couverture en tissu respirant et un démarreur SCOBY. Une jarre avec un robinet permet de prélever le kombucha fini sans déranger la culture. Choisissez des robinets en verre ou en acier inoxydable de qualité alimentaire, pas des robinets en plastique bon marché qui peuvent fuir. Gardez-la à l'abri de la lumière directe du soleil. Les avantages : brassage continu facile, pas de dérangement de la culture, et convient aussi pour le kéfir de fruits. Le compromis : les robinets bon marché fuient et il faut un démarreur de culture séparément, alors pesez cela par rapport à la fréquence d'utilisation. Pour 25-45 $, c'est un ajout petit et peu risqué à la liste plutôt qu'un achat principal nécessitant une réflexion approfondie.",
+      "pros": [
+        "Brassage continu facile",
+        "Pas de dérangement de la culture",
+        "Convient aussi pour le kéfir de fruits"
+      ],
+      "cons": [
+        "Les robinets bon marché fuient",
+        "Nécessite un démarreur de culture séparément"
+      ]
+    },
+    {
+      "name": "Bouteilles à fermeture mécanique",
+      "tag": "Carbonatation des boissons",
+      "body": "Une seconde fermentation dans des bouteilles scellées rend le kombucha et les boissons à base de ginger bug pétillants. Les bouteilles à fermeture mécanique supportent la pression et se referment facilement. Utilisez des bouteilles conçues pour la pression, pas des bouteilles décoratives, et réfrigérez avant d'ouvrir, car les bouteilles trop fermentées peuvent développer une forte pression. Les avantages : permet d'obtenir des boissons naturellement pétillantes, réutilisables et faciles à sceller. Le compromis : peuvent sur-carbonater et éclater si laissées à température ambiante et il faut remplacer les joints en caoutchouc usés, alors pesez cela par rapport à la fréquence d'utilisation. Prix autour de 20-35 $, il est facile de justifier l'achat même s'il n'est utilisé qu'occasionnellement plutôt que quotidiennement.",
+      "pros": [
+        "Permet d'obtenir des boissons naturellement pétillantes",
+        "Réutilisables",
+        "Faciles à sceller"
+      ],
+      "cons": [
+        "Peuvent sur-carbonater et éclater si laissées à température ambiante",
+        "Remplacer les joints en caoutchouc usés"
+      ]
+    },
+    {
+      "name": "Bandes pH",
+      "tag": "Vérifier l'acidité",
+      "body": "Une fermentation de légumes saine devient plus acide au fil du temps, et cette acidité est ce qui la rend sûre. Les bandes de test donnent une lecture approximative, ce qui est rassurant pour les débutants et utile pour le kombucha. La plupart des recettes éprouvées sont sûres sans test lorsque le sel et la submersion sont corrects, donc ceci est facultatif. Les avantages : réconfort pour les débutants, utile pour le kombucha et bon marché. Le compromis : les bandes ne donnent qu'une lecture approximative et ne remplacent pas une recette éprouvée, alors pesez cela par rapport à la fréquence d'utilisation. À 8-15 $, elle mérite sa place sur cette liste sans demander un gros engagement initial.",
+      "pros": [
+        "Réconfort pour les débutants",
+        "Utile pour le kombucha",
+        "Bon marché"
+      ],
+      "cons": [
+        "Les bandes ne donnent qu'une lecture approximative",
+        "Ne remplacent pas une recette éprouvée"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "La fermentation maison est-elle sûre ?",
+      "a": "La fermentation des légumes avec le bon dosage de sel et les légumes maintenus sous la saumure a un bon bilan de sécurité. Suivez des recettes éprouvées et jetez tout ce qui présente des moisissures floconneuses, des couleurs étranges ou une odeur de pourri."
+    },
+    {
+      "q": "Qu'est-ce que cette pellicule blanche sur le dessus ?",
+      "a": "Souvent de la levure Kahm, qui est inoffensive mais peut altérer le goût. Écumez-la. Une moisissure floconneuse et colorée signifie qu'il faut jeter la préparation."
+    },
+    {
+      "q": "Combien de temps prend la choucroute ?",
+      "a": "Généralement une à quatre semaines à température ambiante, selon la chaleur et le goût. Goûtez au fur et à mesure."
+    },
+    {
+      "q": "Par quoi devrais-je commencer à fermenter ?",
+      "a": "La choucroute. Ce n'est que du chou et du sel, et cela enseigne les bases."
+    }
+  ]
+}

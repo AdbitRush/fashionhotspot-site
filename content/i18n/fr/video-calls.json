@@ -1,0 +1,172 @@
+{
+  "slug": "video-calls",
+  "title": "Améliorer votre image et votre son lors des appels vidéo",
+  "dek": "Dix améliorations classées selon leur impact sur votre présence en ligne. Le son est primordial, la caméra, secondaire.",
+  "category": "Bureau",
+  "how_we_pick": "Ces choix proviennent d'avis publiés sur les webcams et l'audio, de communautés de télétravailleurs et de rapports d'utilisateurs sur le long terme, recoupés avec les listes de prix actuelles. Nous n'avons pas testé personnellement chaque article. Nous avons privilégié les produits compatibles avec toutes les applications d'appel et qui s'intègrent discrètement dans un bureau.",
+  "intro": [
+    "Quand on veut améliorer son apparence en appel, on achète une webcam 4K. C'est généralement une fausse première étape. Ce que les collègues remarquent, c'est l'écho, une voix qui coupe, un visage éclairé par une fenêtre en arrière-plan. Corrigez ces points et la caméra d'un portable fait l'affaire. Sinon, une webcam à 200 $ ne fera qu'afficher votre mauvais éclairage avec plus de détails.",
+    "Cette liste est donc classée : d'abord le son, puis la lumière, et enfin la caméra. La plupart des articles utiles coûtent moins de 50 $, et plusieurs sont gratuits.",
+    "Les prix indiqués sont des prix de rue approximatifs au moment de la rédaction et fluctuent constamment, surtout lors des soldes. Considérez-les comme une fourchette pour votre budget, pas comme un devis. Vérifiez toujours l'annonce en direct avant d'acheter."
+  ],
+  "products": [
+    {
+      "name": "Un casque filaire ou USB avec micro perche",
+      "tag": "L'amélioration que vos collègues entendent vraiment",
+      "body": "Les micros des ordinateurs portables captent toute la pièce : le clavier, le réfrigérateur, l'écho sur les murs nus. Un micro perche se place à quelques centimètres de votre bouche, rendant votre voix claire et les autres bruits discrets. C'est le changement le plus significatif que les gens remarqueront. Les casques filaires ou USB sont plus fiables que le Bluetooth pour cela, qui dégrade souvent la qualité audio lorsque le micro est actif. Jabra, Logitech et Poly proposent de bons casques de bureau à prix raisonnables. Les avantages : voix claire, peu de bruit de fond, élimine l'écho et le larsen, et fonctionne avec toutes les applications d'appel. Le revers de la médaille : les casques paraissent moins soignés à la caméra et les versions Bluetooth ont souvent un son moins bon lors des appels, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Voix claire, peu de bruit de fond",
+        "Élimine l'écho et le larsen",
+        "Fonctionne avec toutes les applications d'appel"
+      ],
+      "cons": [
+        "Les casques paraissent moins soignés à la caméra",
+        "Les versions Bluetooth ont souvent un son moins bon lors des appels"
+      ]
+    },
+    {
+      "name": "Se placer face à la fenêtre, pas dos à elle",
+      "tag": "La solution d'éclairage gratuite",
+      "body": "Une fenêtre lumineuse derrière vous vous transforme en silhouette, et la caméra ne peut rien y faire. Orienter votre bureau de manière à avoir la fenêtre devant vous, ou sur le côté, offre un éclairage doux et flatteur gratuitement. Si vous ne pouvez pas déplacer le bureau, fermez le store derrière vous et placez une lampe devant. Ce simple changement améliore l'apparence d'une webcam bon marché. Les avantages : gratuit, lumière douce et uniforme sur votre visage, et améliore l'image de n'importe quelle caméra. Le revers de la médaille : dépend de l'agencement de la pièce et le soleil direct est trop dur ; utilisez un voilage fin, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Gratuit",
+        "Lumière douce et uniforme sur votre visage",
+        "Améliore l'image de n'importe quelle caméra"
+      ],
+      "cons": [
+        "Dépend de l'agencement de la pièce",
+        "Le soleil direct est trop dur ; utilisez un voilage fin"
+      ]
+    },
+    {
+      "name": "Un petit panneau LED ou une lumière d'appoint",
+      "tag": "Appels en soirée et pièces sombres",
+      "body": "Quand la lumière du jour baisse, un petit panneau LED dimmable placé derrière le moniteur et légèrement au-dessus de vos yeux vous offre une lumière stable et douce. Choisissez-en un avec une température de couleur réglable pour l'adapter à la pièce, et réfléchissez la lumière sur un mur si elle semble trop dure. Les ring lights fonctionnent aussi, mais se reflètent dans les lunettes ; un panneau placé sur le côté évite cela. Les avantages : lumière constante à toute heure, luminosité et chaleur réglables, petit et bon marché. Le revers de la médaille : se reflète dans les lunettes si placé directement et les pinces peuvent marquer les moniteurs fins, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Lumière constante à toute heure",
+        "Luminosité et chaleur réglables",
+        "Petit et bon marché"
+      ],
+      "cons": [
+        "Se reflète dans les lunettes si placé directement",
+        "Les pinces peuvent marquer les moniteurs fins"
+      ]
+    },
+    {
+      "name": "Un support pour ordinateur portable",
+      "tag": "Caméra à hauteur des yeux",
+      "body": "Un ordinateur portable posé sur le bureau vous filme d'en bas, ce qui est peu flatteur et donne l'impression que vous regardez tout le monde de haut. Un support élève la caméra à hauteur des yeux. Associez-le à un clavier et une souris séparés pour pouvoir taper confortablement. Une pile de livres fait l'affaire, mais un support pliable se range facilement et ajuste sa hauteur. Les avantages : angle de caméra à hauteur des yeux, meilleure posture lors des longs appels, et se plie à plat. Le revers de la médaille : nécessite un clavier et une souris séparés et les supports bon marché peuvent vaciller en tapant, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Angle de caméra à hauteur des yeux",
+        "Meilleure posture lors des longs appels",
+        "Se plie à plat"
+      ],
+      "cons": [
+        "Nécessite un clavier et une souris séparés",
+        "Les supports bon marché peuvent vaciller en tapant"
+      ]
+    },
+    {
+      "name": "Un microphone de bureau USB",
+      "tag": "Pour ceux qui parlent pour gagner leur vie",
+      "body": "Si vous présentez, enseignez, podcastez ou vendez lors d'appels, un microphone USB offre une voix plus riche et plus chaude qu'un casque. Les microphones dynamiques, comme le Samson Q2U ou similaire, rejettent mieux le bruit ambiant que les microphones à condensateur, ce qui est ce dont la plupart des bureaux à domicile ont besoin. Placez-le près de votre bouche, juste hors champ de la caméra, sur un petit bras. Utilisez un casque avec pour éviter l'écho. Les avantages : voix riche et claire, aspect professionnel à la caméra, et utile pour l'enregistrement également. Le revers de la médaille : les microphones à condensateur captent l'écho de la pièce et nécessitent un casque pour éviter le larsen, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Voix riche et claire",
+        "Aspect professionnel à la caméra",
+        "Utile pour l'enregistrement également"
+      ],
+      "cons": [
+        "Les microphones à condensateur captent l'écho de la pièce",
+        "Nécessite un casque pour éviter le larsen"
+      ]
+    },
+    {
+      "name": "Une webcam 1080p",
+      "tag": "Ordinateurs portables utilisés avec le capot fermé",
+      "body": "Si votre ordinateur portable reste fermé sur un support à côté d'un moniteur, vous avez besoin d'une webcam externe, qui peut se placer sur le moniteur à hauteur des yeux. Une bonne webcam 1080p avec de bonnes performances en basse lumière est suffisante. La 4K n'apporte pas grand-chose pour les appels, car la plupart des applications compressent la vidéo de toute façon. Recherchez un cache-objectif intégré. Les avantages : la caméra se place à hauteur des yeux sur le moniteur, meilleure que de nombreuses anciennes caméras de portables, et cache-objectif sur la plupart des modèles. Le revers de la médaille : la 4K est largement inutile pour les appels et les micros intégrés sont souvent médiocres, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "La caméra se place à hauteur des yeux sur le moniteur",
+        "Meilleure que de nombreuses anciennes caméras de portables",
+        "Cache-objectif sur la plupart des modèles"
+      ],
+      "cons": [
+        "La 4K est largement inutile pour les appels",
+        "Les micros intégrés sont souvent médiocres"
+      ]
+    },
+    {
+      "name": "Des meubles rembourrés ou un tapis",
+      "tag": "Pièces réverbérantes",
+      "body": "Les murs nus et les sols durs font rebondir le son, ce qui donne l'impression que vous êtes dans une salle de bain. Un tapis, des rideaux, une bibliothèque ou quelques coussins absorbent le son. Les panneaux acoustiques fonctionnent mais ressemblent à un studio ; un mobilier normal suffit généralement et est plus esthétique à la caméra. Essayez d'applaudir dans la pièce avant et après. Les avantages : moins d'écho à chaque appel, rend la pièce plus agréable aussi, et aucune technologie requise. Le revers de la médaille : réduit seulement l'écho, pas le bruit extérieur, et les panneaux acoustiques peuvent sembler déplacés, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Moins d'écho à chaque appel",
+        "Rend la pièce plus agréable aussi",
+        "Aucune technologie requise"
+      ],
+      "cons": [
+        "Ne réduit que l'écho, pas le bruit extérieur",
+        "Les panneaux acoustiques peuvent sembler déplacés"
+      ]
+    },
+    {
+      "name": "Un adaptateur Ethernet filaire",
+      "tag": "Vidéo figée",
+      "body": "La vidéo figée et les voix robotiques sont généralement dues au Wi-Fi, pas à la caméra. Si votre bureau est proche du routeur, un adaptateur Ethernet USB-C et un câble vous offrent une connexion stable qui ne coupe pas lorsque quelqu'un commence à streamer dans la pièce voisine. De nombreux hubs USB-C incluent déjà un port Ethernet. Les avantages : arrête le gel et les coupures, bon marché, et souvent intégré aux hubs USB-C. Le revers de la médaille : seulement pratique près du routeur et nécessite un port libre sur les ordinateurs portables fins, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Arrête le gel et les coupures",
+        "Bon marché",
+        "Souvent intégré aux hubs USB-C"
+      ],
+      "cons": [
+        "Seulement pratique près du routeur",
+        "Nécessite un port libre sur les ordinateurs portables fins"
+      ]
+    },
+    {
+      "name": "Un arrière-plan rangé ou un simple rideau",
+      "tag": "Apparence soignée",
+      "body": "Le flou et les arrière-plans virtuels scintillent autour des cheveux et des mains. Un arrière-plan réel avec une plante, une lampe et une étagère paraît calme et ordonné. Si la pièce derrière vous ne peut pas être rangée, un simple rideau sur un support, ou orienter le bureau face à un mur uni avec un seul objet dessus, fonctionne bien. Les avantages : aspect plus naturel que le flou, pas de scintillement sur les bords, et souvent gratuit. Le revers de la médaille : un arrière-plan réel prend de la place et les rideaux peuvent se froisser ; choisissez un tissu infroissable, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Aspect plus naturel que le flou",
+        "Pas de scintillement sur les bords",
+        "Souvent gratuit"
+      ],
+      "cons": [
+        "Un arrière-plan réel prend de la place",
+        "Les rideaux peuvent se froisser ; choisissez un tissu infroissable"
+      ]
+    },
+    {
+      "name": "Un bouton de sourdine ou un Stream Deck",
+      "tag": "Mise en sourdine rapide et fiable",
+      "body": "Chercher le bouton de sourdine pendant que le chien aboie est une panique familière. Un petit clavier macro USB ou un bouton de sourdine physique vous permet de couper le son de n'importe quelle application instantanément et indique clairement si vous êtes en direct. Beaucoup peuvent également être configurés pour démarrer des appels, partager l'écran et lever la main. Agréable à avoir, mais pas essentiel. Les avantages : sourdine instantanée depuis n'importe quelle application, indicateur lumineux marche/arrêt clair, et raccourcis programmables. Le revers de la médaille : nécessite une configuration par application et un gadget supplémentaire sur le bureau, alors pesez cela par rapport à la fréquence d'utilisation.",
+      "pros": [
+        "Sourdine instantanée depuis n'importe quelle application",
+        "Indicateur lumineux marche/arrêt clair",
+        "Raccourcis programmables"
+      ],
+      "cons": [
+        "Nécessite une configuration par application",
+        "Un gadget supplémentaire sur le bureau"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelle est la première chose à améliorer pour de meilleurs appels ?",
+      "a": "Votre microphone. Un casque avec micro perche fait une plus grande différence que n'importe quelle caméra."
+    },
+    {
+      "q": "Une webcam 4K vaut-elle le coup ?",
+      "a": "Rarement pour les appels. Les applications d'appel compressent la vidéo, donc un bon éclairage sur une caméra 1080p rend mieux qu'une 4K avec un mauvais éclairage."
+    },
+    {
+      "q": "Ring light ou panneau LED ?",
+      "a": "L'un ou l'autre fonctionne. Si vous portez des lunettes, un panneau placé sur le côté évite le reflet circulaire."
+    },
+    {
+      "q": "Pourquoi ma vidéo se fige-t-elle ?",
+      "a": "Généralement le Wi-Fi. Connectez-vous avec un câble si possible, ou rapprochez-vous du routeur."
+    }
+  ]
+}

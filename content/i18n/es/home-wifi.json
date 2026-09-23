@@ -1,0 +1,172 @@
+{
+  "slug": "home-wifi",
+  "title": "Soluciona los puntos muertos del Wi-Fi de casa sin pagar por más velocidad",
+  "dek": "Diez soluciones para habitaciones lentas y llamadas interrumpidas, clasificadas por cuánto ayudan por el dinero. Las dos primeras no cuestan nada.",
+  "category": "Tecnología",
+  "how_we_pick": "Estas selecciones provienen de pruebas de laboratorio publicadas, foros de redes y reportes de propietarios a largo plazo, cotejados con listados minoristas actuales. No hemos probado personalmente cada artículo aquí. Favorecimos las soluciones que funcionan para inquilinos y hogares no técnicos, y hemos sido francos sobre qué aparatos principalmente mueven el problema de sitio.",
+  "intro": [
+    "Cuando el Wi-Fi va mal en el dormitorio, la mayoría llama a su proveedor y paga por un plan más rápido. Rara vez ayuda. El internet que llega a la casa suele estar bien; el problema son los últimos diez metros entre el router y tu portátil, y un plan más rápido no hace nada contra paredes, pisos y un router escondido en un armario.",
+    "Así que esta lista está ordenada por impacto. Empieza por arriba, prueba después de cada paso y para cuando el problema desaparezca. Mucha gente soluciona su punto muerto en el paso dos y nunca gasta un céntimo.",
+    "Los precios a continuación son precios de calle aproximados en el momento de escribir esto y cambian constantemente, especialmente durante eventos de rebajas. Trátalos como una banda aproximada para presupuestar, no como una cotización. Siempre revisa el listado en vivo antes de comprar."
+  ],
+  "products": [
+    {
+      "name": "Mover el router que ya tienes",
+      "tag": "La primera solución gratis",
+      "body": "Los routers se instalan donde sea que llegue el cable a la casa, que a menudo es una esquina, un sótano o el interior de un mueble de TV. El Wi-Fi se expande hacia afuera y ligeramente hacia abajo, y odia el metal, los espejos, las peceras y las paredes gruesas. Mover el router fuera del mueble, a una estantería y más cerca del centro de la casa puede marcar una diferencia mayor que cualquier compra en esta página. Si el punto del cable está fijo, un cable coaxial o Ethernet más largo desde el enchufe de la pared a un lugar mejor cuesta unos pocos dólares. El argumento a favor: no cuesta nada, a menudo soluciona el problema directamente y tarda diez minutos en probarse. La contrapartida es real: limitado por dónde entra el cable y las cajas instaladas por el proveedor a veces no se pueden mover mucho, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "No cuesta nada",
+        "A menudo soluciona el problema directamente",
+        "Tarda diez minutos en probarse"
+      ],
+      "cons": [
+        "Limitado por dónde entra el cable",
+        "Las cajas instaladas por el proveedor a veces no se pueden mover mucho"
+      ]
+    },
+    {
+      "name": "Una app de prueba de velocidad y un recorrido de mapa de calor",
+      "tag": "Encontrando el punto muerto real",
+      "body": "Antes de comprar nada, mide. Haz una prueba de velocidad junto al router, luego en cada habitación donde las cosas se sientan lentas. Si la velocidad junto al router también es pobre, el problema es tu plan o el equipo del proveedor, y ningún kit de malla lo arreglará. Si es rápido junto al router y colapsa dos habitaciones más allá, tienes un problema de cobertura, y ahora sabes exactamente dónde. Las apps gratuitas de mapa de calor te permiten recorrer la casa y ver la caída de cobertura. Este paso evita que la gente compre la solución incorrecta. El argumento a favor: separa los problemas del plan de los problemas de cobertura, muestra exactamente qué habitación necesita ayuda y te da un número de antes y después. La contrapartida es real: los resultados varían durante el día y las pruebas en el dispositivo que realmente tiene problemas, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Separa los problemas del plan de los problemas de cobertura",
+        "Muestra exactamente qué habitación necesita ayuda",
+        "Te da un número de antes y después"
+      ],
+      "cons": [
+        "Los resultados varían durante el día",
+        "Prueba en el dispositivo que realmente tiene problemas"
+      ]
+    },
+    {
+      "name": "Un kit de malla Wi-Fi 6 o 6E de tres unidades",
+      "tag": "La solución para la mayoría de hogares con varias habitaciones",
+      "body": "Los sistemas de malla reemplazan un router con varias unidades que pasan tu conexión entre ellas y aparecen como una sola red. Caminas de la cocina al dormitorio y tu teléfono se mueve silenciosamente al nodo más cercano. Para una casa de dos pisos o algo de más de unos 140 metros cuadrados, un paquete de tres es la respuesta fiable. Wi-Fi 6 es suficiente para la mayoría de los hogares; 6E añade una banda menos congestionada que ayuda en bloques de apartamentos densos. TP-Link Deco, Eero y Asus ZenWiFi son las familias comunes, y los kits económicos de los tres son buenos. El argumento a favor: un nombre de red, cobertura en toda la casa, configuración fácil por app para hogares no técnicos y maneja muchos dispositivos a la vez. La contrapartida es real: algunas marcas presionan suscripciones de pago por funciones extra y colocan nodos en lugares abiertos, no dentro de armarios, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Un nombre de red, cobertura en toda la casa",
+        "Configuración fácil por app para hogares no técnicos",
+        "Maneja muchos dispositivos a la vez"
+      ],
+      "cons": [
+        "Algunas marcas presionan suscripciones de pago por funciones extra",
+        "Colocan nodos en lugares abiertos, no dentro de armarios"
+      ]
+    },
+    {
+      "name": "Un kit de malla de dos unidades",
+      "tag": "Apartamentos y casas pequeñas",
+      "body": "La mayoría de los apartamentos no necesitan tres unidades. Un paquete de dos cubre un apartamento típico de una o dos habitaciones, y el segundo nodo va donde la señal cae, generalmente el dormitorio lejano o la oficina en casa. Puedes añadir un tercero más tarde si es necesario, ya que la mayoría de las marcas te permiten expandir dentro de la misma familia. Si alquilas, la malla también es fácil de llevar contigo, lo que una solución por cable no es. El argumento a favor: tamaño adecuado para apartamentos, expandible más tarde y se mueve contigo cuando lo haces. La contrapartida es real: las redes de los vecinos todavía congestionan las ondas y mezclar marcas generalmente no funciona, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Tamaño adecuado para apartamentos",
+        "Expandible más tarde",
+        "Se mueve contigo cuando lo haces"
+      ],
+      "cons": [
+        "Las redes de los vecinos todavía congestionan las ondas",
+        "Mezclar marcas generalmente no funciona"
+      ]
+    },
+    {
+      "name": "Un par de adaptadores Powerline o MoCA",
+      "tag": "Paredes gruesas y hormigón",
+      "body": "Algunas casas derrotan al Wi-Fi por completo: yeso y listones, hormigón, ladrillo, o una oficina en el garaje al otro lado del patio. Los adaptadores Powerline envían datos a través del cableado eléctrico, y los adaptadores MoCA usan el coaxial de TV existente. Conecta uno cerca del router y otro en la habitación lejana, y obtienes una conexión por cable sin taladrar. MoCA suele ser más rápido y fiable si tienes coaxial en las habitaciones adecuadas. La velocidad de Powerline depende mucho de tu cableado, así que compra en una tienda con una ventana de devolución fácil. El argumento a favor: atraviesa paredes que el Wi-Fi no puede, sin taladrar ni cables nuevos, y algunos modelos añaden Wi-Fi en el extremo lejano. La contrapartida es real: la velocidad de Powerline depende de tu cableado y debe enchufarse directamente a la pared, no a una regleta, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Atraviesa paredes que el Wi-Fi no puede",
+        "Sin taladrar ni cables nuevos",
+        "Algunos modelos añaden Wi-Fi en el extremo lejano"
+      ],
+      "cons": [
+        "La velocidad de Powerline depende de tu cableado",
+        "Debe enchufarse directamente a la pared, no a una regleta"
+      ]
+    },
+    {
+      "name": "Unos cuantos cables Cat 6",
+      "tag": "Escritorios, televisores y consolas cerca del router",
+      "body": "Todo lo que no se mueve y está al alcance del router debería estar enchufado. Un televisor, consola o ordenador de sobremesa con cable obtiene velocidad completa, menor latencia y deja de competir con los teléfonos por el Wi-Fi. Eso libera la red inalámbrica para todo lo demás. Los cables planos se esconden ordenadamente debajo de las alfombras y a lo largo de los rodapiés. Esta es la mejora de rendimiento más barata en redes y está muy infrautilizada. El argumento a favor: velocidad completa y menor latencia, libera el Wi-Fi para otros dispositivos y es muy barato. La contrapartida es real: solo es práctico cerca del router o de un nodo de malla y los cables largos y baratos pueden estar mal hechos, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Velocidad completa y menor latencia",
+        "Libera el Wi-Fi para otros dispositivos",
+        "Muy barato"
+      ],
+      "cons": [
+        "Solo es práctico cerca del router o de un nodo de malla",
+        "Los cables largos y baratos pueden estar mal hechos"
+      ]
+    },
+    {
+      "name": "Un adaptador Wi-Fi 6 USB",
+      "tag": "Portátiles antiguos y PCs de sobremesa",
+      "body": "A veces la red está bien y el dispositivo es el problema. Un portátil de 2016 tiene un chip inalámbrico antiguo que obtiene una fracción de lo que ofrece un router moderno. Un pequeño adaptador Wi-Fi 6 USB lo actualiza por el precio de un pedido para llevar. Los PCs de sobremesa sin Wi-Fi incorporado son los que más se benefician. Comprueba que el adaptador sea compatible con tu sistema operativo antes de comprar, especialmente en Mac y Linux. El argumento a favor: actualiza máquinas antiguas a velocidades modernas, se enchufa, no requiere abrir la carcasa y es barato comparado con un portátil nuevo. La contrapartida es real: el soporte de drivers varía según el sistema operativo y usa un puerto USB, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Actualiza máquinas antiguas a velocidades modernas",
+        "Se enchufa, no requiere abrir la carcasa",
+        "Barato comparado con un portátil nuevo"
+      ],
+      "cons": [
+        "El soporte de drivers varía según el sistema operativo",
+        "Usa un puerto USB"
+      ]
+    },
+    {
+      "name": "Un router de viaje",
+      "tag": "Hoteles y alquileres vacacionales",
+      "body": "El Wi-Fi de hotel a menudo limita cuántos dispositivos pueden conectarse y te hace iniciar sesión de nuevo en cada uno. Un router de viaje de bolsillo inicia sesión una vez y luego comparte la conexión con todos tus dispositivos bajo tu propio nombre de red. También te permite conectarte a un puerto cableado donde exista uno, que suele ser más rápido. GL.iNet fabrica los modelos populares. Para familias que viajan con varias tablets y un dispositivo de streaming, esto pone fin a la discusión diaria. El argumento a favor: un inicio de sesión para todos tus dispositivos, tu propio nombre de red privada y útil en casa como respaldo. La contrapartida es real: las páginas de inicio de sesión cautivas necesitan unos pasos extra y no pueden hacer más rápida una conexión de hotel lenta, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Un inicio de sesión para todos tus dispositivos",
+        "Tu propio nombre de red privada",
+        "Útil en casa como respaldo"
+      ],
+      "cons": [
+        "Las páginas de inicio de sesión cautivas necesitan unos pasos extra",
+        "No pueden hacer más rápida una conexión de hotel lenta"
+      ]
+    },
+    {
+      "name": "Un enchufe inteligente en el router",
+      "tag": "Reinicios remotos",
+      "body": "Cada hogar tiene una persona que reinicia el router, y cuando esa persona no está, nadie sabe cómo. Un enchufe inteligente programado, configurado para ciclar la alimentación del router a las 4 AM una vez a la semana, previene muchas quejas de lentitud en equipos de proveedor más antiguos. También te permite reiniciarlo desde tu teléfono mientras viajas, siempre que exista una segunda ruta de conexión. Elige un enchufe que mantenga su horario localmente, para que siga funcionando cuando internet no esté. El argumento a favor: reinicios semanales programados, cualquiera en la casa puede hacerlo desde una app y es barato. La contrapartida es real: inútil para reinicios remotos si necesita internet para funcionar y un router que necesita reinicios constantes puede estar fallando, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "Reinicios semanales programados",
+        "Cualquiera en la casa puede hacerlo desde una app",
+        "Barato"
+      ],
+      "cons": [
+        "Inútil para reinicios remotos si necesita internet para funcionar",
+        "Un router que necesita reinicios constantes puede estar fallando"
+      ]
+    },
+    {
+      "name": "Un extensor de rango independiente único",
+      "tag": "Último recurso, solo una habitación",
+      "body": "Los extensores son baratos y se venden ampliamente, por eso son la compra errónea más común en redes domésticas. Repiten la señal del router, lo que generalmente reduce la velocidad a la mitad, y muchos crean un segundo nombre de red al que tus dispositivos se aferran después de que te alejas. Para una habitación fija que necesita una conexión básica, como una impresora o un dormitorio de invitados, están bien. Para cualquier otra cosa, un kit de malla vale el dinero extra. El argumento a favor: la forma más barata de llegar a una habitación extra, sin configuración más allá de presionar un botón y bueno para dispositivos de baja demanda. La contrapartida es real: a menudo reduce a la mitad la velocidad que repite y los dispositivos pueden aferrarse a la red más débil, así que sopesa eso frente a la frecuencia con la que se usaría realmente.",
+      "pros": [
+        "La forma más barata de llegar a una habitación extra",
+        "Sin configuración más allá de presionar un botón",
+        "Bueno para dispositivos de baja demanda"
+      ],
+      "cons": [
+        "A menudo reduce a la mitad la velocidad que repite",
+        "Los dispositivos pueden aferrarse a la red más débil"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Arreglará un plan de internet más rápido el Wi-Fi lento en una habitación?",
+      "a": "Normalmente no. Si la velocidad es buena cerca del router y mala en la habitación lejana, el problema es la cobertura. Prueba primero."
+    },
+    {
+      "q": "¿Malla o extensor?",
+      "a": "Malla para cualquier cosa más allá de una habitación. Los extensores son un parche económico para un solo dispositivo de baja demanda."
+    },
+    {
+      "q": "¿Necesito Wi-Fi 7?",
+      "a": "Todavía no para la mayoría de los hogares. Wi-Fi 6 o 6E cubre streaming, juegos y videollamadas típicas, y cuesta mucho menos."
+    },
+    {
+      "q": "¿Puedo usar malla con el router de mi proveedor?",
+      "a": "Sí. La mayoría de los kits de malla se conectan a la caja del proveedor. Desactivar el Wi-Fi propio del proveedor reduce la interferencia, y tu proveedor puede decirte cómo."
+    }
+  ]
+}
