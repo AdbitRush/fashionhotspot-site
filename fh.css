@@ -302,11 +302,11 @@ html.fh-home{scroll-behavior:smooth}
      instead of scrolling. flex:1 1 auto + max-width:100% lets the box itself
      shrink to the row, and min-width:0 lets it shrink past its own
      max-content floor; overflow-x:auto then scrolls what does not fit. */
-  .fh-home .nav-end{flex:1 1 auto;max-width:100%;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;min-width:0;
-    -webkit-overflow-scrolling:touch;scrollbar-width:none}
-  .fh-home .nav-end::-webkit-scrollbar{display:none}
-  .fh-home .nav-end>*{flex:0 0 auto}
-  .fh-home .hdr-link{font-size:15px;padding:0 7px;white-space:nowrap}
+  /* 2026-09-28 (fix list A1): the scrolling row clipped the third item ("Chat wi...")
+     at 390px, with nothing to say it scrolls. All four links now WRAP onto a second
+     row inside the header instead, so every one is visible and tappable at 320-560px. */
+  .fh-home .nav-end{flex:1 1 100%;max-width:100%;flex-wrap:wrap;overflow:visible;min-width:0;row-gap:0;column-gap:4px}
+  .fh-home .hdr-link{font-size:14px;padding:0 6px}
 }
 
 /* ── HERO ── */
