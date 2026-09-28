@@ -20,6 +20,20 @@ DRY_RUN=0
 FORCE=0
 [ "${1:-}" = "--force" ] && FORCE=1
 
+# Owner direction, 2026-09-28: allyfind.com is the only active site. fashionhotspot.site is
+# legacy - its 301 redirects stay up, but nothing deploys here anymore (see HANDOVER.md). A
+# real upload now needs an explicit, deliberate --i-know-fashionhotspot-is-legacy alongside
+# whatever else was passed; --dry-run is unaffected since it never touches the live host.
+if [ "$DRY_RUN" = 0 ]; then
+  legacy_ack=0
+  for a in "$@"; do [ "$a" = "--i-know-fashionhotspot-is-legacy" ] && legacy_ack=1; done
+  if [ "$legacy_ack" = 0 ]; then
+    echo "❌ fashionhotspot.site is legacy (redirects only) since 2026-09-28 - nothing should deploy here."
+    echo "   Re-run with --i-know-fashionhotspot-is-legacy if this upload is genuinely intended."
+    exit 1
+  fi
+fi
+
 if [ ! -f "$ENV_FILE" ]; then
   echo "❌ Missing .env.ftp — create it with FTP_HOST, FTP_USER, FTP_PASS, FTP_PATH"
   exit 1
