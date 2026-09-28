@@ -23,9 +23,9 @@
 ### הזרימה המלאה
 ```
 whatsapp-deals-bot: node build-static.js     # בונה docs/ ומסנכרן לריפו הזה
-/root/bin/fashionhotspot-pull.sh             # מושך את הריפו הזה על ה-VPS
 fashionhotspot-site: bash deploy.sh          # מעלה ב-FTP ל-fashionhotspot.site
 ```
+פרטי סביבת הריצה (שרת, תזמון, קבצי הרשאות) נשמרים בהערות הפרטיות, לא בריפו הציבורי.
 `deploy.sh` עולה על כל העץ (366 קבצים). בעבר הוא העלה 7 קבצים קשיחים בלבד —
 אם משהו "לא מתעדכן באתר", זו הייתה הסיבה ההיסטורית.
 
@@ -271,7 +271,7 @@ Advertising Content on a live Associates account — is the fastest route from
 | ~60 תמונות ישראליות ב-200-349px | ksp.co.il מפרסם 300px בלבד (`/big/` ו-`/large/` מחזירים פיקסל 1x1), buyme משתנה בלי תבנית. פתרון: אחסון עצמי של תמונות ממוזערות |
 | 2 קישורי תמונה מתים | rami-levy 404, max.co.il מפנה לעמוד שגיאה — נופלים לאריח אוטומטית |
 | עיצוב מחדש מלא | נדחה במכוון עד אחרי אישור אמזון. שלושת מעברי הליטוש כבר בוצעו |
-| סיסמת FTP | **להחליף** — נחשפה בפלט `curl -v` ישן. למחוק גם `.env.ftp.bak` מה-VPS |
+| סיסמאות | הסיסמאות מוחלפות מעת לעת ואינן נכנסות ל-git. / Credentials rotate; never commit them. |
 
 ---
 
@@ -284,5 +284,5 @@ Advertising Content on a live Associates account — is the fastest route from
 3. **`#plat-bar`, `#cat-bar`, `#lang-sel`, `#theme-btn` נושאים סגנון inline.**
    גיליון סגנונות לא מנצח אותו — צריך `!important`.
 4. **הבנייה כותבת ל-`docs/` ומסנכרנת דרך clone ב-`/tmp`.** בדיקה של
-   `/root/repos/fashionhotspot-site/index.html` לפני `fashionhotspot-pull.sh`
+   `index.html` בעותק המקומי של הריפו לפני משיכת הריפו
    מציגה גרסה ישנה. זה כבר גרם לי לחשוב שתיקון לא עבד כשהוא כן עבד.

@@ -35,19 +35,14 @@ FTP_PATH="${FTP_PATH:-}"
 
 # Never publish these, whatever else changes.
 #
-# .md is excluded as a class, not file by file. This listed README.md alone,
-# so HANDOFF.md and GROWTH.md were uploaded and served: HANDOFF.md answered on
-# https://fashionhotspot.site/HANDOFF.md with the deploy setup and a note that
-# an FTP password had leaked. Naming individual files means every new doc is
-# public until someone notices it. The rule is now "no .md reaches the host",
-# which needs no maintenance.
+# .md is excluded as a class, not file by file. Naming individual files means
+# every new doc is public until someone notices it. The rule is "no .md reaches
+# the host", which needs no maintenance.
 #
 # .sh likewise — deploy.sh was named explicitly while any other script in the
 # repo root would have shipped.
-# PW.txt was sitting in this directory holding live credentials, and nothing
-# here excluded it — deploy.sh walks the whole tree, so the next deploy would
-# have published it at https://fashionhotspot.site/PW.txt for anyone to fetch.
-# Same class of mistake as HANDOFF.md being served, which is why .md is here.
+# Credential-shaped file names are excluded too, because this script walks the
+# whole tree. Credentials rotate; never commit them.
 #
 # NOT a blanket *.txt rule: robots.txt has to ship. Credential-shaped names
 # only.
