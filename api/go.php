@@ -20,8 +20,8 @@
  * redirect anyone could point at any URL using this site's good name.
  *
  * FAIL OPEN, NEVER FAIL CLOSED ON THE REDIRECT
- * A malformed id, a missing/disallowed u, or a logging failure never blocks
- * the redirect once u itself is present and validated — this hop existing
+ * A request with no id, no u or a disallowed host is a plain 400; a logging
+ * failure never blocks the redirect once id and u are present and validated — this hop existing
  * must never be the reason a real deal link stops working. The caller (the
  * bot) is expected to keep this behind a feature flag until proven live, and
  * to send the raw affiliate link directly whenever it cannot build a go link
@@ -45,6 +45,14 @@ const ALLOWED_HOSTS = [
 $id = (string)($_GET['id'] ?? '');
 $id = preg_replace('/[^A-Za-z0-9._-]/', '', $id) ?? '';
 $u = (string)($_GET['u'] ?? '');
+
+// No id (bare /go/ or /go/?u=...) is a malformed request, same as a missing u: 400.
+if ($id === '') {
+    http_response_code(400);
+    header('Content-Type: text/plain; charset=utf-8');
+    echo 'missing id';
+    exit;
+}
 
 if ($u === '') {
     http_response_code(400);

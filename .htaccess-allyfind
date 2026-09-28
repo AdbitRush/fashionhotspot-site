@@ -12,4 +12,15 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^go/([A-Za-z0-9._-]+)$ /api/go.php?id=$1 [QSA,L]
+    # bare /go and /go/ (no id) reach go.php too, which answers 400 like every other bad request
+    RewriteRule ^go/?$ /api/go.php [QSA,L]
+</IfModule>
+
+# H2 security headers (fix queue, 2026-09-28)
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header unset X-Powered-By
 </IfModule>
