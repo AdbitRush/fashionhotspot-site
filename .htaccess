@@ -4,6 +4,10 @@
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    # AF-1 (2026-09-29): legacy host. Any variant (http/https, www/non-www) and any path 301s to the same
+    # path on https://allyfind.com; Apache appends the query string. Keep this FIRST in the rewrite block.
+    RewriteCond %{HTTP_HOST} ^(www\.)?fashionhotspot\.site(:[0-9]+)?$ [NC]
+    RewriteRule ^(.*)$ https://allyfind.com/$1 [R=301,L]
 
     # The buying guides moved from post-<topic>-2026.html to post-<topic>.html
     # ("2026" dates an evergreen guide badly). Redirect the old URL only when a
