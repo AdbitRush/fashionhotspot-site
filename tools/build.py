@@ -191,8 +191,8 @@ def nav(lang, current):
     r = rel_root(lang)
     items = [(f"{r}index.html", t(lang, "deals")),
              ("posts.html", t(lang, "guides")),
-             (f"{r}about.html", t(lang, "about")),
-             (f"{r}contact.html", t(lang, "contact"))]
+             (static_href(lang, "about"), t(lang, "about")),
+             (static_href(lang, "contact"), t(lang, "contact"))]
     links = "".join(
         f'<a href="{e(h)}"{" aria-current=\"page\"" if h.endswith(current) else ""}>{e(x)}</a>'
         for h, x in items)
@@ -205,6 +205,44 @@ def nav(lang, current):
             f'<span class="mono navkick" aria-hidden="true">/ {e(t(lang, "guides")).lower()}</span>'
             f'</a>'
             f'<nav class="nav-links">{links}</nav>{THEME_TOGGLE}</div></div>')
+
+
+# --------------------------------------------------------------------------
+# translated static pages (About / Contact / Privacy / Terms)
+# --------------------------------------------------------------------------
+# English lives at the site root and is built elsewhere (about/contact/privacy by
+# whatsapp-deals-bot/build-static.js, terms by build_brand.py). For every other
+# language the four pages are rendered here from content/pages/<lang>/<page>.html
+# (the inner fragment) + _meta.json (titles + the "English prevails" notice).
+# If a language has no content for a page the link falls back to the English page.
+STATIC_PAGES = ("about", "contact", "privacy", "terms")
+PAGES_DIR = ROOT / "content" / "pages"
+
+
+def has_static(lang, page):
+    return lang != DEFAULT and (PAGES_DIR / lang / f"{page}.html").is_file()
+
+
+def static_href(lang, page):
+    """Link to a static page: the translated copy inside the language folder when it exists."""
+    if has_static(lang, page):
+        return f"{page}.html"
+    return f"{rel_root(lang)}{page}.html"
+
+
+def render_static(lang, page):
+    meta = json.loads((PAGES_DIR / lang / "_meta.json").read_text(encoding="utf-8"))
+    frag = (PAGES_DIR / lang / f"{page}.html").read_text(encoding="utf-8").replace("fashionhotspot", BRAND)
+    title = meta["title"][page]
+    en = f"{rel_root(lang)}{page}.html"
+    notice = (f'<p class="disc" style="max-width:760px;margin-top:30px">{e(meta["notice"])} '
+              f'<a href="{e(en)}" hreflang="en">English</a></p>')
+    body = (nav(lang, f"{page}.html") + '<div class="wide"><div style="max-width:760px">'
+            + frag + notice + '</div></div>' + footer(lang, f"{page}.html"))
+    desc = re.sub(r"<[^>]+>", " ", frag)
+    desc = re.sub(r"\s+", " ", desc).strip()[:155]
+    return page_shell(lang, f"{title} — {BRAND}", desc, body,
+                      canonical=url(lang, f"{page}.html"), extra_head=alternates(f"{page}.html"))
 
 
 def lang_switcher(lang, page):
@@ -220,10 +258,10 @@ def lang_switcher(lang, page):
 
 def footer(lang, page="posts.html"):
     r = rel_root(lang)
-    links = [(f"{r}about.html", t(lang, "about")),
-             (f"{r}contact.html", t(lang, "contact")),
-             (f"{r}privacy.html", t(lang, "privacy")),
-             (f"{r}terms.html", t(lang, "terms")),
+    links = [(static_href(lang, "about"), t(lang, "about")),
+             (static_href(lang, "contact"), t(lang, "contact")),
+             (static_href(lang, "privacy"), t(lang, "privacy")),
+             (static_href(lang, "terms"), t(lang, "terms")),
              ("posts.html", t(lang, "guides"))]
     nl = "".join(f'<a href="{e(h)}">{e(x)}</a>' for h, x in links)
     disc = disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True) + " " + t(lang, "no_extra_cost")
@@ -753,7 +791,10 @@ def render_sitemap(guides):
     out.append(entry(f"{SITE}/", "1.0", "daily"))
     for p, pri in (("about.html", "0.5"), ("contact.html", "0.4"),
                    ("privacy.html", "0.3"), ("terms.html", "0.3")):
-        out.append(entry(f"{SITE}/{p}", pri, "monthly"))
+        out.append(entry(f"{SITE}/{p}", pri, "monthly", p))
+        for lang in LANGS:
+            if has_static(lang, p[:-5]):
+                out.append(entry(url(lang, p), pri, "monthly", p))
     # Language landing pages: /he/, /es/, /fr/, /de/, /el/. These answered 403
     # until 2026-08-25 and so were never listed here. English is excluded
     # because the site root is already listed above — it is the same URL.
@@ -815,6 +856,9 @@ def main():
             written += 1
 
         (out_dir / "posts.html").write_text(render_index(idx, lang), encoding="utf-8")
+        for sp in STATIC_PAGES:
+            if has_static(lang, sp):
+                (out_dir / f"{sp}.html").write_text(render_static(lang, sp), encoding="utf-8")
 
         # A landing page at the language folder root. English lives at the site
         # root, where index.html is the deals homepage built by the other repo —
