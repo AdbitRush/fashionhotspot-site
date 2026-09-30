@@ -40,14 +40,32 @@ API = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateConten
 
 
 def api_key():
-    if os.environ.get("GOOGLE_API_KEY"):
-        return os.environ["GOOGLE_API_KEY"]
+    # 2026-10-01: GEMINI_API_KEY (the free-tier key in the bot env on the VPS) is accepted too
+    for name in ("GOOGLE_API_KEY", "GEMINI_API_KEY"):
+        if os.environ.get(name):
+            return os.environ[name].strip()
     for p in (ENV, Path("/root/repos/abri-brain/.env")):
         if p.exists():
             for line in p.read_text(encoding="utf-8").splitlines():
                 if line.startswith("GOOGLE_API_KEY="):
                     return line.split("=", 1)[1].strip().strip('"').strip("'")
     raise SystemExit("no GOOGLE_API_KEY")
+
+
+# Language names in English for the prompt (the native names in langs.py are for the page chrome), plus
+# register notes for the scripts added in AF-4. Existing languages keep their old prompt text.
+ENGLISH_NAME = {"th": "Thai", "hi": "Hindi", "ar": "Arabic"}
+LANG_NOTE = {
+    "th": "polite neutral register with no gendered particles (avoid ครับ/ค่ะ); Western digits 0-9",
+    "hi": "respectful आप register; common English loanwords such as deal/offer/shipping are fine where Hindi speakers use them; Western digits 0-9",
+    "ar": "Modern Standard Arabic, gender-neutral phrasing where possible; plain text with no direction-control characters; Western digits 0-9",
+}
+
+
+def prompt_language(code):
+    if code in ENGLISH_NAME:
+        return f"{ENGLISH_NAME[code]} ({LANG_NOTE[code]})"
+    return LANGS[code]["name"]
 
 
 PROMPT = """You are translating a published buying-guide article from English into {language} for a consumer shopping site.
@@ -71,13 +89,34 @@ JSON to translate:
 {payload}"""
 
 
+class DailyQuota(Exception):
+    """The free tier's per-day quota is used up: stop cleanly, the run is resumable tomorrow."""
+
+
 def post(model, body, timeout=300):
-    req = urllib.request.Request(
-        API.format(model, api_key()),
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.load(r)
+    # Free-tier discipline: key in a header (never in a URL that could reach a log), a pause between calls,
+    # and on 429 wait the server's retryDelay and retry; a per-DAY quota stops the whole run.
+    url = API.split("?")[0].format(model)
+    for attempt in range(6):
+        req = urllib.request.Request(
+            url, data=json.dumps(body).encode("utf-8"),
+            headers={"Content-Type": "application/json", "x-goog-api-key": api_key()})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                data = json.load(r)
+            time.sleep(float(os.environ.get("TRANSLATE_PACE", "0")))
+            return data
+        except urllib.error.HTTPError as e:
+            if e.code != 429:
+                raise
+            text = e.read().decode("utf-8", "replace")
+            if "PerDay" in text or "per day" in text.lower():
+                raise DailyQuota(text[:200])
+            m = __import__("re").search(r"retry in ([0-9.]+)s|retryDelay\W+([0-9.]+)s", text)
+            wait = min(120.0, float(next((g for g in (m.groups() if m else ()) if g), 30)) + 2)
+            print(f"   429 from the API, waiting {wait:.0f}s (attempt {attempt + 1}/6)", flush=True)
+            time.sleep(wait)
+    raise RuntimeError("429 persisted after 6 waits")
 
 
 def call_model(payload, language, model):
@@ -273,7 +312,7 @@ def main():
     ok = fail = 0
     t0 = time.time()
     for n, (lang, slug, src, prior) in enumerate(jobs, 1):
-        language = LANGS[lang]["name"]
+        language = prompt_language(lang)
         label = f"[{n}/{len(jobs)}] {lang}/{slug}"
         model = args.model
         for attempt in range(3):
@@ -296,6 +335,10 @@ def main():
                     print(f"{label} ok ({count_words(out):,} words)")
                 ok += 1
                 break
+            except DailyQuota as ex:
+                print(f"{label} DAILY QUOTA REACHED - stopping cleanly ({str(ex)[:120]}). Already-saved guides are kept; run again later.")
+                print(f"\n{ok} translated, {fail} failed, stopped by quota")
+                return 4
             except Exception as ex:
                 msg = str(ex)[:150]
                 if attempt == 0 and ("404" in msg or "not found" in msg.lower()):
