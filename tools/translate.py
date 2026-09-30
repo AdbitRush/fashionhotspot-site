@@ -136,6 +136,20 @@ def call_model(payload, language, model):
     return json.loads(text)
 
 
+def category_from_siblings(lang, english):
+    """Most common translated category among this language's existing guides that share the English category."""
+    from collections import Counter
+    c = Counter()
+    for f in sorted(CONTENT.glob("*.json")):
+        g = json.loads(f.read_text(encoding="utf-8"))
+        if g.get("category") != english:
+            continue
+        tr = load_translation(lang, g["slug"])
+        if tr and str(tr.get("category", "")).strip():
+            c[tr["category"].strip()] += 1
+    return c.most_common(1)[0][0] if c else ""
+
+
 def shape_ok(src, out):
     """The merge trusts array lengths — a mismatch would silently drop content."""
     problems = []
@@ -328,6 +342,10 @@ def main():
                     save_translation(lang, slug, merged)
                     print(f"{label} ok (gaps filled)")
                 else:
+                    if not str(out.get("category", "")).strip():
+                        # The model sometimes drops a one-word category ("Seasonal", "Gifts"). Reuse the rendering this
+                        # language already uses for that same English category so the filter chips stay consistent.
+                        out["category"] = category_from_siblings(lang, src.get("category", "")) or out.get("category", "")
                     problems = shape_ok(src, out)
                     if problems:
                         raise ValueError("shape mismatch: " + ", ".join(problems[:4]))
