@@ -55,3 +55,7 @@ URL: https://bot-admin.178-105-148-72.sslip.io/
 - Site down: https://allyfind.com and https://voyageworthy.com - if either fails, from an SSH session: `systemctl status caddy` is not used (Caddy runs in Docker): `docker ps`, `docker logs caddy --tail 50`.
 - Bot down: `systemctl status deals-bot`, `journalctl -u deals-bot -n 50`.
 - Never run `sed -i` on the host Caddyfile (bind-mount trap: write through `docker exec caddy`, then `caddy reload`).
+
+## 7. Update 2026-09-30 (late): Termius key added
+- The Termius iPhone public key (label `termius-iphone`) was appended to `/root/.ssh/authorized_keys` on the VPS (now 2 keys, mode 600). It was added through the public address `178.105.148.72`, because this PC could not reach the Tailscale address (`100.100.168.127` timed out - the PC is probably not connected to Tailscale).
+- Not yet tested from the phone. To test: open Tailscale on the phone and sign in, then in Termius connect to `100.100.168.127` (or `178.105.148.72`), port 22, user `root`, with that key. If it fails, note the exact Termius error.
