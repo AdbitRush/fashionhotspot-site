@@ -1,173 +1,173 @@
 {
   "slug": "smart-home",
-  "title": "The Smart Home Parts That Are Actually Worth Wiring In",
-  "dek": "Most smart home gear solves a problem you did not have. These ten solve real ones — and we say plainly which ones we would skip.",
+  "title": "स्मार्ट होम के वे उपकरण जिन्हें लगवाना वाकई समझदारी है",
+  "dek": "ज़्यादातर स्मार्ट होम गैजेट्स ऐसी समस्याओं का समाधान करते हैं जो असल में होती ही नहीं हैं। इनमें से दस गैजेट्स असली समस्याओं को हल करते हैं — और हम साफ़ तौर पर बता रहे हैं कि किसे नज़रअंदाज़ किया जा सकता है।",
   "category": "Smart home",
-  "how_we_pick": "We favour devices that speak Matter or Thread over ones locked to a single brand's cloud, because cloud shutdowns are the main way smart home gear dies. We weigh long-term owner reports and manufacturer support history heavily. We have not personally installed every product here, and where a category is genuinely not worth the money yet we leave it out and explain why in the questions at the end.",
+  "how_we_pick": "हम उन डिवाइसेज़ को प्राथमिकता देते हैं जो किसी एक ब्रांड के क्लाउड से बंधे होने के बजाय Matter या Thread पर काम करते हैं, क्योंकि क्लाउड बंद होना ही स्मार्ट होम गैजेट्स के खराब होने का मुख्य कारण है। हम लंबे समय के यूज़र रिव्यू और निर्माता के सपोर्ट इतिहास को बहुत महत्व देते हैं। हमने यहां दिए गए हर उत्पाद को व्यक्तिगत रूप से इंस्टॉल नहीं किया है, और जहां कोई कैटेगरी वाकई पैसे के लायक नहीं है, हम उसे छोड़ देते हैं और अंत में दिए गए सवालों में इसका कारण समझाते हैं।",
   "intro": [
-    "The smart home has a credibility problem, and it earned it. For a decade the pitch was that you would talk to your lights, and the reality was an app for every socket, a hub that stopped being supported, and a light switch your guests could not work out.",
-    "What changed is Matter and Thread — a shared standard that finally lets devices from different brands talk to each other without a pile of bridges. It is not perfect, but it means a purchase made today has a reasonable chance of still working in five years, which was not true before.",
-    "So the test here is simple: does it save real time or real money, and will it survive its manufacturer losing interest. Where a category fails that test, we say so rather than filling the slot.",
-    "Prices are approximate at the time of writing and move a lot on sale."
+    "स्मार्ट होम की विश्वसनीयता (क्रेडिबिलिटी) को लेकर समस्या है, और यह वाजिब भी है। एक दशक तक यह प्रचार किया गया कि आप अपनी लाइटों से बात करेंगे, लेकिन हकीकत यह थी कि हर सॉकेट के लिए एक अलग ऐप, एक ऐसा हब जिसका सपोर्ट बंद हो गया, और एक ऐसा लाइट स्विच जिसे आपके मेहमान चला ही नहीं पाए।",
+    "जो बदलाव आया है वह है Matter और Thread — एक साझा स्टैंडर्ड जो आखिरकार अलग-अलग ब्रांड्स के डिवाइसेज़ को बिना किसी ब्रिज के ढेर के आपस में बात करने देता है। यह परफेक्ट नहीं है, लेकिन इसका मतलब यह है कि आज की गई खरीदारी के पांच साल बाद भी काम करते रहने की ठीक-ठाक संभावना है, जो कि पहले संभव नहीं था।",
+    "इसलिए यहां परीक्षा सीधी है: क्या यह असली समय या असली पैसा बचाता है, और क्या यह तब भी टिकेगा जब इसके निर्माता की इसमें रुचि खत्म हो जाए। जहां कोई कैटेगरी इस कसौटी पर खरी नहीं उतरती, हम उसकी जगह भरने के बजाय साफ़ तौर पर यही कहते हैं।",
+    "कीमतें लेख लिखने के समय अनुमानित हैं और सेल के दौरान काफी बदलती रहती हैं।"
   ],
   "products": [
     {
       "name": "Ecobee or Nest Learning Thermostat",
-      "tag": "The one that pays for itself",
-      "body": "Heating and cooling is the largest energy line in most homes, which makes the thermostat the only smart device with a credible payback argument. The saving does not come from talking to it — it comes from the schedule and from remote sensors that stop the system heating an empty room while the occupied one stays cold. Ecobee ships those sensors in the box, which is the practical advantage over Nest. Two honest limits: if your home is small and single-zone the saving is modest, and if you rent, check whether you are allowed to swap the unit at all.",
+      "tag": "वह गैजेट जो अपनी कीमत खुद वसूल लेता है",
+      "body": "ज़्यादातर घरों में हीटिंग और कूलिंग पर सबसे ज़्यादा ऊर्जा खर्च होती है, जो थर्मोस्टेट को एकमात्र ऐसा स्मार्ट डिवाइस बनाती है जिसके लिए पैसे वसूलने का ठोस तर्क दिया जा सके। इसकी बचत इससे बात करने से नहीं होती — यह शेड्यूलिंग और रिमोट सेंसर से आती है जो सिस्टम को किसी खाली कमरे को गर्म करने से रोकते हैं जबकि भरा हुआ कमरा ठंडा रहता है। Ecobee बॉक्स में ही ऐसे सेंसर देता है, जो Nest के मुकाबले इसकी व्यावहारिक खूबी है। दो स्पष्ट सीमाएं हैं: यदि आपका घर छोटा और सिंगल-ज़ोन वाला है तो बचत बहुत कम होगी, और यदि आप किराए पर रहते हैं, तो जांच लें कि आपको यूनिट बदलने की अनुमति है या नहीं।",
       "pros": [
-        "Real, measurable energy saving",
-        "Remote sensors fix uneven heating",
-        "Works from your phone when plans change"
+        "वास्तविक, मापने योग्य ऊर्जा बचत",
+        "रिमोट सेंसर असमान हीटिंग को ठीक करते हैं",
+        "योजनाएं बदलने पर आपके फोन से काम करता है"
       ],
       "cons": [
-        "Modest payback in small single-zone homes",
-        "May need professional wiring, and landlord permission"
+        "छोटे सिंगल-ज़ोन घरों में बहुत कम बचत",
+        "प्रोफेशनल वायरिंग और मकान मालिक की अनुमति की ज़रूरत पड़ सकती है"
       ]
     },
     {
       "name": "Philips Hue starter kit (bridge + bulbs)",
-      "tag": "Best lighting, at a price",
-      "body": "Hue is the expensive option and it is still the one to buy, because lighting is where reliability matters most — a bulb that takes two seconds to respond, or fails once a week, is worse than a dumb switch. The bridge is what buys that reliability: it runs the lights locally over Zigbee rather than routing every command through the internet. Where the real value shows is scheduling, not colour. Lights that shift warm in the evening and come up gradually in the morning change how a room feels far more than any party scene ever will.",
+      "tag": "सबसे बेहतरीन लाइटिंग, लेकिन कीमत चुकानी होगी",
+      "body": "Hue महंगा विकल्प है और फिर भी खरीदने लायक है, क्योंकि लाइटिंग वह जगह है जहां विश्वसनीयता सबसे ज़्यादा मायने रखती है — एक ऐसा बल्ब जिसे रिस्पॉन्स देने में दो सेकंड लगते हैं, या जो हफ्ते में एक बार खराब हो जाता है, वह एक साधारण स्विच से भी बदतर है। ब्रिज वही चीज़ है जो वह विश्वसनीयता देता है: यह हर कमांड को इंटरनेट के ज़रिए भेजने के बजाय Zigbee पर स्थानीय रूप से लाइटों को चलाता है। असली फायदा रंग में नहीं, बल्कि शेड्यूलिंग में दिखाई देता है। शाम को हल्की गर्म रोशनी देने वाली और सुबह धीरे-धीरे तेज़ होने वाली लाइटें किसी भी पार्टी सीन की तुलना में कमरे के माहौल को कहीं ज़्यादा बदल देती हैं।",
       "pros": [
-        "Fast and reliable — responds like a switch",
-        "Local control, works when the internet is down",
-        "Huge range of fittings and shapes"
+        "तेज़ और भरोसेमंद — स्विच की तरह काम करता है",
+        "लोकल कंट्रोल, इंटरनेट बंद होने पर भी काम करता है",
+        "फिटिंग और आकारों की विशाल रेंज"
       ],
       "cons": [
-        "Considerably pricier than competing bulbs",
-        "The bridge is another box to find a socket for"
+        "प्रतिस्पर्धी बल्बों की तुलना में काफी महंगा",
+        "ब्रिज एक और डिब्बा है जिसके लिए सॉकेट ढूंढना होगा"
       ]
     },
     {
       "name": "Aqara or Eve door and window sensors",
-      "tag": "Cheapest thing that makes the rest useful",
-      "body": "Automations are only as good as what the house knows about itself, and contact sensors are the cheapest way to give it useful facts. A door sensor is what turns the hall light on when you come in, tells you the back door has been open for twenty minutes in winter, and warns you the garage never closed. None of that requires a camera or a subscription. Buy Thread or Zigbee versions rather than Wi-Fi ones — Wi-Fi sensors chew batteries and crowd your network, and you may end up with a dozen of these.",
+      "tag": "सबसे सस्ती चीज़ जो बाक़ी सबको उपयोगी बनाती है",
+      "body": "ऑटोमेशन तभी तक अच्छे हैं जब तक घर को अपने बारे में जानकारी हो, और कॉन्टैक्ट सेंसर घर को उपयोगी जानकारियां देने का सबसे सस्ता तरीका है। डोर सेंसर ही वह चीज़ है जो अंदर आने पर हॉल की लाइट जला देता है, सर्दियों में यह बताता है कि पिछले बीस मिनट से पिछला दरवाज़ा खुला है, और चेतावनी देता है कि गैराज कभी बंद ही नहीं हुआ। इसके लिए किसी कैमरे या सब्सक्रिप्शन की ज़रूरत नहीं है। वाई-फाई वर्ज़न के बजाय Thread या Zigbee वर्ज़न खरीदें — वाई-फाई सेंसर बैटरी ज़्यादा खाते हैं और आपके नेटवर्क को भर देते हैं, और हो सकता है कि अंत में आपके पास ऐसे दर्जनों सेंसर हो जाएं।",
       "pros": [
-        "Very cheap, and they enable everything else",
-        "Batteries last a year or more on Thread or Zigbee",
-        "No camera, no subscription, no privacy trade"
+        "बहुत सस्ते, और ये बाकी सभी चीज़ों को मुमकिन बनाते हैं",
+        "Thread या Zigbee पर बैटरियां एक साल या उससे ज़्यादा चलती हैं",
+        "कोई कैमरा नहीं, कोई सब्सक्रिप्शन नहीं, प्राइवेसी का कोई सौदा नहीं"
       ],
       "cons": [
-        "Useless on their own — they need something to trigger",
-        "Adhesive mounting can fail on textured surfaces"
+        "अकेले किसी काम के नहीं — इन्हें ट्रिगर करने के लिए किसी चीज़ की ज़रूरत होती है",
+        "टेक्सचर वाली सतहों पर एडहेसिव माउंटिंग फेल हो सकती है"
       ]
     },
     {
       "name": "Aqara U100 or Yale Assure Lock 2",
-      "tag": "Biggest daily convenience",
-      "body": "The smart lock is the device people are most sceptical about and end up using most, because it removes a small friction that occurs several times a day. Handing a cleaner or a guest a temporary code instead of cutting a key is the feature that converts people. Insist on two things: a physical key override, and standard AA batteries rather than a proprietary pack. Check your door before buying — these fit standard deadbolts, and European multipoint locks or unusual Israeli door hardware often need a different model entirely, so measure first.",
+      "tag": "रोज़मर्रा की सबसे बड़ी सुविधा",
+      "body": "स्मार्ट लॉक वह डिवाइस है जिसे लेकर लोग सबसे ज़्यादा संशय में रहते हैं और अंत में इसका सबसे ज़्यादा इस्तेमाल करते हैं, क्योंकि यह उस छोटी सी झुंझلاहट को दूर करता है जो दिन में कई बार होती है। चाबी बनवाने के बजाय किसी सफाई कर्मचारी या मेहमान को अस्थायी कोड देना वह फीचर है जो लोगों का मन बदल देता है। दो चीज़ों पर ज़रूर ज़ोर दें: एक फिजिकल की ओवरराइड, और मालिकाना पैक के बजाय स्टैंडर्ड AA बैटरियां। खरीदने से पहले अपने दरवाज़े की जांच कर लें — ये स्टैंडर्ड डेडबोल्ट पर फिट बैठते हैं, और यूरोपीय मल्टीपॉइंट लॉक या असामान्य इज़रायली दरवाज़े के हार्डवेयर को अक्सर पूरी तरह से एक अलग मॉडल की ज़रूरत होती है, इसलिए पहले माप लें।",
       "pros": [
-        "Temporary codes instead of spare keys",
-        "Auto-lock removes a recurring worry",
-        "Physical key still works as a fallback"
+        "अतिरिक्त चाबियों के बजाय अस्थायी कोड",
+        "ऑटो-लॉक बार-बार की चिंता को खत्म करता है",
+        "फिजिकल चाबी अभी भी बैकअप के तौर पर काम करती है"
       ],
       "cons": [
-        "Fit is genuinely not universal — measure your door",
-        "Battery failure locks you out unless you carry a key"
+        "फिट हर जगह संभव नहीं है — अपने दरवाज़े का माप लें",
+        "बैटरी खत्म होने पर आप बाहर ही रह जाएंगे जब तक कि आपके पास चाबी न हो"
       ]
     },
     {
       "name": "Roborock or Dreame robot vacuum with self-empty",
-      "tag": "Best time saved per shekel",
-      "body": "This is the appliance that buys back the most time, provided you buy the right tier. The two features that matter are lidar mapping, so it cleans in rows rather than bouncing randomly, and a self-emptying dock, so you handle dust every few weeks rather than every day. Below roughly $400 you generally lose one or both and the novelty wears off fast. Be realistic about what it replaces: it handles daily maintenance beautifully and does not replace a proper clean. It also needs a tidy floor, so it quietly enforces a habit — which some people count as a feature.",
+      "tag": "हर पैसे पर सबसे ज़्यादा समय बचाने वाला",
+      "body": "यह वह उपकरण है जो सबसे ज़्यादा समय वापस दिलाता है, बशर्ते आप सही टियर खरीदें। दो फीचर्स जो मायने रखते हैं, वे हैं लिडार मैपिंग, ताकि यह बेतरतीब ढंग से टकराने के बजाय कतारों में सफाई करे, और सेल्फ-एम्प्टीग डॉक, ताकि आपको हर दिन के बजाय हर कुछ हफ्तों में धूल साफ करनी पड़े। लगभग $400 से कम कीमत में आमतौर पर इनमें से एक या दोनों फीचर नहीं मिलते और इसका आकर्षण जल्दी ही खत्म हो जाता है। यह क्या बदलता है, इसे लेकर यथार्थवादी रहें: यह रोज़मर्रा की मेंटेनेंस को बेहतरीन तरीके से संभालता है और किसी उचित गहरी सफाई की जगह नहीं लेता। इसे साफ-सुथरे फर्श की भी ज़रूरत होती है, इसलिए यह चुपचाप एक आदत डाल देता है — जिसे कुछ लोग एक खूबी मानते हैं।",
       "pros": [
-        "Genuinely reclaims hours every month",
-        "Lidar mapping means systematic, complete coverage",
-        "Self-empty dock reduces contact with dust"
+        "वास्तव में हर महीने कई घंटे बचाते हैं",
+        "लिडार मैपिंग का मतलब है व्यवस्थित और पूरी कवरेज",
+        "सेल्फ-एम्प्टीग डॉक धूल के संपर्क को कम करता है"
       ],
       "cons": [
-        "Cheap models are a false economy",
-        "Cannot handle clutter, cables or deep cleaning"
+        "सस्ते मॉडल एक धोखा हैं",
+        "यह कबाड़, केबल या गहरी सफाई को नहीं संभाल सकता"
       ]
     },
     {
       "name": "Eve Energy or TP-Link Tapo smart plugs",
-      "tag": "Best starting point",
-      "body": "A smart plug is the cheapest way to find out whether you actually want a smart home. It makes a dumb lamp, fan or heater schedulable, and the models with energy monitoring answer a question most people are guessing at — which appliance is quietly costing the most. That measurement is often more valuable than the automation. Get Matter-compatible plugs so they work with whatever assistant you end up using, and avoid unbranded ones: this is a device that carries mains current and lives in your wall for years.",
+      "tag": "शुरुआत करने के लिए सबसे बेहतरीन",
+      "body": "स्मार्ट प्लग यह जानने का सबसे सस्ता तरीका है कि क्या आप वाकई स्मार्ट घर चाहते हैं। यह किसी साधारण लैंप, पंखे या हीटर को शेड्युल करने लायक बनाता है, और ऊर्जा निगरानी (एनर्जी मॉनिटरिंग) वाले मॉडल उस सवाल का जवाब देते हैं जिसका अंदाज़ा ज़्यादातर लोग लगाते हैं — कि कौन सा उपकरण चुपचाप सबसे ज़्यादा खर्च करा रहा है। वह माप अक्सर ऑटोमेशन से ज़्यादा मूल्यवान होती है। Matter-कम्पेटिबल प्लग लें ताकि वे आपके द्वारा इस्तेमाल किए जाने वाले किसी भी असिस्टेंट के साथ काम कर सकें, और बिना ब्रांड वाले प्लग से बचें: यह एक ऐसा डिवाइस है जो मेन करंट को संभालता है और सालों तक आपकी दीवार में रहता है।",
       "pros": [
-        "Cheapest way to test the whole idea",
-        "Energy monitoring finds expensive appliances",
-        "Makes existing dumb devices schedulable"
+        "पूरे विचार को परखने का सबसे सस्ता तरीका",
+        "एनर्जी मॉनिटरिंग महंगे उपकरणों का पता लगाती है",
+        "मौजूदा साधारण उपकरणों को शेड्युल करने लायक बनाता है"
       ],
       "cons": [
-        "Bulky ones block the second socket",
-        "Not a place to save money on an unknown brand"
+        "भारी-भरकम प्लग दूसरे सॉकेट को ब्लॉक कर देते हैं",
+        "किसी अज्ञात ब्रांड पर पैसे बचाने की जगह नहीं है"
       ]
     },
     {
       "name": "Aqara water leak sensor",
-      "tag": "Best insurance for the money",
-      "body": "A twenty dollar puck under the washing machine, the boiler and the sink is the highest return-per-shekel item on this page, and nobody buys it until after their first flood. Water damage is slow, expensive and usually discovered far too late — behind an appliance, into a floor, through a ceiling. These sit flat, run for a year or two on a coin cell, and scream and notify your phone the moment they get wet. There is no ongoing cost and nothing to maintain. If you buy one thing from this list, and you have never had a leak, buy this one anyway.",
+      "tag": "पैसे के हिसाब से सबसे बेहतरीन बीमा",
+      "body": "वाशिंग मशीन, बॉयलर और सिंक के नीचे रखा बीस डॉलर का यह छोटा सा सेंसर इस पेज पर पैसे के हिसाब से सबसे ज़्यादा रिटर्न देने वाली चीज़ है, और कोई भी इसे अपनी पहली बाढ़ के आने से पहले नहीं खरीदता। पानी से होने वाला नुकसान धीमा, महंगा और आमतौर पर बहुत देर से पता चलता है — किसी उपकरण के पीछे, फर्श में, छत के पार। ये फ्लैट बैठते हैं, कॉइन सेल पर एक या दो साल तक चलते हैं, और गीले होते ही चिल्लाते हैं और आपके फोन पर नोटिफिकेशन भेजते हैं। इसमें कोई लगातार खर्च नहीं है और न ही रख-रखाव की कोई ज़रूरत है। यदि आप इस लिस्ट से एक चीज़ खरीदते हैं, और आपको कभी लीक की समस्या नहीं हुई है, तब भी इसे ज़रूर खरीदें।",
       "pros": [
-        "Trivially cheap against the damage it prevents",
-        "Long battery life, zero maintenance",
-        "Local alarm works even without the app"
+        "होने वाले नुकसान की तुलना में बेहद सस्ता",
+        "लंबे समय तक चलने वाली बैटरी, शून्य रख-रखाव",
+        "लोकल अलार्म ऐप के बिना भी काम करता है"
       ],
       "cons": [
-        "Only covers the exact spot you place it",
-        "Needs a hub or Thread border router for phone alerts"
+        "यह केवल उसी सटीक जगह को कवर करता है जहां आप इसे रखते हैं",
+        "फोन पर अलर्ट के लिए हब या Thread बॉर्डर राउटर की ज़रूरत होती है"
       ]
     },
     {
       "name": "Echo Show 8 or Nest Hub",
-      "tag": "Best hub, with reservations",
-      "body": "A smart display earns its place in a kitchen, where hands are busy and a timer, a recipe and a camera feed on one screen genuinely help. Many of these units also act as a Thread border router or Zigbee hub, which quietly saves you buying a separate bridge. The reservation is real, though: this is a microphone and a camera in a room you live in, sold at a low margin because the business model is elsewhere. If that trade bothers you, cover the camera, mute the mic when not in use, or buy a display-free hub instead — that is a legitimate choice, not paranoia.",
+      "tag": "सबसे बेहतरीन हब, कुछ शर्तों के साथ",
+      "body": "एक स्मार्ट डिस्प्ले रसोई में अपनी जगह बना लेता है, जहां हाथ व्यस्त होते हैं और एक ही स्क्रीन पर टाइमर, रेसिपी और कैमरे की फीड वाकई मदद करती है। इनमें से कई यूनिट Thread बॉर्डर राउटर या Zigbee हब के रूप में भी काम करती हैं, जिससे चुपचाप आपका अलग से ब्रिज खरीदने का खर्च बच जाता है। हालांकि, चेतावनी वास्तविक है: यह आपके रहने वाले कमरे में एक माइक्रोफोन और एक कैमरा है, जिसे कम मुनाफे पर बेचा जाता है क्योंकि बिजनेस मॉडल कहीं और है। यदि वह सौदा आपको परेशान करता है, तो कैमरे को ढक लें, इस्तेमाल में न होने पर माइक को म्यूट कर दें, या इसके बजाय डिस्प्ले-मुक्त हब खरीदें — यह एक वैध विकल्प है, कोई सनक नहीं।",
       "pros": [
-        "Genuinely useful in a kitchen",
-        "Often doubles as a Thread or Zigbee hub",
-        "Cheap, and frequently discounted"
+        "रसोई में वाकई उपयोगी",
+        "अक्सर Thread या Zigbee हब का भी काम करता है",
+        "सस्ता, और अक्सर डिस्काउंट पर उपलब्ध"
       ],
       "cons": [
-        "A camera and always-on mic in a living space",
-        "Ad and upsell prompts on the home screen"
+        "रहने की जगह में एक कैमरा और हमेशा चालू रहने वाला माइक",
+        "होम स्क्रीन पर विज्ञापन और अपसेल प्रॉम्प्ट"
       ]
     },
     {
       "name": "Aqara FP2 presence sensor",
-      "tag": "The upgrade over motion sensors",
-      "body": "The reason smart lighting annoys people is that motion sensors detect motion, not presence — so the lights go out while you are reading, sitting still, or in the bath. Millimetre-wave presence sensors detect breathing and micro-movement, so they know the room is occupied even when nothing is moving. That single distinction is what makes automated lighting stop being irritating. It is more expensive than a motion sensor and needs mains power and a careful mounting position, so treat it as a fix for the one or two rooms where the lights keep failing you, not as something to install everywhere.",
+      "tag": "मोशन सेंसर का बेहतर अपग्रेड",
+      "body": "स्मार्ट लाइटिंग से लोगों को चिढ़ होने का कारण यह है कि मोशन सेंसर गतिविधि का पता लगाते हैं, उपस्थिति (प्रेज़ेंस) का नहीं — इसलिए जब आप पढ़ रहे होते हैं, चुपचाप बैठे होते हैं, या नहा रहे होते हैं, तो लाइटें बंद हो जाती हैं। मिलीमीटर-वेव प्रेज़ेंस सेंसर सांस लेने और सूक्ष्म-गति का पता लगाते हैं, इसलिए वे जानते हैं कि कमरा भरा हुआ है, भले ही कुछ भी हिल-डुल न रहा हो। यही अकेली खूबी स्वचालित लाइटिंग को परेशान करने वाली चीज़ बनने से रोकती है। यह मोशन सेंसर से अधिक महंगा है और इसके लिए मेन पावर और सावधानीपूर्वक माउंटिंग पोजीशन की ज़रूरत होती है, इसलिए इसे उन एक या दो कमरों के लिए एक समाधान के रूप में मानें जहां लाइटें बार-बार धोखा दे रही हैं, न कि हर जगह इंस्टॉल करने के लिए।",
       "pros": [
-        "Detects presence, not just movement",
-        "Ends the 'lights went out on me' problem",
-        "Can define zones within one room"
+        "केवल हलचल नहीं, बल्कि उपस्थिति का पता लगाता है",
+        "'मेरे सामने लाइटें बंद हो गईं' वाली समस्या का अंत",
+        "एक कमरे के भीतर ज़ोन परिभाषित कर सकता है"
       ],
       "cons": [
-        "Needs mains power and careful placement",
-        "Several times the price of a motion sensor"
+        "मेन पावर और सावधानीपूर्वक लगाने की ज़रूरत है",
+        "मोशन सेंसर से कई गुना कीमत"
       ]
     },
     {
       "name": "Eufy or Reolink local-storage camera",
-      "tag": "Best camera without a subscription",
-      "body": "Most security cameras are sold cheap and monetised through a monthly plan, and if you stop paying you often lose recording entirely. Cameras that record to a local card or a base station avoid that, so you own the footage and there is no recurring bill. Look for local recording, on-device person detection so you are not alerted by every passing cat, and RTSP support if you ever want to run your own recorder. Point them at entrances and outdoor spaces rather than inside living areas, and check the rules where you live — recording shared entrances or a neighbour's property has legal limits in most places.",
+      "tag": "बिना सब्सक्रिप्शन के सबसे बेहतरीन कैमरा",
+      "body": "ज़्यादातर सुरक्षा कैमरे सस्ते में बेचे जाते हैं और मासिक योजना के ज़रिए उनसे कमाई की जाती है, और यदि आप भुगतान करना बंद कर देते हैं तो अक्सर रिकॉर्डिंग पूरी तरह से बंद हो जाती है। जो कैमरे लोकल कार्ड या बेस स्टेशन पर रिकॉर्ड करते हैं वे इस समस्या से बचाते हैं, इसलिए फुटेज पर आपका अधिकार होता है और कोई लगातार बिल नहीं आता। लोकल रिकॉर्डिंग देखें, ऑन-डिवाइस व्यक्ति पहचान (पर्सन डिटेक्शन) ताकि हर गुजरने वाली बिल्ली पर आपको अलर्ट न मिले, और यदि आप कभी अपना खुद का रिकॉर्डर चलाना चाहें तो RTSP सपोर्ट देखें। इन्हें रहने वाले अंदरूनी हिस्सों के बजाय प्रवेश द्वारों और बाहरी जगहों पर लगाएं, और अपने यहां के नियमों की जांच करें — साझा रास्तों या पड़ोसी की संपत्ति को रिकॉर्ड करने पर ज़्यादातर जगहों पर कानूनी सीमाएं हैं।",
       "pros": [
-        "No monthly fee, and you keep the footage",
-        "On-device detection cuts false alerts",
-        "Keeps working if the vendor's cloud goes away"
+        "कोई मासिक शुल्क नहीं, और फुटेज आपके पास रहती है",
+        "डिवाइस पर होने वाली पहचान झूठे अलर्ट को कम करती है",
+        "विक्रेता का क्लाउड बंद होने पर भी काम करता रहता है"
       ],
       "cons": [
-        "Higher upfront cost than subscription models",
-        "Legal limits on what you may record — check locally"
+        "सब्सक्रिप्शन मॉडल की तुलना में शुरुआती लागत अधिक",
+        "आप क्या रिकॉर्ड कर सकते हैं इस पर कानूनी सीमाएं — स्थानीय स्तर पर जांच करें"
       ]
     }
   ],
   "faq": [
     {
-      "q": "What is Matter, and do I need to care?",
-      "a": "It is a shared standard that lets devices from different brands work together and be controlled by any major assistant. You should care mainly because it protects you from buying into a brand that later shuts its servers down."
+      "q": "Matter क्या है, और क्या मुझे इसकी परवाह करनी चाहिए?",
+      "a": "यह एक साझा स्टैंडर्ड है जो अलग-अलग ब्रांड्स के डिवाइसेज़ को एक साथ काम करने और किसी भी प्रमुख असिस्टेंट द्वारा नियंत्रित किए जाने की अनुमति देता है। आपको मुख्य रूप से इसकी परवाह इसलिए करनी चाहिए क्योंकि यह आपको ऐसे ब्रांड से जुड़ने से बचाता है जो बाद में अपने सर्वर बंद कर देता है।"
     },
     {
-      "q": "What smart home gear would you skip?",
-      "a": "Smart fridges, smart microwaves and most smart taps — the intelligence adds cost and failure modes to an appliance you keep for fifteen years. Also smart blinds unless you have a specific sun or accessibility problem, given the installation cost."
+      "q": "आप कौन से स्मार्ट होम गैजेट्स को छोड़ देंगे?",
+      "a": "स्मार्ट फ्रिज, स्मार्ट माइक्रोवेव और ज़्यादातर स्मार्ट नल — बुद्धिमत्ता उस उपकरण में लागत और खराबी के कारण जोड़ती है जिसे आप पंद्रह साल तक रखते हैं। इसके अलावा स्मार्ट ब्लाइंड्स को भी, जब तक कि आपको धूप या सुगमता से जुड़ी कोई खास समस्या न हो, क्योंकि इन्हें लगवाने में काफी खर्च आता है।"
     },
     {
-      "q": "Will any of this still work if my internet goes down?",
-      "a": "Devices on Zigbee, Thread or a local hub mostly keep working, including schedules. Anything that depends on a manufacturer's cloud generally stops. That is the single best reason to prefer local control when you have the choice."
+      "q": "क्या मेरा इंटरनेट बंद होने पर इनमें से कोई भी काम करेगा?",
+      "a": "Zigbee, Thread या लोकल हब पर चलने वाले डिवाइस शेड्युल समेत ज़्यादातर काम करते रहते हैं। जो भी निर्माता के क्लाउड पर निर्भर करता है, वह आम तौर पर बंद हो जाता है। जब आपके पास विकल्प हो, तो लोकल कंट्रोल को प्राथमिकता देने का यही सबसे अच्छा कारण है।"
     },
     {
-      "q": "I rent. What can I install?",
-      "a": "Plugs, bulbs, sensors and a robot vacuum all install without changing anything permanent. Thermostats and locks usually need permission, though some locks replace only the interior side and leave the existing cylinder and key untouched."
+      "q": "मैं किराए पर रहता/रहती हूँ। मैं क्या इंस्टॉल कर सकता/सकती हूँ?",
+      "a": "प्लग, बल्ब, सेंसर और रोबोट वैक्यूम बिना किसी स्थायी बदलाव के इंस्टॉल हो जाते हैं। थर्मोस्टेट और लॉक को आमतौर पर अनुमति की ज़रूरत होती है, हालांकि कुछ लॉक केवल अंदर के हिस्से को बदलते हैं और मौजूदा सिलेंडर और चाबी को वैसे का वैसा ही छोड़ देते हैं।"
     }
   ]
 }

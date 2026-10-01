@@ -150,6 +150,24 @@ def category_from_siblings(lang, english):
     return c.most_common(1)[0][0] if c else ""
 
 
+def strip_extra_keys(src, out):
+    """Drop keys the model invented (e.g. q_alt in a FAQ item); the merge ignores them anyway, but keep the files clean."""
+    if isinstance(src, dict) and isinstance(out, dict):
+        return {k: strip_extra_keys(src[k], v) for k, v in out.items() if k in src}
+    if isinstance(src, list) and isinstance(out, list):
+        return [strip_extra_keys(a, b) for a, b in zip(src, out)] + out[len(src):]
+    return out
+
+
+def same_shape(a, b):
+    """Same keys at every level, same list lengths, and no empty translated string."""
+    if isinstance(a, dict):
+        return isinstance(b, dict) and set(a) == set(b) and all(same_shape(a[k], b[k]) for k in a)
+    if isinstance(a, list):
+        return isinstance(b, list) and len(a) == len(b) and all(same_shape(x, y) for x, y in zip(a, b))
+    return not isinstance(b, (dict, list)) and (not str(a).strip() or bool(str(b).strip()))
+
+
 def shape_ok(src, out):
     """The merge trusts array lengths — a mismatch would silently drop content."""
     problems = []
@@ -347,6 +365,10 @@ def main():
                         # language already uses for that same English category so the filter chips stay consistent.
                         out["category"] = category_from_siblings(lang, src.get("category", "")) or out.get("category", "")
                     problems = shape_ok(src, out)
+                    if not problems:
+                        out = strip_extra_keys(src, out)
+                        if not same_shape(src, out):
+                            problems.append("key structure differs from the source (a question/answer pair collapsed or a key was renamed)")
                     if problems:
                         raise ValueError("shape mismatch: " + ", ".join(problems[:4]))
                     save_translation(lang, slug, out)
