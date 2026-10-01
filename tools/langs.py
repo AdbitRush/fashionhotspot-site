@@ -20,6 +20,9 @@ LANGS = {
     "fr": {"name": "Français", "path": "fr/", "dir": "ltr", "font": None},
     "de": {"name": "Deutsch",  "path": "de/", "dir": "ltr", "font": None},
     "el": {"name": "Ελληνικά", "path": "el/", "dir": "ltr", "font": "Noto Sans"},
+    "th": {"name": "ไทย", "path": "th/", "dir": "ltr", "font": "Noto Sans Thai"},
+    "hi": {"name": "हिन्दी", "path": "hi/", "dir": "ltr", "font": "Noto Sans Devanagari"},
+    "ar": {"name": "العربية", "path": "ar/", "dir": "rtl", "font": "Noto Sans Arabic"},
 }
 DEFAULT = "en"
 TRANSLATED = [c for c in LANGS if c != DEFAULT]      # he, es, fr, de, el
@@ -38,6 +41,12 @@ MONTHS = {
     "el": ["Ιανουαρίου", "Φεβρουαρίου", "Μαρτίου", "Απριλίου", "Μαΐου",
            "Ιουνίου", "Ιουλίου", "Αυγούστου", "Σεπτεμβρίου", "Οκτωβρίου",
            "Νοεμβρίου", "Δεκεμβρίου"],
+    "th": ["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน",
+           "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"],
+    "hi": ["जनवरी", "फरवरी", "मार्च", "अप्रैल", "मई", "जून",
+           "जुलाई", "अगस्त", "सितम्बर", "अक्टूबर", "नवम्बर", "दिसम्बर"],
+    "ar": ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو",
+           "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
 }
 
 # Page furniture. Keys are stable; values are what the reader sees.
@@ -170,6 +179,70 @@ UI = {
                            "λίστα ούτε τη σειρά της.",
         "no_extra_cost": "Δεν σας κοστίζει ποτέ περισσότερο.",
     },
+    "th": {
+        "deals": "ดีล", "guides": "คู่มือ", "about": "เกี่ยวกับ",
+        "contact": "ติดต่อเรา", "privacy": "นโยบายความเป็นส่วนตัว", "terms": "เงื่อนไขการใช้",
+        "home": "หน้าแรก", "buying_guide": "คู่มือการซื้อ", "updated": "อัปเดตแล้ว",
+        "min_read": "นาทีในการอ่าน", "picks": "สินค้า",
+        "how_we_picked": "วิธีการเลือก", "at_a_glance": "สรุปย่อ",
+        "the_picks": "สินค้าที่เลือก", "faq": "คำถามที่พบบ่อย",
+        "all_guides": "คู่มือทั้งหมด", "why_here": "เหตุผล",
+        "worth_knowing": "น่ารู้", "product": "สินค้า",
+        "best_for": "เหมาะสำหรับ", "approx_price": "ราคาประมาณ",
+        "check_amazon": "ตรวจสอบราคาบน Amazon",
+        "price_note": "ราคาเป็นค่าประมาณเมื่อเขียนและเปลี่ยนแปลงบ่อย",
+        "index_title": "สิ่งที่ควรซื้อจริง",
+        "index_dek": "คู่มือลึกสำหรับอุปกรณ์ที่ควรค่าแก่การครอบครอง — สิ่งที่เลือก "
+                     "เหตุผล และการชดใช้ที่ยอมรับได้",
+        "disclosure_label": "การเปิดเผย",
+        "disclosure_body": "ลิงค์บนหน้านี้เป็นลิงค์แบบสัมพันธ์ หากซื้อผ่านลิงค์ใด "
+                           "เราอาจได้รับค่าคอมมิชชันโดยไม่มีค่าใช้จ่ายเพิ่มเติม ไม่ส่งผลต่อ"
+                           "สิ่งที่อยู่ในรายการหรือลำดับของมัน",
+        "no_extra_cost": "ไม่เคยเสียค่าใช้จ่ายมากขึ้น",
+    },
+    "hi": {
+        "deals": "डील", "guides": "गाइड", "about": "परिचय",
+        "contact": "संपर्क करें", "privacy": "गोपनीयता", "terms": "शर्तें",
+        "home": "होम", "buying_guide": "खरीद गाइड", "updated": "अपडेट किया गया",
+        "min_read": "मिनट पढ़ने का समय", "picks": "सामान",
+        "how_we_picked": "हमने कैसे चुना", "at_a_glance": "एक नज़र में",
+        "the_picks": "चुनी गई चीजें", "faq": "अक्सर पूछे जाने वाले प्रश्न",
+        "all_guides": "सभी गाइड", "why_here": "यह यहाँ क्यों है",
+        "worth_knowing": "जानने योग्य", "product": "उत्पाद",
+        "best_for": "के लिए सर्वोत्तम", "approx_price": "अनुमानित मूल्य",
+        "check_amazon": "Amazon पर कीमत देखें",
+        "price_note": "कीमतें लिखने के समय अनुमानित हैं और अक्सर बदलती हैं।",
+        "index_title": "वास्तव में खरीदने के लायक क्या है",
+        "index_dek": "उपकरण के लिए गहन गाइड जो मालिक होने के लायक है — हमने क्या चुना "
+                     "क्यों और आप प्रत्येक के साथ कौन सा व्यापार स्वीकार करते हैं।",
+        "disclosure_label": "प्रकटीकरण।",
+        "disclosure_body": "इस पृष्ठ पर लिंक संबद्ध लिंक हैं। यदि आप किसी के माध्यम से "
+                           "खरीदते हैं तो हम आपको कोई अतिरिक्त लागत के बिना कमीशन अर्जित "
+                           "कर सकते हैं। यह इस बात को प्रभावित नहीं करता कि यह सूची में क्या है "
+                           "या इसका क्रम।",
+        "no_extra_cost": "यह आपके लिए कभी अधिक खर्चीला नहीं होता।",
+    },
+    "ar": {
+        "deals": "عروض", "guides": "أدلة", "about": "حول",
+        "contact": "اتصل بنا", "privacy": "الخصوصية", "terms": "الشروط",
+        "home": "الصفحة الرئيسية", "buying_guide": "دليل الشراء", "updated": "تم التحديث",
+        "min_read": "دقائق القراءة", "picks": "المنتجات",
+        "how_we_picked": "كيف اخترنا", "at_a_glance": "لمحة عامة",
+        "the_picks": "الخيارات", "faq": "الأسئلة الشائعة",
+        "all_guides": "جميع الأدلة", "why_here": "لماذا هو هنا",
+        "worth_knowing": "يستحق المعرفة", "product": "المنتج",
+        "best_for": "الأفضل ل", "approx_price": "السعر التقريبي",
+        "check_amazon": "تحقق من السعر على Amazon",
+        "price_note": "الأسعار تقريبية وقت الكتابة وتتغير كثيراً.",
+        "index_title": "ما يستحق حقاً الشراء",
+        "index_dek": "أدلة متعمقة للمعدات التي تستحق امتلاكها — ما اخترناه "
+                     "لماذا والمقابل الذي تقبله مع كل واحد.",
+        "disclosure_label": "الإفصاح.",
+        "disclosure_body": "الروابط على هذه الصفحة هي روابط تابعة. إذا اشتريت من خلال "
+                           "واحد منها فقد نحصل على عمولة بدون تكلفة إضافية عليك. لا يؤثر على "
+                           "محتويات هذه القائمة أو ترتيبها.",
+        "no_extra_cost": "لا تكلفك أبداً أكثر.",
+    },
 }
 
 # ── Strings added by the 2026-08-20 guides redesign ──────────────────────────
@@ -274,6 +347,51 @@ UI_EXTRA = {
            "count_of_total": "{n} από {total} οδηγούς", "show_all": "Εμφάνιση όλων των {n} οδηγών {grp}",
            "empty_message": "Κανένας οδηγός δεν ταιριάζει με «{q}»", "empty_clear": "Καθαρισμός",
            "view_grid": "Πλέγμα", "view_list": "Λίστα"},
+    "th": {"latest": "คู่มือล่าสุด", "recently_updated": "อัปเดตเมื่อเร็ว ๆ นี้",
+           "all": "ทั้งหมด", "showing": "{n} กำลังแสดง", "read_guide": "อ่าน",
+           "short_version": "เวอร์ชันสั้น", "tradeoff": "การชดใช้",
+           "closer_title": "ดีลของวันนี้",
+           "closer_body": "ดูสิ่งที่ลดราคาตอนนี้",
+           "grp_home": "บ้าน", "grp_kitchen": "ครัว", "grp_tech": "เทคโนโลยี",
+           "grp_health": "สุขภาพ", "grp_beauty": "ความงาม",
+           "grp_family": "ครอบครัว", "grp_outdoors": "กลางแจ้ง",
+           "grp_gifts": "ของขวัญ", "grp_seasonal": "ตามฤดูกาล",
+           "search_label": "ค้นหาคู่มือ", "search_placeholder": "ค้นหาคู่มือ…",
+           "search_clear": "ล้างการค้นหา", "filter_group_label": "กรองตามหมวดหมู่",
+           "topics_label": "กรองตามหัวข้อ", "topic_all": "{grp} ทั้งหมด",
+           "count_of_total": "{n} จาก {total} คู่มือ", "show_all": "แสดงคู่มือ {grp} {n} รายการทั้งหมด",
+           "empty_message": "ไม่มีคู่มือที่ตรงกับ \"{q}\"", "empty_clear": "ล้าง",
+           "view_grid": "ตาราง", "view_list": "รายการ"},
+    "hi": {"latest": "नवीनतम गाइड", "recently_updated": "हाल ही में अपडेट किया गया",
+           "all": "सभी", "showing": "{n} दिखा रहे हैं", "read_guide": "पढ़ें",
+           "short_version": "छोटा संस्करण", "tradeoff": "समझौता",
+           "closer_title": "आज के डील",
+           "closer_body": "देखें कि अभी क्या छूट पर है।",
+           "grp_home": "घर", "grp_kitchen": "रसोई", "grp_tech": "तकनीक",
+           "grp_health": "स्वास्थ्य", "grp_beauty": "सौंदर्य",
+           "grp_family": "परिवार", "grp_outdoors": "बाहर",
+           "grp_gifts": "उपहार", "grp_seasonal": "मौसमी",
+           "search_label": "गाइड खोजें", "search_placeholder": "गाइड खोजें…",
+           "search_clear": "खोज साफ करें", "filter_group_label": "श्रेणी के अनुसार फ़िल्टर करें",
+           "topics_label": "विषय के अनुसार फ़िल्टर करें", "topic_all": "सभी {grp}",
+           "count_of_total": "{n} का {total} गाइड", "show_all": "सभी {n} {grp} गाइड दिखाएं",
+           "empty_message": "कोई गाइड \"{q}\" से मेल नहीं खाता", "empty_clear": "साफ करें",
+           "view_grid": "ग्रिड", "view_list": "सूची"},
+    "ar": {"latest": "الدليل الأحدث", "recently_updated": "تم التحديث مؤخراً",
+           "all": "الكل", "showing": "{n} معروضة", "read_guide": "اقرأ",
+           "short_version": "النسخة المختصرة", "tradeoff": "المقابل",
+           "closer_title": "عروض اليوم",
+           "closer_body": "انظر ما هو مخفّض الآن.",
+           "grp_home": "المنزل", "grp_kitchen": "المطبخ", "grp_tech": "التكنولوجيا",
+           "grp_health": "الصحة", "grp_beauty": "الجمال",
+           "grp_family": "العائلة", "grp_outdoors": "الخارج",
+           "grp_gifts": "الهدايا", "grp_seasonal": "الموسمية",
+           "search_label": "البحث عن الأدلة", "search_placeholder": "البحث عن الأدلة…",
+           "search_clear": "مسح البحث", "filter_group_label": "التصفية حسب الفئة",
+           "topics_label": "التصفية حسب الموضوع", "topic_all": "جميع {grp}",
+           "count_of_total": "{n} من {total} أدلة", "show_all": "عرض جميع أدلة {n} {grp}",
+           "empty_message": "لا أدلة تتطابق مع \"{q}\"", "empty_clear": "مسح",
+           "view_grid": "شبكة", "view_list": "قائمة"},
 }
 for _code, _extra in UI_EXTRA.items():
     UI[_code].update(_extra)
@@ -311,6 +429,18 @@ UI_GROWTH = {
            "home_title": "Οδηγοί αγοράς στα ελληνικά",
            "home_intro": "Ανεξάρτητες επιλογές, με τους συμβιβασμούς δηλωμένους.",
            "browse_all": "Δείτε όλους τους οδηγούς"},
+    "th": {"read_next": "อ่านต่อไป", "related_same": "เพิ่มเติมใน {grp}",
+           "home_title": "คู่มือการซื้อภาษาไทย",
+           "home_intro": "ตัวเลือกอิสระ พร้อมการชดใช้ที่ชัดเจน",
+           "browse_all": "ดูคู่มือทั้งหมด"},
+    "hi": {"read_next": "अगला पढ़ें", "related_same": "{grp} में अधिक",
+           "home_title": "हिंदी में खरीद गाइड",
+           "home_intro": "स्वतंत्र चुनाव, समझौते स्पष्ट रूप से बताए गए।",
+           "browse_all": "सभी गाइड देखें"},
+    "ar": {"read_next": "اقرأ الدليل التالي", "related_same": "المزيد في {grp}",
+           "home_title": "أدلة الشراء باللغة العربية",
+           "home_intro": "اختيارات مستقلة مع ذكر المقابل بوضوح.",
+           "browse_all": "عرض جميع الأدلة"},
 }
 # Fail loudly rather than shipping an English label into a Hebrew page. t()
 # falls back to English by design for a missing key, which is right for a key
@@ -327,6 +457,8 @@ AUTHOR_TPL = {
     "en": "The {brand} editors", "he": "מערכת {brand}",
     "es": "La redacción de {brand}", "fr": "La rédaction de {brand}",
     "de": "Die {brand}-Redaktion", "el": "Η σύνταξη του {brand}",
+    "th": "บรรณาธิการของ {brand}", "hi": "{brand} के संपादक",
+    "ar": "محررو {brand}",
 }
 # Back-compat name, fashionhotspot's own brand — anything still importing
 # AUTHOR directly (none of the code below after this change) gets the
@@ -397,6 +529,21 @@ NETWORKS = {
            "amazon_pending": "Έχουμε υποβάλει αίτηση για το Πρόγραμμα Συνεργατών της Amazon. Δεν είμαστε ακόμη Συνεργάτες της Amazon και δεν κερδίζουμε τίποτα από συνδέσμους Amazon.",
            "tail": " Οι τιμές και η διαθεσιμότητα ισχύουν κατά την ημερομηνία "
                    "δημοσίευσης και ενδέχεται να αλλάξουν."},
+    "th": {"amazon_none": "เราไม่ใช่พันธมิตร Amazon และไม่ได้รับรายได้จากลิงค์ Amazon",
+           "amazon": "พันธมิตร Amazon", "aliexpress": "พันธมิตร AliExpress",
+           "tpl": "ในฐานะ {} เราได้รับรายได้จากการซื้อที่มีคุณสมบัติ", "join": " และ ",
+           "amazon_pending": "เราได้ยื่นคำขอสำหรับโปรแกรม Amazon Associates แล้ว เราไม่ใช่พันธมิตร Amazon และไม่ได้รับรายได้จากลิงค์ Amazon ในขณะนี้",
+           "tail": " ราคาและความพร้อมจำหน่ายถูกต้องตามวันที่เผยแพร่และอาจเปลี่ยนแปลง"},
+    "hi": {"amazon_none": "हम Amazon सहयोगी नहीं हैं और Amazon लिंक से कुछ भी नहीं कमाते हैं।",
+           "amazon": "Amazon सहयोगी", "aliexpress": "AliExpress सहयोगी",
+           "tpl": "{} के रूप में हम योग्य खरीदारी से कमाते हैं।", "join": " और ",
+           "amazon_pending": "हमने Amazon Associates Program के लिए आवेदन किया है। हम अभी Amazon सहयोगी नहीं हैं और Amazon लिंक से कुछ भी नहीं कमाते हैं।",
+           "tail": " कीमतें और उपलब्धता प्रकाशन के समय सटीक हैं और बदल सकती हैं।"},
+    "ar": {"amazon_none": "نحن لسنا شركاء Amazon ولا نكسب شيئاً من روابط Amazon.",
+           "amazon": "شركاء Amazon", "aliexpress": "شركاء AliExpress",
+           "tpl": "بصفتنا {} نكسب من المشتريات المؤهلة.", "join": " و ",
+           "amazon_pending": "لقد تقدمنا بطلب للانضمام إلى برنامج Amazon Associates. نحن لسنا شركاء Amazon حتى الآن ولا نكسب شيئاً من روابط Amazon حالياً.",
+           "tail": " الأسعار والتوفر دقيقة اعتباراً من تاريخ النشر وقد تتغير."},
 }
 
 FONT_LINKS = {
@@ -404,6 +551,12 @@ FONT_LINKS = {
               'family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">'),
     "Noto Sans": ('<link href="https://fonts.googleapis.com/css2?'
                   'family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">'),
+    "Noto Sans Thai": ('<link href="https://fonts.googleapis.com/css2?'
+                       'family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">'),
+    "Noto Sans Devanagari": ('<link href="https://fonts.googleapis.com/css2?'
+                             'family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">'),
+    "Noto Sans Arabic": ('<link href="https://fonts.googleapis.com/css2?'
+                         'family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">'),
 }
 
 

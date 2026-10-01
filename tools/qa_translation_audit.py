@@ -28,7 +28,7 @@ DIR = sys.argv[sys.argv.index('--dir') + 1] if '--dir' in sys.argv else None
 FAIL_ON = set((sys.argv[sys.argv.index('--fail-on') + 1] if '--fail-on' in sys.argv else '').split(',')) - {''}
 os.makedirs(OUT, exist_ok=True)
 UA = {'User-Agent': 'Mozilla/5.0 (QA-1 translation audit; owner-authorised)'}
-LANGS = ['en', 'he', 'es', 'fr', 'de', 'el']
+LANGS = ['en', 'he', 'es', 'fr', 'de', 'el', 'th', 'hi', 'ar']
 
 def fetch_file(url):
     """Build-step mode: map https://host/path to DIR/path (directory URLs -> index.html)."""
@@ -54,13 +54,13 @@ def fetch(url, tries=3):
     return 0, ''
 
 def lang_of(url):
-    m = re.match(r'https://[^/]+/(he|es|fr|de|el|ru)/', url)
+    m = re.match(r'https://[^/]+/(he|es|fr|de|el|th|hi|ar|ru)/', url)
     if m: return m.group(1)
     m = re.search(r'\.(he|es|fr|de|el)\.html$', url)
     return m.group(1) if m else 'en'
 
 def base_of(url):
-    u = re.sub(r'^https://[^/]+/(he|es|fr|de|el|ru)/', 'https://x/', url)
+    u = re.sub(r'^https://[^/]+/(he|es|fr|de|el|th|hi|ar|ru)/', 'https://x/', url)
     u = re.sub(r'\.(he|es|fr|de|el)\.html$', '.html', u)
     u = re.sub(r'^https://[^/]+/', 'https://x/', u)
     return 'https://x/index.html' if u in ('https://x/', 'https://x') else u
@@ -138,7 +138,7 @@ def audit_page(url, status, htm):
         return {'url': url, 'lang': lang, 'status': status, 'findings': [{'k': 'P', 'sev': 3, 'msg': f'HTTP {status}'}], 'samples': []}
     p, blocks = parse(htm)
     text_all = ' '.join(blocks)
-    exp_dir = 'rtl' if lang == 'he' else 'ltr'
+    exp_dir = 'rtl' if lang in ('he', 'ar') else 'ltr'
     hl = (p.htmltag.get('lang') or '').lower()
     if not hl.startswith(lang): F.append({'k': 'A', 'sev': 2, 'msg': f'<html lang="{hl}"> on a {lang} page'})
     if (p.htmltag.get('dir') or 'ltr').lower() != exp_dir: F.append({'k': 'A', 'sev': 3, 'msg': f'dir="{p.htmltag.get("dir")}" but {lang} needs {exp_dir}'})
@@ -162,8 +162,11 @@ def audit_page(url, status, htm):
             d, n = en_density(b)
             if lang == 'he': lat = 1 - script_ratio(b, '֐', '׿')
             elif lang == 'el': lat = 1 - script_ratio(b, 'Ͱ', 'Ͽ')
+            elif lang == 'th': lat = 1 - script_ratio(b, '฀', '๿')
+            elif lang == 'hi': lat = 1 - script_ratio(b, 'ऀ', 'ॿ')
+            elif lang == 'ar': lat = 1 - script_ratio(b, '؀', 'ۿ')
             else: lat = 0
-            if (d >= 0.22 and n >= 7) or (lang in ('he', 'el') and lat > 0.6 and n >= 7 and d >= 0.12):
+            if (d >= 0.22 and n >= 7) or (lang in ('he', 'el', 'th', 'hi', 'ar') and lat > 0.6 and n >= 7 and d >= 0.12):
                 F.append({'k': 'L', 'sev': 3, 'msg': 'untranslated English block', 'ctx': b[:120]})
     samples = [b for b in blocks if len(b.split()) >= 6][:40]
     return {'url': url, 'lang': lang, 'status': 200, 'title': p.title.strip()[:120], 'findings': F, 'samples': samples, 'nblocks': len(blocks)}

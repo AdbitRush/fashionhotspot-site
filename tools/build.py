@@ -48,6 +48,23 @@ _WORDMARKS = {
 }
 WORDMARK = _WORDMARKS.get(BRAND, (BRAND, ""))
 
+# AF-4 gate: a language is only built when (almost) every guide has been translated into it. Without this, adding a
+# language to langs.py would publish English guide text under /th/, /hi/ or /ar/. LANGS is mutated in place, so the
+# switcher, hreflang sets, sitemap and language homes all drop the language together. GUIDES_FORCE_LANGS=th,hi,ar
+# overrides it for staging/screenshots only.
+def _prune_untranslated_langs(min_share=0.95):
+    from i18n_schema import I18N
+    total = len(list(CONTENT.glob("*.json"))) or 1
+    force = {c for c in os.environ.get("GUIDES_FORCE_LANGS", "").split(",") if c}
+    for code in [c for c in LANGS if c != DEFAULT]:
+        have = len(list((I18N / code).glob("*.json"))) if (I18N / code).is_dir() else 0
+        if code not in force and have / total < min_share:
+            print(f"  language {code} skipped: {have}/{total} guides translated")
+            del LANGS[code]
+
+
+_prune_untranslated_langs()
+
 ORDER = ["tech", "smart-home", "kitchen", "coffee", "home-office", "fitness",
          "travel", "pets", "photography", "gaming", "outdoor", "beauty",
          "phone", "kids", "health", "storage", "car", "garden", "fashion",
@@ -277,13 +294,36 @@ def alternates(page):
     return out + f'<link rel="alternate" hreflang="x-default" href="{url(DEFAULT, page)}">'
 
 
+# AF-4: type for the scripts the Latin/Hebrew stack cannot draw. Scoped to html[lang=..], so the six existing
+# languages render exactly as before. Thai has no spaces between words (wrap anywhere, taller lines); Hindi and
+# Thai carry stacked marks that need more line height; Arabic reuses the existing dir="rtl" rules and only swaps the face.
+SCRIPT_CSS = {
+    "th": ("'Noto Sans Thai'", "line-height:1.85;overflow-wrap:anywhere;word-break:normal"),
+    "hi": ("'Noto Sans Devanagari'", "line-height:1.75"),
+    "ar": ("'Noto Sans Arabic'", "line-height:1.8"),
+}
+
+
+def script_css(lang):
+    if lang not in SCRIPT_CSS:
+        return ""
+    face, extra = SCRIPT_CSS[lang]
+    sel = f'html[lang="{lang}"]'
+    heads = ", ".join(f'{sel} {x}' for x in ("body", "h1", "h2", "h3", "h4", ".logo", ".nav-links a", ".mono",
+                                              ".btn", ".pill", ".dek", ".eyebrow", "figcaption", "button", "input"))
+    return (f'<style>{heads}{{font-family:{face},system-ui,sans-serif!important;letter-spacing:0}}'
+            f'{sel} body{{{extra}}}'
+            f'{sel} h1,{sel} h2,{sel} h3{{line-height:1.3;letter-spacing:0}}</style>')
+
+
 def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=None,
                body_end=""):
     cfg = LANGS[lang]
     rtl = cfg["dir"] == "rtl"
-    fonts = FONTS + (RTL_FONT if rtl else "")
-    if cfg["font"] and cfg["font"] in FONT_LINKS and not rtl:
+    fonts = FONTS + (RTL_FONT if (rtl and lang == "he") else "")
+    if cfg["font"] and cfg["font"] in FONT_LINKS and (not rtl or lang != "he"):
         fonts += FONT_LINKS[cfg["font"]]
+    fonts += script_css(lang)
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
     return f"""<!DOCTYPE html>
 <html lang="{lang}" dir="{cfg['dir']}" class="fh-guides">
