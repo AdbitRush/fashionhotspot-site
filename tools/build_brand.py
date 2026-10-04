@@ -33,7 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 # Files owned by the OTHER repo's build (whatsapp-deals-bot/build-static.js).
 # Fetched for link-check ground truth only, never uploaded by this script.
 REFERENCE_ONLY = ["index.html", "about.html", "contact.html", "privacy.html",
-                  "fh-theme.js", "fh.css", "deals.json"]
+                  "fh-theme.js", "fh.css", "deals.json",
+                  "he/index.html"]   # FIX-6: the static Hebrew homepage is built by the other repo too
 
 
 def run_build_py(out_dir, site, brand):
@@ -91,10 +92,12 @@ def fetch_reference(out_dir, site):
             req = urllib.request.Request(url, headers={"User-Agent": "allyfind-build/1.0"})
             with urllib.request.urlopen(req, timeout=20) as r:
                 data = r.read()
+            (ref_dir / name).parent.mkdir(parents=True, exist_ok=True)
             (ref_dir / name).write_bytes(data)
             # Also drop a copy at the tree root (not uploaded — deploy_brand.sh
             # excludes REFERENCE_ONLY explicitly) purely so the link checker,
             # which resolves paths against the tree root, can find them.
+            (out_dir / name).parent.mkdir(parents=True, exist_ok=True)
             (out_dir / name).write_bytes(data)
             ok.append(name)
         except Exception as e:

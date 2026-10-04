@@ -11,6 +11,10 @@
 # QSA, so u travels through untouched). See api/go.php for what happens next.
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    # FIX-2 (4 Oct 2026 audit A-4): one canonical host. www.allyfind.com answered 200 with the same pages as allyfind.com;
+    # now a permanent redirect (path and query string are kept).
+    RewriteCond %{HTTP_HOST} ^www\.allyfind\.com$ [NC]
+    RewriteRule ^(.*)$ https://allyfind.com/$1 [R=301,L]
     RewriteRule ^go/([A-Za-z0-9._-]+)$ /api/go.php?id=$1 [QSA,L]
     # bare /go and /go/ (no id) reach go.php too, which answers 400 like every other bad request
     RewriteRule ^go/?$ /api/go.php [QSA,L]
@@ -22,5 +26,9 @@
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    # FIX-2 (4 Oct 2026 audit A-5)
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    # REPORT-ONLY: blocks nothing. Move to an enforcing Content-Security-Policy only after a week with no violations.
+    Header always set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
     Header unset X-Powered-By
 </IfModule>

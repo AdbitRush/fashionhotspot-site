@@ -196,6 +196,29 @@ def url(lang, page):
     return u[:-len('index.html')] if u.endswith('index.html') else u
 
 
+# FIX-6 (4 Oct 2026): /he/ is now the STATIC HEBREW DEALS HOMEPAGE, built and published by whatsapp-deals-bot/build-static.js.
+# The Hebrew guides landing page that used to be /he/ lives at /he/guides/. Other languages keep theirs at the folder root.
+GUIDES_HOME = {"he": "guides/index.html"}
+
+
+def guides_home(lang):
+    """File (relative to the language folder) that holds this language's guides landing page."""
+    return GUIDES_HOME.get(lang, "index.html")
+
+
+def absolutize(html, lang):
+    """A page one folder below its language folder: make its relative links absolute so they still resolve."""
+    base = "/" + LANGS[lang]["path"]
+
+    def fix(m):
+        attr, q, v = m.group(1), m.group(2), m.group(3)
+        if re.match(r"^(?:[a-z][a-z0-9+.-]*:|/|#|\?)", v, re.I):
+            return m.group(0)
+        v2 = "/" + v[3:] if v.startswith("../") else base + v
+        return f"{attr}={q}{v2}{q}"
+    return re.sub(r'\b(href|src)=(["\'])([^"\']*)\2', fix, html)
+
+
 def rel_root(lang):
     """Relative path back to the site root from inside a language folder."""
     return "" if lang == DEFAULT else "../"
@@ -666,11 +689,13 @@ def render_lang_home(guides, lang):
 
     # canonical points at THIS page, and the alternates list the same folder
     # root in every other language — not posts.html, which is a different page.
-    return page_shell(lang, f'{t(lang, "home_title")} — {BRAND}',
+    page = page_shell(lang, f'{t(lang, "home_title")} — {BRAND}',
                       t(lang, "home_intro"), body,
-                      canonical=url(lang, "index.html"),
-                      extra_head=alternates("index.html"),
+                      canonical=url(lang, guides_home(lang)),
+                      # no hreflang cluster for a guides landing that has no equivalent in the other languages
+                      extra_head="" if lang in GUIDES_HOME else alternates("index.html"),
                       og_image=f"{SITE}/images/hero-{by_date[0]['slug']}.jpg" if by_date else None)
+    return absolutize(page, lang) if lang in GUIDES_HOME else page
 
 
 def render_index(guides, lang):
@@ -840,7 +865,9 @@ def render_sitemap(guides):
     # because the site root is already listed above — it is the same URL.
     for lang in LANGS:
         if LANGS[lang]["path"]:
-            out.append(entry(url(lang, "index.html"), "0.7", "weekly", "index.html"))
+            out.append(entry(url(lang, "index.html"), "0.9" if lang in GUIDES_HOME else "0.7", "weekly", "index.html"))
+            if lang in GUIDES_HOME:
+                out.append(entry(url(lang, guides_home(lang)), "0.7", "weekly"))
     for lang in LANGS:
         pri = "0.9" if lang == DEFAULT else "0.7"
         out.append(entry(url(lang, "posts.html"), pri, "weekly", "posts.html"))
@@ -904,7 +931,9 @@ def main():
         # root, where index.html is the deals homepage built by the other repo —
         # writing one here would overwrite it.
         if LANGS[lang]["path"]:
-            (out_dir / "index.html").write_text(render_lang_home(idx, lang), encoding="utf-8")
+            home_file = out_dir / guides_home(lang)
+            home_file.parent.mkdir(parents=True, exist_ok=True)
+            home_file.write_text(render_lang_home(idx, lang), encoding="utf-8")
             homes += 1
 
     (OUT_ROOT / "sitemap.xml").write_text(render_sitemap(ordered), encoding="utf-8")

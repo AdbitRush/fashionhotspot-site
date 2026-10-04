@@ -39,7 +39,7 @@ cd "$SRC_DIR"
 # build_brand.py writes them so the link checker can resolve nav/footer links
 # into them; deploy_brand.sh must never re-upload them, or a stale fetch could
 # overwrite the other repo's live build with an older snapshot.
-OWNED_ELSEWHERE_RE='^(index\.html|about\.html|contact\.html|privacy\.html|fh-theme\.js|fh\.css|deals\.json)$'
+OWNED_ELSEWHERE_RE='^(index\.html|he/index\.html|about\.html|contact\.html|privacy\.html|fh-theme\.js|fh\.css|deals\.json)$'
 mapfile -t FILES < <(
   find . -type f -not -path './_reference/*' \
   | sed 's|^\./||' \
