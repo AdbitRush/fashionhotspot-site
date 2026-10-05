@@ -1824,12 +1824,15 @@ html.fh-home{scroll-padding-top:calc(var(--hdr-h,0px) + 12px)}
   .fh-home .hero-collage:empty{display:none}
 }
 .fh-home .hc-track{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;
-  overscroll-behavior-x:contain;padding:14px 6px 58px;margin:-14px -6px -58px;cursor:grab;outline-offset:-2px}
+  overscroll-behavior-x:contain;padding:14px 14px 34px;margin:-14px -14px -34px;scroll-padding-inline:14px;cursor:grab;outline-offset:-2px}
 .fh-home .hc-track::-webkit-scrollbar{display:none}
 .fh-home .hc-track.hc-few{justify-content:center}
 .fh-home .hc-track.hc-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
 .fh-home .hc-track .hc-card{flex:0 0 calc((100% - 28px) / 3);min-width:0;margin:0;animation:none;scroll-snap-align:start;-webkit-user-drag:none}
 .fh-home .hc-track.hc-dragging .hc-card{pointer-events:none}
+/* the track clips what leaves it, so the shadow has to fit inside the 14px side / 34px bottom padding (a big blur shows as a hard-edged tinted box) */
+.fh-home .hc-track .hc-card,.fh-home .hc-track .hc-card:hover{box-shadow:0 10px 20px -8px rgba(60,40,30,.30)}
+html.dark.fh-home .hc-track .hc-card,html.dark.fh-home .hc-track .hc-card:hover{box-shadow:0 10px 20px -8px rgba(0,0,0,.65)}
 .fh-home .hc-track .hc-card img{-webkit-user-drag:none;user-select:none}
 .fh-home .hc-nav{position:absolute;top:calc(50% - 40px);z-index:3;width:38px;height:38px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--ink);
   box-shadow:0 6px 18px rgba(60,40,30,.22);font:700 24px/1 inherit;display:flex;align-items:center;justify-content:center;padding:0 0 3px;cursor:pointer;transition:transform .15s ease,background .15s ease}
