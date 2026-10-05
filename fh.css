@@ -1824,7 +1824,7 @@ html.fh-home{scroll-padding-top:calc(var(--hdr-h,0px) + 12px)}
   .fh-home .hero-collage:empty{display:none}
 }
 .fh-home .hc-track{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;
-  overscroll-behavior-x:contain;padding:12px 4px 30px;margin:-12px -4px -30px;cursor:grab;outline-offset:-2px}
+  overscroll-behavior-x:contain;padding:14px 6px 58px;margin:-14px -6px -58px;cursor:grab;outline-offset:-2px}
 .fh-home .hc-track::-webkit-scrollbar{display:none}
 .fh-home .hc-track.hc-few{justify-content:center}
 .fh-home .hc-track.hc-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
