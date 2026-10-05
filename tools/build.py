@@ -48,6 +48,21 @@ _WORDMARKS = {
 }
 WORDMARK = _WORDMARKS.get(BRAND, (BRAND, ""))
 
+# Hebrew brand: AllyFind's Hebrew visitors know it as "אלי מוצא לי", so on the Hebrew pages the title tag, the nav and
+# the social site name carry that phrase and not only the Latin wordmark. Other brands/languages are untouched.
+BRAND_HE = "אלי מוצא לי" if BRAND == "AllyFind" else None
+
+
+def brand_title(lang, title, both=False):
+    """<title> / og:title text. Hebrew AllyFind: 'title | אלי מוצא לי' (landing pages add the Latin name too)."""
+    if lang == "he" and BRAND_HE:
+        return f"{title} | {BRAND_HE} – {BRAND}" if both else f"{title} | {BRAND_HE}"
+    return f"{title} — {BRAND}"
+
+
+def site_name(lang):
+    return f"{BRAND_HE} | {BRAND}" if (lang == "he" and BRAND_HE) else BRAND
+
 # AF-4 gate: a language is only built when (almost) every guide has been translated into it. Without this, adding a
 # language to langs.py would publish English guide text under /th/, /hi/ or /ar/. LANGS is mutated in place, so the
 # switcher, hreflang sets, sitemap and language homes all drop the language together. GUIDES_FORCE_LANGS=th,hi,ar
@@ -242,6 +257,7 @@ def nav(lang, current):
     return (f'<div class="nav"><div class="nav-in">'
             f'<a class="brand" href="{e(r)}index.html">'
             f'<span class="logo">{e(WORDMARK[0])}<span>{e(WORDMARK[1])}</span></span>'
+            + (f'<span class="brand-he" lang="he">{e(BRAND_HE)}</span>' if (lang == "he" and BRAND_HE) else "") +
             f'<span class="mono navkick" aria-hidden="true">/ {e(t(lang, "guides")).lower()}</span>'
             f'</a>'
             f'<nav class="nav-links">{links}</nav>{THEME_TOGGLE}</div></div>')
@@ -281,7 +297,7 @@ def render_static(lang, page):
             + frag + notice + '</div></div>' + footer(lang, f"{page}.html"))
     desc = re.sub(r"<[^>]+>", " ", frag)
     desc = re.sub(r"\s+", " ", desc).strip()[:155]
-    return page_shell(lang, f"{title} — {BRAND}", desc, body,
+    return page_shell(lang, brand_title(lang, title), desc, body,
                       canonical=url(lang, f"{page}.html"), extra_head=alternates(f"{page}.html"))
 
 
@@ -361,7 +377,7 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{e(canonical)}">
-<meta property="og:site_name" content="{BRAND}">{og}
+<meta property="og:site_name" content="{e(site_name(lang))}">{og}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/icon-192.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -506,7 +522,7 @@ def render_guide(g, lang, siblings=()):
     # done keyword research for them; until then the translated title is right.
     head_title = (g.get("seo_title") if lang == "en" else None) or g["title"]
 
-    return page_shell(lang, f'{head_title} — {BRAND}', g["dek"], body,
+    return page_shell(lang, brand_title(lang, head_title), g["dek"], body,
                       canonical=canon,
                       extra_head=json_ld(g, lang, canon) + alternates(page),
                       og_image=f"{SITE}/images/hero-{slug}.jpg",
@@ -567,6 +583,7 @@ def json_ld(g, lang, canon):
         "author": {"@type": "Organization", "name": author(lang, BRAND)},
         # Google will not show Article rich results without publisher.logo.
         "publisher": {"@type": "Organization", "name": BRAND,
+                      **({"alternateName": BRAND_HE} if (lang == "he" and BRAND_HE) else {}),
                       "url": SITE,
                       "logo": {"@type": "ImageObject",
                                "url": f"{SITE}/icon-512.png",
@@ -689,7 +706,7 @@ def render_lang_home(guides, lang):
 
     # canonical points at THIS page, and the alternates list the same folder
     # root in every other language — not posts.html, which is a different page.
-    page = page_shell(lang, f'{t(lang, "home_title")} — {BRAND}',
+    page = page_shell(lang, brand_title(lang, t(lang, "home_title"), both=True),
                       t(lang, "home_intro"), body,
                       canonical=url(lang, guides_home(lang)),
                       # no hreflang cluster for a guides landing that has no equivalent in the other languages
@@ -830,7 +847,7 @@ def render_index(guides, lang):
             + f'<p class="disc" style="max-width:760px">'
               f'{e(disclosure(lang, SHOW_AMZ, SHOW_ALI, short=True))}</p></div>'
             + footer(lang, "posts.html"))
-    return page_shell(lang, f'{t(lang, "index_title")} — {BRAND}', t(lang, "index_dek"),
+    return page_shell(lang, brand_title(lang, t(lang, "index_title"), both=True), t(lang, "index_dek"),
                       body, canonical=url(lang, "posts.html"),
                       extra_head=alternates("posts.html"),
                       og_image=f"{SITE}/images/hero-{lead['slug']}.jpg" if guides else None,
