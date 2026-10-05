@@ -1815,3 +1815,32 @@ html.fh-home{scroll-padding-top:calc(var(--hdr-h,0px) + 12px)}
 @media(min-width:1081px) and (max-width:1240px){html:not([lang="en"]):not([lang="he"]) .nav-end .hdr-link[data-i18n="nav_guides"]{display:none}}
 @media(min-width:761px) and (max-width:1440px){html[lang="el"] .nav-end .hdr-link[data-i18n="nav_guides"]{display:none}}
 @media(min-width:761px) and (max-width:1280px){html[lang="el"] .nav-end .hdr-bot{display:none}}
+
+/* ── Hero carousel (owner request 2026-10-06): the card area is a real carousel again ─────────────────────────────────
+   Up to 10 real deals in a scroll-snap track: auto-rotates, swipe / mouse drag / trackpad / arrows, wraps round.
+   Same hero layout as before: two columns, copy + this. Hidden under 700px and in List view exactly as the 3-card collage was. */
+@media(min-width:700px){
+  .fh-home .hero-collage{display:block;position:relative}
+  .fh-home .hero-collage:empty{display:none}
+}
+.fh-home .hc-track{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;
+  overscroll-behavior-x:contain;padding:12px 4px 30px;margin:-12px -4px -30px;cursor:grab;outline-offset:-2px}
+.fh-home .hc-track::-webkit-scrollbar{display:none}
+.fh-home .hc-track.hc-few{justify-content:center}
+.fh-home .hc-track.hc-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.fh-home .hc-track .hc-card{flex:0 0 calc((100% - 28px) / 3);min-width:0;margin:0;animation:none;scroll-snap-align:start;-webkit-user-drag:none}
+.fh-home .hc-track.hc-dragging .hc-card{pointer-events:none}
+.fh-home .hc-track .hc-card img{-webkit-user-drag:none;user-select:none}
+.fh-home .hc-nav{position:absolute;top:calc(50% - 40px);z-index:3;width:38px;height:38px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--ink);
+  box-shadow:0 6px 18px rgba(60,40,30,.22);font:700 24px/1 inherit;display:flex;align-items:center;justify-content:center;padding:0 0 3px;cursor:pointer;transition:transform .15s ease,background .15s ease}
+.fh-home .hc-nav:hover{background:var(--accent);color:var(--on-grad);transform:scale(1.08)}
+.fh-home .hc-nav:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.fh-home .hc-prev{left:-14px}
+.fh-home .hc-next{right:-14px}
+@media(min-width:700px) and (max-width:900px){
+  .fh-home .hc-nav{width:30px;height:30px;font-size:20px}
+  .fh-home .hc-prev{left:-8px}.fh-home .hc-next{right:-8px}
+  .fh-home .hc-track{gap:8px}
+  .fh-home .hc-track .hc-card{flex-basis:calc((100% - 16px) / 3)}
+}
+@media(prefers-reduced-motion:reduce){.fh-home .hc-track{scroll-behavior:auto}}
