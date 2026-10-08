@@ -1668,23 +1668,6 @@ html:where([lang="el"]).fh-guides body, html:where([lang="el"]).fh-guides h1, ht
 .fh-home .hero-trust{display:flex;flex-wrap:wrap;gap:4px 18px;list-style:none;margin:0;padding:0;font-size:14px;line-height:1.4;font-weight:700;color:var(--ink2)}
 .fh-home .hero-trust li::before{content:'\2713';color:var(--accent-ink);font-weight:900;margin-inline-end:6px}
 
-.fh-home .hero-collage{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start;min-width:0}
-.fh-home .hero-collage:empty{display:none}
-.fh-home .hc-card{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;
-  box-shadow:0 18px 40px rgba(60,40,30,.14);transition:transform .25s ease,box-shadow .25s ease;animation:hcfloat 7s ease-in-out infinite}
-html.dark.fh-home .hc-card{box-shadow:0 18px 40px rgba(0,0,0,.55)}
-.fh-home .hc-card:hover{transform:translateY(-4px);box-shadow:0 24px 52px rgba(60,40,30,.2)}
-.fh-home .hc-2{margin-top:24px;animation-delay:-2.3s}
-.fh-home .hc-3{margin-top:8px;animation-delay:-4.6s}
-@keyframes hcfloat{0%,100%{translate:0 0}50%{translate:0 -6px}}
-.fh-home .hc-img{position:relative;display:block;aspect-ratio:1/1;background:var(--card)}
-.fh-home .hc-img img{width:100%;height:100%;object-fit:cover;display:block}
-.fh-home .hc-disc{position:absolute;top:8px;inset-inline-start:8px;background:var(--accent);color:var(--on-grad);border-radius:999px;padding:3px 10px;font-weight:800;font-size:13px;line-height:1.4;direction:ltr;unicode-bidi:isolate}
-.fh-home .hc-body{display:block;padding:9px 12px 11px}
-.fh-home .hc-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;line-height:1.35;font-weight:600;min-height:2.7em}
-.fh-home .hc-price{display:block;margin-top:5px;font-weight:900;font-size:17px;line-height:1.3;color:var(--accent-ink)}
-.fh-home .hc-price s{font-weight:600;font-size:13px;color:var(--ink3);margin-inline-start:6px}
-@media(prefers-reduced-motion:reduce){.fh-home .hc-card{animation:none;transition:none}}
 
 /* the deals section now follows the hero straight away: less air above it, and the kicker + count share one tight block */
 .fh-home #deals{padding-top:6px}
@@ -1692,7 +1675,6 @@ html.dark.fh-home .hc-card{box-shadow:0 18px 40px rgba(0,0,0,.55)}
 /* tablet and phone: one column, no collage (the deals themselves are the visual), a tighter header and filter block */
 @media(max-width:900px){
   .fh-home .hero-inner{grid-template-columns:1fr;gap:0;padding:12px 16px 6px}
-  .fh-home .hero-collage{display:none}
   .fh-home .hero h1{font-size:clamp(26px,7.4vw,38px);margin-bottom:6px}
   .fh-home .hero p{font-size:14px;line-height:1.42;margin-bottom:10px;-webkit-line-clamp:2}
   .fh-home .hero-badge{margin-bottom:8px;padding:4px 11px}
@@ -1728,7 +1710,6 @@ html.dark.fh-home .hc-card{box-shadow:0 18px 40px rgba(0,0,0,.55)}
 @media(max-width:760px){.fh-home .how{padding:30px 16px 24px}.fh-home .how-steps{grid-template-columns:1fr;gap:12px}}
 
 /* the list design is a deliberately plain view: no collage there */
-html[data-design="list"].fh-home .hero-collage{display:none}
 html[data-design="list"].fh-home .hero-inner{grid-template-columns:1fr}
 
 /* ── Hebrew brand: "אלי מוצא לי" next to AllyFind (header + hero), shown only on Hebrew ─────────────────────────────── */
@@ -1741,21 +1722,19 @@ html.fh-home:not([lang="he"]) .he-only{display:none}
 @media(max-width:900px){.fh-home .hero-brand{margin-bottom:6px}.fh-home .hero-brand b{font-size:20px}.fh-home .hero-brand span{font-size:12px}}
 @media(max-width:760px){.fh-home .logo-he{font-size:11px}}
 
-/* ── No dead space in the hero (regressed twice: text-only hero 2026-09-14, then a redesign that never published) ───
-   The hero is a two-column grid: copy + collage of real deals. If the collage is empty (no qualifying deals) or
-   list view hides it, the copy is centred across the full width instead of sitting in one half of an empty row,
-   and a collage with fewer than three cards is centred, not left in a corner. tools/check-hero.js (build gate) and
-   tools/check-hero-live.js (post-publish, real browser) fail loudly if this rule or the collage goes missing. */
-.fh-home .hero-inner:has(> .hero-collage:empty),
+/* ── The hero (2026-10-06) ───────────────────────────────────────────────────────────────────────────────────────────
+   The hero is the copy only, centred across the full row, and the 3D ring (#showcase) sits directly beneath it as its visual.
+   There is no second column, so there is no empty half to guard against. tools/check-hero.js (build gate) and
+   tools/check-hero-live.js (post-publish, real browser) fail if the ring is missing or the copy is not centred. */
+.fh-home .hero-inner.hero-solo,
 html[data-design="list"].fh-home .hero-inner{grid-template-columns:minmax(0,1fr)}
-.fh-home .hero-inner:has(> .hero-collage:empty) .hero-copy,
+.fh-home .hero-solo .hero-copy,
 html[data-design="list"].fh-home .hero-copy{max-width:760px;margin-inline:auto;text-align:center}
-.fh-home .hero-inner:has(> .hero-collage:empty) :is(.hero-badge,.hero-ctas,.hero-trust,.hero-brand),
+.fh-home .hero-solo :is(.hero-badge,.hero-ctas,.hero-trust,.hero-brand),
 html[data-design="list"].fh-home :is(.hero-badge,.hero-ctas,.hero-trust,.hero-brand){justify-content:center}
-.fh-home .hero-inner:has(> .hero-collage:empty) .hero p,
+.fh-home .hero-solo .hero p,
 html[data-design="list"].fh-home .hero p{margin-inline:auto}
-.fh-home .hero-collage:has(.hc-card:only-child){grid-template-columns:minmax(0,260px);justify-content:center}
-.fh-home .hero-collage:has(.hc-2:last-child){grid-template-columns:repeat(2,minmax(0,220px));justify-content:center}
+.fh-home .hero + .showcase{padding-top:6px}
 
 /* Hebrew guides pages: the brand phrase beside the wordmark in the nav (set by fashionhotspot-site/tools/build.py, Hebrew AllyFind only) */
 .fh-guides .brand-he{font-size:15px;font-weight:800;line-height:1.2;white-space:nowrap;color:var(--accent-ink,var(--accent))}
@@ -1766,16 +1745,6 @@ html[data-design="list"].fh-home .hero p{margin-inline:auto}
    text-only hero (half the row empty). Between 700 and 900px the three cards stay, smaller: photo + discount + price,
    no title. Below 700px it is still hidden (phones), and List view still hides it (rule further up, higher specificity). */
 @media(min-width:700px) and (max-width:900px){
-  .fh-home .hero-inner{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:16px;padding:14px 20px 10px}
-  .fh-home .hero-collage{display:grid;gap:8px}
-  .fh-home .hc-card{border-radius:12px}
-  .fh-home .hc-title{display:none}
-  .fh-home .hc-body{padding:6px 8px 8px}
-  .fh-home .hc-price{margin-top:0;font-size:14px}
-  .fh-home .hc-price s{display:none}
-  .fh-home .hc-disc{top:5px;font-size:11px;padding:2px 7px}
-  .fh-home .hc-2{margin-top:14px}
-  .fh-home .hc-3{margin-top:4px}
   .fh-home .hero h1{font-size:clamp(24px,4.4vw,32px)}
 }
 
@@ -1816,34 +1785,13 @@ html.fh-home{scroll-padding-top:calc(var(--hdr-h,0px) + 12px)}
 @media(min-width:761px) and (max-width:1440px){html[lang="el"] .nav-end .hdr-link[data-i18n="nav_guides"]{display:none}}
 @media(min-width:761px) and (max-width:1280px){html[lang="el"] .nav-end .hdr-bot{display:none}}
 
-/* ── Hero carousel (owner request 2026-10-06): the card area is a real carousel again ─────────────────────────────────
-   Up to 10 real deals in a scroll-snap track: auto-rotates, swipe / mouse drag / trackpad / arrows, wraps round.
-   Same hero layout as before: two columns, copy + this. Hidden under 700px and in List view exactly as the 3-card collage was. */
-@media(min-width:700px){
-  .fh-home .hero-collage{display:block;position:relative}
-  .fh-home .hero-collage:empty{display:none}
+/* ── The 3D ring at its original desktop size (owner, 2026-10-06): 440px tall, 220x320 cards. Since 2026-08-09 it was 330px / 180x260; that
+   size stays for tablets and phones (rules above). The ring's JS radius follows (site-template.js: > 900px wide -> up to 440). ── */
+@media(min-width:901px){
+  .fh-home #stage3d-wrap{height:440px}
+  .fh-home .car-item{width:220px;height:320px;margin:-160px 0 0 -110px}
+  .fh-home .car-item .ci-img{height:190px}
+  .fh-home .car-item .ci-title{font-size:12.5px}
+  .fh-home .car-item .ci-price{font-size:22px}
+  .fh-home .car-item .ci-body{padding:14px 16px}
 }
-.fh-home .hc-track{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;
-  overscroll-behavior-x:contain;padding:14px 14px 34px;margin:-14px -14px -34px;scroll-padding-inline:14px;cursor:grab;outline-offset:-2px}
-.fh-home .hc-track::-webkit-scrollbar{display:none}
-.fh-home .hc-track.hc-few{justify-content:center}
-.fh-home .hc-track.hc-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
-.fh-home .hc-track .hc-card{flex:0 0 calc((100% - 28px) / 3);min-width:0;margin:0;animation:none;scroll-snap-align:start;-webkit-user-drag:none}
-.fh-home .hc-track.hc-dragging .hc-card{pointer-events:none}
-/* the track clips what leaves it, so the shadow has to fit inside the 14px side / 34px bottom padding (a big blur shows as a hard-edged tinted box) */
-.fh-home .hc-track .hc-card,.fh-home .hc-track .hc-card:hover{box-shadow:0 10px 20px -8px rgba(60,40,30,.30)}
-html.dark.fh-home .hc-track .hc-card,html.dark.fh-home .hc-track .hc-card:hover{box-shadow:0 10px 20px -8px rgba(0,0,0,.65)}
-.fh-home .hc-track .hc-card img{-webkit-user-drag:none;user-select:none}
-.fh-home .hc-nav{position:absolute;top:calc(50% - 40px);z-index:3;width:38px;height:38px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--ink);
-  box-shadow:0 6px 18px rgba(60,40,30,.22);font:700 24px/1 inherit;display:flex;align-items:center;justify-content:center;padding:0 0 3px;cursor:pointer;transition:transform .15s ease,background .15s ease}
-.fh-home .hc-nav:hover{background:var(--accent);color:var(--on-grad);transform:scale(1.08)}
-.fh-home .hc-nav:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.fh-home .hc-prev{left:-14px}
-.fh-home .hc-next{right:-14px}
-@media(min-width:700px) and (max-width:900px){
-  .fh-home .hc-nav{width:30px;height:30px;font-size:20px}
-  .fh-home .hc-prev{left:-8px}.fh-home .hc-next{right:-8px}
-  .fh-home .hc-track{gap:8px}
-  .fh-home .hc-track .hc-card{flex-basis:calc((100% - 16px) / 3)}
-}
-@media(prefers-reduced-motion:reduce){.fh-home .hc-track{scroll-behavior:auto}}
