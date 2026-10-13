@@ -18,6 +18,31 @@
     RewriteRule ^go/([A-Za-z0-9._-]+)$ /api/go.php?id=$1 [QSA,L]
     # bare /go and /go/ (no id) reach go.php too, which answers 400 like every other bad request
     RewriteRule ^go/?$ /api/go.php [QSA,L]
+
+    # Audit 13.10: Hebrew is the default for Israeli visitors. "/" answers 302 -> /he/ when the browser lists Hebrew FIRST
+    # in Accept-Language (he, he-IL, legacy iw) - unless the visitor chose a language: ?lang= on the URL, or the fhs_lang
+    # cookie the site's language picker writes (and /en/ writes "en"). A chosen "he" goes to /he/ too. /he/ and /en/
+    # themselves are never redirected, so there is no loop. Canonical + hreflang live in the pages and do not change:
+    # English "/", Hebrew "/he/", x-default "/".
+    RewriteCond %{QUERY_STRING} !(^|&)lang= [NC]
+    RewriteCond %{HTTP_COOKIE} !(^|;\s*)fhs_lang=
+    RewriteCond %{HTTP:Accept-Language} ^\s*(he|iw)(-|;|,|\s|$) [NC]
+    RewriteRule ^$ /he/ [R=302,L]
+    RewriteCond %{QUERY_STRING} !(^|&)lang= [NC]
+    RewriteCond %{HTTP_COOKIE} (^|;\s*)fhs_lang=he(;|$)
+    RewriteRule ^$ /he/ [R=302,L]
+    # /en/ (and /en) = the English homepage for everyone, whatever the browser prefers. Same file as "/", whose URLs are
+    # all absolute (build-static.js englishAtAnyDepth), and the page's script keeps it English there.
+    RewriteRule ^en/?$ /index.html [L]
+</IfModule>
+
+# "/" now depends on Accept-Language and the fhs_lang cookie: say so, so no cache hands one visitor's answer to another.
+<IfModule mod_setenvif.c>
+    SetEnvIf Request_URI "^/$" AF_LANG_ROOT
+</IfModule>
+<IfModule mod_headers.c>
+    Header always merge Vary "Accept-Language" env=AF_LANG_ROOT
+    Header always merge Vary "Cookie" env=AF_LANG_ROOT
 </IfModule>
 
 # H2 security headers (fix queue, 2026-09-28)
