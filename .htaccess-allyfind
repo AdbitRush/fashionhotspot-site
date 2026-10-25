@@ -9,6 +9,9 @@
 #
 # /go/<id>?u=<url> -> /api/go.php?id=<id>&u=<url> (query string preserved by
 # QSA, so u travels through untouched). See api/go.php for what happens next.
+# 25.10.2026: our own 404 page (allyfind-404.html, uploaded as /404.html). The host default error page loads the host's
+# Google Analytics tag, i.e. tracking before any consent for every visitor who hits a missing URL.
+ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
     RewriteEngine On
     # FIX-2 (4 Oct 2026 audit A-4): one canonical host. www.allyfind.com answered 200 with the same pages as allyfind.com;
