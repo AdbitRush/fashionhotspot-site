@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from theme import (CSS_LINK, FONTS, RTL_FONT, THEME_BOOT, THEME_TOGGLE,   # noqa: E402
-                   THEME_SCRIPT, GUIDE_SCRIPT, GUIDES_BROWSER_SCRIPT)
+                   THEME_SCRIPT, GUIDE_SCRIPT, GUIDES_BROWSER_SCRIPT, asset_url)
 from langs import (LANGS, DEFAULT, MONTHS, UI, AUTHOR, author, FONT_LINKS,  # noqa: E402
                    t, fmt_date, disclosure)
 from i18n_schema import CONTENT, load_translation, merge     # noqa: E402
