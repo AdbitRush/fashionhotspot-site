@@ -359,9 +359,14 @@ def page_shell(lang, title, desc, body, *, canonical, extra_head="", og_image=No
                body_end=""):
     cfg = LANGS[lang]
     rtl = cfg["dir"] == "rtl"
-    fonts = FONTS + (RTL_FONT if (rtl and lang == "he") else "")
-    if cfg["font"] and cfg["font"] in FONT_LINKS and (not rtl or lang != "he"):
-        fonts += FONT_LINKS[cfg["font"]]
+    if BRAND == "AllyFind":
+        # 25.10.2026 (Or): AllyFind serves its own copies of the same fonts (fonts/, tools/fetch_fonts.py), so no page asks
+        # Google for a font before consent. One stylesheet covers every language; unicode-range picks the files.
+        fonts = f'<link rel="stylesheet" href="{asset_url("fonts/af-fonts.css")}">'
+    else:
+        fonts = FONTS + (RTL_FONT if (rtl and lang == "he") else "")
+        if cfg["font"] and cfg["font"] in FONT_LINKS and (not rtl or lang != "he"):
+            fonts += FONT_LINKS[cfg["font"]]
     fonts += script_css(lang)
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ""
     return f"""<!DOCTYPE html>

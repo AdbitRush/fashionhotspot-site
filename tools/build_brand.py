@@ -80,6 +80,11 @@ def copy_assets(out_dir):
     if dst_images.exists():
         shutil.rmtree(dst_images)
     shutil.copytree(ROOT / "images", dst_images)
+    # self-hosted web fonts (tools/fetch_fonts.py); deploy_brand.sh uploads them once and skips them while unchanged
+    dst_fonts = out_dir / "fonts"
+    if dst_fonts.exists():
+        shutil.rmtree(dst_fonts)
+    shutil.copytree(ROOT / "fonts", dst_fonts)
 
 
 def fetch_reference(out_dir, site):

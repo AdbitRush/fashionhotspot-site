@@ -57,6 +57,6 @@ ErrorDocument 404 /404.html
     # FIX-2 (4 Oct 2026 audit A-5)
     Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
     # REPORT-ONLY: blocks nothing. Move to an enforcing Content-Security-Policy only after a week with no violations.
-    Header always set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+    Header always set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self' https:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
     Header unset X-Powered-By
 </IfModule>
