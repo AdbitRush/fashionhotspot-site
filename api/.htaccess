@@ -9,7 +9,7 @@
 # The previous contents of this file opened with <?php - Apache reads .htaccess
 # literally, so those lines were invalid directives and the rewrite rules below
 # them never applied.
-<FilesMatch "\.(json|log|bak)$">
+<FilesMatch "\.(json|log|bak|bin)$">
     Require all denied
 </FilesMatch>
 <Files "config.php">
