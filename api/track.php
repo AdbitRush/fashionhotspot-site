@@ -44,6 +44,7 @@ declare(strict_types=1);
 header('Content-Type: application/json; charset=utf-8');
 header('X-Content-Type-Options: nosniff');
 header('Cache-Control: no-store, max-age=0');
+// same-origin beacons need no CORS header; this one is kept for the fashionhotspot.site pages that set it up
 header('Access-Control-Allow-Origin: https://fashionhotspot.site');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
@@ -63,7 +64,10 @@ $done = static function (): void { http_response_code(204); exit; };
 // sends it, so in practice this rejects other sites posting into your counters
 // while still tolerating a client that omits the header.
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-if ($origin !== '' && stripos($origin, 'fashionhotspot.site') === false) { $done(); }
+// allyfind.com posts here too (25.10.2026: every allyfind beacon was dropped by a fashionhotspot-only check, and the file was
+// never deployed to the allyfind host, so its counters recorded nothing). Exact hosts, not a substring match.
+$okOrigins = ['https://fashionhotspot.site', 'https://allyfind.com'];
+if ($origin !== '' && !in_array(rtrim($origin, '/'), $okOrigins, true)) { $done(); }
 
 // Crawlers would otherwise be most of the traffic. Read, match, discard —
 // the string is never written anywhere.
