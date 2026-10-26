@@ -187,6 +187,10 @@ def check_local(out_dir, site, brand, slugs):
             n = len(re.findall(r'fashionhotspot', text, re.I))
             fails.append(f"{rel}: contains 'fashionhotspot' ({n}x) — brand leakage")
 
+        # AllyFind says its fonts load from its own server (privacy pages): no page may ask Google for one
+        if brand == "AllyFind" and re.search(r"fonts\.(?:googleapis|gstatic)\.com", text):
+            fails.append(f"{rel}: requests Google Fonts (they are self-hosted at /fonts/af-fonts.css)")
+
         # links
         links, _ = extract(text)
         for tag, href in links:

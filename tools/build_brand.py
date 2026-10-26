@@ -57,6 +57,15 @@ def render_terms(out_dir, brand):
     # legal text itself and the contact@ address are brand-independent and
     # already correct for both domains (see HANDOVER.md's contact-email note).
     out = src.replace("fashionhotspot", brand)
+    # AllyFind's privacy pages say fonts load from this site's own server: swap the Google Fonts link for the self-hosted stylesheet
+    # (fonts/af-fonts.css, uploaded with this tree). Defect 26.10.2026: terms.html still asked fonts.googleapis.com.
+    if brand == "AllyFind":
+        from theme import asset_url
+        out = re.sub(r'<link rel="preconnect" href="https://fonts\.(?:googleapis|gstatic)\.com"[^>]*>\s*', "", out)
+        out = re.sub(r'<link href="https://fonts\.googleapis\.com/[^"]*"[^>]*>',
+                     '<link rel="stylesheet" href="%s">' % asset_url("fonts/af-fonts.css"), out)
+        if re.search(r"fonts\.(?:googleapis|gstatic)\.com", out):
+            sys.exit("terms.html still references Google Fonts after the self-hosting swap")
     (out_dir / "terms.html").write_text(out, encoding="utf-8")
 
 
