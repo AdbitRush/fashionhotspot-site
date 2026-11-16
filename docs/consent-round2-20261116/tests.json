@@ -1,0 +1,100 @@
+[
+  {
+    "host": "voyageworthy.com",
+    "country": "IL",
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "voyageworthy.com",
+    "country": "DE",
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "voyageworthy.com",
+    "country": "US",
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "voyageworthy.com",
+    "country": null,
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "voyageworthy.com",
+    "country": "US",
+    "gpc": true,
+    "stored": "granted",
+    "passed": true
+  },
+  {
+    "host": "voyageworthy.com",
+    "country": "IL",
+    "gpc": false,
+    "stored": "granted",
+    "passed": true
+  },
+  {
+    "host": "voyageworthy.com",
+    "country": "US",
+    "gpc": false,
+    "stored": "denied",
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": "IL",
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": "DE",
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": "US",
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": null,
+    "gpc": false,
+    "stored": null,
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": "US",
+    "gpc": true,
+    "stored": "granted",
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": "IL",
+    "gpc": false,
+    "stored": "granted",
+    "passed": true
+  },
+  {
+    "host": "allyfind.com",
+    "country": "US",
+    "gpc": false,
+    "stored": "denied",
+    "passed": true
+  }
+]
